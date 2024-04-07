@@ -877,3 +877,17 @@
 [2024-04-08 01:07:28] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b2.tar.gz]
 [2024-04-08 01:07:28] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
 [2024-04-08 01:07:28] INFO root fetch - main [MainThread]: Store serial: [22660001]
+[2024-04-08 01:09:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660001]
+[2024-04-08 01:09:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 01:09:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: privacypass
+[2024-04-08 01:09:36] INFO root fetch - processPackages [privacypass]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-08 01:09:37] INFO root fetch - processPackages [privacypass]: Downloading https://files.pythonhosted.org/packages/ac/e5/f20e48f8ea4dfd99c184170b5ffb0c39fd056e8f90f5df6735f52905f143/privacypass-0.2.1.tar.gz
+[2024-04-08 01:09:37] WARNING root fetch - processPackages [privacypass]: Timeout reached during download
+[2024-04-08 01:09:37] INFO root fetch - processPackages [privacypass]: Downloading https://files.pythonhosted.org/packages/ac/54/ce47cc18492d17ec41bb3580f68843d5228ba16362698b6e37d44bb1e366/privacypass-0.2.2.tar.gz
+[2024-04-08 01:09:37] WARNING root fetch - processPackages [privacypass]: Timeout reached during download
+[2024-04-08 01:09:37] INFO root fetch - processPackages [privacypass]: executing diffoscope
+[2024-04-08 01:09:37] INFO root fetch - processPackages [privacypass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/privacypass-0.2.1.tar.gz tmp/privacypass-0.2.2.tar.gz --markdown 20240408/p/privacypass/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-08 01:09:38] INFO root fetch - processPackages [privacypass]: Remove: archive file [/home/abi/fetcher/tmp/privacypass-0.2.1.tar.gz]
+[2024-04-08 01:09:38] INFO root fetch - processPackages [privacypass]: Remove: archive file [/home/abi/fetcher/tmp/privacypass-0.2.2.tar.gz]
+[2024-04-08 01:09:38] INFO root fetch - main [MainThread]: End processing [privacypass]: success
+[2024-04-08 01:09:38] INFO root fetch - main [MainThread]: Store serial: [22660004]
