@@ -1470,3 +1470,17 @@
 [2024-04-08 01:55:12] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev6.tar.gz]
 [2024-04-08 01:55:12] INFO root fetch - main [MainThread]: End processing [launchflow]: success
 [2024-04-08 01:55:12] INFO root fetch - main [MainThread]: Store serial: [22660173]
+[2024-04-08 01:57:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660173]
+[2024-04-08 01:57:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 01:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: triple-barrier
+[2024-04-08 01:57:21] INFO root fetch - processPackages [triple-barrier]: New version: [0.4.3rc0] Old Version: [0.4.2rc0]
+[2024-04-08 01:57:21] INFO root fetch - processPackages [triple-barrier]: Downloading https://files.pythonhosted.org/packages/bb/73/2fc2dd1c9559720cf46d41fb28e2739fd7f94c358423271b896fb9795243/triple-barrier-0.4.2rc0.tar.gz
+[2024-04-08 01:57:21] WARNING root fetch - processPackages [triple-barrier]: Timeout reached during download
+[2024-04-08 01:57:22] INFO root fetch - processPackages [triple-barrier]: Downloading https://files.pythonhosted.org/packages/39/19/ab779119c51d5a2ac45bec5b27489edb5e6ed1cde6b33c6b0f4c78fc1858/triple-barrier-0.4.3rc0.tar.gz
+[2024-04-08 01:57:22] WARNING root fetch - processPackages [triple-barrier]: Timeout reached during download
+[2024-04-08 01:57:22] INFO root fetch - processPackages [triple-barrier]: executing diffoscope
+[2024-04-08 01:57:22] INFO root fetch - processPackages [triple-barrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triple-barrier-0.4.2rc0.tar.gz tmp/triple-barrier-0.4.3rc0.tar.gz --markdown 20240408/t/triple-barrier/0.4.2rc0-0.4.3rc0/diff.md --exclude *.pyd
+[2024-04-08 01:57:22] INFO root fetch - processPackages [triple-barrier]: Remove: archive file [/home/abi/fetcher/tmp/triple-barrier-0.4.2rc0.tar.gz]
+[2024-04-08 01:57:22] INFO root fetch - processPackages [triple-barrier]: Remove: archive file [/home/abi/fetcher/tmp/triple-barrier-0.4.3rc0.tar.gz]
+[2024-04-08 01:57:22] INFO root fetch - main [MainThread]: End processing [triple-barrier]: success
+[2024-04-08 01:57:22] INFO root fetch - main [MainThread]: Store serial: [22660176]
