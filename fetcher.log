@@ -484,3 +484,28 @@
 [2024-04-08 00:37:02] WARNING root fetch - processPackages [Liacord]: Skipping, unable to determine old version
 [2024-04-08 00:37:02] INFO root fetch - main [MainThread]: End processing [Liacord] error
 [2024-04-08 00:37:02] INFO root fetch - main [MainThread]: Store serial: [22659860]
+[2024-04-08 00:39:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659860]
+[2024-04-08 00:39:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 00:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unicoder
+[2024-04-08 00:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yatgl
+[2024-04-08 00:39:12] INFO root fetch - processPackages [unicoder]: New version: [1.2.3147] Old Version: [1.1.1017]
+[2024-04-08 00:39:12] INFO root fetch - processPackages [unicoder]: Downloading https://files.pythonhosted.org/packages/3f/f9/05aa2abe5f94f7d77da041480a3c8238697e0e001077398533608fcf028e/unicoder-1.1.1017.tar.gz
+[2024-04-08 00:39:12] INFO root fetch - processPackages [yatgl]: New version: [1.0.6] Old Version: [1.0.3]
+[2024-04-08 00:39:12] WARNING root fetch - processPackages [unicoder]: Timeout reached during download
+[2024-04-08 00:39:13] INFO root fetch - processPackages [yatgl]: Downloading https://files.pythonhosted.org/packages/03/85/6ba08f7aeca3f9f7ae60d090ecfd597250eb62946cd507c28f3d4e8bbdf6/yatgl-1.0.3.tar.gz
+[2024-04-08 00:39:13] INFO root fetch - processPackages [unicoder]: Downloading https://files.pythonhosted.org/packages/62/80/e9afbef4ce37bd2d529e4774f9ca8c67b311be5008bcf2c5b78ad3a7d2dc/unicoder-1.2.3147.tar.gz
+[2024-04-08 00:39:13] WARNING root fetch - processPackages [yatgl]: Timeout reached during download
+[2024-04-08 00:39:13] WARNING root fetch - processPackages [unicoder]: Timeout reached during download
+[2024-04-08 00:39:13] INFO root fetch - processPackages [unicoder]: executing diffoscope
+[2024-04-08 00:39:13] INFO root fetch - processPackages [unicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicoder-1.1.1017.tar.gz tmp/unicoder-1.2.3147.tar.gz --markdown 20240408/u/unicoder/1.1.1017-1.2.3147/diff.md --exclude *.pyd
+[2024-04-08 00:39:13] INFO root fetch - processPackages [yatgl]: Downloading https://files.pythonhosted.org/packages/0a/22/a07cc01a39c65b001534c7b692542f04affacb9d7bff048e424981fbc3e4/yatgl-1.0.6.tar.gz
+[2024-04-08 00:39:13] WARNING root fetch - processPackages [yatgl]: Timeout reached during download
+[2024-04-08 00:39:13] INFO root fetch - processPackages [yatgl]: executing diffoscope
+[2024-04-08 00:39:13] INFO root fetch - processPackages [yatgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatgl-1.0.3.tar.gz tmp/yatgl-1.0.6.tar.gz --markdown 20240408/y/yatgl/1.0.3-1.0.6/diff.md --exclude *.pyd
+[2024-04-08 00:39:13] INFO root fetch - processPackages [unicoder]: Remove: archive file [/home/abi/fetcher/tmp/unicoder-1.1.1017.tar.gz]
+[2024-04-08 00:39:13] INFO root fetch - processPackages [unicoder]: Remove: archive file [/home/abi/fetcher/tmp/unicoder-1.2.3147.tar.gz]
+[2024-04-08 00:39:13] INFO root fetch - main [MainThread]: End processing [unicoder]: success
+[2024-04-08 00:39:13] INFO root fetch - processPackages [yatgl]: Remove: archive file [/home/abi/fetcher/tmp/yatgl-1.0.3.tar.gz]
+[2024-04-08 00:39:13] INFO root fetch - processPackages [yatgl]: Remove: archive file [/home/abi/fetcher/tmp/yatgl-1.0.6.tar.gz]
+[2024-04-08 00:39:13] INFO root fetch - main [MainThread]: End processing [yatgl]: success
+[2024-04-08 00:39:13] INFO root fetch - main [MainThread]: Store serial: [22659866]
