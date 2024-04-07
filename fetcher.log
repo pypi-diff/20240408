@@ -705,3 +705,33 @@
 [2024-04-08 00:56:35] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-32.0.0.tar.gz]
 [2024-04-08 00:56:35] INFO root fetch - main [MainThread]: End processing [cpop]: success
 [2024-04-08 00:56:35] INFO root fetch - main [MainThread]: Store serial: [22659951]
+[2024-04-08 00:58:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659951]
+[2024-04-08 00:58:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 00:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cff2toml
+[2024-04-08 00:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galileo-core
+[2024-04-08 00:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metabolabpy
+[2024-04-08 00:58:44] INFO root fetch - processPackages [galileo-core]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-08 00:58:44] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/72/9a/16b2f49db813b8fbb833f18aa0ac7afe9cd3f5137397bb36c1bcf5d7306d/galileo_core-0.5.1.tar.gz
+[2024-04-08 00:58:44] INFO root fetch - processPackages [cff2toml]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-04-08 00:58:44] INFO root fetch - processPackages [metabolabpy]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-08 00:58:44] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 00:58:44] INFO root fetch - processPackages [cff2toml]: Downloading https://files.pythonhosted.org/packages/7a/f0/991f92bfe0411f90d01b42037a9db7e7b0cc6adb8fb158b017da53f0cdbe/cff2toml-2.0.0.tar.gz
+[2024-04-08 00:58:44] INFO root fetch - processPackages [metabolabpy]: Downloading https://files.pythonhosted.org/packages/25/6b/78b78d5958823abcc755c49b830b5b3694bdfc0e0714f49c48e570d5d15a/metabolabpy-0.9.8.tar.gz
+[2024-04-08 00:58:44] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/3b/69/924c14586cf382a8758aaa4c846e30f775b5f52663f87a7b6feb57c60eab/galileo_core-0.6.0.tar.gz
+[2024-04-08 00:58:44] WARNING root fetch - processPackages [metabolabpy]: Skipping package: exceeds size limit 11267341>=10485760
+[2024-04-08 00:58:44] INFO root fetch - main [MainThread]: End processing [metabolabpy] error
+[2024-04-08 00:58:44] WARNING root fetch - processPackages [cff2toml]: Timeout reached during download
+[2024-04-08 00:58:44] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 00:58:44] INFO root fetch - processPackages [galileo-core]: executing diffoscope
+[2024-04-08 00:58:44] INFO root fetch - processPackages [galileo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_core-0.5.1.tar.gz tmp/galileo_core-0.6.0.tar.gz --markdown 20240408/g/galileo-core/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2024-04-08 00:58:44] INFO root fetch - processPackages [cff2toml]: Downloading https://files.pythonhosted.org/packages/2d/fe/9137f431727b5ba9750d7ae762a3ab2f1579216cd8bd5ba73d50fe3ffda8/cff2toml-3.0.0.tar.gz
+[2024-04-08 00:58:45] WARNING root fetch - processPackages [cff2toml]: Timeout reached during download
+[2024-04-08 00:58:45] INFO root fetch - processPackages [cff2toml]: executing diffoscope
+[2024-04-08 00:58:45] INFO root fetch - processPackages [cff2toml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cff2toml-2.0.0.tar.gz tmp/cff2toml-3.0.0.tar.gz --markdown 20240408/c/cff2toml/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2024-04-08 00:58:45] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.5.1.tar.gz]
+[2024-04-08 00:58:45] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.6.0.tar.gz]
+[2024-04-08 00:58:45] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
+[2024-04-08 00:58:45] INFO root fetch - processPackages [cff2toml]: Remove: archive file [/home/abi/fetcher/tmp/cff2toml-2.0.0.tar.gz]
+[2024-04-08 00:58:45] INFO root fetch - processPackages [cff2toml]: Remove: archive file [/home/abi/fetcher/tmp/cff2toml-3.0.0.tar.gz]
+[2024-04-08 00:58:45] INFO root fetch - main [MainThread]: End processing [cff2toml]: success
+[2024-04-08 00:58:45] INFO root fetch - main [MainThread]: Store serial: [22659959]
