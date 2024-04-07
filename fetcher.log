@@ -1101,3 +1101,17 @@
 [2024-04-08 01:31:08] INFO root fetch - processPackages [py-madvr2]: Remove: archive file [/home/abi/fetcher/tmp/py_madvr2-1.5.4.tar.gz]
 [2024-04-08 01:31:08] INFO root fetch - main [MainThread]: End processing [py-madvr2]: success
 [2024-04-08 01:31:08] INFO root fetch - main [MainThread]: Store serial: [22660060]
+[2024-04-08 01:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660060]
+[2024-04-08 01:33:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 01:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comtypes
+[2024-04-08 01:33:16] INFO root fetch - processPackages [comtypes]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-08 01:33:17] INFO root fetch - processPackages [comtypes]: Downloading https://files.pythonhosted.org/packages/a6/08/59d77ff3bdf61b1ff181cf6e71d68e9806f8bedfe51c38a2a4cb9a4e7e20/comtypes-1.3.0.zip
+[2024-04-08 01:33:17] WARNING root fetch - processPackages [comtypes]: Timeout reached during download
+[2024-04-08 01:33:17] INFO root fetch - processPackages [comtypes]: Downloading https://files.pythonhosted.org/packages/3d/f9/3f64562956a3373e72619248262ac59e6cad107433908989edc2971ed272/comtypes-1.3.1.zip
+[2024-04-08 01:33:17] WARNING root fetch - processPackages [comtypes]: Timeout reached during download
+[2024-04-08 01:33:17] INFO root fetch - processPackages [comtypes]: executing diffoscope
+[2024-04-08 01:33:17] INFO root fetch - processPackages [comtypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comtypes-1.3.0.zip tmp/comtypes-1.3.1.zip --markdown 20240408/c/comtypes/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2024-04-08 01:33:18] INFO root fetch - processPackages [comtypes]: Remove: archive file [/home/abi/fetcher/tmp/comtypes-1.3.0.zip]
+[2024-04-08 01:33:18] INFO root fetch - processPackages [comtypes]: Remove: archive file [/home/abi/fetcher/tmp/comtypes-1.3.1.zip]
+[2024-04-08 01:33:18] INFO root fetch - main [MainThread]: End processing [comtypes]: success
+[2024-04-08 01:33:18] INFO root fetch - main [MainThread]: Store serial: [22660064]
