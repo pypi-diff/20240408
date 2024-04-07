@@ -1047,3 +1047,32 @@
 [2024-04-08 01:22:38] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
 [2024-04-08 01:22:38] INFO root fetch - main [MainThread]: End processing [pyasic]: success
 [2024-04-08 01:22:38] INFO root fetch - main [MainThread]: Store serial: [22660049]
+[2024-04-08 01:24:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660049]
+[2024-04-08 01:24:46] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 01:26:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660049]
+[2024-04-08 01:26:51] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 01:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660049]
+[2024-04-08 01:28:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 01:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dolphie
+[2024-04-08 01:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smadi
+[2024-04-08 01:28:57] INFO root fetch - processPackages [dolphie]: New version: [4.3.5] Old Version: [4.3.4]
+[2024-04-08 01:28:57] INFO root fetch - processPackages [smadi]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-08 01:28:57] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/a5/09/2a1e2dc038fa65db5ee078c0c60bdcb6e8227e52a307d0ba26a9cb792bb4/dolphie-4.3.4.tar.gz
+[2024-04-08 01:28:57] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/da/0e/7ae7811c76b6dbb1d9931e369b20ef743287a3f6b9715c43f4d8c54ee4b1/smadi-0.2.7.tar.gz
+[2024-04-08 01:28:57] WARNING root fetch - processPackages [dolphie]: Timeout reached during download
+[2024-04-08 01:28:57] WARNING root fetch - processPackages [smadi]: Timeout reached during download
+[2024-04-08 01:28:57] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/6c/f9/e89e789917d7c4273c66dc5765179b1c707f7e39c181c54f45e3f9429ef2/dolphie-4.3.5.tar.gz
+[2024-04-08 01:28:57] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/f2/5f/33c26399768f8f51ea768e0310c69c591c64307ed9d80ebe8698d31b22a7/smadi-0.2.8.tar.gz
+[2024-04-08 01:28:57] WARNING root fetch - processPackages [dolphie]: Timeout reached during download
+[2024-04-08 01:28:57] INFO root fetch - processPackages [dolphie]: executing diffoscope
+[2024-04-08 01:28:57] INFO root fetch - processPackages [dolphie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphie-4.3.4.tar.gz tmp/dolphie-4.3.5.tar.gz --markdown 20240408/d/dolphie/4.3.4-4.3.5/diff.md --exclude *.pyd
+[2024-04-08 01:28:57] WARNING root fetch - processPackages [smadi]: Timeout reached during download
+[2024-04-08 01:28:57] INFO root fetch - processPackages [smadi]: executing diffoscope
+[2024-04-08 01:28:57] INFO root fetch - processPackages [smadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smadi-0.2.7.tar.gz tmp/smadi-0.2.8.tar.gz --markdown 20240408/s/smadi/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-08 01:28:58] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-4.3.4.tar.gz]
+[2024-04-08 01:28:58] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-4.3.5.tar.gz]
+[2024-04-08 01:28:58] INFO root fetch - main [MainThread]: End processing [dolphie]: success
+[2024-04-08 01:28:58] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-0.2.7.tar.gz]
+[2024-04-08 01:28:58] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-0.2.8.tar.gz]
+[2024-04-08 01:28:58] INFO root fetch - main [MainThread]: End processing [smadi]: success
+[2024-04-08 01:28:58] INFO root fetch - main [MainThread]: Store serial: [22660055]
