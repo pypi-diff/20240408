@@ -395,3 +395,61 @@
 [2024-04-08 00:30:30] INFO root fetch - processPackages [grss]: Remove: archive file [/home/abi/fetcher/tmp/grss-3.9.1.tar.gz]
 [2024-04-08 00:30:30] INFO root fetch - main [MainThread]: End processing [grss]: success
 [2024-04-08 00:30:30] INFO root fetch - main [MainThread]: Store serial: [22659835]
+[2024-04-08 00:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659835]
+[2024-04-08 00:32:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 00:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interrogate
+[2024-04-08 00:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmxbot.webhooks
+[2024-04-08 00:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgworkload
+[2024-04-08 00:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amino.fix.fix
+[2024-04-08 00:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpymake
+[2024-04-08 00:32:40] INFO root fetch - processPackages [cpymake]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-08 00:32:40] INFO root fetch - processPackages [amino.fix.fix]: New version: [1.0.7b3] Old Version: [1.0.7b2]
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pmxbot.webhooks]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pgworkload]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-08 00:32:40] INFO root fetch - processPackages [interrogate]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-08 00:32:40] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/f8/f0/cf5861746cd912dc38b3c0038a4ace204b5436bdc9cb0eb5c5b120c483fd/amino.fix.fix-1.0.7b2.tar.gz
+[2024-04-08 00:32:40] INFO root fetch - processPackages [cpymake]: Downloading https://files.pythonhosted.org/packages/1e/4e/5159770e182cc8227714705815292800114f4ebbe33532237b35f354f46f/cpymake-0.1.4.tar.gz
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [cpymake]: Timeout reached during download
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [amino.fix.fix]: Timeout reached during download
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pmxbot.webhooks]: Downloading https://files.pythonhosted.org/packages/b8/55/277a10e7ae7143e6dd887c0cec68c0e6e9441b2803fa03b5794148c89532/pmxbot.webhooks-1.5.0.tar.gz
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pgworkload]: Downloading https://files.pythonhosted.org/packages/92/a9/93cbf64f26c4a67d6a1dd0d517645213a232e186878a9dd77846f646c4ca/pgworkload-0.1.6.tar.gz
+[2024-04-08 00:32:40] INFO root fetch - processPackages [interrogate]: Downloading https://files.pythonhosted.org/packages/fb/0d/50e4c9ce6331e0a161b13a46b32437de7628063806fac86e71a0a8c9fa26/interrogate-1.6.0.tar.gz
+[2024-04-08 00:32:40] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/bc/db/3beb22fca2faa53378eaa773afff133ba9dbeb3b26bda0dd0a0d753b60f1/amino.fix.fix-1.0.7b3.tar.gz
+[2024-04-08 00:32:40] INFO root fetch - processPackages [cpymake]: Downloading https://files.pythonhosted.org/packages/75/cf/66704b06313dc25a7412de9c7bb8c678db38060b58e130573f310b5f9027/cpymake-0.1.5.tar.gz
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [pgworkload]: Timeout reached during download
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [interrogate]: Timeout reached during download
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [pmxbot.webhooks]: Timeout reached during download
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [cpymake]: Timeout reached during download
+[2024-04-08 00:32:40] INFO root fetch - processPackages [cpymake]: executing diffoscope
+[2024-04-08 00:32:40] INFO root fetch - processPackages [cpymake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpymake-0.1.4.tar.gz tmp/cpymake-0.1.5.tar.gz --markdown 20240408/c/cpymake/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [amino.fix.fix]: Timeout reached during download
+[2024-04-08 00:32:40] INFO root fetch - processPackages [amino.fix.fix]: executing diffoscope
+[2024-04-08 00:32:40] INFO root fetch - processPackages [amino.fix.fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.fix.fix-1.0.7b2.tar.gz tmp/amino.fix.fix-1.0.7b3.tar.gz --markdown 20240408/a/amino.fix.fix/1.0.7b2-1.0.7b3/diff.md --exclude *.pyd
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pgworkload]: Downloading https://files.pythonhosted.org/packages/18/26/8f629d1a642289ee79c1156f71b34cb6877386bf419609564bd53a6cb6c9/pgworkload-0.1.7.tar.gz
+[2024-04-08 00:32:40] INFO root fetch - processPackages [interrogate]: Downloading https://files.pythonhosted.org/packages/8b/22/74f7fcc96280eea46cf2bcbfa1354ac31de0e60a4be6f7966f12cef20893/interrogate-1.7.0.tar.gz
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pmxbot.webhooks]: Downloading https://files.pythonhosted.org/packages/01/8e/9c0d7e7aa0b52e687bd877d65a8da635ca3f77fd3f4a3fbf634554b79e3b/pmxbot.webhooks-1.6.0.tar.gz
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [pgworkload]: Timeout reached during download
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pgworkload]: executing diffoscope
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pgworkload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgworkload-0.1.6.tar.gz tmp/pgworkload-0.1.7.tar.gz --markdown 20240408/p/pgworkload/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [interrogate]: Timeout reached during download
+[2024-04-08 00:32:40] INFO root fetch - processPackages [interrogate]: executing diffoscope
+[2024-04-08 00:32:40] INFO root fetch - processPackages [interrogate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interrogate-1.6.0.tar.gz tmp/interrogate-1.7.0.tar.gz --markdown 20240408/i/interrogate/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2024-04-08 00:32:40] WARNING root fetch - processPackages [pmxbot.webhooks]: Timeout reached during download
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pmxbot.webhooks]: executing diffoscope
+[2024-04-08 00:32:40] INFO root fetch - processPackages [pmxbot.webhooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmxbot.webhooks-1.5.0.tar.gz tmp/pmxbot.webhooks-1.6.0.tar.gz --markdown 20240408/p/pmxbot.webhooks/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2024-04-08 00:32:41] INFO root fetch - processPackages [cpymake]: Remove: archive file [/home/abi/fetcher/tmp/cpymake-0.1.4.tar.gz]
+[2024-04-08 00:32:41] INFO root fetch - processPackages [cpymake]: Remove: archive file [/home/abi/fetcher/tmp/cpymake-0.1.5.tar.gz]
+[2024-04-08 00:32:41] INFO root fetch - main [MainThread]: End processing [cpymake]: success
+[2024-04-08 00:32:41] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.7b2.tar.gz]
+[2024-04-08 00:32:41] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.7b3.tar.gz]
+[2024-04-08 00:32:41] INFO root fetch - main [MainThread]: End processing [amino.fix.fix]: success
+[2024-04-08 00:32:41] INFO root fetch - processPackages [pgworkload]: Remove: archive file [/home/abi/fetcher/tmp/pgworkload-0.1.6.tar.gz]
+[2024-04-08 00:32:41] INFO root fetch - processPackages [pgworkload]: Remove: archive file [/home/abi/fetcher/tmp/pgworkload-0.1.7.tar.gz]
+[2024-04-08 00:32:41] INFO root fetch - main [MainThread]: End processing [pgworkload]: success
+[2024-04-08 00:32:41] INFO root fetch - processPackages [pmxbot.webhooks]: Remove: archive file [/home/abi/fetcher/tmp/pmxbot.webhooks-1.5.0.tar.gz]
+[2024-04-08 00:32:41] INFO root fetch - processPackages [pmxbot.webhooks]: Remove: archive file [/home/abi/fetcher/tmp/pmxbot.webhooks-1.6.0.tar.gz]
+[2024-04-08 00:32:41] INFO root fetch - main [MainThread]: End processing [pmxbot.webhooks]: success
+[2024-04-08 00:32:42] INFO root fetch - processPackages [interrogate]: Remove: archive file [/home/abi/fetcher/tmp/interrogate-1.6.0.tar.gz]
+[2024-04-08 00:32:42] INFO root fetch - processPackages [interrogate]: Remove: archive file [/home/abi/fetcher/tmp/interrogate-1.7.0.tar.gz]
+[2024-04-08 00:32:42] INFO root fetch - main [MainThread]: End processing [interrogate]: success
+[2024-04-08 00:32:42] INFO root fetch - main [MainThread]: Store serial: [22659849]
