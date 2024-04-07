@@ -8,3 +8,39 @@
 [2024-04-08 00:06:38] WARNING root fetch - processPackages [pyunitconverter]: Skipping, unable to determine old version
 [2024-04-08 00:06:38] INFO root fetch - main [MainThread]: End processing [pyunitconverter] error
 [2024-04-08 00:06:38] INFO root fetch - main [MainThread]: Store serial: [22659721]
+[2024-04-08 00:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659721]
+[2024-04-08 00:08:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: financial-datasets
+[2024-04-08 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpx-vis
+[2024-04-08 00:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owmpy
+[2024-04-08 00:08:46] INFO root fetch - processPackages [owmpy]: New version: [1.0.0] Old Version: [0.4.1]
+[2024-04-08 00:08:46] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/1a/dc/28f7b288166ede800fc6c31575baa19e5f7c5567d0c4df72b6fd34fc7dd8/owmpy-0.4.1.tar.gz
+[2024-04-08 00:08:46] INFO root fetch - processPackages [financial-datasets]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-08 00:08:46] INFO root fetch - processPackages [gpx-vis]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-08 00:08:46] WARNING root fetch - processPackages [owmpy]: Timeout reached during download
+[2024-04-08 00:08:46] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/fc/72/15d92b3f9f4273959168d2e574b682bdde0e908d3231d86f3dba52b39c0d/gpx_vis-0.2.0.tar.gz
+[2024-04-08 00:08:46] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/8f/cc/2e91e7699af320aac34fd1e1716b84229f5ac451d3e53d5a550dd4cf7af3/financial_datasets-0.1.3.tar.gz
+[2024-04-08 00:08:46] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/5d/72/515d493085530bc4b48ee88d8b5d2ae54ca4cc09ea7d6a6df62351c8bebe/owmpy-1.0.0.tar.gz
+[2024-04-08 00:08:46] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-08 00:08:46] WARNING root fetch - processPackages [financial-datasets]: Timeout reached during download
+[2024-04-08 00:08:46] WARNING root fetch - processPackages [owmpy]: Timeout reached during download
+[2024-04-08 00:08:46] INFO root fetch - processPackages [owmpy]: executing diffoscope
+[2024-04-08 00:08:46] INFO root fetch - processPackages [owmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owmpy-0.4.1.tar.gz tmp/owmpy-1.0.0.tar.gz --markdown 20240408/o/owmpy/0.4.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 00:08:47] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/58/67/37f758ef9e92087c384f6b877342bfe43f7854cb1cd798b71dc6c8508833/gpx_vis-0.3.0.tar.gz
+[2024-04-08 00:08:47] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-08 00:08:47] INFO root fetch - processPackages [gpx-vis]: executing diffoscope
+[2024-04-08 00:08:47] INFO root fetch - processPackages [gpx-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpx_vis-0.2.0.tar.gz tmp/gpx_vis-0.3.0.tar.gz --markdown 20240408/g/gpx-vis/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-08 00:08:47] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/57/4b/3e60638d8514005ab39370249cbc6e5e2de82882c655560c3529db758610/financial_datasets-0.1.4.tar.gz
+[2024-04-08 00:08:47] WARNING root fetch - processPackages [financial-datasets]: Timeout reached during download
+[2024-04-08 00:08:47] INFO root fetch - processPackages [financial-datasets]: executing diffoscope
+[2024-04-08 00:08:47] INFO root fetch - processPackages [financial-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financial_datasets-0.1.3.tar.gz tmp/financial_datasets-0.1.4.tar.gz --markdown 20240408/f/financial-datasets/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-08 00:08:47] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-0.4.1.tar.gz]
+[2024-04-08 00:08:47] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-1.0.0.tar.gz]
+[2024-04-08 00:08:47] INFO root fetch - main [MainThread]: End processing [owmpy]: success
+[2024-04-08 00:08:47] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.2.0.tar.gz]
+[2024-04-08 00:08:47] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.3.0.tar.gz]
+[2024-04-08 00:08:47] INFO root fetch - main [MainThread]: End processing [gpx-vis]: success
+[2024-04-08 00:08:47] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.3.tar.gz]
+[2024-04-08 00:08:47] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.4.tar.gz]
+[2024-04-08 00:08:47] INFO root fetch - main [MainThread]: End processing [financial-datasets]: success
+[2024-04-08 00:08:47] INFO root fetch - main [MainThread]: Store serial: [22659730]
