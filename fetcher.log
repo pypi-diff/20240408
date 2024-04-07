@@ -1367,3 +1367,39 @@
 [2024-04-08 01:48:39] INFO root fetch - processPackages [landborn]: Remove: archive file [/home/abi/fetcher/tmp/landborn-0.2.5.tar.gz]
 [2024-04-08 01:48:39] INFO root fetch - main [MainThread]: End processing [landborn]: success
 [2024-04-08 01:48:39] INFO root fetch - main [MainThread]: Store serial: [22660141]
+[2024-04-08 01:50:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660141]
+[2024-04-08 01:50:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaomusic
+[2024-04-08 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ferramentas-basicas-pln
+[2024-04-08 01:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapdata
+[2024-04-08 01:50:49] INFO root fetch - processPackages [xiaomusic]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 01:50:49] INFO root fetch - processPackages [ferramentas-basicas-pln]: New version: [0.9.9.6] Old Version: [0.9.9.5]
+[2024-04-08 01:50:49] INFO root fetch - processPackages [mapdata]: New version: [3.5.0] Old Version: [3.4.1]
+[2024-04-08 01:50:49] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/43/b7/00d5b5484c941fbe637c09c55a9c8eb8efa9613e8f748eb82063230d7c40/xiaomusic-0.1.8.tar.gz
+[2024-04-08 01:50:49] INFO root fetch - processPackages [ferramentas-basicas-pln]: Downloading https://files.pythonhosted.org/packages/e8/4b/4fbaf8d94ba3a603590bd4f497deb80a9bce91e33d067b39c51f116004eb/ferramentas-basicas-pln-0.9.9.5.tar.gz
+[2024-04-08 01:50:49] WARNING root fetch - processPackages [xiaomusic]: Timeout reached during download
+[2024-04-08 01:50:49] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/98/b4/dc325077dae590eb4fc0e1635070e9079d68ced9c1d97c6ffacc75749a73/mapdata-3.4.1.tar.gz
+[2024-04-08 01:50:49] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/a1/21/10e07d79cc47710402442039f3fe0d28c854c8225032a4972152505951a3/xiaomusic-0.1.9.tar.gz
+[2024-04-08 01:50:49] WARNING root fetch - processPackages [ferramentas-basicas-pln]: Timeout reached during download
+[2024-04-08 01:50:49] WARNING root fetch - processPackages [xiaomusic]: Timeout reached during download
+[2024-04-08 01:50:49] INFO root fetch - processPackages [xiaomusic]: executing diffoscope
+[2024-04-08 01:50:49] INFO root fetch - processPackages [xiaomusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomusic-0.1.8.tar.gz tmp/xiaomusic-0.1.9.tar.gz --markdown 20240408/x/xiaomusic/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 01:50:49] WARNING root fetch - processPackages [mapdata]: Timeout reached during download
+[2024-04-08 01:50:49] INFO root fetch - processPackages [ferramentas-basicas-pln]: Downloading https://files.pythonhosted.org/packages/c2/77/9c712ec957641b3e0208449d455c82d722968283d775ec19d24ed309cacd/ferramentas-basicas-pln-0.9.9.6.tar.gz
+[2024-04-08 01:50:49] WARNING root fetch - processPackages [ferramentas-basicas-pln]: Timeout reached during download
+[2024-04-08 01:50:49] INFO root fetch - processPackages [ferramentas-basicas-pln]: executing diffoscope
+[2024-04-08 01:50:49] INFO root fetch - processPackages [ferramentas-basicas-pln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferramentas-basicas-pln-0.9.9.5.tar.gz tmp/ferramentas-basicas-pln-0.9.9.6.tar.gz --markdown 20240408/f/ferramentas-basicas-pln/0.9.9.5-0.9.9.6/diff.md --exclude *.pyd
+[2024-04-08 01:50:49] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/15/cd/6dcead27a84125c052d2b2467737f3f53b8502134d03f7eb0ed69d8b1783/mapdata-3.5.0.tar.gz
+[2024-04-08 01:50:50] WARNING root fetch - processPackages [mapdata]: Timeout reached during download
+[2024-04-08 01:50:50] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2024-04-08 01:50:50] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-3.4.1.tar.gz tmp/mapdata-3.5.0.tar.gz --markdown 20240408/m/mapdata/3.4.1-3.5.0/diff.md --exclude *.pyd
+[2024-04-08 01:50:50] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.8.tar.gz]
+[2024-04-08 01:50:50] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.9.tar.gz]
+[2024-04-08 01:50:50] INFO root fetch - main [MainThread]: End processing [xiaomusic]: success
+[2024-04-08 01:50:50] INFO root fetch - processPackages [ferramentas-basicas-pln]: Remove: archive file [/home/abi/fetcher/tmp/ferramentas-basicas-pln-0.9.9.5.tar.gz]
+[2024-04-08 01:50:50] INFO root fetch - processPackages [ferramentas-basicas-pln]: Remove: archive file [/home/abi/fetcher/tmp/ferramentas-basicas-pln-0.9.9.6.tar.gz]
+[2024-04-08 01:50:50] INFO root fetch - main [MainThread]: End processing [ferramentas-basicas-pln]: success
+[2024-04-08 01:50:50] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-3.4.1.tar.gz]
+[2024-04-08 01:50:50] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-3.5.0.tar.gz]
+[2024-04-08 01:50:50] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2024-04-08 01:50:50] INFO root fetch - main [MainThread]: Store serial: [22660150]
