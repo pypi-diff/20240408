@@ -44,3 +44,41 @@
 [2024-04-08 00:08:47] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.4.tar.gz]
 [2024-04-08 00:08:47] INFO root fetch - main [MainThread]: End processing [financial-datasets]: success
 [2024-04-08 00:08:47] INFO root fetch - main [MainThread]: Store serial: [22659730]
+[2024-04-08 00:10:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659730]
+[2024-04-08 00:10:56] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 00:12:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659730]
+[2024-04-08 00:13:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 00:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aq-geometric
+[2024-04-08 00:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aq-utilities
+[2024-04-08 00:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: betanegbinfit
+[2024-04-08 00:13:01] INFO root fetch - processPackages [aq-utilities]: New version: [2024.4.6.1] Old Version: [2024.3.2.1]
+[2024-04-08 00:13:01] INFO root fetch - processPackages [aq-geometric]: New version: [2024.4.6.1] Old Version: [2024.3.24.1]
+[2024-04-08 00:13:02] INFO root fetch - processPackages [betanegbinfit]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-utilities]: Downloading https://files.pythonhosted.org/packages/98/bf/a028b2baa9d4be428974de355a77856f1b2835c425a632d6559dbcb9ea6f/aq_utilities-2024.3.2.1.tar.gz
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/66/56/691fa6bae7cc8601adef474eb9fd04d25447a34636ea97f697d9f4ec4321/aq_geometric-2024.3.24.1.tar.gz
+[2024-04-08 00:13:02] WARNING root fetch - processPackages [aq-utilities]: Timeout reached during download
+[2024-04-08 00:13:02] WARNING root fetch - processPackages [aq-geometric]: Timeout reached during download
+[2024-04-08 00:13:02] INFO root fetch - processPackages [betanegbinfit]: Downloading https://files.pythonhosted.org/packages/ae/be/7777503dcdfd60ea3bb21665fc8ec4fc71e73842a75cc076b07d6df4441f/betanegbinfit-1.9.8.tar.gz
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-utilities]: Downloading https://files.pythonhosted.org/packages/b6/7c/34289adb7480e92507b57e0aaf63dcd62c24f0aab5ec870afcb10af4be13/aq_utilities-2024.4.6.1.tar.gz
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/e8/3a/361e91ac5e9c6f7d6d1f4fae3f93e8654e9e151e1853cbd03ee234b30c96/aq_geometric-2024.4.6.1.tar.gz
+[2024-04-08 00:13:02] WARNING root fetch - processPackages [aq-utilities]: Timeout reached during download
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-utilities]: executing diffoscope
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aq_utilities-2024.3.2.1.tar.gz tmp/aq_utilities-2024.4.6.1.tar.gz --markdown 20240408/a/aq-utilities/2024.3.2.1-2024.4.6.1/diff.md --exclude *.pyd
+[2024-04-08 00:13:02] WARNING root fetch - processPackages [aq-geometric]: Timeout reached during download
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-geometric]: executing diffoscope
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-geometric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aq_geometric-2024.3.24.1.tar.gz tmp/aq_geometric-2024.4.6.1.tar.gz --markdown 20240408/a/aq-geometric/2024.3.24.1-2024.4.6.1/diff.md --exclude *.pyd
+[2024-04-08 00:13:02] WARNING root fetch - processPackages [betanegbinfit]: Timeout reached during download
+[2024-04-08 00:13:02] INFO root fetch - processPackages [betanegbinfit]: Downloading https://files.pythonhosted.org/packages/32/76/b4a428cd8ae5df71910c5feded2ad195f8b7754845cdadcec9915cbf5f8e/betanegbinfit-1.9.9.tar.gz
+[2024-04-08 00:13:02] WARNING root fetch - processPackages [betanegbinfit]: Timeout reached during download
+[2024-04-08 00:13:02] INFO root fetch - processPackages [betanegbinfit]: executing diffoscope
+[2024-04-08 00:13:02] INFO root fetch - processPackages [betanegbinfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betanegbinfit-1.9.8.tar.gz tmp/betanegbinfit-1.9.9.tar.gz --markdown 20240408/b/betanegbinfit/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-utilities]: Remove: archive file [/home/abi/fetcher/tmp/aq_utilities-2024.3.2.1.tar.gz]
+[2024-04-08 00:13:02] INFO root fetch - processPackages [aq-utilities]: Remove: archive file [/home/abi/fetcher/tmp/aq_utilities-2024.4.6.1.tar.gz]
+[2024-04-08 00:13:02] INFO root fetch - main [MainThread]: End processing [aq-utilities]: success
+[2024-04-08 00:13:03] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.3.24.1.tar.gz]
+[2024-04-08 00:13:03] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.6.1.tar.gz]
+[2024-04-08 00:13:03] INFO root fetch - main [MainThread]: End processing [aq-geometric]: success
+[2024-04-08 00:13:03] INFO root fetch - processPackages [betanegbinfit]: Remove: archive file [/home/abi/fetcher/tmp/betanegbinfit-1.9.8.tar.gz]
+[2024-04-08 00:13:03] INFO root fetch - processPackages [betanegbinfit]: Remove: archive file [/home/abi/fetcher/tmp/betanegbinfit-1.9.9.tar.gz]
+[2024-04-08 00:13:03] INFO root fetch - main [MainThread]: End processing [betanegbinfit]: success
+[2024-04-08 00:13:03] INFO root fetch - main [MainThread]: Store serial: [22659738]
