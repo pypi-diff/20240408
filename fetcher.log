@@ -587,3 +587,31 @@
 [2024-04-08 00:47:54] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.9.tar.gz]
 [2024-04-08 00:47:54] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2024-04-08 00:47:54] INFO root fetch - main [MainThread]: Store serial: [22659892]
+[2024-04-08 00:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659892]
+[2024-04-08 00:50:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 00:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wetterdienst
+[2024-04-08 00:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-requests
+[2024-04-08 00:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TuringCoder
+[2024-04-08 00:50:02] WARNING root fetch - processPackages [TuringCoder]: Skipping, unable to determine old version
+[2024-04-08 00:50:02] INFO root fetch - main [MainThread]: End processing [TuringCoder] error
+[2024-04-08 00:50:02] INFO root fetch - processPackages [wetterdienst]: New version: [0.9.0] Old Version: [0.80.0]
+[2024-04-08 00:50:02] INFO root fetch - processPackages [robotframework-requests]: New version: [devel] Old Version: [1.0a8]
+[2024-04-08 00:50:03] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/9d/28/808ef5a95854c22c7c2eb883884cdc641ccebcf306fd465f2c1121841394/wetterdienst-0.80.0.tar.gz
+[2024-04-08 00:50:03] INFO root fetch - processPackages [robotframework-requests]: Downloading https://files.pythonhosted.org/packages/12/4b/37a4a6d0c0bb494e30863d70358c988f35fbf155aa5fba2f0d76d07e5f9b/robotframework-requests-1.0a8.tar.gz
+[2024-04-08 00:50:03] WARNING root fetch - processPackages [robotframework-requests]: Timeout reached during download
+[2024-04-08 00:50:03] WARNING root fetch - processPackages [wetterdienst]: Timeout reached during download
+[2024-04-08 00:50:03] INFO root fetch - processPackages [robotframework-requests]: Downloading https://files.pythonhosted.org/packages/0f/d1/0bbdc7db38b07b3607bae47d623418414a9629c2bf24b4f9e5d84c5eca9e/robotframework-requests-0.1.tar.gz
+[2024-04-08 00:50:03] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/93/c1/a193d03f936306ba30a17b6df7557fb21eb06ece6da61b94796737ad977a/wetterdienst-0.9.0.tar.gz
+[2024-04-08 00:50:03] WARNING root fetch - processPackages [robotframework-requests]: Timeout reached during download
+[2024-04-08 00:50:03] INFO root fetch - processPackages [robotframework-requests]: executing diffoscope
+[2024-04-08 00:50:03] INFO root fetch - processPackages [robotframework-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-requests-1.0a8.tar.gz tmp/robotframework-requests-0.1.tar.gz --markdown 20240408/r/robotframework-requests/1.0a8-devel/diff.md --exclude *.pyd
+[2024-04-08 00:50:03] WARNING root fetch - processPackages [wetterdienst]: Timeout reached during download
+[2024-04-08 00:50:03] INFO root fetch - processPackages [wetterdienst]: executing diffoscope
+[2024-04-08 00:50:03] INFO root fetch - processPackages [wetterdienst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wetterdienst-0.80.0.tar.gz tmp/wetterdienst-0.9.0.tar.gz --markdown 20240408/w/wetterdienst/0.80.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 00:50:04] INFO root fetch - processPackages [robotframework-requests]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requests-1.0a8.tar.gz]
+[2024-04-08 00:50:04] INFO root fetch - processPackages [robotframework-requests]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requests-0.1.tar.gz]
+[2024-04-08 00:50:04] INFO root fetch - main [MainThread]: End processing [robotframework-requests]: success
+[2024-04-08 00:50:04] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.80.0.tar.gz]
+[2024-04-08 00:50:04] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.9.0.tar.gz]
+[2024-04-08 00:50:04] INFO root fetch - main [MainThread]: End processing [wetterdienst]: success
+[2024-04-08 00:50:04] INFO root fetch - main [MainThread]: Store serial: [22659905]
