@@ -1115,3 +1115,20 @@
 [2024-04-08 01:33:18] INFO root fetch - processPackages [comtypes]: Remove: archive file [/home/abi/fetcher/tmp/comtypes-1.3.1.zip]
 [2024-04-08 01:33:18] INFO root fetch - main [MainThread]: End processing [comtypes]: success
 [2024-04-08 01:33:18] INFO root fetch - main [MainThread]: Store serial: [22660064]
+[2024-04-08 01:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660064]
+[2024-04-08 01:35:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 01:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yt-dlp
+[2024-04-08 01:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wttech-aem
+[2024-04-08 01:35:27] WARNING root fetch - processPackages [wttech-aem]: Skipping, unable to determine old version
+[2024-04-08 01:35:27] INFO root fetch - main [MainThread]: End processing [wttech-aem] error
+[2024-04-08 01:35:27] INFO root fetch - processPackages [yt-dlp]: New version: [2024.4.6.232655.dev0] Old Version: [2024.4.4.232729.dev0]
+[2024-04-08 01:35:27] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/6e/b4/bb8760dc21b87592d2295ecc5978fefcd9221ea074011261cb81bc8e56aa/yt_dlp-2024.4.4.232729.dev0.tar.gz
+[2024-04-08 01:35:27] WARNING root fetch - processPackages [yt-dlp]: Timeout reached during download
+[2024-04-08 01:35:27] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/a0/be/b7cb4fc747d070a6dc2c649dd9e3de365fa90dc950f116c35003ba22e1e1/yt_dlp-2024.4.6.232655.dev0.tar.gz
+[2024-04-08 01:35:27] WARNING root fetch - processPackages [yt-dlp]: Timeout reached during download
+[2024-04-08 01:35:27] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-04-08 01:35:27] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.4.4.232729.dev0.tar.gz tmp/yt_dlp-2024.4.6.232655.dev0.tar.gz --markdown 20240408/y/yt-dlp/2024.4.4.232729.dev0-2024.4.6.232655.dev0/diff.md --exclude *.pyd
+[2024-04-08 01:35:33] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.4.232729.dev0.tar.gz]
+[2024-04-08 01:35:33] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.6.232655.dev0.tar.gz]
+[2024-04-08 01:35:33] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-04-08 01:35:33] INFO root fetch - main [MainThread]: Store serial: [22660069]
