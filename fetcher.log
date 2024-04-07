@@ -356,3 +356,42 @@
 [2024-04-08 00:28:18] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.7b3.tar.gz]
 [2024-04-08 00:28:18] INFO root fetch - main [MainThread]: End processing [amino.fix.fix]: success
 [2024-04-08 00:28:18] INFO root fetch - main [MainThread]: Store serial: [22659803]
+[2024-04-08 00:30:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659803]
+[2024-04-08 00:30:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 00:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grss
+[2024-04-08 00:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mixalime
+[2024-04-08 00:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xmonkey-curator
+[2024-04-08 00:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-unicoder
+[2024-04-08 00:30:28] INFO root fetch - processPackages [mixalime]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-08 00:30:28] INFO root fetch - processPackages [mixalime]: Downloading https://files.pythonhosted.org/packages/8e/2f/d240b2f6803bf60aeb17f7f054aa7d50ae9fed0d01f2c78df860d2d41795/mixalime-2.9.8.tar.gz
+[2024-04-08 00:30:28] WARNING root fetch - processPackages [text-unicoder]: Skipping, unable to determine old version
+[2024-04-08 00:30:28] INFO root fetch - main [MainThread]: End processing [text-unicoder] error
+[2024-04-08 00:30:28] INFO root fetch - processPackages [xmonkey-curator]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-08 00:30:28] INFO root fetch - processPackages [grss]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-08 00:30:28] INFO root fetch - processPackages [xmonkey-curator]: Downloading https://files.pythonhosted.org/packages/83/dc/fe9f051ce536bc7a6658c4a23de86073c4f1217996dd29b0cd9139cfb58d/xmonkey-curator-0.1.7.tar.gz
+[2024-04-08 00:30:28] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/5c/c0/18b9e69abe3e321ecc3c6fd3c2208486aafeff680d548ea10d0ab30bac23/grss-3.9.0.tar.gz
+[2024-04-08 00:30:28] WARNING root fetch - processPackages [mixalime]: Timeout reached during download
+[2024-04-08 00:30:28] WARNING root fetch - processPackages [xmonkey-curator]: Timeout reached during download
+[2024-04-08 00:30:28] INFO root fetch - processPackages [mixalime]: Downloading https://files.pythonhosted.org/packages/15/d5/57edb971c7da6a1fae4e07e7bb1439621759adf902da9fc6527602363bd9/mixalime-2.9.9.tar.gz
+[2024-04-08 00:30:28] WARNING root fetch - processPackages [grss]: Timeout reached during download
+[2024-04-08 00:30:28] INFO root fetch - processPackages [xmonkey-curator]: Downloading https://files.pythonhosted.org/packages/33/2b/6188a251a3a3043369345f1b09ae8664446fdea4a9b4f17e6d17fd80628d/xmonkey-curator-0.1.9.tar.gz
+[2024-04-08 00:30:28] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/5b/de/26962d060a961f2b43351f3bc9e47fcc029a47a92164fbf813dcf3a3b06a/grss-3.9.1.tar.gz
+[2024-04-08 00:30:28] WARNING root fetch - processPackages [xmonkey-curator]: Timeout reached during download
+[2024-04-08 00:30:28] INFO root fetch - processPackages [xmonkey-curator]: executing diffoscope
+[2024-04-08 00:30:28] INFO root fetch - processPackages [xmonkey-curator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey-curator-0.1.7.tar.gz tmp/xmonkey-curator-0.1.9.tar.gz --markdown 20240408/x/xmonkey-curator/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 00:30:28] WARNING root fetch - processPackages [mixalime]: Timeout reached during download
+[2024-04-08 00:30:28] INFO root fetch - processPackages [mixalime]: executing diffoscope
+[2024-04-08 00:30:28] INFO root fetch - processPackages [mixalime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixalime-2.9.8.tar.gz tmp/mixalime-2.9.9.tar.gz --markdown 20240408/m/mixalime/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-08 00:30:29] WARNING root fetch - processPackages [grss]: Timeout reached during download
+[2024-04-08 00:30:29] INFO root fetch - processPackages [grss]: executing diffoscope
+[2024-04-08 00:30:29] INFO root fetch - processPackages [grss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grss-3.9.0.tar.gz tmp/grss-3.9.1.tar.gz --markdown 20240408/g/grss/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-08 00:30:29] INFO root fetch - processPackages [xmonkey-curator]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey-curator-0.1.7.tar.gz]
+[2024-04-08 00:30:29] INFO root fetch - processPackages [xmonkey-curator]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey-curator-0.1.9.tar.gz]
+[2024-04-08 00:30:29] INFO root fetch - main [MainThread]: End processing [xmonkey-curator]: success
+[2024-04-08 00:30:29] INFO root fetch - processPackages [mixalime]: Remove: archive file [/home/abi/fetcher/tmp/mixalime-2.9.8.tar.gz]
+[2024-04-08 00:30:29] INFO root fetch - processPackages [mixalime]: Remove: archive file [/home/abi/fetcher/tmp/mixalime-2.9.9.tar.gz]
+[2024-04-08 00:30:29] INFO root fetch - main [MainThread]: End processing [mixalime]: success
+[2024-04-08 00:30:30] INFO root fetch - processPackages [grss]: Remove: archive file [/home/abi/fetcher/tmp/grss-3.9.0.tar.gz]
+[2024-04-08 00:30:30] INFO root fetch - processPackages [grss]: Remove: archive file [/home/abi/fetcher/tmp/grss-3.9.1.tar.gz]
+[2024-04-08 00:30:30] INFO root fetch - main [MainThread]: End processing [grss]: success
+[2024-04-08 00:30:30] INFO root fetch - main [MainThread]: Store serial: [22659835]
