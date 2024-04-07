@@ -1204,3 +1204,34 @@
 [2024-04-08 01:39:55] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b1.tar.gz]
 [2024-04-08 01:39:55] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
 [2024-04-08 01:39:55] INFO root fetch - main [MainThread]: Store serial: [22660087]
+[2024-04-08 01:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660087]
+[2024-04-08 01:42:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 01:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weight-training-tracker
+[2024-04-08 01:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: StringDataDeque
+[2024-04-08 01:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echodataflow
+[2024-04-08 01:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-organization-python
+[2024-04-08 01:42:05] INFO root fetch - processPackages [weight-training-tracker]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-08 01:42:05] WARNING root fetch - processPackages [echodataflow]: Skipping, unable to determine old version
+[2024-04-08 01:42:05] INFO root fetch - main [MainThread]: End processing [echodataflow] error
+[2024-04-08 01:42:05] ERROR root fetch - processPackages [StringDataDeque]: Unable to get metadata: No such project 'StringDataDeque'
+[2024-04-08 01:42:05] INFO root fetch - main [MainThread]: End processing [StringDataDeque] error
+[2024-04-08 01:42:05] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-08 01:42:05] INFO root fetch - processPackages [weight-training-tracker]: Downloading https://files.pythonhosted.org/packages/cd/aa/c38f33930c86850366b55421f41626063905c2fe2c8f17bc2775f40065e1/weight_training_tracker-0.8.0.tar.gz
+[2024-04-08 01:42:05] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-08 01:42:05] WARNING root fetch - processPackages [weight-training-tracker]: Timeout reached during download
+[2024-04-08 01:42:05] WARNING root fetch - processPackages [cybrid-api-organization-python]: Timeout reached during download
+[2024-04-08 01:42:05] INFO root fetch - processPackages [weight-training-tracker]: Downloading https://files.pythonhosted.org/packages/58/f6/886d8555f118679f1a90a58f2aba160c8ebfa8b00157c0a2b157a947d0da/weight_training_tracker-0.9.0.tar.gz
+[2024-04-08 01:42:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-08 01:42:06] WARNING root fetch - processPackages [weight-training-tracker]: Timeout reached during download
+[2024-04-08 01:42:06] INFO root fetch - processPackages [weight-training-tracker]: executing diffoscope
+[2024-04-08 01:42:06] INFO root fetch - processPackages [weight-training-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weight_training_tracker-0.8.0.tar.gz tmp/weight_training_tracker-0.9.0.tar.gz --markdown 20240408/w/weight-training-tracker/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 01:42:06] WARNING root fetch - processPackages [cybrid-api-organization-python]: Timeout reached during download
+[2024-04-08 01:42:06] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-08 01:42:06] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240408/c/cybrid-api-organization-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-08 01:42:06] INFO root fetch - processPackages [weight-training-tracker]: Remove: archive file [/home/abi/fetcher/tmp/weight_training_tracker-0.8.0.tar.gz]
+[2024-04-08 01:42:06] INFO root fetch - processPackages [weight-training-tracker]: Remove: archive file [/home/abi/fetcher/tmp/weight_training_tracker-0.9.0.tar.gz]
+[2024-04-08 01:42:06] INFO root fetch - main [MainThread]: End processing [weight-training-tracker]: success
+[2024-04-08 01:42:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-08 01:42:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-08 01:42:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-08 01:42:06] INFO root fetch - main [MainThread]: Store serial: [22660102]
