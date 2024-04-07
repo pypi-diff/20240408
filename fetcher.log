@@ -636,3 +636,39 @@
 [2024-04-08 00:52:14] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.3.1.tar.gz]
 [2024-04-08 00:52:14] INFO root fetch - main [MainThread]: End processing [firestore-wrapper]: success
 [2024-04-08 00:52:14] INFO root fetch - main [MainThread]: Store serial: [22659911]
+[2024-04-08 00:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659911]
+[2024-04-08 00:54:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 00:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mixalime
+[2024-04-08 00:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gattlib-py
+[2024-04-08 00:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: firestore-wrapper
+[2024-04-08 00:54:22] INFO root fetch - processPackages [firestore-wrapper]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-08 00:54:22] INFO root fetch - processPackages [mixalime]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-08 00:54:23] INFO root fetch - processPackages [firestore-wrapper]: Downloading https://files.pythonhosted.org/packages/23/27/bb7021e61ad48bb13e8bb8d4387394a8f58c38438c2f95851e7fd8eadd21/firestore_wrapper-0.3.1.tar.gz
+[2024-04-08 00:54:23] INFO root fetch - processPackages [gattlib-py]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-08 00:54:23] INFO root fetch - processPackages [mixalime]: Downloading https://files.pythonhosted.org/packages/8e/2f/d240b2f6803bf60aeb17f7f054aa7d50ae9fed0d01f2c78df860d2d41795/mixalime-2.9.8.tar.gz
+[2024-04-08 00:54:23] WARNING root fetch - processPackages [firestore-wrapper]: Timeout reached during download
+[2024-04-08 00:54:23] INFO root fetch - processPackages [gattlib-py]: Downloading https://files.pythonhosted.org/packages/b5/16/f861e9faf53ae94d96454bf2fea247d44ae5153c88c18d2173644977f271/gattlib-py-0.5.2.tar.gz
+[2024-04-08 00:54:23] WARNING root fetch - processPackages [gattlib-py]: Timeout reached during download
+[2024-04-08 00:54:23] INFO root fetch - processPackages [firestore-wrapper]: Downloading https://files.pythonhosted.org/packages/b9/20/d48e0094106f54f603036638bf8cb940a31cfe78b29cede71f3639a5c3e9/firestore_wrapper-0.3.2.tar.gz
+[2024-04-08 00:54:23] WARNING root fetch - processPackages [mixalime]: Timeout reached during download
+[2024-04-08 00:54:23] INFO root fetch - processPackages [mixalime]: Downloading https://files.pythonhosted.org/packages/15/d5/57edb971c7da6a1fae4e07e7bb1439621759adf902da9fc6527602363bd9/mixalime-2.9.9.tar.gz
+[2024-04-08 00:54:23] WARNING root fetch - processPackages [firestore-wrapper]: Timeout reached during download
+[2024-04-08 00:54:23] INFO root fetch - processPackages [firestore-wrapper]: executing diffoscope
+[2024-04-08 00:54:23] INFO root fetch - processPackages [firestore-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestore_wrapper-0.3.1.tar.gz tmp/firestore_wrapper-0.3.2.tar.gz --markdown 20240408/f/firestore-wrapper/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-08 00:54:23] INFO root fetch - processPackages [gattlib-py]: Downloading https://files.pythonhosted.org/packages/3f/0b/05937414e9e8b092a485838f3b4cd2bdde5597be8dcd061259bff6c76d29/gattlib-py-0.6.0.tar.gz
+[2024-04-08 00:54:23] WARNING root fetch - processPackages [gattlib-py]: Timeout reached during download
+[2024-04-08 00:54:23] INFO root fetch - processPackages [gattlib-py]: executing diffoscope
+[2024-04-08 00:54:23] INFO root fetch - processPackages [gattlib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gattlib-py-0.5.2.tar.gz tmp/gattlib-py-0.6.0.tar.gz --markdown 20240408/g/gattlib-py/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2024-04-08 00:54:23] WARNING root fetch - processPackages [mixalime]: Timeout reached during download
+[2024-04-08 00:54:23] INFO root fetch - processPackages [mixalime]: executing diffoscope
+[2024-04-08 00:54:23] INFO root fetch - processPackages [mixalime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixalime-2.9.8.tar.gz tmp/mixalime-2.9.9.tar.gz --markdown 20240408/m/mixalime/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-08 00:54:24] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.3.1.tar.gz]
+[2024-04-08 00:54:24] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.3.2.tar.gz]
+[2024-04-08 00:54:24] INFO root fetch - main [MainThread]: End processing [firestore-wrapper]: success
+[2024-04-08 00:54:24] INFO root fetch - processPackages [gattlib-py]: Remove: archive file [/home/abi/fetcher/tmp/gattlib-py-0.5.2.tar.gz]
+[2024-04-08 00:54:24] INFO root fetch - processPackages [gattlib-py]: Remove: archive file [/home/abi/fetcher/tmp/gattlib-py-0.6.0.tar.gz]
+[2024-04-08 00:54:24] INFO root fetch - main [MainThread]: End processing [gattlib-py]: success
+[2024-04-08 00:54:24] INFO root fetch - processPackages [mixalime]: Remove: archive file [/home/abi/fetcher/tmp/mixalime-2.9.8.tar.gz]
+[2024-04-08 00:54:24] INFO root fetch - processPackages [mixalime]: Remove: archive file [/home/abi/fetcher/tmp/mixalime-2.9.9.tar.gz]
+[2024-04-08 00:54:24] INFO root fetch - main [MainThread]: End processing [mixalime]: success
+[2024-04-08 00:54:24] INFO root fetch - main [MainThread]: Store serial: [22659939]
