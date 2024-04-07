@@ -328,3 +328,31 @@
 [2024-04-08 00:26:06] INFO root fetch - processPackages [boldi-proc]: Remove: archive file [/home/abi/fetcher/tmp/boldi_proc-0.5.0.tar.gz]
 [2024-04-08 00:26:06] INFO root fetch - main [MainThread]: End processing [boldi-proc]: success
 [2024-04-08 00:26:06] INFO root fetch - main [MainThread]: Store serial: [22659793]
+[2024-04-08 00:28:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659793]
+[2024-04-08 00:28:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 00:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wttech-aem
+[2024-04-08 00:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpx-vis
+[2024-04-08 00:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amino.fix.fix
+[2024-04-08 00:28:16] INFO root fetch - processPackages [gpx-vis]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-08 00:28:16] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/fc/72/15d92b3f9f4273959168d2e574b682bdde0e908d3231d86f3dba52b39c0d/gpx_vis-0.2.0.tar.gz
+[2024-04-08 00:28:16] WARNING root fetch - processPackages [wttech-aem]: Skipping, unable to determine old version
+[2024-04-08 00:28:16] INFO root fetch - main [MainThread]: End processing [wttech-aem] error
+[2024-04-08 00:28:16] INFO root fetch - processPackages [amino.fix.fix]: New version: [1.0.7b3] Old Version: [1.0.7b2]
+[2024-04-08 00:28:16] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-08 00:28:16] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/f8/f0/cf5861746cd912dc38b3c0038a4ace204b5436bdc9cb0eb5c5b120c483fd/amino.fix.fix-1.0.7b2.tar.gz
+[2024-04-08 00:28:16] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/58/67/37f758ef9e92087c384f6b877342bfe43f7854cb1cd798b71dc6c8508833/gpx_vis-0.3.0.tar.gz
+[2024-04-08 00:28:16] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-08 00:28:16] INFO root fetch - processPackages [gpx-vis]: executing diffoscope
+[2024-04-08 00:28:16] INFO root fetch - processPackages [gpx-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpx_vis-0.2.0.tar.gz tmp/gpx_vis-0.3.0.tar.gz --markdown 20240408/g/gpx-vis/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-08 00:28:16] WARNING root fetch - processPackages [amino.fix.fix]: Timeout reached during download
+[2024-04-08 00:28:17] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/bc/db/3beb22fca2faa53378eaa773afff133ba9dbeb3b26bda0dd0a0d753b60f1/amino.fix.fix-1.0.7b3.tar.gz
+[2024-04-08 00:28:17] WARNING root fetch - processPackages [amino.fix.fix]: Timeout reached during download
+[2024-04-08 00:28:17] INFO root fetch - processPackages [amino.fix.fix]: executing diffoscope
+[2024-04-08 00:28:17] INFO root fetch - processPackages [amino.fix.fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.fix.fix-1.0.7b2.tar.gz tmp/amino.fix.fix-1.0.7b3.tar.gz --markdown 20240408/a/amino.fix.fix/1.0.7b2-1.0.7b3/diff.md --exclude *.pyd
+[2024-04-08 00:28:17] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.2.0.tar.gz]
+[2024-04-08 00:28:17] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.3.0.tar.gz]
+[2024-04-08 00:28:17] INFO root fetch - main [MainThread]: End processing [gpx-vis]: success
+[2024-04-08 00:28:18] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.7b2.tar.gz]
+[2024-04-08 00:28:18] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.7b3.tar.gz]
+[2024-04-08 00:28:18] INFO root fetch - main [MainThread]: End processing [amino.fix.fix]: success
+[2024-04-08 00:28:18] INFO root fetch - main [MainThread]: Store serial: [22659803]
