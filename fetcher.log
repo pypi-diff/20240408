@@ -478,3 +478,9 @@
 [2024-04-08 00:34:54] INFO root fetch - processPackages [decoder-plus-plus]: Remove: archive file [/home/abi/fetcher/tmp/decoder-plus-plus-1.7.3.tar.gz]
 [2024-04-08 00:34:54] INFO root fetch - main [MainThread]: End processing [decoder-plus-plus]: success
 [2024-04-08 00:34:54] INFO root fetch - main [MainThread]: Store serial: [22659856]
+[2024-04-08 00:36:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659856]
+[2024-04-08 00:37:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 00:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Liacord
+[2024-04-08 00:37:02] WARNING root fetch - processPackages [Liacord]: Skipping, unable to determine old version
+[2024-04-08 00:37:02] INFO root fetch - main [MainThread]: End processing [Liacord] error
+[2024-04-08 00:37:02] INFO root fetch - main [MainThread]: Store serial: [22659860]
