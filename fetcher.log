@@ -82,3 +82,22 @@
 [2024-04-08 00:13:03] INFO root fetch - processPackages [betanegbinfit]: Remove: archive file [/home/abi/fetcher/tmp/betanegbinfit-1.9.9.tar.gz]
 [2024-04-08 00:13:03] INFO root fetch - main [MainThread]: End processing [betanegbinfit]: success
 [2024-04-08 00:13:03] INFO root fetch - main [MainThread]: Store serial: [22659738]
+[2024-04-08 00:15:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659738]
+[2024-04-08 00:15:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 00:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firestore-wrapper
+[2024-04-08 00:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grooveshop-django-api
+[2024-04-08 00:15:11] INFO root fetch - processPackages [firestore-wrapper]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-04-08 00:15:11] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.98.0] Old Version: [0.97.0]
+[2024-04-08 00:15:12] INFO root fetch - processPackages [firestore-wrapper]: Downloading https://files.pythonhosted.org/packages/d4/5e/3d840fe77a0ae7c836d8db20379c448988090d23f7fd3d2c8656b73c3078/firestore_wrapper-0.2.4.tar.gz
+[2024-04-08 00:15:12] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/74/5a/ef09cbf2923d3895066a00766508af2eb910ce21021b5f3bc6444473349a/grooveshop_django_api-0.97.0.tar.gz
+[2024-04-08 00:15:12] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33750441>=10485760
+[2024-04-08 00:15:12] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-04-08 00:15:12] WARNING root fetch - processPackages [firestore-wrapper]: Timeout reached during download
+[2024-04-08 00:15:12] INFO root fetch - processPackages [firestore-wrapper]: Downloading https://files.pythonhosted.org/packages/d7/26/e781ef1514d1712a560712b0be101a9ca0ee2fd79bdbb55e9b40518c2bbc/firestore_wrapper-0.3.0.tar.gz
+[2024-04-08 00:15:12] WARNING root fetch - processPackages [firestore-wrapper]: Timeout reached during download
+[2024-04-08 00:15:12] INFO root fetch - processPackages [firestore-wrapper]: executing diffoscope
+[2024-04-08 00:15:12] INFO root fetch - processPackages [firestore-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestore_wrapper-0.2.4.tar.gz tmp/firestore_wrapper-0.3.0.tar.gz --markdown 20240408/f/firestore-wrapper/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2024-04-08 00:15:13] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.2.4.tar.gz]
+[2024-04-08 00:15:13] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.3.0.tar.gz]
+[2024-04-08 00:15:13] INFO root fetch - main [MainThread]: End processing [firestore-wrapper]: success
+[2024-04-08 00:15:13] INFO root fetch - main [MainThread]: Store serial: [22659744]
