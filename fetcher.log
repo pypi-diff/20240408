@@ -173,3 +173,28 @@
 [2024-04-08 00:19:34] INFO root fetch - processPackages [yamcs-pymdb]: Remove: archive file [/home/abi/fetcher/tmp/yamcs-pymdb-1.0.5.tar.gz]
 [2024-04-08 00:19:34] INFO root fetch - main [MainThread]: End processing [yamcs-pymdb]: success
 [2024-04-08 00:19:34] INFO root fetch - main [MainThread]: Store serial: [22659762]
+[2024-04-08 00:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659762]
+[2024-04-08 00:21:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firestore-wrapper
+[2024-04-08 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-vite
+[2024-04-08 00:21:44] INFO root fetch - processPackages [firestore-wrapper]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-04-08 00:21:44] INFO root fetch - processPackages [firestore-wrapper]: Downloading https://files.pythonhosted.org/packages/d4/5e/3d840fe77a0ae7c836d8db20379c448988090d23f7fd3d2c8656b73c3078/firestore_wrapper-0.2.4.tar.gz
+[2024-04-08 00:21:44] INFO root fetch - processPackages [django-vite]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-08 00:21:44] WARNING root fetch - processPackages [firestore-wrapper]: Timeout reached during download
+[2024-04-08 00:21:44] INFO root fetch - processPackages [firestore-wrapper]: Downloading https://files.pythonhosted.org/packages/d7/26/e781ef1514d1712a560712b0be101a9ca0ee2fd79bdbb55e9b40518c2bbc/firestore_wrapper-0.3.0.tar.gz
+[2024-04-08 00:21:44] INFO root fetch - processPackages [django-vite]: Downloading https://files.pythonhosted.org/packages/13/d9/b4de3eca561d4a9b4ae4102db698edcbfa11097d42135a3faf71f1dfeeab/django-vite-3.0.3.tar.gz
+[2024-04-08 00:21:44] WARNING root fetch - processPackages [firestore-wrapper]: Timeout reached during download
+[2024-04-08 00:21:44] INFO root fetch - processPackages [firestore-wrapper]: executing diffoscope
+[2024-04-08 00:21:44] INFO root fetch - processPackages [firestore-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestore_wrapper-0.2.4.tar.gz tmp/firestore_wrapper-0.3.0.tar.gz --markdown 20240408/f/firestore-wrapper/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2024-04-08 00:21:44] WARNING root fetch - processPackages [django-vite]: Timeout reached during download
+[2024-04-08 00:21:44] INFO root fetch - processPackages [django-vite]: Downloading https://files.pythonhosted.org/packages/88/fc/e969d4d85dd7b98ad1d9dfb86f085aed39be2b0bc333c9a4367eec15b194/django-vite-3.0.4.tar.gz
+[2024-04-08 00:21:45] WARNING root fetch - processPackages [django-vite]: Timeout reached during download
+[2024-04-08 00:21:45] INFO root fetch - processPackages [django-vite]: executing diffoscope
+[2024-04-08 00:21:45] INFO root fetch - processPackages [django-vite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vite-3.0.3.tar.gz tmp/django-vite-3.0.4.tar.gz --markdown 20240408/d/django-vite/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2024-04-08 00:21:45] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.2.4.tar.gz]
+[2024-04-08 00:21:45] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.3.0.tar.gz]
+[2024-04-08 00:21:45] INFO root fetch - main [MainThread]: End processing [firestore-wrapper]: success
+[2024-04-08 00:21:45] INFO root fetch - processPackages [django-vite]: Remove: archive file [/home/abi/fetcher/tmp/django-vite-3.0.3.tar.gz]
+[2024-04-08 00:21:45] INFO root fetch - processPackages [django-vite]: Remove: archive file [/home/abi/fetcher/tmp/django-vite-3.0.4.tar.gz]
+[2024-04-08 00:21:45] INFO root fetch - main [MainThread]: End processing [django-vite]: success
+[2024-04-08 00:21:45] INFO root fetch - main [MainThread]: Store serial: [22659768]
