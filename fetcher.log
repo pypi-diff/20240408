@@ -805,3 +805,75 @@
 [2024-04-08 01:05:17] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
 [2024-04-08 01:05:17] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2024-04-08 01:05:17] INFO root fetch - main [MainThread]: Store serial: [22659978]
+[2024-04-08 01:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659978]
+[2024-04-08 01:07:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 01:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2024-04-08 01:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyasic
+[2024-04-08 01:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaml-to-markdown
+[2024-04-08 01:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: athina
+[2024-04-08 01:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smaht-submitr
+[2024-04-08 01:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inventree-lectronz
+[2024-04-08 01:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vectara-cli
+[2024-04-08 01:07:26] INFO root fetch - processPackages [tmnt]: New version: [0.7.4b20231227] Old Version: [0.7.47b20240407]
+[2024-04-08 01:07:26] INFO root fetch - processPackages [yaml-to-markdown]: New version: [0.1.1712460996] Old Version: [0.1.1712383579]
+[2024-04-08 01:07:26] INFO root fetch - processPackages [athina]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-04-08 01:07:26] INFO root fetch - processPackages [yaml-to-markdown]: Downloading https://files.pythonhosted.org/packages/ae/75/542d222f45213bd070528d6d76a3f0ed3ff0b26443f90dab3da891d73865/yaml-to-markdown-0.1.1712383579.tar.gz
+[2024-04-08 01:07:26] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-08 01:07:26] INFO root fetch - processPackages [vectara-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [inventree-lectronz]: Skipping, unable to determine old version
+[2024-04-08 01:07:26] INFO root fetch - main [MainThread]: End processing [inventree-lectronz] error
+[2024-04-08 01:07:26] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b2] Old Version: [0.8.0.1b1]
+[2024-04-08 01:07:26] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/46/be/3b36316f61110b34b17276155a12a2940ea2eceec574eb1ea954b6e6077f/tmnt-0.7.47b20240407.tar.gz
+[2024-04-08 01:07:26] INFO root fetch - processPackages [vectara-cli]: Downloading https://files.pythonhosted.org/packages/2c/ee/38034782be8ce22c0047bcd128a8070a942598181089e251ad6a5806d92a/vectara-cli-0.1.8.tar.gz
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [yaml-to-markdown]: Timeout reached during download
+[2024-04-08 01:07:26] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-08 01:07:26] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/be/a0/1362c2ffaa61af1121c882989c589258f478a02a539dcb37ae87da9194ae/athina-1.2.7.tar.gz
+[2024-04-08 01:07:26] INFO root fetch - processPackages [yaml-to-markdown]: Downloading https://files.pythonhosted.org/packages/05/5a/a99760c02dcf5b979422815eb0f89f75d5c9bfd4eb5d5f81390d84c3c039/yaml-to-markdown-0.1.1712460996.tar.gz
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [vectara-cli]: Timeout reached during download
+[2024-04-08 01:07:26] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/3a/0cd54af36ea52550ab5b0361342ea6cbae9843227af8a4fe56d32695a1f3/tmnt-0.7.4b20231227.tar.gz
+[2024-04-08 01:07:26] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/46/25/ec46e0a3fb9b27242e3bba4e7dcfb8a3bfcb6edfa07728cd15112de372bd/smaht_submitr-0.8.0.1b1.tar.gz
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [pyasic]: Timeout reached during download
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [yaml-to-markdown]: Timeout reached during download
+[2024-04-08 01:07:26] INFO root fetch - processPackages [yaml-to-markdown]: executing diffoscope
+[2024-04-08 01:07:26] INFO root fetch - processPackages [yaml-to-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-to-markdown-0.1.1712383579.tar.gz tmp/yaml-to-markdown-0.1.1712460996.tar.gz --markdown 20240408/y/yaml-to-markdown/0.1.1712383579-0.1.1712460996/diff.md --exclude *.pyd
+[2024-04-08 01:07:26] INFO root fetch - processPackages [vectara-cli]: Downloading https://files.pythonhosted.org/packages/0a/a8/ecbeeefe05fb43a1b2dd6785e1bb1218f907a8ff5b7fec7cb2f57c206166/vectara-cli-0.1.9.tar.gz
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-08 01:07:26] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-08 01:07:26] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.47b20240407.tar.gz tmp/tmnt-0.7.4b20231227.tar.gz --markdown 20240408/t/tmnt/0.7.47b20240407-0.7.4b20231227/diff.md --exclude *.pyd
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [athina]: Timeout reached during download
+[2024-04-08 01:07:26] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2024-04-08 01:07:26] WARNING root fetch - processPackages [vectara-cli]: Timeout reached during download
+[2024-04-08 01:07:26] INFO root fetch - processPackages [vectara-cli]: executing diffoscope
+[2024-04-08 01:07:26] INFO root fetch - processPackages [vectara-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-cli-0.1.8.tar.gz tmp/vectara-cli-0.1.9.tar.gz --markdown 20240408/v/vectara-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 01:07:27] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/51/45ac21615d39fc43f26f8e5ad31118b8a488bfd037652296b2179a2bebeb/smaht_submitr-0.8.0.1b2.tar.gz
+[2024-04-08 01:07:27] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/ef/47/9b2ef0f7dd09092fd1f7473c8a302f1fa6450ca51d82832c78a6378d2975/athina-1.2.8.tar.gz
+[2024-04-08 01:07:27] WARNING root fetch - processPackages [pyasic]: Timeout reached during download
+[2024-04-08 01:07:27] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2024-04-08 01:07:27] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20240408/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-08 01:07:27] WARNING root fetch - processPackages [athina]: Timeout reached during download
+[2024-04-08 01:07:27] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-04-08 01:07:27] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.2.7.tar.gz tmp/athina-1.2.8.tar.gz --markdown 20240408/a/athina/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2024-04-08 01:07:27] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 01:07:27] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-08 01:07:27] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b1.tar.gz tmp/smaht_submitr-0.8.0.1b2.tar.gz --markdown 20240408/s/smaht-submitr/0.8.0.1b1-0.8.0.1b2/diff.md --exclude *.pyd
+[2024-04-08 01:07:27] INFO root fetch - processPackages [yaml-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/yaml-to-markdown-0.1.1712383579.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - processPackages [yaml-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/yaml-to-markdown-0.1.1712460996.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - main [MainThread]: End processing [yaml-to-markdown]: success
+[2024-04-08 01:07:27] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.47b20240407.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-08 01:07:27] INFO root fetch - processPackages [vectara-cli]: Remove: archive file [/home/abi/fetcher/tmp/vectara-cli-0.1.8.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - processPackages [vectara-cli]: Remove: archive file [/home/abi/fetcher/tmp/vectara-cli-0.1.9.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - main [MainThread]: End processing [vectara-cli]: success
+[2024-04-08 01:07:27] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2024-04-08 01:07:27] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.7.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.8.tar.gz]
+[2024-04-08 01:07:27] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-04-08 01:07:28] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b1.tar.gz]
+[2024-04-08 01:07:28] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b2.tar.gz]
+[2024-04-08 01:07:28] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-08 01:07:28] INFO root fetch - main [MainThread]: Store serial: [22660001]
