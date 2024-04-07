@@ -1484,3 +1484,22 @@
 [2024-04-08 01:57:22] INFO root fetch - processPackages [triple-barrier]: Remove: archive file [/home/abi/fetcher/tmp/triple-barrier-0.4.3rc0.tar.gz]
 [2024-04-08 01:57:22] INFO root fetch - main [MainThread]: End processing [triple-barrier]: success
 [2024-04-08 01:57:22] INFO root fetch - main [MainThread]: Store serial: [22660176]
+[2024-04-08 01:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660176]
+[2024-04-08 01:59:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 01:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-pdk
+[2024-04-08 01:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CmonCrawl
+[2024-04-08 01:59:31] INFO root fetch - processPackages [CmonCrawl]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-08 01:59:31] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-04-08 01:59:31] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/45/90/a49a26b5b07cd45111734ae6572ac21f7146a96010c021718fc370517f2b/CmonCrawl-1.1.7.tar.gz
+[2024-04-08 01:59:31] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-04-08 01:59:31] WARNING root fetch - processPackages [CmonCrawl]: Timeout reached during download
+[2024-04-08 01:59:31] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/92/5d/dec4104edbea4dc0139228225a4625be965caba4bbf03b5ba5e0c1826593/CmonCrawl-1.1.8.tar.gz
+[2024-04-08 01:59:32] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-04-08 01:59:32] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-04-08 01:59:32] WARNING root fetch - processPackages [CmonCrawl]: Timeout reached during download
+[2024-04-08 01:59:32] INFO root fetch - processPackages [CmonCrawl]: executing diffoscope
+[2024-04-08 01:59:32] INFO root fetch - processPackages [CmonCrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CmonCrawl-1.1.7.tar.gz tmp/CmonCrawl-1.1.8.tar.gz --markdown 20240408/C/CmonCrawl/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2024-04-08 01:59:33] INFO root fetch - processPackages [CmonCrawl]: Remove: archive file [/home/abi/fetcher/tmp/CmonCrawl-1.1.7.tar.gz]
+[2024-04-08 01:59:33] INFO root fetch - processPackages [CmonCrawl]: Remove: archive file [/home/abi/fetcher/tmp/CmonCrawl-1.1.8.tar.gz]
+[2024-04-08 01:59:33] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
+[2024-04-08 01:59:33] INFO root fetch - main [MainThread]: Store serial: [22660182]
