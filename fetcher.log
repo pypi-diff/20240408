@@ -994,3 +994,31 @@
 [2024-04-08 01:18:18] INFO root fetch - processPackages [pyreft]: Remove: archive file [/home/abi/fetcher/tmp/pyreft-0.0.2.tar.gz]
 [2024-04-08 01:18:18] INFO root fetch - main [MainThread]: End processing [pyreft]: success
 [2024-04-08 01:18:18] INFO root fetch - main [MainThread]: Store serial: [22660032]
+[2024-04-08 01:20:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660032]
+[2024-04-08 01:20:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: euroleague-api
+[2024-04-08 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langkit
+[2024-04-08 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easycrop
+[2024-04-08 01:20:27] INFO root fetch - processPackages [langkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 01:20:27] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/ce/e3/7969ef4cda66f7a8d2dc2a61af3bb067c395b8fc3c8bf9e6777139afa351/langkit-0.0.8.tar.gz
+[2024-04-08 01:20:27] WARNING root fetch - processPackages [easycrop]: Skipping, unable to determine old version
+[2024-04-08 01:20:27] INFO root fetch - main [MainThread]: End processing [easycrop] error
+[2024-04-08 01:20:27] INFO root fetch - processPackages [euroleague-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 01:20:27] WARNING root fetch - processPackages [langkit]: Timeout reached during download
+[2024-04-08 01:20:27] INFO root fetch - processPackages [euroleague-api]: Downloading https://files.pythonhosted.org/packages/18/fe/646630f13f836ab200ada46d20fb661b37bdd3e8ed38697a8d49073f9c89/euroleague_api-0.0.8.tar.gz
+[2024-04-08 01:20:27] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/32/28/704a6d98bd58a324050772e6b9dc1479ab2f09c77c3a83a38e3697af8ef3/langkit-0.0.9.tar.gz
+[2024-04-08 01:20:27] WARNING root fetch - processPackages [euroleague-api]: Timeout reached during download
+[2024-04-08 01:20:27] WARNING root fetch - processPackages [langkit]: Timeout reached during download
+[2024-04-08 01:20:27] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2024-04-08 01:20:27] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.8.tar.gz tmp/langkit-0.0.9.tar.gz --markdown 20240408/l/langkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 01:20:27] INFO root fetch - processPackages [euroleague-api]: Downloading https://files.pythonhosted.org/packages/d0/40/68ace76d73e60dac9350c1b23d23a021b6d63cd8b6e924dc16e63f4c5c2f/euroleague_api-0.0.9.tar.gz
+[2024-04-08 01:20:27] WARNING root fetch - processPackages [euroleague-api]: Timeout reached during download
+[2024-04-08 01:20:27] INFO root fetch - processPackages [euroleague-api]: executing diffoscope
+[2024-04-08 01:20:27] INFO root fetch - processPackages [euroleague-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euroleague_api-0.0.8.tar.gz tmp/euroleague_api-0.0.9.tar.gz --markdown 20240408/e/euroleague-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 01:20:28] INFO root fetch - processPackages [euroleague-api]: Remove: archive file [/home/abi/fetcher/tmp/euroleague_api-0.0.8.tar.gz]
+[2024-04-08 01:20:28] INFO root fetch - processPackages [euroleague-api]: Remove: archive file [/home/abi/fetcher/tmp/euroleague_api-0.0.9.tar.gz]
+[2024-04-08 01:20:28] INFO root fetch - main [MainThread]: End processing [euroleague-api]: success
+[2024-04-08 01:20:28] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.8.tar.gz]
+[2024-04-08 01:20:28] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
+[2024-04-08 01:20:28] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2024-04-08 01:20:28] INFO root fetch - main [MainThread]: Store serial: [22660043]
