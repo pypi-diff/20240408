@@ -771,3 +771,20 @@
 [2024-04-08 01:00:57] INFO root fetch - processPackages [metabolabpytools]: Remove: archive file [/home/abi/fetcher/tmp/metabolabpytools-0.9.8.tar.gz]
 [2024-04-08 01:00:57] INFO root fetch - main [MainThread]: End processing [metabolabpytools]: success
 [2024-04-08 01:00:57] INFO root fetch - main [MainThread]: Store serial: [22659966]
+[2024-04-08 01:03:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659966]
+[2024-04-08 01:03:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 01:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ellar-storage
+[2024-04-08 01:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sklearn-weka-plugin
+[2024-04-08 01:03:05] INFO root fetch - processPackages [sklearn-weka-plugin]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-08 01:03:05] WARNING root fetch - processPackages [ellar-storage]: Skipping, unable to determine old version
+[2024-04-08 01:03:05] INFO root fetch - main [MainThread]: End processing [ellar-storage] error
+[2024-04-08 01:03:06] INFO root fetch - processPackages [sklearn-weka-plugin]: Downloading https://files.pythonhosted.org/packages/2f/1e/01d9adb02291ace2c43b98f886f7430470600535983471deab48e7f2590c/sklearn-weka-plugin-0.0.7.tar.gz
+[2024-04-08 01:03:06] WARNING root fetch - processPackages [sklearn-weka-plugin]: Timeout reached during download
+[2024-04-08 01:03:06] INFO root fetch - processPackages [sklearn-weka-plugin]: Downloading https://files.pythonhosted.org/packages/5b/dd/c68e14699c7585b77a1afdd7759ff53ba23232527e406fd52f671541350e/sklearn-weka-plugin-0.0.8.tar.gz
+[2024-04-08 01:03:06] WARNING root fetch - processPackages [sklearn-weka-plugin]: Timeout reached during download
+[2024-04-08 01:03:06] INFO root fetch - processPackages [sklearn-weka-plugin]: executing diffoscope
+[2024-04-08 01:03:06] INFO root fetch - processPackages [sklearn-weka-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn-weka-plugin-0.0.7.tar.gz tmp/sklearn-weka-plugin-0.0.8.tar.gz --markdown 20240408/s/sklearn-weka-plugin/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-08 01:03:07] INFO root fetch - processPackages [sklearn-weka-plugin]: Remove: archive file [/home/abi/fetcher/tmp/sklearn-weka-plugin-0.0.7.tar.gz]
+[2024-04-08 01:03:07] INFO root fetch - processPackages [sklearn-weka-plugin]: Remove: archive file [/home/abi/fetcher/tmp/sklearn-weka-plugin-0.0.8.tar.gz]
+[2024-04-08 01:03:07] INFO root fetch - main [MainThread]: End processing [sklearn-weka-plugin]: success
+[2024-04-08 01:03:07] INFO root fetch - main [MainThread]: Store serial: [22659973]
