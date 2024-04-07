@@ -1235,3 +1235,72 @@
 [2024-04-08 01:42:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
 [2024-04-08 01:42:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
 [2024-04-08 01:42:06] INFO root fetch - main [MainThread]: Store serial: [22660102]
+[2024-04-08 01:44:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660102]
+[2024-04-08 01:44:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 01:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2024-04-08 01:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xiaomusic
+[2024-04-08 01:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-bank-python
+[2024-04-08 01:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rhdzmota
+[2024-04-08 01:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rhdzmota-extension-hello-world
+[2024-04-08 01:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rhdzmota-extension-streamlit-webapps
+[2024-04-08 01:44:15] INFO root fetch - processPackages [rhdzmota]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-08 01:44:15] INFO root fetch - processPackages [xiaomusic]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 01:44:15] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-08 01:44:15] INFO root fetch - processPackages [rhdzmota-extension-hello-world]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 01:44:15] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-08 01:44:16] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-08 01:44:16] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/43/b7/00d5b5484c941fbe637c09c55a9c8eb8efa9613e8f748eb82063230d7c40/xiaomusic-0.1.8.tar.gz
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota]: Downloading https://files.pythonhosted.org/packages/04/e7/e748594d7e1d8fb7ac72e27d275b711caaa5cabf9369dbc14f3011cccb5f/rhdzmota-3.1.0.tar.gz
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota-extension-hello-world]: Downloading https://files.pythonhosted.org/packages/02/2c/3faa523dc5bc0686addc21f13f8b7dc949b4b0f50df87e39742754c8caee/rhdzmota_extension_hello_world-0.1.1.tar.gz
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Downloading https://files.pythonhosted.org/packages/94/cd/67902bed161a67cddb50ada38c22bdedb04c8727e95873dfbe1c5b4c3d03/rhdzmota_extension_streamlit_webapps-0.5.0.tar.gz
+[2024-04-08 01:44:16] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-08 01:44:16] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [rhdzmota]: Timeout reached during download
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [xiaomusic]: Timeout reached during download
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [rhdzmota-extension-hello-world]: Timeout reached during download
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Timeout reached during download
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [cybrid-api-id-python]: Timeout reached during download
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota]: Downloading https://files.pythonhosted.org/packages/01/d9/9edb0678309c09a965c47f5365d1a71fabe5ce01f642dbefda3b2504b74d/rhdzmota-3.1.1.tar.gz
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [cybrid-api-bank-python]: Timeout reached during download
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota-extension-hello-world]: Downloading https://files.pythonhosted.org/packages/5a/4d/05d6a1728804e8009b5d72b51eed37644ec7be67ec68fdf36b32c91aa5a7/rhdzmota_extension_hello_world-0.1.2.tar.gz
+[2024-04-08 01:44:16] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/a1/21/10e07d79cc47710402442039f3fe0d28c854c8225032a4972152505951a3/xiaomusic-0.1.9.tar.gz
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Downloading https://files.pythonhosted.org/packages/93/9c/a13f64b2bcfed1abe209d6d3b7831b69b90467ded350776c1b46e6d7511e/rhdzmota_extension_streamlit_webapps-0.5.1.tar.gz
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [rhdzmota]: Timeout reached during download
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota]: executing diffoscope
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhdzmota-3.1.0.tar.gz tmp/rhdzmota-3.1.1.tar.gz --markdown 20240408/r/rhdzmota/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-08 01:44:16] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [rhdzmota-extension-hello-world]: Timeout reached during download
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota-extension-hello-world]: executing diffoscope
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota-extension-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhdzmota_extension_hello_world-0.1.1.tar.gz tmp/rhdzmota_extension_hello_world-0.1.2.tar.gz --markdown 20240408/r/rhdzmota-extension-hello-world/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Timeout reached during download
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: executing diffoscope
+[2024-04-08 01:44:16] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhdzmota_extension_streamlit_webapps-0.5.0.tar.gz tmp/rhdzmota_extension_streamlit_webapps-0.5.1.tar.gz --markdown 20240408/r/rhdzmota-extension-streamlit-webapps/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [xiaomusic]: Timeout reached during download
+[2024-04-08 01:44:16] INFO root fetch - processPackages [xiaomusic]: executing diffoscope
+[2024-04-08 01:44:16] INFO root fetch - processPackages [xiaomusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomusic-0.1.8.tar.gz tmp/xiaomusic-0.1.9.tar.gz --markdown 20240408/x/xiaomusic/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 01:44:16] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [cybrid-api-id-python]: Timeout reached during download
+[2024-04-08 01:44:16] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-08 01:44:16] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240408/c/cybrid-api-id-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-08 01:44:16] WARNING root fetch - processPackages [cybrid-api-bank-python]: Timeout reached during download
+[2024-04-08 01:44:16] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-08 01:44:16] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240408/c/cybrid-api-bank-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-08 01:44:17] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Remove: archive file [/home/abi/fetcher/tmp/rhdzmota_extension_streamlit_webapps-0.5.0.tar.gz]
+[2024-04-08 01:44:17] INFO root fetch - processPackages [rhdzmota-extension-streamlit-webapps]: Remove: archive file [/home/abi/fetcher/tmp/rhdzmota_extension_streamlit_webapps-0.5.1.tar.gz]
+[2024-04-08 01:44:17] INFO root fetch - main [MainThread]: End processing [rhdzmota-extension-streamlit-webapps]: success
+[2024-04-08 01:44:17] INFO root fetch - processPackages [rhdzmota-extension-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/rhdzmota_extension_hello_world-0.1.1.tar.gz]
+[2024-04-08 01:44:17] INFO root fetch - processPackages [rhdzmota-extension-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/rhdzmota_extension_hello_world-0.1.2.tar.gz]
+[2024-04-08 01:44:17] INFO root fetch - main [MainThread]: End processing [rhdzmota-extension-hello-world]: success
+[2024-04-08 01:44:17] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.8.tar.gz]
+[2024-04-08 01:44:17] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.9.tar.gz]
+[2024-04-08 01:44:17] INFO root fetch - main [MainThread]: End processing [xiaomusic]: success
+[2024-04-08 01:44:17] INFO root fetch - processPackages [rhdzmota]: Remove: archive file [/home/abi/fetcher/tmp/rhdzmota-3.1.0.tar.gz]
+[2024-04-08 01:44:17] INFO root fetch - processPackages [rhdzmota]: Remove: archive file [/home/abi/fetcher/tmp/rhdzmota-3.1.1.tar.gz]
+[2024-04-08 01:44:17] INFO root fetch - main [MainThread]: End processing [rhdzmota]: success
+[2024-04-08 01:44:18] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-08 01:44:18] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-08 01:44:18] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-08 01:44:19] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-08 01:44:19] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-08 01:44:19] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-08 01:44:19] INFO root fetch - main [MainThread]: Store serial: [22660118]
