@@ -198,3 +198,39 @@
 [2024-04-08 00:21:45] INFO root fetch - processPackages [django-vite]: Remove: archive file [/home/abi/fetcher/tmp/django-vite-3.0.4.tar.gz]
 [2024-04-08 00:21:45] INFO root fetch - main [MainThread]: End processing [django-vite]: success
 [2024-04-08 00:21:45] INFO root fetch - main [MainThread]: Store serial: [22659768]
+[2024-04-08 00:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659768]
+[2024-04-08 00:23:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 00:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owmpy
+[2024-04-08 00:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: podpointclient
+[2024-04-08 00:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mixalime
+[2024-04-08 00:23:54] INFO root fetch - processPackages [owmpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-08 00:23:54] INFO root fetch - processPackages [podpointclient]: New version: [1.6.0a1] Old Version: [1.5.0]
+[2024-04-08 00:23:54] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/4b/09/22d82c47c18cd43e59b6b6fe6a11f6860c09eb3bd0014093041bea39b982/owmpy-1.0.1.tar.gz
+[2024-04-08 00:23:54] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/89/2e/d83f97c8bd30c3081eb12eb2736602caa3674738205a22b9b54f1ed766a8/podpointclient-1.5.0.tar.gz
+[2024-04-08 00:23:54] INFO root fetch - processPackages [mixalime]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-08 00:23:54] WARNING root fetch - processPackages [owmpy]: Timeout reached during download
+[2024-04-08 00:23:54] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 00:23:54] INFO root fetch - processPackages [mixalime]: Downloading https://files.pythonhosted.org/packages/8e/2f/d240b2f6803bf60aeb17f7f054aa7d50ae9fed0d01f2c78df860d2d41795/mixalime-2.9.8.tar.gz
+[2024-04-08 00:23:54] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/74/de/12a0a49f180d110db5b22d3b3f79eb3f5bf0299038f2ed9a86f81d05cc0e/owmpy-1.0.2.tar.gz
+[2024-04-08 00:23:54] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/ca/b6/e35f1f4686bb6249c2719719183c7d7d9c0569f619c9141734796fe96689/podpointclient-1.6.0a1.tar.gz
+[2024-04-08 00:23:54] WARNING root fetch - processPackages [owmpy]: Timeout reached during download
+[2024-04-08 00:23:54] INFO root fetch - processPackages [owmpy]: executing diffoscope
+[2024-04-08 00:23:54] INFO root fetch - processPackages [owmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owmpy-1.0.1.tar.gz tmp/owmpy-1.0.2.tar.gz --markdown 20240408/o/owmpy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-08 00:23:54] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 00:23:54] INFO root fetch - processPackages [podpointclient]: executing diffoscope
+[2024-04-08 00:23:54] INFO root fetch - processPackages [podpointclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podpointclient-1.5.0.tar.gz tmp/podpointclient-1.6.0a1.tar.gz --markdown 20240408/p/podpointclient/1.5.0-1.6.0a1/diff.md --exclude *.pyd
+[2024-04-08 00:23:54] WARNING root fetch - processPackages [mixalime]: Timeout reached during download
+[2024-04-08 00:23:55] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-1.0.1.tar.gz]
+[2024-04-08 00:23:55] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-1.0.2.tar.gz]
+[2024-04-08 00:23:55] INFO root fetch - main [MainThread]: End processing [owmpy]: success
+[2024-04-08 00:23:55] INFO root fetch - processPackages [mixalime]: Downloading https://files.pythonhosted.org/packages/15/d5/57edb971c7da6a1fae4e07e7bb1439621759adf902da9fc6527602363bd9/mixalime-2.9.9.tar.gz
+[2024-04-08 00:23:55] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.5.0.tar.gz]
+[2024-04-08 00:23:55] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.6.0a1.tar.gz]
+[2024-04-08 00:23:55] INFO root fetch - main [MainThread]: End processing [podpointclient]: success
+[2024-04-08 00:23:55] WARNING root fetch - processPackages [mixalime]: Timeout reached during download
+[2024-04-08 00:23:55] INFO root fetch - processPackages [mixalime]: executing diffoscope
+[2024-04-08 00:23:55] INFO root fetch - processPackages [mixalime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixalime-2.9.8.tar.gz tmp/mixalime-2.9.9.tar.gz --markdown 20240408/m/mixalime/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-08 00:23:56] INFO root fetch - processPackages [mixalime]: Remove: archive file [/home/abi/fetcher/tmp/mixalime-2.9.8.tar.gz]
+[2024-04-08 00:23:56] INFO root fetch - processPackages [mixalime]: Remove: archive file [/home/abi/fetcher/tmp/mixalime-2.9.9.tar.gz]
+[2024-04-08 00:23:56] INFO root fetch - main [MainThread]: End processing [mixalime]: success
+[2024-04-08 00:23:56] INFO root fetch - main [MainThread]: Store serial: [22659775]
