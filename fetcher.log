@@ -1,0 +1,10 @@
+[2024-04-08 00:02:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659690]
+[2024-04-08 00:02:25] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 00:04:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659718]
+[2024-04-08 00:04:31] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 00:06:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659718]
+[2024-04-08 00:06:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 00:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyunitconverter
+[2024-04-08 00:06:38] WARNING root fetch - processPackages [pyunitconverter]: Skipping, unable to determine old version
+[2024-04-08 00:06:38] INFO root fetch - main [MainThread]: End processing [pyunitconverter] error
+[2024-04-08 00:06:38] INFO root fetch - main [MainThread]: Store serial: [22659721]
