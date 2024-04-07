@@ -1328,3 +1328,42 @@
 [2024-04-08 01:46:29] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.1.tar.gz]
 [2024-04-08 01:46:29] INFO root fetch - main [MainThread]: End processing [pyjvc]: success
 [2024-04-08 01:46:29] INFO root fetch - main [MainThread]: Store serial: [22660127]
+[2024-04-08 01:48:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660127]
+[2024-04-08 01:48:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 01:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weight-training-tracker
+[2024-04-08 01:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: landborn
+[2024-04-08 01:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geoglows
+[2024-04-08 01:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: puncturedfem
+[2024-04-08 01:48:38] INFO root fetch - processPackages [weight-training-tracker]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-08 01:48:38] INFO root fetch - processPackages [geoglows]: New version: [1.0.0rc4] Old Version: [1.0.0rc3]
+[2024-04-08 01:48:38] INFO root fetch - processPackages [weight-training-tracker]: Downloading https://files.pythonhosted.org/packages/cd/aa/c38f33930c86850366b55421f41626063905c2fe2c8f17bc2775f40065e1/weight_training_tracker-0.8.0.tar.gz
+[2024-04-08 01:48:38] INFO root fetch - processPackages [landborn]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-08 01:48:38] WARNING root fetch - processPackages [puncturedfem]: Skipping, unable to determine old version
+[2024-04-08 01:48:38] INFO root fetch - main [MainThread]: End processing [puncturedfem] error
+[2024-04-08 01:48:38] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/71/ea/f00f5b6c33eb92bfa65fc22819ba5a0913ae173b6642ccf37105c29ec2e2/geoglows-1.0.0rc3.tar.gz
+[2024-04-08 01:48:38] WARNING root fetch - processPackages [weight-training-tracker]: Timeout reached during download
+[2024-04-08 01:48:38] WARNING root fetch - processPackages [geoglows]: Timeout reached during download
+[2024-04-08 01:48:38] INFO root fetch - processPackages [weight-training-tracker]: Downloading https://files.pythonhosted.org/packages/58/f6/886d8555f118679f1a90a58f2aba160c8ebfa8b00157c0a2b157a947d0da/weight_training_tracker-0.9.0.tar.gz
+[2024-04-08 01:48:38] INFO root fetch - processPackages [landborn]: Downloading https://files.pythonhosted.org/packages/2d/25/525fad92c2e69bf0eaa96bb3d1ccfe479f7ee30122ad42a637d530487479/landborn-0.2.4.tar.gz
+[2024-04-08 01:48:38] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/a6/ab/5d6d1d135c5eeea556c868689b3f7754b54079f5a35a5f101de267c76c9e/geoglows-1.0.0rc4.tar.gz
+[2024-04-08 01:48:38] WARNING root fetch - processPackages [weight-training-tracker]: Timeout reached during download
+[2024-04-08 01:48:38] INFO root fetch - processPackages [weight-training-tracker]: executing diffoscope
+[2024-04-08 01:48:38] INFO root fetch - processPackages [weight-training-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weight_training_tracker-0.8.0.tar.gz tmp/weight_training_tracker-0.9.0.tar.gz --markdown 20240408/w/weight-training-tracker/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 01:48:38] WARNING root fetch - processPackages [landborn]: Timeout reached during download
+[2024-04-08 01:48:38] WARNING root fetch - processPackages [geoglows]: Timeout reached during download
+[2024-04-08 01:48:38] INFO root fetch - processPackages [geoglows]: executing diffoscope
+[2024-04-08 01:48:38] INFO root fetch - processPackages [geoglows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoglows-1.0.0rc3.tar.gz tmp/geoglows-1.0.0rc4.tar.gz --markdown 20240408/g/geoglows/1.0.0rc3-1.0.0rc4/diff.md --exclude *.pyd
+[2024-04-08 01:48:38] INFO root fetch - processPackages [landborn]: Downloading https://files.pythonhosted.org/packages/77/71/ef68d55eb0dfb85020318c6a3272b7a257a0b0519d65633c264d8d70e93b/landborn-0.2.5.tar.gz
+[2024-04-08 01:48:38] WARNING root fetch - processPackages [landborn]: Timeout reached during download
+[2024-04-08 01:48:38] INFO root fetch - processPackages [landborn]: executing diffoscope
+[2024-04-08 01:48:38] INFO root fetch - processPackages [landborn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landborn-0.2.4.tar.gz tmp/landborn-0.2.5.tar.gz --markdown 20240408/l/landborn/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-08 01:48:39] INFO root fetch - processPackages [weight-training-tracker]: Remove: archive file [/home/abi/fetcher/tmp/weight_training_tracker-0.8.0.tar.gz]
+[2024-04-08 01:48:39] INFO root fetch - processPackages [weight-training-tracker]: Remove: archive file [/home/abi/fetcher/tmp/weight_training_tracker-0.9.0.tar.gz]
+[2024-04-08 01:48:39] INFO root fetch - main [MainThread]: End processing [weight-training-tracker]: success
+[2024-04-08 01:48:39] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.0.0rc3.tar.gz]
+[2024-04-08 01:48:39] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.0.0rc4.tar.gz]
+[2024-04-08 01:48:39] INFO root fetch - main [MainThread]: End processing [geoglows]: success
+[2024-04-08 01:48:39] INFO root fetch - processPackages [landborn]: Remove: archive file [/home/abi/fetcher/tmp/landborn-0.2.4.tar.gz]
+[2024-04-08 01:48:39] INFO root fetch - processPackages [landborn]: Remove: archive file [/home/abi/fetcher/tmp/landborn-0.2.5.tar.gz]
+[2024-04-08 01:48:39] INFO root fetch - main [MainThread]: End processing [landborn]: success
+[2024-04-08 01:48:39] INFO root fetch - main [MainThread]: Store serial: [22660141]
