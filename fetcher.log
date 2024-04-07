@@ -615,3 +615,24 @@
 [2024-04-08 00:50:04] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.9.0.tar.gz]
 [2024-04-08 00:50:04] INFO root fetch - main [MainThread]: End processing [wetterdienst]: success
 [2024-04-08 00:50:04] INFO root fetch - main [MainThread]: Store serial: [22659905]
+[2024-04-08 00:52:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659905]
+[2024-04-08 00:52:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: komodo-sdk
+[2024-04-08 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firestore-wrapper
+[2024-04-08 00:52:13] INFO root fetch - processPackages [firestore-wrapper]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 00:52:13] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.9] Old Version: [0.0.81]
+[2024-04-08 00:52:13] INFO root fetch - processPackages [firestore-wrapper]: Downloading https://files.pythonhosted.org/packages/d7/26/e781ef1514d1712a560712b0be101a9ca0ee2fd79bdbb55e9b40518c2bbc/firestore_wrapper-0.3.0.tar.gz
+[2024-04-08 00:52:13] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/3f/bf/22dd144ff80af4acb1ea90f922283739f977a3853db20ac505a98e19d2ea/komodo_sdk-0.0.81.tar.gz
+[2024-04-08 00:52:13] WARNING root fetch - processPackages [firestore-wrapper]: Timeout reached during download
+[2024-04-08 00:52:13] INFO root fetch - processPackages [firestore-wrapper]: Downloading https://files.pythonhosted.org/packages/23/27/bb7021e61ad48bb13e8bb8d4387394a8f58c38438c2f95851e7fd8eadd21/firestore_wrapper-0.3.1.tar.gz
+[2024-04-08 00:52:13] WARNING root fetch - processPackages [firestore-wrapper]: Timeout reached during download
+[2024-04-08 00:52:13] INFO root fetch - processPackages [firestore-wrapper]: executing diffoscope
+[2024-04-08 00:52:13] INFO root fetch - processPackages [firestore-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestore_wrapper-0.3.0.tar.gz tmp/firestore_wrapper-0.3.1.tar.gz --markdown 20240408/f/firestore-wrapper/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 00:52:13] WARNING root fetch - processPackages [komodo-sdk]: Timeout reached during download
+[2024-04-08 00:52:13] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/c1/75/64665f8823652ae983842708f771508649b4a085802d170fbb9d173d580d/komodo_sdk-0.0.9.tar.gz
+[2024-04-08 00:52:13] WARNING root fetch - processPackages [komodo-sdk]: Skipping package: exceeds size limit 41417628>=10485760
+[2024-04-08 00:52:13] INFO root fetch - main [MainThread]: End processing [komodo-sdk] error
+[2024-04-08 00:52:14] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.3.0.tar.gz]
+[2024-04-08 00:52:14] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.3.1.tar.gz]
+[2024-04-08 00:52:14] INFO root fetch - main [MainThread]: End processing [firestore-wrapper]: success
+[2024-04-08 00:52:14] INFO root fetch - main [MainThread]: Store serial: [22659911]
