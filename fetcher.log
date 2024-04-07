@@ -788,3 +788,20 @@
 [2024-04-08 01:03:07] INFO root fetch - processPackages [sklearn-weka-plugin]: Remove: archive file [/home/abi/fetcher/tmp/sklearn-weka-plugin-0.0.8.tar.gz]
 [2024-04-08 01:03:07] INFO root fetch - main [MainThread]: End processing [sklearn-weka-plugin]: success
 [2024-04-08 01:03:07] INFO root fetch - main [MainThread]: Store serial: [22659973]
+[2024-04-08 01:05:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659973]
+[2024-04-08 01:05:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 01:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: josechavez
+[2024-04-08 01:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-04-08 01:05:16] INFO root fetch - processPackages [tmnt]: New version: [0.7.4b20231227] Old Version: [0.7.47b20240406]
+[2024-04-08 01:05:16] WARNING root fetch - processPackages [josechavez]: Skipping, unable to determine old version
+[2024-04-08 01:05:16] INFO root fetch - main [MainThread]: End processing [josechavez] error
+[2024-04-08 01:05:16] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a1/0c/c3def73b0005afb9a5c11e34e8b7e743009fe9815a9e9ca0478e56c0028f/tmnt-0.7.47b20240406.tar.gz
+[2024-04-08 01:05:16] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-08 01:05:16] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/3a/0cd54af36ea52550ab5b0361342ea6cbae9843227af8a4fe56d32695a1f3/tmnt-0.7.4b20231227.tar.gz
+[2024-04-08 01:05:16] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-08 01:05:16] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-08 01:05:16] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.47b20240406.tar.gz tmp/tmnt-0.7.4b20231227.tar.gz --markdown 20240408/t/tmnt/0.7.47b20240406-0.7.4b20231227/diff.md --exclude *.pyd
+[2024-04-08 01:05:17] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.47b20240406.tar.gz]
+[2024-04-08 01:05:17] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
+[2024-04-08 01:05:17] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-08 01:05:17] INFO root fetch - main [MainThread]: Store serial: [22659978]
