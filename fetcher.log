@@ -1304,3 +1304,27 @@
 [2024-04-08 01:44:19] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-04-08 01:44:19] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-04-08 01:44:19] INFO root fetch - main [MainThread]: Store serial: [22660118]
+[2024-04-08 01:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660118]
+[2024-04-08 01:46:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 01:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: komodo-sdk
+[2024-04-08 01:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjvc
+[2024-04-08 01:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pop-cli
+[2024-04-08 01:46:28] WARNING root fetch - processPackages [pop-cli]: Skipping, unable to determine old version
+[2024-04-08 01:46:28] INFO root fetch - main [MainThread]: End processing [pop-cli] error
+[2024-04-08 01:46:28] INFO root fetch - processPackages [pyjvc]: New version: [4.4.1] Old Version: [4.4.0]
+[2024-04-08 01:46:28] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.9] Old Version: [0.0.83]
+[2024-04-08 01:46:28] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/a2/67/fd975a363b205851702dadf1f2ef8f8c85f71b762bac9d8cf460d1372dc2/komodo_sdk-0.0.83.tar.gz
+[2024-04-08 01:46:28] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/0a/5f/ea1fa9fc8c2c8480384bc9c1b402e82da45819173d35af7832ce967c3307/pyjvc-4.4.0.tar.gz
+[2024-04-08 01:46:28] WARNING root fetch - processPackages [pyjvc]: Timeout reached during download
+[2024-04-08 01:46:28] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/21/25/75b308cdc59e850c09bcc0c3f22bdda9e1b646ad4e5b28cc53c617137b72/pyjvc-4.4.1.tar.gz
+[2024-04-08 01:46:29] WARNING root fetch - processPackages [pyjvc]: Timeout reached during download
+[2024-04-08 01:46:29] INFO root fetch - processPackages [pyjvc]: executing diffoscope
+[2024-04-08 01:46:29] INFO root fetch - processPackages [pyjvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjvc-4.4.0.tar.gz tmp/pyjvc-4.4.1.tar.gz --markdown 20240408/p/pyjvc/4.4.0-4.4.1/diff.md --exclude *.pyd
+[2024-04-08 01:46:29] WARNING root fetch - processPackages [komodo-sdk]: Timeout reached during download
+[2024-04-08 01:46:29] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/c1/75/64665f8823652ae983842708f771508649b4a085802d170fbb9d173d580d/komodo_sdk-0.0.9.tar.gz
+[2024-04-08 01:46:29] WARNING root fetch - processPackages [komodo-sdk]: Skipping package: exceeds size limit 41417628>=10485760
+[2024-04-08 01:46:29] INFO root fetch - main [MainThread]: End processing [komodo-sdk] error
+[2024-04-08 01:46:29] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.0.tar.gz]
+[2024-04-08 01:46:29] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.1.tar.gz]
+[2024-04-08 01:46:29] INFO root fetch - main [MainThread]: End processing [pyjvc]: success
+[2024-04-08 01:46:29] INFO root fetch - main [MainThread]: Store serial: [22660127]
