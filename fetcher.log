@@ -453,3 +453,28 @@
 [2024-04-08 00:32:42] INFO root fetch - processPackages [interrogate]: Remove: archive file [/home/abi/fetcher/tmp/interrogate-1.7.0.tar.gz]
 [2024-04-08 00:32:42] INFO root fetch - main [MainThread]: End processing [interrogate]: success
 [2024-04-08 00:32:42] INFO root fetch - main [MainThread]: Store serial: [22659849]
+[2024-04-08 00:34:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659849]
+[2024-04-08 00:34:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 00:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: affixapi
+[2024-04-08 00:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decoder-plus-plus
+[2024-04-08 00:34:52] INFO root fetch - processPackages [affixapi]: New version: [1.1.50] Old Version: [1.1.49]
+[2024-04-08 00:34:52] INFO root fetch - processPackages [decoder-plus-plus]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-04-08 00:34:52] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/2c/76/8aa3228b9c921db4fae195abcdff922485d3d96971fa8480a7cc04e0e530/affixapi-1.1.49.tar.gz
+[2024-04-08 00:34:52] INFO root fetch - processPackages [decoder-plus-plus]: Downloading https://files.pythonhosted.org/packages/f7/b4/2dea35a3f4597052a6746fd4d740c5073be6091054cd59186c35d38d80c9/decoder-plus-plus-1.7.2.tar.gz
+[2024-04-08 00:34:52] WARNING root fetch - processPackages [affixapi]: Timeout reached during download
+[2024-04-08 00:34:52] WARNING root fetch - processPackages [decoder-plus-plus]: Timeout reached during download
+[2024-04-08 00:34:52] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/de/2c/7be3f3f8598769a7d9bd015a044b8a595aa3433b7aa01ece4790d29d184d/affixapi-1.1.50.tar.gz
+[2024-04-08 00:34:52] WARNING root fetch - processPackages [affixapi]: Timeout reached during download
+[2024-04-08 00:34:52] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-04-08 00:34:52] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.49.tar.gz tmp/affixapi-1.1.50.tar.gz --markdown 20240408/a/affixapi/1.1.49-1.1.50/diff.md --exclude *.pyd
+[2024-04-08 00:34:52] INFO root fetch - processPackages [decoder-plus-plus]: Downloading https://files.pythonhosted.org/packages/ec/92/4c811b57645848d35448126a6bccb165934b66138bf719f8bef0dbfded63/decoder-plus-plus-1.7.3.tar.gz
+[2024-04-08 00:34:52] WARNING root fetch - processPackages [decoder-plus-plus]: Timeout reached during download
+[2024-04-08 00:34:52] INFO root fetch - processPackages [decoder-plus-plus]: executing diffoscope
+[2024-04-08 00:34:52] INFO root fetch - processPackages [decoder-plus-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoder-plus-plus-1.7.2.tar.gz tmp/decoder-plus-plus-1.7.3.tar.gz --markdown 20240408/d/decoder-plus-plus/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2024-04-08 00:34:53] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.49.tar.gz]
+[2024-04-08 00:34:53] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.50.tar.gz]
+[2024-04-08 00:34:53] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-04-08 00:34:54] INFO root fetch - processPackages [decoder-plus-plus]: Remove: archive file [/home/abi/fetcher/tmp/decoder-plus-plus-1.7.2.tar.gz]
+[2024-04-08 00:34:54] INFO root fetch - processPackages [decoder-plus-plus]: Remove: archive file [/home/abi/fetcher/tmp/decoder-plus-plus-1.7.3.tar.gz]
+[2024-04-08 00:34:54] INFO root fetch - main [MainThread]: End processing [decoder-plus-plus]: success
+[2024-04-08 00:34:54] INFO root fetch - main [MainThread]: Store serial: [22659856]
