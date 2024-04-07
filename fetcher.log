@@ -101,3 +101,50 @@
 [2024-04-08 00:15:13] INFO root fetch - processPackages [firestore-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/firestore_wrapper-0.3.0.tar.gz]
 [2024-04-08 00:15:13] INFO root fetch - main [MainThread]: End processing [firestore-wrapper]: success
 [2024-04-08 00:15:13] INFO root fetch - main [MainThread]: Store serial: [22659744]
+[2024-04-08 00:17:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659744]
+[2024-04-08 00:17:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owmpy
+[2024-04-08 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meringue
+[2024-04-08 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: connectome-interpreter
+[2024-04-08 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freegenius
+[2024-04-08 00:17:21] INFO root fetch - processPackages [owmpy]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-08 00:17:21] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 00:17:21] INFO root fetch - processPackages [connectome-interpreter]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-08 00:17:21] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/5d/72/515d493085530bc4b48ee88d8b5d2ae54ca4cc09ea7d6a6df62351c8bebe/owmpy-1.0.0.tar.gz
+[2024-04-08 00:17:21] INFO root fetch - processPackages [meringue]: New version: [1.2.0.dev8] Old Version: [1.2.0.dev7]
+[2024-04-08 00:17:21] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-08 00:17:21] WARNING root fetch - processPackages [owmpy]: Timeout reached during download
+[2024-04-08 00:17:21] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-08 00:17:21] INFO root fetch - processPackages [connectome-interpreter]: Downloading https://files.pythonhosted.org/packages/6e/ef/8de747f769250dfa93ecb797b8f93359cf6c9274694d787e1e5fd83acc51/connectome_interpreter-1.0.2.tar.gz
+[2024-04-08 00:17:21] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/ed/ce/bfedfc06f98d6e73fe81d78ce6139a7f1b9be2803ccbaf40182826030e89/meringue-1.2.0.dev7.tar.gz
+[2024-04-08 00:17:22] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-08 00:17:22] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/4b/09/22d82c47c18cd43e59b6b6fe6a11f6860c09eb3bd0014093041bea39b982/owmpy-1.0.1.tar.gz
+[2024-04-08 00:17:22] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-08 00:17:22] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-08 00:17:22] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240408/f/freegenius/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 00:17:22] WARNING root fetch - processPackages [connectome-interpreter]: Timeout reached during download
+[2024-04-08 00:17:22] WARNING root fetch - processPackages [meringue]: Timeout reached during download
+[2024-04-08 00:17:22] WARNING root fetch - processPackages [owmpy]: Timeout reached during download
+[2024-04-08 00:17:22] INFO root fetch - processPackages [owmpy]: executing diffoscope
+[2024-04-08 00:17:22] INFO root fetch - processPackages [owmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owmpy-1.0.0.tar.gz tmp/owmpy-1.0.1.tar.gz --markdown 20240408/o/owmpy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 00:17:22] INFO root fetch - processPackages [connectome-interpreter]: Downloading https://files.pythonhosted.org/packages/49/de/8d5fe1f18622f1a11d5ef381ae61b691c4b5efd50bb0194cbb880b2f02f7/connectome_interpreter-1.1.0.tar.gz
+[2024-04-08 00:17:22] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/6b/45/deb5f8d513325128b793b59dae121ccd4acf77841fb4cc6b6704884d58cc/meringue-1.2.0.dev8.tar.gz
+[2024-04-08 00:17:22] WARNING root fetch - processPackages [connectome-interpreter]: Timeout reached during download
+[2024-04-08 00:17:22] INFO root fetch - processPackages [connectome-interpreter]: executing diffoscope
+[2024-04-08 00:17:22] INFO root fetch - processPackages [connectome-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectome_interpreter-1.0.2.tar.gz tmp/connectome_interpreter-1.1.0.tar.gz --markdown 20240408/c/connectome-interpreter/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2024-04-08 00:17:22] WARNING root fetch - processPackages [meringue]: Timeout reached during download
+[2024-04-08 00:17:22] INFO root fetch - processPackages [meringue]: executing diffoscope
+[2024-04-08 00:17:22] INFO root fetch - processPackages [meringue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meringue-1.2.0.dev7.tar.gz tmp/meringue-1.2.0.dev8.tar.gz --markdown 20240408/m/meringue/1.2.0.dev7-1.2.0.dev8/diff.md --exclude *.pyd
+[2024-04-08 00:17:22] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-1.0.0.tar.gz]
+[2024-04-08 00:17:22] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-1.0.1.tar.gz]
+[2024-04-08 00:17:22] INFO root fetch - main [MainThread]: End processing [owmpy]: success
+[2024-04-08 00:17:23] INFO root fetch - processPackages [connectome-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/connectome_interpreter-1.0.2.tar.gz]
+[2024-04-08 00:17:23] INFO root fetch - processPackages [connectome-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/connectome_interpreter-1.1.0.tar.gz]
+[2024-04-08 00:17:23] INFO root fetch - main [MainThread]: End processing [connectome-interpreter]: success
+[2024-04-08 00:17:23] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-08 00:17:23] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-08 00:17:23] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-08 00:17:23] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.2.0.dev7.tar.gz]
+[2024-04-08 00:17:23] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.2.0.dev8.tar.gz]
+[2024-04-08 00:17:23] INFO root fetch - main [MainThread]: End processing [meringue]: success
+[2024-04-08 00:17:23] INFO root fetch - main [MainThread]: Store serial: [22659756]
