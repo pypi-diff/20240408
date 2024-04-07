@@ -1022,3 +1022,28 @@
 [2024-04-08 01:20:28] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
 [2024-04-08 01:20:28] INFO root fetch - main [MainThread]: End processing [langkit]: success
 [2024-04-08 01:20:28] INFO root fetch - main [MainThread]: Store serial: [22660043]
+[2024-04-08 01:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660043]
+[2024-04-08 01:22:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyasic
+[2024-04-08 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galileo-core
+[2024-04-08 01:22:37] INFO root fetch - processPackages [galileo-core]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-08 01:22:37] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-08 01:22:37] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/3b/69/924c14586cf382a8758aaa4c846e30f775b5f52663f87a7b6feb57c60eab/galileo_core-0.6.0.tar.gz
+[2024-04-08 01:22:37] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2024-04-08 01:22:37] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 01:22:37] WARNING root fetch - processPackages [pyasic]: Timeout reached during download
+[2024-04-08 01:22:37] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2024-04-08 01:22:37] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/41/e8/45f9cdf779dc8e28a4c906efd8621d8492b073e8e9f8001cfeb19ea5d0d3/galileo_core-0.7.0.tar.gz
+[2024-04-08 01:22:37] WARNING root fetch - processPackages [pyasic]: Timeout reached during download
+[2024-04-08 01:22:37] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2024-04-08 01:22:37] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20240408/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-08 01:22:37] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 01:22:37] INFO root fetch - processPackages [galileo-core]: executing diffoscope
+[2024-04-08 01:22:37] INFO root fetch - processPackages [galileo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_core-0.6.0.tar.gz tmp/galileo_core-0.7.0.tar.gz --markdown 20240408/g/galileo-core/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-08 01:22:38] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.6.0.tar.gz]
+[2024-04-08 01:22:38] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.7.0.tar.gz]
+[2024-04-08 01:22:38] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
+[2024-04-08 01:22:38] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2024-04-08 01:22:38] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2024-04-08 01:22:38] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2024-04-08 01:22:38] INFO root fetch - main [MainThread]: Store serial: [22660049]
