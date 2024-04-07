@@ -916,3 +916,9 @@
 [2024-04-08 01:11:49] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.5.4.tar.gz]
 [2024-04-08 01:11:49] INFO root fetch - main [MainThread]: End processing [repid]: success
 [2024-04-08 01:11:49] INFO root fetch - main [MainThread]: Store serial: [22660009]
+[2024-04-08 01:13:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660009]
+[2024-04-08 01:13:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 01:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kucoin-futures-lib
+[2024-04-08 01:13:58] WARNING root fetch - processPackages [kucoin-futures-lib]: Skipping, unable to determine old version
+[2024-04-08 01:13:58] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib] error
+[2024-04-08 01:13:58] INFO root fetch - main [MainThread]: Store serial: [22660014]
