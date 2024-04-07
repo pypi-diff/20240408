@@ -562,3 +562,28 @@
 [2024-04-08 00:45:43] INFO root fetch - processPackages [tmuxp]: Remove: archive file [/home/abi/fetcher/tmp/tmuxp-1.9.4.tar.gz]
 [2024-04-08 00:45:43] INFO root fetch - main [MainThread]: End processing [tmuxp]: success
 [2024-04-08 00:45:43] INFO root fetch - main [MainThread]: Store serial: [22659886]
+[2024-04-08 00:47:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659886]
+[2024-04-08 00:47:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 00:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reactive-reference
+[2024-04-08 00:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultralytics
+[2024-04-08 00:47:52] INFO root fetch - processPackages [ultralytics]: New version: [8.1.9] Old Version: [8.1.8]
+[2024-04-08 00:47:52] INFO root fetch - processPackages [reactive-reference]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-08 00:47:52] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2c/9f/b8fbc96b626cd7fa56aa383ed824b5475ef86c22efaa5bc701992f8a5b12/ultralytics-8.1.8.tar.gz
+[2024-04-08 00:47:52] INFO root fetch - processPackages [reactive-reference]: Downloading https://files.pythonhosted.org/packages/87/6d/b8938243042c8d8de14058d4b1b8ca74308c1618b4fca21a336dcb4cb706/reactive_reference-0.1.1.tar.gz
+[2024-04-08 00:47:52] WARNING root fetch - processPackages [reactive-reference]: Timeout reached during download
+[2024-04-08 00:47:52] WARNING root fetch - processPackages [ultralytics]: Timeout reached during download
+[2024-04-08 00:47:52] INFO root fetch - processPackages [reactive-reference]: Downloading https://files.pythonhosted.org/packages/6e/77/75beb7d83024f316c1bbecc6f972d373cfbc9deb888e9227cb24e236f4e8/reactive_reference-0.2.0.tar.gz
+[2024-04-08 00:47:52] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/70/2c/d7de774dece06044c0162dcf39caf5794871e45144cda9998425196f776f/ultralytics-8.1.9.tar.gz
+[2024-04-08 00:47:52] WARNING root fetch - processPackages [reactive-reference]: Timeout reached during download
+[2024-04-08 00:47:52] INFO root fetch - processPackages [reactive-reference]: executing diffoscope
+[2024-04-08 00:47:52] INFO root fetch - processPackages [reactive-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactive_reference-0.1.1.tar.gz tmp/reactive_reference-0.2.0.tar.gz --markdown 20240408/r/reactive-reference/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-08 00:47:52] WARNING root fetch - processPackages [ultralytics]: Timeout reached during download
+[2024-04-08 00:47:52] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-04-08 00:47:52] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.1.8.tar.gz tmp/ultralytics-8.1.9.tar.gz --markdown 20240408/u/ultralytics/8.1.8-8.1.9/diff.md --exclude *.pyd
+[2024-04-08 00:47:53] INFO root fetch - processPackages [reactive-reference]: Remove: archive file [/home/abi/fetcher/tmp/reactive_reference-0.1.1.tar.gz]
+[2024-04-08 00:47:53] INFO root fetch - processPackages [reactive-reference]: Remove: archive file [/home/abi/fetcher/tmp/reactive_reference-0.2.0.tar.gz]
+[2024-04-08 00:47:53] INFO root fetch - main [MainThread]: End processing [reactive-reference]: success
+[2024-04-08 00:47:54] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.8.tar.gz]
+[2024-04-08 00:47:54] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.9.tar.gz]
+[2024-04-08 00:47:54] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-04-08 00:47:54] INFO root fetch - main [MainThread]: Store serial: [22659892]
