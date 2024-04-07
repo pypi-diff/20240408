@@ -735,3 +735,39 @@
 [2024-04-08 00:58:45] INFO root fetch - processPackages [cff2toml]: Remove: archive file [/home/abi/fetcher/tmp/cff2toml-3.0.0.tar.gz]
 [2024-04-08 00:58:45] INFO root fetch - main [MainThread]: End processing [cff2toml]: success
 [2024-04-08 00:58:45] INFO root fetch - main [MainThread]: Store serial: [22659959]
+[2024-04-08 01:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659959]
+[2024-04-08 01:00:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 01:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metabolabpytools
+[2024-04-08 01:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fr
+[2024-04-08 01:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smaht-submitr
+[2024-04-08 01:00:55] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0] Old Version: [0.7.0.2b9]
+[2024-04-08 01:00:55] INFO root fetch - processPackages [fr]: New version: [3.1] Old Version: [3.0b7]
+[2024-04-08 01:00:55] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/d0/3b/b54a02aeb1b871e1c8c326b77f3d19f905f02cb25becf2a409d7d4b26d92/smaht_submitr-0.7.0.2b9.tar.gz
+[2024-04-08 01:00:55] INFO root fetch - processPackages [metabolabpytools]: New version: [0.9.8] Old Version: [0.9.6]
+[2024-04-08 01:00:55] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 01:00:55] INFO root fetch - processPackages [fr]: Downloading https://files.pythonhosted.org/packages/51/b9/3a223fb7ad07a2b6ab314d511e5246eed07fbebd4d17aac5c32ec5dd79f0/fr-3.0b7.tar.gz
+[2024-04-08 01:00:55] INFO root fetch - processPackages [metabolabpytools]: Downloading https://files.pythonhosted.org/packages/36/ea/a653d47dee0ccd576851be0a0dd60862aeb0fbc92940e7815f98ad4d08c1/metabolabpytools-0.9.6.tar.gz
+[2024-04-08 01:00:55] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/45/0f/eea8b7cadbac418849539d1520a8b56936756b877878541c64d3d88a328c/smaht_submitr-0.8.0.tar.gz
+[2024-04-08 01:00:55] WARNING root fetch - processPackages [fr]: Timeout reached during download
+[2024-04-08 01:00:55] WARNING root fetch - processPackages [metabolabpytools]: Timeout reached during download
+[2024-04-08 01:00:55] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 01:00:55] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-08 01:00:55] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.7.0.2b9.tar.gz tmp/smaht_submitr-0.8.0.tar.gz --markdown 20240408/s/smaht-submitr/0.7.0.2b9-0.8.0/diff.md --exclude *.pyd
+[2024-04-08 01:00:55] INFO root fetch - processPackages [fr]: Downloading https://files.pythonhosted.org/packages/e2/42/72f5957ce49de696510f87bea407592c13d274ebc4f98394fe6e4720a281/fr-3.1.tar.gz
+[2024-04-08 01:00:55] WARNING root fetch - processPackages [fr]: Timeout reached during download
+[2024-04-08 01:00:55] INFO root fetch - processPackages [fr]: executing diffoscope
+[2024-04-08 01:00:55] INFO root fetch - processPackages [fr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fr-3.0b7.tar.gz tmp/fr-3.1.tar.gz --markdown 20240408/f/fr/3.0b7-3.1/diff.md --exclude *.pyd
+[2024-04-08 01:00:56] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.2b9.tar.gz]
+[2024-04-08 01:00:56] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.tar.gz]
+[2024-04-08 01:00:56] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-08 01:00:56] INFO root fetch - processPackages [metabolabpytools]: Downloading https://files.pythonhosted.org/packages/09/c4/889fd9dcd5f7339fc406a6b403067a2bfb0b9fd6b185f90e2f6a7feed16e/metabolabpytools-0.9.8.tar.gz
+[2024-04-08 01:00:56] INFO root fetch - processPackages [fr]: Remove: archive file [/home/abi/fetcher/tmp/fr-3.0b7.tar.gz]
+[2024-04-08 01:00:56] INFO root fetch - processPackages [fr]: Remove: archive file [/home/abi/fetcher/tmp/fr-3.1.tar.gz]
+[2024-04-08 01:00:56] INFO root fetch - main [MainThread]: End processing [fr]: success
+[2024-04-08 01:00:56] WARNING root fetch - processPackages [metabolabpytools]: Timeout reached during download
+[2024-04-08 01:00:56] INFO root fetch - processPackages [metabolabpytools]: executing diffoscope
+[2024-04-08 01:00:56] INFO root fetch - processPackages [metabolabpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolabpytools-0.9.6.tar.gz tmp/metabolabpytools-0.9.8.tar.gz --markdown 20240408/m/metabolabpytools/0.9.6-0.9.8/diff.md --exclude *.pyd
+[2024-04-08 01:00:57] INFO root fetch - processPackages [metabolabpytools]: Remove: archive file [/home/abi/fetcher/tmp/metabolabpytools-0.9.6.tar.gz]
+[2024-04-08 01:00:57] INFO root fetch - processPackages [metabolabpytools]: Remove: archive file [/home/abi/fetcher/tmp/metabolabpytools-0.9.8.tar.gz]
+[2024-04-08 01:00:57] INFO root fetch - main [MainThread]: End processing [metabolabpytools]: success
+[2024-04-08 01:00:57] INFO root fetch - main [MainThread]: Store serial: [22659966]
