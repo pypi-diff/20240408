@@ -672,3 +672,36 @@
 [2024-04-08 00:54:24] INFO root fetch - processPackages [mixalime]: Remove: archive file [/home/abi/fetcher/tmp/mixalime-2.9.9.tar.gz]
 [2024-04-08 00:54:24] INFO root fetch - main [MainThread]: End processing [mixalime]: success
 [2024-04-08 00:54:24] INFO root fetch - main [MainThread]: Store serial: [22659939]
+[2024-04-08 00:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659939]
+[2024-04-08 00:56:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtmetabolabpy
+[2024-04-08 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: price-bars
+[2024-04-08 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpop
+[2024-04-08 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: betanegbinfit
+[2024-04-08 00:56:34] INFO root fetch - processPackages [cpop]: New version: [32.0.0] Old Version: [31.0.0]
+[2024-04-08 00:56:34] INFO root fetch - processPackages [betanegbinfit]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-08 00:56:34] INFO root fetch - processPackages [qtmetabolabpy]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-08 00:56:34] WARNING root fetch - processPackages [price-bars]: Skipping, unable to determine old version
+[2024-04-08 00:56:34] INFO root fetch - main [MainThread]: End processing [price-bars] error
+[2024-04-08 00:56:34] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/92/a7/54372d07da0ff76093ea9a6b313f26effae951c9f2b39cba062cec28199d/cpop-31.0.0.tar.gz
+[2024-04-08 00:56:34] INFO root fetch - processPackages [betanegbinfit]: Downloading https://files.pythonhosted.org/packages/ae/be/7777503dcdfd60ea3bb21665fc8ec4fc71e73842a75cc076b07d6df4441f/betanegbinfit-1.9.8.tar.gz
+[2024-04-08 00:56:34] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/fc/e2/f856056b07aa55a8d8a82bf8703c4191622708083a75f14b4916e6937e97/qtmetabolabpy-0.9.8.tar.gz
+[2024-04-08 00:56:34] WARNING root fetch - processPackages [qtmetabolabpy]: Skipping package: exceeds size limit 59150248>=10485760
+[2024-04-08 00:56:34] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy] error
+[2024-04-08 00:56:34] WARNING root fetch - processPackages [betanegbinfit]: Timeout reached during download
+[2024-04-08 00:56:34] WARNING root fetch - processPackages [cpop]: Timeout reached during download
+[2024-04-08 00:56:34] INFO root fetch - processPackages [betanegbinfit]: Downloading https://files.pythonhosted.org/packages/32/76/b4a428cd8ae5df71910c5feded2ad195f8b7754845cdadcec9915cbf5f8e/betanegbinfit-1.9.9.tar.gz
+[2024-04-08 00:56:34] WARNING root fetch - processPackages [betanegbinfit]: Timeout reached during download
+[2024-04-08 00:56:34] INFO root fetch - processPackages [betanegbinfit]: executing diffoscope
+[2024-04-08 00:56:34] INFO root fetch - processPackages [betanegbinfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betanegbinfit-1.9.8.tar.gz tmp/betanegbinfit-1.9.9.tar.gz --markdown 20240408/b/betanegbinfit/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-08 00:56:34] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/d5/a9/21e5bb705e0488c2c74ca1bf4499de66114b7e429966f4e941a432e5c667/cpop-32.0.0.tar.gz
+[2024-04-08 00:56:34] WARNING root fetch - processPackages [cpop]: Timeout reached during download
+[2024-04-08 00:56:34] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-08 00:56:34] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-31.0.0.tar.gz tmp/cpop-32.0.0.tar.gz --markdown 20240408/c/cpop/31.0.0-32.0.0/diff.md --exclude *.pyd
+[2024-04-08 00:56:35] INFO root fetch - processPackages [betanegbinfit]: Remove: archive file [/home/abi/fetcher/tmp/betanegbinfit-1.9.8.tar.gz]
+[2024-04-08 00:56:35] INFO root fetch - processPackages [betanegbinfit]: Remove: archive file [/home/abi/fetcher/tmp/betanegbinfit-1.9.9.tar.gz]
+[2024-04-08 00:56:35] INFO root fetch - main [MainThread]: End processing [betanegbinfit]: success
+[2024-04-08 00:56:35] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-31.0.0.tar.gz]
+[2024-04-08 00:56:35] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-32.0.0.tar.gz]
+[2024-04-08 00:56:35] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-08 00:56:35] INFO root fetch - main [MainThread]: Store serial: [22659951]
