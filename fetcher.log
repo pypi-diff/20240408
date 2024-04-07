@@ -1168,3 +1168,39 @@
 [2024-04-08 01:37:45] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.0.0rc4.tar.gz]
 [2024-04-08 01:37:45] INFO root fetch - main [MainThread]: End processing [geoglows]: success
 [2024-04-08 01:37:45] INFO root fetch - main [MainThread]: Store serial: [22660077]
+[2024-04-08 01:39:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660077]
+[2024-04-08 01:39:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataengine
+[2024-04-08 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feed2fedi
+[2024-04-08 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdm-conda
+[2024-04-08 01:39:54] INFO root fetch - processPackages [dataengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 01:39:54] INFO root fetch - processPackages [feed2fedi]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-04-08 01:39:54] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2024-04-08 01:39:54] INFO root fetch - processPackages [dataengine]: Downloading https://files.pythonhosted.org/packages/7f/81/fc6b67971e8784e7530090dc45b1797d47287c29de48fe1353cec4ae78dd/dataengine-0.0.8.tar.gz
+[2024-04-08 01:39:54] INFO root fetch - processPackages [feed2fedi]: Downloading https://files.pythonhosted.org/packages/ec/fe/2dccdc12b245419040968d39a426551bfefd42496e451eb459c3c68828ed/feed2fedi-2.0.0.tar.gz
+[2024-04-08 01:39:54] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/5d/1b/dc1cb149f079d3d41db755870a003994c36588d5a196747c0b7e42194938/pdm_conda-0.9.3b0.tar.gz
+[2024-04-08 01:39:54] WARNING root fetch - processPackages [feed2fedi]: Timeout reached during download
+[2024-04-08 01:39:54] WARNING root fetch - processPackages [dataengine]: Timeout reached during download
+[2024-04-08 01:39:54] WARNING root fetch - processPackages [pdm-conda]: Timeout reached during download
+[2024-04-08 01:39:54] INFO root fetch - processPackages [dataengine]: Downloading https://files.pythonhosted.org/packages/b4/d2/f8322f7f0b775b98c3631998815ac41d87d55acb0a6661e0037b0c37f1b0/dataengine-0.0.9.tar.gz
+[2024-04-08 01:39:54] INFO root fetch - processPackages [feed2fedi]: Downloading https://files.pythonhosted.org/packages/9c/86/25919990d0224c850d316815937c1c60abe4a06a4c83b4429e651b86e113/feed2fedi-3.0.0.tar.gz
+[2024-04-08 01:39:54] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/23/ae/9ae2762f3341650d36462bc006fcb4de1bea93e1cf224fb94dc45f376d38/pdm_conda-0.9.3b1.tar.gz
+[2024-04-08 01:39:54] WARNING root fetch - processPackages [feed2fedi]: Timeout reached during download
+[2024-04-08 01:39:54] INFO root fetch - processPackages [feed2fedi]: executing diffoscope
+[2024-04-08 01:39:54] INFO root fetch - processPackages [feed2fedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feed2fedi-2.0.0.tar.gz tmp/feed2fedi-3.0.0.tar.gz --markdown 20240408/f/feed2fedi/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2024-04-08 01:39:54] WARNING root fetch - processPackages [dataengine]: Timeout reached during download
+[2024-04-08 01:39:54] INFO root fetch - processPackages [dataengine]: executing diffoscope
+[2024-04-08 01:39:54] INFO root fetch - processPackages [dataengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataengine-0.0.8.tar.gz tmp/dataengine-0.0.9.tar.gz --markdown 20240408/d/dataengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 01:39:55] WARNING root fetch - processPackages [pdm-conda]: Timeout reached during download
+[2024-04-08 01:39:55] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2024-04-08 01:39:55] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20240408/p/pdm-conda/0.9.3b0-0.9.3b1/diff.md --exclude *.pyd
+[2024-04-08 01:39:55] INFO root fetch - processPackages [feed2fedi]: Remove: archive file [/home/abi/fetcher/tmp/feed2fedi-2.0.0.tar.gz]
+[2024-04-08 01:39:55] INFO root fetch - processPackages [feed2fedi]: Remove: archive file [/home/abi/fetcher/tmp/feed2fedi-3.0.0.tar.gz]
+[2024-04-08 01:39:55] INFO root fetch - main [MainThread]: End processing [feed2fedi]: success
+[2024-04-08 01:39:55] INFO root fetch - processPackages [dataengine]: Remove: archive file [/home/abi/fetcher/tmp/dataengine-0.0.8.tar.gz]
+[2024-04-08 01:39:55] INFO root fetch - processPackages [dataengine]: Remove: archive file [/home/abi/fetcher/tmp/dataengine-0.0.9.tar.gz]
+[2024-04-08 01:39:55] INFO root fetch - main [MainThread]: End processing [dataengine]: success
+[2024-04-08 01:39:55] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b0.tar.gz]
+[2024-04-08 01:39:55] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b1.tar.gz]
+[2024-04-08 01:39:55] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2024-04-08 01:39:55] INFO root fetch - main [MainThread]: Store serial: [22660087]
