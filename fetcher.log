@@ -1132,3 +1132,39 @@
 [2024-04-08 01:35:33] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.6.232655.dev0.tar.gz]
 [2024-04-08 01:35:33] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-04-08 01:35:33] INFO root fetch - main [MainThread]: Store serial: [22660069]
+[2024-04-08 01:37:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660069]
+[2024-04-08 01:37:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 01:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mov-cli
+[2024-04-08 01:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adls-acl
+[2024-04-08 01:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geoglows
+[2024-04-08 01:37:43] INFO root fetch - processPackages [adls-acl]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 01:37:43] INFO root fetch - processPackages [mov-cli]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-04-08 01:37:43] INFO root fetch - processPackages [geoglows]: New version: [1.0.0rc4] Old Version: [1.0.0rc3]
+[2024-04-08 01:37:43] INFO root fetch - processPackages [adls-acl]: Downloading https://files.pythonhosted.org/packages/2b/0e/89311abaf1fc4b164a3757fd98b9b2a67bdd2fc2b67e47d927e522fbc00b/adls_acl-0.0.3.tar.gz
+[2024-04-08 01:37:43] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/08/74/049ea936bb5c009d20a77230d35901c514c88f73635a7367dafa29431573/mov-cli-4.2.8.tar.gz
+[2024-04-08 01:37:43] WARNING root fetch - processPackages [adls-acl]: Timeout reached during download
+[2024-04-08 01:37:43] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/71/ea/f00f5b6c33eb92bfa65fc22819ba5a0913ae173b6642ccf37105c29ec2e2/geoglows-1.0.0rc3.tar.gz
+[2024-04-08 01:37:43] WARNING root fetch - processPackages [mov-cli]: Timeout reached during download
+[2024-04-08 01:37:44] WARNING root fetch - processPackages [geoglows]: Timeout reached during download
+[2024-04-08 01:37:44] INFO root fetch - processPackages [adls-acl]: Downloading https://files.pythonhosted.org/packages/02/00/c76ad7307339a8e1a29070067abc179ac48f4751a075c7f87e6aa0bbeff6/adls_acl-0.0.4.tar.gz
+[2024-04-08 01:37:44] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/50/fd/7415356b93530e0f35b03e1344ccca112ede6501207f15f8705de808e559/mov-cli-4.2.9.tar.gz
+[2024-04-08 01:37:44] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/a6/ab/5d6d1d135c5eeea556c868689b3f7754b54079f5a35a5f101de267c76c9e/geoglows-1.0.0rc4.tar.gz
+[2024-04-08 01:37:44] WARNING root fetch - processPackages [adls-acl]: Timeout reached during download
+[2024-04-08 01:37:44] INFO root fetch - processPackages [adls-acl]: executing diffoscope
+[2024-04-08 01:37:44] INFO root fetch - processPackages [adls-acl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adls_acl-0.0.3.tar.gz tmp/adls_acl-0.0.4.tar.gz --markdown 20240408/a/adls-acl/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 01:37:44] WARNING root fetch - processPackages [mov-cli]: Timeout reached during download
+[2024-04-08 01:37:44] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2024-04-08 01:37:44] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-4.2.8.tar.gz tmp/mov-cli-4.2.9.tar.gz --markdown 20240408/m/mov-cli/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2024-04-08 01:37:44] WARNING root fetch - processPackages [geoglows]: Timeout reached during download
+[2024-04-08 01:37:44] INFO root fetch - processPackages [geoglows]: executing diffoscope
+[2024-04-08 01:37:44] INFO root fetch - processPackages [geoglows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoglows-1.0.0rc3.tar.gz tmp/geoglows-1.0.0rc4.tar.gz --markdown 20240408/g/geoglows/1.0.0rc3-1.0.0rc4/diff.md --exclude *.pyd
+[2024-04-08 01:37:44] INFO root fetch - processPackages [adls-acl]: Remove: archive file [/home/abi/fetcher/tmp/adls_acl-0.0.3.tar.gz]
+[2024-04-08 01:37:44] INFO root fetch - processPackages [adls-acl]: Remove: archive file [/home/abi/fetcher/tmp/adls_acl-0.0.4.tar.gz]
+[2024-04-08 01:37:44] INFO root fetch - main [MainThread]: End processing [adls-acl]: success
+[2024-04-08 01:37:45] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-4.2.8.tar.gz]
+[2024-04-08 01:37:45] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-4.2.9.tar.gz]
+[2024-04-08 01:37:45] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2024-04-08 01:37:45] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.0.0rc3.tar.gz]
+[2024-04-08 01:37:45] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.0.0rc4.tar.gz]
+[2024-04-08 01:37:45] INFO root fetch - main [MainThread]: End processing [geoglows]: success
+[2024-04-08 01:37:45] INFO root fetch - main [MainThread]: Store serial: [22660077]
