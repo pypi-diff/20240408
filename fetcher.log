@@ -922,3 +922,28 @@
 [2024-04-08 01:13:58] WARNING root fetch - processPackages [kucoin-futures-lib]: Skipping, unable to determine old version
 [2024-04-08 01:13:58] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib] error
 [2024-04-08 01:13:58] INFO root fetch - main [MainThread]: Store serial: [22660014]
+[2024-04-08 01:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660014]
+[2024-04-08 01:16:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 01:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backup_warden
+[2024-04-08 01:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoanki
+[2024-04-08 01:16:06] INFO root fetch - processPackages [backup_warden]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-08 01:16:06] INFO root fetch - processPackages [autoanki]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-08 01:16:07] INFO root fetch - processPackages [backup_warden]: Downloading https://files.pythonhosted.org/packages/56/6c/0979c1fceba987b4cdcacf2b3c4c8aa0b085b8f23af89cc846193848602c/backup_warden-1.0.6.tar.gz
+[2024-04-08 01:16:07] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/e3/d5/51a69dbc6b1d778ccd962fa9788f6ebec9371b7a70a624784aa774ddfe0f/autoanki-1.1.6.tar.gz
+[2024-04-08 01:16:07] WARNING root fetch - processPackages [autoanki]: Timeout reached during download
+[2024-04-08 01:16:07] WARNING root fetch - processPackages [backup_warden]: Timeout reached during download
+[2024-04-08 01:16:07] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/b1/6f/3b6b7d6163528c6dd2a4cce4fd8fa1d57aa20bf183dca5f15512db5a6d35/autoanki-1.1.7.tar.gz
+[2024-04-08 01:16:07] INFO root fetch - processPackages [backup_warden]: Downloading https://files.pythonhosted.org/packages/3f/dd/3e47c9496c3580bcbb627bfad59de03cf156ac0c3102c1e04e2274411b4a/backup_warden-1.0.7.tar.gz
+[2024-04-08 01:16:07] WARNING root fetch - processPackages [autoanki]: Timeout reached during download
+[2024-04-08 01:16:07] INFO root fetch - processPackages [autoanki]: executing diffoscope
+[2024-04-08 01:16:07] INFO root fetch - processPackages [autoanki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoanki-1.1.6.tar.gz tmp/autoanki-1.1.7.tar.gz --markdown 20240408/a/autoanki/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2024-04-08 01:16:07] WARNING root fetch - processPackages [backup_warden]: Timeout reached during download
+[2024-04-08 01:16:07] INFO root fetch - processPackages [backup_warden]: executing diffoscope
+[2024-04-08 01:16:07] INFO root fetch - processPackages [backup_warden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backup_warden-1.0.6.tar.gz tmp/backup_warden-1.0.7.tar.gz --markdown 20240408/b/backup_warden/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-08 01:16:08] INFO root fetch - processPackages [backup_warden]: Remove: archive file [/home/abi/fetcher/tmp/backup_warden-1.0.6.tar.gz]
+[2024-04-08 01:16:08] INFO root fetch - processPackages [backup_warden]: Remove: archive file [/home/abi/fetcher/tmp/backup_warden-1.0.7.tar.gz]
+[2024-04-08 01:16:08] INFO root fetch - main [MainThread]: End processing [backup_warden]: success
+[2024-04-08 01:16:08] INFO root fetch - processPackages [autoanki]: Remove: archive file [/home/abi/fetcher/tmp/autoanki-1.1.6.tar.gz]
+[2024-04-08 01:16:08] INFO root fetch - processPackages [autoanki]: Remove: archive file [/home/abi/fetcher/tmp/autoanki-1.1.7.tar.gz]
+[2024-04-08 01:16:08] INFO root fetch - main [MainThread]: End processing [autoanki]: success
+[2024-04-08 01:16:08] INFO root fetch - main [MainThread]: Store serial: [22660020]
