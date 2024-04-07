@@ -540,3 +540,25 @@
 [2024-04-08 00:43:33] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.6rc45.post1.tar.gz]
 [2024-04-08 00:43:33] INFO root fetch - main [MainThread]: End processing [reprompt]: success
 [2024-04-08 00:43:33] INFO root fetch - main [MainThread]: Store serial: [22659877]
+[2024-04-08 00:45:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22659877]
+[2024-04-08 00:45:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LeerImagenes
+[2024-04-08 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qtmetabolabpy
+[2024-04-08 00:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmuxp
+[2024-04-08 00:45:41] WARNING root fetch - processPackages [LeerImagenes]: Skipping, unable to determine old version
+[2024-04-08 00:45:41] INFO root fetch - main [MainThread]: End processing [LeerImagenes] error
+[2024-04-08 00:45:41] INFO root fetch - processPackages [qtmetabolabpy]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-08 00:45:42] INFO root fetch - processPackages [tmuxp]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-08 00:45:42] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/fc/e2/f856056b07aa55a8d8a82bf8703c4191622708083a75f14b4916e6937e97/qtmetabolabpy-0.9.8.tar.gz
+[2024-04-08 00:45:42] INFO root fetch - processPackages [tmuxp]: Downloading https://files.pythonhosted.org/packages/35/d3/b8fe5cb0bc52abf33f8d5846a48bbca0ea35a3e1a3ebff99a8cb3dc1692b/tmuxp-1.9.3.tar.gz
+[2024-04-08 00:45:42] WARNING root fetch - processPackages [qtmetabolabpy]: Skipping package: exceeds size limit 59150248>=10485760
+[2024-04-08 00:45:42] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy] error
+[2024-04-08 00:45:42] WARNING root fetch - processPackages [tmuxp]: Timeout reached during download
+[2024-04-08 00:45:42] INFO root fetch - processPackages [tmuxp]: Downloading https://files.pythonhosted.org/packages/7a/ae/56b8199f9768f276e8c08f1ac45f7a1125582700d3cf66210c6dc09c4412/tmuxp-1.9.4.tar.gz
+[2024-04-08 00:45:43] WARNING root fetch - processPackages [tmuxp]: Timeout reached during download
+[2024-04-08 00:45:43] INFO root fetch - processPackages [tmuxp]: executing diffoscope
+[2024-04-08 00:45:43] INFO root fetch - processPackages [tmuxp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmuxp-1.9.3.tar.gz tmp/tmuxp-1.9.4.tar.gz --markdown 20240408/t/tmuxp/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2024-04-08 00:45:43] INFO root fetch - processPackages [tmuxp]: Remove: archive file [/home/abi/fetcher/tmp/tmuxp-1.9.3.tar.gz]
+[2024-04-08 00:45:43] INFO root fetch - processPackages [tmuxp]: Remove: archive file [/home/abi/fetcher/tmp/tmuxp-1.9.4.tar.gz]
+[2024-04-08 00:45:43] INFO root fetch - main [MainThread]: End processing [tmuxp]: success
+[2024-04-08 00:45:43] INFO root fetch - main [MainThread]: Store serial: [22659886]
