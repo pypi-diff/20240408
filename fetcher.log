@@ -2157,3 +2157,50 @@
 [2024-04-08 02:47:20] INFO root fetch - processPackages [langcheck]: Remove: archive file [/home/abi/fetcher/tmp/langcheck-0.6.0-py3-none-any.whl.zip]
 [2024-04-08 02:47:20] INFO root fetch - main [MainThread]: End processing [langcheck]: success
 [2024-04-08 02:47:20] INFO root fetch - main [MainThread]: Store serial: [22660455]
+[2024-04-08 02:49:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660455]
+[2024-04-08 02:49:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 02:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langcheck
+[2024-04-08 02:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepllm
+[2024-04-08 02:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-criteria
+[2024-04-08 02:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2024-04-08 02:49:29] INFO root fetch - processPackages [langcheck]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-08 02:49:29] INFO root fetch - processPackages [python-criteria]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-08 02:49:29] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-08 02:49:29] INFO root fetch - processPackages [deepllm]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-08 02:49:29] INFO root fetch - processPackages [langcheck]: Downloading https://files.pythonhosted.org/packages/8e/63/e77bb1a40113208f1ad7d0f292feaddd040266fcd7e78cf49fab99937c95/langcheck-0.5.0.tar.gz
+[2024-04-08 02:49:29] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-08 02:49:29] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/13/87/cb779f32b2cb2982a533899bb5541f27a0909a025842c0e5b434e0d17f45/python-criteria-0.3.1.tar.gz
+[2024-04-08 02:49:29] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/b6/bb/c67b68bb8e4389b12cd476f16f27f9b95e0a035b763df631d564e56b3bc9/deepllm-1.4.3.tar.gz
+[2024-04-08 02:49:29] WARNING root fetch - processPackages [langcheck]: Timeout reached during download
+[2024-04-08 02:49:29] WARNING root fetch - processPackages [bioversions]: Timeout reached during download
+[2024-04-08 02:49:29] WARNING root fetch - processPackages [python-criteria]: Timeout reached during download
+[2024-04-08 02:49:29] INFO root fetch - processPackages [langcheck]: Downloading https://files.pythonhosted.org/packages/17/6e/8a51d77e7baf8bd079f3dbead257c2982a2b03a4844018e9ac4f4310b720/langcheck-0.6.0-py3-none-any.whl
+[2024-04-08 02:49:29] WARNING root fetch - processPackages [deepllm]: Timeout reached during download
+[2024-04-08 02:49:29] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-08 02:49:29] WARNING root fetch - processPackages [langcheck]: Timeout reached during download
+[2024-04-08 02:49:29] INFO root fetch - processPackages [langcheck]: executing diffoscope
+[2024-04-08 02:49:29] INFO root fetch - processPackages [langcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langcheck-0.5.0.tar.gz tmp/langcheck-0.6.0-py3-none-any.whl.zip --markdown 20240408/l/langcheck/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-08 02:49:29] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/91/a9/d211ff40b72cc63cd582875047a3f00ca882d18b5189f73664a66a635a19/python-criteria-0.3.2.tar.gz
+[2024-04-08 02:49:29] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/e7/1d/c14d73fd27e0124219337d50a3dd4cabb551bb4fd225e28ba9db2aefcb0b/deepllm-1.4.4.tar.gz
+[2024-04-08 02:49:29] WARNING root fetch - processPackages [bioversions]: Timeout reached during download
+[2024-04-08 02:49:29] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-08 02:49:29] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240408/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2024-04-08 02:49:29] WARNING root fetch - processPackages [python-criteria]: Timeout reached during download
+[2024-04-08 02:49:29] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-04-08 02:49:29] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-criteria-0.3.1.tar.gz tmp/python-criteria-0.3.2.tar.gz --markdown 20240408/p/python-criteria/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-08 02:49:29] WARNING root fetch - processPackages [deepllm]: Timeout reached during download
+[2024-04-08 02:49:29] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2024-04-08 02:49:29] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-1.4.3.tar.gz tmp/deepllm-1.4.4.tar.gz --markdown 20240408/d/deepllm/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2024-04-08 02:49:30] INFO root fetch - processPackages [langcheck]: Remove: archive file [/home/abi/fetcher/tmp/langcheck-0.5.0.tar.gz]
+[2024-04-08 02:49:30] INFO root fetch - processPackages [langcheck]: Remove: archive file [/home/abi/fetcher/tmp/langcheck-0.6.0-py3-none-any.whl.zip]
+[2024-04-08 02:49:30] INFO root fetch - main [MainThread]: End processing [langcheck]: success
+[2024-04-08 02:49:30] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.3.1.tar.gz]
+[2024-04-08 02:49:30] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.3.2.tar.gz]
+[2024-04-08 02:49:30] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-04-08 02:49:30] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.4.3.tar.gz]
+[2024-04-08 02:49:30] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.4.4.tar.gz]
+[2024-04-08 02:49:30] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2024-04-08 02:49:48] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-08 02:49:48] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-08 02:49:48] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-08 02:49:48] INFO root fetch - main [MainThread]: Store serial: [22660466]
