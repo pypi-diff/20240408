@@ -18812,3 +18812,20 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:23:17] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.2.9.tar.gz]
 [2024-04-08 13:23:17] INFO root fetch - main [MainThread]: End processing [gfagraphs]: success
 [2024-04-08 13:23:17] INFO root fetch - main [MainThread]: Store serial: [22666237]
+[2024-04-08 13:25:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666237]
+[2024-04-08 13:25:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 13:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocf-datapipes
+[2024-04-08 13:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssh-ca-cli
+[2024-04-08 13:25:26] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-08 13:25:26] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-04-08 13:25:26] WARNING root fetch - processPackages [ssh-ca-cli]: Skipping, unable to determine old version
+[2024-04-08 13:25:26] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli] error
+[2024-04-08 13:25:26] WARNING root fetch - processPackages [ocf-datapipes]: Timeout reached during download
+[2024-04-08 13:25:26] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/55/0a/5970538e840540313fb117c6e1f7bad44ee3f3749d076d0440485cc60a89/ocf_datapipes-3.3.9.tar.gz
+[2024-04-08 13:25:27] WARNING root fetch - processPackages [ocf-datapipes]: Timeout reached during download
+[2024-04-08 13:25:27] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-04-08 13:25:27] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.8.tar.gz tmp/ocf_datapipes-3.3.9.tar.gz --markdown 20240408/o/ocf-datapipes/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2024-04-08 13:25:27] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-04-08 13:25:27] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
+[2024-04-08 13:25:27] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-04-08 13:25:27] INFO root fetch - main [MainThread]: Store serial: [22666251]
