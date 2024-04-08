@@ -10821,3 +10821,42 @@
 [2024-04-08 08:53:13] INFO root fetch - processPackages [spbnet]: Remove: archive file [/home/abi/fetcher/tmp/spbnet-0.0.2.tar.gz]
 [2024-04-08 08:53:13] INFO root fetch - main [MainThread]: End processing [spbnet]: success
 [2024-04-08 08:53:13] INFO root fetch - main [MainThread]: Store serial: [22663169]
+[2024-04-08 08:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663169]
+[2024-04-08 08:55:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-qt
+[2024-04-08 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptoowl
+[2024-04-08 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crossword-puzzle
+[2024-04-08 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ood_detectors
+[2024-04-08 08:55:21] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.45] Old Version: [1.2.44]
+[2024-04-08 08:55:21] INFO root fetch - processPackages [polars-qt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 08:55:21] WARNING root fetch - processPackages [ood_detectors]: Skipping, unable to determine old version
+[2024-04-08 08:55:21] INFO root fetch - main [MainThread]: End processing [ood_detectors] error
+[2024-04-08 08:55:21] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 08:55:21] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/d6/91/73979bb381e867b6068954d09cb6ae3269b81da9033cfb550fe43309c788/crossword_puzzle-1.2.44.tar.gz
+[2024-04-08 08:55:22] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/f7/47/e71a4ebb020f6077add42c9e92800a30591758413247971acbbc19b9d598/polars_qt-0.1.1.tar.gz
+[2024-04-08 08:55:22] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2024-04-08 08:55:22] WARNING root fetch - processPackages [crossword-puzzle]: Timeout reached during download
+[2024-04-08 08:55:22] WARNING root fetch - processPackages [polars-qt]: Timeout reached during download
+[2024-04-08 08:55:22] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-08 08:55:22] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/f8/c1/436acafc5944acee9fff5cc1a724e3f41d2b715cf0e52620b2d3dc867626/polars_qt-0.1.2.tar.gz
+[2024-04-08 08:55:22] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/1c/26/f43e88c5ac33ff617f8fe34781dd4bd063a77317ac357116f1752348e625/crossword_puzzle-1.2.45.tar.gz
+[2024-04-08 08:55:22] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2024-04-08 08:55:22] WARNING root fetch - processPackages [polars-qt]: Timeout reached during download
+[2024-04-08 08:55:22] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-04-08 08:55:22] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.1.tar.gz tmp/polars_qt-0.1.2.tar.gz --markdown 20240408/p/polars-qt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 08:55:22] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-08 08:55:22] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2024-04-08 08:55:22] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20240408/c/cryptoowl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 08:55:23] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2024-04-08 08:55:23] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2024-04-08 08:55:23] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2024-04-08 08:55:23] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.1.tar.gz]
+[2024-04-08 08:55:23] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.2.tar.gz]
+[2024-04-08 08:55:23] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-04-08 08:55:23] WARNING root fetch - processPackages [crossword-puzzle]: Timeout reached during download
+[2024-04-08 08:55:23] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-04-08 08:55:23] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.44.tar.gz tmp/crossword_puzzle-1.2.45.tar.gz --markdown 20240408/c/crossword-puzzle/1.2.44-1.2.45/diff.md --exclude *.pyd
+[2024-04-08 08:55:50] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.44.tar.gz]
+[2024-04-08 08:55:50] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.45.tar.gz]
+[2024-04-08 08:55:50] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-04-08 08:55:50] INFO root fetch - main [MainThread]: Store serial: [22663189]
