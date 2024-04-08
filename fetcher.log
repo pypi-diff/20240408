@@ -1806,3 +1806,47 @@
 [2024-04-08 02:19:12] INFO root fetch - processPackages [RealTimeTTS]: Remove: archive file [/home/abi/fetcher/tmp/RealTimeTTS-0.3.44.tar.gz]
 [2024-04-08 02:19:12] INFO root fetch - main [MainThread]: End processing [RealTimeTTS]: success
 [2024-04-08 02:19:12] INFO root fetch - main [MainThread]: Store serial: [22660304]
+[2024-04-08 02:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660304]
+[2024-04-08 02:21:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 02:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crowbar-package-manager
+[2024-04-08 02:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchao-nightly
+[2024-04-08 02:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vulcan-logger
+[2024-04-08 02:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baseball
+[2024-04-08 02:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-cr-constructs
+[2024-04-08 02:21:20] WARNING root fetch - processPackages [crowbar-package-manager]: Skipping, unable to determine old version
+[2024-04-08 02:21:20] INFO root fetch - main [MainThread]: End processing [crowbar-package-manager] error
+[2024-04-08 02:21:20] INFO root fetch - processPackages [vulcan-logger]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-08 02:21:20] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-04-08 02:21:20] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-08 02:21:20] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.420] Old Version: [2.1.419]
+[2024-04-08 02:21:20] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/a9/97/b30007cffdb104caf3c482e0857745e1989f364cb4b9a6a6e29f82c85d89/torchao-nightly-2024.4.7.tar.gz
+[2024-04-08 02:21:20] INFO root fetch - processPackages [vulcan-logger]: Downloading https://files.pythonhosted.org/packages/d2/42/3ebcc7aaeefddf683175885b280447e3c1f23924657e3f55a28ff2d90a5b/vulcan-logger-1.4.3.tar.gz
+[2024-04-08 02:21:20] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-04-08 02:21:20] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/f6/1b/35c73a17a1d6edbeff3153f400f418506f5c606a1031edbd89bbe3da67f4/cdk-cr-constructs-2.1.419.tar.gz
+[2024-04-08 02:21:20] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15081404>=10485760
+[2024-04-08 02:21:20] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-08 02:21:20] WARNING root fetch - processPackages [vulcan-logger]: Timeout reached during download
+[2024-04-08 02:21:20] WARNING root fetch - processPackages [torchao-nightly]: Timeout reached during download
+[2024-04-08 02:21:20] WARNING root fetch - processPackages [baseball]: Timeout reached during download
+[2024-04-08 02:21:20] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-08 02:21:21] INFO root fetch - processPackages [vulcan-logger]: Downloading https://files.pythonhosted.org/packages/18/af/475aef16e272089e56414bb4c7df03805d3d42933346bff8006f66098849/vulcan-logger-1.4.4.tar.gz
+[2024-04-08 02:21:21] WARNING root fetch - processPackages [torchao-nightly]: Timeout reached during download
+[2024-04-08 02:21:21] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-08 02:21:21] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.7.tar.gz tmp/torchao-nightly-2024.4.8.tar.gz --markdown 20240408/t/torchao-nightly/2024.4.7-2024.4.8/diff.md --exclude *.pyd
+[2024-04-08 02:21:21] WARNING root fetch - processPackages [vulcan-logger]: Timeout reached during download
+[2024-04-08 02:21:21] INFO root fetch - processPackages [vulcan-logger]: executing diffoscope
+[2024-04-08 02:21:21] INFO root fetch - processPackages [vulcan-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-logger-1.4.3.tar.gz tmp/vulcan-logger-1.4.4.tar.gz --markdown 20240408/v/vulcan-logger/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2024-04-08 02:21:21] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-04-08 02:21:21] WARNING root fetch - processPackages [baseball]: Timeout reached during download
+[2024-04-08 02:21:21] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-04-08 02:21:21] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240408/b/baseball/9.8-9.9/diff.md --exclude *.pyd
+[2024-04-08 02:21:21] INFO root fetch - processPackages [vulcan-logger]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-logger-1.4.3.tar.gz]
+[2024-04-08 02:21:21] INFO root fetch - processPackages [vulcan-logger]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-logger-1.4.4.tar.gz]
+[2024-04-08 02:21:21] INFO root fetch - main [MainThread]: End processing [vulcan-logger]: success
+[2024-04-08 02:21:21] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.7.tar.gz]
+[2024-04-08 02:21:21] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-08 02:21:21] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-08 02:21:21] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-04-08 02:21:21] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-04-08 02:21:21] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-04-08 02:21:21] INFO root fetch - main [MainThread]: Store serial: [22660326]
