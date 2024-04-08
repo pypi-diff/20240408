@@ -14790,3 +14790,42 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:12:01] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.0.1.tar.gz]
 [2024-04-08 11:12:01] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
 [2024-04-08 11:12:01] INFO root fetch - main [MainThread]: Store serial: [22664776]
+[2024-04-08 11:14:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664776]
+[2024-04-08 11:14:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 11:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-08 11:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: climetlab
+[2024-04-08 11:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenGLRenderer
+[2024-04-08 11:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clickzetta-connector
+[2024-04-08 11:14:10] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 11:14:10] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-08 11:14:10] WARNING root fetch - processPackages [OpenGLRenderer]: Skipping, unable to determine old version
+[2024-04-08 11:14:10] INFO root fetch - main [MainThread]: End processing [OpenGLRenderer] error
+[2024-04-08 11:14:10] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 11:14:10] INFO root fetch - processPackages [climetlab]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-08 11:14:10] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 11:14:10] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/db/6d/a65baa433c96d08ee4c6d1cfbe1c0a5763bc35da5ded747d4a8eddebb428/climetlab-0.9.8.tar.gz
+[2024-04-08 11:14:10] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-08 11:14:10] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2024-04-08 11:14:10] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 11:14:10] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 11:14:10] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 11:14:10] WARNING root fetch - processPackages [climetlab]: Timeout reached during download
+[2024-04-08 11:14:10] WARNING root fetch - processPackages [clickzetta-connector]: Timeout reached during download
+[2024-04-08 11:14:11] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/83/c3/c4d839d84ba4b462b80d34c1f967286e0291e6a2bf10ae84af528abaff6f/climetlab-0.9.9.tar.gz
+[2024-04-08 11:14:11] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2024-04-08 11:14:11] WARNING root fetch - processPackages [climetlab]: Timeout reached during download
+[2024-04-08 11:14:11] INFO root fetch - processPackages [climetlab]: executing diffoscope
+[2024-04-08 11:14:11] INFO root fetch - processPackages [climetlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climetlab-0.9.8.tar.gz tmp/climetlab-0.9.9.tar.gz --markdown 20240408/c/climetlab/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-08 11:14:11] WARNING root fetch - processPackages [clickzetta-connector]: Timeout reached during download
+[2024-04-08 11:14:11] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2024-04-08 11:14:11] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20240408/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 11:14:11] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-08 11:14:11] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-08 11:14:11] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 11:14:12] INFO root fetch - processPackages [climetlab]: Remove: archive file [/home/abi/fetcher/tmp/climetlab-0.9.8.tar.gz]
+[2024-04-08 11:14:12] INFO root fetch - processPackages [climetlab]: Remove: archive file [/home/abi/fetcher/tmp/climetlab-0.9.9.tar.gz]
+[2024-04-08 11:14:12] INFO root fetch - main [MainThread]: End processing [climetlab]: success
+[2024-04-08 11:14:12] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2024-04-08 11:14:12] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2024-04-08 11:14:12] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2024-04-08 11:14:12] INFO root fetch - main [MainThread]: Store serial: [22664791]
