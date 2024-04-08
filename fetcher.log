@@ -13651,3 +13651,86 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:38:34] INFO root fetch - processPackages [mlcroissant]: Remove: archive file [/home/abi/fetcher/tmp/mlcroissant-1.0.5.tar.gz]
 [2024-04-08 10:38:34] INFO root fetch - main [MainThread]: End processing [mlcroissant]: success
 [2024-04-08 10:38:34] INFO root fetch - main [MainThread]: Store serial: [22664318]
+[2024-04-08 10:40:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664318]
+[2024-04-08 10:40:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 10:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nowcasting-datamodel
+[2024-04-08 10:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sellpath-test
+[2024-04-08 10:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Canaille
+[2024-04-08 10:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-zhipu
+[2024-04-08 10:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clarifai
+[2024-04-08 10:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-spotinst
+[2024-04-08 10:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djelm
+[2024-04-08 10:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nef-pipelines
+[2024-04-08 10:40:44] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.59] Old Version: [0.1.58]
+[2024-04-08 10:40:44] INFO root fetch - processPackages [Canaille]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 10:40:44] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/59/11/b0c93c51c5126bf4a49afefd8bfd73b0987d2a9ce3b7bd45e6f9fe8c7784/nef_pipelines-0.1.58.tar.gz
+[2024-04-08 10:40:44] INFO root fetch - processPackages [sellpath-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 10:40:44] WARNING root fetch - processPackages [llm-zhipu]: Skipping, unable to determine old version
+[2024-04-08 10:40:44] INFO root fetch - processPackages [djelm]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-08 10:40:44] INFO root fetch - main [MainThread]: End processing [llm-zhipu] error
+[2024-04-08 10:40:44] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-08 10:40:44] INFO root fetch - processPackages [clarifai]: New version: [9.9.3] Old Version: [9.9.2]
+[2024-04-08 10:40:45] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-08 10:40:45] INFO root fetch - processPackages [Canaille]: Downloading https://files.pythonhosted.org/packages/d6/eb/991a3a33db9ca5921988151369084477a94b823d1f0b8df10104a1cf97eb/Canaille-0.0.8.tar.gz
+[2024-04-08 10:40:45] INFO root fetch - processPackages [sellpath-test]: Downloading https://files.pythonhosted.org/packages/5d/6d/584e0d4f38b73c4d8951531a3bc9d7ff848fc8b6de433d094ad35e293624/sellpath_test-0.0.8.tar.gz
+[2024-04-08 10:40:45] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/58/25/2b3ac470122ec3829575f5be737d9082e304ea6b16accd48e9aef58a6b24/djelm-0.7.0.tar.gz
+[2024-04-08 10:40:45] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/1f/1f/206aa0caf9bff7b476371f68f4e7fe31d2260b107a6c6f7b398a9384686f/clarifai-9.9.2.tar.gz
+[2024-04-08 10:40:45] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/1c/b1/59a9915375868de28c63c4daecf8fad3f1b17f2e2e195c7e901f0d717ae2/nowcasting_datamodel-1.5.8.tar.gz
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [sellpath-test]: Timeout reached during download
+[2024-04-08 10:40:45] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [nef-pipelines]: Timeout reached during download
+[2024-04-08 10:40:45] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/5e/71/3c484fceef42538271e142be7deea5670a98746b2262889323d2e9340fd9/nef_pipelines-0.1.59.tar.gz
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [pulumi-spotinst]: Timeout reached during download
+[2024-04-08 10:40:45] INFO root fetch - processPackages [sellpath-test]: Downloading https://files.pythonhosted.org/packages/e5/5f/5957ec45270ed1766f438311bc62d3a9b36cf0a46f4cdeeb9ce3964a370d/sellpath_test-0.0.9.tar.gz
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [djelm]: Timeout reached during download
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [nowcasting-datamodel]: Timeout reached during download
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [sellpath-test]: Timeout reached during download
+[2024-04-08 10:40:45] INFO root fetch - processPackages [sellpath-test]: executing diffoscope
+[2024-04-08 10:40:45] INFO root fetch - processPackages [sellpath-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sellpath_test-0.0.8.tar.gz tmp/sellpath_test-0.0.9.tar.gz --markdown 20240408/s/sellpath-test/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [nef-pipelines]: Timeout reached during download
+[2024-04-08 10:40:45] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2024-04-08 10:40:45] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.58.tar.gz tmp/nef_pipelines-0.1.59.tar.gz --markdown 20240408/n/nef-pipelines/0.1.58-0.1.59/diff.md --exclude *.pyd
+[2024-04-08 10:40:45] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/45/62/f2826e16f9aece0c611e1f6126e5dcd5ba2aa36784f7d24c4853a5c2a614/djelm-0.8.0.tar.gz
+[2024-04-08 10:40:45] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-08 10:40:45] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/e1/29/2f161e72e5afe3e3a4176debc51596fb16247c07e08d93e9fcba28b2cfba/nowcasting_datamodel-1.5.9.tar.gz
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [clarifai]: Timeout reached during download
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [djelm]: Timeout reached during download
+[2024-04-08 10:40:45] INFO root fetch - processPackages [djelm]: executing diffoscope
+[2024-04-08 10:40:45] INFO root fetch - processPackages [djelm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djelm-0.7.0.tar.gz tmp/djelm-0.8.0.tar.gz --markdown 20240408/d/djelm/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [pulumi-spotinst]: Timeout reached during download
+[2024-04-08 10:40:45] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-08 10:40:45] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240408/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2024-04-08 10:40:45] WARNING root fetch - processPackages [nowcasting-datamodel]: Timeout reached during download
+[2024-04-08 10:40:45] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2024-04-08 10:40:45] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.5.8.tar.gz tmp/nowcasting_datamodel-1.5.9.tar.gz --markdown 20240408/n/nowcasting-datamodel/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-08 10:40:46] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/bb/4f/fc60395f457832dc34baa577d757b752d4d0fe0da35a5c810772ee5404ed/clarifai-9.9.3.tar.gz
+[2024-04-08 10:40:46] WARNING root fetch - processPackages [Canaille]: Timeout reached during download
+[2024-04-08 10:40:46] INFO root fetch - processPackages [Canaille]: Downloading https://files.pythonhosted.org/packages/ea/de/e5cb98bd36f4d3ede89c7fd372eb1414185d621efaba9f50b438082962d5/Canaille-0.0.9.tar.gz
+[2024-04-08 10:40:46] INFO root fetch - processPackages [sellpath-test]: Remove: archive file [/home/abi/fetcher/tmp/sellpath_test-0.0.8.tar.gz]
+[2024-04-08 10:40:46] INFO root fetch - processPackages [sellpath-test]: Remove: archive file [/home/abi/fetcher/tmp/sellpath_test-0.0.9.tar.gz]
+[2024-04-08 10:40:46] INFO root fetch - main [MainThread]: End processing [sellpath-test]: success
+[2024-04-08 10:40:46] WARNING root fetch - processPackages [clarifai]: Timeout reached during download
+[2024-04-08 10:40:46] INFO root fetch - processPackages [clarifai]: executing diffoscope
+[2024-04-08 10:40:46] INFO root fetch - processPackages [clarifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-9.9.2.tar.gz tmp/clarifai-9.9.3.tar.gz --markdown 20240408/c/clarifai/9.9.2-9.9.3/diff.md --exclude *.pyd
+[2024-04-08 10:40:46] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.7.0.tar.gz]
+[2024-04-08 10:40:46] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.8.0.tar.gz]
+[2024-04-08 10:40:46] INFO root fetch - main [MainThread]: End processing [djelm]: success
+[2024-04-08 10:40:46] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.8.tar.gz]
+[2024-04-08 10:40:46] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.9.tar.gz]
+[2024-04-08 10:40:46] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2024-04-08 10:40:47] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-08 10:40:47] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-08 10:40:47] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-08 10:40:47] WARNING root fetch - processPackages [Canaille]: Timeout reached during download
+[2024-04-08 10:40:47] INFO root fetch - processPackages [Canaille]: executing diffoscope
+[2024-04-08 10:40:47] INFO root fetch - processPackages [Canaille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Canaille-0.0.8.tar.gz tmp/Canaille-0.0.9.tar.gz --markdown 20240408/C/Canaille/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:40:48] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.58.tar.gz]
+[2024-04-08 10:40:48] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.59.tar.gz]
+[2024-04-08 10:40:48] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2024-04-08 10:40:48] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.9.2.tar.gz]
+[2024-04-08 10:40:48] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.9.3.tar.gz]
+[2024-04-08 10:40:48] INFO root fetch - main [MainThread]: End processing [clarifai]: success
+[2024-04-08 10:40:48] INFO root fetch - processPackages [Canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.8.tar.gz]
+[2024-04-08 10:40:48] INFO root fetch - processPackages [Canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.9.tar.gz]
+[2024-04-08 10:40:48] INFO root fetch - main [MainThread]: End processing [Canaille]: success
+[2024-04-08 10:40:48] INFO root fetch - main [MainThread]: Store serial: [22664345]
