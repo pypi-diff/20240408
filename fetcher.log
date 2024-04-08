@@ -13734,3 +13734,99 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:40:48] INFO root fetch - processPackages [Canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.9.tar.gz]
 [2024-04-08 10:40:48] INFO root fetch - main [MainThread]: End processing [Canaille]: success
 [2024-04-08 10:40:48] INFO root fetch - main [MainThread]: Store serial: [22664345]
+[2024-04-08 10:42:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664345]
+[2024-04-08 10:42:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-08 10:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuzu
+[2024-04-08 10:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-04-08 10:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandadoc-python-client
+[2024-04-08 10:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decentriq-platform
+[2024-04-08 10:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2024-04-08 10:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentf-tools-nightly
+[2024-04-08 10:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunholo
+[2024-04-08 10:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imagedata
+[2024-04-08 10:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glasswall
+[2024-04-08 10:42:59] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 10:42:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202404080614] Old Version: [99.0.202404061952]
+[2024-04-08 10:42:59] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev9] Old Version: [0.3.3.dev8]
+[2024-04-08 10:42:59] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-04-08 10:42:59] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:42:59] INFO root fetch - processPackages [pandadoc-python-client]: New version: [6.2.0] Old Version: [6.1.0]
+[2024-04-08 10:42:59] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.47.0.dev730] Old Version: [0.47.0.dev727]
+[2024-04-08 10:42:59] INFO root fetch - processPackages [imagedata]: New version: [3.5.1rc1] Old Version: [3.5.0rc1]
+[2024-04-08 10:42:59] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-08 10:42:59] INFO root fetch - processPackages [glasswall]: New version: [5.0.2] Old Version: [5.0.1]
+[2024-04-08 10:42:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/49/f5/ae77eee27d898bd88a235ebbc4fe65ef2b2fe24afd32c78f680f17bbd709/kcli-99.0.202404061952.tar.gz
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 10:42:59] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fa/ff/4af98fccfdf1938d3969ca49d52576d2858e4425725e85e84a82dc858cb1/kuzu-0.3.3.dev8.tar.gz
+[2024-04-08 10:42:59] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-04-08 10:42:59] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/4f/0b/f79658d1f6f66d4396b58aebc69124a60647fd2ad11e4f3856d2d3a4f7d3/opentf_tools_nightly-0.47.0.dev727-py3-none-any.whl
+[2024-04-08 10:42:59] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-08 10:42:59] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/4d/d8/66b40f85c6bfa5a37d55da3c56db534b868db71351039101390928d251ee/imagedata-3.5.0rc1.tar.gz
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-08 10:42:59] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/b1/e8/eaf66cf3f8511481bff98404507091c6f1d850d10a42cac5cdc8f246d25c/glasswall-5.0.1.tar.gz
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27631622>=10485760
+[2024-04-08 10:42:59] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-04-08 10:42:59] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-08 10:42:59] INFO root fetch - processPackages [pandadoc-python-client]: Downloading https://files.pythonhosted.org/packages/06/25/60e86cfd2323d039e19b3603e6e4497439b2a21ca282079649d3ee548dcd/pandadoc-python-client-6.1.0.tar.gz
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 10:42:59] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-08 10:42:59] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240408/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [decentriq-platform]: Timeout reached during download
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [opentf-tools-nightly]: Timeout reached during download
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [pandadoc-python-client]: Timeout reached during download
+[2024-04-08 10:42:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a3/7a/10a6af00ed4948188b895c6bc893333c5d185f89dbcf3aee6b8d623f81dc/kcli-99.0.202404080614.tar.gz
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [glasswall]: Timeout reached during download
+[2024-04-08 10:42:59] WARNING root fetch - processPackages [kuzu]: Timeout reached during download
+[2024-04-08 10:42:59] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-04-08 10:43:00] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-08 10:43:00] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-08 10:43:00] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-08 10:43:00] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404061952.tar.gz tmp/kcli-99.0.202404080614.tar.gz --markdown 20240408/k/kcli/99.0.202404061952-99.0.202404080614/diff.md --exclude *.pyd
+[2024-04-08 10:43:00] INFO root fetch - processPackages [pandadoc-python-client]: Downloading https://files.pythonhosted.org/packages/ff/de/1788dc19bb480664110f2a1f3456a8562446413ccb0ddfdc2819da40eaa4/pandadoc-python-client-6.2.0.tar.gz
+[2024-04-08 10:43:00] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/62/47/f7e7c7b1589f7d90a389bfed43cd02a7aed33cd3f4ce6ff8a0c4e13ef509/glasswall-5.0.2.tar.gz
+[2024-04-08 10:43:00] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/a2/67/22a60ceaa7cc3d03784a4c12db350f0f9d0b05181256e6007a55f7308e73/kuzu-0.3.3.dev9.tar.gz
+[2024-04-08 10:43:00] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:43:00] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:43:00] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:43:00] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/a9/02/621227a6933bc7309234aa9d3fe5a42c643159ddd61434ec56280a3bc584/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl
+[2024-04-08 10:43:00] WARNING root fetch - processPackages [decentriq-platform]: Timeout reached during download
+[2024-04-08 10:43:00] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-04-08 10:43:00] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240408/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 10:43:00] WARNING root fetch - processPackages [pandadoc-python-client]: Timeout reached during download
+[2024-04-08 10:43:00] INFO root fetch - processPackages [pandadoc-python-client]: executing diffoscope
+[2024-04-08 10:43:00] INFO root fetch - processPackages [pandadoc-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandadoc-python-client-6.1.0.tar.gz tmp/pandadoc-python-client-6.2.0.tar.gz --markdown 20240408/p/pandadoc-python-client/6.1.0-6.2.0/diff.md --exclude *.pyd
+[2024-04-08 10:43:00] WARNING root fetch - processPackages [glasswall]: Timeout reached during download
+[2024-04-08 10:43:00] INFO root fetch - processPackages [glasswall]: executing diffoscope
+[2024-04-08 10:43:00] INFO root fetch - processPackages [glasswall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glasswall-5.0.1.tar.gz tmp/glasswall-5.0.2.tar.gz --markdown 20240408/g/glasswall/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2024-04-08 10:43:00] WARNING root fetch - processPackages [opentf-tools-nightly]: Timeout reached during download
+[2024-04-08 10:43:00] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2024-04-08 10:43:00] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.47.0.dev727-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl.zip --markdown 20240408/o/opentf-tools-nightly/0.47.0.dev727-0.47.0.dev730/diff.md --exclude *.pyd
+[2024-04-08 10:43:00] WARNING root fetch - processPackages [kuzu]: Timeout reached during download
+[2024-04-08 10:43:00] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-08 10:43:00] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev8.tar.gz tmp/kuzu-0.3.3.dev9.tar.gz --markdown 20240408/k/kuzu/0.3.3.dev8-0.3.3.dev9/diff.md --exclude *.pyd
+[2024-04-08 10:43:01] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-08 10:43:01] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-08 10:43:01] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-08 10:43:01] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev727-py3-none-any.whl.zip]
+[2024-04-08 10:43:01] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-04-08 10:43:01] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl.zip]
+[2024-04-08 10:43:01] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-04-08 10:43:01] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2024-04-08 10:43:01] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-04-08 10:43:01] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.0.1.tar.gz]
+[2024-04-08 10:43:01] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.0.2.tar.gz]
+[2024-04-08 10:43:01] INFO root fetch - main [MainThread]: End processing [glasswall]: success
+[2024-04-08 10:43:01] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-08 10:43:01] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-08 10:43:01] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 10:43:02] INFO root fetch - processPackages [pandadoc-python-client]: Remove: archive file [/home/abi/fetcher/tmp/pandadoc-python-client-6.1.0.tar.gz]
+[2024-04-08 10:43:02] INFO root fetch - processPackages [pandadoc-python-client]: Remove: archive file [/home/abi/fetcher/tmp/pandadoc-python-client-6.2.0.tar.gz]
+[2024-04-08 10:43:02] INFO root fetch - main [MainThread]: End processing [pandadoc-python-client]: success
+[2024-04-08 10:43:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404061952.tar.gz]
+[2024-04-08 10:43:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404080614.tar.gz]
+[2024-04-08 10:43:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-08 10:43:07] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev8.tar.gz]
+[2024-04-08 10:43:07] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev9.tar.gz]
+[2024-04-08 10:43:07] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-08 10:43:07] INFO root fetch - main [MainThread]: Store serial: [22664399]
