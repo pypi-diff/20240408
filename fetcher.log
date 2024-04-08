@@ -25371,3 +25371,112 @@ EOFError: EOF read where object expected
 [2024-04-08 16:17:30] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.0.99.tar.gz]
 [2024-04-08 16:17:30] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
 [2024-04-08 16:17:30] INFO root fetch - main [MainThread]: Store serial: [22668634]
+[2024-04-08 16:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22668634]
+[2024-04-08 16:19:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luminesce-sdk
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextconsole
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyorchestra
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssh-ca-cli
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssh-ca-cli
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edx-braze-client
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dve-lumipy-testing
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sts-lib
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sts-lib
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metalarchivist
+[2024-04-08 16:19:39] INFO root fetch - processPackages [pyorchestra]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [nextconsole]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [metalarchivist]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [sts-lib]: New version: [0.20.0] Old Version: [0.19.2]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [sts-lib]: New version: [0.20.0] Old Version: [0.19.2]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [edx-braze-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/5d/ac/86eb73ad6c3f586b299d6d0526359184daf3285019a8d73ee0c53bf49a0d/ssh_ca_cli-0.8.0.tar.gz
+[2024-04-08 16:19:39] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-08 16:19:39] INFO root fetch - processPackages [pyorchestra]: Downloading https://files.pythonhosted.org/packages/1b/90/c6360332238ca44fdb983533d9b9cf35a2b5ba1fa22e537a9b1c7fb5aa16/pyorchestra-0.5.1.tar.gz
+[2024-04-08 16:19:39] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/5d/ac/86eb73ad6c3f586b299d6d0526359184daf3285019a8d73ee0c53bf49a0d/ssh_ca_cli-0.8.0.tar.gz
+[2024-04-08 16:19:39] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/ad/f8/3502ff8bc248720e7d34dd0ec2e965aa195b277d9c5226faacc36b518157/nextconsole-0.0.5-py3-none-any.whl
+[2024-04-08 16:19:39] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/3f/f8/4fd1a926b9f72e291294726fd73330bdbb50de53bbb77eb23e162bbdd204/metalarchivist-0.1.8.tar.gz
+[2024-04-08 16:19:39] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/b0/e8/2ccf396da07daad060fa8fd0fdedc93a528af1f5ba38b18bdc585f8caaac/luminesce_sdk-2.0.98.tar.gz
+[2024-04-08 16:19:39] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:19:39] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:19:39] WARNING root fetch - processPackages [pyorchestra]: Timeout reached during download
+[2024-04-08 16:19:39] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 16:19:39] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/9d/61/2cd7fcca2322498ec835c5f0128c022f2b6abd0efd9f6fdf9c8da990f541/sts-lib-0.19.2.tar.gz
+[2024-04-08 16:19:39] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/9d/61/2cd7fcca2322498ec835c5f0128c022f2b6abd0efd9f6fdf9c8da990f541/sts-lib-0.19.2.tar.gz
+[2024-04-08 16:19:39] WARNING root fetch - processPackages [metalarchivist]: Timeout reached during download
+[2024-04-08 16:19:39] INFO root fetch - processPackages [edx-braze-client]: Downloading https://files.pythonhosted.org/packages/8a/9c/340aa12e19e05edb01d7099002117796178c05fe08ab795faf81647d86f8/edx-braze-client-0.2.2.tar.gz
+[2024-04-08 16:19:39] WARNING root fetch - processPackages [luminesce-sdk]: Timeout reached during download
+[2024-04-08 16:19:39] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-08 16:19:40] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/a5/26/dbab6843e323f42a5660a659bc09d78fa76b8db6b729a57f854d0b1099ca/metalarchivist-0.1.9.tar.gz
+[2024-04-08 16:19:40] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/ce/13/7c87b51de6af9b7db6cfa09019a1ea03840b43fbfd18b611f3a71860e0e2/ssh_ca_cli-0.9.0.tar.gz
+[2024-04-08 16:19:40] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/ce/13/7c87b51de6af9b7db6cfa09019a1ea03840b43fbfd18b611f3a71860e0e2/ssh_ca_cli-0.9.0.tar.gz
+[2024-04-08 16:19:40] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/c9/9b/db0c2a879c62744430a540a0acfc0d7be954c3b4cd53257bfbe0096890e5/luminesce_sdk-2.0.99.tar.gz
+[2024-04-08 16:19:40] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/f1/ad/dfb159042c1b716c076f72cb49e0b979d8a65094ac4ff5eca25a493851ac/nextconsole-0.0.6-py3-none-any.whl
+[2024-04-08 16:19:40] INFO root fetch - processPackages [pyorchestra]: Downloading https://files.pythonhosted.org/packages/88/e7/9d9a317d96202481770ea479574e6ae654eab365e94bbe5400e9dadbb9a8/pyorchestra-0.5.2.tar.gz
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [edx-braze-client]: Timeout reached during download
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:19:40] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.8.0.tar.gz tmp/ssh_ca_cli-0.9.0.tar.gz --markdown 20240408/s/ssh-ca-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [sts-lib]: Timeout reached during download
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [metalarchivist]: Timeout reached during download
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:19:40] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.1.8.tar.gz tmp/metalarchivist-0.1.9.tar.gz --markdown 20240408/m/metalarchivist/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 16:19:40] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.8.0.tar.gz tmp/ssh_ca_cli-0.9.0.tar.gz --markdown 20240408/s/ssh-ca-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [luminesce-sdk]: Timeout reached during download
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [sts-lib]: Timeout reached during download
+[2024-04-08 16:19:40] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.0.98.tar.gz tmp/luminesce_sdk-2.0.99.tar.gz --markdown 20240408/l/luminesce-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [dve-lumipy-testing]: Timeout reached during download
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [pyorchestra]: Timeout reached during download
+[2024-04-08 16:19:40] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.5-py3-none-any.whl.zip tmp/nextconsole-0.0.6-py3-none-any.whl.zip --markdown 20240408/n/nextconsole/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 16:19:40] INFO root fetch - processPackages [pyorchestra]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [pyorchestra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyorchestra-0.5.1.tar.gz tmp/pyorchestra-0.5.2.tar.gz --markdown 20240408/p/pyorchestra/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-08 16:19:40] INFO root fetch - processPackages [edx-braze-client]: Downloading https://files.pythonhosted.org/packages/c8/69/0b2ca6a41c5232dd375f26aea7bf2175542b7ef96fd2e53f86cd9e4e2aea/edx-braze-client-0.2.3.tar.gz
+[2024-04-08 16:19:40] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/4a/39/ce780deeb54f39bbdf859544509ec5a985446151a1143f2d735892685ced/sts-lib-0.20.0.tar.gz
+[2024-04-08 16:19:40] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/4a/39/ce780deeb54f39bbdf859544509ec5a985446151a1143f2d735892685ced/sts-lib-0.20.0.tar.gz
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [edx-braze-client]: Timeout reached during download
+[2024-04-08 16:19:40] INFO root fetch - processPackages [edx-braze-client]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [edx-braze-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-braze-client-0.2.2.tar.gz tmp/edx-braze-client-0.2.3.tar.gz --markdown 20240408/e/edx-braze-client/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-08 16:19:40] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [sts-lib]: Timeout reached during download
+[2024-04-08 16:19:40] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts-lib-0.19.2.tar.gz tmp/sts-lib-0.20.0.tar.gz --markdown 20240408/s/sts-lib/0.19.2-0.20.0/diff.md --exclude *.pyd
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [sts-lib]: Timeout reached during download
+[2024-04-08 16:19:40] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts-lib-0.19.2.tar.gz tmp/sts-lib-0.20.0.tar.gz --markdown 20240408/s/sts-lib/0.19.2-0.20.0/diff.md --exclude *.pyd
+[2024-04-08 16:19:40] WARNING root fetch - processPackages [dve-lumipy-testing]: Timeout reached during download
+[2024-04-08 16:19:40] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-08 16:19:40] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240408/d/dve-lumipy-testing/0.1.998-0.1.999/diff.md --exclude *.pyd
+[2024-04-08 16:19:41] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.8.0.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.9.0.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 16:19:41] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 16:19:41] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.1.8.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.1.9.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-04-08 16:19:41] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.5-py3-none-any.whl.zip]
+[2024-04-08 16:19:41] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.6-py3-none-any.whl.zip]
+[2024-04-08 16:19:41] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-08 16:19:41] INFO root fetch - processPackages [pyorchestra]: Remove: archive file [/home/abi/fetcher/tmp/pyorchestra-0.5.1.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - processPackages [pyorchestra]: Remove: archive file [/home/abi/fetcher/tmp/pyorchestra-0.5.2.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - main [MainThread]: End processing [pyorchestra]: success
+[2024-04-08 16:19:41] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.0.98.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.0.99.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-04-08 16:19:41] INFO root fetch - processPackages [edx-braze-client]: Remove: archive file [/home/abi/fetcher/tmp/edx-braze-client-0.2.2.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - processPackages [edx-braze-client]: Remove: archive file [/home/abi/fetcher/tmp/edx-braze-client-0.2.3.tar.gz]
+[2024-04-08 16:19:41] INFO root fetch - main [MainThread]: End processing [edx-braze-client]: success
+[2024-04-08 16:19:42] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts-lib-0.19.2.tar.gz]
+[2024-04-08 16:19:42] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts-lib-0.20.0.tar.gz]
+[2024-04-08 16:19:42] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-04-08 16:19:42] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-04-08 16:19:42] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-08 16:19:42] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-08 16:19:42] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-08 16:19:42] INFO root fetch - main [MainThread]: Store serial: [22668662]
