@@ -14998,3 +14998,94 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:20:55] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.2.0rc3.tar.gz]
 [2024-04-08 11:20:55] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2024-04-08 11:20:55] INFO root fetch - main [MainThread]: Store serial: [22664842]
+[2024-04-08 11:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664842]
+[2024-04-08 11:23:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 11:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: literalai
+[2024-04-08 11:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-bot-reporter
+[2024-04-08 11:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy_kite_methods
+[2024-04-08 11:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-packages
+[2024-04-08 11:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vvv-rpc
+[2024-04-08 11:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iamlistening
+[2024-04-08 11:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viktor-table-view
+[2024-04-08 11:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openmetadata-managed-apis
+[2024-04-08 11:23:04] INFO root fetch - processPackages [easy_kite_methods]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 11:23:04] INFO root fetch - processPackages [viktor-table-view]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-08 11:23:04] INFO root fetch - processPackages [telegram-bot-reporter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 11:23:04] INFO root fetch - processPackages [literalai]: New version: [0.0.500] Old Version: [0.0.401]
+[2024-04-08 11:23:04] INFO root fetch - processPackages [vvv-rpc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 11:23:04] INFO root fetch - processPackages [iamlistening]: New version: [5.1.6] Old Version: [5.1.5]
+[2024-04-08 11:23:05] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.3.2.0rc3] Old Version: [1.3.2.0rc2]
+[2024-04-08 11:23:05] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/25/ea/ef94289149a67ba75b627ac2bd1d7bcc81091fd843f0e9918c6bdb1d7322/easy_kite_methods-0.0.1.tar.gz
+[2024-04-08 11:23:05] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/91/72/77912e1792568c7b0da76630a55c5423bc331373026f66cf7f1da5a64580/literalai-0.0.401.tar.gz
+[2024-04-08 11:23:05] INFO root fetch - processPackages [aws-packages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 11:23:05] INFO root fetch - processPackages [viktor-table-view]: Downloading https://files.pythonhosted.org/packages/c9/4f/b5dc8539b927898a980172c461a48d6e4e0ed2349ee98d2dd3dede5ceb37/viktor_table_view-0.1.2.tar.gz
+[2024-04-08 11:23:05] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/92/46/d2d69e1a839bf5643f921aed5e95527382dc8674068b50d300ca3ce71af0/iamlistening-5.1.5.tar.gz
+[2024-04-08 11:23:05] INFO root fetch - processPackages [telegram-bot-reporter]: Downloading https://files.pythonhosted.org/packages/1e/6b/d77c8b246099c76503eafe0f11a0b43fc651030a2246141b2b99102e8e22/telegram_bot_reporter-0.1.8.tar.gz
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-08 11:23:05] INFO root fetch - processPackages [vvv-rpc]: Downloading https://files.pythonhosted.org/packages/15/50/dcb0ecd10179d4bc8a553f74a710c290da2a53b330e5dea45698ccf78226/vvv_rpc-0.1.8-py3-none-any.whl
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [literalai]: Timeout reached during download
+[2024-04-08 11:23:05] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/a1/12/436e62b3e5b9ba3cd12ec1d5405a6ebd81666ca80c7b4f7e55b67938061a/openmetadata_managed_apis-1.3.2.0rc2.tar.gz
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [iamlistening]: Timeout reached during download
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [telegram-bot-reporter]: Timeout reached during download
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [viktor-table-view]: Timeout reached during download
+[2024-04-08 11:23:05] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/df/79/dc9dd4f48288c36fa85b903a442b0590b5f087cf3de6feac6a2c7361bd03/aws_packages-0.0.8.tar.gz
+[2024-04-08 11:23:05] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/a0/05/e83792830ade76faaf19ed136e66d037b65efc7daca3d65126f9f2c0cb83/literalai-0.0.500.tar.gz
+[2024-04-08 11:23:05] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/05/1e/ec270a7cf4ba57f90472c77677a3bbb2ac5667dfdb83d83fcba3aae6b608/easy_kite_methods-0.0.2.tar.gz
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [openmetadata-managed-apis]: Timeout reached during download
+[2024-04-08 11:23:05] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/2c/68/4f9f5cee2e1006fea409c776c6546cc53765490e14523d56a65dc9f77f0f/iamlistening-5.1.6.tar.gz
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [aws-packages]: Timeout reached during download
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [literalai]: Timeout reached during download
+[2024-04-08 11:23:05] INFO root fetch - processPackages [easy_kite_methods]: executing diffoscope
+[2024-04-08 11:23:05] INFO root fetch - processPackages [easy_kite_methods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_kite_methods-0.0.1.tar.gz tmp/easy_kite_methods-0.0.2.tar.gz --markdown 20240408/e/easy_kite_methods/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 11:23:05] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-04-08 11:23:05] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.401.tar.gz tmp/literalai-0.0.500.tar.gz --markdown 20240408/l/literalai/0.0.401-0.0.500/diff.md --exclude *.pyd
+[2024-04-08 11:23:05] INFO root fetch - processPackages [viktor-table-view]: Downloading https://files.pythonhosted.org/packages/48/dd/f4a59198a1001eb1059b8f78bfd80dbeea5e2f66d1b8cdb2256030b9c2fe/viktor_table_view-0.1.3.tar.gz
+[2024-04-08 11:23:05] INFO root fetch - processPackages [telegram-bot-reporter]: Downloading https://files.pythonhosted.org/packages/fa/0a/762d86452a85b44a1949afb99216913c85f125f5f38bb6a93875775c0aa1/telegram_bot_reporter-0.1.9.tar.gz
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [vvv-rpc]: Timeout reached during download
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [iamlistening]: Timeout reached during download
+[2024-04-08 11:23:05] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2024-04-08 11:23:05] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-5.1.5.tar.gz tmp/iamlistening-5.1.6.tar.gz --markdown 20240408/i/iamlistening/5.1.5-5.1.6/diff.md --exclude *.pyd
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [telegram-bot-reporter]: Timeout reached during download
+[2024-04-08 11:23:05] INFO root fetch - processPackages [telegram-bot-reporter]: executing diffoscope
+[2024-04-08 11:23:05] INFO root fetch - processPackages [telegram-bot-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_bot_reporter-0.1.8.tar.gz tmp/telegram_bot_reporter-0.1.9.tar.gz --markdown 20240408/t/telegram-bot-reporter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 11:23:05] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/30/84/451a3e4b9a2112ac62324e9668edaac7e81e9043ea066e0fee082a3b20ea/openmetadata_managed_apis-1.3.2.0rc3.tar.gz
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [viktor-table-view]: Timeout reached during download
+[2024-04-08 11:23:05] INFO root fetch - processPackages [viktor-table-view]: executing diffoscope
+[2024-04-08 11:23:05] INFO root fetch - processPackages [viktor-table-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viktor_table_view-0.1.2.tar.gz tmp/viktor_table_view-0.1.3.tar.gz --markdown 20240408/v/viktor-table-view/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-08 11:23:05] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/f9/70/6dad25f5681631041b67fc5bad90c0828becfec9e1569cd148b0c104a41d/aws_packages-0.0.9.tar.gz
+[2024-04-08 11:23:05] INFO root fetch - processPackages [vvv-rpc]: Downloading https://files.pythonhosted.org/packages/d3/cf/6543da23e1616bd1d2601b3b9defabf1247eb3e4b67e39f5580102470190/vvv_rpc-0.1.9-py3-none-any.whl
+[2024-04-08 11:23:05] WARNING root fetch - processPackages [aws-packages]: Timeout reached during download
+[2024-04-08 11:23:05] INFO root fetch - processPackages [aws-packages]: executing diffoscope
+[2024-04-08 11:23:05] INFO root fetch - processPackages [aws-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_packages-0.0.8.tar.gz tmp/aws_packages-0.0.9.tar.gz --markdown 20240408/a/aws-packages/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:23:06] WARNING root fetch - processPackages [openmetadata-managed-apis]: Timeout reached during download
+[2024-04-08 11:23:06] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2024-04-08 11:23:06] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.3.2.0rc2.tar.gz tmp/openmetadata_managed_apis-1.3.2.0rc3.tar.gz --markdown 20240408/o/openmetadata-managed-apis/1.3.2.0rc2-1.3.2.0rc3/diff.md --exclude *.pyd
+[2024-04-08 11:23:06] WARNING root fetch - processPackages [vvv-rpc]: Timeout reached during download
+[2024-04-08 11:23:06] INFO root fetch - processPackages [vvv-rpc]: executing diffoscope
+[2024-04-08 11:23:06] INFO root fetch - processPackages [vvv-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvv_rpc-0.1.8-py3-none-any.whl.zip tmp/vvv_rpc-0.1.9-py3-none-any.whl.zip --markdown 20240408/v/vvv-rpc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 11:23:06] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.1.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.2.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - main [MainThread]: End processing [easy_kite_methods]: success
+[2024-04-08 11:23:06] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.5.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.6.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2024-04-08 11:23:06] INFO root fetch - processPackages [telegram-bot-reporter]: Remove: archive file [/home/abi/fetcher/tmp/telegram_bot_reporter-0.1.8.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.401.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - processPackages [telegram-bot-reporter]: Remove: archive file [/home/abi/fetcher/tmp/telegram_bot_reporter-0.1.9.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.500.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - main [MainThread]: End processing [telegram-bot-reporter]: success
+[2024-04-08 11:23:06] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-04-08 11:23:06] INFO root fetch - processPackages [viktor-table-view]: Remove: archive file [/home/abi/fetcher/tmp/viktor_table_view-0.1.2.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - processPackages [viktor-table-view]: Remove: archive file [/home/abi/fetcher/tmp/viktor_table_view-0.1.3.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - main [MainThread]: End processing [viktor-table-view]: success
+[2024-04-08 11:23:06] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.8.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.9.tar.gz]
+[2024-04-08 11:23:06] INFO root fetch - main [MainThread]: End processing [aws-packages]: success
+[2024-04-08 11:23:06] INFO root fetch - processPackages [vvv-rpc]: Remove: archive file [/home/abi/fetcher/tmp/vvv_rpc-0.1.8-py3-none-any.whl.zip]
+[2024-04-08 11:23:06] INFO root fetch - processPackages [vvv-rpc]: Remove: archive file [/home/abi/fetcher/tmp/vvv_rpc-0.1.9-py3-none-any.whl.zip]
+[2024-04-08 11:23:06] INFO root fetch - main [MainThread]: End processing [vvv-rpc]: success
+[2024-04-08 11:23:07] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.3.2.0rc2.tar.gz]
+[2024-04-08 11:23:07] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.3.2.0rc3.tar.gz]
+[2024-04-08 11:23:07] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2024-04-08 11:23:07] INFO root fetch - main [MainThread]: Store serial: [22664893]
