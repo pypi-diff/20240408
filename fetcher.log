@@ -9941,3 +9941,72 @@
 [2024-04-08 08:13:30] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-04-08 08:13:30] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-04-08 08:13:30] INFO root fetch - main [MainThread]: Store serial: [22662865]
+[2024-04-08 08:15:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662865]
+[2024-04-08 08:15:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 08:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hippo-api
+[2024-04-08 08:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-snowflake
+[2024-04-08 08:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretext
+[2024-04-08 08:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2024-04-08 08:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CodingRider
+[2024-04-08 08:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fake-bpy-module-latest
+[2024-04-08 08:15:39] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240407] Old Version: [20240406]
+[2024-04-08 08:15:39] INFO root fetch - processPackages [pretext]: New version: [2.3.9.dev20240302] Old Version: [2.3.9.dev20240229]
+[2024-04-08 08:15:39] INFO root fetch - processPackages [hippo-api]: New version: [1.2.0rc7] Old Version: [1.2.0rc6]
+[2024-04-08 08:15:39] INFO root fetch - processPackages [CodingRider]: New version: [2.2] Old Version: [2.1]
+[2024-04-08 08:15:39] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-04-08 08:15:39] INFO root fetch - processPackages [kcli]: New version: [99.0.202404080614] Old Version: [99.0.202404061952]
+[2024-04-08 08:15:39] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ce/64/85bc57578fbf3322df1cb4958d7c6cf0dda4d8184eb5611f8245cb5d98eb/pretext-2.3.9.dev20240229.tar.gz
+[2024-04-08 08:15:39] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/c5/5d/ee54b5ebd9e7166dd7c6d3b43c46620d8d7465f90ef69305d1a1ca2ed5d5/fake-bpy-module-latest-20240406.tar.gz
+[2024-04-08 08:15:39] INFO root fetch - processPackages [hippo-api]: Downloading https://files.pythonhosted.org/packages/73/56/a23ff9be8f4573173577d245871bfd9b69044305f87a067c5e13291866c3/hippo_api-1.2.0rc6-py3-none-any.whl
+[2024-04-08 08:15:39] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-04-08 08:15:39] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/e6/14/639ae4bc94bd4e01a4d5f2e9143bb16a1fb6c21e66599b5e58f57c702946/CodingRider-2.1.tar.gz
+[2024-04-08 08:15:39] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/49/f5/ae77eee27d898bd88a235ebbc4fe65ef2b2fe24afd32c78f680f17bbd709/kcli-99.0.202404061952.tar.gz
+[2024-04-08 08:15:39] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-08 08:15:40] WARNING root fetch - processPackages [pulumi-snowflake]: Timeout reached during download
+[2024-04-08 08:15:40] WARNING root fetch - processPackages [hippo-api]: Timeout reached during download
+[2024-04-08 08:15:40] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-08 08:15:40] WARNING root fetch - processPackages [CodingRider]: Timeout reached during download
+[2024-04-08 08:15:40] INFO root fetch - processPackages [hippo-api]: Downloading https://files.pythonhosted.org/packages/2a/01/8f495f5b22c879009b87b70c304b75cb0eb63df0d3ce9e08fdf73ddb8c23/hippo_api-1.2.0rc7-py3-none-any.whl
+[2024-04-08 08:15:40] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/cd/48/94634d265dab91cd5c27a4d2f21e4d104f573851425859fab6101c025c2c/fake-bpy-module-latest-20240407.tar.gz
+[2024-04-08 08:15:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a3/7a/10a6af00ed4948188b895c6bc893333c5d185f89dbcf3aee6b8d623f81dc/kcli-99.0.202404080614.tar.gz
+[2024-04-08 08:15:40] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-04-08 08:15:40] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/f2/04/6efb3034b33079390cbef8d997e58e1f83eef0a55f450abe7daf4c155498/CodingRider-2.2.tar.gz
+[2024-04-08 08:15:40] WARNING root fetch - processPackages [hippo-api]: Timeout reached during download
+[2024-04-08 08:15:40] INFO root fetch - processPackages [hippo-api]: executing diffoscope
+[2024-04-08 08:15:40] INFO root fetch - processPackages [hippo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hippo_api-1.2.0rc6-py3-none-any.whl.zip tmp/hippo_api-1.2.0rc7-py3-none-any.whl.zip --markdown 20240408/h/hippo-api/1.2.0rc6-1.2.0rc7/diff.md --exclude *.pyd
+[2024-04-08 08:15:40] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-08 08:15:40] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-08 08:15:40] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240406.tar.gz tmp/fake-bpy-module-latest-20240407.tar.gz --markdown 20240408/f/fake-bpy-module-latest/20240406-20240407/diff.md --exclude *.pyd
+[2024-04-08 08:15:40] WARNING root fetch - processPackages [CodingRider]: Timeout reached during download
+[2024-04-08 08:15:40] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-04-08 08:15:40] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodingRider-2.1.tar.gz tmp/CodingRider-2.2.tar.gz --markdown 20240408/C/CodingRider/2.1-2.2/diff.md --exclude *.pyd
+[2024-04-08 08:15:40] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-08 08:15:40] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-08 08:15:40] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404061952.tar.gz tmp/kcli-99.0.202404080614.tar.gz --markdown 20240408/k/kcli/99.0.202404061952-99.0.202404080614/diff.md --exclude *.pyd
+[2024-04-08 08:15:40] WARNING root fetch - processPackages [pretext]: Timeout reached during download
+[2024-04-08 08:15:41] WARNING root fetch - processPackages [pulumi-snowflake]: Timeout reached during download
+[2024-04-08 08:15:41] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-04-08 08:15:41] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240408/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2024-04-08 08:15:41] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-04-08 08:15:41] INFO root fetch - processPackages [hippo-api]: Remove: archive file [/home/abi/fetcher/tmp/hippo_api-1.2.0rc6-py3-none-any.whl.zip]
+[2024-04-08 08:15:41] INFO root fetch - processPackages [hippo-api]: Remove: archive file [/home/abi/fetcher/tmp/hippo_api-1.2.0rc7-py3-none-any.whl.zip]
+[2024-04-08 08:15:41] INFO root fetch - main [MainThread]: End processing [hippo-api]: success
+[2024-04-08 08:15:41] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-2.1.tar.gz]
+[2024-04-08 08:15:41] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-2.2.tar.gz]
+[2024-04-08 08:15:41] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-04-08 08:15:41] WARNING root fetch - processPackages [pretext]: Timeout reached during download
+[2024-04-08 08:15:41] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-04-08 08:15:41] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240229.tar.gz tmp/pretext-2.3.9.dev20240302.tar.gz --markdown 20240408/p/pretext/2.3.9.dev20240229-2.3.9.dev20240302/diff.md --exclude *.pyd
+[2024-04-08 08:15:42] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-04-08 08:15:42] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-04-08 08:15:42] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-04-08 08:15:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404061952.tar.gz]
+[2024-04-08 08:15:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404080614.tar.gz]
+[2024-04-08 08:15:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-08 08:15:44] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240406.tar.gz]
+[2024-04-08 08:15:44] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240407.tar.gz]
+[2024-04-08 08:15:44] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-08 08:15:45] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240229.tar.gz]
+[2024-04-08 08:15:45] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-04-08 08:15:45] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-04-08 08:15:45] INFO root fetch - main [MainThread]: Store serial: [22662879]
