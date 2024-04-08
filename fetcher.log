@@ -2218,3 +2218,31 @@
 [2024-04-08 02:51:58] INFO root fetch - processPackages [minchin.md-it.fancy-tasklists]: Remove: archive file [/home/abi/fetcher/tmp/minchin.md-it.fancy-tasklists-1.1.0.tar.gz]
 [2024-04-08 02:51:58] INFO root fetch - main [MainThread]: End processing [minchin.md-it.fancy-tasklists]: success
 [2024-04-08 02:51:58] INFO root fetch - main [MainThread]: Store serial: [22660468]
+[2024-04-08 02:54:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660468]
+[2024-04-08 02:54:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 02:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyjvc
+[2024-04-08 02:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypackagedemotemplate
+[2024-04-08 02:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quant2
+[2024-04-08 02:54:07] INFO root fetch - processPackages [quant2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 02:54:07] INFO root fetch - processPackages [pyjvc]: New version: [4.4.21] Old Version: [4.4.2]
+[2024-04-08 02:54:07] WARNING root fetch - processPackages [mypackagedemotemplate]: Skipping, unable to determine old version
+[2024-04-08 02:54:07] INFO root fetch - main [MainThread]: End processing [mypackagedemotemplate] error
+[2024-04-08 02:54:07] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/3c/72/0a46dd45067bd97fb6d166f8f66f418de91d322b182f4f9e4912619b935f/pyjvc-4.4.2.tar.gz
+[2024-04-08 02:54:07] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/11/bf/4225581d3021d37874804da989897221f25fc6c93fa5f1b07d38fcbf01d3/quant2-0.0.8.tar.gz
+[2024-04-08 02:54:07] WARNING root fetch - processPackages [quant2]: Timeout reached during download
+[2024-04-08 02:54:07] WARNING root fetch - processPackages [pyjvc]: Timeout reached during download
+[2024-04-08 02:54:07] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/14/b2/02902adfc8374a2d4e7cf6e11c97319142fb7a2f1565e78bcc91dd0cd825/quant2-0.0.9.tar.gz
+[2024-04-08 02:54:07] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/fa/84/485a06682be96cdb84be20249b467cfd3f282487694a87861d519f25f926/pyjvc-4.4.21.tar.gz
+[2024-04-08 02:54:07] WARNING root fetch - processPackages [quant2]: Timeout reached during download
+[2024-04-08 02:54:07] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-04-08 02:54:07] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.0.8.tar.gz tmp/quant2-0.0.9.tar.gz --markdown 20240408/q/quant2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 02:54:07] WARNING root fetch - processPackages [pyjvc]: Timeout reached during download
+[2024-04-08 02:54:07] INFO root fetch - processPackages [pyjvc]: executing diffoscope
+[2024-04-08 02:54:07] INFO root fetch - processPackages [pyjvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjvc-4.4.2.tar.gz tmp/pyjvc-4.4.21.tar.gz --markdown 20240408/p/pyjvc/4.4.2-4.4.21/diff.md --exclude *.pyd
+[2024-04-08 02:54:08] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.8.tar.gz]
+[2024-04-08 02:54:08] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.9.tar.gz]
+[2024-04-08 02:54:08] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-04-08 02:54:08] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.2.tar.gz]
+[2024-04-08 02:54:08] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.21.tar.gz]
+[2024-04-08 02:54:08] INFO root fetch - main [MainThread]: End processing [pyjvc]: success
+[2024-04-08 02:54:08] INFO root fetch - main [MainThread]: Store serial: [22660479]
