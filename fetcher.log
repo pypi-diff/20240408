@@ -9035,3 +9035,28 @@
 [2024-04-08 07:19:23] INFO root fetch - processPackages [mapper-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapper_parser-1.0.tar.gz]
 [2024-04-08 07:19:23] INFO root fetch - main [MainThread]: End processing [mapper-parser]: success
 [2024-04-08 07:19:23] INFO root fetch - main [MainThread]: Store serial: [22662545]
+[2024-04-08 07:21:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662545]
+[2024-04-08 07:21:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 07:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysuso
+[2024-04-08 07:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coretex
+[2024-04-08 07:21:43] INFO root fetch - processPackages [pysuso]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 07:21:43] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-08 07:21:43] INFO root fetch - processPackages [pysuso]: Downloading https://files.pythonhosted.org/packages/45/41/0399d8197365c7fa752975f6f5f23316ff0d88f66c5414b887b32b224758/pysuso-0.3.0.tar.gz
+[2024-04-08 07:21:43] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-04-08 07:21:43] WARNING root fetch - processPackages [pysuso]: Timeout reached during download
+[2024-04-08 07:21:43] WARNING root fetch - processPackages [coretex]: Timeout reached during download
+[2024-04-08 07:21:43] INFO root fetch - processPackages [pysuso]: Downloading https://files.pythonhosted.org/packages/34/3d/9114d3ff0c13c04331ff0e3e9214c0841f5d7970b191cc4bd379aeb85d1d/pysuso-0.3.1.tar.gz
+[2024-04-08 07:21:43] WARNING root fetch - processPackages [pysuso]: Timeout reached during download
+[2024-04-08 07:21:43] INFO root fetch - processPackages [pysuso]: executing diffoscope
+[2024-04-08 07:21:43] INFO root fetch - processPackages [pysuso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysuso-0.3.0.tar.gz tmp/pysuso-0.3.1.tar.gz --markdown 20240408/p/pysuso/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 07:21:43] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-04-08 07:21:44] WARNING root fetch - processPackages [coretex]: Timeout reached during download
+[2024-04-08 07:21:44] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-04-08 07:21:44] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240408/c/coretex/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2024-04-08 07:21:44] INFO root fetch - processPackages [pysuso]: Remove: archive file [/home/abi/fetcher/tmp/pysuso-0.3.0.tar.gz]
+[2024-04-08 07:21:44] INFO root fetch - processPackages [pysuso]: Remove: archive file [/home/abi/fetcher/tmp/pysuso-0.3.1.tar.gz]
+[2024-04-08 07:21:44] INFO root fetch - main [MainThread]: End processing [pysuso]: success
+[2024-04-08 07:21:45] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-04-08 07:21:45] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-04-08 07:21:45] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-04-08 07:21:45] INFO root fetch - main [MainThread]: Store serial: [22662551]
