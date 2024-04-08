@@ -11742,3 +11742,83 @@
 [2024-04-08 09:25:23] INFO root fetch - processPackages [dashtext]: Remove: archive file [/home/abi/fetcher/tmp/dashtext-0.0.7-cp37-cp37m-macosx_10_9_x86_64.whl.zip]
 [2024-04-08 09:25:23] INFO root fetch - main [MainThread]: End processing [dashtext]: success
 [2024-04-08 09:25:23] INFO root fetch - main [MainThread]: Store serial: [22663459]
+[2024-04-08 09:27:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663459]
+[2024-04-08 09:27:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 09:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openshift-cluster-management-python-wrapper
+[2024-04-08 09:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pwdata
+[2024-04-08 09:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: propelauth-py
+[2024-04-08 09:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openshift-cli-installer
+[2024-04-08 09:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-utility-scripts
+[2024-04-08 09:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhelper-utils
+[2024-04-08 09:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vidstreammmjka
+[2024-04-08 09:27:39] INFO root fetch - processPackages [pwdata]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 09:27:39] INFO root fetch - processPackages [vidstreammmjka]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 09:27:39] INFO root fetch - processPackages [python-utility-scripts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 09:27:39] INFO root fetch - processPackages [propelauth-py]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-04-08 09:27:39] INFO root fetch - processPackages [pyhelper-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-08 09:27:39] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.98] Old Version: [1.0.97]
+[2024-04-08 09:27:39] INFO root fetch - processPackages [openshift-cli-installer]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-08 09:27:39] INFO root fetch - processPackages [pwdata]: Downloading https://files.pythonhosted.org/packages/9e/8c/9bda3a14b92767b8695e5cb00e7bf16712bc73b88115b0de8680d8e6f79a/pwdata-0.2.8.tar.gz
+[2024-04-08 09:27:40] INFO root fetch - processPackages [vidstreammmjka]: Downloading https://files.pythonhosted.org/packages/8f/e2/063e52ae72b38ecfe563399bb3a6b59845491a8fbe9a93323fb635020a87/vidstreammmjka-0.0.1.tar.gz
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [pwdata]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/2f/4e/9ccfd22089104140cc1834daff8a97884bb350012f561259bc821eff0f41/openshift_cluster_management_python_wrapper-1.0.97.tar.gz
+[2024-04-08 09:27:40] INFO root fetch - processPackages [pwdata]: Downloading https://files.pythonhosted.org/packages/c7/46/816d6f1f659933364c1e3bc31d1c47429cdc64d389e1aeabf300efa31353/pwdata-0.2.9.tar.gz
+[2024-04-08 09:27:40] INFO root fetch - processPackages [propelauth-py]: Downloading https://files.pythonhosted.org/packages/7c/55/8dd9399b9ed6dda978ee7c6bd82ca9e285e9849c9f2aa55a5c92e1a4a09c/propelauth-py-3.1.8.tar.gz
+[2024-04-08 09:27:40] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/09/cc/5e96da2e30ee3fe358259fc06483b68de77fbe80880df7b7c039274c94c3/pyhelper_utils-0.0.4.tar.gz
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [vidstreammmjka]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/93/ea/081916b4f7f911ee0b4d2373be0df43c7c020915e4dc0daddae9d0c85d23/openshift_cli_installer-2.0.8.tar.gz
+[2024-04-08 09:27:40] INFO root fetch - processPackages [python-utility-scripts]: Downloading https://files.pythonhosted.org/packages/6c/01/51bfeb2fcf48de8e85393b7dc865596d4ef5a95d7c36d178832b3a4f77bb/python_utility_scripts-0.0.8.tar.gz
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [openshift-cluster-management-python-wrapper]: Timeout reached during download
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [pwdata]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [pwdata]: executing diffoscope
+[2024-04-08 09:27:40] INFO root fetch - processPackages [pwdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwdata-0.2.8.tar.gz tmp/pwdata-0.2.9.tar.gz --markdown 20240408/p/pwdata/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [pyhelper-utils]: Timeout reached during download
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [propelauth-py]: Timeout reached during download
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [python-utility-scripts]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [vidstreammmjka]: Downloading https://files.pythonhosted.org/packages/0f/e0/40a623f30f54f03936f699159ba47671f5b715d9ef35f6621d1008853b54/vidstreammmjka-0.0.2.tar.gz
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [openshift-cli-installer]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c0/59/4a411cf32353a4aa27ed7df897022dba7186efabe6440e073e02e93578c7/openshift_cluster_management_python_wrapper-1.0.98.tar.gz
+[2024-04-08 09:27:40] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/06/6f/682247c7c84251fd5c248d697c2a75fbd541c2f61096241a9886ad794710/pyhelper_utils-0.0.5.tar.gz
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [vidstreammmjka]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [vidstreammmjka]: executing diffoscope
+[2024-04-08 09:27:40] INFO root fetch - processPackages [vidstreammmjka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidstreammmjka-0.0.1.tar.gz tmp/vidstreammmjka-0.0.2.tar.gz --markdown 20240408/v/vidstreammmjka/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 09:27:40] INFO root fetch - processPackages [propelauth-py]: Downloading https://files.pythonhosted.org/packages/f8/04/1356bbd9fa1c87642ac21e32f8bc10138dac05aa676b78c5e858134b62ba/propelauth-py-3.1.9.tar.gz
+[2024-04-08 09:27:40] INFO root fetch - processPackages [python-utility-scripts]: Downloading https://files.pythonhosted.org/packages/b5/1f/a795660b71037e5c289d162daebc6fa80614879af1af487e37846d02355e/python_utility_scripts-0.0.9.tar.gz
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [openshift-cluster-management-python-wrapper]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2024-04-08 09:27:40] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cluster_management_python_wrapper-1.0.97.tar.gz tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz --markdown 20240408/o/openshift-cluster-management-python-wrapper/1.0.97-1.0.98/diff.md --exclude *.pyd
+[2024-04-08 09:27:40] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/2e/36/23bd27005a72d5bc87d2d81bd55477f2c4cbdee088189ef184dea2fb149c/openshift_cli_installer-2.0.9.tar.gz
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [pyhelper-utils]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [pyhelper-utils]: executing diffoscope
+[2024-04-08 09:27:40] INFO root fetch - processPackages [pyhelper-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelper_utils-0.0.4.tar.gz tmp/pyhelper_utils-0.0.5.tar.gz --markdown 20240408/p/pyhelper-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [propelauth-py]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [propelauth-py]: executing diffoscope
+[2024-04-08 09:27:40] INFO root fetch - processPackages [propelauth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propelauth-py-3.1.8.tar.gz tmp/propelauth-py-3.1.9.tar.gz --markdown 20240408/p/propelauth-py/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [python-utility-scripts]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [python-utility-scripts]: executing diffoscope
+[2024-04-08 09:27:40] INFO root fetch - processPackages [python-utility-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_utility_scripts-0.0.8.tar.gz tmp/python_utility_scripts-0.0.9.tar.gz --markdown 20240408/p/python-utility-scripts/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 09:27:40] WARNING root fetch - processPackages [openshift-cli-installer]: Timeout reached during download
+[2024-04-08 09:27:40] INFO root fetch - processPackages [openshift-cli-installer]: executing diffoscope
+[2024-04-08 09:27:40] INFO root fetch - processPackages [openshift-cli-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cli_installer-2.0.8.tar.gz tmp/openshift_cli_installer-2.0.9.tar.gz --markdown 20240408/o/openshift-cli-installer/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-08 09:27:41] INFO root fetch - processPackages [pwdata]: Remove: archive file [/home/abi/fetcher/tmp/pwdata-0.2.8.tar.gz]
+[2024-04-08 09:27:41] INFO root fetch - processPackages [pwdata]: Remove: archive file [/home/abi/fetcher/tmp/pwdata-0.2.9.tar.gz]
+[2024-04-08 09:27:41] INFO root fetch - main [MainThread]: End processing [pwdata]: success
+[2024-04-08 09:27:41] INFO root fetch - processPackages [vidstreammmjka]: Remove: archive file [/home/abi/fetcher/tmp/vidstreammmjka-0.0.1.tar.gz]
+[2024-04-08 09:27:41] INFO root fetch - processPackages [vidstreammmjka]: Remove: archive file [/home/abi/fetcher/tmp/vidstreammmjka-0.0.2.tar.gz]
+[2024-04-08 09:27:41] INFO root fetch - main [MainThread]: End processing [vidstreammmjka]: success
+[2024-04-08 09:27:42] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.97.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2024-04-08 09:27:42] INFO root fetch - processPackages [python-utility-scripts]: Remove: archive file [/home/abi/fetcher/tmp/python_utility_scripts-0.0.8.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - processPackages [python-utility-scripts]: Remove: archive file [/home/abi/fetcher/tmp/python_utility_scripts-0.0.9.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - main [MainThread]: End processing [python-utility-scripts]: success
+[2024-04-08 09:27:42] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.4.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.5.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - main [MainThread]: End processing [pyhelper-utils]: success
+[2024-04-08 09:27:42] INFO root fetch - processPackages [propelauth-py]: Remove: archive file [/home/abi/fetcher/tmp/propelauth-py-3.1.8.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - processPackages [propelauth-py]: Remove: archive file [/home/abi/fetcher/tmp/propelauth-py-3.1.9.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - main [MainThread]: End processing [propelauth-py]: success
+[2024-04-08 09:27:42] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.8.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.9.tar.gz]
+[2024-04-08 09:27:42] INFO root fetch - main [MainThread]: End processing [openshift-cli-installer]: success
+[2024-04-08 09:27:42] INFO root fetch - main [MainThread]: Store serial: [22663482]
