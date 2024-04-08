@@ -18994,3 +18994,75 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:31:07] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.9-py3-none-any.whl.zip]
 [2024-04-08 13:31:07] INFO root fetch - main [MainThread]: End processing [asktable]: success
 [2024-04-08 13:31:07] INFO root fetch - main [MainThread]: Store serial: [22666313]
+[2024-04-08 13:33:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666313]
+[2024-04-08 13:33:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 13:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AssetsStore
+[2024-04-08 13:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mat3ra-esse
+[2024-04-08 13:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pigeonpost
+[2024-04-08 13:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoga-image-optimizer
+[2024-04-08 13:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: verifit
+[2024-04-08 13:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-ldap-authenticator
+[2024-04-08 13:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: factorial-aivn-dev123
+[2024-04-08 13:33:16] INFO root fetch - processPackages [mat3ra-esse]: New version: [2024.4.8.post3] Old Version: [2024.4.8.post2]
+[2024-04-08 13:33:16] INFO root fetch - processPackages [yoga-image-optimizer]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-08 13:33:16] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/13/a1/ee5f8e56502d64f0ed389da6a8fa802f0cf655142952a1d2b5ad01b55ff9/mat3ra-esse-2024.4.8.post2.tar.gz
+[2024-04-08 13:33:16] INFO root fetch - processPackages [AssetsStore]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-08 13:33:16] INFO root fetch - processPackages [verifit]: New version: [4.3.0] Old Version: [4.2.2]
+[2024-04-08 13:33:16] INFO root fetch - processPackages [streamlit-ldap-authenticator]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-08 13:33:16] WARNING root fetch - processPackages [factorial-aivn-dev123]: Skipping, unable to determine old version
+[2024-04-08 13:33:16] INFO root fetch - processPackages [pigeonpost]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-08 13:33:16] INFO root fetch - main [MainThread]: End processing [factorial-aivn-dev123] error
+[2024-04-08 13:33:17] INFO root fetch - processPackages [yoga-image-optimizer]: Downloading https://files.pythonhosted.org/packages/4b/b5/442afa5fd5367f58a27d37b2c8e7d20d0735dfcb272353d783479ffa3eda/yoga_image_optimizer-1.2.3.tar.gz
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 13:33:17] INFO root fetch - processPackages [AssetsStore]: Downloading https://files.pythonhosted.org/packages/0c/61/e94672a305b0010e0821e98544af92577ab85ea40ae81b56c66351993f54/AssetsStore-1.0.7-py3-none-any.whl
+[2024-04-08 13:33:17] INFO root fetch - processPackages [pigeonpost]: Downloading https://files.pythonhosted.org/packages/4e/6f/f3c2e5440f67a8e00910cdd8e0f61c965eedb0d60e3bd7ccd2944dfff98e/pigeonpost-0.4.0.tar.gz
+[2024-04-08 13:33:17] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/95/60/9921b4f3c44a3c819f6a516b9093fcdb989326f232b2d8b2c312cf0b6bd0/verifit-4.2.2.tar.gz
+[2024-04-08 13:33:17] INFO root fetch - processPackages [streamlit-ldap-authenticator]: Downloading https://files.pythonhosted.org/packages/5a/9f/5b281f957f1f17b4e18a818656c8906bcf3e41eb17e57705adebce6bd47c/streamlit-ldap-authenticator-0.2.3.tar.gz
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [yoga-image-optimizer]: Timeout reached during download
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [AssetsStore]: Timeout reached during download
+[2024-04-08 13:33:17] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/d2/59/9e696ce19d189df1e60be78aadaa07e08b02d1c0286fdf2a12fdcdf9ca74/mat3ra-esse-2024.4.8.post3.tar.gz
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [pigeonpost]: Timeout reached during download
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [streamlit-ldap-authenticator]: Timeout reached during download
+[2024-04-08 13:33:17] INFO root fetch - processPackages [yoga-image-optimizer]: Downloading https://files.pythonhosted.org/packages/cb/62/f3175cee57d6d8490f1270b3329d13121ce96315023d3c24d838f0d04fa4/yoga_image_optimizer-1.2.4.tar.gz
+[2024-04-08 13:33:17] INFO root fetch - processPackages [AssetsStore]: Downloading https://files.pythonhosted.org/packages/28/de/d071aae04e233075a5437a8335f91c71da5d188959bbfed6ab6ff02cbb25/AssetsStore-1.0.8-py3-none-any.whl
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 13:33:17] INFO root fetch - processPackages [mat3ra-esse]: executing diffoscope
+[2024-04-08 13:33:17] INFO root fetch - processPackages [mat3ra-esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-esse-2024.4.8.post2.tar.gz tmp/mat3ra-esse-2024.4.8.post3.tar.gz --markdown 20240408/m/mat3ra-esse/2024.4.8.post2-2024.4.8.post3/diff.md --exclude *.pyd
+[2024-04-08 13:33:17] INFO root fetch - processPackages [pigeonpost]: Downloading https://files.pythonhosted.org/packages/4c/2c/4443dfa8f212f5d78092b998a0c0d23414b06f4f51c8791d8002031d0e9e/pigeonpost-0.4.1.tar.gz
+[2024-04-08 13:33:17] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/f5/63/92ff69f79716f890580e3ab2b8e74827e8c343c2f36e2f2b9c71c6f0dbf9/verifit-4.3.0.tar.gz
+[2024-04-08 13:33:17] INFO root fetch - processPackages [streamlit-ldap-authenticator]: Downloading https://files.pythonhosted.org/packages/e9/ed/af2cd385feac852804fc6961838ebd94e72b15ace3e6f266cf5562f2066d/streamlit-ldap-authenticator-0.2.4.tar.gz
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [yoga-image-optimizer]: Timeout reached during download
+[2024-04-08 13:33:17] INFO root fetch - processPackages [yoga-image-optimizer]: executing diffoscope
+[2024-04-08 13:33:17] INFO root fetch - processPackages [yoga-image-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoga_image_optimizer-1.2.3.tar.gz tmp/yoga_image_optimizer-1.2.4.tar.gz --markdown 20240408/y/yoga-image-optimizer/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [AssetsStore]: Timeout reached during download
+[2024-04-08 13:33:17] INFO root fetch - processPackages [AssetsStore]: executing diffoscope
+[2024-04-08 13:33:17] INFO root fetch - processPackages [AssetsStore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AssetsStore-1.0.7-py3-none-any.whl.zip tmp/AssetsStore-1.0.8-py3-none-any.whl.zip --markdown 20240408/A/AssetsStore/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [pigeonpost]: Timeout reached during download
+[2024-04-08 13:33:17] INFO root fetch - processPackages [pigeonpost]: executing diffoscope
+[2024-04-08 13:33:17] INFO root fetch - processPackages [pigeonpost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonpost-0.4.0.tar.gz tmp/pigeonpost-0.4.1.tar.gz --markdown 20240408/p/pigeonpost/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-08 13:33:17] INFO root fetch - processPackages [verifit]: executing diffoscope
+[2024-04-08 13:33:17] INFO root fetch - processPackages [verifit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verifit-4.2.2.tar.gz tmp/verifit-4.3.0.tar.gz --markdown 20240408/v/verifit/4.2.2-4.3.0/diff.md --exclude *.pyd
+[2024-04-08 13:33:17] WARNING root fetch - processPackages [streamlit-ldap-authenticator]: Timeout reached during download
+[2024-04-08 13:33:17] INFO root fetch - processPackages [streamlit-ldap-authenticator]: executing diffoscope
+[2024-04-08 13:33:17] INFO root fetch - processPackages [streamlit-ldap-authenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-ldap-authenticator-0.2.3.tar.gz tmp/streamlit-ldap-authenticator-0.2.4.tar.gz --markdown 20240408/s/streamlit-ldap-authenticator/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-08 13:33:18] INFO root fetch - processPackages [AssetsStore]: Remove: archive file [/home/abi/fetcher/tmp/AssetsStore-1.0.7-py3-none-any.whl.zip]
+[2024-04-08 13:33:18] INFO root fetch - processPackages [AssetsStore]: Remove: archive file [/home/abi/fetcher/tmp/AssetsStore-1.0.8-py3-none-any.whl.zip]
+[2024-04-08 13:33:18] INFO root fetch - main [MainThread]: End processing [AssetsStore]: success
+[2024-04-08 13:33:18] INFO root fetch - processPackages [pigeonpost]: Remove: archive file [/home/abi/fetcher/tmp/pigeonpost-0.4.0.tar.gz]
+[2024-04-08 13:33:18] INFO root fetch - processPackages [pigeonpost]: Remove: archive file [/home/abi/fetcher/tmp/pigeonpost-0.4.1.tar.gz]
+[2024-04-08 13:33:18] INFO root fetch - main [MainThread]: End processing [pigeonpost]: success
+[2024-04-08 13:33:18] INFO root fetch - processPackages [yoga-image-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/yoga_image_optimizer-1.2.3.tar.gz]
+[2024-04-08 13:33:18] INFO root fetch - processPackages [yoga-image-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/yoga_image_optimizer-1.2.4.tar.gz]
+[2024-04-08 13:33:18] INFO root fetch - main [MainThread]: End processing [yoga-image-optimizer]: success
+[2024-04-08 13:33:18] INFO root fetch - processPackages [streamlit-ldap-authenticator]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-ldap-authenticator-0.2.3.tar.gz]
+[2024-04-08 13:33:18] INFO root fetch - processPackages [streamlit-ldap-authenticator]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-ldap-authenticator-0.2.4.tar.gz]
+[2024-04-08 13:33:18] INFO root fetch - main [MainThread]: End processing [streamlit-ldap-authenticator]: success
+[2024-04-08 13:33:18] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-4.2.2.tar.gz]
+[2024-04-08 13:33:18] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-4.3.0.tar.gz]
+[2024-04-08 13:33:18] INFO root fetch - main [MainThread]: End processing [verifit]: success
+[2024-04-08 13:33:19] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.8.post2.tar.gz]
+[2024-04-08 13:33:19] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.8.post3.tar.gz]
+[2024-04-08 13:33:19] INFO root fetch - main [MainThread]: End processing [mat3ra-esse]: success
+[2024-04-08 13:33:19] INFO root fetch - main [MainThread]: Store serial: [22666337]
