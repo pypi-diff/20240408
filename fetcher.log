@@ -8757,3 +8757,47 @@
 [2024-04-08 06:58:06] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.9.tar.gz]
 [2024-04-08 06:58:06] INFO root fetch - main [MainThread]: End processing [cefi]: success
 [2024-04-08 06:58:06] INFO root fetch - main [MainThread]: Store serial: [22662454]
+[2024-04-08 07:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662454]
+[2024-04-08 07:00:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 07:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trialforteicysautopytoexxerhtyoijhotyjhiotyhtyhiotjh
+[2024-04-08 07:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrfuniverse-test
+[2024-04-08 07:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GeneralAgent
+[2024-04-08 07:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rds-scheduler
+[2024-04-08 07:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ofscraper
+[2024-04-08 07:00:25] INFO root fetch - processPackages [ofscraper]: New version: [3.9.0.dev9] Old Version: [3.9.0.dev7]
+[2024-04-08 07:00:25] INFO root fetch - processPackages [pyrfuniverse-test]: New version: [0.20.1] Old Version: [0.20.0]
+[2024-04-08 07:00:25] INFO root fetch - processPackages [GeneralAgent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 07:00:25] WARNING root fetch - processPackages [trialforteicysautopytoexxerhtyoijhotyjhiotyhtyhiotjh]: Skipping, unable to determine old version
+[2024-04-08 07:00:25] INFO root fetch - processPackages [rds-scheduler]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-08 07:00:25] INFO root fetch - main [MainThread]: End processing [trialforteicysautopytoexxerhtyoijhotyjhiotyhtyhiotjh] error
+[2024-04-08 07:00:25] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/df/b3/41b423314e8536bb62d01eaed102796197ae0d08e41e81bed773f70359db/ofscraper-3.9.0.dev7.tar.gz
+[2024-04-08 07:00:26] WARNING root fetch - processPackages [ofscraper]: Timeout reached during download
+[2024-04-08 07:00:26] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/2c/a7/19187a41b609fe0073f8560c9536929661f7d47dc67892c1020d2a39d063/ofscraper-3.9.0.dev9.tar.gz
+[2024-04-08 07:00:26] INFO root fetch - processPackages [pyrfuniverse-test]: Downloading https://files.pythonhosted.org/packages/22/10/193f3a2bc7066ca5d02006f5b102c3ac9fb90092262e6d8ec2e98c9b16bd/pyrfuniverse-test-0.20.0.tar.gz
+[2024-04-08 07:00:26] INFO root fetch - processPackages [rds-scheduler]: Downloading https://files.pythonhosted.org/packages/ad/82/89271a978beaa5ce098fa51e4c9929474df73685aaf34054173dc43c129c/rds-scheduler-1.0.6.tar.gz
+[2024-04-08 07:00:26] WARNING root fetch - processPackages [pyrfuniverse-test]: Skipping package: exceeds size limit 39930296>=10485760
+[2024-04-08 07:00:26] INFO root fetch - processPackages [GeneralAgent]: Downloading https://files.pythonhosted.org/packages/4a/85/8ba69c65756dc2834f17de340ea370a0f1766c4e2dbf7ad78a7a1d7897c8/generalagent-0.2.8.tar.gz
+[2024-04-08 07:00:26] INFO root fetch - main [MainThread]: End processing [pyrfuniverse-test] error
+[2024-04-08 07:00:26] WARNING root fetch - processPackages [ofscraper]: Timeout reached during download
+[2024-04-08 07:00:26] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2024-04-08 07:00:26] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.9.0.dev7.tar.gz tmp/ofscraper-3.9.0.dev9.tar.gz --markdown 20240408/o/ofscraper/3.9.0.dev7-3.9.0.dev9/diff.md --exclude *.pyd
+[2024-04-08 07:00:26] WARNING root fetch - processPackages [rds-scheduler]: Timeout reached during download
+[2024-04-08 07:00:26] INFO root fetch - processPackages [rds-scheduler]: Downloading https://files.pythonhosted.org/packages/ba/52/bde380e789b0a3b897d964d31e0b005e93aded98083bddd9d95ddf9db2a0/rds-scheduler-1.0.7.tar.gz
+[2024-04-08 07:00:26] WARNING root fetch - processPackages [rds-scheduler]: Timeout reached during download
+[2024-04-08 07:00:26] INFO root fetch - processPackages [rds-scheduler]: executing diffoscope
+[2024-04-08 07:00:26] INFO root fetch - processPackages [rds-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-scheduler-1.0.6.tar.gz tmp/rds-scheduler-1.0.7.tar.gz --markdown 20240408/r/rds-scheduler/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-08 07:00:27] INFO root fetch - processPackages [rds-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/rds-scheduler-1.0.6.tar.gz]
+[2024-04-08 07:00:27] INFO root fetch - processPackages [rds-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/rds-scheduler-1.0.7.tar.gz]
+[2024-04-08 07:00:27] INFO root fetch - main [MainThread]: End processing [rds-scheduler]: success
+[2024-04-08 07:00:27] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.0.dev7.tar.gz]
+[2024-04-08 07:00:27] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.0.dev9.tar.gz]
+[2024-04-08 07:00:27] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2024-04-08 07:00:27] WARNING root fetch - processPackages [GeneralAgent]: Timeout reached during download
+[2024-04-08 07:00:28] INFO root fetch - processPackages [GeneralAgent]: Downloading https://files.pythonhosted.org/packages/e9/fa/fc31444c8cf506043f3d6aabb6baa345465ece6af60121119b62330ca790/generalagent-0.2.9.tar.gz
+[2024-04-08 07:00:28] WARNING root fetch - processPackages [GeneralAgent]: Timeout reached during download
+[2024-04-08 07:00:28] INFO root fetch - processPackages [GeneralAgent]: executing diffoscope
+[2024-04-08 07:00:28] INFO root fetch - processPackages [GeneralAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generalagent-0.2.8.tar.gz tmp/generalagent-0.2.9.tar.gz --markdown 20240408/G/GeneralAgent/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 07:00:29] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.8.tar.gz]
+[2024-04-08 07:00:29] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.9.tar.gz]
+[2024-04-08 07:00:29] INFO root fetch - main [MainThread]: End processing [GeneralAgent]: success
+[2024-04-08 07:00:29] INFO root fetch - main [MainThread]: Store serial: [22662468]
