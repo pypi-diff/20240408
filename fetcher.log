@@ -22548,3 +22548,55 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:23:34] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-5.0.0.dev0.tar.gz]
 [2024-04-08 15:23:34] INFO root fetch - main [MainThread]: End processing [v4-proto]: success
 [2024-04-08 15:23:34] INFO root fetch - main [MainThread]: Store serial: [22667570]
+[2024-04-08 15:25:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667570]
+[2024-04-08 15:25:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 15:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faasmctl
+[2024-04-08 15:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssh-ca-cli
+[2024-04-08 15:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tonpy-dev
+[2024-04-08 15:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: warpzone-sdk
+[2024-04-08 15:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sirji-agents
+[2024-04-08 15:25:43] INFO root fetch - processPackages [tonpy-dev]: New version: [0.0.0.4.1a1] Old Version: [0.0.0.4.0rc1]
+[2024-04-08 15:25:43] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-08 15:25:43] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 15:25:43] INFO root fetch - processPackages [faasmctl]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 15:25:43] INFO root fetch - processPackages [warpzone-sdk]: New version: [9.1.9] Old Version: [9.1.8]
+[2024-04-08 15:25:43] INFO root fetch - processPackages [tonpy-dev]: Downloading https://files.pythonhosted.org/packages/6e/07/511f6936f0c5626d6129985b08c47e1da80b2764e8a5db070b83088fcac8/tonpy_dev-0.0.0.4.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-08 15:25:43] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/f4/07/7e7897e9b09a4c9415be97a0db318cc1dc8316fb701b1c617d3f0d0a8ddc/ssh_ca_cli-0.7.4.tar.gz
+[2024-04-08 15:25:43] WARNING root fetch - processPackages [tonpy-dev]: Skipping package: exceeds size limit 10969212>=10485760
+[2024-04-08 15:25:43] INFO root fetch - main [MainThread]: End processing [tonpy-dev] error
+[2024-04-08 15:25:44] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:25:44] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/38/e4/dff09873a8761498bf090bc86a2364dfcd7753dd9bc74448aa6c71a828eb/faasmctl-0.9.0.tar.gz
+[2024-04-08 15:25:44] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-04-08 15:25:44] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/30/c5/2385104102242b4b2796d6fcd2d927d857e92c09234689b6b3f81754a9b8/warpzone_sdk-9.1.8.tar.gz
+[2024-04-08 15:25:44] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/75/5f/3ff7732cd24ae50adbb575b9de5913cb611511002ca1e3ca16d7d04645f8/ssh_ca_cli-0.7.5.tar.gz
+[2024-04-08 15:25:44] WARNING root fetch - processPackages [warpzone-sdk]: Timeout reached during download
+[2024-04-08 15:25:44] WARNING root fetch - processPackages [faasmctl]: Timeout reached during download
+[2024-04-08 15:25:44] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:25:44] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 15:25:44] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.4.tar.gz tmp/ssh_ca_cli-0.7.5.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2024-04-08 15:25:44] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/41/7d/cb14d7ee4be30f331412fbf42f28b30dca3df8ad102961c612ff2a1dd661/warpzone_sdk-9.1.9.tar.gz
+[2024-04-08 15:25:44] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-08 15:25:44] WARNING root fetch - processPackages [warpzone-sdk]: Timeout reached during download
+[2024-04-08 15:25:44] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2024-04-08 15:25:44] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-9.1.8.tar.gz tmp/warpzone_sdk-9.1.9.tar.gz --markdown 20240408/w/warpzone-sdk/9.1.8-9.1.9/diff.md --exclude *.pyd
+[2024-04-08 15:25:44] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-04-08 15:25:44] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/12/94/9638f501b93a4d5196fdc4cc2fabae586b16cd83dfce921eca78c2dec55f/faasmctl-0.9.1.tar.gz
+[2024-04-08 15:25:44] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-08 15:25:44] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-08 15:25:44] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240408/s/sirji-agents/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 15:25:44] WARNING root fetch - processPackages [faasmctl]: Timeout reached during download
+[2024-04-08 15:25:44] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2024-04-08 15:25:44] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.9.0.tar.gz tmp/faasmctl-0.9.1.tar.gz --markdown 20240408/f/faasmctl/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 15:25:45] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.8.tar.gz]
+[2024-04-08 15:25:45] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.9.tar.gz]
+[2024-04-08 15:25:45] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2024-04-08 15:25:45] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.4.tar.gz]
+[2024-04-08 15:25:45] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.5.tar.gz]
+[2024-04-08 15:25:45] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 15:25:45] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-04-08 15:25:45] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-04-08 15:25:45] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-08 15:25:45] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.0.tar.gz]
+[2024-04-08 15:25:45] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.1.tar.gz]
+[2024-04-08 15:25:45] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2024-04-08 15:25:45] INFO root fetch - main [MainThread]: Store serial: [22667585]
