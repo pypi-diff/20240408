@@ -21082,3 +21082,113 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:49:58] INFO root fetch - processPackages [infiltra]: Remove: archive file [/home/abi/fetcher/tmp/infiltra-4.0.tar.gz]
 [2024-04-08 14:49:58] INFO root fetch - main [MainThread]: End processing [infiltra]: success
 [2024-04-08 14:49:58] INFO root fetch - main [MainThread]: Store serial: [22667041]
+[2024-04-08 14:52:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667041]
+[2024-04-08 14:52:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: warpzone-sdk
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyguiadapter
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datamazing
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toolfuse
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: illuminat
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: internal
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oganesson
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arion-library
+[2024-04-08 14:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastexcel
+[2024-04-08 14:52:08] INFO root fetch - processPackages [arion-library]: New version: [1.1rc30.dev30] Old Version: [1.1rc29.dev29]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [illuminat]: New version: [0.0.8.8] Old Version: [0.0.8.7]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [pyguiadapter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [toolfuse]: New version: [0.1.13] Old Version: [0.1.12]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [internal]: New version: [0.1.95] Old Version: [0.1.94]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [warpzone-sdk]: New version: [9.1.9] Old Version: [9.1.8]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [oganesson]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [datamazing]: New version: [4.2.0] Old Version: [4.1.2]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [fastexcel]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/18/21/391c0965bea53cc6a869ac84f3181ba7a14d41f118b266c25c6195514557/arion_library-1.1rc29.dev29.tar.gz
+[2024-04-08 14:52:08] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240408] Old Version: [2.5.0b20240407]
+[2024-04-08 14:52:08] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/63/70/e1d55956ecbc1c69b82b6b56ac1401fd0767a68b6719791fbc02a0c7f16e/pyguiadapter-0.2.8.tar.gz
+[2024-04-08 14:52:08] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/7e/c6/6418e4c7238545b4e30f874c72aba8770024349de1857925a7bf7ed5df25/internal-0.1.94.tar.gz
+[2024-04-08 14:52:08] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/30/c5/2385104102242b4b2796d6fcd2d927d857e92c09234689b6b3f81754a9b8/warpzone_sdk-9.1.8.tar.gz
+[2024-04-08 14:52:08] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/f0/fb/be1fcfa3759d70c2e3232514491a419249d69e1991c4726af2cdbaf12d14/illuminat-0.0.8.7.tar.gz
+[2024-04-08 14:52:08] INFO root fetch - processPackages [toolfuse]: Downloading https://files.pythonhosted.org/packages/b1/37/71bc20d329fc5b6001c054081962d2a7ad666d4489205aaf772cff533a58/toolfuse-0.1.12.tar.gz
+[2024-04-08 14:52:08] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 14:52:08] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/5a/16/eb08948b07191480b03a8bfac4c5f9a14865543131abac8c609c459a3005/oganesson-0.1.8.tar.gz
+[2024-04-08 14:52:08] WARNING root fetch - processPackages [pyguiadapter]: Timeout reached during download
+[2024-04-08 14:52:08] WARNING root fetch - processPackages [internal]: Timeout reached during download
+[2024-04-08 14:52:08] WARNING root fetch - processPackages [warpzone-sdk]: Timeout reached during download
+[2024-04-08 14:52:08] INFO root fetch - processPackages [fastexcel]: Downloading https://files.pythonhosted.org/packages/b6/df/f058406c7fbf049e9b8ebaa41d730577258a3d4f2cf652dcae643c862da6/fastexcel-0.9.0-cp39-none-win_amd64.whl
+[2024-04-08 14:52:08] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/3f/c7/4d2589caf2209f7878426b3f62768b6d529c48e038f6b6b4f3825bec1b42/bigdl_core_xe_esimd_21-2.5.0b20240407-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-08 14:52:08] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/89/51/a220b746e4c14ef864a0ff008e247b03a797ded15f489ffd298ff692456a/datamazing-4.1.2.tar.gz
+[2024-04-08 14:52:08] WARNING root fetch - processPackages [toolfuse]: Timeout reached during download
+[2024-04-08 14:52:08] WARNING root fetch - processPackages [illuminat]: Timeout reached during download
+[2024-04-08 14:52:08] WARNING root fetch - processPackages [bigdl-core-xe-esimd-21]: Skipping package: exceeds size limit 46708653>=10485760
+[2024-04-08 14:52:08] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Start processing: andriatina-authenticator
+[2024-04-08 14:52:08] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-04-08 14:52:08] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/70/0c/139e08664e09a36f6be946b9da6bbd901fb3f580d61247274ec28cc5b2e9/pyguiadapter-0.2.9.tar.gz
+[2024-04-08 14:52:08] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/55/c1/764fe70db0f4d18f1a4553aa7d89d402dd21118e44033200f2d804b663f4/internal-0.1.95.tar.gz
+[2024-04-08 14:52:08] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/41/7d/cb14d7ee4be30f331412fbf42f28b30dca3df8ad102961c612ff2a1dd661/warpzone_sdk-9.1.9.tar.gz
+[2024-04-08 14:52:08] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/93/eb/6ccbb6a7fb6096a4d69fd92baf742b26dde5293d439073ea2fc78341116a/arion_library-1.1rc30.dev30.tar.gz
+[2024-04-08 14:52:08] WARNING root fetch - processPackages [datamazing]: Timeout reached during download
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [fastexcel]: Timeout reached during download
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [oganesson]: Timeout reached during download
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [andriatina-authenticator]: Skipping, unable to determine old version
+[2024-04-08 14:52:09] INFO root fetch - main [MainThread]: End processing [andriatina-authenticator] error
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [internal]: Timeout reached during download
+[2024-04-08 14:52:09] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-04-08 14:52:09] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-0.1.94.tar.gz tmp/internal-0.1.95.tar.gz --markdown 20240408/i/internal/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2024-04-08 14:52:09] INFO root fetch - processPackages [toolfuse]: Downloading https://files.pythonhosted.org/packages/2d/3b/a67be1df9c0787dd9284332686f18ffd68c85fbb325cae56c87926339d22/toolfuse-0.1.13.tar.gz
+[2024-04-08 14:52:09] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/1a/98/5dd2bbfb97dab58c3f393e930aae6d3243ac95846e982bfc2b3eb7689346/illuminat-0.0.8.8.tar.gz
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [warpzone-sdk]: Timeout reached during download
+[2024-04-08 14:52:09] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2024-04-08 14:52:09] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-9.1.8.tar.gz tmp/warpzone_sdk-9.1.9.tar.gz --markdown 20240408/w/warpzone-sdk/9.1.8-9.1.9/diff.md --exclude *.pyd
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [pyguiadapter]: Timeout reached during download
+[2024-04-08 14:52:09] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 14:52:09] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc29.dev29.tar.gz tmp/arion_library-1.1rc30.dev30.tar.gz --markdown 20240408/a/arion-library/1.1rc29.dev29-1.1rc30.dev30/diff.md --exclude *.pyd
+[2024-04-08 14:52:09] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-08 14:52:09] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.2.8.tar.gz tmp/pyguiadapter-0.2.9.tar.gz --markdown 20240408/p/pyguiadapter/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [toolfuse]: Timeout reached during download
+[2024-04-08 14:52:09] INFO root fetch - processPackages [toolfuse]: executing diffoscope
+[2024-04-08 14:52:09] INFO root fetch - processPackages [toolfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolfuse-0.1.12.tar.gz tmp/toolfuse-0.1.13.tar.gz --markdown 20240408/t/toolfuse/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2024-04-08 14:52:09] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/be/bc/0ea76b3b9eca423ca70b59c7b210baaef604e59778384384b2151431afe0/datamazing-4.2.0.tar.gz
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [illuminat]: Timeout reached during download
+[2024-04-08 14:52:09] INFO root fetch - processPackages [illuminat]: executing diffoscope
+[2024-04-08 14:52:09] INFO root fetch - processPackages [illuminat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/illuminat-0.0.8.7.tar.gz tmp/illuminat-0.0.8.8.tar.gz --markdown 20240408/i/illuminat/0.0.8.7-0.0.8.8/diff.md --exclude *.pyd
+[2024-04-08 14:52:09] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/0e/b0/0bf47252cc54184d446e9d6f6d65b1704e58cddd08024db40a08c09c3252/oganesson-0.1.9.tar.gz
+[2024-04-08 14:52:09] INFO root fetch - processPackages [fastexcel]: Downloading https://files.pythonhosted.org/packages/46/c7/6bcc5fd464b5557c36ac2f45d6ff5e1b3557fedafd28a302eb66bfcad1a3/fastexcel-0.9.1-cp39-none-win_amd64.whl
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [datamazing]: Timeout reached during download
+[2024-04-08 14:52:09] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2024-04-08 14:52:09] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-4.1.2.tar.gz tmp/datamazing-4.2.0.tar.gz --markdown 20240408/d/datamazing/4.1.2-4.2.0/diff.md --exclude *.pyd
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [oganesson]: Timeout reached during download
+[2024-04-08 14:52:09] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2024-04-08 14:52:09] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.8.tar.gz tmp/oganesson-0.1.9.tar.gz --markdown 20240408/o/oganesson/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 14:52:09] WARNING root fetch - processPackages [fastexcel]: Timeout reached during download
+[2024-04-08 14:52:09] INFO root fetch - processPackages [fastexcel]: executing diffoscope
+[2024-04-08 14:52:09] INFO root fetch - processPackages [fastexcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastexcel-0.9.0-cp39-none-win_amd64.whl.zip tmp/fastexcel-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240408/f/fastexcel/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 14:52:10] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.94.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.95.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-04-08 14:52:10] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.8.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.9.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2024-04-08 14:52:10] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc29.dev29.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc30.dev30.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 14:52:10] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-4.1.2.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-4.2.0.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2024-04-08 14:52:10] INFO root fetch - processPackages [toolfuse]: Remove: archive file [/home/abi/fetcher/tmp/toolfuse-0.1.12.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - processPackages [toolfuse]: Remove: archive file [/home/abi/fetcher/tmp/toolfuse-0.1.13.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [toolfuse]: success
+[2024-04-08 14:52:10] INFO root fetch - processPackages [illuminat]: Remove: archive file [/home/abi/fetcher/tmp/illuminat-0.0.8.7.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - processPackages [illuminat]: Remove: archive file [/home/abi/fetcher/tmp/illuminat-0.0.8.8.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [illuminat]: success
+[2024-04-08 14:52:10] INFO root fetch - processPackages [fastexcel]: Remove: archive file [/home/abi/fetcher/tmp/fastexcel-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-08 14:52:10] INFO root fetch - processPackages [fastexcel]: Remove: archive file [/home/abi/fetcher/tmp/fastexcel-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [fastexcel]: success
+[2024-04-08 14:52:10] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.8.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.9.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2024-04-08 14:52:10] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.8.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.9.tar.gz]
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-08 14:52:10] INFO root fetch - main [MainThread]: Store serial: [22667083]
