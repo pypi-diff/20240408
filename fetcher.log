@@ -23374,3 +23374,196 @@ EOFError: EOF read where object expected
 [2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-gdal]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-gdal-1.9.1.dev8.tar.gz]
 [2024-04-08 15:39:21] INFO root fetch - main [MainThread]: End processing [large-image-source-gdal]: success
 [2024-04-08 15:39:21] INFO root fetch - main [MainThread]: Store serial: [22667911]
+[2024-04-08 15:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667911]
+[2024-04-08 15:41:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-measuretime
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-mapnik
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: large-image-source-multi
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openwillis
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-nd2
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: egobox
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-source-ometiff
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-openjpeg
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-pipelines-github
+[2024-04-08 15:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-openslide
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [simple-measuretime]: Skipping, unable to determine old version
+[2024-04-08 15:41:32] INFO root fetch - processPackages [simple-measuretime]: Start processing: jupyterlab-judge
+[2024-04-08 15:41:32] INFO root fetch - main [MainThread]: End processing [simple-measuretime] error
+[2024-04-08 15:41:32] INFO root fetch - processPackages [openwillis]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-multi]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-mapnik]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [egobox]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [cdk-pipelines-github]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-nd2]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-ometiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-openslide]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-openjpeg]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [jupyterlab-judge]: New version: [1.24.2] Old Version: [1.24.1]
+[2024-04-08 15:41:32] INFO root fetch - processPackages [openwillis]: Downloading https://files.pythonhosted.org/packages/76/5c/b363496dffbcb6b3c616009096941b931789882f5bc223b379f6a3fa59b5/openwillis-2.1.1.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/9e/30/8669a166720d1823a96dd41677e32d907d61e00570724c157d9b82cbc45a/jupyterlab_judge-1.24.1.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-multi]: Downloading https://files.pythonhosted.org/packages/d9/21/b61b00f5731696ef089922ba38d16dc863f2344801b00e20bcce54ca43f0/large-image-source-multi-1.27.5.dev8.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-mapnik]: Downloading https://files.pythonhosted.org/packages/ec/f8/40c5e595a0666f11af70b13b5528b91d61179bf3560aa54bf97025e81322/large-image-source-mapnik-1.9.1.dev6.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/08/86/5ebbf404d98bafd9d0b9e06d35fc4a1997cade73d46bd14dea656afdbaa3/cdk-pipelines-github-0.4.98.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/95/ea/1df84324de3d3648afee1380dfe201cc2df04f407dc2811e7244e4f911d8/large-image-source-openjpeg-1.9.1.dev6.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [egobox]: Downloading https://files.pythonhosted.org/packages/2c/27/daa7243ef27f4af7c33674635637e96c93553aafa2302c086619afd81830/egobox-0.8.2.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/1a/29/7390d858dfa6f7980312cb40b7706fbad943f78bf477bf6315522dafc015/large-image-source-nd2-1.9.1.dev6.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/73/2c/cb5bcd12f494516af0965d8399bae2e5b62d6c0afc01da7b16b2ebef69c2/large-image-source-openslide-1.9.1.dev6.tar.gz
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [large-image-source-multi]: Timeout reached during download
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [large-image-source-mapnik]: Timeout reached during download
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/e8/92/40431cff52dd08697018589d4cd716496dc3b1a45d50f232d8d37f735798/large-image-source-ometiff-1.9.1.dev6.tar.gz
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [openwillis]: Timeout reached during download
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [large-image-source-openjpeg]: Timeout reached during download
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [large-image-source-openslide]: Timeout reached during download
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [large-image-source-nd2]: Timeout reached during download
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [jupyterlab-judge]: Timeout reached during download
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [cdk-pipelines-github]: Timeout reached during download
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [egobox]: Timeout reached during download
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-multi]: Downloading https://files.pythonhosted.org/packages/9d/71/93e085a35b7691409c73655acc502b9fa66e982e29f71b9f2eb0a8ffa885/large-image-source-multi-1.27.5.dev99.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [openwillis]: Downloading https://files.pythonhosted.org/packages/7b/8c/61fb3725d270c3b3c9f5d4a8adb6c0981683a0da9517efb28fbb71c6801d/openwillis-2.1.2.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-mapnik]: Downloading https://files.pythonhosted.org/packages/cb/26/ae6c10f6388de2806ecc5e1ca9d5afad29ab6d5ac2e1d280a53970288577/large-image-source-mapnik-1.9.1.dev8.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/b7/c9/95c7e2154104780b160e9968dd9863f2de88d77a5986bc280d05e4811ebd/large-image-source-openjpeg-1.9.1.dev8.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/c8/df/b17307c007ac1426af3be7371a25ad1210d35030a77bbf56e44206195874/jupyterlab_judge-1.24.2.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/f0/7e/d45a7c8f1888ff585bf418622f627fb048aaa7ed8d8e2b8d7e97a3c27f8e/large-image-source-openslide-1.9.1.dev8.tar.gz
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/e2/73/86ec6d93de63690b5e2a8a2f6fc98fce9a12e4da38b4cfc37f1188c0240c/large-image-source-nd2-1.9.1.dev8.tar.gz
+[2024-04-08 15:41:32] WARNING root fetch - processPackages [large-image-source-multi]: Timeout reached during download
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-multi]: executing diffoscope
+[2024-04-08 15:41:32] INFO root fetch - processPackages [large-image-source-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-multi-1.27.5.dev8.tar.gz tmp/large-image-source-multi-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-multi/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 15:41:33] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/3f/a0/fc461f8c3f909eb20752a857e11eb54b903a8cc395cdeba4fa844b53d741/cdk-pipelines-github-0.4.99.tar.gz
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [openwillis]: Timeout reached during download
+[2024-04-08 15:41:33] INFO root fetch - processPackages [openwillis]: executing diffoscope
+[2024-04-08 15:41:33] INFO root fetch - processPackages [openwillis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openwillis-2.1.1.tar.gz tmp/openwillis-2.1.2.tar.gz --markdown 20240408/o/openwillis/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2024-04-08 15:41:33] INFO root fetch - processPackages [egobox]: Downloading https://files.pythonhosted.org/packages/34/88/c69edd89856a25d17290a69e24e4ac9cda0269e04e953058d7bcf9d2c32a/egobox-0.9.0.tar.gz
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [large-image-source-mapnik]: Timeout reached during download
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-mapnik]: executing diffoscope
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-mapnik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-mapnik/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [large-image-source-openjpeg]: Timeout reached during download
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-openjpeg]: executing diffoscope
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-openjpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-openjpeg/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [large-image-source-openslide]: Timeout reached during download
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-openslide]: executing diffoscope
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-openslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openslide-1.9.1.dev6.tar.gz tmp/large-image-source-openslide-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-openslide/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [large-image-source-nd2]: Timeout reached during download
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-nd2]: executing diffoscope
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-nd2-1.9.1.dev6.tar.gz tmp/large-image-source-nd2-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-nd2/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [large-image-source-ometiff]: Timeout reached during download
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [jupyterlab-judge]: Timeout reached during download
+[2024-04-08 15:41:33] INFO root fetch - processPackages [jupyterlab-judge]: executing diffoscope
+[2024-04-08 15:41:33] INFO root fetch - processPackages [jupyterlab-judge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_judge-1.24.1.tar.gz tmp/jupyterlab_judge-1.24.2.tar.gz --markdown 20240408/j/jupyterlab-judge/1.24.1-1.24.2/diff.md --exclude *.pyd
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [cdk-pipelines-github]: Timeout reached during download
+[2024-04-08 15:41:33] INFO root fetch - processPackages [cdk-pipelines-github]: executing diffoscope
+[2024-04-08 15:41:33] INFO root fetch - processPackages [cdk-pipelines-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pipelines-github-0.4.98.tar.gz tmp/cdk-pipelines-github-0.4.99.tar.gz --markdown 20240408/c/cdk-pipelines-github/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [egobox]: Timeout reached during download
+[2024-04-08 15:41:33] INFO root fetch - processPackages [egobox]: executing diffoscope
+[2024-04-08 15:41:33] INFO root fetch - processPackages [egobox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egobox-0.8.2.tar.gz tmp/egobox-0.9.0.tar.gz --markdown 20240408/e/egobox/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/8f/73/a25300dd64f045a5c3bad6c454d98e1d7dc0728d40536c8ec22fe913f92b/large-image-source-ometiff-1.9.1.dev8.tar.gz
+[2024-04-08 15:41:33] WARNING root fetch - processPackages [large-image-source-ometiff]: Timeout reached during download
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-ometiff]: executing diffoscope
+[2024-04-08 15:41:33] INFO root fetch - processPackages [large-image-source-ometiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-ometiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-mapnik]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-mapnik]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-mapnik]: Start processing: rfstools
+[2024-04-08 15:41:34] INFO root fetch - main [MainThread]: End processing [large-image-source-mapnik]: success
+[2024-04-08 15:41:34] INFO root fetch - processPackages [rfstools]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev6.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev8.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-openslide]: Start processing: large-image-source-pil
+[2024-04-08 15:41:34] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-openjpeg]: Start processing: nucliadb
+[2024-04-08 15:41:34] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
+[2024-04-08 15:41:34] INFO root fetch - processPackages [rfstools]: Downloading https://files.pythonhosted.org/packages/4b/05/6b5d09cb690a4014e6df3c2500e4bddb21695139e951ff928d6c9b1ff1a6/rfstools-1.8.1.tar.gz
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [openwillis]: Remove: archive file [/home/abi/fetcher/tmp/openwillis-2.1.1.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev6.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [openwillis]: Remove: archive file [/home/abi/fetcher/tmp/openwillis-2.1.2.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev8.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [openwillis]: Start processing: taipy-config
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-nd2]: Start processing: nucliadb-dataset
+[2024-04-08 15:41:34] INFO root fetch - main [MainThread]: End processing [openwillis]: success
+[2024-04-08 15:41:34] INFO root fetch - main [MainThread]: End processing [large-image-source-nd2]: success
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-multi]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-multi-1.27.5.dev8.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-multi]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-multi-1.27.5.dev99.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-multi]: Start processing: large-image-source-rasterio
+[2024-04-08 15:41:34] INFO root fetch - main [MainThread]: End processing [large-image-source-multi]: success
+[2024-04-08 15:41:34] WARNING root fetch - processPackages [rfstools]: Timeout reached during download
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-08 15:41:34] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.98.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.99.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [cdk-pipelines-github]: Start processing: nucliadb-models
+[2024-04-08 15:41:34] INFO root fetch - main [MainThread]: End processing [cdk-pipelines-github]: success
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [rfstools]: Downloading https://files.pythonhosted.org/packages/fc/b6/e302f788bc0204149a35fd3486165adc88d8ab0026878c96575110f441fb/rfstools-1.8.2.tar.gz
+[2024-04-08 15:41:34] INFO root fetch - processPackages [taipy-config]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - main [MainThread]: End processing [large-image-source-ometiff]: success
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-08 15:41:34] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-08 15:41:34] WARNING root fetch - processPackages [rfstools]: Timeout reached during download
+[2024-04-08 15:41:34] INFO root fetch - processPackages [rfstools]: executing diffoscope
+[2024-04-08 15:41:34] INFO root fetch - processPackages [rfstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfstools-1.8.1.tar.gz tmp/rfstools-1.8.2.tar.gz --markdown 20240408/r/rfstools/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/62/43/ee7dff22ed2010638ae04420c847d0eeeffd3ec95c15aef5dd78c0f9de79/large-image-source-pil-1.9.1.dev6.tar.gz
+[2024-04-08 15:41:34] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-08 15:41:34] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/a2/b0/4f96f8d02b95ebc441fc926ec35ce568235fe0caee077355f821b89fa7c2/taipy-config-3.1.0.tar.gz
+[2024-04-08 15:41:34] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-08 15:41:34] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/e5/4d/54a12df265960b44e9ac353de8a91ac62e1494d0cf64b394b4246868ccde/large-image-source-rasterio-1.27.5.dev8.tar.gz
+[2024-04-08 15:41:34] INFO root fetch - processPackages [egobox]: Remove: archive file [/home/abi/fetcher/tmp/egobox-0.8.2.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - processPackages [egobox]: Remove: archive file [/home/abi/fetcher/tmp/egobox-0.9.0.tar.gz]
+[2024-04-08 15:41:34] INFO root fetch - main [MainThread]: End processing [egobox]: success
+[2024-04-08 15:41:34] WARNING root fetch - processPackages [large-image-source-pil]: Timeout reached during download
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-08 15:41:34] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 15:41:34] WARNING root fetch - processPackages [taipy-config]: Timeout reached during download
+[2024-04-08 15:41:34] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2024-04-08 15:41:35] WARNING root fetch - processPackages [large-image-source-rasterio]: Timeout reached during download
+[2024-04-08 15:41:35] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-08 15:41:35] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-08 15:41:35] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 15:41:35] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-08 15:41:35] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-08 15:41:35] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 15:41:35] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/16/de/30625ad17a45bb09c946170f418b802d1a24d53a1c281793bfed555d86de/taipy-config-3.1.1.tar.gz
+[2024-04-08 15:41:35] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/51/73/2b201201e4bd4d42037d602dc35d468eba8131dce691debda3e43e3817f7/large-image-source-pil-1.9.1.dev8.tar.gz
+[2024-04-08 15:41:35] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/1b/ee/fa403b8ef136422c7bba62d5464a717873da2f9acb2670ff9fe843e6516f/large-image-source-rasterio-1.27.5.dev99.tar.gz
+[2024-04-08 15:41:35] WARNING root fetch - processPackages [taipy-config]: Timeout reached during download
+[2024-04-08 15:41:35] INFO root fetch - processPackages [taipy-config]: executing diffoscope
+[2024-04-08 15:41:35] INFO root fetch - processPackages [taipy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-config-3.1.0.tar.gz tmp/taipy-config-3.1.1.tar.gz --markdown 20240408/t/taipy-config/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-08 15:41:35] WARNING root fetch - processPackages [large-image-source-pil]: Timeout reached during download
+[2024-04-08 15:41:35] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2024-04-08 15:41:35] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:41:35] WARNING root fetch - processPackages [large-image-source-rasterio]: Timeout reached during download
+[2024-04-08 15:41:35] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2024-04-08 15:41:35] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.27.5.dev8.tar.gz tmp/large-image-source-rasterio-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-rasterio/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 15:41:35] INFO root fetch - processPackages [rfstools]: Remove: archive file [/home/abi/fetcher/tmp/rfstools-1.8.1.tar.gz]
+[2024-04-08 15:41:35] INFO root fetch - processPackages [rfstools]: Remove: archive file [/home/abi/fetcher/tmp/rfstools-1.8.2.tar.gz]
+[2024-04-08 15:41:35] INFO root fetch - main [MainThread]: End processing [rfstools]: success
+[2024-04-08 15:41:35] INFO root fetch - processPackages [jupyterlab-judge]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_judge-1.24.1.tar.gz]
+[2024-04-08 15:41:35] INFO root fetch - processPackages [jupyterlab-judge]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_judge-1.24.2.tar.gz]
+[2024-04-08 15:41:35] INFO root fetch - main [MainThread]: End processing [jupyterlab-judge]: success
+[2024-04-08 15:41:35] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 15:41:35] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 15:41:35] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-08 15:41:36] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 15:41:36] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 15:41:36] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-08 15:41:36] INFO root fetch - processPackages [taipy-config]: Remove: archive file [/home/abi/fetcher/tmp/taipy-config-3.1.0.tar.gz]
+[2024-04-08 15:41:36] INFO root fetch - processPackages [taipy-config]: Remove: archive file [/home/abi/fetcher/tmp/taipy-config-3.1.1.tar.gz]
+[2024-04-08 15:41:36] INFO root fetch - main [MainThread]: End processing [taipy-config]: success
+[2024-04-08 15:41:36] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev6.tar.gz]
+[2024-04-08 15:41:36] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev8.tar.gz]
+[2024-04-08 15:41:36] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2024-04-08 15:41:36] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.27.5.dev8.tar.gz]
+[2024-04-08 15:41:36] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.27.5.dev99.tar.gz]
+[2024-04-08 15:41:36] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2024-04-08 15:41:36] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 15:41:36] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 15:41:36] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-08 15:41:36] INFO root fetch - main [MainThread]: Store serial: [22667999]
