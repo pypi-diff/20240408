@@ -11567,3 +11567,50 @@
 [2024-04-08 09:20:45] INFO root fetch - processPackages [nonos]: Remove: archive file [/home/abi/fetcher/tmp/nonos-0.9.1.tar.gz]
 [2024-04-08 09:20:45] INFO root fetch - main [MainThread]: End processing [nonos]: success
 [2024-04-08 09:20:45] INFO root fetch - main [MainThread]: Store serial: [22663406]
+[2024-04-08 09:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663406]
+[2024-04-08 09:22:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 09:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-osubot
+[2024-04-08 09:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RabbitSpider
+[2024-04-08 09:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: path
+[2024-04-08 09:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-auto-bot-selector
+[2024-04-08 09:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apigw-manager
+[2024-04-08 09:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ezdsp
+[2024-04-08 09:22:54] WARNING root fetch - processPackages [nonebot-plugin-auto-bot-selector]: Skipping, unable to determine old version
+[2024-04-08 09:22:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-auto-bot-selector] error
+[2024-04-08 09:22:54] INFO root fetch - processPackages [ezdsp]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-08 09:22:54] WARNING root fetch - processPackages [RabbitSpider]: Skipping, unable to determine old version
+[2024-04-08 09:22:54] INFO root fetch - main [MainThread]: End processing [RabbitSpider] error
+[2024-04-08 09:22:54] INFO root fetch - processPackages [path]: New version: [16.9.0] Old Version: [16.8.0]
+[2024-04-08 09:22:54] INFO root fetch - processPackages [apigw-manager]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-08 09:22:54] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.4.1] Old Version: [5.4.0]
+[2024-04-08 09:22:54] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/88/ba/2471d17334fec06e5c6412a11c61123011acffc420a45bc02e64b1d11715/ezdsp-1.0.6.tar.gz
+[2024-04-08 09:22:54] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 09:22:55] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/16/9c/ec1639aa8c142709321ca7c1fa3fae74b10c816ce385579c5a61b2ed397d/nonebot-plugin-osubot-5.4.0.tar.gz
+[2024-04-08 09:22:55] INFO root fetch - processPackages [apigw-manager]: Downloading https://files.pythonhosted.org/packages/4a/cb/5a5cb3dc7728cbf67fe4572b8ee80130088cb61652d2c434ca9c6d6c9fde/apigw_manager-3.0.1-py3-none-any.whl
+[2024-04-08 09:22:55] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/75/8b/2add7d5e1c1ba1a96562a97731209b203de0e84d788e566262a2df473712/path-16.8.0.tar.gz
+[2024-04-08 09:22:55] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29381148>=10485760
+[2024-04-08 09:22:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-08 09:22:55] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/b3/c7/b5a6cf982a1bd8a96f48e4e157975ba365bb42ab9df57f325af6c5ac0c42/ezdsp-1.1.0.tar.gz
+[2024-04-08 09:22:55] WARNING root fetch - processPackages [apigw-manager]: Timeout reached during download
+[2024-04-08 09:22:55] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-08 09:22:55] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 09:22:55] INFO root fetch - processPackages [ezdsp]: executing diffoscope
+[2024-04-08 09:22:55] INFO root fetch - processPackages [ezdsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdsp-1.0.6.tar.gz tmp/ezdsp-1.1.0.tar.gz --markdown 20240408/e/ezdsp/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2024-04-08 09:22:55] INFO root fetch - processPackages [apigw-manager]: Downloading https://files.pythonhosted.org/packages/6c/9b/34b2e59bc744d6f47d0ac38e6091e43873169b1cbf446a4e3c889ce4ab05/apigw_manager-3.0.2-py3-none-any.whl
+[2024-04-08 09:22:55] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/8d/50/2a1a3287715c87d135dd1dcbd9f7bca4200302cfcc8c28ced1a8035d7894/path-16.9.0.tar.gz
+[2024-04-08 09:22:55] WARNING root fetch - processPackages [apigw-manager]: Timeout reached during download
+[2024-04-08 09:22:55] INFO root fetch - processPackages [apigw-manager]: executing diffoscope
+[2024-04-08 09:22:55] INFO root fetch - processPackages [apigw-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigw_manager-3.0.1-py3-none-any.whl.zip tmp/apigw_manager-3.0.2-py3-none-any.whl.zip --markdown 20240408/a/apigw-manager/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2024-04-08 09:22:55] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-08 09:22:55] INFO root fetch - processPackages [path]: executing diffoscope
+[2024-04-08 09:22:55] INFO root fetch - processPackages [path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/path-16.8.0.tar.gz tmp/path-16.9.0.tar.gz --markdown 20240408/p/path/16.8.0-16.9.0/diff.md --exclude *.pyd
+[2024-04-08 09:22:56] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.6.tar.gz]
+[2024-04-08 09:22:56] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.1.0.tar.gz]
+[2024-04-08 09:22:56] INFO root fetch - main [MainThread]: End processing [ezdsp]: success
+[2024-04-08 09:22:56] INFO root fetch - processPackages [apigw-manager]: Remove: archive file [/home/abi/fetcher/tmp/apigw_manager-3.0.1-py3-none-any.whl.zip]
+[2024-04-08 09:22:56] INFO root fetch - processPackages [apigw-manager]: Remove: archive file [/home/abi/fetcher/tmp/apigw_manager-3.0.2-py3-none-any.whl.zip]
+[2024-04-08 09:22:56] INFO root fetch - main [MainThread]: End processing [apigw-manager]: success
+[2024-04-08 09:22:56] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.8.0.tar.gz]
+[2024-04-08 09:22:56] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.9.0.tar.gz]
+[2024-04-08 09:22:56] INFO root fetch - main [MainThread]: End processing [path]: success
+[2024-04-08 09:22:56] INFO root fetch - main [MainThread]: Store serial: [22663425]
