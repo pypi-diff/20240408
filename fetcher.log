@@ -1994,3 +1994,44 @@
 [2024-04-08 02:34:21] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2024.4.8.0.32.4.tar.gz]
 [2024-04-08 02:34:21] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
 [2024-04-08 02:34:21] INFO root fetch - main [MainThread]: Store serial: [22660377]
+[2024-04-08 02:36:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660377]
+[2024-04-08 02:36:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 02:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ast-grep-py
+[2024-04-08 02:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-api
+[2024-04-08 02:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjvc
+[2024-04-08 02:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wii-music-editor
+[2024-04-08 02:36:31] INFO root fetch - processPackages [pyjvc]: New version: [4.4.2] Old Version: [4.4.1]
+[2024-04-08 02:36:31] INFO root fetch - processPackages [wii-music-editor]: New version: [2.0.0.dev9] Old Version: [2.0.0.dev8]
+[2024-04-08 02:36:31] INFO root fetch - processPackages [ast-grep-py]: New version: [0.20.3] Old Version: [0.20.2]
+[2024-04-08 02:36:31] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/21/25/75b308cdc59e850c09bcc0c3f22bdda9e1b646ad4e5b28cc53c617137b72/pyjvc-4.4.1.tar.gz
+[2024-04-08 02:36:31] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-08 02:36:31] WARNING root fetch - processPackages [pyjvc]: Timeout reached during download
+[2024-04-08 02:36:31] INFO root fetch - processPackages [wii-music-editor]: Downloading https://files.pythonhosted.org/packages/57/b7/80f1e3e96a559c6f704998e8203afac01cfd2c95b7baa09258bfa519c128/wii_music_editor-2.0.0.dev8.tar.gz
+[2024-04-08 02:36:31] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-08 02:36:31] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/88/3b/b9a14ad19db4e356243cbbe431c3313a03a7b23041402c137b21ba050f94/ast_grep_py-0.20.2.tar.gz
+[2024-04-08 02:36:31] WARNING root fetch - processPackages [wii-music-editor]: Skipping package: exceeds size limit 35454323>=10485760
+[2024-04-08 02:36:31] INFO root fetch - main [MainThread]: End processing [wii-music-editor] error
+[2024-04-08 02:36:31] INFO root fetch - processPackages [pyjvc]: Downloading https://files.pythonhosted.org/packages/3c/72/0a46dd45067bd97fb6d166f8f66f418de91d322b182f4f9e4912619b935f/pyjvc-4.4.2.tar.gz
+[2024-04-08 02:36:31] WARNING root fetch - processPackages [ast-grep-py]: Timeout reached during download
+[2024-04-08 02:36:31] WARNING root fetch - processPackages [spaceone-api]: Timeout reached during download
+[2024-04-08 02:36:31] WARNING root fetch - processPackages [pyjvc]: Timeout reached during download
+[2024-04-08 02:36:31] INFO root fetch - processPackages [pyjvc]: executing diffoscope
+[2024-04-08 02:36:31] INFO root fetch - processPackages [pyjvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjvc-4.4.1.tar.gz tmp/pyjvc-4.4.2.tar.gz --markdown 20240408/p/pyjvc/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2024-04-08 02:36:31] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/6a/44/4c8ce130156d7d5370538a1f3d4161a6d451395572aade4499c3d987b8eb/ast_grep_py-0.20.3.tar.gz
+[2024-04-08 02:36:31] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-08 02:36:31] WARNING root fetch - processPackages [spaceone-api]: Timeout reached during download
+[2024-04-08 02:36:31] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-08 02:36:31] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240408/s/spaceone-api/2.0.dev78-2.0.dev89/diff.md --exclude *.pyd
+[2024-04-08 02:36:31] WARNING root fetch - processPackages [ast-grep-py]: Timeout reached during download
+[2024-04-08 02:36:31] INFO root fetch - processPackages [ast-grep-py]: executing diffoscope
+[2024-04-08 02:36:31] INFO root fetch - processPackages [ast-grep-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_py-0.20.2.tar.gz tmp/ast_grep_py-0.20.3.tar.gz --markdown 20240408/a/ast-grep-py/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2024-04-08 02:36:32] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.1.tar.gz]
+[2024-04-08 02:36:32] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.2.tar.gz]
+[2024-04-08 02:36:32] INFO root fetch - main [MainThread]: End processing [pyjvc]: success
+[2024-04-08 02:36:32] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.20.2.tar.gz]
+[2024-04-08 02:36:32] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.20.3.tar.gz]
+[2024-04-08 02:36:32] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
+[2024-04-08 02:36:33] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-08 02:36:33] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-08 02:36:33] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-08 02:36:33] INFO root fetch - main [MainThread]: Store serial: [22660423]
