@@ -18732,3 +18732,83 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:21:07] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
 [2024-04-08 13:21:07] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
 [2024-04-08 13:21:07] INFO root fetch - main [MainThread]: Store serial: [22666213]
+[2024-04-08 13:23:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666213]
+[2024-04-08 13:23:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 13:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-protos
+[2024-04-08 13:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gfagraphs
+[2024-04-08 13:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-sdk
+[2024-04-08 13:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-telemetry
+[2024-04-08 13:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-utils
+[2024-04-08 13:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MultiGATE
+[2024-04-08 13:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arion-library
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 13:23:16] INFO root fetch - processPackages [MultiGATE]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 13:23:16] INFO root fetch - processPackages [arion-library]: New version: [1.1rc27.dev27] Old Version: [1.1rc1.dev4]
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.1.post406] Old Version: [2.46.1.post405]
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-08 13:23:16] INFO root fetch - processPackages [gfagraphs]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-08 13:23:16] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/c5/67/b861bf5fbf0481870a49b40e9bf00c1eb3c67e4795a929482d770f1c940a/MultiGATE-0.0.5.tar.gz
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/c0/dc/72325f33658adb971b672e64a2c8173cb6d64467900229e512c6c3ff44a8/nucliadb_telemetry-2.46.1.post405-py3-none-any.whl
+[2024-04-08 13:23:16] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/c8/6c/7d2502170c1e00fb1bd3b5e76ffbccf35d58dc08c072e60e9dc30d05184b/arion_library-1.1rc1.dev4.tar.gz
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-08 13:23:16] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/87/eb/3a081e19d92dd63c85ae3e4e228097587b86b90509ae2061b0db60085630/gfagraphs-0.2.8.tar.gz
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-08 13:23:16] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/2b/5f/20aeac2ee9d2b5660ca965dfd6cca93ea1db771ecf12028b339179efbdd8/arion_library-1.1rc27.dev27.tar.gz
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 13:23:16] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 13:23:16] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc1.dev4.tar.gz tmp/arion_library-1.1rc27.dev27.tar.gz --markdown 20240408/a/arion-library/1.1rc1.dev4-1.1rc27.dev27/diff.md --exclude *.pyd
+[2024-04-08 13:23:16] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/ea/29/e8398f8156c04a33f3a76ddb11f3615cb7b770df11ce5f947513e0ac24f3/MultiGATE-0.0.6.tar.gz
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/30/37/8ec5f4a8763bb077275112a37f5594f92b330004d58531d13d7f3a2d5b31/nucliadb_telemetry-2.46.1.post406-py3-none-any.whl
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [gfagraphs]: Timeout reached during download
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-08 13:23:16] INFO root fetch - processPackages [MultiGATE]: executing diffoscope
+[2024-04-08 13:23:16] INFO root fetch - processPackages [MultiGATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiGATE-0.0.5.tar.gz tmp/MultiGATE-0.0.6.tar.gz --markdown 20240408/M/MultiGATE/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 13:23:16] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-08 13:23:16] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.1.post405-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.1.post406-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-telemetry/2.46.1.post405-2.46.1.post406/diff.md --exclude *.pyd
+[2024-04-08 13:23:17] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/7f/83/fac1481f6dd1b2e511a5eb60dca1828923be4fc918ac08dbcf05fea6cc26/gfagraphs-0.2.9.tar.gz
+[2024-04-08 13:23:17] WARNING root fetch - processPackages [gfagraphs]: Timeout reached during download
+[2024-04-08 13:23:17] INFO root fetch - processPackages [gfagraphs]: executing diffoscope
+[2024-04-08 13:23:17] INFO root fetch - processPackages [gfagraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfagraphs-0.2.8.tar.gz tmp/gfagraphs-0.2.9.tar.gz --markdown 20240408/g/gfagraphs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 13:23:17] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.5.tar.gz]
+[2024-04-08 13:23:17] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.6.tar.gz]
+[2024-04-08 13:23:17] INFO root fetch - main [MainThread]: End processing [MultiGATE]: success
+[2024-04-08 13:23:17] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 13:23:17] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 13:23:17] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-08 13:23:17] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post405-py3-none-any.whl.zip]
+[2024-04-08 13:23:17] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post406-py3-none-any.whl.zip]
+[2024-04-08 13:23:17] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-08 13:23:17] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 13:23:17] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 13:23:17] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-08 13:23:17] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc1.dev4.tar.gz]
+[2024-04-08 13:23:17] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc27.dev27.tar.gz]
+[2024-04-08 13:23:17] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 13:23:17] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 13:23:17] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 13:23:17] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-08 13:23:17] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.2.8.tar.gz]
+[2024-04-08 13:23:17] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.2.9.tar.gz]
+[2024-04-08 13:23:17] INFO root fetch - main [MainThread]: End processing [gfagraphs]: success
+[2024-04-08 13:23:17] INFO root fetch - main [MainThread]: Store serial: [22666237]
