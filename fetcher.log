@@ -12465,3 +12465,89 @@
 [2024-04-08 10:00:32] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
 [2024-04-08 10:00:32] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-04-08 10:00:32] INFO root fetch - main [MainThread]: Store serial: [22663786]
+[2024-04-08 10:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663786]
+[2024-04-08 10:02:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ast-grep-cli
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aibridge-test
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deeplx-tr
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lm-pub-quiz
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ewatercycle-HBV
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tg-flask-sse-common
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threedi-schema
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prodpadlm-client
+[2024-04-08 10:02:41] INFO root fetch - processPackages [prodpadlm-client]: New version: [0.1.1.2] Old Version: [0.1.1.1]
+[2024-04-08 10:02:41] WARNING root fetch - processPackages [lm-pub-quiz]: Skipping, unable to determine old version
+[2024-04-08 10:02:41] INFO root fetch - main [MainThread]: End processing [lm-pub-quiz] error
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-08 10:02:41] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-08 10:02:41] WARNING root fetch - processPackages [deeplx-tr]: Skipping, unable to determine old version
+[2024-04-08 10:02:41] INFO root fetch - main [MainThread]: End processing [deeplx-tr] error
+[2024-04-08 10:02:41] INFO root fetch - processPackages [ewatercycle-HBV]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-04-08 10:02:41] INFO root fetch - processPackages [aibridge-test]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-08 10:02:41] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-08 10:02:41] INFO root fetch - processPackages [threedi-schema]: New version: [0.221] Old Version: [0.220]
+[2024-04-08 10:02:42] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-08 10:02:42] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/f7/c2/09d75b706485bc51e9971fffe138396e852d914b4ea1ced1dcbbf9c8890e/ast_grep_cli-0.9.2.tar.gz
+[2024-04-08 10:02:42] INFO root fetch - processPackages [prodpadlm-client]: Downloading https://files.pythonhosted.org/packages/dc/5b/8ad2f75503070a5120c16c6e86322b78d0c7062c195bb8d32cdc7ddb319f/prodpadlm_client-0.1.1.1.tar.gz
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [prodpadlm-client]: Timeout reached during download
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [ast-grep-cli]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/1c/bc/567673aab435581fecfd3f26f0c8e19f23157773f1750d23b3b27ece5b5b/aibridge_test-0.2.7.tar.gz
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [checkov]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [ewatercycle-HBV]: Downloading https://files.pythonhosted.org/packages/80/0f/86865295050fc715c1a93cc1d4842ee0f0ed564fe6e58ec5a181c58f8436/ewatercycle_hbv-1.6.1.tar.gz
+[2024-04-08 10:02:42] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/bb/5c/1c5ee896b0968132154badd72079015a1958ff352d47c5f9e74e8ce6d54e/ast_grep_cli-0.9.3.tar.gz
+[2024-04-08 10:02:42] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/c9/2f/72eb72cd4f16daf9d72254fe9f1c2fb3e7eb92893ee68c6a817d9e651736/tg_flask_sse_common-2.0.8.tar.gz
+[2024-04-08 10:02:42] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/88/8c/fc7b9e65d9d8e0d2f46db146a80c091c158a5b6a87a279c5d739b374c10d/threedi-schema-0.220.tar.gz
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-08 10:02:42] INFO root fetch - processPackages [prodpadlm-client]: Downloading https://files.pythonhosted.org/packages/79/3f/cf078eac4a6204f50411ec23869a3d1a002fd0867222de0164e1c1983a5c/prodpadlm_client-0.1.1.2.tar.gz
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [ast-grep-cli]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2024-04-08 10:02:42] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.9.2.tar.gz tmp/ast_grep_cli-0.9.3.tar.gz --markdown 20240408/a/ast-grep-cli/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [ewatercycle-HBV]: Timeout reached during download
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [prodpadlm-client]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [prodpadlm-client]: executing diffoscope
+[2024-04-08 10:02:42] INFO root fetch - processPackages [prodpadlm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodpadlm_client-0.1.1.1.tar.gz tmp/prodpadlm_client-0.1.1.2.tar.gz --markdown 20240408/p/prodpadlm-client/0.1.1.1-0.1.1.2/diff.md --exclude *.pyd
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [threedi-schema]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/ec/87/f07e7b0bbc19e7052040cd07387ca546311efb04e812c7f8a34043a9ba81/aibridge_test-0.2.8.tar.gz
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [checkov]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-08 10:02:42] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240408/c/checkov/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2024-04-08 10:02:42] INFO root fetch - processPackages [ewatercycle-HBV]: Downloading https://files.pythonhosted.org/packages/c9/ae/11b760070bf62c9cfbbecdf9cfa348d8f21adfc86a47a8f192bbfc5a5fe4/ewatercycle_hbv-1.7.0.tar.gz
+[2024-04-08 10:02:42] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/0a/ec/f17fee37c6206c51291b2fd1eb2e0e58c9f75288dca3f2ce1261f3309ac4/tg_flask_sse_common-2.0.9.tar.gz
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-04-08 10:02:42] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.2.7.tar.gz tmp/aibridge_test-0.2.8.tar.gz --markdown 20240408/a/aibridge-test/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-08 10:02:42] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/90/7f/a4922f5a708f7c222d5623c0315fd0987a4084096f8616f6a35979da0cea/threedi-schema-0.221.tar.gz
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [ewatercycle-HBV]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [ewatercycle-HBV]: executing diffoscope
+[2024-04-08 10:02:42] INFO root fetch - processPackages [ewatercycle-HBV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewatercycle_hbv-1.6.1.tar.gz tmp/ewatercycle_hbv-1.7.0.tar.gz --markdown 20240408/e/ewatercycle-HBV/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2024-04-08 10:02:42] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-08 10:02:42] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-08 10:02:42] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-2.0.8.tar.gz tmp/tg_flask_sse_common-2.0.9.tar.gz --markdown 20240408/t/tg-flask-sse-common/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:02:43] WARNING root fetch - processPackages [threedi-schema]: Timeout reached during download
+[2024-04-08 10:02:43] INFO root fetch - processPackages [threedi-schema]: executing diffoscope
+[2024-04-08 10:02:43] INFO root fetch - processPackages [threedi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-schema-0.220.tar.gz tmp/threedi-schema-0.221.tar.gz --markdown 20240408/t/threedi-schema/0.220-0.221/diff.md --exclude *.pyd
+[2024-04-08 10:02:43] INFO root fetch - processPackages [prodpadlm-client]: Remove: archive file [/home/abi/fetcher/tmp/prodpadlm_client-0.1.1.1.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - processPackages [prodpadlm-client]: Remove: archive file [/home/abi/fetcher/tmp/prodpadlm_client-0.1.1.2.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - main [MainThread]: End processing [prodpadlm-client]: success
+[2024-04-08 10:02:43] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.7.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.8.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-04-08 10:02:43] INFO root fetch - processPackages [ewatercycle-HBV]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_hbv-1.6.1.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - processPackages [ewatercycle-HBV]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_hbv-1.7.0.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - main [MainThread]: End processing [ewatercycle-HBV]: success
+[2024-04-08 10:02:43] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.8.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.9.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-08 10:02:43] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.2.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
+[2024-04-08 10:02:43] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2024-04-08 10:02:44] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.220.tar.gz]
+[2024-04-08 10:02:44] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.221.tar.gz]
+[2024-04-08 10:02:44] INFO root fetch - main [MainThread]: End processing [threedi-schema]: success
+[2024-04-08 10:02:51] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-08 10:02:51] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-08 10:02:51] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-08 10:02:51] INFO root fetch - main [MainThread]: Store serial: [22663823]
