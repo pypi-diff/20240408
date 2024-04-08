@@ -3172,3 +3172,17 @@
 [2024-04-08 04:09:22] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.6rc46.post1.tar.gz]
 [2024-04-08 04:09:22] INFO root fetch - main [MainThread]: End processing [reprompt]: success
 [2024-04-08 04:09:22] INFO root fetch - main [MainThread]: Store serial: [22660818]
+[2024-04-08 04:11:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660818]
+[2024-04-08 04:11:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 04:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mat3ra-esse
+[2024-04-08 04:11:32] INFO root fetch - processPackages [mat3ra-esse]: New version: [2024.4.8.post0] Old Version: [2024.3.25.post6]
+[2024-04-08 04:11:33] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/bd/25/560feb540ea994a388873805f647565943c6c653e9643186efc9ec9fcda0/mat3ra-esse-2024.3.25.post6.tar.gz
+[2024-04-08 04:11:33] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 04:11:33] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/19/f9/5c16331a0ced7c3ca9d9742ca9667c2d02313dfd238cbf89aa619f0468d3/mat3ra-esse-2024.4.8.post0.tar.gz
+[2024-04-08 04:11:33] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 04:11:33] INFO root fetch - processPackages [mat3ra-esse]: executing diffoscope
+[2024-04-08 04:11:33] INFO root fetch - processPackages [mat3ra-esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-esse-2024.3.25.post6.tar.gz tmp/mat3ra-esse-2024.4.8.post0.tar.gz --markdown 20240408/m/mat3ra-esse/2024.3.25.post6-2024.4.8.post0/diff.md --exclude *.pyd
+[2024-04-08 04:11:35] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.3.25.post6.tar.gz]
+[2024-04-08 04:11:35] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.8.post0.tar.gz]
+[2024-04-08 04:11:35] INFO root fetch - main [MainThread]: End processing [mat3ra-esse]: success
+[2024-04-08 04:11:35] INFO root fetch - main [MainThread]: Store serial: [22660821]
