@@ -7064,3 +7064,61 @@
 [2024-04-08 05:47:03] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdcpg-3.0.999.tar.gz]
 [2024-04-08 05:47:03] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdcpg]: success
 [2024-04-08 05:47:03] INFO root fetch - main [MainThread]: Store serial: [22661999]
+[2024-04-08 05:49:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661999]
+[2024-04-08 05:49:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 05:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ring-attention-pytorch
+[2024-04-08 05:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2024-04-08 05:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tia
+[2024-04-08 05:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fsinfo
+[2024-04-08 05:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tic
+[2024-04-08 05:49:16] INFO root fetch - processPackages [fsinfo]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 05:49:16] INFO root fetch - processPackages [ring-attention-pytorch]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-08 05:49:16] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-08 05:49:16] INFO root fetch - processPackages [ring-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/62/2b/037a61f373da6faa8110f505cc83a7b5a9597d79f1e7433074073ec5c16d/ring-attention-pytorch-0.3.5.tar.gz
+[2024-04-08 05:49:16] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-08 05:49:16] INFO root fetch - processPackages [tencentcloud-sdk-python-tic]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:49:16] INFO root fetch - processPackages [tencentcloud-sdk-python-tia]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:49:16] INFO root fetch - processPackages [fsinfo]: Downloading https://files.pythonhosted.org/packages/2d/1f/fcdd5ced4c10bd9158a118542892fb642ba10c02160205b91e3d4bc0bf6a/fsinfo-0.0.2.tar.gz
+[2024-04-08 05:49:16] WARNING root fetch - processPackages [ring-attention-pytorch]: Timeout reached during download
+[2024-04-08 05:49:16] WARNING root fetch - processPackages [specklia]: Timeout reached during download
+[2024-04-08 05:49:16] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-08 05:49:16] WARNING root fetch - processPackages [fsinfo]: Timeout reached during download
+[2024-04-08 05:49:16] INFO root fetch - processPackages [tencentcloud-sdk-python-tia]: Downloading https://files.pythonhosted.org/packages/bd/4b/0dcf0fba4c76a13ca0a5cec473c2e395727c9c35979d0539876b19e4a492/tencentcloud-sdk-python-tia-3.0.998.tar.gz
+[2024-04-08 05:49:16] INFO root fetch - processPackages [tencentcloud-sdk-python-tic]: Downloading https://files.pythonhosted.org/packages/68/0b/c0f99483842ee56218711a41ca61684f178e0495769716bba70b1665f7cf/tencentcloud-sdk-python-tic-3.0.998.tar.gz
+[2024-04-08 05:49:16] INFO root fetch - processPackages [ring-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/09/2e/b6decb4d4f067bfc3599a83e7f393bbb79dcf93be5a330bff6d0e048aa86/ring-attention-pytorch-0.3.6.tar.gz
+[2024-04-08 05:49:16] WARNING root fetch - processPackages [specklia]: Timeout reached during download
+[2024-04-08 05:49:16] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-08 05:49:16] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240408/s/specklia/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2024-04-08 05:49:16] WARNING root fetch - processPackages [ring-attention-pytorch]: Timeout reached during download
+[2024-04-08 05:49:16] INFO root fetch - processPackages [ring-attention-pytorch]: executing diffoscope
+[2024-04-08 05:49:16] INFO root fetch - processPackages [ring-attention-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ring-attention-pytorch-0.3.5.tar.gz tmp/ring-attention-pytorch-0.3.6.tar.gz --markdown 20240408/r/ring-attention-pytorch/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-08 05:49:16] INFO root fetch - processPackages [fsinfo]: Downloading https://files.pythonhosted.org/packages/55/2b/69487023af43759e8f6a586e2a072103753f72cd13772f13341f8f95d3da/fsinfo-0.0.3.tar.gz
+[2024-04-08 05:49:16] WARNING root fetch - processPackages [tencentcloud-sdk-python-tic]: Timeout reached during download
+[2024-04-08 05:49:16] WARNING root fetch - processPackages [fsinfo]: Timeout reached during download
+[2024-04-08 05:49:16] INFO root fetch - processPackages [fsinfo]: executing diffoscope
+[2024-04-08 05:49:16] INFO root fetch - processPackages [fsinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsinfo-0.0.2.tar.gz tmp/fsinfo-0.0.3.tar.gz --markdown 20240408/f/fsinfo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 05:49:16] INFO root fetch - processPackages [tencentcloud-sdk-python-tic]: Downloading https://files.pythonhosted.org/packages/78/6c/ab6220d4468cd778ffc635ac4ff8b1f3550bb4c2c93c3d08f12c962b7210/tencentcloud-sdk-python-tic-3.0.999.tar.gz
+[2024-04-08 05:49:17] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-08 05:49:17] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-08 05:49:17] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-08 05:49:17] WARNING root fetch - processPackages [tencentcloud-sdk-python-tia]: Timeout reached during download
+[2024-04-08 05:49:17] INFO root fetch - processPackages [ring-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ring-attention-pytorch-0.3.5.tar.gz]
+[2024-04-08 05:49:17] INFO root fetch - processPackages [ring-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ring-attention-pytorch-0.3.6.tar.gz]
+[2024-04-08 05:49:17] INFO root fetch - main [MainThread]: End processing [ring-attention-pytorch]: success
+[2024-04-08 05:49:17] WARNING root fetch - processPackages [tencentcloud-sdk-python-tic]: Timeout reached during download
+[2024-04-08 05:49:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tic]: executing diffoscope
+[2024-04-08 05:49:17] INFO root fetch - processPackages [fsinfo]: Remove: archive file [/home/abi/fetcher/tmp/fsinfo-0.0.2.tar.gz]
+[2024-04-08 05:49:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tic-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tic-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tic/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:49:17] INFO root fetch - processPackages [fsinfo]: Remove: archive file [/home/abi/fetcher/tmp/fsinfo-0.0.3.tar.gz]
+[2024-04-08 05:49:17] INFO root fetch - main [MainThread]: End processing [fsinfo]: success
+[2024-04-08 05:49:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tia]: Downloading https://files.pythonhosted.org/packages/79/b0/a172cd4d562b985de5a6b8cce072f7ec267fcc0f89e5df110f525a7f1cff/tencentcloud-sdk-python-tia-3.0.999.tar.gz
+[2024-04-08 05:49:17] WARNING root fetch - processPackages [tencentcloud-sdk-python-tia]: Timeout reached during download
+[2024-04-08 05:49:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tia]: executing diffoscope
+[2024-04-08 05:49:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tia-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tia-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tia/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:49:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tic]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tic-3.0.998.tar.gz]
+[2024-04-08 05:49:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tic]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tic-3.0.999.tar.gz]
+[2024-04-08 05:49:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tic]: success
+[2024-04-08 05:49:18] INFO root fetch - processPackages [tencentcloud-sdk-python-tia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tia-3.0.998.tar.gz]
+[2024-04-08 05:49:18] INFO root fetch - processPackages [tencentcloud-sdk-python-tia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tia-3.0.999.tar.gz]
+[2024-04-08 05:49:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tia]: success
+[2024-04-08 05:49:18] INFO root fetch - main [MainThread]: Store serial: [22662014]
