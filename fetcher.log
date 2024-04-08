@@ -2772,3 +2772,17 @@
 [2024-04-08 03:34:19] WARNING root fetch - processPackages [example-package-oboril]: Skipping, unable to determine old version
 [2024-04-08 03:34:19] INFO root fetch - main [MainThread]: End processing [example-package-oboril] error
 [2024-04-08 03:34:19] INFO root fetch - main [MainThread]: Store serial: [22660654]
+[2024-04-08 03:36:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660654]
+[2024-04-08 03:36:27] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 03:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-plugin-commands
+[2024-04-08 03:36:27] INFO root fetch - processPackages [poetry-plugin-commands]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 03:36:27] INFO root fetch - processPackages [poetry-plugin-commands]: Downloading https://files.pythonhosted.org/packages/07/1e/4bea8850a31474e5877dd7673eb1af5f6742e0bee08ab1f6ce8d549e1b45/poetry_plugin_commands-0.0.1.tar.gz
+[2024-04-08 03:36:28] WARNING root fetch - processPackages [poetry-plugin-commands]: Timeout reached during download
+[2024-04-08 03:36:28] INFO root fetch - processPackages [poetry-plugin-commands]: Downloading https://files.pythonhosted.org/packages/56/d9/dff3b6645e4977e0c7b14b865988df52eb7c63e659e70f7cb90033e31bdf/poetry_plugin_commands-0.0.2.tar.gz
+[2024-04-08 03:36:28] WARNING root fetch - processPackages [poetry-plugin-commands]: Timeout reached during download
+[2024-04-08 03:36:28] INFO root fetch - processPackages [poetry-plugin-commands]: executing diffoscope
+[2024-04-08 03:36:28] INFO root fetch - processPackages [poetry-plugin-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_commands-0.0.1.tar.gz tmp/poetry_plugin_commands-0.0.2.tar.gz --markdown 20240408/p/poetry-plugin-commands/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 03:36:28] INFO root fetch - processPackages [poetry-plugin-commands]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_commands-0.0.1.tar.gz]
+[2024-04-08 03:36:28] INFO root fetch - processPackages [poetry-plugin-commands]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_commands-0.0.2.tar.gz]
+[2024-04-08 03:36:28] INFO root fetch - main [MainThread]: End processing [poetry-plugin-commands]: success
+[2024-04-08 03:36:28] INFO root fetch - main [MainThread]: Store serial: [22660662]
