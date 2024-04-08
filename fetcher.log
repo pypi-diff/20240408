@@ -13935,3 +13935,69 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:45:19] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.7.9.tar.gz]
 [2024-04-08 10:45:19] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
 [2024-04-08 10:45:19] INFO root fetch - main [MainThread]: Store serial: [22664446]
+[2024-04-08 10:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664446]
+[2024-04-08 10:47:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 10:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2024-04-08 10:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata
+[2024-04-08 10:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cacholote
+[2024-04-08 10:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-toothfairy-annotator
+[2024-04-08 10:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu
+[2024-04-08 10:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-cost-tracer
+[2024-04-08 10:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapix-py
+[2024-04-08 10:47:28] INFO root fetch - processPackages [napari-toothfairy-annotator]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-08 10:47:28] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-08 10:47:28] WARNING root fetch - processPackages [openai-cost-tracer]: Skipping, unable to determine old version
+[2024-04-08 10:47:28] INFO root fetch - main [MainThread]: End processing [openai-cost-tracer] error
+[2024-04-08 10:47:28] INFO root fetch - processPackages [udata]: New version: [7.0.7.dev28493] Old Version: [7.0.7.dev28474]
+[2024-04-08 10:47:28] INFO root fetch - processPackages [cacholote]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 10:47:28] INFO root fetch - processPackages [fastapix-py]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-08 10:47:28] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240408] Old Version: [2.17.0.dev20240407]
+[2024-04-08 10:47:28] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-08 10:47:28] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/bd/26/9cd9501de5d1349c11f15b7dd8e08b5d2a0b6af5fb73465a76ff6de368b6/udata-7.0.7.dev28474-py2.py3-none-any.whl
+[2024-04-08 10:47:28] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/60/32/8d521fb5a94ecc4342cb2ed8d2e5db23392cc3ee04fd0ce0ad099ba9f37c/napari-toothfairy-annotator-0.0.7.tar.gz
+[2024-04-08 10:47:28] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19775368>=10485760
+[2024-04-08 10:47:28] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-08 10:47:28] WARNING root fetch - processPackages [napari-toothfairy-annotator]: Timeout reached during download
+[2024-04-08 10:47:28] WARNING root fetch - processPackages [tfp-nightly]: Timeout reached during download
+[2024-04-08 10:47:28] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/0b/0a/3d0bdb2015d636f7ee1b7b09a2a0a5acd1a6ef3109c292c8149538c55d05/cacholote-0.9.0.tar.gz
+[2024-04-08 10:47:28] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/bb/25/bf9a408a835aa8644e2032acc7fc03e5d31c99feefcce60feaa9160f81bc/tf_nightly_cpu-2.17.0.dev20240407-cp39-cp39-win_amd64.whl
+[2024-04-08 10:47:28] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/42/e5/dbd937007acec0b980d88284171206762e95d2f01bb3d3dd7da0fad679ed/fastapix_py-0.7.6-py3-none-any.whl
+[2024-04-08 10:47:28] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-08 10:47:28] WARNING root fetch - processPackages [tf-nightly-cpu]: Timeout reached during download
+[2024-04-08 10:47:28] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/f7/cb/17259a113f9d9938f55e013bf6f160d8468f7fd9af2d89791df7b74af3b4/napari-toothfairy-annotator-0.0.8.tar.gz
+[2024-04-08 10:47:28] WARNING root fetch - processPackages [cacholote]: Timeout reached during download
+[2024-04-08 10:47:28] WARNING root fetch - processPackages [napari-toothfairy-annotator]: Timeout reached during download
+[2024-04-08 10:47:28] INFO root fetch - processPackages [napari-toothfairy-annotator]: executing diffoscope
+[2024-04-08 10:47:28] INFO root fetch - processPackages [napari-toothfairy-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-toothfairy-annotator-0.0.7.tar.gz tmp/napari-toothfairy-annotator-0.0.8.tar.gz --markdown 20240408/n/napari-toothfairy-annotator/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-08 10:47:28] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/3a/86/62c376a4ed508913f970333922507f5f5d02e076eb7948ef96090ae8649b/tf_nightly_cpu-2.17.0.dev20240408-cp39-cp39-win_amd64.whl
+[2024-04-08 10:47:29] WARNING root fetch - processPackages [tfp-nightly]: Timeout reached during download
+[2024-04-08 10:47:29] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-08 10:47:29] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240408/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2024-04-08 10:47:29] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/60/79/bf68379ac71885d30641d610857af299ad94997bf56c29ffc025e6eeb1c3/cacholote-0.9.1.tar.gz
+[2024-04-08 10:47:29] WARNING root fetch - processPackages [tf-nightly-cpu]: Timeout reached during download
+[2024-04-08 10:47:29] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-08 10:47:29] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240407-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240408-cp39-cp39-win_amd64.whl.zip --markdown 20240408/t/tf-nightly-cpu/2.17.0.dev20240407-2.17.0.dev20240408/diff.md --exclude *.pyd
+[2024-04-08 10:47:29] WARNING root fetch - processPackages [cacholote]: Timeout reached during download
+[2024-04-08 10:47:29] INFO root fetch - processPackages [cacholote]: executing diffoscope
+[2024-04-08 10:47:29] INFO root fetch - processPackages [cacholote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacholote-0.9.0.tar.gz tmp/cacholote-0.9.1.tar.gz --markdown 20240408/c/cacholote/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 10:47:29] WARNING root fetch - processPackages [fastapix-py]: Timeout reached during download
+[2024-04-08 10:47:29] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/ce/a6/f01b5bc34414edf161dfcb757c6c7fdd236bfbbaedaa71fc90a70204a46a/fastapix_py-0.7.7-py3-none-any.whl
+[2024-04-08 10:47:29] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.7.tar.gz]
+[2024-04-08 10:47:29] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.8.tar.gz]
+[2024-04-08 10:47:29] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240407-cp39-cp39-win_amd64.whl.zip]
+[2024-04-08 10:47:29] INFO root fetch - main [MainThread]: End processing [napari-toothfairy-annotator]: success
+[2024-04-08 10:47:29] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240408-cp39-cp39-win_amd64.whl.zip]
+[2024-04-08 10:47:29] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-08 10:47:30] WARNING root fetch - processPackages [fastapix-py]: Timeout reached during download
+[2024-04-08 10:47:30] INFO root fetch - processPackages [fastapix-py]: executing diffoscope
+[2024-04-08 10:47:30] INFO root fetch - processPackages [fastapix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapix_py-0.7.6-py3-none-any.whl.zip tmp/fastapix_py-0.7.7-py3-none-any.whl.zip --markdown 20240408/f/fastapix-py/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2024-04-08 10:47:30] INFO root fetch - processPackages [cacholote]: Remove: archive file [/home/abi/fetcher/tmp/cacholote-0.9.0.tar.gz]
+[2024-04-08 10:47:30] INFO root fetch - processPackages [cacholote]: Remove: archive file [/home/abi/fetcher/tmp/cacholote-0.9.1.tar.gz]
+[2024-04-08 10:47:30] INFO root fetch - main [MainThread]: End processing [cacholote]: success
+[2024-04-08 10:47:31] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.7.6-py3-none-any.whl.zip]
+[2024-04-08 10:47:31] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.7.7-py3-none-any.whl.zip]
+[2024-04-08 10:47:31] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
+[2024-04-08 10:47:32] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-08 10:47:32] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-08 10:47:32] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-08 10:47:32] INFO root fetch - main [MainThread]: Store serial: [22664472]
