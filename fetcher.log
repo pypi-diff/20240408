@@ -12110,3 +12110,50 @@
 [2024-04-08 09:45:11] INFO root fetch - processPackages [fructose]: Remove: archive file [/home/abi/fetcher/tmp/fructose-0.0.9.tar.gz]
 [2024-04-08 09:45:11] INFO root fetch - main [MainThread]: End processing [fructose]: success
 [2024-04-08 09:45:11] INFO root fetch - main [MainThread]: Store serial: [22663593]
+[2024-04-08 09:47:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663593]
+[2024-04-08 09:47:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 09:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-edi-product-oca
+[2024-04-08 09:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dip-coater
+[2024-04-08 09:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: passwordless
+[2024-04-08 09:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sql-mock
+[2024-04-08 09:47:21] INFO root fetch - processPackages [dip-coater]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-08 09:47:21] INFO root fetch - processPackages [passwordless]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-04-08 09:47:21] INFO root fetch - processPackages [sql-mock]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-08 09:47:21] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.1]
+[2024-04-08 09:47:21] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/13/94/9d8dde243cd970d51051464a07447db95e81202ad3139990eeb31b07b673/dip-coater-0.5.0.tar.gz
+[2024-04-08 09:47:21] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-08 09:47:21] INFO root fetch - processPackages [passwordless]: Downloading https://files.pythonhosted.org/packages/ad/8f/500d45623629ce54b3cf0eae72a2dd26b1c71b43732f1446b66a9d2f6f30/passwordless-0.1.1.tar.gz
+[2024-04-08 09:47:21] INFO root fetch - processPackages [sql-mock]: Downloading https://files.pythonhosted.org/packages/f3/82/711a215671a9c0e7d302346741e6a6b9c77b86bfdb16b358c11fa7932a6c/sql_mock-0.6.0.tar.gz
+[2024-04-08 09:47:21] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: Downloading https://files.pythonhosted.org/packages/53/9a/a40c78109351b33571170c7848a839175503a5f4313f378a4ddfa0a28d82/odoo_addon_edi_product_oca-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-08 09:47:21] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/50/f0/dd4e4d0da4112b65bd9b338cdc82622ef37b8774a1141e81e310c92027bf/dip-coater-0.6.0.tar.gz
+[2024-04-08 09:47:21] WARNING root fetch - processPackages [odoo-addon-edi-product-oca]: Timeout reached during download
+[2024-04-08 09:47:21] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-08 09:47:21] INFO root fetch - processPackages [dip-coater]: executing diffoscope
+[2024-04-08 09:47:21] INFO root fetch - processPackages [dip-coater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dip-coater-0.5.0.tar.gz tmp/dip-coater-0.6.0.tar.gz --markdown 20240408/d/dip-coater/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-08 09:47:21] WARNING root fetch - processPackages [passwordless]: Timeout reached during download
+[2024-04-08 09:47:21] WARNING root fetch - processPackages [sql-mock]: Timeout reached during download
+[2024-04-08 09:47:21] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: Downloading https://files.pythonhosted.org/packages/fc/23/ae265ae96827959d07b7f6c89ba27d42667a42972e04ea8ffc1349eadcc1/odoo_addon_edi_product_oca-16.0.1.1.1-py3-none-any.whl
+[2024-04-08 09:47:21] INFO root fetch - processPackages [passwordless]: Downloading https://files.pythonhosted.org/packages/ef/a9/04783b6735996182d8294c532a567ed14d861d94ec2d9d21f901fe4eb894/passwordless-1.0.0.tar.gz
+[2024-04-08 09:47:21] INFO root fetch - processPackages [sql-mock]: Downloading https://files.pythonhosted.org/packages/7b/34/c6e5bd8e26098f684954b35056404cd5dea1819cda94c61256b7c595a9a1/sql_mock-0.6.1.tar.gz
+[2024-04-08 09:47:21] WARNING root fetch - processPackages [odoo-addon-edi-product-oca]: Timeout reached during download
+[2024-04-08 09:47:21] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: executing diffoscope
+[2024-04-08 09:47:21] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_edi_product_oca-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_edi_product_oca-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-edi-product-oca/16.0.1.1.0.1-16.0.1.1.1/diff.md --exclude *.pyd
+[2024-04-08 09:47:21] WARNING root fetch - processPackages [passwordless]: Timeout reached during download
+[2024-04-08 09:47:21] INFO root fetch - processPackages [passwordless]: executing diffoscope
+[2024-04-08 09:47:21] INFO root fetch - processPackages [passwordless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwordless-0.1.1.tar.gz tmp/passwordless-1.0.0.tar.gz --markdown 20240408/p/passwordless/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 09:47:21] WARNING root fetch - processPackages [sql-mock]: Timeout reached during download
+[2024-04-08 09:47:21] INFO root fetch - processPackages [sql-mock]: executing diffoscope
+[2024-04-08 09:47:21] INFO root fetch - processPackages [sql-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_mock-0.6.0.tar.gz tmp/sql_mock-0.6.1.tar.gz --markdown 20240408/s/sql-mock/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-08 09:47:22] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.5.0.tar.gz]
+[2024-04-08 09:47:22] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.6.0.tar.gz]
+[2024-04-08 09:47:22] INFO root fetch - main [MainThread]: End processing [dip-coater]: success
+[2024-04-08 09:47:22] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_product_oca-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-08 09:47:22] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_product_oca-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-08 09:47:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-product-oca]: success
+[2024-04-08 09:47:22] INFO root fetch - processPackages [passwordless]: Remove: archive file [/home/abi/fetcher/tmp/passwordless-0.1.1.tar.gz]
+[2024-04-08 09:47:22] INFO root fetch - processPackages [passwordless]: Remove: archive file [/home/abi/fetcher/tmp/passwordless-1.0.0.tar.gz]
+[2024-04-08 09:47:22] INFO root fetch - main [MainThread]: End processing [passwordless]: success
+[2024-04-08 09:47:22] INFO root fetch - processPackages [sql-mock]: Remove: archive file [/home/abi/fetcher/tmp/sql_mock-0.6.0.tar.gz]
+[2024-04-08 09:47:22] INFO root fetch - processPackages [sql-mock]: Remove: archive file [/home/abi/fetcher/tmp/sql_mock-0.6.1.tar.gz]
+[2024-04-08 09:47:22] INFO root fetch - main [MainThread]: End processing [sql-mock]: success
+[2024-04-08 09:47:22] INFO root fetch - main [MainThread]: Store serial: [22663610]
