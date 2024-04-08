@@ -16166,3 +16166,60 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:02:38] INFO root fetch - processPackages [py-semtools]: Remove: archive file [/home/abi/fetcher/tmp/py_semtools-1.0.1.tar.gz]
 [2024-04-08 12:02:38] INFO root fetch - main [MainThread]: End processing [py-semtools]: success
 [2024-04-08 12:02:38] INFO root fetch - main [MainThread]: Store serial: [22665342]
+[2024-04-08 12:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665342]
+[2024-04-08 12:04:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 12:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjunct
+[2024-04-08 12:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boutpp-nightly
+[2024-04-08 12:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reapit-cdk.edge-api-swapper
+[2024-04-08 12:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: development-tool
+[2024-04-08 12:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: javonet-python-sdk
+[2024-04-08 12:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datateam-moss
+[2024-04-08 12:04:47] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-08 12:04:47] INFO root fetch - processPackages [javonet-python-sdk]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-08 12:04:47] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: Downloading https://files.pythonhosted.org/packages/d3/7c/ed5e7cbdaa0975f788efd0a36b41c9f194252dc44ef8e58535caf65ddaea/reapit-cdk.edge-api-swapper-0.1.3.tar.gz
+[2024-04-08 12:04:47] INFO root fetch - processPackages [datateam-moss]: New version: [0.0.72] Old Version: [0.0.71]
+[2024-04-08 12:04:47] INFO root fetch - processPackages [development-tool]: New version: [0.3.5] Old Version: [0.3]
+[2024-04-08 12:04:47] INFO root fetch - processPackages [cjunct]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-04-08 12:04:47] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.2.0.dev7] Old Version: [5.2.0.dev69]
+[2024-04-08 12:04:47] WARNING root fetch - processPackages [reapit-cdk.edge-api-swapper]: Timeout reached during download
+[2024-04-08 12:04:47] INFO root fetch - processPackages [datateam-moss]: Downloading https://files.pythonhosted.org/packages/40/9c/472600108bb349e4043e545a5e3d074b4b9769e7b009e2deab8a68443ea7/datateam_moss-0.0.71.tar.gz
+[2024-04-08 12:04:47] INFO root fetch - processPackages [javonet-python-sdk]: Downloading https://files.pythonhosted.org/packages/82/e8/5baaf0b979c5ab1da8ab53ccca850aa24edc667e24d9279eec21dd873c10/javonet_python_sdk-2.2.0-py3-none-any.whl
+[2024-04-08 12:04:47] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/b6/ea/2a162abd76e6ed4b274a9ee1770ffc189035f95b7523a3da63c33a57d157/boutpp-nightly-v5.2.0.dev69.tar.gz
+[2024-04-08 12:04:47] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/59/99/b056ba5dec2fbc9fb1ee878f357dabf3ef14c17620c8747f6dd8bd7154d6/development-tool-0.3.tar.gz
+[2024-04-08 12:04:47] INFO root fetch - processPackages [cjunct]: Downloading https://files.pythonhosted.org/packages/45/2b/17b4f182d1a7cea16d65b22c3cdeb14e27c1820423fc6b69b7abb36e6cb8/cjunct-1.6.0.tar.gz
+[2024-04-08 12:04:47] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: Downloading https://files.pythonhosted.org/packages/9c/06/9587c2944628d10c0a695b88b087e0b36408a8ccf33d00078c19a577df34/reapit-cdk.edge-api-swapper-0.1.4.tar.gz
+[2024-04-08 12:04:47] WARNING root fetch - processPackages [javonet-python-sdk]: Skipping package: exceeds size limit 183746257>=10485760
+[2024-04-08 12:04:47] INFO root fetch - main [MainThread]: End processing [javonet-python-sdk] error
+[2024-04-08 12:04:47] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 17920509>=10485760
+[2024-04-08 12:04:47] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2024-04-08 12:04:47] WARNING root fetch - processPackages [cjunct]: Timeout reached during download
+[2024-04-08 12:04:47] WARNING root fetch - processPackages [datateam-moss]: Timeout reached during download
+[2024-04-08 12:04:47] WARNING root fetch - processPackages [reapit-cdk.edge-api-swapper]: Timeout reached during download
+[2024-04-08 12:04:47] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: executing diffoscope
+[2024-04-08 12:04:47] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.edge-api-swapper-0.1.3.tar.gz tmp/reapit-cdk.edge-api-swapper-0.1.4.tar.gz --markdown 20240408/r/reapit-cdk.edge-api-swapper/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-08 12:04:47] INFO root fetch - processPackages [cjunct]: Downloading https://files.pythonhosted.org/packages/7f/4a/2eb92b951d6ce79123fa77dc9c209fbb6af5e3363a80c470092d7dceb67a/cjunct-2.0.0.tar.gz
+[2024-04-08 12:04:47] INFO root fetch - processPackages [datateam-moss]: Downloading https://files.pythonhosted.org/packages/ca/13/4f1729adca2e99fcfeeaf830e74dc0d24f1aa409c52ec5fbaaaeaea83472/datateam_moss-0.0.72.tar.gz
+[2024-04-08 12:04:47] WARNING root fetch - processPackages [development-tool]: Timeout reached during download
+[2024-04-08 12:04:48] WARNING root fetch - processPackages [cjunct]: Timeout reached during download
+[2024-04-08 12:04:48] INFO root fetch - processPackages [cjunct]: executing diffoscope
+[2024-04-08 12:04:48] INFO root fetch - processPackages [cjunct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjunct-1.6.0.tar.gz tmp/cjunct-2.0.0.tar.gz --markdown 20240408/c/cjunct/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2024-04-08 12:04:48] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/d7/f9/62f02e9cb9a848a4f6873aec142b513192e9621002e6b9b293e007e74894/development-tool-0.3.5.tar.gz
+[2024-04-08 12:04:48] WARNING root fetch - processPackages [datateam-moss]: Timeout reached during download
+[2024-04-08 12:04:48] INFO root fetch - processPackages [datateam-moss]: executing diffoscope
+[2024-04-08 12:04:48] INFO root fetch - processPackages [datateam-moss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datateam_moss-0.0.71.tar.gz tmp/datateam_moss-0.0.72.tar.gz --markdown 20240408/d/datateam-moss/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2024-04-08 12:04:48] WARNING root fetch - processPackages [development-tool]: Timeout reached during download
+[2024-04-08 12:04:48] INFO root fetch - processPackages [development-tool]: executing diffoscope
+[2024-04-08 12:04:48] INFO root fetch - processPackages [development-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/development-tool-0.3.tar.gz tmp/development-tool-0.3.5.tar.gz --markdown 20240408/d/development-tool/0.3-0.3.5/diff.md --exclude *.pyd
+[2024-04-08 12:04:48] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.edge-api-swapper-0.1.3.tar.gz]
+[2024-04-08 12:04:48] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.edge-api-swapper-0.1.4.tar.gz]
+[2024-04-08 12:04:48] INFO root fetch - main [MainThread]: End processing [reapit-cdk.edge-api-swapper]: success
+[2024-04-08 12:04:49] INFO root fetch - processPackages [datateam-moss]: Remove: archive file [/home/abi/fetcher/tmp/datateam_moss-0.0.71.tar.gz]
+[2024-04-08 12:04:49] INFO root fetch - processPackages [datateam-moss]: Remove: archive file [/home/abi/fetcher/tmp/datateam_moss-0.0.72.tar.gz]
+[2024-04-08 12:04:49] INFO root fetch - main [MainThread]: End processing [datateam-moss]: success
+[2024-04-08 12:04:49] INFO root fetch - processPackages [cjunct]: Remove: archive file [/home/abi/fetcher/tmp/cjunct-1.6.0.tar.gz]
+[2024-04-08 12:04:49] INFO root fetch - processPackages [cjunct]: Remove: archive file [/home/abi/fetcher/tmp/cjunct-2.0.0.tar.gz]
+[2024-04-08 12:04:49] INFO root fetch - main [MainThread]: End processing [cjunct]: success
+[2024-04-08 12:04:49] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.tar.gz]
+[2024-04-08 12:04:49] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.5.tar.gz]
+[2024-04-08 12:04:49] INFO root fetch - main [MainThread]: End processing [development-tool]: success
+[2024-04-08 12:04:49] INFO root fetch - main [MainThread]: Store serial: [22665358]
