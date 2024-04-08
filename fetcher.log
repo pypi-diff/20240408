@@ -16973,3 +16973,103 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:22:48] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-04-08 12:22:48] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-04-08 12:22:48] INFO root fetch - main [MainThread]: Store serial: [22665600]
+[2024-04-08 12:24:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665600]
+[2024-04-08 12:24:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: illuminat
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coordinate-comparison
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hybrid-model-for-russian-sentiment-analysis
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: femagtools
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyconverters-whisperx
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lenu
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: authentik-client
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QPrimaryFlightDisplay
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xfem
+[2024-04-08 12:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: s6r-hubspot
+[2024-04-08 12:24:57] INFO root fetch - processPackages [illuminat]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 12:24:57] INFO root fetch - processPackages [pyconverters-whisperx]: New version: [0.5.8] Old Version: [0.5.6]
+[2024-04-08 12:24:57] INFO root fetch - processPackages [femagtools]: New version: [1.6.6.dev0] Old Version: [1.6.5]
+[2024-04-08 12:24:57] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post69.dev0]
+[2024-04-08 12:24:57] WARNING root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: Skipping, unable to determine old version
+[2024-04-08 12:24:57] INFO root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: Start processing: openai-cost-logger
+[2024-04-08 12:24:57] INFO root fetch - main [MainThread]: End processing [hybrid-model-for-russian-sentiment-analysis] error
+[2024-04-08 12:24:57] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/f4/fe/48db6da0d340bde88c487ce2139a98bf8e9dee84ab1c79ae3b469ff49f22/pyconverters_whisperx-0.5.6.tar.gz
+[2024-04-08 12:24:57] INFO root fetch - processPackages [s6r-hubspot]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-08 12:24:57] WARNING root fetch - processPackages [coordinate-comparison]: Skipping, unable to determine old version
+[2024-04-08 12:24:57] INFO root fetch - processPackages [coordinate-comparison]: Start processing: airbyte-source-monday
+[2024-04-08 12:24:57] INFO root fetch - main [MainThread]: End processing [coordinate-comparison] error
+[2024-04-08 12:24:57] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/8e/0c/825ce4db85b3f7dc107a94b84b168dcc4d7d641e5a9b2bee40113a1d8d08/femagtools-1.6.5.tar.gz
+[2024-04-08 12:24:57] INFO root fetch - processPackages [authentik-client]: New version: [2024.2.2.post1712571742] Old Version: [2024.2.2.post1712239192]
+[2024-04-08 12:24:57] INFO root fetch - processPackages [lenu]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-08 12:24:57] INFO root fetch - processPackages [openai-cost-logger]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 12:24:57] WARNING root fetch - processPackages [QPrimaryFlightDisplay]: Skipping, unable to determine old version
+[2024-04-08 12:24:57] INFO root fetch - main [MainThread]: End processing [QPrimaryFlightDisplay] error
+[2024-04-08 12:24:58] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/62/cf/7a2ea11a38747b69eaced9224744a4cabb680b08357ed25d8bd940b75270/illuminat-0.0.2.tar.gz
+[2024-04-08 12:24:58] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/99/91/94e861a0d69de7a8e67c28e06d14d7b63219300d1b132e4df6b8407115cf/xfem-2.1.2303.post69.dev0.tar.gz
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/77/15/1b124036530cb4a9092ca8b341f3ecadd8fd1fd40365da742a7b1aaa9b9c/openai_cost_logger-0.0.3.tar.gz
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46425999>=10485760
+[2024-04-08 12:24:58] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 12:24:58] INFO root fetch - processPackages [airbyte-source-monday]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [femagtools]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [s6r-hubspot]: Downloading https://files.pythonhosted.org/packages/de/2c/80a37b455d2eb9f56b951353e1a8f2cb10c5ebed2e08bb583a5da3c69ac5/s6r-hubspot-1.0.4.tar.gz
+[2024-04-08 12:24:58] INFO root fetch - processPackages [lenu]: Downloading https://files.pythonhosted.org/packages/76/91/0f0b53ebca9270d38835c306181977bad895d9639d0c000a5b561de7e109/lenu-0.2.1.tar.gz
+[2024-04-08 12:24:58] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/0d/96/76298e8ddcaedfe783ba904e0ad652dd4d42ecf2e0bcf47e0ef44cc621ca/authentik_client-2024.2.2.post1712239192.tar.gz
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/b4/82/f513048f750ec28047f16ec88aad581a0fe8bf65d1fa0d3b781f904e4739/femagtools-1.6.6.dev0.tar.gz
+[2024-04-08 12:24:58] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/dc/ec/ff501478fb84c38f5095967373e4a5aa5005334b81530a2f0c93bc2328dc/pyconverters_whisperx-0.5.8.tar.gz
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [s6r-hubspot]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [airbyte-source-monday]: Downloading https://files.pythonhosted.org/packages/05/f9/5f8cc5a679d4875c384bd6811bfa6c412c6b484b9c87945bfede0c73f967/airbyte_source_monday-2.1.0.tar.gz
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [pyconverters-whisperx]: executing diffoscope
+[2024-04-08 12:24:58] INFO root fetch - processPackages [pyconverters-whisperx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconverters_whisperx-0.5.6.tar.gz tmp/pyconverters_whisperx-0.5.8.tar.gz --markdown 20240408/p/pyconverters-whisperx/0.5.6-0.5.8/diff.md --exclude *.pyd
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [lenu]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [femagtools]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [femagtools]: executing diffoscope
+[2024-04-08 12:24:58] INFO root fetch - processPackages [femagtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femagtools-1.6.5.tar.gz tmp/femagtools-1.6.6.dev0.tar.gz --markdown 20240408/f/femagtools/1.6.5-1.6.6.dev0/diff.md --exclude *.pyd
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [authentik-client]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [s6r-hubspot]: Downloading https://files.pythonhosted.org/packages/ac/14/bad96d472ddb21ef751b5449033ff271110bd7c0b7991c420205844e8048/s6r-hubspot-1.0.5.tar.gz
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [airbyte-source-monday]: Timeout reached during download
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2024-04-08 12:24:58] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post69.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20240408/x/xfem/2.1.2303.post69.dev0-2.1.2303.post8.dev0/diff.md --exclude *.pyd
+[2024-04-08 12:24:58] INFO root fetch - processPackages [lenu]: Downloading https://files.pythonhosted.org/packages/d4/9d/fc29d423a40aa6c6a80043595093ed7396661b2dae612295ae210b3741fa/lenu-0.2.2.tar.gz
+[2024-04-08 12:24:58] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/f1/b6/459fd808a27f6f5c653199af0ac2e0fce33ca8bc8c54aceca109e0947cdb/openai_cost_logger-0.0.4.tar.gz
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [s6r-hubspot]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [s6r-hubspot]: executing diffoscope
+[2024-04-08 12:24:58] INFO root fetch - processPackages [s6r-hubspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s6r-hubspot-1.0.4.tar.gz tmp/s6r-hubspot-1.0.5.tar.gz --markdown 20240408/s/s6r-hubspot/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-08 12:24:58] ERROR root fetch - processPackages [airbyte-source-monday]: Unable to fetch info: No such project/version 'airbyte-source-monday' 2.1.1
+[2024-04-08 12:24:58] INFO root fetch - main [MainThread]: End processing [airbyte-source-monday] error
+[2024-04-08 12:24:58] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/4f/bc/d7dd9c63c5b1aa83ca61bd9dafd6751ffb3c3722063559884850aecf19fd/authentik_client-2024.2.2.post1712571742.tar.gz
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [openai-cost-logger]: executing diffoscope
+[2024-04-08 12:24:58] INFO root fetch - processPackages [openai-cost-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_cost_logger-0.0.3.tar.gz tmp/openai_cost_logger-0.0.4.tar.gz --markdown 20240408/o/openai-cost-logger/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 12:24:58] WARNING root fetch - processPackages [lenu]: Timeout reached during download
+[2024-04-08 12:24:58] INFO root fetch - processPackages [lenu]: executing diffoscope
+[2024-04-08 12:24:58] INFO root fetch - processPackages [lenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lenu-0.2.1.tar.gz tmp/lenu-0.2.2.tar.gz --markdown 20240408/l/lenu/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-08 12:24:59] WARNING root fetch - processPackages [authentik-client]: Timeout reached during download
+[2024-04-08 12:24:59] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-04-08 12:24:59] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.2.2.post1712239192.tar.gz tmp/authentik_client-2024.2.2.post1712571742.tar.gz --markdown 20240408/a/authentik-client/2024.2.2.post1712239192-2024.2.2.post1712571742/diff.md --exclude *.pyd
+[2024-04-08 12:24:59] INFO root fetch - processPackages [pyconverters-whisperx]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_whisperx-0.5.6.tar.gz]
+[2024-04-08 12:24:59] INFO root fetch - processPackages [pyconverters-whisperx]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_whisperx-0.5.8.tar.gz]
+[2024-04-08 12:24:59] INFO root fetch - main [MainThread]: End processing [pyconverters-whisperx]: success
+[2024-04-08 12:24:59] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai_cost_logger-0.0.3.tar.gz]
+[2024-04-08 12:24:59] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai_cost_logger-0.0.4.tar.gz]
+[2024-04-08 12:24:59] INFO root fetch - main [MainThread]: End processing [openai-cost-logger]: success
+[2024-04-08 12:24:59] INFO root fetch - processPackages [s6r-hubspot]: Remove: archive file [/home/abi/fetcher/tmp/s6r-hubspot-1.0.4.tar.gz]
+[2024-04-08 12:24:59] INFO root fetch - processPackages [s6r-hubspot]: Remove: archive file [/home/abi/fetcher/tmp/s6r-hubspot-1.0.5.tar.gz]
+[2024-04-08 12:24:59] INFO root fetch - main [MainThread]: End processing [s6r-hubspot]: success
+[2024-04-08 12:24:59] INFO root fetch - processPackages [lenu]: Remove: archive file [/home/abi/fetcher/tmp/lenu-0.2.1.tar.gz]
+[2024-04-08 12:24:59] INFO root fetch - processPackages [lenu]: Remove: archive file [/home/abi/fetcher/tmp/lenu-0.2.2.tar.gz]
+[2024-04-08 12:24:59] INFO root fetch - main [MainThread]: End processing [lenu]: success
+[2024-04-08 12:25:00] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post69.dev0.tar.gz]
+[2024-04-08 12:25:00] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2024-04-08 12:25:00] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2024-04-08 12:25:00] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.6.5.tar.gz]
+[2024-04-08 12:25:00] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.6.6.dev0.tar.gz]
+[2024-04-08 12:25:00] INFO root fetch - main [MainThread]: End processing [femagtools]: success
+[2024-04-08 12:25:03] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1712239192.tar.gz]
+[2024-04-08 12:25:03] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1712571742.tar.gz]
+[2024-04-08 12:25:03] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-04-08 12:25:03] INFO root fetch - main [MainThread]: Store serial: [22665649]
