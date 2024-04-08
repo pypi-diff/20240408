@@ -19660,3 +19660,53 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:59:38] INFO root fetch - processPackages [bondzai.media-handler]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.media-handler-0.0.17.tar.gz]
 [2024-04-08 13:59:38] INFO root fetch - main [MainThread]: End processing [bondzai.media-handler]: success
 [2024-04-08 13:59:38] INFO root fetch - main [MainThread]: Store serial: [22666560]
+[2024-04-08 14:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666560]
+[2024-04-08 14:01:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zabel-elements
+[2024-04-08 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hellosmalldemo
+[2024-04-08 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tgwrap
+[2024-04-08 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ws-analytics
+[2024-04-08 14:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viggocore
+[2024-04-08 14:01:47] INFO root fetch - processPackages [django-ws-analytics]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-08 14:01:47] INFO root fetch - processPackages [tgwrap]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 14:01:47] WARNING root fetch - processPackages [hellosmalldemo]: Skipping, unable to determine old version
+[2024-04-08 14:01:47] INFO root fetch - main [MainThread]: End processing [hellosmalldemo] error
+[2024-04-08 14:01:47] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/33/e1/ed968e9b20ebaeb9acfaca2a952994a2ff3e8b00f4338c7995c168134433/tgwrap-0.8.8.tar.gz
+[2024-04-08 14:01:47] INFO root fetch - processPackages [zabel-elements]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-08 14:01:47] INFO root fetch - processPackages [viggocore]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-08 14:01:47] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/6d/f9/1a5b5f917fd0beff2816e07e84872585fe96fc02754df2555428e369c9e9/django-ws-analytics-1.0.7.tar.gz
+[2024-04-08 14:01:47] WARNING root fetch - processPackages [tgwrap]: Timeout reached during download
+[2024-04-08 14:01:47] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/45/6b/fae0ce9d8bf01077a8b23b6e9934fba0b5ae58faba0685ce6be50970bff1/tgwrap-0.8.9.tar.gz
+[2024-04-08 14:01:47] INFO root fetch - processPackages [zabel-elements]: Downloading https://files.pythonhosted.org/packages/5f/39/ad03fc6cf0b575c47396cd9f44ac96551349c4e0c0b5409c67c9e9dc0c23/zabel_elements-1.8.1-py3-none-any.whl
+[2024-04-08 14:01:47] INFO root fetch - processPackages [viggocore]: Downloading https://files.pythonhosted.org/packages/6e/d4/3230dedff75a5dcb964dd17243061bdd66b5382ce7e306e4ca1d76084687/viggocore-1.2.8.tar.gz
+[2024-04-08 14:01:47] WARNING root fetch - processPackages [django-ws-analytics]: Timeout reached during download
+[2024-04-08 14:01:47] WARNING root fetch - processPackages [tgwrap]: Timeout reached during download
+[2024-04-08 14:01:47] INFO root fetch - processPackages [tgwrap]: executing diffoscope
+[2024-04-08 14:01:47] INFO root fetch - processPackages [tgwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgwrap-0.8.8.tar.gz tmp/tgwrap-0.8.9.tar.gz --markdown 20240408/t/tgwrap/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 14:01:47] WARNING root fetch - processPackages [zabel-elements]: Timeout reached during download
+[2024-04-08 14:01:47] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/60/4e/e84fd37a53687d65c63d95a5b49973cb5cee8905941f82fe705955fcd5f6/django-ws-analytics-1.0.9.tar.gz
+[2024-04-08 14:01:48] INFO root fetch - processPackages [zabel-elements]: Downloading https://files.pythonhosted.org/packages/b7/a7/6f93f1838ec6585d2200940225b0d9f6df044f18746f729b748d822aafb7/zabel_elements-1.9.0-py3-none-any.whl
+[2024-04-08 14:01:48] WARNING root fetch - processPackages [django-ws-analytics]: Timeout reached during download
+[2024-04-08 14:01:48] INFO root fetch - processPackages [django-ws-analytics]: executing diffoscope
+[2024-04-08 14:01:48] INFO root fetch - processPackages [django-ws-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-analytics-1.0.7.tar.gz tmp/django-ws-analytics-1.0.9.tar.gz --markdown 20240408/d/django-ws-analytics/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 14:01:48] WARNING root fetch - processPackages [viggocore]: Timeout reached during download
+[2024-04-08 14:01:48] WARNING root fetch - processPackages [zabel-elements]: Timeout reached during download
+[2024-04-08 14:01:48] INFO root fetch - processPackages [zabel-elements]: executing diffoscope
+[2024-04-08 14:01:48] INFO root fetch - processPackages [zabel-elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zabel_elements-1.8.1-py3-none-any.whl.zip tmp/zabel_elements-1.9.0-py3-none-any.whl.zip --markdown 20240408/z/zabel-elements/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 14:01:48] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.8.8.tar.gz]
+[2024-04-08 14:01:48] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.8.9.tar.gz]
+[2024-04-08 14:01:48] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
+[2024-04-08 14:01:48] INFO root fetch - processPackages [viggocore]: Downloading https://files.pythonhosted.org/packages/ba/08/4a43d35fd9a37fa675dbda73be9df5fa88924120ddd38726f09273dcf9ff/viggocore-1.2.9.tar.gz
+[2024-04-08 14:01:48] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.7.tar.gz]
+[2024-04-08 14:01:48] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.9.tar.gz]
+[2024-04-08 14:01:48] INFO root fetch - main [MainThread]: End processing [django-ws-analytics]: success
+[2024-04-08 14:01:49] INFO root fetch - processPackages [zabel-elements]: Remove: archive file [/home/abi/fetcher/tmp/zabel_elements-1.8.1-py3-none-any.whl.zip]
+[2024-04-08 14:01:49] INFO root fetch - processPackages [zabel-elements]: Remove: archive file [/home/abi/fetcher/tmp/zabel_elements-1.9.0-py3-none-any.whl.zip]
+[2024-04-08 14:01:49] INFO root fetch - main [MainThread]: End processing [zabel-elements]: success
+[2024-04-08 14:01:49] WARNING root fetch - processPackages [viggocore]: Timeout reached during download
+[2024-04-08 14:01:49] INFO root fetch - processPackages [viggocore]: executing diffoscope
+[2024-04-08 14:01:49] INFO root fetch - processPackages [viggocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggocore-1.2.8.tar.gz tmp/viggocore-1.2.9.tar.gz --markdown 20240408/v/viggocore/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-08 14:01:50] INFO root fetch - processPackages [viggocore]: Remove: archive file [/home/abi/fetcher/tmp/viggocore-1.2.8.tar.gz]
+[2024-04-08 14:01:50] INFO root fetch - processPackages [viggocore]: Remove: archive file [/home/abi/fetcher/tmp/viggocore-1.2.9.tar.gz]
+[2024-04-08 14:01:50] INFO root fetch - main [MainThread]: End processing [viggocore]: success
+[2024-04-08 14:01:50] INFO root fetch - main [MainThread]: Store serial: [22666575]
