@@ -8114,3 +8114,42 @@
 [2024-04-08 06:29:40] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.7.9.tar.gz]
 [2024-04-08 06:29:40] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
 [2024-04-08 06:29:40] INFO root fetch - main [MainThread]: Store serial: [22662280]
+[2024-04-08 06:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662280]
+[2024-04-08 06:32:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 06:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trialforrjhnjtj
+[2024-04-08 06:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seapopym
+[2024-04-08 06:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2024-04-08 06:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ofscraper
+[2024-04-08 06:32:00] INFO root fetch - processPackages [trialforrjhnjtj]: New version: [1.1] Old Version: [1.0]
+[2024-04-08 06:32:00] WARNING root fetch - processPackages [seapopym]: Skipping, unable to determine old version
+[2024-04-08 06:32:00] INFO root fetch - main [MainThread]: End processing [seapopym] error
+[2024-04-08 06:32:00] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-08 06:32:00] INFO root fetch - processPackages [ofscraper]: New version: [3.9.0.dev9] Old Version: [3.9.0.dev7]
+[2024-04-08 06:32:00] INFO root fetch - processPackages [trialforrjhnjtj]: Downloading https://files.pythonhosted.org/packages/af/e0/194b5965a0b4d3c60fbb21a8ddc0691b91392934e47130d3f4afad864c3c/trialforrjhnjtj-1.0.tar.gz
+[2024-04-08 06:32:00] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-08 06:32:00] WARNING root fetch - processPackages [trialforrjhnjtj]: Timeout reached during download
+[2024-04-08 06:32:00] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/df/b3/41b423314e8536bb62d01eaed102796197ae0d08e41e81bed773f70359db/ofscraper-3.9.0.dev7.tar.gz
+[2024-04-08 06:32:00] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-08 06:32:00] INFO root fetch - processPackages [trialforrjhnjtj]: Downloading https://files.pythonhosted.org/packages/df/c9/7848eea454c2e280091b0b3a6b251ead621eb94ff621055d03cea0afb77e/trialforrjhnjtj-1.1.tar.gz
+[2024-04-08 06:32:00] WARNING root fetch - processPackages [ofscraper]: Timeout reached during download
+[2024-04-08 06:32:00] WARNING root fetch - processPackages [trialforrjhnjtj]: Timeout reached during download
+[2024-04-08 06:32:00] INFO root fetch - processPackages [trialforrjhnjtj]: executing diffoscope
+[2024-04-08 06:32:00] INFO root fetch - processPackages [trialforrjhnjtj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trialforrjhnjtj-1.0.tar.gz tmp/trialforrjhnjtj-1.1.tar.gz --markdown 20240408/t/trialforrjhnjtj/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-08 06:32:00] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-08 06:32:01] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/2c/a7/19187a41b609fe0073f8560c9536929661f7d47dc67892c1020d2a39d063/ofscraper-3.9.0.dev9.tar.gz
+[2024-04-08 06:32:01] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-08 06:32:01] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-08 06:32:01] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240408/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-08 06:32:01] WARNING root fetch - processPackages [ofscraper]: Timeout reached during download
+[2024-04-08 06:32:01] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2024-04-08 06:32:01] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.9.0.dev7.tar.gz tmp/ofscraper-3.9.0.dev9.tar.gz --markdown 20240408/o/ofscraper/3.9.0.dev7-3.9.0.dev9/diff.md --exclude *.pyd
+[2024-04-08 06:32:01] INFO root fetch - processPackages [trialforrjhnjtj]: Remove: archive file [/home/abi/fetcher/tmp/trialforrjhnjtj-1.0.tar.gz]
+[2024-04-08 06:32:01] INFO root fetch - processPackages [trialforrjhnjtj]: Remove: archive file [/home/abi/fetcher/tmp/trialforrjhnjtj-1.1.tar.gz]
+[2024-04-08 06:32:01] INFO root fetch - main [MainThread]: End processing [trialforrjhnjtj]: success
+[2024-04-08 06:32:01] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-08 06:32:01] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-08 06:32:01] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-08 06:32:02] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.0.dev7.tar.gz]
+[2024-04-08 06:32:02] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.0.dev9.tar.gz]
+[2024-04-08 06:32:02] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2024-04-08 06:32:02] INFO root fetch - main [MainThread]: Store serial: [22662293]
