@@ -10513,3 +10513,64 @@
 [2024-04-08 08:37:53] INFO root fetch - main [MainThread]: End processing [mtmaod]: success
 [2024-04-08 08:37:53] INFO root fetch - main [MainThread]: End processing [lyytext]: success
 [2024-04-08 08:37:53] INFO root fetch - main [MainThread]: Store serial: [22663019]
+[2024-04-08 08:39:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663019]
+[2024-04-08 08:40:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: equivalent_llm
+[2024-04-08 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leancloud
+[2024-04-08 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usearch
+[2024-04-08 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: newsdataapi
+[2024-04-08 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gando
+[2024-04-08 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funasr
+[2024-04-08 08:40:02] INFO root fetch - processPackages [gando]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-08 08:40:02] WARNING root fetch - processPackages [equivalent_llm]: Skipping, unable to determine old version
+[2024-04-08 08:40:02] INFO root fetch - main [MainThread]: End processing [equivalent_llm] error
+[2024-04-08 08:40:02] INFO root fetch - processPackages [newsdataapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 08:40:02] INFO root fetch - processPackages [leancloud]: New version: [3.0.0] Old Version: [2.9.9]
+[2024-04-08 08:40:02] INFO root fetch - processPackages [funasr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 08:40:02] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/5f/ad/9ce3a6ba3c5faf8984d231b1d4e350dc99ef5decdc96e34bfe1ccc8ba490/gando-0.9.7.tar.gz
+[2024-04-08 08:40:02] INFO root fetch - processPackages [leancloud]: Downloading https://files.pythonhosted.org/packages/f5/7d/f3629c638841622cd3ecf792ef2c1b89dfffe8e6f6717f83ba56ab37b50b/leancloud-2.9.9.tar.gz
+[2024-04-08 08:40:02] INFO root fetch - processPackages [newsdataapi]: Downloading https://files.pythonhosted.org/packages/e5/7d/5300119f2e6bf567bcaa29a4d17f34c36753dc605d1b2add32487962f07b/newsdataapi-0.1.8.tar.gz
+[2024-04-08 08:40:02] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/21/21/731cf3cbf78402270debbdb84df0ea7792894307364fd9d73b168d54311f/funasr-1.0.8.tar.gz
+[2024-04-08 08:40:02] WARNING root fetch - processPackages [gando]: Timeout reached during download
+[2024-04-08 08:40:02] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-08 08:40:02] WARNING root fetch - processPackages [leancloud]: Timeout reached during download
+[2024-04-08 08:40:02] WARNING root fetch - processPackages [newsdataapi]: Timeout reached during download
+[2024-04-08 08:40:03] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/55/b4/3eacdbfcda93734a9bbee501af687c86bfb442a8f0f000f752e95377527e/gando-0.9.8.tar.gz
+[2024-04-08 08:40:03] WARNING root fetch - processPackages [funasr]: Timeout reached during download
+[2024-04-08 08:40:03] INFO root fetch - processPackages [leancloud]: Downloading https://files.pythonhosted.org/packages/fa/ec/5c4d7c4b56df7527e8d8d2dfbcfabc6aa421a6397cd78a70f3a4f5c65be9/leancloud-3.0.0.tar.gz
+[2024-04-08 08:40:03] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-08 08:40:03] INFO root fetch - processPackages [newsdataapi]: Downloading https://files.pythonhosted.org/packages/ae/95/9f687408ac756e9c97aceda28b870ea1aeec922c270c6dca58d52ab3d62d/newsdataapi-0.1.9.tar.gz
+[2024-04-08 08:40:03] WARNING root fetch - processPackages [leancloud]: Timeout reached during download
+[2024-04-08 08:40:03] INFO root fetch - processPackages [leancloud]: executing diffoscope
+[2024-04-08 08:40:03] INFO root fetch - processPackages [leancloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leancloud-2.9.9.tar.gz tmp/leancloud-3.0.0.tar.gz --markdown 20240408/l/leancloud/2.9.9-3.0.0/diff.md --exclude *.pyd
+[2024-04-08 08:40:03] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d0/dd/6f3c701795e79dbbbfe61e62b81fabcb3d7a62598476c4197f8156a012ad/funasr-1.0.9.tar.gz
+[2024-04-08 08:40:03] WARNING root fetch - processPackages [gando]: Timeout reached during download
+[2024-04-08 08:40:03] INFO root fetch - processPackages [gando]: executing diffoscope
+[2024-04-08 08:40:03] INFO root fetch - processPackages [gando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gando-0.9.7.tar.gz tmp/gando-0.9.8.tar.gz --markdown 20240408/g/gando/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-08 08:40:03] WARNING root fetch - processPackages [newsdataapi]: Timeout reached during download
+[2024-04-08 08:40:03] INFO root fetch - processPackages [newsdataapi]: executing diffoscope
+[2024-04-08 08:40:03] INFO root fetch - processPackages [newsdataapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsdataapi-0.1.8.tar.gz tmp/newsdataapi-0.1.9.tar.gz --markdown 20240408/n/newsdataapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 08:40:03] WARNING root fetch - processPackages [usearch]: Timeout reached during download
+[2024-04-08 08:40:03] WARNING root fetch - processPackages [funasr]: Timeout reached during download
+[2024-04-08 08:40:03] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2024-04-08 08:40:03] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-1.0.8.tar.gz tmp/funasr-1.0.9.tar.gz --markdown 20240408/f/funasr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 08:40:03] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-08 08:40:04] WARNING root fetch - processPackages [usearch]: Timeout reached during download
+[2024-04-08 08:40:04] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-08 08:40:04] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240408/u/usearch/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-08 08:40:04] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.7.tar.gz]
+[2024-04-08 08:40:04] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.8.tar.gz]
+[2024-04-08 08:40:04] INFO root fetch - main [MainThread]: End processing [gando]: success
+[2024-04-08 08:40:04] INFO root fetch - processPackages [leancloud]: Remove: archive file [/home/abi/fetcher/tmp/leancloud-2.9.9.tar.gz]
+[2024-04-08 08:40:04] INFO root fetch - processPackages [leancloud]: Remove: archive file [/home/abi/fetcher/tmp/leancloud-3.0.0.tar.gz]
+[2024-04-08 08:40:04] INFO root fetch - main [MainThread]: End processing [leancloud]: success
+[2024-04-08 08:40:04] INFO root fetch - processPackages [newsdataapi]: Remove: archive file [/home/abi/fetcher/tmp/newsdataapi-0.1.8.tar.gz]
+[2024-04-08 08:40:04] INFO root fetch - processPackages [newsdataapi]: Remove: archive file [/home/abi/fetcher/tmp/newsdataapi-0.1.9.tar.gz]
+[2024-04-08 08:40:04] INFO root fetch - main [MainThread]: End processing [newsdataapi]: success
+[2024-04-08 08:40:04] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-08 08:40:04] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-08 08:40:04] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-08 08:40:05] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.8.tar.gz]
+[2024-04-08 08:40:05] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
+[2024-04-08 08:40:05] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2024-04-08 08:40:05] INFO root fetch - main [MainThread]: Store serial: [22663063]
