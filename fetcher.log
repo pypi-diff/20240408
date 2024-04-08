@@ -9215,3 +9215,56 @@
 [2024-04-08 07:33:18] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
 [2024-04-08 07:33:18] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
 [2024-04-08 07:33:18] INFO root fetch - main [MainThread]: Store serial: [22662620]
+[2024-04-08 07:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662620]
+[2024-04-08 07:35:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2024-04-08 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gantt-project-maker
+[2024-04-08 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SyDataSets
+[2024-04-08 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bentoml
+[2024-04-08 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scbsp
+[2024-04-08 07:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: armis
+[2024-04-08 07:35:38] INFO root fetch - processPackages [scbsp]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-08 07:35:38] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-08 07:35:38] INFO root fetch - processPackages [gantt-project-maker]: New version: [0.4.2] Old Version: [0.3.7]
+[2024-04-08 07:35:38] INFO root fetch - processPackages [scbsp]: Downloading https://files.pythonhosted.org/packages/b5/49/6387e5b5a90e0c297c3906d8f0c27cf33aa137e5ec1c42a8d102061f2cba/scbsp-0.2.3.tar.gz
+[2024-04-08 07:35:38] WARNING root fetch - processPackages [SyDataSets]: Skipping, unable to determine old version
+[2024-04-08 07:35:38] INFO root fetch - main [MainThread]: End processing [SyDataSets] error
+[2024-04-08 07:35:38] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-08 07:35:38] INFO root fetch - processPackages [gantt-project-maker]: Downloading https://files.pythonhosted.org/packages/f3/fa/8d99479c98a7b1d90caf3ce5c8cc5cea56c4b1bd330156c71f196f18a512/gantt-project-maker-0.3.7.tar.gz
+[2024-04-08 07:35:38] INFO root fetch - processPackages [bentoml]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-08 07:35:38] WARNING root fetch - processPackages [armis]: Skipping, unable to determine old version
+[2024-04-08 07:35:38] INFO root fetch - main [MainThread]: End processing [armis] error
+[2024-04-08 07:35:39] WARNING root fetch - processPackages [scbsp]: Timeout reached during download
+[2024-04-08 07:35:39] WARNING root fetch - processPackages [mystring]: Timeout reached during download
+[2024-04-08 07:35:39] WARNING root fetch - processPackages [gantt-project-maker]: Timeout reached during download
+[2024-04-08 07:35:39] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-08 07:35:39] INFO root fetch - processPackages [gantt-project-maker]: Downloading https://files.pythonhosted.org/packages/82/61/fb0f4c0c2138d6ecc5ecda68182fa0c8495cf22974d843ca7811c77d19b9/gantt-project-maker-0.4.2.tar.gz
+[2024-04-08 07:35:39] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/96/b0/1e4559395d6049e7094e23f8e6718de26946b3e2586ff54c96a542a9e145/bentoml-1.2.8.tar.gz
+[2024-04-08 07:35:39] WARNING root fetch - processPackages [mystring]: Timeout reached during download
+[2024-04-08 07:35:39] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-08 07:35:39] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240408/m/mystring/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-08 07:35:39] WARNING root fetch - processPackages [gantt-project-maker]: Timeout reached during download
+[2024-04-08 07:35:39] INFO root fetch - processPackages [gantt-project-maker]: executing diffoscope
+[2024-04-08 07:35:39] INFO root fetch - processPackages [gantt-project-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantt-project-maker-0.3.7.tar.gz tmp/gantt-project-maker-0.4.2.tar.gz --markdown 20240408/g/gantt-project-maker/0.3.7-0.4.2/diff.md --exclude *.pyd
+[2024-04-08 07:35:39] INFO root fetch - processPackages [scbsp]: Downloading https://files.pythonhosted.org/packages/61/4a/3f7592210e78b1add85537215688dfdd9d3fa0563de1515ab112febcac53/scbsp-0.2.4.tar.gz
+[2024-04-08 07:35:39] WARNING root fetch - processPackages [scbsp]: Timeout reached during download
+[2024-04-08 07:35:39] INFO root fetch - processPackages [scbsp]: executing diffoscope
+[2024-04-08 07:35:39] INFO root fetch - processPackages [scbsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scbsp-0.2.3.tar.gz tmp/scbsp-0.2.4.tar.gz --markdown 20240408/s/scbsp/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-08 07:35:39] WARNING root fetch - processPackages [bentoml]: Timeout reached during download
+[2024-04-08 07:35:39] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/64/1c/008b7d7f75caf1e68ca286012a0df9462265b353e11056db4ffdca6b8860/bentoml-1.2.9.tar.gz
+[2024-04-08 07:35:39] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-08 07:35:39] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-08 07:35:39] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-08 07:35:39] WARNING root fetch - processPackages [bentoml]: Timeout reached during download
+[2024-04-08 07:35:39] INFO root fetch - processPackages [bentoml]: executing diffoscope
+[2024-04-08 07:35:39] INFO root fetch - processPackages [bentoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bentoml-1.2.8.tar.gz tmp/bentoml-1.2.9.tar.gz --markdown 20240408/b/bentoml/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-08 07:35:40] INFO root fetch - processPackages [scbsp]: Remove: archive file [/home/abi/fetcher/tmp/scbsp-0.2.3.tar.gz]
+[2024-04-08 07:35:40] INFO root fetch - processPackages [scbsp]: Remove: archive file [/home/abi/fetcher/tmp/scbsp-0.2.4.tar.gz]
+[2024-04-08 07:35:40] INFO root fetch - main [MainThread]: End processing [scbsp]: success
+[2024-04-08 07:35:40] INFO root fetch - processPackages [gantt-project-maker]: Remove: archive file [/home/abi/fetcher/tmp/gantt-project-maker-0.3.7.tar.gz]
+[2024-04-08 07:35:40] INFO root fetch - processPackages [gantt-project-maker]: Remove: archive file [/home/abi/fetcher/tmp/gantt-project-maker-0.4.2.tar.gz]
+[2024-04-08 07:35:40] INFO root fetch - main [MainThread]: End processing [gantt-project-maker]: success
+[2024-04-08 07:35:43] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.8.tar.gz]
+[2024-04-08 07:35:43] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.9.tar.gz]
+[2024-04-08 07:35:43] INFO root fetch - main [MainThread]: End processing [bentoml]: success
+[2024-04-08 07:35:43] INFO root fetch - main [MainThread]: Store serial: [22662642]
