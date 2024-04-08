@@ -17904,3 +17904,58 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:54:26] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
 [2024-04-08 12:54:26] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2024-04-08 12:54:26] INFO root fetch - main [MainThread]: Store serial: [22665917]
+[2024-04-08 12:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665917]
+[2024-04-08 12:56:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-googledrive
+[2024-04-08 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy_kite_methods
+[2024-04-08 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataTransformationsBertas
+[2024-04-08 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cryoemservices
+[2024-04-08 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fondant
+[2024-04-08 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imagedata
+[2024-04-08 12:56:34] INFO root fetch - processPackages [easy_kite_methods]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 12:56:34] INFO root fetch - processPackages [imagedata]: New version: [3.5.1rc1] Old Version: [3.5.0rc1]
+[2024-04-08 12:56:34] INFO root fetch - processPackages [langchain-googledrive]: New version: [0.1.40] Old Version: [0.1.34]
+[2024-04-08 12:56:34] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/6f/42/2139b93ba7c9bd7996065339c7d44f51dc4250ade99b38eb4e6416568c7b/easy_kite_methods-0.0.3.tar.gz
+[2024-04-08 12:56:35] INFO root fetch - processPackages [fondant]: New version: [1.0.0] Old Version: [0.9.dev2]
+[2024-04-08 12:56:35] WARNING root fetch - processPackages [dataTransformationsBertas]: Skipping, unable to determine old version
+[2024-04-08 12:56:35] INFO root fetch - main [MainThread]: End processing [dataTransformationsBertas] error
+[2024-04-08 12:56:35] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/4d/d8/66b40f85c6bfa5a37d55da3c56db534b868db71351039101390928d251ee/imagedata-3.5.0rc1.tar.gz
+[2024-04-08 12:56:35] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27631622>=10485760
+[2024-04-08 12:56:35] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-04-08 12:56:35] INFO root fetch - processPackages [langchain-googledrive]: Downloading https://files.pythonhosted.org/packages/ff/1c/8e068fa8dd8c66320b311a5f12919c65c8fd94882d1f03b848287a436119/langchain_googledrive-0.1.34.tar.gz
+[2024-04-08 12:56:35] INFO root fetch - processPackages [cryoemservices]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-08 12:56:35] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-08 12:56:35] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/d0/0f/414bfdc7a414d0aad96533c86b622492211a4a23e1723eb204ac29a5b6e2/fondant-0.9.dev2.tar.gz
+[2024-04-08 12:56:35] INFO root fetch - processPackages [cryoemservices]: Downloading https://files.pythonhosted.org/packages/b3/06/0ccf66d36ca967bfdddada2a2b4c0ca61b7119b0dec11a1a905f4c44d4c9/cryoemservices-0.2.0.tar.gz
+[2024-04-08 12:56:35] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/85/d0/49ead2bbe3be909b42498cf3d33f939b30eab3d5cba5cb45473ad92fbb63/easy_kite_methods-0.0.4.tar.gz
+[2024-04-08 12:56:35] WARNING root fetch - processPackages [langchain-googledrive]: Timeout reached during download
+[2024-04-08 12:56:35] WARNING root fetch - processPackages [fondant]: Timeout reached during download
+[2024-04-08 12:56:35] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-08 12:56:35] INFO root fetch - processPackages [easy_kite_methods]: executing diffoscope
+[2024-04-08 12:56:35] INFO root fetch - processPackages [easy_kite_methods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_kite_methods-0.0.3.tar.gz tmp/easy_kite_methods-0.0.4.tar.gz --markdown 20240408/e/easy_kite_methods/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 12:56:35] INFO root fetch - processPackages [langchain-googledrive]: Downloading https://files.pythonhosted.org/packages/64/e4/5268883992e29972be1155b9fff3f530ed6154500838ab46f58a10f169d0/langchain_googledrive-0.1.40.tar.gz
+[2024-04-08 12:56:35] WARNING root fetch - processPackages [cryoemservices]: Timeout reached during download
+[2024-04-08 12:56:35] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/fb/0c/4375117397a15812c00e00bacc3553b6dcd172b7b37399305e08672be00a/fondant-1.0.0.tar.gz
+[2024-04-08 12:56:35] WARNING root fetch - processPackages [langchain-googledrive]: Timeout reached during download
+[2024-04-08 12:56:35] INFO root fetch - processPackages [langchain-googledrive]: executing diffoscope
+[2024-04-08 12:56:35] INFO root fetch - processPackages [langchain-googledrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_googledrive-0.1.34.tar.gz tmp/langchain_googledrive-0.1.40.tar.gz --markdown 20240408/l/langchain-googledrive/0.1.34-0.1.40/diff.md --exclude *.pyd
+[2024-04-08 12:56:35] INFO root fetch - processPackages [cryoemservices]: Downloading https://files.pythonhosted.org/packages/28/84/93df3c5c8d1bf6c8efeaa7026b1abdc81a34c4397825d9cf51133c809f5f/cryoemservices-0.2.1.tar.gz
+[2024-04-08 12:56:36] WARNING root fetch - processPackages [fondant]: Timeout reached during download
+[2024-04-08 12:56:36] INFO root fetch - processPackages [fondant]: executing diffoscope
+[2024-04-08 12:56:36] INFO root fetch - processPackages [fondant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondant-0.9.dev2.tar.gz tmp/fondant-1.0.0.tar.gz --markdown 20240408/f/fondant/0.9.dev2-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 12:56:36] WARNING root fetch - processPackages [cryoemservices]: Timeout reached during download
+[2024-04-08 12:56:36] INFO root fetch - processPackages [cryoemservices]: executing diffoscope
+[2024-04-08 12:56:36] INFO root fetch - processPackages [cryoemservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryoemservices-0.2.0.tar.gz tmp/cryoemservices-0.2.1.tar.gz --markdown 20240408/c/cryoemservices/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-08 12:56:36] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.3.tar.gz]
+[2024-04-08 12:56:36] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.4.tar.gz]
+[2024-04-08 12:56:36] INFO root fetch - main [MainThread]: End processing [easy_kite_methods]: success
+[2024-04-08 12:56:36] INFO root fetch - processPackages [langchain-googledrive]: Remove: archive file [/home/abi/fetcher/tmp/langchain_googledrive-0.1.34.tar.gz]
+[2024-04-08 12:56:36] INFO root fetch - processPackages [langchain-googledrive]: Remove: archive file [/home/abi/fetcher/tmp/langchain_googledrive-0.1.40.tar.gz]
+[2024-04-08 12:56:36] INFO root fetch - main [MainThread]: End processing [langchain-googledrive]: success
+[2024-04-08 12:56:37] INFO root fetch - processPackages [cryoemservices]: Remove: archive file [/home/abi/fetcher/tmp/cryoemservices-0.2.0.tar.gz]
+[2024-04-08 12:56:37] INFO root fetch - processPackages [cryoemservices]: Remove: archive file [/home/abi/fetcher/tmp/cryoemservices-0.2.1.tar.gz]
+[2024-04-08 12:56:37] INFO root fetch - main [MainThread]: End processing [cryoemservices]: success
+[2024-04-08 12:56:37] INFO root fetch - processPackages [fondant]: Remove: archive file [/home/abi/fetcher/tmp/fondant-0.9.dev2.tar.gz]
+[2024-04-08 12:56:37] INFO root fetch - processPackages [fondant]: Remove: archive file [/home/abi/fetcher/tmp/fondant-1.0.0.tar.gz]
+[2024-04-08 12:56:37] INFO root fetch - main [MainThread]: End processing [fondant]: success
+[2024-04-08 12:56:37] INFO root fetch - main [MainThread]: Store serial: [22665934]
