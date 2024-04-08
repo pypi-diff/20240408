@@ -1977,3 +1977,20 @@
 [2024-04-08 02:32:08] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
 [2024-04-08 02:32:08] INFO root fetch - main [MainThread]: End processing [fmbench]: success
 [2024-04-08 02:32:08] INFO root fetch - main [MainThread]: Store serial: [22660369]
+[2024-04-08 02:34:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660369]
+[2024-04-08 02:34:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 02:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ifcpatch
+[2024-04-08 02:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astropy-iers-data
+[2024-04-08 02:34:18] INFO root fetch - processPackages [astropy-iers-data]: New version: [0.2024.4.8.0.32.4] Old Version: [0.2024.4.1.0.33.14]
+[2024-04-08 02:34:18] WARNING root fetch - processPackages [ifcpatch]: Skipping, unable to determine old version
+[2024-04-08 02:34:18] INFO root fetch - main [MainThread]: End processing [ifcpatch] error
+[2024-04-08 02:34:19] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/18/c5/36a2a8d5e0b4aa4e0e25e5e3825767dbfcd3c2bd21919cb077881c8e802a/astropy-iers-data-0.2024.4.1.0.33.14.tar.gz
+[2024-04-08 02:34:19] WARNING root fetch - processPackages [astropy-iers-data]: Timeout reached during download
+[2024-04-08 02:34:19] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/22/b9/c9c77cb70e55488e36127da2edc5f744506c27dd2e7c6326b21b4405ed99/astropy-iers-data-0.2024.4.8.0.32.4.tar.gz
+[2024-04-08 02:34:19] WARNING root fetch - processPackages [astropy-iers-data]: Timeout reached during download
+[2024-04-08 02:34:19] INFO root fetch - processPackages [astropy-iers-data]: executing diffoscope
+[2024-04-08 02:34:19] INFO root fetch - processPackages [astropy-iers-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropy-iers-data-0.2024.4.1.0.33.14.tar.gz tmp/astropy-iers-data-0.2024.4.8.0.32.4.tar.gz --markdown 20240408/a/astropy-iers-data/0.2024.4.1.0.33.14-0.2024.4.8.0.32.4/diff.md --exclude *.pyd
+[2024-04-08 02:34:21] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2024.4.1.0.33.14.tar.gz]
+[2024-04-08 02:34:21] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2024.4.8.0.32.4.tar.gz]
+[2024-04-08 02:34:21] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
+[2024-04-08 02:34:21] INFO root fetch - main [MainThread]: Store serial: [22660377]
