@@ -3239,3 +3239,28 @@
 [2024-04-08 04:13:48] INFO root fetch - processPackages [mat3ra-code]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-code-2024.4.8.post0.tar.gz]
 [2024-04-08 04:13:48] INFO root fetch - main [MainThread]: End processing [mat3ra-code]: success
 [2024-04-08 04:13:48] INFO root fetch - main [MainThread]: Store serial: [22660839]
+[2024-04-08 04:15:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660839]
+[2024-04-08 04:15:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: youtube-dl-nightly
+[2024-04-08 04:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyepp
+[2024-04-08 04:15:58] INFO root fetch - processPackages [youtube-dl-nightly]: New version: [2024.4.8] Old Version: [2024.4.6]
+[2024-04-08 04:15:58] INFO root fetch - processPackages [pyepp]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2024-04-08 04:15:58] INFO root fetch - processPackages [youtube-dl-nightly]: Downloading https://files.pythonhosted.org/packages/0f/61/f882de02f0d5cd7bdce474159568eac390cc433e8243cca68570e48a9f7c/youtube_dl_nightly-2024.4.6-py2.py3-none-any.whl
+[2024-04-08 04:15:58] INFO root fetch - processPackages [pyepp]: Downloading https://files.pythonhosted.org/packages/fd/09/d1b78c98e775af948e4fe19549891b76d3463c5c0f210433c7bd2fa8967f/pyepp-0.0.9.tar.gz
+[2024-04-08 04:15:59] WARNING root fetch - processPackages [pyepp]: Timeout reached during download
+[2024-04-08 04:15:59] WARNING root fetch - processPackages [youtube-dl-nightly]: Timeout reached during download
+[2024-04-08 04:15:59] INFO root fetch - processPackages [pyepp]: Downloading https://files.pythonhosted.org/packages/a6/ed/0f540ce85e63f64f2c9b6bd1370bc27bb04156a6cb41c5f9d8e34604be48/pyepp-0.0.9a1.tar.gz
+[2024-04-08 04:15:59] INFO root fetch - processPackages [youtube-dl-nightly]: Downloading https://files.pythonhosted.org/packages/2f/7a/d58f4a5808b9964902b235abb9718d25422df653b171c32a0b0099b020be/youtube_dl_nightly-2024.4.8-py2.py3-none-any.whl
+[2024-04-08 04:15:59] WARNING root fetch - processPackages [pyepp]: Timeout reached during download
+[2024-04-08 04:15:59] INFO root fetch - processPackages [pyepp]: executing diffoscope
+[2024-04-08 04:15:59] INFO root fetch - processPackages [pyepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepp-0.0.9.tar.gz tmp/pyepp-0.0.9a1.tar.gz --markdown 20240408/p/pyepp/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2024-04-08 04:15:59] WARNING root fetch - processPackages [youtube-dl-nightly]: Timeout reached during download
+[2024-04-08 04:15:59] INFO root fetch - processPackages [youtube-dl-nightly]: executing diffoscope
+[2024-04-08 04:15:59] INFO root fetch - processPackages [youtube-dl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_dl_nightly-2024.4.6-py2.py3-none-any.whl.zip tmp/youtube_dl_nightly-2024.4.8-py2.py3-none-any.whl.zip --markdown 20240408/y/youtube-dl-nightly/2024.4.6-2024.4.8/diff.md --exclude *.pyd
+[2024-04-08 04:16:00] INFO root fetch - processPackages [pyepp]: Remove: archive file [/home/abi/fetcher/tmp/pyepp-0.0.9.tar.gz]
+[2024-04-08 04:16:00] INFO root fetch - processPackages [pyepp]: Remove: archive file [/home/abi/fetcher/tmp/pyepp-0.0.9a1.tar.gz]
+[2024-04-08 04:16:00] INFO root fetch - main [MainThread]: End processing [pyepp]: success
+[2024-04-08 04:16:02] INFO root fetch - processPackages [youtube-dl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/youtube_dl_nightly-2024.4.6-py2.py3-none-any.whl.zip]
+[2024-04-08 04:16:02] INFO root fetch - processPackages [youtube-dl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/youtube_dl_nightly-2024.4.8-py2.py3-none-any.whl.zip]
+[2024-04-08 04:16:02] INFO root fetch - main [MainThread]: End processing [youtube-dl-nightly]: success
+[2024-04-08 04:16:02] INFO root fetch - main [MainThread]: Store serial: [22660845]
