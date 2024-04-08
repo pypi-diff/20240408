@@ -2546,3 +2546,58 @@
 [2024-04-08 03:17:02] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.97.tar.gz]
 [2024-04-08 03:17:02] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2024-04-08 03:17:02] INFO root fetch - main [MainThread]: Store serial: [22660561]
+[2024-04-08 03:19:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660561]
+[2024-04-08 03:19:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 03:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dalpha
+[2024-04-08 03:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: classifier-pipeline
+[2024-04-08 03:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyresp
+[2024-04-08 03:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynocaptcha
+[2024-04-08 03:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llmsh
+[2024-04-08 03:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moped
+[2024-04-08 03:19:14] WARNING root fetch - processPackages [llmsh]: Skipping, unable to determine old version
+[2024-04-08 03:19:14] INFO root fetch - main [MainThread]: End processing [llmsh] error
+[2024-04-08 03:19:14] INFO root fetch - processPackages [pyresp]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-08 03:19:14] INFO root fetch - processPackages [pyresp]: Downloading https://files.pythonhosted.org/packages/4d/6d/242eb0d262bcf1e6dd05dc241e1aabfc8c251f62ecc0445ffa9fe89d005b/pyresp-1.0.2.tar.gz
+[2024-04-08 03:19:14] INFO root fetch - processPackages [pynocaptcha]: New version: [1.8.7] Old Version: [1.8.6]
+[2024-04-08 03:19:14] INFO root fetch - processPackages [dalpha]: New version: [0.4.4rc0] Old Version: [0.4.3]
+[2024-04-08 03:19:14] INFO root fetch - processPackages [classifier-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 03:19:14] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2024-04-08 03:19:14] WARNING root fetch - processPackages [pyresp]: Timeout reached during download
+[2024-04-08 03:19:14] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/1d/9b/799b9a00c0c0726383a97d8fd994305c2e3c975c674fc8cd09324703f6a0/pynocaptcha-1.8.6.tar.gz
+[2024-04-08 03:19:14] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/bf/90/4f3367feec11346ae2c3b62b4bf94c1fdc97103119ab9723257ba76d64ed/dalpha-0.4.3.tar.gz
+[2024-04-08 03:19:14] INFO root fetch - processPackages [classifier-pipeline]: Downloading https://files.pythonhosted.org/packages/6d/b2/6db203094dce7fb18be8ab064b1e2626283df1b41c44d112d9b8d4a69bd5/classifier_pipeline-0.0.8.tar.gz
+[2024-04-08 03:19:14] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2024-04-08 03:19:14] INFO root fetch - processPackages [pyresp]: Downloading https://files.pythonhosted.org/packages/ef/b5/8c4c2ac3fb6994b1b73dd7c39ad7a8991194a182309a9414fa057de89e95/pyresp-1.0.3.tar.gz
+[2024-04-08 03:19:14] WARNING root fetch - processPackages [pyresp]: Timeout reached during download
+[2024-04-08 03:19:14] INFO root fetch - processPackages [pyresp]: executing diffoscope
+[2024-04-08 03:19:14] INFO root fetch - processPackages [pyresp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresp-1.0.2.tar.gz tmp/pyresp-1.0.3.tar.gz --markdown 20240408/p/pyresp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-08 03:19:14] WARNING root fetch - processPackages [dalpha]: Timeout reached during download
+[2024-04-08 03:19:14] WARNING root fetch - processPackages [moped]: Timeout reached during download
+[2024-04-08 03:19:14] WARNING root fetch - processPackages [classifier-pipeline]: Skipping package: exceeds size limit 41999276>=10485760
+[2024-04-08 03:19:14] INFO root fetch - main [MainThread]: End processing [classifier-pipeline] error
+[2024-04-08 03:19:14] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/24/da/5b776e97dbeb89f7f05bd4856d0bd9010a9ed8e91e0ef417df12f7975dbe/dalpha-0.4.4rc0.tar.gz
+[2024-04-08 03:19:14] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2024-04-08 03:19:14] WARNING root fetch - processPackages [pynocaptcha]: Timeout reached during download
+[2024-04-08 03:19:15] WARNING root fetch - processPackages [dalpha]: Timeout reached during download
+[2024-04-08 03:19:15] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-04-08 03:19:15] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.4.3.tar.gz tmp/dalpha-0.4.4rc0.tar.gz --markdown 20240408/d/dalpha/0.4.3-0.4.4rc0/diff.md --exclude *.pyd
+[2024-04-08 03:19:15] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/47/36/5aeb744b65f0b24eed68b9b8f9713070f72f10275cba472ca6269c44ed1a/pynocaptcha-1.8.7.tar.gz
+[2024-04-08 03:19:15] WARNING root fetch - processPackages [moped]: Timeout reached during download
+[2024-04-08 03:19:15] INFO root fetch - processPackages [moped]: executing diffoscope
+[2024-04-08 03:19:15] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20240408/m/moped/1.9.9-1rc1/diff.md --exclude *.pyd
+[2024-04-08 03:19:15] INFO root fetch - processPackages [pyresp]: Remove: archive file [/home/abi/fetcher/tmp/pyresp-1.0.2.tar.gz]
+[2024-04-08 03:19:15] INFO root fetch - processPackages [pyresp]: Remove: archive file [/home/abi/fetcher/tmp/pyresp-1.0.3.tar.gz]
+[2024-04-08 03:19:15] INFO root fetch - main [MainThread]: End processing [pyresp]: success
+[2024-04-08 03:19:15] WARNING root fetch - processPackages [pynocaptcha]: Timeout reached during download
+[2024-04-08 03:19:15] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2024-04-08 03:19:15] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.8.6.tar.gz tmp/pynocaptcha-1.8.7.tar.gz --markdown 20240408/p/pynocaptcha/1.8.6-1.8.7/diff.md --exclude *.pyd
+[2024-04-08 03:19:15] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.3.tar.gz]
+[2024-04-08 03:19:15] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.4rc0.tar.gz]
+[2024-04-08 03:19:15] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-04-08 03:19:15] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.8.6.tar.gz]
+[2024-04-08 03:19:15] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.8.7.tar.gz]
+[2024-04-08 03:19:15] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2024-04-08 03:19:15] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2024-04-08 03:19:15] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2024-04-08 03:19:15] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2024-04-08 03:19:15] INFO root fetch - main [MainThread]: Store serial: [22660578]
