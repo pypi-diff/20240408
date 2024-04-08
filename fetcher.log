@@ -15524,3 +15524,83 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:40:32] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.28.tar.gz]
 [2024-04-08 11:40:32] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
 [2024-04-08 11:40:32] INFO root fetch - main [MainThread]: Store serial: [22665156]
+[2024-04-08 11:42:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665156]
+[2024-04-08 11:42:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunholo
+[2024-04-08 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-use-cases.custom-cloud9-ssm
+[2024-04-08 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cesnet-datazoo
+[2024-04-08 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xfem
+[2024-04-08 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trailblazer
+[2024-04-08 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magicalapi
+[2024-04-08 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: statecraft
+[2024-04-08 11:42:41] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 11:42:41] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post67.dev0]
+[2024-04-08 11:42:41] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-04-08 11:42:41] INFO root fetch - processPackages [magicalapi]: New version: [1.0.1.post1] Old Version: [1.0.1]
+[2024-04-08 11:42:41] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-08 11:42:41] INFO root fetch - processPackages [statecraft]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-08 11:42:41] INFO root fetch - processPackages [cesnet-datazoo]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 11:42:41] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-08 11:42:42] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-04-08 11:42:42] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/ee/84/12a094e9d836825d2ec431888b8d0b5c9e72d33809c66a1094e5ce57b394/xfem-2.1.2303.post67.dev0.tar.gz
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [magicalapi]: Downloading https://files.pythonhosted.org/packages/6a/01/623af2c52c99d660459f73e8e9388267663731b8518d7642d715fa16bdfd/magicalapi-1.0.1.tar.gz
+[2024-04-08 11:42:42] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Downloading https://files.pythonhosted.org/packages/c0/00/a17ed5071327843d71c150956e77d84e7104693cbd641b01859e5e56dfa6/cdk-use-cases.custom-cloud9-ssm-1.3.1.tar.gz
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [trailblazer]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [statecraft]: Downloading https://files.pythonhosted.org/packages/c8/49/5b102eca3498f21496145da38ceaa775221680ac96141c4deaa83ad8b85f/statecraft-0.1.1.tar.gz
+[2024-04-08 11:42:42] INFO root fetch - processPackages [cesnet-datazoo]: Downloading https://files.pythonhosted.org/packages/38/bd/c423b6807ef5bf9f75f822299eb5a079099f8d460373330d859915449c36/cesnet-datazoo-0.1.1.tar.gz
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-08 11:42:42] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-04-08 11:42:42] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Timeout reached during download
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [magicalapi]: Timeout reached during download
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-08 11:42:42] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240408/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [statecraft]: Timeout reached during download
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [cesnet-datazoo]: Timeout reached during download
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [trailblazer]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-04-08 11:42:42] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240408/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2024-04-08 11:42:42] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post67.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20240408/x/xfem/2.1.2303.post67.dev0-2.1.2303.post8.dev0/diff.md --exclude *.pyd
+[2024-04-08 11:42:42] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Downloading https://files.pythonhosted.org/packages/c9/1e/e53ad81aac6fe0db357266fd7f1b09e1da28e505355896c1059b282fb5a0/cdk-use-cases.custom-cloud9-ssm-1.3.2.tar.gz
+[2024-04-08 11:42:42] INFO root fetch - processPackages [magicalapi]: Downloading https://files.pythonhosted.org/packages/74/7a/02e718152cdd7da2e85502e2b639e0196838e2e7454dec4572dc92c58c29/magicalapi-1.0.1.post1.tar.gz
+[2024-04-08 11:42:42] INFO root fetch - processPackages [statecraft]: Downloading https://files.pythonhosted.org/packages/3b/8b/243bb04716f68adb778c03d26e667e73bbd6d2a35e2eb1df51c67c75fd01/statecraft-0.2.0.tar.gz
+[2024-04-08 11:42:42] INFO root fetch - processPackages [cesnet-datazoo]: Downloading https://files.pythonhosted.org/packages/9c/1a/1a795a326b17d698adfa65e7644884bef0902fd4ab23bb5284acea3383e6/cesnet-datazoo-0.1.2.tar.gz
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: executing diffoscope
+[2024-04-08 11:42:42] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-use-cases.custom-cloud9-ssm-1.3.1.tar.gz tmp/cdk-use-cases.custom-cloud9-ssm-1.3.2.tar.gz --markdown 20240408/c/cdk-use-cases.custom-cloud9-ssm/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [cesnet-datazoo]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [cesnet-datazoo]: executing diffoscope
+[2024-04-08 11:42:42] INFO root fetch - processPackages [cesnet-datazoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesnet-datazoo-0.1.1.tar.gz tmp/cesnet-datazoo-0.1.2.tar.gz --markdown 20240408/c/cesnet-datazoo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [magicalapi]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [magicalapi]: executing diffoscope
+[2024-04-08 11:42:42] INFO root fetch - processPackages [magicalapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicalapi-1.0.1.tar.gz tmp/magicalapi-1.0.1.post1.tar.gz --markdown 20240408/m/magicalapi/1.0.1-1.0.1.post1/diff.md --exclude *.pyd
+[2024-04-08 11:42:42] WARNING root fetch - processPackages [statecraft]: Timeout reached during download
+[2024-04-08 11:42:42] INFO root fetch - processPackages [statecraft]: executing diffoscope
+[2024-04-08 11:42:42] INFO root fetch - processPackages [statecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statecraft-0.1.1.tar.gz tmp/statecraft-0.2.0.tar.gz --markdown 20240408/s/statecraft/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-08 11:42:43] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-04-08 11:42:43] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-08 11:42:43] INFO root fetch - processPackages [magicalapi]: Remove: archive file [/home/abi/fetcher/tmp/magicalapi-1.0.1.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - processPackages [magicalapi]: Remove: archive file [/home/abi/fetcher/tmp/magicalapi-1.0.1.post1.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - main [MainThread]: End processing [magicalapi]: success
+[2024-04-08 11:42:43] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Remove: archive file [/home/abi/fetcher/tmp/cdk-use-cases.custom-cloud9-ssm-1.3.1.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Remove: archive file [/home/abi/fetcher/tmp/cdk-use-cases.custom-cloud9-ssm-1.3.2.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - main [MainThread]: End processing [cdk-use-cases.custom-cloud9-ssm]: success
+[2024-04-08 11:42:43] INFO root fetch - processPackages [statecraft]: Remove: archive file [/home/abi/fetcher/tmp/statecraft-0.1.1.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - processPackages [statecraft]: Remove: archive file [/home/abi/fetcher/tmp/statecraft-0.2.0.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - main [MainThread]: End processing [statecraft]: success
+[2024-04-08 11:42:43] INFO root fetch - processPackages [cesnet-datazoo]: Remove: archive file [/home/abi/fetcher/tmp/cesnet-datazoo-0.1.1.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - processPackages [cesnet-datazoo]: Remove: archive file [/home/abi/fetcher/tmp/cesnet-datazoo-0.1.2.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - main [MainThread]: End processing [cesnet-datazoo]: success
+[2024-04-08 11:42:43] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post67.dev0.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2024-04-08 11:42:43] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2024-04-08 11:42:43] INFO root fetch - main [MainThread]: Store serial: [22665180]
