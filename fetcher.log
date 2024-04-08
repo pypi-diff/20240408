@@ -20889,3 +20889,64 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:41:48] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240408-py3-none-win_amd64.whl.zip]
 [2024-04-08 14:41:48] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-04-08 14:41:48] INFO root fetch - main [MainThread]: Store serial: [22666976]
+[2024-04-08 14:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666976]
+[2024-04-08 14:43:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jpylyzer
+[2024-04-08 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AssemblyLinePython
+[2024-04-08 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2024-04-08 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: illuminat
+[2024-04-08 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MinecraftMotionTools
+[2024-04-08 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helperfns
+[2024-04-08 14:43:58] INFO root fetch - processPackages [illuminat]: New version: [0.0.8.5] Old Version: [0.0.8.4]
+[2024-04-08 14:43:58] INFO root fetch - processPackages [MinecraftMotionTools]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-08 14:43:58] INFO root fetch - processPackages [jpylyzer]: New version: [2.2.0rc1] Old Version: [2.2.0b1]
+[2024-04-08 14:43:58] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/b5/d7/e823fa75c2d8907113e744c48915369e849c8d27aa96545e405e98c1595a/illuminat-0.0.8.4.tar.gz
+[2024-04-08 14:43:58] INFO root fetch - processPackages [MinecraftMotionTools]: Downloading https://files.pythonhosted.org/packages/40/6e/348b35ef3a5b98afcc83e36bebcedb23df38fe0209b21dfa4064569ad1c7/MinecraftMotionTools-1.8.1.tar.gz
+[2024-04-08 14:43:58] WARNING root fetch - processPackages [AssemblyLinePython]: Skipping, unable to determine old version
+[2024-04-08 14:43:58] INFO root fetch - main [MainThread]: End processing [AssemblyLinePython] error
+[2024-04-08 14:43:58] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-08 14:43:58] INFO root fetch - processPackages [helperfns]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-08 14:43:58] WARNING root fetch - processPackages [MinecraftMotionTools]: Timeout reached during download
+[2024-04-08 14:43:58] INFO root fetch - processPackages [jpylyzer]: Downloading https://files.pythonhosted.org/packages/68/22/304b8ce06291aa518bf96dd7b01230bcd6184895d3e16cc8c86735bdc3ea/jpylyzer-2.2.0b1.tar.gz
+[2024-04-08 14:43:58] WARNING root fetch - processPackages [illuminat]: Timeout reached during download
+[2024-04-08 14:43:58] INFO root fetch - processPackages [MinecraftMotionTools]: Downloading https://files.pythonhosted.org/packages/33/7c/aaafc78d2b01812f72d63c282e6f89c408ae94cf0f089dc9c48501f65b6d/MinecraftMotionTools-1.8.2.tar.gz
+[2024-04-08 14:43:58] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/87/20/0f3f81e9b301f2e08762de77a11a19cefa3fc15035ba3295a57f65ba7b49/illuminat-0.0.8.5.tar.gz
+[2024-04-08 14:43:58] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-08 14:43:58] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/7a/00/a8d9703c750c21726606e0fc06b2c7fc0f00b570b06e9dfa5ed309d13a4f/helperfns-1.0.1.tar.gz
+[2024-04-08 14:43:58] WARNING root fetch - processPackages [MinecraftMotionTools]: Timeout reached during download
+[2024-04-08 14:43:58] INFO root fetch - processPackages [MinecraftMotionTools]: executing diffoscope
+[2024-04-08 14:43:58] INFO root fetch - processPackages [MinecraftMotionTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MinecraftMotionTools-1.8.1.tar.gz tmp/MinecraftMotionTools-1.8.2.tar.gz --markdown 20240408/M/MinecraftMotionTools/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2024-04-08 14:43:59] WARNING root fetch - processPackages [illuminat]: Timeout reached during download
+[2024-04-08 14:43:59] INFO root fetch - processPackages [illuminat]: executing diffoscope
+[2024-04-08 14:43:59] INFO root fetch - processPackages [illuminat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/illuminat-0.0.8.4.tar.gz tmp/illuminat-0.0.8.5.tar.gz --markdown 20240408/i/illuminat/0.0.8.4-0.0.8.5/diff.md --exclude *.pyd
+[2024-04-08 14:43:59] WARNING root fetch - processPackages [helperfns]: Timeout reached during download
+[2024-04-08 14:43:59] WARNING root fetch - processPackages [tensorcircuit-nightly]: Timeout reached during download
+[2024-04-08 14:43:59] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/d9/c8/fb74232fb62f6792b9f8f22c20133b2ce0e607339599e795e9fb95a6bb75/helperfns-1.0.2.tar.gz
+[2024-04-08 14:43:59] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-08 14:43:59] WARNING root fetch - processPackages [jpylyzer]: Timeout reached during download
+[2024-04-08 14:43:59] WARNING root fetch - processPackages [helperfns]: Timeout reached during download
+[2024-04-08 14:43:59] INFO root fetch - processPackages [helperfns]: executing diffoscope
+[2024-04-08 14:43:59] INFO root fetch - processPackages [helperfns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helperfns-1.0.1.tar.gz tmp/helperfns-1.0.2.tar.gz --markdown 20240408/h/helperfns/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-08 14:43:59] INFO root fetch - processPackages [illuminat]: Remove: archive file [/home/abi/fetcher/tmp/illuminat-0.0.8.4.tar.gz]
+[2024-04-08 14:43:59] INFO root fetch - processPackages [illuminat]: Remove: archive file [/home/abi/fetcher/tmp/illuminat-0.0.8.5.tar.gz]
+[2024-04-08 14:43:59] INFO root fetch - main [MainThread]: End processing [illuminat]: success
+[2024-04-08 14:43:59] INFO root fetch - processPackages [jpylyzer]: Downloading https://files.pythonhosted.org/packages/02/d3/136907ae1aa7e6937fc8ee421a437ea3ed604fcc26b1c39dad422fc13d69/jpylyzer-2.2.0rc1.tar.gz
+[2024-04-08 14:43:59] INFO root fetch - processPackages [MinecraftMotionTools]: Remove: archive file [/home/abi/fetcher/tmp/MinecraftMotionTools-1.8.1.tar.gz]
+[2024-04-08 14:43:59] INFO root fetch - processPackages [MinecraftMotionTools]: Remove: archive file [/home/abi/fetcher/tmp/MinecraftMotionTools-1.8.2.tar.gz]
+[2024-04-08 14:43:59] INFO root fetch - main [MainThread]: End processing [MinecraftMotionTools]: success
+[2024-04-08 14:43:59] WARNING root fetch - processPackages [tensorcircuit-nightly]: Timeout reached during download
+[2024-04-08 14:43:59] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-08 14:43:59] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240408/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2024-04-08 14:44:00] WARNING root fetch - processPackages [jpylyzer]: Timeout reached during download
+[2024-04-08 14:44:00] INFO root fetch - processPackages [jpylyzer]: executing diffoscope
+[2024-04-08 14:44:00] INFO root fetch - processPackages [jpylyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpylyzer-2.2.0b1.tar.gz tmp/jpylyzer-2.2.0rc1.tar.gz --markdown 20240408/j/jpylyzer/2.2.0b1-2.2.0rc1/diff.md --exclude *.pyd
+[2024-04-08 14:44:00] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-1.0.1.tar.gz]
+[2024-04-08 14:44:00] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-1.0.2.tar.gz]
+[2024-04-08 14:44:00] INFO root fetch - main [MainThread]: End processing [helperfns]: success
+[2024-04-08 14:44:00] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-08 14:44:00] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-08 14:44:00] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-08 14:44:01] INFO root fetch - processPackages [jpylyzer]: Remove: archive file [/home/abi/fetcher/tmp/jpylyzer-2.2.0b1.tar.gz]
+[2024-04-08 14:44:01] INFO root fetch - processPackages [jpylyzer]: Remove: archive file [/home/abi/fetcher/tmp/jpylyzer-2.2.0rc1.tar.gz]
+[2024-04-08 14:44:01] INFO root fetch - main [MainThread]: End processing [jpylyzer]: success
+[2024-04-08 14:44:01] INFO root fetch - main [MainThread]: Store serial: [22666995]
