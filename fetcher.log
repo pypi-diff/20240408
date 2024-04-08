@@ -3478,3 +3478,19 @@
 [2024-04-08 04:22:40] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.1.5.tar.gz]
 [2024-04-08 04:22:40] INFO root fetch - main [MainThread]: End processing [musicAlgLib]: success
 [2024-04-08 04:22:40] INFO root fetch - main [MainThread]: Store serial: [22660918]
+[2024-04-08 04:24:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660918]
+[2024-04-08 04:24:51] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 04:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660918]
+[2024-04-08 04:26:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 04:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-08 04:26:56] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b7] Old Version: [0.8.0.1b6]
+[2024-04-08 04:26:56] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/b9/ad/5af7d533a8425c6eddfa8bdd508de9717d8e2ca5d3dfeddc6a36a4e11cc6/smaht_submitr-0.8.0.1b6.tar.gz
+[2024-04-08 04:26:56] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:26:57] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/0c/b2/45c1759875a95c52ca52823e9dc19ca927aecad0c39d63dc19277f0a03ac/smaht_submitr-0.8.0.1b7.tar.gz
+[2024-04-08 04:26:57] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:26:57] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-08 04:26:57] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b6.tar.gz tmp/smaht_submitr-0.8.0.1b7.tar.gz --markdown 20240408/s/smaht-submitr/0.8.0.1b6-0.8.0.1b7/diff.md --exclude *.pyd
+[2024-04-08 04:26:57] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b6.tar.gz]
+[2024-04-08 04:26:57] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b7.tar.gz]
+[2024-04-08 04:26:57] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-08 04:26:57] INFO root fetch - main [MainThread]: Store serial: [22660922]
