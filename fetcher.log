@@ -8272,3 +8272,53 @@
 [2024-04-08 06:39:07] INFO root fetch - processPackages [infinity-emb]: Remove: archive file [/home/abi/fetcher/tmp/infinity_emb-0.0.9.tar.gz]
 [2024-04-08 06:39:07] INFO root fetch - main [MainThread]: End processing [infinity-emb]: success
 [2024-04-08 06:39:07] INFO root fetch - main [MainThread]: Store serial: [22662326]
+[2024-04-08 06:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662326]
+[2024-04-08 06:41:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 06:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isom2600
+[2024-04-08 06:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yuezhlib
+[2024-04-08 06:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyquocca
+[2024-04-08 06:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dalpha-ai
+[2024-04-08 06:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezdsp
+[2024-04-08 06:41:26] INFO root fetch - processPackages [isom2600]: New version: [3.1] Old Version: [3.0]
+[2024-04-08 06:41:26] INFO root fetch - processPackages [ezdsp]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-08 06:41:26] INFO root fetch - processPackages [pyquocca]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 06:41:26] INFO root fetch - processPackages [dalpha-ai]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 06:41:26] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/b8/51/fb7381332c1ee6a4b4fb56f870e8a2a621d919b2a1afe1b675fae280a389/ezdsp-1.0.2.tar.gz
+[2024-04-08 06:41:26] INFO root fetch - processPackages [isom2600]: Downloading https://files.pythonhosted.org/packages/72/ca/36429af5fbff8cca90f94040209434d713663e1760493814de89163e7034/isom2600-3.0.tar.gz
+[2024-04-08 06:41:26] WARNING root fetch - processPackages [yuezhlib]: Skipping, unable to determine old version
+[2024-04-08 06:41:26] INFO root fetch - main [MainThread]: End processing [yuezhlib] error
+[2024-04-08 06:41:26] WARNING root fetch - processPackages [isom2600]: Timeout reached during download
+[2024-04-08 06:41:26] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:41:26] INFO root fetch - processPackages [dalpha-ai]: Downloading https://files.pythonhosted.org/packages/97/49/40878d1e41fcacc3f42c6812551e847def82e2cd9c2df907e6bc2100ecf4/dalpha_ai-0.3.0.tar.gz
+[2024-04-08 06:41:26] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/d3/ee/0df9cc749a20ee73217971a4a8accba6e5ae58832d346d23f9bdf85661bb/pyquocca-0.0.8.tar.gz
+[2024-04-08 06:41:26] INFO root fetch - processPackages [isom2600]: Downloading https://files.pythonhosted.org/packages/87/df/8ac706eb2fd78e9507be8dd2f844d0ef061e1f4c248b3461985fff7a53a0/isom2600-3.1.tar.gz
+[2024-04-08 06:41:26] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-08 06:41:26] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/3f/dd/d48e1b31866873b9588ec258c4a23fd2f713e6ac2dea8456851c255df267/ezdsp-1.0.3.tar.gz
+[2024-04-08 06:41:27] WARNING root fetch - processPackages [dalpha-ai]: Timeout reached during download
+[2024-04-08 06:41:27] WARNING root fetch - processPackages [isom2600]: Timeout reached during download
+[2024-04-08 06:41:27] INFO root fetch - processPackages [isom2600]: executing diffoscope
+[2024-04-08 06:41:27] INFO root fetch - processPackages [isom2600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isom2600-3.0.tar.gz tmp/isom2600-3.1.tar.gz --markdown 20240408/i/isom2600/3.0-3.1/diff.md --exclude *.pyd
+[2024-04-08 06:41:27] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:41:27] INFO root fetch - processPackages [ezdsp]: executing diffoscope
+[2024-04-08 06:41:27] INFO root fetch - processPackages [ezdsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdsp-1.0.2.tar.gz tmp/ezdsp-1.0.3.tar.gz --markdown 20240408/e/ezdsp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-08 06:41:27] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/14/91/ed05b4a616e1d9c0b20ad8d5ad80c7c832df545d142d03d9d7c56970298d/pyquocca-0.0.9.tar.gz
+[2024-04-08 06:41:27] INFO root fetch - processPackages [dalpha-ai]: Downloading https://files.pythonhosted.org/packages/44/7a/ef65e510f8444f4c6763265e48f7b876692f31c9e567e0982616b9e206bb/dalpha_ai-0.3.1.tar.gz
+[2024-04-08 06:41:27] WARNING root fetch - processPackages [dalpha-ai]: Timeout reached during download
+[2024-04-08 06:41:27] INFO root fetch - processPackages [dalpha-ai]: executing diffoscope
+[2024-04-08 06:41:27] INFO root fetch - processPackages [dalpha-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha_ai-0.3.0.tar.gz tmp/dalpha_ai-0.3.1.tar.gz --markdown 20240408/d/dalpha-ai/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 06:41:27] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-08 06:41:27] INFO root fetch - processPackages [pyquocca]: executing diffoscope
+[2024-04-08 06:41:27] INFO root fetch - processPackages [pyquocca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquocca-0.0.8.tar.gz tmp/pyquocca-0.0.9.tar.gz --markdown 20240408/p/pyquocca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 06:41:27] INFO root fetch - processPackages [isom2600]: Remove: archive file [/home/abi/fetcher/tmp/isom2600-3.0.tar.gz]
+[2024-04-08 06:41:27] INFO root fetch - processPackages [isom2600]: Remove: archive file [/home/abi/fetcher/tmp/isom2600-3.1.tar.gz]
+[2024-04-08 06:41:27] INFO root fetch - main [MainThread]: End processing [isom2600]: success
+[2024-04-08 06:41:27] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.2.tar.gz]
+[2024-04-08 06:41:27] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.3.tar.gz]
+[2024-04-08 06:41:27] INFO root fetch - main [MainThread]: End processing [ezdsp]: success
+[2024-04-08 06:41:27] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.8.tar.gz]
+[2024-04-08 06:41:27] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.9.tar.gz]
+[2024-04-08 06:41:27] INFO root fetch - main [MainThread]: End processing [pyquocca]: success
+[2024-04-08 06:41:28] INFO root fetch - processPackages [dalpha-ai]: Remove: archive file [/home/abi/fetcher/tmp/dalpha_ai-0.3.0.tar.gz]
+[2024-04-08 06:41:28] INFO root fetch - processPackages [dalpha-ai]: Remove: archive file [/home/abi/fetcher/tmp/dalpha_ai-0.3.1.tar.gz]
+[2024-04-08 06:41:28] INFO root fetch - main [MainThread]: End processing [dalpha-ai]: success
+[2024-04-08 06:41:28] INFO root fetch - main [MainThread]: Store serial: [22662342]
