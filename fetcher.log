@@ -1599,3 +1599,41 @@
 [2024-04-08 02:06:04] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240407.442.tar.gz]
 [2024-04-08 02:06:04] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-08 02:06:04] INFO root fetch - main [MainThread]: Store serial: [22660208]
+[2024-04-08 02:08:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660208]
+[2024-04-08 02:08:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 02:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2024-04-08 02:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywavelink
+[2024-04-08 02:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wii-music-editor
+[2024-04-08 02:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-embeddings
+[2024-04-08 02:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-amazon-chime-resources
+[2024-04-08 02:08:13] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240407] Old Version: [0.0.8.dev20240406]
+[2024-04-08 02:08:13] WARNING root fetch - processPackages [pywavelink]: Skipping, unable to determine old version
+[2024-04-08 02:08:13] INFO root fetch - main [MainThread]: End processing [pywavelink] error
+[2024-04-08 02:08:13] INFO root fetch - processPackages [wii-music-editor]: New version: [2.0.0.dev9] Old Version: [2.0.0.dev8]
+[2024-04-08 02:08:13] INFO root fetch - processPackages [datasette-embeddings]: New version: [0.1a3] Old Version: [0.1a2]
+[2024-04-08 02:08:13] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/97/ad/ca24d2cbfc9fd1365d94b8367caa0a224eda98b4376316f84ae37ee2c0b8/jaxutils-nightly-0.0.8.dev20240406.tar.gz
+[2024-04-08 02:08:13] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [3.2.4] Old Version: [3.2.3]
+[2024-04-08 02:08:13] WARNING root fetch - processPackages [jaxutils-nightly]: Timeout reached during download
+[2024-04-08 02:08:13] INFO root fetch - processPackages [wii-music-editor]: Downloading https://files.pythonhosted.org/packages/57/b7/80f1e3e96a559c6f704998e8203afac01cfd2c95b7baa09258bfa519c128/wii_music_editor-2.0.0.dev8.tar.gz
+[2024-04-08 02:08:13] INFO root fetch - processPackages [datasette-embeddings]: Downloading https://files.pythonhosted.org/packages/33/57/e5fb319a86b8fe675baa6e9a265ad83ead1d141861e3bb44e147d1580370/datasette-embeddings-0.1a2.tar.gz
+[2024-04-08 02:08:13] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/e4/29/045f8930448b4107695f15395b96c99ca7448ad51d51abe3231b4a4a2934/cdk-amazon-chime-resources-3.2.3.tar.gz
+[2024-04-08 02:08:13] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/be/1c/3482023c42c2e62c41692f1c6467dc9b17aafba096e1ff4e8142faa5fe69/jaxutils-nightly-0.0.8.dev20240407.tar.gz
+[2024-04-08 02:08:13] WARNING root fetch - processPackages [datasette-embeddings]: Timeout reached during download
+[2024-04-08 02:08:13] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 15334578>=10485760
+[2024-04-08 02:08:13] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2024-04-08 02:08:13] WARNING root fetch - processPackages [jaxutils-nightly]: Timeout reached during download
+[2024-04-08 02:08:13] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-08 02:08:13] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240406.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240407.tar.gz --markdown 20240408/j/jaxutils-nightly/0.0.8.dev20240406-0.0.8.dev20240407/diff.md --exclude *.pyd
+[2024-04-08 02:08:13] INFO root fetch - processPackages [datasette-embeddings]: Downloading https://files.pythonhosted.org/packages/96/1a/e54cffc0906915ca3a587c0d4db1860e2a08311753093259563dd6012095/datasette-embeddings-0.1a3.tar.gz
+[2024-04-08 02:08:13] WARNING root fetch - processPackages [datasette-embeddings]: Timeout reached during download
+[2024-04-08 02:08:13] INFO root fetch - processPackages [datasette-embeddings]: executing diffoscope
+[2024-04-08 02:08:13] INFO root fetch - processPackages [datasette-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-embeddings-0.1a2.tar.gz tmp/datasette-embeddings-0.1a3.tar.gz --markdown 20240408/d/datasette-embeddings/0.1a2-0.1a3/diff.md --exclude *.pyd
+[2024-04-08 02:08:14] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240406.tar.gz]
+[2024-04-08 02:08:14] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240407.tar.gz]
+[2024-04-08 02:08:14] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-08 02:08:14] INFO root fetch - processPackages [datasette-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/datasette-embeddings-0.1a2.tar.gz]
+[2024-04-08 02:08:14] INFO root fetch - processPackages [datasette-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/datasette-embeddings-0.1a3.tar.gz]
+[2024-04-08 02:08:14] INFO root fetch - main [MainThread]: End processing [datasette-embeddings]: success
+[2024-04-08 02:08:14] WARNING root fetch - processPackages [wii-music-editor]: Skipping package: exceeds size limit 35454323>=10485760
+[2024-04-08 02:08:14] INFO root fetch - main [MainThread]: End processing [wii-music-editor] error
+[2024-04-08 02:08:14] INFO root fetch - main [MainThread]: Store serial: [22660227]
