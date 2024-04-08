@@ -9523,3 +9523,36 @@
 [2024-04-08 07:47:38] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.64.tar.gz]
 [2024-04-08 07:47:38] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
 [2024-04-08 07:47:38] INFO root fetch - main [MainThread]: Store serial: [22662719]
+[2024-04-08 07:49:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662719]
+[2024-04-08 07:49:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-hcloud
+[2024-04-08 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: komodo-sdk
+[2024-04-08 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-scheduler-error-mailer
+[2024-04-08 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SyDataSets
+[2024-04-08 07:49:58] WARNING root fetch - processPackages [SyDataSets]: Skipping, unable to determine old version
+[2024-04-08 07:49:58] INFO root fetch - main [MainThread]: End processing [SyDataSets] error
+[2024-04-08 07:49:58] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-04-08 07:49:58] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.9] Old Version: [0.0.84]
+[2024-04-08 07:49:58] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-04-08 07:49:58] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/c1/75/64665f8823652ae983842708f771508649b4a085802d170fbb9d173d580d/komodo_sdk-0.0.9.tar.gz
+[2024-04-08 07:49:58] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-04-08 07:49:58] WARNING root fetch - processPackages [komodo-sdk]: Skipping package: exceeds size limit 41417628>=10485760
+[2024-04-08 07:49:58] INFO root fetch - main [MainThread]: End processing [komodo-sdk] error
+[2024-04-08 07:49:58] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Downloading https://files.pythonhosted.org/packages/fe/20/ddfba78f332c84feeba02120f3256f37b11cfab62945675d5333ec77a1b7/odoo_addon_scheduler_error_mailer-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-08 07:49:58] WARNING root fetch - processPackages [pulumi-hcloud]: Timeout reached during download
+[2024-04-08 07:49:59] WARNING root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Timeout reached during download
+[2024-04-08 07:49:59] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-04-08 07:49:59] WARNING root fetch - processPackages [pulumi-hcloud]: Timeout reached during download
+[2024-04-08 07:49:59] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-04-08 07:49:59] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240408/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2024-04-08 07:49:59] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Downloading https://files.pythonhosted.org/packages/e2/87/c653ae6807d532ed3407c9295d6439592e233d95d4c16bad9a8e0a8287cc/odoo_addon_scheduler_error_mailer-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-08 07:49:59] WARNING root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Timeout reached during download
+[2024-04-08 07:49:59] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: executing diffoscope
+[2024-04-08 07:49:59] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-scheduler-error-mailer/17.0.1.0.0.3-17.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-08 07:49:59] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-04-08 07:49:59] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-04-08 07:49:59] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-04-08 07:50:00] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-08 07:50:00] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-08 07:50:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-scheduler-error-mailer]: success
+[2024-04-08 07:50:00] INFO root fetch - main [MainThread]: Store serial: [22662730]
