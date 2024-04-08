@@ -19763,3 +19763,58 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:04:00] INFO root fetch - processPackages [dsfx]: Remove: archive file [/home/abi/fetcher/tmp/dsfx-0.2.5.tar.gz]
 [2024-04-08 14:04:00] INFO root fetch - main [MainThread]: End processing [dsfx]: success
 [2024-04-08 14:04:00] INFO root fetch - main [MainThread]: Store serial: [22666593]
+[2024-04-08 14:06:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666593]
+[2024-04-08 14:06:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-datahub
+[2024-04-08 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dlsc4t
+[2024-04-08 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub-airflow-plugin
+[2024-04-08 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvidia-dali-nightly-cuda110
+[2024-04-08 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: illuminat
+[2024-04-08 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2024-04-08 14:06:09] INFO root fetch - processPackages [illuminat]: New version: [0.0.8.3] Old Version: [0.0.8.2]
+[2024-04-08 14:06:09] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.37.0.dev20240405] Old Version: [1.37.0.dev20240322]
+[2024-04-08 14:06:09] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.37.0.dev20240405] Old Version: [1.37.0.dev20240322]
+[2024-04-08 14:06:09] WARNING root fetch - processPackages [dlsc4t]: Skipping, unable to determine old version
+[2024-04-08 14:06:09] INFO root fetch - main [MainThread]: End processing [dlsc4t] error
+[2024-04-08 14:06:09] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-08 14:06:09] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-08 14:06:09] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/9c/60/b9766d8b253e8512777b49a8a078097928c876eac482e2b81083c9423afb/illuminat-0.0.8.2.tar.gz
+[2024-04-08 14:06:09] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/3c/42/91fc087fda8c385601a2cb704774491dc4fafcfe06a2ffeca968cc32ffab/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240322.tar.gz
+[2024-04-08 14:06:09] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-04-08 14:06:09] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/73/39/47e3765f6fde92d7b33c88110f0cc28ab38f520235a285a60dcce5863cc5/nvidia_dali_nightly_cuda110-1.37.0.dev20240322.tar.gz
+[2024-04-08 14:06:09] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46426673>=10485760
+[2024-04-08 14:06:09] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 14:06:10] WARNING root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Timeout reached during download
+[2024-04-08 14:06:10] WARNING root fetch - processPackages [acryl-datahub-airflow-plugin]: Timeout reached during download
+[2024-04-08 14:06:10] WARNING root fetch - processPackages [nvidia-dali-nightly-cuda110]: Timeout reached during download
+[2024-04-08 14:06:10] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/53/c2/5e466fa11357da241dfba01455522f563deec1e6c5f0a2cce105f1033b65/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240405.tar.gz
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/04/4c/88dcb9acdbd9bd5fab33ddea4a3ad12d49f8d8fbecc9f7da36f3de03bf50/nvidia_dali_nightly_cuda110-1.37.0.dev20240405.tar.gz
+[2024-04-08 14:06:10] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-04-08 14:06:10] WARNING root fetch - processPackages [nvidia-dali-nightly-cuda110]: Timeout reached during download
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240322.tar.gz tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240405.tar.gz --markdown 20240408/n/nvidia-dali-nightly-cuda110/1.37.0.dev20240322-1.37.0.dev20240405/diff.md --exclude *.pyd
+[2024-04-08 14:06:10] WARNING root fetch - processPackages [acryl-datahub]: Timeout reached during download
+[2024-04-08 14:06:10] WARNING root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Timeout reached during download
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240322.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240405.tar.gz --markdown 20240408/n/nvidia-dali-tf-plugin-nightly-cuda110/1.37.0.dev20240322-1.37.0.dev20240405/diff.md --exclude *.pyd
+[2024-04-08 14:06:10] WARNING root fetch - processPackages [acryl-datahub-airflow-plugin]: Timeout reached during download
+[2024-04-08 14:06:10] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-04-08 14:06:10] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240408/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2024-04-08 14:06:10] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240322.tar.gz]
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240405.tar.gz]
+[2024-04-08 14:06:10] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240322.tar.gz]
+[2024-04-08 14:06:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240405.tar.gz]
+[2024-04-08 14:06:10] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-04-08 14:06:11] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-04-08 14:06:11] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-04-08 14:06:11] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-04-08 14:06:11] WARNING root fetch - processPackages [acryl-datahub]: Timeout reached during download
+[2024-04-08 14:06:11] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-04-08 14:06:11] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240408/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2024-04-08 14:06:13] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-04-08 14:06:13] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-04-08 14:06:13] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-04-08 14:06:13] INFO root fetch - main [MainThread]: Store serial: [22666612]
