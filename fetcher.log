@@ -3763,3 +3763,46 @@
 [2024-04-08 04:40:14] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.9.0.tar.gz]
 [2024-04-08 04:40:14] INFO root fetch - main [MainThread]: End processing [hcli-core]: success
 [2024-04-08 04:40:14] INFO root fetch - main [MainThread]: Store serial: [22661000]
+[2024-04-08 04:42:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661000]
+[2024-04-08 04:42:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 04:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-asset-management
+[2024-04-08 04:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: numeratorpy
+[2024-04-08 04:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-asset-management
+[2024-04-08 04:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyz020403
+[2024-04-08 04:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vidstreamtests
+[2024-04-08 04:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dirconfig
+[2024-04-08 04:42:26] WARNING root fetch - processPackages [cyz020403]: Skipping, unable to determine old version
+[2024-04-08 04:42:26] INFO root fetch - main [MainThread]: End processing [cyz020403] error
+[2024-04-08 04:42:26] INFO root fetch - processPackages [dirconfig]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-08 04:42:26] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.2.1.2] Old Version: [16.0.1.2.1.1]
+[2024-04-08 04:42:26] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.2.1.2] Old Version: [16.0.1.2.1.1]
+[2024-04-08 04:42:26] WARNING root fetch - processPackages [vidstreamtests]: Skipping, unable to determine old version
+[2024-04-08 04:42:26] WARNING root fetch - processPackages [numeratorpy]: Skipping, unable to determine old version
+[2024-04-08 04:42:26] INFO root fetch - main [MainThread]: End processing [vidstreamtests] error
+[2024-04-08 04:42:26] INFO root fetch - main [MainThread]: End processing [numeratorpy] error
+[2024-04-08 04:42:26] INFO root fetch - processPackages [dirconfig]: Downloading https://files.pythonhosted.org/packages/51/c9/74f803c2beba187d8b4547606457474867ab4898e91bb81f5d7d689ca68b/dirconfig-0.2.1.tar.gz
+[2024-04-08 04:42:27] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/6c/47/a70a9b5779b48f91f3de10cab58f845405f8b797db4dbb0673af85da5f56/odoo_addon_account_asset_management-16.0.1.2.1.1-py3-none-any.whl
+[2024-04-08 04:42:27] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/6c/47/a70a9b5779b48f91f3de10cab58f845405f8b797db4dbb0673af85da5f56/odoo_addon_account_asset_management-16.0.1.2.1.1-py3-none-any.whl
+[2024-04-08 04:42:27] WARNING root fetch - processPackages [dirconfig]: Timeout reached during download
+[2024-04-08 04:42:27] WARNING root fetch - processPackages [odoo-addon-account-asset-management]: Timeout reached during download
+[2024-04-08 04:42:27] WARNING root fetch - processPackages [odoo-addon-account-asset-management]: Timeout reached during download
+[2024-04-08 04:42:27] INFO root fetch - processPackages [dirconfig]: Downloading https://files.pythonhosted.org/packages/00/04/576238ee15a1889888c4b7f3e3ed82e82f85ae799ed0bb03f802eac4f73c/dirconfig-0.2.2.tar.gz
+[2024-04-08 04:42:27] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/81/12/c70108027422f54bb707db02429edeee649cb6cfa46df411bc95337695f3/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl
+[2024-04-08 04:42:27] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/81/12/c70108027422f54bb707db02429edeee649cb6cfa46df411bc95337695f3/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl
+[2024-04-08 04:42:27] WARNING root fetch - processPackages [dirconfig]: Timeout reached during download
+[2024-04-08 04:42:27] INFO root fetch - processPackages [dirconfig]: executing diffoscope
+[2024-04-08 04:42:27] INFO root fetch - processPackages [dirconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirconfig-0.2.1.tar.gz tmp/dirconfig-0.2.2.tar.gz --markdown 20240408/d/dirconfig/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-08 04:42:27] WARNING root fetch - processPackages [odoo-addon-account-asset-management]: Timeout reached during download
+[2024-04-08 04:42:27] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2024-04-08 04:42:27] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.2.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-account-asset-management/16.0.1.2.1.1-16.0.1.2.1.2/diff.md --exclude *.pyd
+[2024-04-08 04:42:27] WARNING root fetch - processPackages [odoo-addon-account-asset-management]: Timeout reached during download
+[2024-04-08 04:42:27] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2024-04-08 04:42:27] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.2.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-account-asset-management/16.0.1.2.1.1-16.0.1.2.1.2/diff.md --exclude *.pyd
+[2024-04-08 04:42:28] INFO root fetch - processPackages [dirconfig]: Remove: archive file [/home/abi/fetcher/tmp/dirconfig-0.2.1.tar.gz]
+[2024-04-08 04:42:28] INFO root fetch - processPackages [dirconfig]: Remove: archive file [/home/abi/fetcher/tmp/dirconfig-0.2.2.tar.gz]
+[2024-04-08 04:42:28] INFO root fetch - main [MainThread]: End processing [dirconfig]: success
+[2024-04-08 04:42:28] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.1.1-py3-none-any.whl.zip]
+[2024-04-08 04:42:28] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl.zip]
+[2024-04-08 04:42:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2024-04-08 04:42:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2024-04-08 04:42:28] INFO root fetch - main [MainThread]: Store serial: [22661022]
