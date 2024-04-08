@@ -9091,3 +9091,31 @@
 [2024-04-08 07:24:06] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.8.0.tar.gz]
 [2024-04-08 07:24:06] INFO root fetch - main [MainThread]: End processing [encommon]: success
 [2024-04-08 07:24:06] INFO root fetch - main [MainThread]: Store serial: [22662563]
+[2024-04-08 07:26:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662563]
+[2024-04-08 07:26:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 07:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yosemite-tools
+[2024-04-08 07:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyquocca
+[2024-04-08 07:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flexydial-token
+[2024-04-08 07:26:26] WARNING root fetch - processPackages [flexydial-token]: Skipping, unable to determine old version
+[2024-04-08 07:26:26] INFO root fetch - main [MainThread]: End processing [flexydial-token] error
+[2024-04-08 07:26:26] INFO root fetch - processPackages [pyquocca]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 07:26:26] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/d3/ee/0df9cc749a20ee73217971a4a8accba6e5ae58832d346d23f9bdf85661bb/pyquocca-0.0.8.tar.gz
+[2024-04-08 07:26:26] INFO root fetch - processPackages [yosemite-tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-08 07:26:26] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-08 07:26:26] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/14/91/ed05b4a616e1d9c0b20ad8d5ad80c7c832df545d142d03d9d7c56970298d/pyquocca-0.0.9.tar.gz
+[2024-04-08 07:26:26] INFO root fetch - processPackages [yosemite-tools]: Downloading https://files.pythonhosted.org/packages/82/f4/e906de2673929113c6ff33517a8645bfae77dde4eaa9083896d23397d439/yosemite-tools-0.0.6.tar.gz
+[2024-04-08 07:26:26] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-08 07:26:26] INFO root fetch - processPackages [pyquocca]: executing diffoscope
+[2024-04-08 07:26:26] INFO root fetch - processPackages [pyquocca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquocca-0.0.8.tar.gz tmp/pyquocca-0.0.9.tar.gz --markdown 20240408/p/pyquocca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 07:26:26] WARNING root fetch - processPackages [yosemite-tools]: Timeout reached during download
+[2024-04-08 07:26:26] INFO root fetch - processPackages [yosemite-tools]: Downloading https://files.pythonhosted.org/packages/1a/92/cf19b47b64320e43ef4b73d781f772dda6addb9dcc9508cbcd4ec7f233c4/yosemite-tools-0.0.7.tar.gz
+[2024-04-08 07:26:26] WARNING root fetch - processPackages [yosemite-tools]: Timeout reached during download
+[2024-04-08 07:26:26] INFO root fetch - processPackages [yosemite-tools]: executing diffoscope
+[2024-04-08 07:26:26] INFO root fetch - processPackages [yosemite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yosemite-tools-0.0.6.tar.gz tmp/yosemite-tools-0.0.7.tar.gz --markdown 20240408/y/yosemite-tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-08 07:26:27] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.8.tar.gz]
+[2024-04-08 07:26:27] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.9.tar.gz]
+[2024-04-08 07:26:27] INFO root fetch - main [MainThread]: End processing [pyquocca]: success
+[2024-04-08 07:26:27] INFO root fetch - processPackages [yosemite-tools]: Remove: archive file [/home/abi/fetcher/tmp/yosemite-tools-0.0.6.tar.gz]
+[2024-04-08 07:26:27] INFO root fetch - processPackages [yosemite-tools]: Remove: archive file [/home/abi/fetcher/tmp/yosemite-tools-0.0.7.tar.gz]
+[2024-04-08 07:26:27] INFO root fetch - main [MainThread]: End processing [yosemite-tools]: success
+[2024-04-08 07:26:27] INFO root fetch - main [MainThread]: Store serial: [22662576]
