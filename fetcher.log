@@ -1696,3 +1696,33 @@
 [2024-04-08 02:12:39] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz]
 [2024-04-08 02:12:39] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
 [2024-04-08 02:12:39] INFO root fetch - main [MainThread]: Store serial: [22660256]
+[2024-04-08 02:14:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660256]
+[2024-04-08 02:14:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 02:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-ignite
+[2024-04-08 02:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-osmosis
+[2024-04-08 02:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx-weekly
+[2024-04-08 02:14:48] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240407] Old Version: [0.6.0.dev20240406]
+[2024-04-08 02:14:49] INFO root fetch - processPackages [dbt-osmosis]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-08 02:14:49] INFO root fetch - processPackages [onnx-weekly]: New version: [1.17.0.dev20240408] Old Version: [1.17.0.dev20240401]
+[2024-04-08 02:14:49] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/94/ad/e58e7ec5cbafec0af9174132e1ff4ac4afce289cbf1463a061e1e440da3a/pytorch-ignite-0.6.0.dev20240406.tar.gz
+[2024-04-08 02:14:49] INFO root fetch - processPackages [dbt-osmosis]: Downloading https://files.pythonhosted.org/packages/58/6d/6065b954fa2e9197c6c66eda6a5f68a925bfd3e928477828ce1bb1396a6f/dbt-osmosis-0.9.7.tar.gz
+[2024-04-08 02:14:49] WARNING root fetch - processPackages [dbt-osmosis]: Timeout reached during download
+[2024-04-08 02:14:49] INFO root fetch - processPackages [onnx-weekly]: Downloading https://files.pythonhosted.org/packages/ee/76/23bd4f8c88348ac419f01bc78eb2cdf20b49a884086bf5fc55e4b627f17e/onnx-weekly-1.17.0.dev20240401.tar.gz
+[2024-04-08 02:14:49] WARNING root fetch - processPackages [pytorch-ignite]: Timeout reached during download
+[2024-04-08 02:14:49] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/cb/33/3c0bff290788f31fdba570f1616321fe6479a029c9f24c95b048c91f91ce/pytorch-ignite-0.6.0.dev20240407.tar.gz
+[2024-04-08 02:14:49] INFO root fetch - processPackages [dbt-osmosis]: Downloading https://files.pythonhosted.org/packages/a5/6a/58a5f5250da317c29d672ba44dbcfeb2f99247daff9259c3be659f9bbd6e/dbt_osmosis-0.9.8.tar.gz
+[2024-04-08 02:14:49] WARNING root fetch - processPackages [pytorch-ignite]: Timeout reached during download
+[2024-04-08 02:14:49] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-08 02:14:49] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240406.tar.gz tmp/pytorch-ignite-0.6.0.dev20240407.tar.gz --markdown 20240408/p/pytorch-ignite/0.6.0.dev20240406-0.6.0.dev20240407/diff.md --exclude *.pyd
+[2024-04-08 02:14:49] WARNING root fetch - processPackages [dbt-osmosis]: Timeout reached during download
+[2024-04-08 02:14:49] INFO root fetch - processPackages [dbt-osmosis]: executing diffoscope
+[2024-04-08 02:14:49] INFO root fetch - processPackages [dbt-osmosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-osmosis-0.9.7.tar.gz tmp/dbt_osmosis-0.9.8.tar.gz --markdown 20240408/d/dbt-osmosis/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-08 02:14:50] WARNING root fetch - processPackages [onnx-weekly]: Skipping package: exceeds size limit 12316130>=10485760
+[2024-04-08 02:14:50] INFO root fetch - main [MainThread]: End processing [onnx-weekly] error
+[2024-04-08 02:14:50] INFO root fetch - processPackages [dbt-osmosis]: Remove: archive file [/home/abi/fetcher/tmp/dbt-osmosis-0.9.7.tar.gz]
+[2024-04-08 02:14:50] INFO root fetch - processPackages [dbt-osmosis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_osmosis-0.9.8.tar.gz]
+[2024-04-08 02:14:50] INFO root fetch - main [MainThread]: End processing [dbt-osmosis]: success
+[2024-04-08 02:14:50] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240406.tar.gz]
+[2024-04-08 02:14:50] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240407.tar.gz]
+[2024-04-08 02:14:50] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-08 02:14:50] INFO root fetch - main [MainThread]: Store serial: [22660267]
