@@ -16369,3 +16369,53 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:07:08] INFO root fetch - processPackages [djangocms-text]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_text-0.1.1.tar.gz]
 [2024-04-08 12:07:08] INFO root fetch - main [MainThread]: End processing [djangocms-text]: success
 [2024-04-08 12:07:08] INFO root fetch - main [MainThread]: Store serial: [22665389]
+[2024-04-08 12:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665389]
+[2024-04-08 12:09:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 12:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apmtools
+[2024-04-08 12:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magicalapi
+[2024-04-08 12:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: widget-bzvisualizer
+[2024-04-08 12:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pre5g
+[2024-04-08 12:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brainles-aurora
+[2024-04-08 12:09:18] INFO root fetch - processPackages [magicalapi]: New version: [1.0.1.post1] Old Version: [1.0.1]
+[2024-04-08 12:09:18] INFO root fetch - processPackages [magicalapi]: Downloading https://files.pythonhosted.org/packages/6a/01/623af2c52c99d660459f73e8e9388267663731b8518d7642d715fa16bdfd/magicalapi-1.0.1.tar.gz
+[2024-04-08 12:09:18] INFO root fetch - processPackages [brainles-aurora]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-08 12:09:18] INFO root fetch - processPackages [pre5g]: New version: [1.0] Old Version: [0.99]
+[2024-04-08 12:09:18] WARNING root fetch - processPackages [apmtools]: Skipping, unable to determine old version
+[2024-04-08 12:09:18] INFO root fetch - main [MainThread]: End processing [apmtools] error
+[2024-04-08 12:09:18] INFO root fetch - processPackages [widget-bzvisualizer]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-08 12:09:18] WARNING root fetch - processPackages [magicalapi]: Timeout reached during download
+[2024-04-08 12:09:18] INFO root fetch - processPackages [brainles-aurora]: Downloading https://files.pythonhosted.org/packages/2a/e3/091ddbdcf78863b7c6f7f55b9820eb7788762a97a84f86a6597b425ac860/brainles_aurora-0.2.3-py3-none-any.whl
+[2024-04-08 12:09:18] INFO root fetch - processPackages [magicalapi]: Downloading https://files.pythonhosted.org/packages/74/7a/02e718152cdd7da2e85502e2b639e0196838e2e7454dec4572dc92c58c29/magicalapi-1.0.1.post1.tar.gz
+[2024-04-08 12:09:18] INFO root fetch - processPackages [widget-bzvisualizer]: Downloading https://files.pythonhosted.org/packages/3d/5e/a3c3a3411a8558550416cf97d4fb3dcb4588978e235913e5bd4dd6a57cb2/widget_bzvisualizer-0.2.2.tar.gz
+[2024-04-08 12:09:18] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/1c/4c/e854ee7efb757f3fd03cf46965eae5d6b59be9009819e5eb24de487fb747/pre5g-0.99.tar.gz
+[2024-04-08 12:09:18] WARNING root fetch - processPackages [brainles-aurora]: Timeout reached during download
+[2024-04-08 12:09:18] WARNING root fetch - processPackages [magicalapi]: Timeout reached during download
+[2024-04-08 12:09:18] INFO root fetch - processPackages [magicalapi]: executing diffoscope
+[2024-04-08 12:09:18] INFO root fetch - processPackages [magicalapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicalapi-1.0.1.tar.gz tmp/magicalapi-1.0.1.post1.tar.gz --markdown 20240408/m/magicalapi/1.0.1-1.0.1.post1/diff.md --exclude *.pyd
+[2024-04-08 12:09:18] WARNING root fetch - processPackages [widget-bzvisualizer]: Timeout reached during download
+[2024-04-08 12:09:18] WARNING root fetch - processPackages [pre5g]: Timeout reached during download
+[2024-04-08 12:09:18] INFO root fetch - processPackages [brainles-aurora]: Downloading https://files.pythonhosted.org/packages/33/d2/e7fb71b6e24dd26eaacf4f196a475c8448a09e14039bc986d178659ec44c/brainles_aurora-0.2.4-py3-none-any.whl
+[2024-04-08 12:09:19] INFO root fetch - processPackages [widget-bzvisualizer]: Downloading https://files.pythonhosted.org/packages/7e/fc/9bd924277205d30e51ed5fc0f653df1277a472aa368efaa914436d45c8c3/widget_bzvisualizer-0.2.3.tar.gz
+[2024-04-08 12:09:19] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/c0/4d/df591224753a769d0e43b61bb704c5d746145d49719e21868af751b85099/pre5g-1.0.tar.gz
+[2024-04-08 12:09:19] WARNING root fetch - processPackages [widget-bzvisualizer]: Timeout reached during download
+[2024-04-08 12:09:19] INFO root fetch - processPackages [widget-bzvisualizer]: executing diffoscope
+[2024-04-08 12:09:19] INFO root fetch - processPackages [widget-bzvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget_bzvisualizer-0.2.2.tar.gz tmp/widget_bzvisualizer-0.2.3.tar.gz --markdown 20240408/w/widget-bzvisualizer/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-08 12:09:19] WARNING root fetch - processPackages [brainles-aurora]: Timeout reached during download
+[2024-04-08 12:09:19] INFO root fetch - processPackages [brainles-aurora]: executing diffoscope
+[2024-04-08 12:09:19] INFO root fetch - processPackages [brainles-aurora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainles_aurora-0.2.3-py3-none-any.whl.zip tmp/brainles_aurora-0.2.4-py3-none-any.whl.zip --markdown 20240408/b/brainles-aurora/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-08 12:09:19] WARNING root fetch - processPackages [pre5g]: Timeout reached during download
+[2024-04-08 12:09:19] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-08 12:09:19] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-0.99.tar.gz tmp/pre5g-1.0.tar.gz --markdown 20240408/p/pre5g/0.99-1.0/diff.md --exclude *.pyd
+[2024-04-08 12:09:19] INFO root fetch - processPackages [magicalapi]: Remove: archive file [/home/abi/fetcher/tmp/magicalapi-1.0.1.tar.gz]
+[2024-04-08 12:09:19] INFO root fetch - processPackages [magicalapi]: Remove: archive file [/home/abi/fetcher/tmp/magicalapi-1.0.1.post1.tar.gz]
+[2024-04-08 12:09:19] INFO root fetch - main [MainThread]: End processing [magicalapi]: success
+[2024-04-08 12:09:20] INFO root fetch - processPackages [brainles-aurora]: Remove: archive file [/home/abi/fetcher/tmp/brainles_aurora-0.2.3-py3-none-any.whl.zip]
+[2024-04-08 12:09:20] INFO root fetch - processPackages [brainles-aurora]: Remove: archive file [/home/abi/fetcher/tmp/brainles_aurora-0.2.4-py3-none-any.whl.zip]
+[2024-04-08 12:09:20] INFO root fetch - main [MainThread]: End processing [brainles-aurora]: success
+[2024-04-08 12:09:20] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.99.tar.gz]
+[2024-04-08 12:09:20] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-1.0.tar.gz]
+[2024-04-08 12:09:20] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-08 12:09:23] INFO root fetch - processPackages [widget-bzvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/widget_bzvisualizer-0.2.2.tar.gz]
+[2024-04-08 12:09:23] INFO root fetch - processPackages [widget-bzvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/widget_bzvisualizer-0.2.3.tar.gz]
+[2024-04-08 12:09:23] INFO root fetch - main [MainThread]: End processing [widget-bzvisualizer]: success
+[2024-04-08 12:09:23] INFO root fetch - main [MainThread]: Store serial: [22665406]
