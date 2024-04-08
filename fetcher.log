@@ -10727,3 +10727,39 @@
 [2024-04-08 08:48:50] WARNING root fetch - processPackages [syllogistic]: Skipping, unable to determine old version
 [2024-04-08 08:48:50] INFO root fetch - main [MainThread]: End processing [syllogistic] error
 [2024-04-08 08:48:50] INFO root fetch - main [MainThread]: Store serial: [22663140]
+[2024-04-08 08:50:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663140]
+[2024-04-08 08:50:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 08:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-artifacts
+[2024-04-08 08:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: entegywrapper
+[2024-04-08 08:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-grpc-read-db
+[2024-04-08 08:50:59] INFO root fetch - processPackages [entegywrapper]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-08 08:50:59] INFO root fetch - processPackages [auto-artifacts]: New version: [2024.3.9] Old Version: [2024.3.8]
+[2024-04-08 08:50:59] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.8rc1] Old Version: [0.0.8.dev8595761335]
+[2024-04-08 08:50:59] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/ff/fd/988123f870e6e7ba23ca502db800badc8f38b0b5906110eee549ee99f608/th2_grpc_read_db-0.0.8.dev8595761335.tar.gz
+[2024-04-08 08:50:59] INFO root fetch - processPackages [auto-artifacts]: Downloading https://files.pythonhosted.org/packages/1e/55/160ebd09b0a95953884a0c6d337837a1c1a67115c4f996d496aa80bceeac/auto_artifacts-2024.3.8.tar.gz
+[2024-04-08 08:50:59] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/6c/53/34f10dd1fd55912ff172629323c743d396b9928aa171c72ea0a4f44ca0d0/entegywrapper-7.0.0.tar.gz
+[2024-04-08 08:50:59] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-08 08:51:00] WARNING root fetch - processPackages [entegywrapper]: Timeout reached during download
+[2024-04-08 08:51:00] WARNING root fetch - processPackages [auto-artifacts]: Timeout reached during download
+[2024-04-08 08:51:00] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/5d/00/7537a122895cd5df4fc6c762aa3161dd0aea1601e131559753028bda2450/entegywrapper-7.0.1.tar.gz
+[2024-04-08 08:51:00] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/04/44/e9b4bb65a8c860bb70bf2385d9571804292028e0e0da1a8dcc6223dc81ba/th2_grpc_read_db-0.0.8rc1.tar.gz
+[2024-04-08 08:51:00] INFO root fetch - processPackages [auto-artifacts]: Downloading https://files.pythonhosted.org/packages/7c/38/cc3f41c2833a37c2af5220f7156b6550dbf503357e575e2d6002b860bb0e/auto_artifacts-2024.3.9.tar.gz
+[2024-04-08 08:51:00] WARNING root fetch - processPackages [entegywrapper]: Timeout reached during download
+[2024-04-08 08:51:00] INFO root fetch - processPackages [entegywrapper]: executing diffoscope
+[2024-04-08 08:51:00] INFO root fetch - processPackages [entegywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entegywrapper-7.0.0.tar.gz tmp/entegywrapper-7.0.1.tar.gz --markdown 20240408/e/entegywrapper/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2024-04-08 08:51:00] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-08 08:51:00] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-04-08 08:51:00] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.8.dev8595761335.tar.gz tmp/th2_grpc_read_db-0.0.8rc1.tar.gz --markdown 20240408/t/th2-grpc-read-db/0.0.8.dev8595761335-0.0.8rc1/diff.md --exclude *.pyd
+[2024-04-08 08:51:00] WARNING root fetch - processPackages [auto-artifacts]: Timeout reached during download
+[2024-04-08 08:51:00] INFO root fetch - processPackages [auto-artifacts]: executing diffoscope
+[2024-04-08 08:51:00] INFO root fetch - processPackages [auto-artifacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_artifacts-2024.3.8.tar.gz tmp/auto_artifacts-2024.3.9.tar.gz --markdown 20240408/a/auto-artifacts/2024.3.8-2024.3.9/diff.md --exclude *.pyd
+[2024-04-08 08:51:01] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.0.0.tar.gz]
+[2024-04-08 08:51:01] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.0.1.tar.gz]
+[2024-04-08 08:51:01] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
+[2024-04-08 08:51:01] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8.dev8595761335.tar.gz]
+[2024-04-08 08:51:01] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8rc1.tar.gz]
+[2024-04-08 08:51:01] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-04-08 08:51:01] INFO root fetch - processPackages [auto-artifacts]: Remove: archive file [/home/abi/fetcher/tmp/auto_artifacts-2024.3.8.tar.gz]
+[2024-04-08 08:51:01] INFO root fetch - processPackages [auto-artifacts]: Remove: archive file [/home/abi/fetcher/tmp/auto_artifacts-2024.3.9.tar.gz]
+[2024-04-08 08:51:01] INFO root fetch - main [MainThread]: End processing [auto-artifacts]: success
+[2024-04-08 08:51:01] INFO root fetch - main [MainThread]: Store serial: [22663147]
