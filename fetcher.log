@@ -1726,3 +1726,23 @@
 [2024-04-08 02:14:50] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240407.tar.gz]
 [2024-04-08 02:14:50] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-04-08 02:14:50] INFO root fetch - main [MainThread]: Store serial: [22660267]
+[2024-04-08 02:16:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660267]
+[2024-04-08 02:16:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 02:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chesscli
+[2024-04-08 02:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notification-py
+[2024-04-08 02:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-tf-module-stack
+[2024-04-08 02:16:59] WARNING root fetch - processPackages [chesscli]: Skipping, unable to determine old version
+[2024-04-08 02:16:59] INFO root fetch - main [MainThread]: End processing [chesscli] error
+[2024-04-08 02:16:59] WARNING root fetch - processPackages [notification-py]: Skipping, unable to determine old version
+[2024-04-08 02:16:59] INFO root fetch - main [MainThread]: End processing [notification-py] error
+[2024-04-08 02:16:59] INFO root fetch - processPackages [cdktf-tf-module-stack]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-04-08 02:16:59] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/c1/d6/bcdb03cd6a1d878e00460831e6347159681b80373ee2f77adf41661e8719/cdktf-tf-module-stack-5.0.8.tar.gz
+[2024-04-08 02:16:59] WARNING root fetch - processPackages [cdktf-tf-module-stack]: Timeout reached during download
+[2024-04-08 02:16:59] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/af/b7/75603d995d5224ba49ee11765e757fab2ecf9e2a28e00a542ad9d8669ba4/cdktf-tf-module-stack-5.0.9.tar.gz
+[2024-04-08 02:17:00] WARNING root fetch - processPackages [cdktf-tf-module-stack]: Timeout reached during download
+[2024-04-08 02:17:00] INFO root fetch - processPackages [cdktf-tf-module-stack]: executing diffoscope
+[2024-04-08 02:17:00] INFO root fetch - processPackages [cdktf-tf-module-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-tf-module-stack-5.0.8.tar.gz tmp/cdktf-tf-module-stack-5.0.9.tar.gz --markdown 20240408/c/cdktf-tf-module-stack/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2024-04-08 02:17:00] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.8.tar.gz]
+[2024-04-08 02:17:00] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.9.tar.gz]
+[2024-04-08 02:17:00] INFO root fetch - main [MainThread]: End processing [cdktf-tf-module-stack]: success
+[2024-04-08 02:17:00] INFO root fetch - main [MainThread]: Store serial: [22660283]
