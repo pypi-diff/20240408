@@ -9735,3 +9735,16 @@
 [2024-04-08 08:02:29] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.3.dev287.tar.gz]
 [2024-04-08 08:02:29] INFO root fetch - main [MainThread]: End processing [haliax]: success
 [2024-04-08 08:02:29] INFO root fetch - main [MainThread]: Store serial: [22662791]
+[2024-04-08 08:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662791]
+[2024-04-08 08:04:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 08:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FNews
+[2024-04-08 08:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: komodo-sdk
+[2024-04-08 08:04:40] WARNING root fetch - processPackages [FNews]: Skipping, unable to determine old version
+[2024-04-08 08:04:40] INFO root fetch - main [MainThread]: End processing [FNews] error
+[2024-04-08 08:04:40] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.9] Old Version: [0.0.85]
+[2024-04-08 08:04:40] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/be/21/941d5fdddf3f3f671596c2b1a32a1052bdb8b2c0512d07a11beb64f25af3/komodo_sdk-0.0.85.tar.gz
+[2024-04-08 08:04:40] WARNING root fetch - processPackages [komodo-sdk]: Timeout reached during download
+[2024-04-08 08:04:40] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/c1/75/64665f8823652ae983842708f771508649b4a085802d170fbb9d173d580d/komodo_sdk-0.0.9.tar.gz
+[2024-04-08 08:04:40] WARNING root fetch - processPackages [komodo-sdk]: Skipping package: exceeds size limit 41417628>=10485760
+[2024-04-08 08:04:40] INFO root fetch - main [MainThread]: End processing [komodo-sdk] error
+[2024-04-08 08:04:40] INFO root fetch - main [MainThread]: Store serial: [22662798]
