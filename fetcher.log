@@ -10651,3 +10651,28 @@
 [2024-04-08 08:42:16] INFO root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_improved_tracking_value-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2024-04-08 08:42:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-improved-tracking-value]: success
 [2024-04-08 08:42:16] INFO root fetch - main [MainThread]: Store serial: [22663106]
+[2024-04-08 08:44:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663106]
+[2024-04-08 08:44:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 08:44:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcci
+[2024-04-08 08:44:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-pbx-admin
+[2024-04-08 08:44:25] INFO root fetch - processPackages [jcci]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 08:44:25] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/9a/ab/52a8b714b78f27b52c447ef35e1a51cca404455467cbb34a94a807df1abd/jcci-0.1.1.tar.gz
+[2024-04-08 08:44:25] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-08 08:44:25] WARNING root fetch - processPackages [jcci]: Timeout reached during download
+[2024-04-08 08:44:25] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2024-04-08 08:44:25] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/71/90/5a3a9cba2a72af32ca4145fb3b979b5f49ea411ec5914b00f1ea67713822/jcci-0.1.2.tar.gz
+[2024-04-08 08:44:25] WARNING root fetch - processPackages [jcci]: Timeout reached during download
+[2024-04-08 08:44:25] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2024-04-08 08:44:25] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.1.1.tar.gz tmp/jcci-0.1.2.tar.gz --markdown 20240408/j/jcci/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 08:44:26] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.1.1.tar.gz]
+[2024-04-08 08:44:26] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.1.2.tar.gz]
+[2024-04-08 08:44:26] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2024-04-08 08:44:27] WARNING root fetch - processPackages [django-pbx-admin]: Timeout reached during download
+[2024-04-08 08:44:27] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2024-04-08 08:44:29] WARNING root fetch - processPackages [django-pbx-admin]: Timeout reached during download
+[2024-04-08 08:44:29] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2024-04-08 08:44:29] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20240408/d/django-pbx-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 08:44:30] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2024-04-08 08:44:30] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2024-04-08 08:44:30] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2024-04-08 08:44:30] INFO root fetch - main [MainThread]: Store serial: [22663113]
