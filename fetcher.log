@@ -2800,3 +2800,44 @@
 [2024-04-08 03:38:40] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.99.tar.gz]
 [2024-04-08 03:38:40] INFO root fetch - main [MainThread]: End processing [logger-local]: success
 [2024-04-08 03:38:40] INFO root fetch - main [MainThread]: Store serial: [22660665]
+[2024-04-08 03:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660665]
+[2024-04-08 03:40:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 03:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ailia
+[2024-04-08 03:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clap-detector
+[2024-04-08 03:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-sdk-remote
+[2024-04-08 03:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cadcdata
+[2024-04-08 03:40:49] INFO root fetch - processPackages [ailia]: New version: [1.3.0.1] Old Version: [0.1.2.0]
+[2024-04-08 03:40:49] INFO root fetch - processPackages [clap-detector]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-08 03:40:49] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.84] Old Version: [0.0.83]
+[2024-04-08 03:40:49] INFO root fetch - processPackages [cadcdata]: New version: [2.5] Old Version: [2.4]
+[2024-04-08 03:40:49] INFO root fetch - processPackages [ailia]: Downloading https://files.pythonhosted.org/packages/4b/f4/dbb3c8823091aa7ea1b5119e308a565dbbc885d357937c3626622e026ac9/ailia-1.3.0.1-py3-none-any.whl
+[2024-04-08 03:40:49] WARNING root fetch - processPackages [ailia]: Skipping package: exceeds size limit 47687851>=10485760
+[2024-04-08 03:40:49] INFO root fetch - main [MainThread]: End processing [ailia] error
+[2024-04-08 03:40:49] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/d6/6f/68784072e5e902893fed77cbf30a3960c96a592f0377cf105299f33f120f/python-sdk-remote-0.0.83.tar.gz
+[2024-04-08 03:40:49] INFO root fetch - processPackages [clap-detector]: Downloading https://files.pythonhosted.org/packages/a9/9f/84bcb0319ef68982a2310e6f65d2440a0122fb9d39b9de00db90aaca0547/clap-detector-2.0.3.tar.gz
+[2024-04-08 03:40:49] INFO root fetch - processPackages [cadcdata]: Downloading https://files.pythonhosted.org/packages/a8/3e/823a9b8b15741cdd45dbe24a51d68d4c7bb82e1402ebd077c8dc20eaf2aa/cadcdata-2.4.tar.gz
+[2024-04-08 03:40:49] WARNING root fetch - processPackages [python-sdk-remote]: Timeout reached during download
+[2024-04-08 03:40:50] WARNING root fetch - processPackages [clap-detector]: Timeout reached during download
+[2024-04-08 03:40:50] WARNING root fetch - processPackages [cadcdata]: Timeout reached during download
+[2024-04-08 03:40:50] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/b4/c1/02360a94e58fb55b73dd3511e003e40dde5c5f49e09f27dd1cc0c54c5585/python-sdk-remote-0.0.84.tar.gz
+[2024-04-08 03:40:50] WARNING root fetch - processPackages [python-sdk-remote]: Timeout reached during download
+[2024-04-08 03:40:50] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-04-08 03:40:50] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sdk-remote-0.0.83.tar.gz tmp/python-sdk-remote-0.0.84.tar.gz --markdown 20240408/p/python-sdk-remote/0.0.83-0.0.84/diff.md --exclude *.pyd
+[2024-04-08 03:40:50] INFO root fetch - processPackages [clap-detector]: Downloading https://files.pythonhosted.org/packages/c8/96/c207e8be3f79bb704025cc5b1e3a85dd64b2defc6b65bf8d78a5a0ae3845/clap-detector-2.0.4.tar.gz
+[2024-04-08 03:40:50] INFO root fetch - processPackages [cadcdata]: Downloading https://files.pythonhosted.org/packages/04/9b/5132cb99315ec7d4b47ba852d6c1e3d8a84d54210e79c77ae576873fc6ea/cadcdata-2.5.tar.gz
+[2024-04-08 03:40:50] WARNING root fetch - processPackages [clap-detector]: Timeout reached during download
+[2024-04-08 03:40:50] INFO root fetch - processPackages [clap-detector]: executing diffoscope
+[2024-04-08 03:40:50] INFO root fetch - processPackages [clap-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clap-detector-2.0.3.tar.gz tmp/clap-detector-2.0.4.tar.gz --markdown 20240408/c/clap-detector/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2024-04-08 03:40:50] WARNING root fetch - processPackages [cadcdata]: Timeout reached during download
+[2024-04-08 03:40:50] INFO root fetch - processPackages [cadcdata]: executing diffoscope
+[2024-04-08 03:40:50] INFO root fetch - processPackages [cadcdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadcdata-2.4.tar.gz tmp/cadcdata-2.5.tar.gz --markdown 20240408/c/cadcdata/2.4-2.5/diff.md --exclude *.pyd
+[2024-04-08 03:40:50] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python-sdk-remote-0.0.83.tar.gz]
+[2024-04-08 03:40:50] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python-sdk-remote-0.0.84.tar.gz]
+[2024-04-08 03:40:50] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-04-08 03:40:50] INFO root fetch - processPackages [clap-detector]: Remove: archive file [/home/abi/fetcher/tmp/clap-detector-2.0.3.tar.gz]
+[2024-04-08 03:40:50] INFO root fetch - processPackages [clap-detector]: Remove: archive file [/home/abi/fetcher/tmp/clap-detector-2.0.4.tar.gz]
+[2024-04-08 03:40:50] INFO root fetch - main [MainThread]: End processing [clap-detector]: success
+[2024-04-08 03:40:50] INFO root fetch - processPackages [cadcdata]: Remove: archive file [/home/abi/fetcher/tmp/cadcdata-2.4.tar.gz]
+[2024-04-08 03:40:50] INFO root fetch - processPackages [cadcdata]: Remove: archive file [/home/abi/fetcher/tmp/cadcdata-2.5.tar.gz]
+[2024-04-08 03:40:50] INFO root fetch - main [MainThread]: End processing [cadcdata]: success
+[2024-04-08 03:40:50] INFO root fetch - main [MainThread]: Store serial: [22660677]
