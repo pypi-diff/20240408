@@ -2711,3 +2711,54 @@
 [2024-04-08 03:25:46] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.1.9.tar.gz]
 [2024-04-08 03:25:46] INFO root fetch - main [MainThread]: End processing [shady-island]: success
 [2024-04-08 03:25:46] INFO root fetch - main [MainThread]: Store serial: [22660631]
+[2024-04-08 03:27:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660631]
+[2024-04-08 03:27:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 03:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediff
+[2024-04-08 03:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ailia
+[2024-04-08 03:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onediffx
+[2024-04-08 03:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poetry-plugin-commands
+[2024-04-08 03:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datacube-explorer
+[2024-04-08 03:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neighpy
+[2024-04-08 03:27:55] INFO root fetch - processPackages [onediff]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-08 03:27:55] WARNING root fetch - processPackages [poetry-plugin-commands]: Skipping, unable to determine old version
+[2024-04-08 03:27:55] INFO root fetch - main [MainThread]: End processing [poetry-plugin-commands] error
+[2024-04-08 03:27:55] INFO root fetch - processPackages [ailia]: New version: [1.3.0.1] Old Version: [0.1.2.0]
+[2024-04-08 03:27:55] INFO root fetch - processPackages [neighpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-08 03:27:55] INFO root fetch - processPackages [onediffx]: New version: [0.13.0.dev202404080125] Old Version: [0.13.0.dev202404070128]
+[2024-04-08 03:27:55] INFO root fetch - processPackages [datacube-explorer]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-04-08 03:27:55] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b5/b9/374ebf1306993c83fd9b2b7bc584983456da7a4dda0cd79e923e85476450/onediff-0.8.0-py3-none-any.whl
+[2024-04-08 03:27:55] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/d8/97/de76f651ba5d4790b782860f53d7f1027f4b51969dc023787c411ce2d044/onediffx-0.13.0.dev202404070128.tar.gz
+[2024-04-08 03:27:55] INFO root fetch - processPackages [neighpy]: Downloading https://files.pythonhosted.org/packages/f1/38/91f95cd6f61fb5b1081bfeae176367e8ceb2ad7e4b02b96df7121f574b36/neighpy-0.1.2.tar.gz
+[2024-04-08 03:27:55] INFO root fetch - processPackages [ailia]: Downloading https://files.pythonhosted.org/packages/f0/a2/8652c15d4c9d741fe3c56148062b9b4dc28a00e51dc6338fb5e8a95d5252/ailia-0.1.2.0.tar.gz
+[2024-04-08 03:27:55] INFO root fetch - processPackages [datacube-explorer]: Downloading https://files.pythonhosted.org/packages/0a/69/9f622b9e5c48f5c7c61c91032211b0c5a448327a5503be2bd180c7804738/datacube-explorer-2.8.0.tar.gz
+[2024-04-08 03:27:56] WARNING root fetch - processPackages [onediffx]: Timeout reached during download
+[2024-04-08 03:27:56] WARNING root fetch - processPackages [neighpy]: Timeout reached during download
+[2024-04-08 03:27:56] WARNING root fetch - processPackages [onediff]: Timeout reached during download
+[2024-04-08 03:27:56] WARNING root fetch - processPackages [datacube-explorer]: Skipping package: exceeds size limit 22019154>=10485760
+[2024-04-08 03:27:56] INFO root fetch - main [MainThread]: End processing [datacube-explorer] error
+[2024-04-08 03:27:56] WARNING root fetch - processPackages [ailia]: Timeout reached during download
+[2024-04-08 03:27:56] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/0a/e2/9d03d89f1ae11c38e7d1ad1606ca45d372811960a42b50dc4d9f548a5b0a/onediffx-0.13.0.dev202404080125.tar.gz
+[2024-04-08 03:27:56] INFO root fetch - processPackages [neighpy]: Downloading https://files.pythonhosted.org/packages/20/d6/a7d63cc2bafd137a523227fd86e0a7ef39a5fad03dfd7d86564a8ec654d7/neighpy-0.1.3.tar.gz
+[2024-04-08 03:27:56] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ef/35/e11ef77b4ecbfca20f6a6f4e859e3366285f109bbe200a8a82c62b8db14d/onediff-0.9.0-py3-none-any.whl
+[2024-04-08 03:27:56] WARNING root fetch - processPackages [onediffx]: Timeout reached during download
+[2024-04-08 03:27:56] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-08 03:27:56] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-0.13.0.dev202404070128.tar.gz tmp/onediffx-0.13.0.dev202404080125.tar.gz --markdown 20240408/o/onediffx/0.13.0.dev202404070128-0.13.0.dev202404080125/diff.md --exclude *.pyd
+[2024-04-08 03:27:56] WARNING root fetch - processPackages [neighpy]: Timeout reached during download
+[2024-04-08 03:27:56] INFO root fetch - processPackages [neighpy]: executing diffoscope
+[2024-04-08 03:27:56] INFO root fetch - processPackages [neighpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neighpy-0.1.2.tar.gz tmp/neighpy-0.1.3.tar.gz --markdown 20240408/n/neighpy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-08 03:27:56] INFO root fetch - processPackages [ailia]: Downloading https://files.pythonhosted.org/packages/4b/f4/dbb3c8823091aa7ea1b5119e308a565dbbc885d357937c3626622e026ac9/ailia-1.3.0.1-py3-none-any.whl
+[2024-04-08 03:27:56] WARNING root fetch - processPackages [ailia]: Skipping package: exceeds size limit 47687851>=10485760
+[2024-04-08 03:27:56] INFO root fetch - main [MainThread]: End processing [ailia] error
+[2024-04-08 03:27:56] WARNING root fetch - processPackages [onediff]: Timeout reached during download
+[2024-04-08 03:27:56] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-08 03:27:56] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-0.8.0-py3-none-any.whl.zip tmp/onediff-0.9.0-py3-none-any.whl.zip --markdown 20240408/o/onediff/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 03:27:56] INFO root fetch - processPackages [neighpy]: Remove: archive file [/home/abi/fetcher/tmp/neighpy-0.1.2.tar.gz]
+[2024-04-08 03:27:56] INFO root fetch - processPackages [neighpy]: Remove: archive file [/home/abi/fetcher/tmp/neighpy-0.1.3.tar.gz]
+[2024-04-08 03:27:56] INFO root fetch - main [MainThread]: End processing [neighpy]: success
+[2024-04-08 03:27:56] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404070128.tar.gz]
+[2024-04-08 03:27:56] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404080125.tar.gz]
+[2024-04-08 03:27:56] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-08 03:27:57] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.8.0-py3-none-any.whl.zip]
+[2024-04-08 03:27:57] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.9.0-py3-none-any.whl.zip]
+[2024-04-08 03:27:57] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-08 03:27:57] INFO root fetch - main [MainThread]: Store serial: [22660648]
