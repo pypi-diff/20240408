@@ -4466,3 +4466,130 @@
 [2024-04-08 04:57:29] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-btoe-3.0.999.tar.gz]
 [2024-04-08 04:57:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-btoe]: success
 [2024-04-08 04:57:29] INFO root fetch - main [MainThread]: Store serial: [22661235]
+[2024-04-08 04:59:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661235]
+[2024-04-08 04:59:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-cam
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-captcha
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-car
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcli-hg
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-cat
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyz020403
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-cbs
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-ccc
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SightTraining
+[2024-04-08 04:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pythagoras
+[2024-04-08 04:59:40] INFO root fetch - processPackages [cyz020403]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 04:59:40] INFO root fetch - processPackages [hcli-hg]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-08 04:59:40] WARNING root fetch - processPackages [pythagoras]: Skipping, unable to determine old version
+[2024-04-08 04:59:40] INFO root fetch - processPackages [pythagoras]: Start processing: mat3ra-esse
+[2024-04-08 04:59:40] INFO root fetch - main [MainThread]: End processing [pythagoras] error
+[2024-04-08 04:59:40] INFO root fetch - processPackages [SightTraining]: New version: [0.1.19] Old Version: [0.1.14]
+[2024-04-08 04:59:40] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:59:40] INFO root fetch - processPackages [mat3ra-esse]: New version: [2024.4.8.post0] Old Version: [2024.3.25.post6]
+[2024-04-08 04:59:40] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:59:40] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:59:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:59:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:59:40] INFO root fetch - processPackages [cyz020403]: Downloading https://files.pythonhosted.org/packages/8d/a4/f8dc8c673bc39ed0efa3f1caf2598f760ae2a676107f088a5ce1c2ffc4ab/cyz020403-0.0.1.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:59:41] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/bd/25/560feb540ea994a388873805f647565943c6c653e9643186efc9ec9fcda0/mat3ra-esse-2024.3.25.post6.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [hcli-hg]: Downloading https://files.pythonhosted.org/packages/3c/90/d78cedb958d59797647c86828ac698b60c77931f9e04b8ae831018ccc412/hcli_hg-0.1.4.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/07/1a/d1e06cbed80ea051f8f1ca81d31b5c17b0f1034e3c5ae34c7a9dc128fd1a/SightTraining-0.1.14.tar.gz
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [cyz020403]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: Downloading https://files.pythonhosted.org/packages/cd/a2/24ae9daaf633f8a14e1af8cd7ad3adffb9ed00e618f742f24b74a39d14c0/tencentcloud-sdk-python-ccc-3.0.998.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Downloading https://files.pythonhosted.org/packages/ae/e6/7a9eb0c4db8fa547e907729443d6b3993a7fd2778ed144f2af07bbee6a70/tencentcloud-sdk-python-captcha-3.0.998.tar.gz
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [hcli-hg]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Downloading https://files.pythonhosted.org/packages/56/97/1c0589929a3174688c889854f9ee635d38da62e7522d4052f8a71151f909/tencentcloud-sdk-python-car-3.0.998.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Downloading https://files.pythonhosted.org/packages/00/14/8ca04ae0de9eecfbc489163f8218302dc3efd4403d36abfa63da20625698/tencentcloud-sdk-python-cbs-3.0.998.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Downloading https://files.pythonhosted.org/packages/dc/04/9bad55be1475c34688a89d6805905ad3e6b133db0124cd15e4bc4e710aaa/tencentcloud-sdk-python-cam-3.0.998.tar.gz
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: Downloading https://files.pythonhosted.org/packages/c9/d0/a11e62ab8df17bd63516accab218ab41231f5eaa008fc364f0ab9a79ebbc/tencentcloud-sdk-python-cat-3.0.998.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [cyz020403]: Downloading https://files.pythonhosted.org/packages/e3/96/4d649e6bd59cc779f900978280e5486dff6e47c6c8a8716c3c6f9edb8d84/cyz020403-0.0.2.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/19/f9/5c16331a0ced7c3ca9d9742ca9667c2d02313dfd238cbf89aa619f0468d3/mat3ra-esse-2024.4.8.post0.tar.gz
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-captcha]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [hcli-hg]: Downloading https://files.pythonhosted.org/packages/fa/bb/5fd28884f0bc89f81b4d8a1285c8428ed96394f2df8754333581c8590ea7/hcli_hg-0.1.5.tar.gz
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-ccc]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/42/8f/9e61f6109dbb20ea1e405fc808629527e01917643b5e2ec2db0caeab2442/SightTraining-0.1.19.tar.gz
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [cyz020403]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [cyz020403]: executing diffoscope
+[2024-04-08 04:59:41] INFO root fetch - processPackages [cyz020403]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyz020403-0.0.1.tar.gz tmp/cyz020403-0.0.2.tar.gz --markdown 20240408/c/cyz020403/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-cam]: Timeout reached during download
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-cat]: Timeout reached during download
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [hcli-hg]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [hcli-hg]: executing diffoscope
+[2024-04-08 04:59:41] INFO root fetch - processPackages [hcli-hg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_hg-0.1.4.tar.gz tmp/hcli_hg-0.1.5.tar.gz --markdown 20240408/h/hcli-hg/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [mat3ra-esse]: executing diffoscope
+[2024-04-08 04:59:41] INFO root fetch - processPackages [mat3ra-esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-esse-2024.3.25.post6.tar.gz tmp/mat3ra-esse-2024.4.8.post0.tar.gz --markdown 20240408/m/mat3ra-esse/2024.3.25.post6-2024.4.8.post0/diff.md --exclude *.pyd
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-cbs]: Timeout reached during download
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-car]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Downloading https://files.pythonhosted.org/packages/88/bb/b879fd89d2cb6bbf8b0af4c7f29d8a15dca4711cb5a90cbc69000ac5a2c3/tencentcloud-sdk-python-captcha-3.0.999.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Downloading https://files.pythonhosted.org/packages/4e/6f/33a1b2a6f858c70fcac237f86a2734efcec706266cdf4f0a2ac456f7bca0/tencentcloud-sdk-python-cam-3.0.999.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: Downloading https://files.pythonhosted.org/packages/87/bd/bca23d2b6f8b5e24b72edf2b0415c00088410a609b835d1f48af41529797/tencentcloud-sdk-python-cat-3.0.999.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Downloading https://files.pythonhosted.org/packages/46/36/934881cc70fa196a42c662f94ff037082607a4a596820806f811c849c012/tencentcloud-sdk-python-cbs-3.0.999.tar.gz
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Downloading https://files.pythonhosted.org/packages/93/01/2def16a7eab8df891bb5296d8f2326a7587a9c93f69477f6d35b5d5431fa/tencentcloud-sdk-python-car-3.0.999.tar.gz
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-captcha]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: executing diffoscope
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-captcha-3.0.998.tar.gz tmp/tencentcloud-sdk-python-captcha-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-captcha/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: Downloading https://files.pythonhosted.org/packages/94/7e/13226b9167ffe7ef5de0c2c3939f55efe645865becc0efcf8f1ae500d67d/tencentcloud-sdk-python-ccc-3.0.999.tar.gz
+[2024-04-08 04:59:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-cat]: Timeout reached during download
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: executing diffoscope
+[2024-04-08 04:59:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cat-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cat-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-cat/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:59:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-ccc]: Timeout reached during download
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: executing diffoscope
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ccc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ccc-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-ccc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:59:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-cam]: Timeout reached during download
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: executing diffoscope
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cam-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cam-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-cam/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:59:42] INFO root fetch - processPackages [cyz020403]: Remove: archive file [/home/abi/fetcher/tmp/cyz020403-0.0.1.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - processPackages [cyz020403]: Remove: archive file [/home/abi/fetcher/tmp/cyz020403-0.0.2.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - processPackages [cyz020403]: Start processing: pushsource
+[2024-04-08 04:59:42] INFO root fetch - main [MainThread]: End processing [cyz020403]: success
+[2024-04-08 04:59:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-car]: Timeout reached during download
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: executing diffoscope
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-car-3.0.998.tar.gz tmp/tencentcloud-sdk-python-car-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-car/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:59:42] INFO root fetch - processPackages [hcli-hg]: Remove: archive file [/home/abi/fetcher/tmp/hcli_hg-0.1.4.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - processPackages [hcli-hg]: Remove: archive file [/home/abi/fetcher/tmp/hcli_hg-0.1.5.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - main [MainThread]: End processing [hcli-hg]: success
+[2024-04-08 04:59:42] INFO root fetch - processPackages [pushsource]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-08 04:59:42] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/58/de/89de756c0eaaa15a4eb489f78c581a4fdab1206049088d6e82c204c0de2b/pushsource-2.8.0.tar.gz
+[2024-04-08 04:59:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-cbs]: Timeout reached during download
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: executing diffoscope
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cbs-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cbs-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-cbs/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-captcha-3.0.998.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-captcha-3.0.999.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-captcha]: success
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cat-3.0.998.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cat-3.0.999.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cat]: success
+[2024-04-08 04:59:42] WARNING root fetch - processPackages [pushsource]: Timeout reached during download
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cam-3.0.998.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cam-3.0.999.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cam]: success
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-car-3.0.998.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-car-3.0.999.tar.gz]
+[2024-04-08 04:59:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-car]: success
+[2024-04-08 04:59:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ccc-3.0.998.tar.gz]
+[2024-04-08 04:59:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ccc-3.0.999.tar.gz]
+[2024-04-08 04:59:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ccc]: success
+[2024-04-08 04:59:43] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/b2/3c/5e5a3f952ff711fb7ae8258cfbbd02ec112b5c51cc8745d6e8fd7b8b8cbb/pushsource-2.9.0.tar.gz
+[2024-04-08 04:59:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cbs-3.0.998.tar.gz]
+[2024-04-08 04:59:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cbs-3.0.999.tar.gz]
+[2024-04-08 04:59:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cbs]: success
+[2024-04-08 04:59:43] WARNING root fetch - processPackages [pushsource]: Timeout reached during download
+[2024-04-08 04:59:43] INFO root fetch - processPackages [pushsource]: executing diffoscope
+[2024-04-08 04:59:43] INFO root fetch - processPackages [pushsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushsource-2.8.0.tar.gz tmp/pushsource-2.9.0.tar.gz --markdown 20240408/p/pushsource/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-08 04:59:43] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-08 04:59:43] INFO root fetch - processPackages [SightTraining]: executing diffoscope
+[2024-04-08 04:59:43] INFO root fetch - processPackages [SightTraining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SightTraining-0.1.14.tar.gz tmp/SightTraining-0.1.19.tar.gz --markdown 20240408/S/SightTraining/0.1.14-0.1.19/diff.md --exclude *.pyd
+[2024-04-08 04:59:44] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.3.25.post6.tar.gz]
+[2024-04-08 04:59:44] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.8.post0.tar.gz]
+[2024-04-08 04:59:44] INFO root fetch - main [MainThread]: End processing [mat3ra-esse]: success
+[2024-04-08 04:59:44] INFO root fetch - processPackages [pushsource]: Remove: archive file [/home/abi/fetcher/tmp/pushsource-2.8.0.tar.gz]
+[2024-04-08 04:59:44] INFO root fetch - processPackages [pushsource]: Remove: archive file [/home/abi/fetcher/tmp/pushsource-2.9.0.tar.gz]
+[2024-04-08 04:59:44] INFO root fetch - main [MainThread]: End processing [pushsource]: success
+[2024-04-08 04:59:44] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.14.tar.gz]
+[2024-04-08 04:59:44] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.19.tar.gz]
+[2024-04-08 04:59:44] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
+[2024-04-08 04:59:44] INFO root fetch - main [MainThread]: Store serial: [22661273]
