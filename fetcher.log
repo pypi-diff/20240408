@@ -9748,3 +9748,42 @@
 [2024-04-08 08:04:40] WARNING root fetch - processPackages [komodo-sdk]: Skipping package: exceeds size limit 41417628>=10485760
 [2024-04-08 08:04:40] INFO root fetch - main [MainThread]: End processing [komodo-sdk] error
 [2024-04-08 08:04:40] INFO root fetch - main [MainThread]: Store serial: [22662798]
+[2024-04-08 08:06:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662798]
+[2024-04-08 08:06:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 08:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evsauto
+[2024-04-08 08:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: just_design_phase
+[2024-04-08 08:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-postgresql
+[2024-04-08 08:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: files-to-prompt
+[2024-04-08 08:06:49] INFO root fetch - processPackages [files-to-prompt]: New version: [0.2] Old Version: [0.1]
+[2024-04-08 08:06:49] INFO root fetch - processPackages [just_design_phase]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 08:06:49] INFO root fetch - processPackages [just_design_phase]: Downloading https://files.pythonhosted.org/packages/7d/f5/e1e6f21f81f306ebcde6bba08c09cb5dc644f3603c310cafc00ab3de077e/just_design_phase-0.0.8.tar.gz
+[2024-04-08 08:06:49] WARNING root fetch - processPackages [evsauto]: Skipping, unable to determine old version
+[2024-04-08 08:06:49] INFO root fetch - main [MainThread]: End processing [evsauto] error
+[2024-04-08 08:06:49] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-04-08 08:06:49] WARNING root fetch - processPackages [just_design_phase]: Timeout reached during download
+[2024-04-08 08:06:49] INFO root fetch - processPackages [files-to-prompt]: Downloading https://files.pythonhosted.org/packages/1b/6b/3c9cc5ba55d365244562a4b57e888ad173cbe0fa41b7838c4b537cb1eccc/files-to-prompt-0.1.tar.gz
+[2024-04-08 08:06:49] INFO root fetch - processPackages [just_design_phase]: Downloading https://files.pythonhosted.org/packages/aa/b5/29ee0abf7aa594516a36ed125483f2184a52d792c0c9a50f97903114d895/just_design_phase-0.0.9.tar.gz
+[2024-04-08 08:06:49] WARNING root fetch - processPackages [files-to-prompt]: Timeout reached during download
+[2024-04-08 08:06:49] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-04-08 08:06:50] WARNING root fetch - processPackages [just_design_phase]: Timeout reached during download
+[2024-04-08 08:06:50] INFO root fetch - processPackages [just_design_phase]: executing diffoscope
+[2024-04-08 08:06:50] INFO root fetch - processPackages [just_design_phase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/just_design_phase-0.0.8.tar.gz tmp/just_design_phase-0.0.9.tar.gz --markdown 20240408/j/just_design_phase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 08:06:50] INFO root fetch - processPackages [files-to-prompt]: Downloading https://files.pythonhosted.org/packages/66/f5/1fe76b725e63f9fd4a3f91ccbdb07f958927626d231af6dbe7e937d90011/files-to-prompt-0.2.tar.gz
+[2024-04-08 08:06:50] WARNING root fetch - processPackages [pulumi-postgresql]: Timeout reached during download
+[2024-04-08 08:06:50] WARNING root fetch - processPackages [files-to-prompt]: Timeout reached during download
+[2024-04-08 08:06:50] INFO root fetch - processPackages [files-to-prompt]: executing diffoscope
+[2024-04-08 08:06:50] INFO root fetch - processPackages [files-to-prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/files-to-prompt-0.1.tar.gz tmp/files-to-prompt-0.2.tar.gz --markdown 20240408/f/files-to-prompt/0.1-0.2/diff.md --exclude *.pyd
+[2024-04-08 08:06:50] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-04-08 08:06:50] WARNING root fetch - processPackages [pulumi-postgresql]: Timeout reached during download
+[2024-04-08 08:06:50] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-04-08 08:06:50] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240408/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/diff.md --exclude *.pyd
+[2024-04-08 08:06:50] INFO root fetch - processPackages [just_design_phase]: Remove: archive file [/home/abi/fetcher/tmp/just_design_phase-0.0.8.tar.gz]
+[2024-04-08 08:06:50] INFO root fetch - processPackages [just_design_phase]: Remove: archive file [/home/abi/fetcher/tmp/just_design_phase-0.0.9.tar.gz]
+[2024-04-08 08:06:50] INFO root fetch - main [MainThread]: End processing [just_design_phase]: success
+[2024-04-08 08:06:50] INFO root fetch - processPackages [files-to-prompt]: Remove: archive file [/home/abi/fetcher/tmp/files-to-prompt-0.1.tar.gz]
+[2024-04-08 08:06:50] INFO root fetch - processPackages [files-to-prompt]: Remove: archive file [/home/abi/fetcher/tmp/files-to-prompt-0.2.tar.gz]
+[2024-04-08 08:06:50] INFO root fetch - main [MainThread]: End processing [files-to-prompt]: success
+[2024-04-08 08:06:51] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-04-08 08:06:51] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-04-08 08:06:51] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-04-08 08:06:51] INFO root fetch - main [MainThread]: Store serial: [22662812]
