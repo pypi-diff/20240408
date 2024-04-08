@@ -2285,3 +2285,20 @@
 [2024-04-08 02:58:29] INFO root fetch - processPackages [lineagex]: Remove: archive file [/home/abi/fetcher/tmp/lineagex-0.0.9.tar.gz]
 [2024-04-08 02:58:29] INFO root fetch - main [MainThread]: End processing [lineagex]: success
 [2024-04-08 02:58:29] INFO root fetch - main [MainThread]: Store serial: [22660489]
+[2024-04-08 03:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660489]
+[2024-04-08 03:00:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 03:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-frontegg
+[2024-04-08 03:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ifccsv
+[2024-04-08 03:00:37] INFO root fetch - processPackages [pulumi-frontegg]: New version: [0.2.36] Old Version: [0.2.35]
+[2024-04-08 03:00:37] WARNING root fetch - processPackages [ifccsv]: Skipping, unable to determine old version
+[2024-04-08 03:00:37] INFO root fetch - main [MainThread]: End processing [ifccsv] error
+[2024-04-08 03:00:38] INFO root fetch - processPackages [pulumi-frontegg]: Downloading https://files.pythonhosted.org/packages/e1/be/cfa610dcdbcb3c6393c42a4613f678c37a4d7f77999f54351481c0c1a874/pulumi_frontegg-0.2.35.tar.gz
+[2024-04-08 03:00:38] WARNING root fetch - processPackages [pulumi-frontegg]: Timeout reached during download
+[2024-04-08 03:00:38] INFO root fetch - processPackages [pulumi-frontegg]: Downloading https://files.pythonhosted.org/packages/aa/31/31bfb883c89d15d216dc2290916ce352487aa3375c8878206ab63080c66d/pulumi_frontegg-0.2.36.tar.gz
+[2024-04-08 03:00:38] WARNING root fetch - processPackages [pulumi-frontegg]: Timeout reached during download
+[2024-04-08 03:00:38] INFO root fetch - processPackages [pulumi-frontegg]: executing diffoscope
+[2024-04-08 03:00:38] INFO root fetch - processPackages [pulumi-frontegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_frontegg-0.2.35.tar.gz tmp/pulumi_frontegg-0.2.36.tar.gz --markdown 20240408/p/pulumi-frontegg/0.2.35-0.2.36/diff.md --exclude *.pyd
+[2024-04-08 03:00:39] INFO root fetch - processPackages [pulumi-frontegg]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_frontegg-0.2.35.tar.gz]
+[2024-04-08 03:00:39] INFO root fetch - processPackages [pulumi-frontegg]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_frontegg-0.2.36.tar.gz]
+[2024-04-08 03:00:39] INFO root fetch - main [MainThread]: End processing [pulumi-frontegg]: success
+[2024-04-08 03:00:39] INFO root fetch - main [MainThread]: Store serial: [22660496]
