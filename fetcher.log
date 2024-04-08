@@ -9119,3 +9119,61 @@
 [2024-04-08 07:26:27] INFO root fetch - processPackages [yosemite-tools]: Remove: archive file [/home/abi/fetcher/tmp/yosemite-tools-0.0.7.tar.gz]
 [2024-04-08 07:26:27] INFO root fetch - main [MainThread]: End processing [yosemite-tools]: success
 [2024-04-08 07:26:27] INFO root fetch - main [MainThread]: Store serial: [22662576]
+[2024-04-08 07:28:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662576]
+[2024-04-08 07:28:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rime-sdk
+[2024-04-08 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: StringDataDeque
+[2024-04-08 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noohayo
+[2024-04-08 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erscipcard
+[2024-04-08 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: haliax
+[2024-04-08 07:28:47] INFO root fetch - processPackages [erscipcard]: New version: [1.62] Old Version: [1.6]
+[2024-04-08 07:28:47] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/82/dc/14fd291c234d65e860e57b3314d1fa53b303e342d7af23a299d33d00c4fb/erscipcard-1.6.tar.gz
+[2024-04-08 07:28:47] INFO root fetch - processPackages [haliax]: New version: [1.3] Old Version: [1.2]
+[2024-04-08 07:28:47] INFO root fetch - processPackages [noohayo]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-08 07:28:47] INFO root fetch - processPackages [StringDataDeque]: New version: [1.0.0] Old Version: [0.9.10]
+[2024-04-08 07:28:47] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc1] Old Version: [2.8.0rc0]
+[2024-04-08 07:28:47] INFO root fetch - processPackages [noohayo]: Downloading https://files.pythonhosted.org/packages/d7/47/6875c0d3b6e923635ef1cfb6565d182dc7aad853fe2efa98b61051610edf/noohayo-1.0.3.tar.gz
+[2024-04-08 07:28:47] WARNING root fetch - processPackages [erscipcard]: Timeout reached during download
+[2024-04-08 07:28:47] INFO root fetch - processPackages [StringDataDeque]: Downloading https://files.pythonhosted.org/packages/e9/44/5caf0bf81569bfe2ef3db4e6ef33d0a1e8f7d66c001f76efd006767606cb/StringDataDeque-0.9.10.tar.gz
+[2024-04-08 07:28:47] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/cb/33/13b86a5f653de8f8f0f3a0222cb2f237ebbf70161f52f58306bb57b66818/haliax-1.2.tar.gz
+[2024-04-08 07:28:47] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/9b/0f/6e676870b3338c7abb2534348e0cca0e07f09eda0ff7f8234e0875df0af0/rime_sdk-2.8.0rc0.tar.gz
+[2024-04-08 07:28:47] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/6e/99/cd88b4292731548c9d063005ff6deff9623c8236c674afd5c0fd1ac912da/erscipcard-1.62.tar.gz
+[2024-04-08 07:28:47] WARNING root fetch - processPackages [noohayo]: Timeout reached during download
+[2024-04-08 07:28:47] WARNING root fetch - processPackages [StringDataDeque]: Timeout reached during download
+[2024-04-08 07:28:47] WARNING root fetch - processPackages [haliax]: Timeout reached during download
+[2024-04-08 07:28:47] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-08 07:28:47] WARNING root fetch - processPackages [erscipcard]: Timeout reached during download
+[2024-04-08 07:28:47] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2024-04-08 07:28:47] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.6.tar.gz tmp/erscipcard-1.62.tar.gz --markdown 20240408/e/erscipcard/1.6-1.62/diff.md --exclude *.pyd
+[2024-04-08 07:28:48] INFO root fetch - processPackages [noohayo]: Downloading https://files.pythonhosted.org/packages/70/d1/64a94d23700d97a0898f4083edcd83a9e9da40bd304ac166bde44feb2561/noohayo-1.0.4.tar.gz
+[2024-04-08 07:28:48] INFO root fetch - processPackages [StringDataDeque]: Downloading https://files.pythonhosted.org/packages/44/15/20f7ca54a686dae14d6c8ff7558c0b2006ba84a4637fdc17d02f28b13676/StringDataDeque-1.0.0.tar.gz
+[2024-04-08 07:28:48] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/9e/a6/b6c5320c811fda89c19e0702d03e3f9f529e4be83c50a56f3d4e1b4d1627/haliax-1.3.tar.gz
+[2024-04-08 07:28:48] WARNING root fetch - processPackages [noohayo]: Timeout reached during download
+[2024-04-08 07:28:48] INFO root fetch - processPackages [noohayo]: executing diffoscope
+[2024-04-08 07:28:48] INFO root fetch - processPackages [noohayo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noohayo-1.0.3.tar.gz tmp/noohayo-1.0.4.tar.gz --markdown 20240408/n/noohayo/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-08 07:28:48] WARNING root fetch - processPackages [StringDataDeque]: Timeout reached during download
+[2024-04-08 07:28:48] INFO root fetch - processPackages [StringDataDeque]: executing diffoscope
+[2024-04-08 07:28:48] INFO root fetch - processPackages [StringDataDeque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StringDataDeque-0.9.10.tar.gz tmp/StringDataDeque-1.0.0.tar.gz --markdown 20240408/S/StringDataDeque/0.9.10-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 07:28:48] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/65/e4/969e8269f0ae6bb56b89acde015864a897fa96b1936c6e41014bc52051ba/rime_sdk-2.8.0rc1.tar.gz
+[2024-04-08 07:28:48] WARNING root fetch - processPackages [haliax]: Timeout reached during download
+[2024-04-08 07:28:48] INFO root fetch - processPackages [haliax]: executing diffoscope
+[2024-04-08 07:28:48] INFO root fetch - processPackages [haliax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haliax-1.2.tar.gz tmp/haliax-1.3.tar.gz --markdown 20240408/h/haliax/1.2-1.3/diff.md --exclude *.pyd
+[2024-04-08 07:28:48] WARNING root fetch - processPackages [rime-sdk]: Timeout reached during download
+[2024-04-08 07:28:48] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-08 07:28:48] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc0.tar.gz tmp/rime_sdk-2.8.0rc1.tar.gz --markdown 20240408/r/rime-sdk/2.8.0rc0-2.8.0rc1/diff.md --exclude *.pyd
+[2024-04-08 07:28:48] INFO root fetch - processPackages [noohayo]: Remove: archive file [/home/abi/fetcher/tmp/noohayo-1.0.3.tar.gz]
+[2024-04-08 07:28:48] INFO root fetch - processPackages [noohayo]: Remove: archive file [/home/abi/fetcher/tmp/noohayo-1.0.4.tar.gz]
+[2024-04-08 07:28:48] INFO root fetch - main [MainThread]: End processing [noohayo]: success
+[2024-04-08 07:28:48] INFO root fetch - processPackages [StringDataDeque]: Remove: archive file [/home/abi/fetcher/tmp/StringDataDeque-0.9.10.tar.gz]
+[2024-04-08 07:28:48] INFO root fetch - processPackages [StringDataDeque]: Remove: archive file [/home/abi/fetcher/tmp/StringDataDeque-1.0.0.tar.gz]
+[2024-04-08 07:28:48] INFO root fetch - main [MainThread]: End processing [StringDataDeque]: success
+[2024-04-08 07:28:48] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.6.tar.gz]
+[2024-04-08 07:28:48] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.62.tar.gz]
+[2024-04-08 07:28:48] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2024-04-08 07:28:49] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.2.tar.gz]
+[2024-04-08 07:28:49] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.3.tar.gz]
+[2024-04-08 07:28:49] INFO root fetch - main [MainThread]: End processing [haliax]: success
+[2024-04-08 07:28:50] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc0.tar.gz]
+[2024-04-08 07:28:50] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc1.tar.gz]
+[2024-04-08 07:28:50] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-08 07:28:50] INFO root fetch - main [MainThread]: Store serial: [22662592]
