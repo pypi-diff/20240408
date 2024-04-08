@@ -6898,3 +6898,61 @@
 [2024-04-08 05:42:34] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcex-3.0.999.tar.gz]
 [2024-04-08 05:42:34] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcex]: success
 [2024-04-08 05:42:34] INFO root fetch - main [MainThread]: Store serial: [22661952]
+[2024-04-08 05:44:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661952]
+[2024-04-08 05:44:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 05:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tci
+[2024-04-08 05:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tcm
+[2024-04-08 05:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tcr
+[2024-04-08 05:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tcss
+[2024-04-08 05:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fieldservice
+[2024-04-08 05:44:46] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [17.0.1.1.0.5] Old Version: [17.0.1.1.0.4]
+[2024-04-08 05:44:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:44:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:44:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:44:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:44:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Downloading https://files.pythonhosted.org/packages/88/13/447244fea2ac59fb002143ab7a6872a40fe023ef19c53b914c1007d5f801/tencentcloud-sdk-python-tci-3.0.998.tar.gz
+[2024-04-08 05:44:46] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/be/12/3c1016e523c877aef225fdfb7c17b3a98a0d93d852a588c869fac27876b6/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl
+[2024-04-08 05:44:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: Downloading https://files.pythonhosted.org/packages/e6/26/d34766cbd533ba32a2d9b29dfd6036bc3b803c5b0d16a979dae3d5829194/tencentcloud-sdk-python-tcr-3.0.998.tar.gz
+[2024-04-08 05:44:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Downloading https://files.pythonhosted.org/packages/4d/a3/6182b96f50dff842ec614b7b7057a2bb2f2fec574dcc9e8fc524a5719894/tencentcloud-sdk-python-tcss-3.0.998.tar.gz
+[2024-04-08 05:44:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Downloading https://files.pythonhosted.org/packages/8d/52/70391cc4668deedb94c0918102bc5cc1a65097ea2f9a483069541c2924de/tencentcloud-sdk-python-tcm-3.0.998.tar.gz
+[2024-04-08 05:44:47] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcss]: Timeout reached during download
+[2024-04-08 05:44:47] WARNING root fetch - processPackages [odoo-addon-fieldservice]: Timeout reached during download
+[2024-04-08 05:44:47] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcr]: Timeout reached during download
+[2024-04-08 05:44:47] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcm]: Timeout reached during download
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Downloading https://files.pythonhosted.org/packages/60/ec/d37b2deb37f58692022118f9652da4944dbaecedfb22d312ca480517c2e9/tencentcloud-sdk-python-tcss-3.0.999.tar.gz
+[2024-04-08 05:44:47] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/15/bf/ba4b96242d579d7a225515a46a2a207e6d26e55ef4acaf9c056ac5d3dc9b/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: Downloading https://files.pythonhosted.org/packages/63/de/358bc0bd0248fb895e339e5e7171c59ae26b981250c8a83895d3223b87bf/tencentcloud-sdk-python-tcr-3.0.999.tar.gz
+[2024-04-08 05:44:47] WARNING root fetch - processPackages [tencentcloud-sdk-python-tci]: Timeout reached during download
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Downloading https://files.pythonhosted.org/packages/05/c7/192fe849c684ed9a0a19adca60e74f8f2b34294b51741cc8d69d1066d686/tencentcloud-sdk-python-tcm-3.0.999.tar.gz
+[2024-04-08 05:44:47] WARNING root fetch - processPackages [odoo-addon-fieldservice]: Timeout reached during download
+[2024-04-08 05:44:47] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2024-04-08 05:44:47] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-fieldservice/17.0.1.1.0.4-17.0.1.1.0.5/diff.md --exclude *.pyd
+[2024-04-08 05:44:47] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcr]: Timeout reached during download
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: executing diffoscope
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcr-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tcr/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Downloading https://files.pythonhosted.org/packages/5f/e1/bab98f22337a6e71c07f6c1fc578c7161f0c0497a7a6080530c6a07063d1/tencentcloud-sdk-python-tci-3.0.999.tar.gz
+[2024-04-08 05:44:47] WARNING root fetch - processPackages [tencentcloud-sdk-python-tci]: Timeout reached during download
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: executing diffoscope
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tci-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tci-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tci/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:44:47] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcm]: Timeout reached during download
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: executing diffoscope
+[2024-04-08 05:44:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcm-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tcm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:44:48] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcss]: Timeout reached during download
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: executing diffoscope
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcss-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tcss/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcr-3.0.998.tar.gz]
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcr-3.0.999.tar.gz]
+[2024-04-08 05:44:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcr]: success
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcm-3.0.998.tar.gz]
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcm-3.0.999.tar.gz]
+[2024-04-08 05:44:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcm]: success
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tci-3.0.998.tar.gz]
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tci-3.0.999.tar.gz]
+[2024-04-08 05:44:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tci]: success
+[2024-04-08 05:44:48] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-04-08 05:44:48] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip]
+[2024-04-08 05:44:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcss-3.0.998.tar.gz]
+[2024-04-08 05:44:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcss-3.0.999.tar.gz]
+[2024-04-08 05:44:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcss]: success
+[2024-04-08 05:44:48] INFO root fetch - main [MainThread]: Store serial: [22661966]
