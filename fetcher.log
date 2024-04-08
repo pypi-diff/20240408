@@ -3574,3 +3574,50 @@
 [2024-04-08 04:29:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408022728.tar.gz]
 [2024-04-08 04:29:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-08 04:29:13] INFO root fetch - main [MainThread]: Store serial: [22660944]
+[2024-04-08 04:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660944]
+[2024-04-08 04:31:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 04:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voiceos
+[2024-04-08 04:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: landborn
+[2024-04-08 04:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waylake-utils
+[2024-04-08 04:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpsApi
+[2024-04-08 04:31:23] INFO root fetch - processPackages [landborn]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-08 04:31:23] INFO root fetch - processPackages [landborn]: Downloading https://files.pythonhosted.org/packages/77/71/ef68d55eb0dfb85020318c6a3272b7a257a0b0519d65633c264d8d70e93b/landborn-0.2.5.tar.gz
+[2024-04-08 04:31:23] INFO root fetch - processPackages [voiceos]: New version: [0.8.0.1] Old Version: [0.8.0]
+[2024-04-08 04:31:23] INFO root fetch - processPackages [OpsApi]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-04-08 04:31:23] INFO root fetch - processPackages [waylake-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 04:31:24] WARNING root fetch - processPackages [landborn]: Timeout reached during download
+[2024-04-08 04:31:24] INFO root fetch - processPackages [waylake-utils]: Downloading https://files.pythonhosted.org/packages/7f/6c/5995584ad26bab0feea188c22dbb0a5c643411b3922c8e7b30a24931ac26/waylake_utils-0.1.8.tar.gz
+[2024-04-08 04:31:24] INFO root fetch - processPackages [OpsApi]: Downloading https://files.pythonhosted.org/packages/f6/bb/9092e4861b1c181855734cc2601e3fd69fbe7e259328bf45e003a33389d5/OpsApi-1.0.1.tar.gz
+[2024-04-08 04:31:24] INFO root fetch - processPackages [voiceos]: Downloading https://files.pythonhosted.org/packages/f5/0f/dd1326b9a127496809700a6e11d6d4456d7518046c25a8f9ed5891eb9185/voiceos-0.8.0.tar.gz
+[2024-04-08 04:31:24] INFO root fetch - processPackages [landborn]: Downloading https://files.pythonhosted.org/packages/43/19/6d4c3f14c15ab6aa05b10e2ec80d2aebb6906719c74c0b91f801ec465846/landborn-0.2.6.tar.gz
+[2024-04-08 04:31:24] WARNING root fetch - processPackages [OpsApi]: Timeout reached during download
+[2024-04-08 04:31:24] WARNING root fetch - processPackages [voiceos]: Timeout reached during download
+[2024-04-08 04:31:24] WARNING root fetch - processPackages [landborn]: Timeout reached during download
+[2024-04-08 04:31:24] WARNING root fetch - processPackages [waylake-utils]: Timeout reached during download
+[2024-04-08 04:31:24] INFO root fetch - processPackages [landborn]: executing diffoscope
+[2024-04-08 04:31:24] INFO root fetch - processPackages [landborn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landborn-0.2.5.tar.gz tmp/landborn-0.2.6.tar.gz --markdown 20240408/l/landborn/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2024-04-08 04:31:24] INFO root fetch - processPackages [voiceos]: Downloading https://files.pythonhosted.org/packages/01/32/3d6f36c210a679e31802b5c267a1a69ce0d9c23db2b301d6b9476bf0da79/voiceos-0.8.0.1.tar.gz
+[2024-04-08 04:31:24] INFO root fetch - processPackages [OpsApi]: Downloading https://files.pythonhosted.org/packages/11/5c/1a6a132e608ad0c048804fcceffd4bb883fd14c97f6b83aa1640525a1772/OpsApi-2.0.0.tar.gz
+[2024-04-08 04:31:24] INFO root fetch - processPackages [waylake-utils]: Downloading https://files.pythonhosted.org/packages/02/63/26996bcc2b88e60a222b3061c796b7d29c6e5af532d66439bcf4f99a40c0/waylake_utils-0.1.9.tar.gz
+[2024-04-08 04:31:24] WARNING root fetch - processPackages [voiceos]: Timeout reached during download
+[2024-04-08 04:31:24] INFO root fetch - processPackages [voiceos]: executing diffoscope
+[2024-04-08 04:31:24] INFO root fetch - processPackages [voiceos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voiceos-0.8.0.tar.gz tmp/voiceos-0.8.0.1.tar.gz --markdown 20240408/v/voiceos/0.8.0-0.8.0.1/diff.md --exclude *.pyd
+[2024-04-08 04:31:24] WARNING root fetch - processPackages [OpsApi]: Timeout reached during download
+[2024-04-08 04:31:24] INFO root fetch - processPackages [OpsApi]: executing diffoscope
+[2024-04-08 04:31:24] INFO root fetch - processPackages [OpsApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpsApi-1.0.1.tar.gz tmp/OpsApi-2.0.0.tar.gz --markdown 20240408/O/OpsApi/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2024-04-08 04:31:24] WARNING root fetch - processPackages [waylake-utils]: Timeout reached during download
+[2024-04-08 04:31:24] INFO root fetch - processPackages [waylake-utils]: executing diffoscope
+[2024-04-08 04:31:24] INFO root fetch - processPackages [waylake-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylake_utils-0.1.8.tar.gz tmp/waylake_utils-0.1.9.tar.gz --markdown 20240408/w/waylake-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 04:31:24] INFO root fetch - processPackages [landborn]: Remove: archive file [/home/abi/fetcher/tmp/landborn-0.2.5.tar.gz]
+[2024-04-08 04:31:24] INFO root fetch - processPackages [landborn]: Remove: archive file [/home/abi/fetcher/tmp/landborn-0.2.6.tar.gz]
+[2024-04-08 04:31:24] INFO root fetch - main [MainThread]: End processing [landborn]: success
+[2024-04-08 04:31:25] INFO root fetch - processPackages [waylake-utils]: Remove: archive file [/home/abi/fetcher/tmp/waylake_utils-0.1.8.tar.gz]
+[2024-04-08 04:31:25] INFO root fetch - processPackages [waylake-utils]: Remove: archive file [/home/abi/fetcher/tmp/waylake_utils-0.1.9.tar.gz]
+[2024-04-08 04:31:25] INFO root fetch - main [MainThread]: End processing [waylake-utils]: success
+[2024-04-08 04:31:25] INFO root fetch - processPackages [voiceos]: Remove: archive file [/home/abi/fetcher/tmp/voiceos-0.8.0.tar.gz]
+[2024-04-08 04:31:25] INFO root fetch - processPackages [voiceos]: Remove: archive file [/home/abi/fetcher/tmp/voiceos-0.8.0.1.tar.gz]
+[2024-04-08 04:31:25] INFO root fetch - main [MainThread]: End processing [voiceos]: success
+[2024-04-08 04:31:25] INFO root fetch - processPackages [OpsApi]: Remove: archive file [/home/abi/fetcher/tmp/OpsApi-1.0.1.tar.gz]
+[2024-04-08 04:31:25] INFO root fetch - processPackages [OpsApi]: Remove: archive file [/home/abi/fetcher/tmp/OpsApi-2.0.0.tar.gz]
+[2024-04-08 04:31:25] INFO root fetch - main [MainThread]: End processing [OpsApi]: success
+[2024-04-08 04:31:25] INFO root fetch - main [MainThread]: Store serial: [22660955]
