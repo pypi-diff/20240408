@@ -2463,3 +2463,39 @@
 [2024-04-08 03:11:34] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
 [2024-04-08 03:11:34] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-04-08 03:11:34] INFO root fetch - main [MainThread]: Store serial: [22660538]
+[2024-04-08 03:13:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660538]
+[2024-04-08 03:13:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 03:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtb-plot
+[2024-04-08 03:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelbase
+[2024-04-08 03:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ts-soup
+[2024-04-08 03:13:44] INFO root fetch - processPackages [ts-soup]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 03:13:44] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/af/2c/324c8cd293860c70049154e097a32cdde3af02fa4cc0c2d5139a5b884c6d/ts-soup-0.0.8.tar.gz
+[2024-04-08 03:13:44] INFO root fetch - processPackages [qtb-plot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-08 03:13:44] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2024-04-08 03:13:44] WARNING root fetch - processPackages [ts-soup]: Timeout reached during download
+[2024-04-08 03:13:44] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/a3/41/af6bed053fae213e29a5c196885a1c38272583aa11d03392a37b73519b7b/ts-soup-0.0.9.tar.gz
+[2024-04-08 03:13:44] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/11/03/b204f1332c788b8d60b1f6c015b831fa8085a212dfb69503e85f1598bd38/qtb_plot-0.3.8.tar.gz
+[2024-04-08 03:13:44] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2024-04-08 03:13:45] WARNING root fetch - processPackages [ts-soup]: Timeout reached during download
+[2024-04-08 03:13:45] INFO root fetch - processPackages [ts-soup]: executing diffoscope
+[2024-04-08 03:13:45] INFO root fetch - processPackages [ts-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts-soup-0.0.8.tar.gz tmp/ts-soup-0.0.9.tar.gz --markdown 20240408/t/ts-soup/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 03:13:45] WARNING root fetch - processPackages [qtb-plot]: Timeout reached during download
+[2024-04-08 03:13:45] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/f4/15/03462d32e24c9b67e3379c910f4c9ffaadaa56270659b362e0c45eaeaccd/qtb_plot-0.3.9.tar.gz
+[2024-04-08 03:13:45] WARNING root fetch - processPackages [qtb-plot]: Timeout reached during download
+[2024-04-08 03:13:45] INFO root fetch - processPackages [qtb-plot]: executing diffoscope
+[2024-04-08 03:13:45] INFO root fetch - processPackages [qtb-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtb_plot-0.3.8.tar.gz tmp/qtb_plot-0.3.9.tar.gz --markdown 20240408/q/qtb-plot/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-08 03:13:45] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.0.8.tar.gz]
+[2024-04-08 03:13:45] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.0.9.tar.gz]
+[2024-04-08 03:13:45] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
+[2024-04-08 03:13:45] WARNING root fetch - processPackages [modelbase]: Timeout reached during download
+[2024-04-08 03:13:45] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2024-04-08 03:13:45] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.8.tar.gz]
+[2024-04-08 03:13:45] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.9.tar.gz]
+[2024-04-08 03:13:45] INFO root fetch - main [MainThread]: End processing [qtb-plot]: success
+[2024-04-08 03:13:46] WARNING root fetch - processPackages [modelbase]: Timeout reached during download
+[2024-04-08 03:13:46] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2024-04-08 03:13:46] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20240408/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2024-04-08 03:13:46] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2024-04-08 03:13:46] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2024-04-08 03:13:46] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2024-04-08 03:13:46] INFO root fetch - main [MainThread]: Store serial: [22660547]
