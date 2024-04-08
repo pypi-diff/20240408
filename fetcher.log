@@ -8322,3 +8322,70 @@
 [2024-04-08 06:41:28] INFO root fetch - processPackages [dalpha-ai]: Remove: archive file [/home/abi/fetcher/tmp/dalpha_ai-0.3.1.tar.gz]
 [2024-04-08 06:41:28] INFO root fetch - main [MainThread]: End processing [dalpha-ai]: success
 [2024-04-08 06:41:28] INFO root fetch - main [MainThread]: Store serial: [22662342]
+[2024-04-08 06:43:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662342]
+[2024-04-08 06:43:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crewai
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dalpha-ai-cpu
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sawsi
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trialforrjhnjtj
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezdsp
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ezdsp
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ezdsp]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ezdsp]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-08 06:43:47] INFO root fetch - processPackages [trialforrjhnjtj]: New version: [1.3] Old Version: [1.1]
+[2024-04-08 06:43:47] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-04-08 06:43:47] INFO root fetch - processPackages [sawsi]: New version: [9.9] Old Version: [9.8]
+[2024-04-08 06:43:47] INFO root fetch - processPackages [dalpha-ai-cpu]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/3f/dd/d48e1b31866873b9588ec258c4a23fd2f713e6ac2dea8456851c255df267/ezdsp-1.0.3.tar.gz
+[2024-04-08 06:43:47] INFO root fetch - processPackages [trialforrjhnjtj]: Downloading https://files.pythonhosted.org/packages/df/c9/7848eea454c2e280091b0b3a6b251ead621eb94ff621055d03cea0afb77e/trialforrjhnjtj-1.1.tar.gz
+[2024-04-08 06:43:47] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/3f/dd/d48e1b31866873b9588ec258c4a23fd2f713e6ac2dea8456851c255df267/ezdsp-1.0.3.tar.gz
+[2024-04-08 06:43:48] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [trialforrjhnjtj]: Timeout reached during download
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [crewai]: Timeout reached during download
+[2024-04-08 06:43:48] INFO root fetch - processPackages [dalpha-ai-cpu]: Downloading https://files.pythonhosted.org/packages/e7/e2/ef93c20f62793e153308f7d05af16a2239ade9f2752422667e79875db996/dalpha_ai_cpu-0.3.0.tar.gz
+[2024-04-08 06:43:48] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/a5/89/e5230b963c36d9342bd53c4174b8b4f9595f77c5aa510614cf80ac5315a0/sawsi-9.8.tar.gz
+[2024-04-08 06:43:48] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-04-08 06:43:48] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/04/06/7c1463f0f5d6790ecfde197bd2214a7367fcdb1e118320c6933b4a65aef8/ezdsp-1.0.4.tar.gz
+[2024-04-08 06:43:48] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/04/06/7c1463f0f5d6790ecfde197bd2214a7367fcdb1e118320c6933b4a65aef8/ezdsp-1.0.4.tar.gz
+[2024-04-08 06:43:48] INFO root fetch - processPackages [trialforrjhnjtj]: Downloading https://files.pythonhosted.org/packages/83/99/d77a5cc1783008e1c3c7566fd0ba14aed1cf0310a88199911948e9bbd5fb/trialforrjhnjtj-1.3-py3-none-any.whl
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [dalpha-ai-cpu]: Timeout reached during download
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [sawsi]: Timeout reached during download
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [crewai]: Timeout reached during download
+[2024-04-08 06:43:48] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-04-08 06:43:48] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240408/c/crewai/0.5.3-0.5.5/diff.md --exclude *.pyd
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:43:48] INFO root fetch - processPackages [ezdsp]: executing diffoscope
+[2024-04-08 06:43:48] INFO root fetch - processPackages [ezdsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdsp-1.0.3.tar.gz tmp/ezdsp-1.0.4.tar.gz --markdown 20240408/e/ezdsp/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-08 06:43:48] INFO root fetch - processPackages [ezdsp]: executing diffoscope
+[2024-04-08 06:43:48] INFO root fetch - processPackages [ezdsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdsp-1.0.3.tar.gz tmp/ezdsp-1.0.4.tar.gz --markdown 20240408/e/ezdsp/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [trialforrjhnjtj]: Timeout reached during download
+[2024-04-08 06:43:48] INFO root fetch - processPackages [trialforrjhnjtj]: executing diffoscope
+[2024-04-08 06:43:48] INFO root fetch - processPackages [trialforrjhnjtj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trialforrjhnjtj-1.1.tar.gz tmp/trialforrjhnjtj-1.3-py3-none-any.whl.zip --markdown 20240408/t/trialforrjhnjtj/1.1-1.3/diff.md --exclude *.pyd
+[2024-04-08 06:43:48] INFO root fetch - processPackages [dalpha-ai-cpu]: Downloading https://files.pythonhosted.org/packages/0d/11/beace43288b9f1bfa022dec28d142ed0810f6828c618c1c9b111ae32500d/dalpha_ai_cpu-0.3.1.tar.gz
+[2024-04-08 06:43:48] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/69/c2/e945385340121de75cca5d00aa9ac99f3d874c5977239a7d7efe5e969e17/sawsi-9.9.tar.gz
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [dalpha-ai-cpu]: Timeout reached during download
+[2024-04-08 06:43:48] INFO root fetch - processPackages [dalpha-ai-cpu]: executing diffoscope
+[2024-04-08 06:43:48] INFO root fetch - processPackages [dalpha-ai-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha_ai_cpu-0.3.0.tar.gz tmp/dalpha_ai_cpu-0.3.1.tar.gz --markdown 20240408/d/dalpha-ai-cpu/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 06:43:48] WARNING root fetch - processPackages [sawsi]: Timeout reached during download
+[2024-04-08 06:43:48] INFO root fetch - processPackages [sawsi]: executing diffoscope
+[2024-04-08 06:43:48] INFO root fetch - processPackages [sawsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sawsi-9.8.tar.gz tmp/sawsi-9.9.tar.gz --markdown 20240408/s/sawsi/9.8-9.9/diff.md --exclude *.pyd
+[2024-04-08 06:43:49] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-04-08 06:43:49] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-04-08 06:43:49] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-04-08 06:43:49] INFO root fetch - processPackages [trialforrjhnjtj]: Remove: archive file [/home/abi/fetcher/tmp/trialforrjhnjtj-1.1.tar.gz]
+[2024-04-08 06:43:49] INFO root fetch - processPackages [trialforrjhnjtj]: Remove: archive file [/home/abi/fetcher/tmp/trialforrjhnjtj-1.3-py3-none-any.whl.zip]
+[2024-04-08 06:43:49] INFO root fetch - main [MainThread]: End processing [trialforrjhnjtj]: success
+[2024-04-08 06:43:49] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.3.tar.gz]
+[2024-04-08 06:43:49] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.4.tar.gz]
+[2024-04-08 06:43:49] INFO root fetch - main [MainThread]: End processing [ezdsp]: success
+[2024-04-08 06:43:49] INFO root fetch - main [MainThread]: End processing [ezdsp]: success
+[2024-04-08 06:43:49] INFO root fetch - processPackages [dalpha-ai-cpu]: Remove: archive file [/home/abi/fetcher/tmp/dalpha_ai_cpu-0.3.0.tar.gz]
+[2024-04-08 06:43:49] INFO root fetch - processPackages [dalpha-ai-cpu]: Remove: archive file [/home/abi/fetcher/tmp/dalpha_ai_cpu-0.3.1.tar.gz]
+[2024-04-08 06:43:49] INFO root fetch - main [MainThread]: End processing [dalpha-ai-cpu]: success
+[2024-04-08 06:43:49] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.8.tar.gz]
+[2024-04-08 06:43:49] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
+[2024-04-08 06:43:49] INFO root fetch - main [MainThread]: End processing [sawsi]: success
+[2024-04-08 06:43:49] INFO root fetch - main [MainThread]: Store serial: [22662359]
