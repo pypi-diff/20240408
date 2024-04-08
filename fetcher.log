@@ -12655,3 +12655,116 @@
 [2024-04-08 10:08:04] INFO root fetch - processPackages [yoctopuce]: Remove: archive file [/home/abi/fetcher/tmp/yoctopuce-2.0.60394.tar.gz]
 [2024-04-08 10:08:04] INFO root fetch - main [MainThread]: End processing [yoctopuce]: success
 [2024-04-08 10:08:04] INFO root fetch - main [MainThread]: Store serial: [22663863]
+[2024-04-08 10:10:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663863]
+[2024-04-08 10:10:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daktari
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RFEM
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sage-lib
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: propelauth-django-rest-framework
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: df-qc-tools
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: propelauth-fastapi
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: propelauth-flask
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbviews-django
+[2024-04-08 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supertokens-python
+[2024-04-08 10:10:26] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240407] Old Version: [0.4.5.dev20240406]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [dbviews-django]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [RFEM]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [sage-lib]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [propelauth-flask]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [propelauth-django-rest-framework]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [propelauth-fastapi]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [df-qc-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-08 10:10:26] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/b8/97/193cc38c9516a30ab3eedc7834c42802a1f0345ca8942472991df0c6da92/pyglove-0.4.5.dev20240406.tar.gz
+[2024-04-08 10:10:26] INFO root fetch - processPackages [dbviews-django]: Downloading https://files.pythonhosted.org/packages/c8/a2/21743c0eb64eb5906319a215077ce26fc5b3dfb26b810379ebc8b1e36298/dbviews_django-0.1.0.tar.gz
+[2024-04-08 10:10:26] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/0c/1f/00eb35df49893269d3a67a24076f2fa665c50056f0ab1d92180c8fe0f343/sage_lib-0.1.4.8.tar.gz
+[2024-04-08 10:10:26] INFO root fetch - processPackages [propelauth-flask]: Downloading https://files.pythonhosted.org/packages/54/f6/cfd3d64cc0c5dec2d61ef6723396f9d3f4a0f15dda0a47df437cd67bb181/propelauth-flask-2.1.8.tar.gz
+[2024-04-08 10:10:26] INFO root fetch - processPackages [df-qc-tools]: Downloading https://files.pythonhosted.org/packages/36/65/1503922ea4cd051db312ee31d1e5ed1c71d99d0d851c58202a92c5fe0013/df_qc_tools-0.0.1.tar.gz
+[2024-04-08 10:10:26] INFO root fetch - processPackages [propelauth-fastapi]: Downloading https://files.pythonhosted.org/packages/7e/7f/d23cd9cee095b0206eef7f0572223475fe416cbdcb8fa03d724728e49bc1/propelauth-fastapi-2.1.8.tar.gz
+[2024-04-08 10:10:26] INFO root fetch - processPackages [RFEM]: Downloading https://files.pythonhosted.org/packages/da/02/5d1a05af7bbb4e3a0116095016d02fde8efa05b303e15e369c5aeaf1443e/RFEM-1.7.0.tar.gz
+[2024-04-08 10:10:26] INFO root fetch - processPackages [propelauth-django-rest-framework]: Downloading https://files.pythonhosted.org/packages/81/40/dba3289d531ea8352a65009a8ba9f347a1a061fe24a41639509d57004495/propelauth-django-rest-framework-2.1.8.tar.gz
+[2024-04-08 10:10:26] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2024-04-08 10:10:26] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/41/34/31967fb29a967744e011eb91331a2937f19d9882acccbefdef89c41d48ce/supertokens_python-0.9.0.tar.gz
+[2024-04-08 10:10:26] WARNING root fetch - processPackages [pyglove]: Timeout reached during download
+[2024-04-08 10:10:26] WARNING root fetch - processPackages [dbviews-django]: Timeout reached during download
+[2024-04-08 10:10:26] WARNING root fetch - processPackages [propelauth-fastapi]: Timeout reached during download
+[2024-04-08 10:10:26] WARNING root fetch - processPackages [propelauth-django-rest-framework]: Timeout reached during download
+[2024-04-08 10:10:26] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/86/d3/e0920fffb62ce48535736c37eb0be412c0a4dc88a93d966ab8af61f1f4a8/pyglove-0.4.5.dev20240407.tar.gz
+[2024-04-08 10:10:26] WARNING root fetch - processPackages [propelauth-flask]: Timeout reached during download
+[2024-04-08 10:10:26] WARNING root fetch - processPackages [sage-lib]: Timeout reached during download
+[2024-04-08 10:10:26] WARNING root fetch - processPackages [daktari]: Timeout reached during download
+[2024-04-08 10:10:26] WARNING root fetch - processPackages [df-qc-tools]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [dbviews-django]: Downloading https://files.pythonhosted.org/packages/98/19/a1010bcffd4d269ff29573cf74eae0cc355289420832027f3bf2c0006d9b/dbviews_django-0.1.1.tar.gz
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [supertokens-python]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [propelauth-fastapi]: Downloading https://files.pythonhosted.org/packages/77/20/6a2a0c0e651985fb47efb09e94678ec0e88a4abfb8220afc4ef669e36c98/propelauth-fastapi-2.1.9.tar.gz
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [pyglove]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240406.tar.gz tmp/pyglove-0.4.5.dev20240407.tar.gz --markdown 20240408/p/pyglove/0.4.5.dev20240406-0.4.5.dev20240407/diff.md --exclude *.pyd
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [RFEM]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [propelauth-django-rest-framework]: Downloading https://files.pythonhosted.org/packages/e8/c4/0dd631be9d9b703d57f486cb5dab6e7b7026cf90f9399ded4b9d1ee990ce/propelauth-django-rest-framework-2.1.9.tar.gz
+[2024-04-08 10:10:27] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/47/e4/6aefb4d16c81a0b7b546cadb557484d6d521dc93ce41bd491e80060443d4/sage_lib-0.1.4.9.tar.gz
+[2024-04-08 10:10:27] INFO root fetch - processPackages [df-qc-tools]: Downloading https://files.pythonhosted.org/packages/90/75/ac1abe50e474c060f6791f8e2139e95cc7d3bc9dd04cb5bd6a14f29c3159/df_qc_tools-0.0.2.tar.gz
+[2024-04-08 10:10:27] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2024-04-08 10:10:27] INFO root fetch - processPackages [propelauth-flask]: Downloading https://files.pythonhosted.org/packages/fa/53/ffa2b655f137731460524df323b4e312d891dc24ff8a1cbe6581a8490a88/propelauth-flask-2.1.9.tar.gz
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [dbviews-django]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [dbviews-django]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [dbviews-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbviews_django-0.1.0.tar.gz tmp/dbviews_django-0.1.1.tar.gz --markdown 20240408/d/dbviews-django/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [propelauth-fastapi]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [propelauth-fastapi]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [propelauth-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propelauth-fastapi-2.1.8.tar.gz tmp/propelauth-fastapi-2.1.9.tar.gz --markdown 20240408/p/propelauth-fastapi/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:10:27] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/9d/b6/1579872040858340507fd930b8d80cc6f32b03fdf8a1a46b669704ba8615/supertokens_python-0.9.1.tar.gz
+[2024-04-08 10:10:27] INFO root fetch - processPackages [RFEM]: Downloading https://files.pythonhosted.org/packages/04/4a/d8d89fa7ceb20a3296448bd43f849bd6fc9910d7f19a25c7fac86c00f425/RFEM-1.8.0.tar.gz
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [sage-lib]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [sage-lib]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [sage-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_lib-0.1.4.8.tar.gz tmp/sage_lib-0.1.4.9.tar.gz --markdown 20240408/s/sage-lib/0.1.4.8-0.1.4.9/diff.md --exclude *.pyd
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [propelauth-django-rest-framework]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [propelauth-django-rest-framework]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [propelauth-django-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propelauth-django-rest-framework-2.1.8.tar.gz tmp/propelauth-django-rest-framework-2.1.9.tar.gz --markdown 20240408/p/propelauth-django-rest-framework/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [daktari]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20240408/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [propelauth-flask]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [propelauth-flask]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [propelauth-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propelauth-flask-2.1.8.tar.gz tmp/propelauth-flask-2.1.9.tar.gz --markdown 20240408/p/propelauth-flask/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [df-qc-tools]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [df-qc-tools]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [df-qc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_qc_tools-0.0.1.tar.gz tmp/df_qc_tools-0.0.2.tar.gz --markdown 20240408/d/df-qc-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [RFEM]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [RFEM]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [RFEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RFEM-1.7.0.tar.gz tmp/RFEM-1.8.0.tar.gz --markdown 20240408/R/RFEM/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2024-04-08 10:10:27] WARNING root fetch - processPackages [supertokens-python]: Timeout reached during download
+[2024-04-08 10:10:27] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2024-04-08 10:10:27] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20240408/s/supertokens-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 10:10:28] INFO root fetch - processPackages [dbviews-django]: Remove: archive file [/home/abi/fetcher/tmp/dbviews_django-0.1.0.tar.gz]
+[2024-04-08 10:10:28] INFO root fetch - processPackages [dbviews-django]: Remove: archive file [/home/abi/fetcher/tmp/dbviews_django-0.1.1.tar.gz]
+[2024-04-08 10:10:28] INFO root fetch - main [MainThread]: End processing [dbviews-django]: success
+[2024-04-08 10:10:28] INFO root fetch - processPackages [propelauth-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/propelauth-fastapi-2.1.8.tar.gz]
+[2024-04-08 10:10:28] INFO root fetch - processPackages [propelauth-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/propelauth-fastapi-2.1.9.tar.gz]
+[2024-04-08 10:10:28] INFO root fetch - main [MainThread]: End processing [propelauth-fastapi]: success
+[2024-04-08 10:10:28] INFO root fetch - processPackages [propelauth-django-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/propelauth-django-rest-framework-2.1.8.tar.gz]
+[2024-04-08 10:10:28] INFO root fetch - processPackages [propelauth-django-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/propelauth-django-rest-framework-2.1.9.tar.gz]
+[2024-04-08 10:10:28] INFO root fetch - main [MainThread]: End processing [propelauth-django-rest-framework]: success
+[2024-04-08 10:10:28] INFO root fetch - processPackages [propelauth-flask]: Remove: archive file [/home/abi/fetcher/tmp/propelauth-flask-2.1.8.tar.gz]
+[2024-04-08 10:10:28] INFO root fetch - processPackages [propelauth-flask]: Remove: archive file [/home/abi/fetcher/tmp/propelauth-flask-2.1.9.tar.gz]
+[2024-04-08 10:10:28] INFO root fetch - main [MainThread]: End processing [propelauth-flask]: success
+[2024-04-08 10:10:29] INFO root fetch - processPackages [df-qc-tools]: Remove: archive file [/home/abi/fetcher/tmp/df_qc_tools-0.0.1.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - processPackages [df-qc-tools]: Remove: archive file [/home/abi/fetcher/tmp/df_qc_tools-0.0.2.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - main [MainThread]: End processing [df-qc-tools]: success
+[2024-04-08 10:10:29] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2024-04-08 10:10:29] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.8.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.9.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
+[2024-04-08 10:10:29] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240406.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240407.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-08 10:10:29] INFO root fetch - processPackages [RFEM]: Remove: archive file [/home/abi/fetcher/tmp/RFEM-1.7.0.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - processPackages [RFEM]: Remove: archive file [/home/abi/fetcher/tmp/RFEM-1.8.0.tar.gz]
+[2024-04-08 10:10:29] INFO root fetch - main [MainThread]: End processing [RFEM]: success
+[2024-04-08 10:10:30] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.0.tar.gz]
+[2024-04-08 10:10:30] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
+[2024-04-08 10:10:30] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2024-04-08 10:10:30] INFO root fetch - main [MainThread]: Store serial: [22663893]
