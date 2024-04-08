@@ -23567,3 +23567,1121 @@ EOFError: EOF read where object expected
 [2024-04-08 15:41:36] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
 [2024-04-08 15:41:36] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-08 15:41:36] INFO root fetch - main [MainThread]: Store serial: [22667999]
+[2024-04-08 16:07:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667999]
+[2024-04-08 16:07:54] INFO root fetch - main [MainThread]: Found 109 changed packages
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-protos
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: excellaint
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: large-image-source-test
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sirji-agents
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-sdk
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-telemetry
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-source-tiff
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-utils
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mitransient
+[2024-04-08 16:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-tifffile
+[2024-04-08 16:07:55] INFO root fetch - processPackages [excellaint]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-08 16:07:55] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [mitransient]: Skipping, unable to determine old version
+[2024-04-08 16:07:55] INFO root fetch - processPackages [mitransient]: Start processing: taipy-core
+[2024-04-08 16:07:55] INFO root fetch - main [MainThread]: End processing [mitransient] error
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.2.post409] Old Version: [2.46.1.post408]
+[2024-04-08 16:07:55] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:07:55] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 16:07:55] INFO root fetch - processPackages [taipy-core]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 16:07:55] INFO root fetch - processPackages [excellaint]: Downloading https://files.pythonhosted.org/packages/10/ae/9f5bca4093d463d9d2be02207419b16cc9128a50e2eae8f614e57acede68/excellaint-0.0.1.tar.gz
+[2024-04-08 16:07:55] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-04-08 16:07:55] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/fd/52/14a7fe1babd93db23d6f397072264a1f142b2e82f10d6185ccb3049efc22/nucliadb_telemetry-2.46.1.post408-py3-none-any.whl
+[2024-04-08 16:07:55] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/8d/5f/0655a339ab1bb6dda15d0c4e174a5c2f0eae690a497018f912f490f67c26/large-image-source-test-1.9.1.dev6.tar.gz
+[2024-04-08 16:07:55] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/43/7e/a87cb87b4ceee6672d61babd68675fe30fa19e5a9ce41be12db36ccbeabe/large-image-source-tifffile-1.27.5.dev8.tar.gz
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [excellaint]: Timeout reached during download
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-08 16:07:55] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/f2/f1/74f765beef5f63f928f79995e9e96da81465edc00abc4e13135ebc9c6476/taipy-core-3.1.0.tar.gz
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [large-image-source-tifffile]: Timeout reached during download
+[2024-04-08 16:07:55] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [large-image-source-test]: Timeout reached during download
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-08 16:07:55] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [taipy-core]: Timeout reached during download
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-08 16:07:55] INFO root fetch - processPackages [excellaint]: Downloading https://files.pythonhosted.org/packages/db/e6/32ee0bd2afb8c94d071ff36814efc01a1828d644ea336ac39b5c9b1c0c9e/excellaint-0.1.0.tar.gz
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/67/15/f27c3d2898b2b881c2572ce4cf7b3d43350a9d6df2ddec00a1d2ae95b01f/nucliadb_telemetry-2.46.2.post409-py3-none-any.whl
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [large-image-source-tiff]: Timeout reached during download
+[2024-04-08 16:07:55] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/6c/52/b863313751b2cf1efc96557c639944027ef1db00dedd386ad79707764cfe/large-image-source-test-1.9.1.dev8.tar.gz
+[2024-04-08 16:07:55] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/95/8c/c99351c4aaed907960d6897d10c50126cc94f3b40996c1dc466be59d91ae/large-image-source-tifffile-1.27.5.dev99.tar.gz
+[2024-04-08 16:07:55] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-08 16:07:55] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240408/s/sirji-agents/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 16:07:56] WARNING root fetch - processPackages [excellaint]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [excellaint]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [excellaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excellaint-0.0.1.tar.gz tmp/excellaint-0.1.0.tar.gz --markdown 20240408/e/excellaint/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-08 16:07:56] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-08 16:07:56] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/43/21/a581c2133a348478f78796416762fd6e1cee3119adc17fbc5338453d8ee1/taipy-core-3.1.1.tar.gz
+[2024-04-08 16:07:56] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 16:07:56] WARNING root fetch - processPackages [large-image-source-tifffile]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.27.5.dev8.tar.gz tmp/large-image-source-tifffile-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-tifffile/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:07:56] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.1.post408-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.2.post409-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-telemetry/2.46.1.post408-2.46.2.post409/diff.md --exclude *.pyd
+[2024-04-08 16:07:56] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2024-04-08 16:07:56] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 16:07:56] WARNING root fetch - processPackages [large-image-source-test]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:07:56] WARNING root fetch - processPackages [taipy-core]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [taipy-core]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [taipy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-core-3.1.0.tar.gz tmp/taipy-core-3.1.1.tar.gz --markdown 20240408/t/taipy-core/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-08 16:07:56] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 16:07:56] WARNING root fetch - processPackages [large-image-source-tiff]: Timeout reached during download
+[2024-04-08 16:07:56] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2024-04-08 16:07:56] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:07:57] INFO root fetch - processPackages [excellaint]: Remove: archive file [/home/abi/fetcher/tmp/excellaint-0.0.1.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [excellaint]: Remove: archive file [/home/abi/fetcher/tmp/excellaint-0.1.0.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [excellaint]: Start processing: large-image-source-vips
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [excellaint]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev6.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev8.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-test]: Start processing: large-image-source-zarr
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: scyan
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.27.5.dev8.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.27.5.dev99.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-tifffile]: Start processing: taipy-gui
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [scyan]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-zarr]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [sirji-agents]: Start processing: music-assistant
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-utils]: Start processing: strangeworks-optimization
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [taipy-gui]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/42/8b/8e5ed63322e9cd80876e689358f0022376b17993a71418eff701a5a95998/large-image-source-vips-1.27.5.dev8.tar.gz
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-protos]: Start processing: taipy-rest
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b133] Old Version: [2.0.0b132]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post408-py3-none-any.whl.zip]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.2.post409-py3-none-any.whl.zip]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [nucliadb-telemetry]: Start processing: responses-validator
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [scyan]: Downloading https://files.pythonhosted.org/packages/3f/61/a6feaa55645229d3f6c67effd569d303bed294c80506f2778ff97011494e/scyan-1.6.0.tar.gz
+[2024-04-08 16:07:57] INFO root fetch - processPackages [strangeworks-optimization]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/4f/64/6a0c7b2be293d1001babe8ff01de1d9b2ab1ff0be3521b3442208daf0047/large-image-source-zarr-1.27.5.dev8.tar.gz
+[2024-04-08 16:07:57] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/df/e8/102dadea75d11ff10b0464ec2b35517d928d9f213117a9da19c8696dbfaa/taipy-gui-3.1.0.tar.gz
+[2024-04-08 16:07:57] WARNING root fetch - processPackages [large-image-source-vips]: Timeout reached during download
+[2024-04-08 16:07:57] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-3.1.0.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-3.1.1.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [taipy-core]: Start processing: odk-tools
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [taipy-core]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [taipy-rest]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [responses-validator]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2024-04-08 16:07:57] INFO root fetch - processPackages [large-image-source-tiff]: Start processing: erlab
+[2024-04-08 16:07:57] WARNING root fetch - processPackages [scyan]: Timeout reached during download
+[2024-04-08 16:07:57] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2024-04-08 16:07:57] INFO root fetch - processPackages [strangeworks-optimization]: Downloading https://files.pythonhosted.org/packages/36/bc/06ee37d24cf00f2b5e86d3bf84d1e0e1e18f4f07366c48e911874931d9bd/strangeworks_optimization-0.2.8.tar.gz
+[2024-04-08 16:07:57] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/9f/3d/d362fd9ab6f72f0bd081462781b6c0183164a5e6b03bc1431b2923c53953/music_assistant-2.0.0b132.tar.gz
+[2024-04-08 16:07:57] INFO root fetch - processPackages [odk-tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [large-image-source-zarr]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/43/30/ac1e3f35fa139e0e7beface4bccf9d9ada9ba2bc021d659a6898b48f4541/large-image-source-vips-1.27.5.dev99.tar.gz
+[2024-04-08 16:07:58] INFO root fetch - processPackages [responses-validator]: Downloading https://files.pythonhosted.org/packages/77/6a/7028532eb6bc66a20ecb91be18cdfa259f675d3710de5de52862c7aa8edb/responses_validator-0.1.1-cp312-cp312-win_amd64.whl
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 15891793>=10485760
+[2024-04-08 16:07:58] INFO root fetch - processPackages [music-assistant]: Start processing: deepsearch-glm
+[2024-04-08 16:07:58] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2024-04-08 16:07:58] INFO root fetch - processPackages [erlab]: New version: [2.0.0] Old Version: [1.6.5]
+[2024-04-08 16:07:58] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/10/43/aa9fe9753d1f22997ce55a0fb0316ffafccd2c7ed71c043481deb3136b3b/taipy-rest-3.1.0.tar.gz
+[2024-04-08 16:07:58] INFO root fetch - processPackages [scyan]: Downloading https://files.pythonhosted.org/packages/31/54/70b515ee063bbdbf7cf11645c3c802e8d4d3c199383b556a1c0af5f420f1/scyan-1.6.1.tar.gz
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [strangeworks-optimization]: Timeout reached during download
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [taipy-gui]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [odk-tools]: Downloading https://files.pythonhosted.org/packages/28/1e/43674d9e24f919cfcbc7903cf6bd3e72724c7aa8cbd3ef669a942ce8a448/odk_tools-0.0.6.tar.gz
+[2024-04-08 16:07:58] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/43/13/fb77d5a96e67764bc32805e9247a2f7ca6e38545c2e69e4c7eaeb311987f/large-image-source-zarr-1.27.5.dev99.tar.gz
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [taipy-rest]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [deepsearch-glm]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [scyan]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [scyan]: executing diffoscope
+[2024-04-08 16:07:58] INFO root fetch - processPackages [scyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scyan-1.6.0.tar.gz tmp/scyan-1.6.1.tar.gz --markdown 20240408/s/scyan/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [responses-validator]: Timeout reached during download
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [large-image-source-vips]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-04-08 16:07:58] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.27.5.dev8.tar.gz tmp/large-image-source-vips-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-vips/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:07:58] INFO root fetch - processPackages [strangeworks-optimization]: Downloading https://files.pythonhosted.org/packages/ff/3a/17e753672bb43ce89640a69d7d1e88d8faf9c4d66546ad40d6e36ad8f6c1/strangeworks_optimization-0.2.9.tar.gz
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [odk-tools]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/34/88/649b73153d1f4a6581a2ec3e479b32d9fa5b38bcb7ee74e2dff4a83088cf/taipy-gui-3.1.1.tar.gz
+[2024-04-08 16:07:58] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/40/9a/665778a48236733798e10c23553628eef6540b41d189710024599f160733/erlab-1.6.5.tar.gz
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [large-image-source-zarr]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [large-image-source-zarr]: executing diffoscope
+[2024-04-08 16:07:58] INFO root fetch - processPackages [large-image-source-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-zarr-1.27.5.dev8.tar.gz tmp/large-image-source-zarr-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-zarr/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:07:58] INFO root fetch - processPackages [taipy-rest]: Downloading https://files.pythonhosted.org/packages/86/2f/0113d171b5cad8b3e08b576c4b26bf91f6080d916bf68f106f3947cc11eb/taipy-rest-3.1.1.tar.gz
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [strangeworks-optimization]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [strangeworks-optimization]: executing diffoscope
+[2024-04-08 16:07:58] INFO root fetch - processPackages [strangeworks-optimization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_optimization-0.2.8.tar.gz tmp/strangeworks_optimization-0.2.9.tar.gz --markdown 20240408/s/strangeworks-optimization/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 16:07:58] INFO root fetch - processPackages [responses-validator]: Downloading https://files.pythonhosted.org/packages/0c/93/65a5fcb59443f645ca80d836714ac404af360d2c2a200c356feeeaaacc2d/responses_validator-0.1.2-cp312-cp312-win_amd64.whl
+[2024-04-08 16:07:58] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/9b/9e/e3aec9901c93140a9ce87412641f030d7e333289633728170b0e46f96459/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-08 16:07:58] INFO root fetch - processPackages [odk-tools]: Downloading https://files.pythonhosted.org/packages/e6/20/a17abfeafb56cdfc716385a7ecfc4f693a9e1b0f0fc898388775a89f691b/odk_tools-0.0.7.tar.gz
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [taipy-rest]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [taipy-rest]: executing diffoscope
+[2024-04-08 16:07:58] INFO root fetch - processPackages [taipy-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-rest-3.1.0.tar.gz tmp/taipy-rest-3.1.1.tar.gz --markdown 20240408/t/taipy-rest/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [responses-validator]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [responses-validator]: executing diffoscope
+[2024-04-08 16:07:58] INFO root fetch - processPackages [responses-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responses_validator-0.1.1-cp312-cp312-win_amd64.whl.zip tmp/responses_validator-0.1.2-cp312-cp312-win_amd64.whl.zip --markdown 20240408/r/responses-validator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [taipy-gui]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [taipy-gui]: executing diffoscope
+[2024-04-08 16:07:58] INFO root fetch - processPackages [taipy-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-gui-3.1.0.tar.gz tmp/taipy-gui-3.1.1.tar.gz --markdown 20240408/t/taipy-gui/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-08 16:07:58] WARNING root fetch - processPackages [odk-tools]: Timeout reached during download
+[2024-04-08 16:07:58] INFO root fetch - processPackages [odk-tools]: executing diffoscope
+[2024-04-08 16:07:58] INFO root fetch - processPackages [odk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odk_tools-0.0.6.tar.gz tmp/odk_tools-0.0.7.tar.gz --markdown 20240408/o/odk-tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-08 16:07:59] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.27.5.dev8.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.27.5.dev99.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [large-image-source-vips]: Start processing: assemblyline-service-client
+[2024-04-08 16:07:59] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-04-08 16:07:59] INFO root fetch - processPackages [scyan]: Remove: archive file [/home/abi/fetcher/tmp/scyan-1.6.0.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [scyan]: Remove: archive file [/home/abi/fetcher/tmp/scyan-1.6.1.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [scyan]: Start processing: assemblyline-service-server
+[2024-04-08 16:07:59] INFO root fetch - main [MainThread]: End processing [scyan]: success
+[2024-04-08 16:07:59] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.27.5.dev8.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.27.5.dev99.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [large-image-source-zarr]: Start processing: sbmp
+[2024-04-08 16:07:59] INFO root fetch - main [MainThread]: End processing [large-image-source-zarr]: success
+[2024-04-08 16:07:59] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.5.1.dev8] Old Version: [4.5.1.dev70]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [strangeworks-optimization]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_optimization-0.2.8.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [strangeworks-optimization]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_optimization-0.2.9.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [strangeworks-optimization]: Start processing: assemblyline-ui
+[2024-04-08 16:07:59] INFO root fetch - main [MainThread]: End processing [strangeworks-optimization]: success
+[2024-04-08 16:07:59] WARNING root fetch - processPackages [deepsearch-glm]: Timeout reached during download
+[2024-04-08 16:07:59] INFO root fetch - processPackages [sbmp]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [responses-validator]: Remove: archive file [/home/abi/fetcher/tmp/responses_validator-0.1.1-cp312-cp312-win_amd64.whl.zip]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [responses-validator]: Remove: archive file [/home/abi/fetcher/tmp/responses_validator-0.1.2-cp312-cp312-win_amd64.whl.zip]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [responses-validator]: Start processing: assemblyline-v4-service
+[2024-04-08 16:07:59] INFO root fetch - main [MainThread]: End processing [responses-validator]: success
+[2024-04-08 16:07:59] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a5/16/d0f3610d0338e178c42f26ad0280cd437a8c242f2ca2cefc55521990efcf/assemblyline_service_client-4.5.1.dev70-py3-none-any.whl
+[2024-04-08 16:07:59] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-3.1.0.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [taipy-rest]: Remove: archive file [/home/abi/fetcher/tmp/taipy-rest-3.1.1.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [taipy-rest]: Start processing: taipy-templates
+[2024-04-08 16:07:59] INFO root fetch - main [MainThread]: End processing [taipy-rest]: success
+[2024-04-08 16:07:59] INFO root fetch - processPackages [odk-tools]: Remove: archive file [/home/abi/fetcher/tmp/odk_tools-0.0.6.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [odk-tools]: Remove: archive file [/home/abi/fetcher/tmp/odk_tools-0.0.7.tar.gz]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [odk-tools]: Start processing: assemblyline
+[2024-04-08 16:07:59] INFO root fetch - main [MainThread]: End processing [odk-tools]: success
+[2024-04-08 16:07:59] INFO root fetch - processPackages [sbmp]: Downloading https://files.pythonhosted.org/packages/35/c3/e0cc919768665d5baf51ffd6a7bb2d6163106a4f8ce0b284c117261d6e02/sbmp-2.0.0.tar.gz
+[2024-04-08 16:07:59] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.5.1.dev8] Old Version: [4.5.1.dev70]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/a7/b4/b6e4a1f599dd8c5b22a644ee41f01aa39b5fad5698dce6be0e003fdd6457/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-08 16:07:59] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.5.1.dev8] Old Version: [4.5.1.dev70]
+[2024-04-08 16:07:59] WARNING root fetch - processPackages [assemblyline-service-client]: Timeout reached during download
+[2024-04-08 16:07:59] WARNING root fetch - processPackages [erlab]: Timeout reached during download
+[2024-04-08 16:07:59] INFO root fetch - processPackages [taipy-templates]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-08 16:07:59] WARNING root fetch - processPackages [sbmp]: Timeout reached during download
+[2024-04-08 16:07:59] INFO root fetch - processPackages [assemblyline]: New version: [4.5.1.dev8] Old Version: [4.5.1.dev70]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/12/8c/0d415ae738281f95abd88a2ef7656f5e4df3a16d258e3c619ad73feb970a/assemblyline_ui-4.5.1.dev70-py3-none-any.whl
+[2024-04-08 16:07:59] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/8c/9e/e4849bb5e790a36672ea685091745d82428c09d309e22960d9cae61721d3/assemblyline_v4_service-4.5.1.dev70-py3-none-any.whl
+[2024-04-08 16:07:59] INFO root fetch - processPackages [taipy-templates]: Downloading https://files.pythonhosted.org/packages/7a/09/049bb091694980e6364ada96661356eeabb566f2673447b1ee887eedf589/taipy-templates-3.1.0.tar.gz
+[2024-04-08 16:07:59] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/59/71/cb920f39a4f44f6d0d617f6b633858c8b04ddedd257f91b6e1a0a7023ba9/assemblyline_service_client-4.5.1.dev8-py3-none-any.whl
+[2024-04-08 16:07:59] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.5.1.dev8] Old Version: [4.5.1.dev70]
+[2024-04-08 16:07:59] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/83/16/0295f27b85914f332ed9b1104afbcbbb449222e8a4d32a6c52e3a11e06fb/erlab-2.0.0.tar.gz
+[2024-04-08 16:07:59] INFO root fetch - processPackages [sbmp]: Downloading https://files.pythonhosted.org/packages/86/c7/3852ceecc44745f976f60a06febe0473b2b2a55a06a1c0f53cf09ae5bbad/sbmp-2.1.0.tar.gz
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/05/13/7d2195ac0e46b552e8d065f87a19788005a813ea51fd83c911a8debe0d56/assemblyline-4.5.1.dev70.tar.gz
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [assemblyline-v4-service]: Timeout reached during download
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [assemblyline-ui]: Timeout reached during download
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [assemblyline-service-client]: Timeout reached during download
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [taipy-templates]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.5.1.dev70-py3-none-any.whl.zip tmp/assemblyline_service_client-4.5.1.dev8-py3-none-any.whl.zip --markdown 20240408/a/assemblyline-service-client/4.5.1.dev70-4.5.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [sbmp]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [sbmp]: executing diffoscope
+[2024-04-08 16:08:00] INFO root fetch - processPackages [sbmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbmp-2.0.0.tar.gz tmp/sbmp-2.1.0.tar.gz --markdown 20240408/s/sbmp/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/a9/8b/5d5b8871b5a0ee1ad0f09b8e9109a4a17ce3747fce3bb140048c3e34a485/assemblyline_service_server-4.5.1.dev70-py3-none-any.whl
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/ee/7f/7e346588968347a5044e0dec407aaaab78548d3d11c0178c639b24b475b1/assemblyline_v4_service-4.5.1.dev8-py3-none-any.whl
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [assemblyline]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [taipy-templates]: Downloading https://files.pythonhosted.org/packages/c3/52/175cae8a33008a541c47a2d1fc6178bac4638aff0787a021cac5c74c4702/taipy-templates-3.1.1.tar.gz
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [assemblyline-service-server]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/ae/51/d8a13e31f9181b4a2a9d1c34568c101b743defd9b288570bca394b1bb6fb/assemblyline_ui-4.5.1.dev8-py3-none-any.whl
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [assemblyline-v4-service]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.5.1.dev70-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.5.1.dev8-py3-none-any.whl.zip --markdown 20240408/a/assemblyline-v4-service/4.5.1.dev70-4.5.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [taipy-templates]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [taipy-templates]: executing diffoscope
+[2024-04-08 16:08:00] INFO root fetch - processPackages [taipy-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-templates-3.1.0.tar.gz tmp/taipy-templates-3.1.1.tar.gz --markdown 20240408/t/taipy-templates/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [erlab]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-04-08 16:08:00] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-1.6.5.tar.gz tmp/erlab-2.0.0.tar.gz --markdown 20240408/e/erlab/1.6.5-2.0.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/18/6d/a7e92379ea8dd048967faba2bb7ece271e410c0dfd02905b2224edae0278/assemblyline_service_server-4.5.1.dev8-py3-none-any.whl
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/92/cd/0b991267ceb5722669d38f323e88364824cd252f0e1d8c5124aa39408e0c/assemblyline-4.5.1.dev8.tar.gz
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [assemblyline-ui]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.5.1.dev70-py3-none-any.whl.zip tmp/assemblyline_ui-4.5.1.dev8-py3-none-any.whl.zip --markdown 20240408/a/assemblyline-ui/4.5.1.dev70-4.5.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [assemblyline-service-server]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.5.1.dev70-py3-none-any.whl.zip tmp/assemblyline_service_server-4.5.1.dev8-py3-none-any.whl.zip --markdown 20240408/a/assemblyline-service-server/4.5.1.dev70-4.5.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:08:00] WARNING root fetch - processPackages [assemblyline]: Timeout reached during download
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.5.1.dev70.tar.gz tmp/assemblyline-4.5.1.dev8.tar.gz --markdown 20240408/a/assemblyline/4.5.1.dev70-4.5.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev70-py3-none-any.whl.zip]
+[2024-04-08 16:08:00] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev8-py3-none-any.whl.zip]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-core
+[2024-04-08 16:08:01] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2024-04-08 16:08:01] INFO root fetch - processPackages [sbmp]: Remove: archive file [/home/abi/fetcher/tmp/sbmp-2.0.0.tar.gz]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [sbmp]: Remove: archive file [/home/abi/fetcher/tmp/sbmp-2.1.0.tar.gz]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [sbmp]: Start processing: balrogo
+[2024-04-08 16:08:01] INFO root fetch - main [MainThread]: End processing [sbmp]: success
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-core]: New version: [4.5.1.dev8] Old Version: [4.5.1.dev70]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [balrogo]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev70-py3-none-any.whl.zip]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev8-py3-none-any.whl.zip]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: qoqo-qryd
+[2024-04-08 16:08:01] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2024-04-08 16:08:01] INFO root fetch - processPackages [taipy-templates]: Remove: archive file [/home/abi/fetcher/tmp/taipy-templates-3.1.0.tar.gz]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [taipy-templates]: Remove: archive file [/home/abi/fetcher/tmp/taipy-templates-3.1.1.tar.gz]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [taipy-templates]: Start processing: taipy
+[2024-04-08 16:08:01] INFO root fetch - main [MainThread]: End processing [taipy-templates]: success
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/f9/41/b6ab36d97d773f72ef5babd34beb554bbbb0fde207b019cc66bca600db59/assemblyline-core-4.5.1.dev70.tar.gz
+[2024-04-08 16:08:01] INFO root fetch - processPackages [balrogo]: Downloading https://files.pythonhosted.org/packages/34/b1/5d867091fbfb3368395092aa97fa859eb67a8b90312a8faccefc038ceb22/balrogo-1.7.8.tar.gz
+[2024-04-08 16:08:01] INFO root fetch - processPackages [qoqo-qryd]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [taipy]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-08 16:08:01] WARNING root fetch - processPackages [assemblyline-core]: Timeout reached during download
+[2024-04-08 16:08:01] WARNING root fetch - processPackages [balrogo]: Timeout reached during download
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev70-py3-none-any.whl.zip]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev8-py3-none-any.whl.zip]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: shipyard-templates
+[2024-04-08 16:08:01] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2024-04-08 16:08:01] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/ca/2b/420d0f35aa32c463bc974eeb01922a2867936f072a8563a2eb31ef0fb5b4/qoqo_qryd-0.9.0.tar.gz
+[2024-04-08 16:08:01] INFO root fetch - processPackages [taipy]: Downloading https://files.pythonhosted.org/packages/65/fb/3b36e57cd8b8ec5b2d087dcd9482670cfb4f6227105a5de3ee4f1fe2f5fa/taipy-3.1.0.tar.gz
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev70-py3-none-any.whl.zip]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev8-py3-none-any.whl.zip]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-ui]: Start processing: nonebot-plugin-resolver
+[2024-04-08 16:08:01] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2024-04-08 16:08:01] INFO root fetch - processPackages [shipyard-templates]: New version: [0.8.2a0] Old Version: [0.8.1a1]
+[2024-04-08 16:08:01] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/2c/8a/65f2f1337e168bc5e0acc14d0fd060b67ef1e28407ddc8bc8a018e900359/assemblyline-core-4.5.1.dev8.tar.gz
+[2024-04-08 16:08:01] INFO root fetch - processPackages [balrogo]: Downloading https://files.pythonhosted.org/packages/11/57/2e4c9dbe83338087c26d1a12c692cb9cd1629ec502b3299adf787c4cb0ef/balrogo-1.7.9.tar.gz
+[2024-04-08 16:08:01] WARNING root fetch - processPackages [deepsearch-glm]: Timeout reached during download
+[2024-04-08 16:08:01] INFO root fetch - processPackages [deepsearch-glm]: executing diffoscope
+[2024-04-08 16:08:01] INFO root fetch - processPackages [deepsearch-glm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240408/d/deepsearch-glm/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 16:08:01] WARNING root fetch - processPackages [qoqo-qryd]: Timeout reached during download
+[2024-04-08 16:08:01] INFO root fetch - processPackages [nonebot-plugin-resolver]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [balrogo]: Timeout reached during download
+[2024-04-08 16:08:02] INFO root fetch - processPackages [balrogo]: executing diffoscope
+[2024-04-08 16:08:02] INFO root fetch - processPackages [balrogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balrogo-1.7.8.tar.gz tmp/balrogo-1.7.9.tar.gz --markdown 20240408/b/balrogo/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:02] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/55/f4/9152887f2f31b2ff241c4bfb83d0958af986907d4ae68c6654c3d6622278/shipyard_templates-0.8.1a1.tar.gz
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [assemblyline-core]: Timeout reached during download
+[2024-04-08 16:08:02] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2024-04-08 16:08:02] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.5.1.dev70.tar.gz tmp/assemblyline-core-4.5.1.dev8.tar.gz --markdown 20240408/a/assemblyline-core/4.5.1.dev70-4.5.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:08:02] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/20/4b/b71b2f7099b08f81210a20bbd536b745654112786815e9d23b55b697a407/qoqo_qryd-0.9.1.tar.gz
+[2024-04-08 16:08:02] INFO root fetch - processPackages [nonebot-plugin-resolver]: Downloading https://files.pythonhosted.org/packages/88/54/857412fe6bbfe439887833b37c3585e8c97abcb84abb04add963660e8a27/nonebot_plugin_resolver-1.0.8.tar.gz
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [shipyard-templates]: Timeout reached during download
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [qoqo-qryd]: Timeout reached during download
+[2024-04-08 16:08:02] INFO root fetch - processPackages [qoqo-qryd]: executing diffoscope
+[2024-04-08 16:08:02] INFO root fetch - processPackages [qoqo-qryd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qryd-0.9.0.tar.gz tmp/qoqo_qryd-0.9.1.tar.gz --markdown 20240408/q/qoqo-qryd/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [taipy]: Timeout reached during download
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [nonebot-plugin-resolver]: Timeout reached during download
+[2024-04-08 16:08:02] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/16/d5/448c49c73f2d806267897298cb88b070484818db6704906ddc4095c2d1e0/shipyard_templates-0.8.2a0.tar.gz
+[2024-04-08 16:08:02] INFO root fetch - processPackages [taipy]: Downloading https://files.pythonhosted.org/packages/45/8c/9aca7b912c23cabf5f146a90243d8694b525f54e758476791af8a2e62938/taipy-3.1.1.tar.gz
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [shipyard-templates]: Timeout reached during download
+[2024-04-08 16:08:02] INFO root fetch - processPackages [shipyard-templates]: executing diffoscope
+[2024-04-08 16:08:02] INFO root fetch - processPackages [shipyard-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_templates-0.8.1a1.tar.gz tmp/shipyard_templates-0.8.2a0.tar.gz --markdown 20240408/s/shipyard-templates/0.8.1a1-0.8.2a0/diff.md --exclude *.pyd
+[2024-04-08 16:08:02] INFO root fetch - processPackages [nonebot-plugin-resolver]: Downloading https://files.pythonhosted.org/packages/51/a7/510bd8c201f4db070bbc88a1b7c29f9640737628810f3c87d503898dfb6b/nonebot_plugin_resolver-1.0.9.tar.gz
+[2024-04-08 16:08:02] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev70.tar.gz]
+[2024-04-08 16:08:02] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev8.tar.gz]
+[2024-04-08 16:08:02] INFO root fetch - processPackages [assemblyline]: Start processing: directus-sdk-py
+[2024-04-08 16:08:02] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [nonebot-plugin-resolver]: Timeout reached during download
+[2024-04-08 16:08:02] INFO root fetch - processPackages [nonebot-plugin-resolver]: executing diffoscope
+[2024-04-08 16:08:02] INFO root fetch - processPackages [nonebot-plugin-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_resolver-1.0.8.tar.gz tmp/nonebot_plugin_resolver-1.0.9.tar.gz --markdown 20240408/n/nonebot-plugin-resolver/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [directus-sdk-py]: Skipping, unable to determine old version
+[2024-04-08 16:08:02] INFO root fetch - processPackages [directus-sdk-py]: Start processing: bev
+[2024-04-08 16:08:02] INFO root fetch - main [MainThread]: End processing [directus-sdk-py] error
+[2024-04-08 16:08:02] INFO root fetch - processPackages [balrogo]: Remove: archive file [/home/abi/fetcher/tmp/balrogo-1.7.8.tar.gz]
+[2024-04-08 16:08:02] INFO root fetch - processPackages [balrogo]: Remove: archive file [/home/abi/fetcher/tmp/balrogo-1.7.9.tar.gz]
+[2024-04-08 16:08:02] INFO root fetch - processPackages [balrogo]: Start processing: shipyard-dbt
+[2024-04-08 16:08:02] INFO root fetch - main [MainThread]: End processing [balrogo]: success
+[2024-04-08 16:08:02] WARNING root fetch - processPackages [taipy]: Timeout reached during download
+[2024-04-08 16:08:02] INFO root fetch - processPackages [taipy]: executing diffoscope
+[2024-04-08 16:08:02] INFO root fetch - processPackages [taipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-3.1.0.tar.gz tmp/taipy-3.1.1.tar.gz --markdown 20240408/t/taipy/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-08 16:08:03] INFO root fetch - processPackages [bev]: New version: [0.9.1] Old Version: [0.9.0.post1]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [shipyard-dbt]: New version: [0.2.0a0] Old Version: [0.1.0]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [bev]: Downloading https://files.pythonhosted.org/packages/8e/f6/971804a95037c37dfb32517f8999f5783e6390fbf7f7c19ab3f81593cd34/bev-0.9.0.post1.tar.gz
+[2024-04-08 16:08:03] INFO root fetch - processPackages [shipyard-dbt]: Downloading https://files.pythonhosted.org/packages/8b/3b/806ad8e6f111c5ebcc9e64e929a198f3686e4b856ff01bf9ad30b8e17b85/shipyard_dbt-0.1.0.tar.gz
+[2024-04-08 16:08:03] WARNING root fetch - processPackages [bev]: Timeout reached during download
+[2024-04-08 16:08:03] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev70.tar.gz]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev8.tar.gz]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [assemblyline-core]: Start processing: carvekit
+[2024-04-08 16:08:03] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2024-04-08 16:08:03] WARNING root fetch - processPackages [shipyard-dbt]: Timeout reached during download
+[2024-04-08 16:08:03] INFO root fetch - processPackages [shipyard-templates]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_templates-0.8.1a1.tar.gz]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [shipyard-templates]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_templates-0.8.2a0.tar.gz]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [shipyard-templates]: Start processing: tmlt-analytics
+[2024-04-08 16:08:03] INFO root fetch - main [MainThread]: End processing [shipyard-templates]: success
+[2024-04-08 16:08:03] INFO root fetch - processPackages [carvekit]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [tmlt-analytics]: New version: [0.9.0rc5] Old Version: [0.8.3]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [bev]: Downloading https://files.pythonhosted.org/packages/7d/2c/86b445a4565fddd55476c855fbb1607d499c5a09835ced1dd475829e9e2a/bev-0.9.1.tar.gz
+[2024-04-08 16:08:03] INFO root fetch - processPackages [shipyard-dbt]: Downloading https://files.pythonhosted.org/packages/09/df/17c23fc2cde17e47a05eadcc5b4f1bb2872516b30c0e1d5cdee2070bbbc1/shipyard_dbt-0.2.0a0.tar.gz
+[2024-04-08 16:08:03] INFO root fetch - processPackages [nonebot-plugin-resolver]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_resolver-1.0.8.tar.gz]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [nonebot-plugin-resolver]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_resolver-1.0.9.tar.gz]
+[2024-04-08 16:08:03] INFO root fetch - processPackages [nonebot-plugin-resolver]: Start processing: carvekit-colab
+[2024-04-08 16:08:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-resolver]: success
+[2024-04-08 16:08:03] INFO root fetch - processPackages [carvekit]: Downloading https://files.pythonhosted.org/packages/d2/e3/bc6fba9eec968ae51521fe71a067dba6952f8523e8e46c99d2b8b116a46d/carvekit-4.1.1.tar.gz
+[2024-04-08 16:08:03] WARNING root fetch - processPackages [bev]: Timeout reached during download
+[2024-04-08 16:08:03] WARNING root fetch - processPackages [shipyard-dbt]: Timeout reached during download
+[2024-04-08 16:08:03] INFO root fetch - processPackages [bev]: executing diffoscope
+[2024-04-08 16:08:03] INFO root fetch - processPackages [bev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bev-0.9.0.post1.tar.gz tmp/bev-0.9.1.tar.gz --markdown 20240408/b/bev/0.9.0.post1-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 16:08:03] INFO root fetch - processPackages [shipyard-dbt]: executing diffoscope
+[2024-04-08 16:08:03] INFO root fetch - processPackages [shipyard-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_dbt-0.1.0.tar.gz tmp/shipyard_dbt-0.2.0a0.tar.gz --markdown 20240408/s/shipyard-dbt/0.1.0-0.2.0a0/diff.md --exclude *.pyd
+[2024-04-08 16:08:03] INFO root fetch - processPackages [tmlt-analytics]: Downloading https://files.pythonhosted.org/packages/5f/c1/4ead235bb09317e80c0116cabcbe0c51a7cef31e613863d819597ccb5ded/tmlt_analytics-0.8.3.tar.gz
+[2024-04-08 16:08:03] INFO root fetch - processPackages [carvekit-colab]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-04-08 16:08:03] WARNING root fetch - processPackages [carvekit]: Timeout reached during download
+[2024-04-08 16:08:04] INFO root fetch - processPackages [carvekit-colab]: Downloading https://files.pythonhosted.org/packages/1f/a7/a1f22c6a803ad2bce14269f7ae113c59b172fd7fd395654dfec934f3f43f/carvekit_colab-4.1.1.tar.gz
+[2024-04-08 16:08:04] INFO root fetch - processPackages [carvekit]: Downloading https://files.pythonhosted.org/packages/cb/bf/b367de54ff7533ffc268974c685b911d1867b9d33aa1d48aca08ed6ec9dd/carvekit-4.1.2.tar.gz
+[2024-04-08 16:08:04] WARNING root fetch - processPackages [tmlt-analytics]: Timeout reached during download
+[2024-04-08 16:08:04] WARNING root fetch - processPackages [carvekit-colab]: Timeout reached during download
+[2024-04-08 16:08:04] WARNING root fetch - processPackages [carvekit]: Timeout reached during download
+[2024-04-08 16:08:04] INFO root fetch - processPackages [carvekit]: executing diffoscope
+[2024-04-08 16:08:04] INFO root fetch - processPackages [carvekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carvekit-4.1.1.tar.gz tmp/carvekit-4.1.2.tar.gz --markdown 20240408/c/carvekit/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2024-04-08 16:08:04] INFO root fetch - processPackages [tmlt-analytics]: Downloading https://files.pythonhosted.org/packages/00/4d/d6a65e54d3e290917d00f52bf8e1a3a2682a16b8eeb901113fb4cc07b81d/tmlt_analytics-0.9.0rc5.tar.gz
+[2024-04-08 16:08:04] INFO root fetch - processPackages [carvekit-colab]: Downloading https://files.pythonhosted.org/packages/1d/18/97d9f4c1b1659982866f86b260285c088f4ffde2ec6de84a60baba19a737/carvekit_colab-4.1.2.tar.gz
+[2024-04-08 16:08:04] WARNING root fetch - processPackages [carvekit-colab]: Timeout reached during download
+[2024-04-08 16:08:04] INFO root fetch - processPackages [carvekit-colab]: executing diffoscope
+[2024-04-08 16:08:04] INFO root fetch - processPackages [carvekit-colab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carvekit_colab-4.1.1.tar.gz tmp/carvekit_colab-4.1.2.tar.gz --markdown 20240408/c/carvekit-colab/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2024-04-08 16:08:04] INFO root fetch - processPackages [shipyard-dbt]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_dbt-0.1.0.tar.gz]
+[2024-04-08 16:08:04] INFO root fetch - processPackages [shipyard-dbt]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_dbt-0.2.0a0.tar.gz]
+[2024-04-08 16:08:04] INFO root fetch - processPackages [shipyard-dbt]: Start processing: asyncscope
+[2024-04-08 16:08:04] INFO root fetch - main [MainThread]: End processing [shipyard-dbt]: success
+[2024-04-08 16:08:04] WARNING root fetch - processPackages [tmlt-analytics]: Timeout reached during download
+[2024-04-08 16:08:04] INFO root fetch - processPackages [tmlt-analytics]: executing diffoscope
+[2024-04-08 16:08:04] INFO root fetch - processPackages [tmlt-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmlt_analytics-0.8.3.tar.gz tmp/tmlt_analytics-0.9.0rc5.tar.gz --markdown 20240408/t/tmlt-analytics/0.8.3-0.9.0rc5/diff.md --exclude *.pyd
+[2024-04-08 16:08:04] INFO root fetch - processPackages [bev]: Remove: archive file [/home/abi/fetcher/tmp/bev-0.9.0.post1.tar.gz]
+[2024-04-08 16:08:04] INFO root fetch - processPackages [bev]: Remove: archive file [/home/abi/fetcher/tmp/bev-0.9.1.tar.gz]
+[2024-04-08 16:08:04] INFO root fetch - processPackages [bev]: Start processing: btc-embedded
+[2024-04-08 16:08:04] INFO root fetch - main [MainThread]: End processing [bev]: success
+[2024-04-08 16:08:04] INFO root fetch - processPackages [asyncscope]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-08 16:08:04] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.6] Old Version: [24.1.5]
+[2024-04-08 16:08:05] INFO root fetch - processPackages [asyncscope]: Downloading https://files.pythonhosted.org/packages/c3/8a/76392e99e9c4e22bc359a7f06e07a73c220ac461e11a3ff26acc5ccd8373/asyncscope-0.9.2.tar.gz
+[2024-04-08 16:08:05] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/8b/e8/9e00e79b018e905f39d99897ba81460a4b885356f929a725f6e9351948bc/btc_embedded-24.1.5.tar.gz
+[2024-04-08 16:08:05] WARNING root fetch - processPackages [asyncscope]: Timeout reached during download
+[2024-04-08 16:08:05] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-08 16:08:05] INFO root fetch - processPackages [carvekit]: Remove: archive file [/home/abi/fetcher/tmp/carvekit-4.1.1.tar.gz]
+[2024-04-08 16:08:05] INFO root fetch - processPackages [asyncscope]: Downloading https://files.pythonhosted.org/packages/49/c8/7f653399783e771381e8f35f1e5e36538417cfe5f9be8e227a8f3a3264af/asyncscope-0.9.3.tar.gz
+[2024-04-08 16:08:05] INFO root fetch - processPackages [carvekit]: Remove: archive file [/home/abi/fetcher/tmp/carvekit-4.1.2.tar.gz]
+[2024-04-08 16:08:05] INFO root fetch - processPackages [carvekit]: Start processing: wikiteam3
+[2024-04-08 16:08:05] INFO root fetch - main [MainThread]: End processing [carvekit]: success
+[2024-04-08 16:08:05] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-04-08 16:08:05] WARNING root fetch - processPackages [asyncscope]: Timeout reached during download
+[2024-04-08 16:08:05] INFO root fetch - processPackages [asyncscope]: executing diffoscope
+[2024-04-08 16:08:05] INFO root fetch - processPackages [asyncscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncscope-0.9.2.tar.gz tmp/asyncscope-0.9.3.tar.gz --markdown 20240408/a/asyncscope/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-08 16:08:05] INFO root fetch - processPackages [wikiteam3]: New version: [4.2.5] Old Version: [4.2.4]
+[2024-04-08 16:08:05] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-08 16:08:05] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-04-08 16:08:05] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.5.tar.gz tmp/btc_embedded-24.1.6.tar.gz --markdown 20240408/b/btc-embedded/24.1.5-24.1.6/diff.md --exclude *.pyd
+[2024-04-08 16:08:05] INFO root fetch - processPackages [qoqo-qryd]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qryd-0.9.0.tar.gz]
+[2024-04-08 16:08:05] INFO root fetch - processPackages [qoqo-qryd]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qryd-0.9.1.tar.gz]
+[2024-04-08 16:08:05] INFO root fetch - processPackages [qoqo-qryd]: Start processing: teo
+[2024-04-08 16:08:05] INFO root fetch - main [MainThread]: End processing [qoqo-qryd]: success
+[2024-04-08 16:08:05] INFO root fetch - processPackages [wikiteam3]: Downloading https://files.pythonhosted.org/packages/4a/2d/31fd017d9fa3e4b299128f438912b5b9abe66280ca895ba7cc802117d216/wikiteam3-4.2.4.tar.gz
+[2024-04-08 16:08:05] INFO root fetch - processPackages [carvekit-colab]: Remove: archive file [/home/abi/fetcher/tmp/carvekit_colab-4.1.1.tar.gz]
+[2024-04-08 16:08:05] INFO root fetch - processPackages [carvekit-colab]: Remove: archive file [/home/abi/fetcher/tmp/carvekit_colab-4.1.2.tar.gz]
+[2024-04-08 16:08:05] INFO root fetch - processPackages [carvekit-colab]: Start processing: django-xprez
+[2024-04-08 16:08:05] INFO root fetch - main [MainThread]: End processing [carvekit-colab]: success
+[2024-04-08 16:08:05] INFO root fetch - processPackages [teo]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 16:08:05] WARNING root fetch - processPackages [wikiteam3]: Timeout reached during download
+[2024-04-08 16:08:05] INFO root fetch - processPackages [django-xprez]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 16:08:06] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/b1/e9/d6c6c71d9ba363284528d0085e2537ab5241ca9c41177346095254276a2c/teo-0.2.8.tar.gz
+[2024-04-08 16:08:06] INFO root fetch - processPackages [wikiteam3]: Downloading https://files.pythonhosted.org/packages/c1/94/8003a09fff0759c0d4769038c00b3912feccccbf19417d65b1e02bd44329/wikiteam3-4.2.5.tar.gz
+[2024-04-08 16:08:06] INFO root fetch - processPackages [django-xprez]: Downloading https://files.pythonhosted.org/packages/2b/69/8ad2bec1ea11b7cb20e546c6b00aa578031ab63b577a0326c1c05ee9e86e/django_xprez-0.2.8.tar.gz
+[2024-04-08 16:08:06] WARNING root fetch - processPackages [wikiteam3]: Timeout reached during download
+[2024-04-08 16:08:06] INFO root fetch - processPackages [wikiteam3]: executing diffoscope
+[2024-04-08 16:08:06] INFO root fetch - processPackages [wikiteam3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikiteam3-4.2.4.tar.gz tmp/wikiteam3-4.2.5.tar.gz --markdown 20240408/w/wikiteam3/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2024-04-08 16:08:06] WARNING root fetch - processPackages [teo]: Timeout reached during download
+[2024-04-08 16:08:06] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.5.tar.gz]
+[2024-04-08 16:08:06] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-04-08 16:08:06] INFO root fetch - processPackages [btc-embedded]: Start processing: ssh-ca-cli
+[2024-04-08 16:08:06] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-04-08 16:08:06] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/1a/6e/79fac05caa23b6f8d6325ce41b4c00733012f08b4aee6cd1b1d45c11bd0a/teo-0.2.9.tar.gz
+[2024-04-08 16:08:06] INFO root fetch - processPackages [asyncscope]: Remove: archive file [/home/abi/fetcher/tmp/asyncscope-0.9.2.tar.gz]
+[2024-04-08 16:08:06] INFO root fetch - processPackages [asyncscope]: Remove: archive file [/home/abi/fetcher/tmp/asyncscope-0.9.3.tar.gz]
+[2024-04-08 16:08:06] INFO root fetch - processPackages [asyncscope]: Start processing: arion-library
+[2024-04-08 16:08:06] INFO root fetch - main [MainThread]: End processing [asyncscope]: success
+[2024-04-08 16:08:06] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-08 16:08:06] INFO root fetch - processPackages [arion-library]: New version: [1.1rc36.dev36] Old Version: [1.1rc35.dev35]
+[2024-04-08 16:08:06] WARNING root fetch - processPackages [teo]: Timeout reached during download
+[2024-04-08 16:08:06] INFO root fetch - processPackages [teo]: executing diffoscope
+[2024-04-08 16:08:06] INFO root fetch - processPackages [teo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teo-0.2.8.tar.gz tmp/teo-0.2.9.tar.gz --markdown 20240408/t/teo/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:06] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/e8/3d/5eeafb492b4deeb98085bbcc0be3d4c9a8b1a0275c452121ad735817e32e/ssh_ca_cli-0.7.8.tar.gz
+[2024-04-08 16:08:06] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/70/d1/539a0722468fa6fe92a5849b7d3c55272e718b7e0f52ccd463c84da8f449/arion_library-1.1rc35.dev35.tar.gz
+[2024-04-08 16:08:06] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:08:07] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 16:08:07] WARNING root fetch - processPackages [django-xprez]: Timeout reached during download
+[2024-04-08 16:08:07] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/d9/17/a7a0b2c1f4a0e962ee74fb64fccdd2513ec2311535cfa14bf692e46c5538/ssh_ca_cli-0.7.9.tar.gz
+[2024-04-08 16:08:07] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/73/19/c5d704271af3bafd026c7d524f505ffb03925fe00cdffc01d2e094ed6ac5/arion_library-1.1rc36.dev36.tar.gz
+[2024-04-08 16:08:07] INFO root fetch - processPackages [django-xprez]: Downloading https://files.pythonhosted.org/packages/58/fb/a1a5ab07be3472543dc9c27cbe8f56d6032e3c72bfd39ffcfa14c31c9ca6/django_xprez-0.2.9.tar.gz
+[2024-04-08 16:08:07] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:08:07] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 16:08:07] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.8.tar.gz tmp/ssh_ca_cli-0.7.9.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:07] INFO root fetch - processPackages [wikiteam3]: Remove: archive file [/home/abi/fetcher/tmp/wikiteam3-4.2.4.tar.gz]
+[2024-04-08 16:08:07] INFO root fetch - processPackages [wikiteam3]: Remove: archive file [/home/abi/fetcher/tmp/wikiteam3-4.2.5.tar.gz]
+[2024-04-08 16:08:07] INFO root fetch - processPackages [wikiteam3]: Start processing: netpywork
+[2024-04-08 16:08:07] INFO root fetch - main [MainThread]: End processing [wikiteam3]: success
+[2024-04-08 16:08:07] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 16:08:07] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 16:08:07] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc35.dev35.tar.gz tmp/arion_library-1.1rc36.dev36.tar.gz --markdown 20240408/a/arion-library/1.1rc35.dev35-1.1rc36.dev36/diff.md --exclude *.pyd
+[2024-04-08 16:08:07] INFO root fetch - processPackages [netpywork]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 16:08:07] INFO root fetch - processPackages [netpywork]: Downloading https://files.pythonhosted.org/packages/3f/77/6c646eadd1a6eda6e78a76f6ab5a605c6860a2fab41e8391d85d6a7de4a7/netpywork-0.0.2.tar.gz
+[2024-04-08 16:08:07] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.8.tar.gz]
+[2024-04-08 16:08:07] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.9.tar.gz]
+[2024-04-08 16:08:07] INFO root fetch - processPackages [teo]: Start processing: nextconsole
+[2024-04-08 16:08:07] INFO root fetch - main [MainThread]: End processing [teo]: success
+[2024-04-08 16:08:07] WARNING root fetch - processPackages [netpywork]: Timeout reached during download
+[2024-04-08 16:08:07] INFO root fetch - processPackages [nextconsole]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [tmlt-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tmlt_analytics-0.8.3.tar.gz]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [tmlt-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tmlt_analytics-0.9.0rc5.tar.gz]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [tmlt-analytics]: Start processing: tensordict-nightly
+[2024-04-08 16:08:08] INFO root fetch - main [MainThread]: End processing [tmlt-analytics]: success
+[2024-04-08 16:08:08] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc35.dev35.tar.gz]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [netpywork]: Downloading https://files.pythonhosted.org/packages/29/cc/ed3ed2ce519afceff2a7b203a1bf55efe28ecbe5201f7be6d179763ec914/netpywork-0.0.3.tar.gz
+[2024-04-08 16:08:08] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc36.dev36.tar.gz]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [arion-library]: Start processing: sdk_entrepot_gpf
+[2024-04-08 16:08:08] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 16:08:08] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/6a/9d/92073db7ab07a2429923dc08043c9dade00e09900ca432d3ec9f05bf0751/nextconsole-0.0.4-py3-none-any.whl
+[2024-04-08 16:08:08] WARNING root fetch - processPackages [netpywork]: Timeout reached during download
+[2024-04-08 16:08:08] INFO root fetch - processPackages [netpywork]: executing diffoscope
+[2024-04-08 16:08:08] INFO root fetch - processPackages [netpywork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netpywork-0.0.2.tar.gz tmp/netpywork-0.0.3.tar.gz --markdown 20240408/n/netpywork/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 16:08:08] INFO root fetch - processPackages [sdk_entrepot_gpf]: New version: [0.1.25] Old Version: [0.1.24]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.8.tar.gz]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.9.tar.gz]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [ssh-ca-cli]: Start processing: jupyterlab-judge
+[2024-04-08 16:08:08] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 16:08:08] WARNING root fetch - processPackages [django-xprez]: Timeout reached during download
+[2024-04-08 16:08:08] INFO root fetch - processPackages [django-xprez]: executing diffoscope
+[2024-04-08 16:08:08] INFO root fetch - processPackages [django-xprez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_xprez-0.2.8.tar.gz tmp/django_xprez-0.2.9.tar.gz --markdown 20240408/d/django-xprez/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:08] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 16:08:08] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [jupyterlab-judge]: New version: [1.24.3] Old Version: [1.24.2]
+[2024-04-08 16:08:08] INFO root fetch - processPackages [sdk_entrepot_gpf]: Downloading https://files.pythonhosted.org/packages/3d/6d/a5cc42cce0375a7844f56120743a8dd220f582d4f428108f9064341c92cb/sdk_entrepot_gpf-0.1.24.tar.gz
+[2024-04-08 16:08:08] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/ad/f8/3502ff8bc248720e7d34dd0ec2e965aa195b277d9c5226faacc36b518157/nextconsole-0.0.5-py3-none-any.whl
+[2024-04-08 16:08:08] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/8e/ea/0a73cb6a4d1de1b8ecf769dbdd751cefd24eca14fda22a92ab059da8cb32/tensordict_nightly-2024.4.7-cp39-cp39-win_amd64.whl
+[2024-04-08 16:08:08] WARNING root fetch - processPackages [sdk_entrepot_gpf]: Timeout reached during download
+[2024-04-08 16:08:08] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/c8/df/b17307c007ac1426af3be7371a25ad1210d35030a77bbf56e44206195874/jupyterlab_judge-1.24.2.tar.gz
+[2024-04-08 16:08:08] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 16:08:08] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-08 16:08:08] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.4-py3-none-any.whl.zip tmp/nextconsole-0.0.5-py3-none-any.whl.zip --markdown 20240408/n/nextconsole/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-08 16:08:08] WARNING root fetch - processPackages [tensordict-nightly]: Timeout reached during download
+[2024-04-08 16:08:08] INFO root fetch - processPackages [sdk_entrepot_gpf]: Downloading https://files.pythonhosted.org/packages/e9/e7/760581f5b1f6c84442f1a2d6e78add2bbe1b42cd87039e80ce26b7e28cec/sdk_entrepot_gpf-0.1.25.tar.gz
+[2024-04-08 16:08:08] WARNING root fetch - processPackages [jupyterlab-judge]: Timeout reached during download
+[2024-04-08 16:08:09] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/cd/1c/8579b410faa082f73f4c5e15b9f2df9564f5500baeca12f401c71c95762b/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl
+[2024-04-08 16:08:09] INFO root fetch - processPackages [netpywork]: Remove: archive file [/home/abi/fetcher/tmp/netpywork-0.0.2.tar.gz]
+[2024-04-08 16:08:09] INFO root fetch - processPackages [netpywork]: Remove: archive file [/home/abi/fetcher/tmp/netpywork-0.0.3.tar.gz]
+[2024-04-08 16:08:09] INFO root fetch - processPackages [netpywork]: Start processing: solTg
+[2024-04-08 16:08:09] INFO root fetch - main [MainThread]: End processing [netpywork]: success
+[2024-04-08 16:08:09] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/3c/3a/73763dc97cf379474376e6dba427bc26f5b4b3b879cfd8bdf0eaf77eb35b/jupyterlab_judge-1.24.3.tar.gz
+[2024-04-08 16:08:09] INFO root fetch - processPackages [solTg]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-08 16:08:09] WARNING root fetch - processPackages [sdk_entrepot_gpf]: Timeout reached during download
+[2024-04-08 16:08:09] INFO root fetch - processPackages [sdk_entrepot_gpf]: executing diffoscope
+[2024-04-08 16:08:09] INFO root fetch - processPackages [sdk_entrepot_gpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdk_entrepot_gpf-0.1.24.tar.gz tmp/sdk_entrepot_gpf-0.1.25.tar.gz --markdown 20240408/s/sdk_entrepot_gpf/0.1.24-0.1.25/diff.md --exclude *.pyd
+[2024-04-08 16:08:09] WARNING root fetch - processPackages [tensordict-nightly]: Timeout reached during download
+[2024-04-08 16:08:09] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-04-08 16:08:09] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.4.7-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip --markdown 20240408/t/tensordict-nightly/2024.4.7-2024.4.8/diff.md --exclude *.pyd
+[2024-04-08 16:08:09] WARNING root fetch - processPackages [jupyterlab-judge]: Timeout reached during download
+[2024-04-08 16:08:09] INFO root fetch - processPackages [jupyterlab-judge]: executing diffoscope
+[2024-04-08 16:08:09] INFO root fetch - processPackages [jupyterlab-judge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_judge-1.24.2.tar.gz tmp/jupyterlab_judge-1.24.3.tar.gz --markdown 20240408/j/jupyterlab-judge/1.24.2-1.24.3/diff.md --exclude *.pyd
+[2024-04-08 16:08:09] INFO root fetch - processPackages [solTg]: Downloading https://files.pythonhosted.org/packages/f8/1d/1dd5a3058239bc5de71d45323ac4677c9971e11f88ff65ade3ceca2d558c/solTg-0.1.6.tar.gz
+[2024-04-08 16:08:09] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.4-py3-none-any.whl.zip]
+[2024-04-08 16:08:09] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.5-py3-none-any.whl.zip]
+[2024-04-08 16:08:09] INFO root fetch - processPackages [nextconsole]: Start processing: auto-coder
+[2024-04-08 16:08:09] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-08 16:08:09] WARNING root fetch - processPackages [solTg]: Skipping package: exceeds size limit 22791265>=10485760
+[2024-04-08 16:08:09] INFO root fetch - processPackages [solTg]: Start processing: arion-library
+[2024-04-08 16:08:09] INFO root fetch - main [MainThread]: End processing [solTg] error
+[2024-04-08 16:08:09] INFO root fetch - processPackages [arion-library]: New version: [1.1rc36.dev36] Old Version: [1.1rc35.dev35]
+[2024-04-08 16:08:09] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 16:08:09] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/70/d1/539a0722468fa6fe92a5849b7d3c55272e718b7e0f52ccd463c84da8f449/arion_library-1.1rc35.dev35.tar.gz
+[2024-04-08 16:08:09] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 16:08:09] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-08 16:08:09] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/73/19/c5d704271af3bafd026c7d524f505ffb03925fe00cdffc01d2e094ed6ac5/arion_library-1.1rc36.dev36.tar.gz
+[2024-04-08 16:08:09] WARNING root fetch - processPackages [auto-coder]: Timeout reached during download
+[2024-04-08 16:08:10] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 16:08:10] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 16:08:10] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc35.dev35.tar.gz tmp/arion_library-1.1rc36.dev36.tar.gz --markdown 20240408/a/arion-library/1.1rc35.dev35-1.1rc36.dev36/diff.md --exclude *.pyd
+[2024-04-08 16:08:10] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-08 16:08:10] WARNING root fetch - processPackages [auto-coder]: Timeout reached during download
+[2024-04-08 16:08:10] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-08 16:08:10] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240408/a/auto-coder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:10] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.7-cp39-cp39-win_amd64.whl.zip]
+[2024-04-08 16:08:10] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-08 16:08:10] INFO root fetch - processPackages [tensordict-nightly]: Start processing: tmmpred
+[2024-04-08 16:08:10] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-04-08 16:08:10] WARNING root fetch - processPackages [tmmpred]: Skipping, unable to determine old version
+[2024-04-08 16:08:10] INFO root fetch - processPackages [tmmpred]: Start processing: yurumikuji
+[2024-04-08 16:08:10] INFO root fetch - main [MainThread]: End processing [tmmpred] error
+[2024-04-08 16:08:10] INFO root fetch - processPackages [yurumikuji]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-08 16:08:10] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc35.dev35.tar.gz]
+[2024-04-08 16:08:10] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc36.dev36.tar.gz]
+[2024-04-08 16:08:10] INFO root fetch - processPackages [arion-library]: Start processing: lineartest
+[2024-04-08 16:08:10] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 16:08:10] INFO root fetch - processPackages [yurumikuji]: Downloading https://files.pythonhosted.org/packages/42/08/f76231e542ad11f1af27672e4fb7828ce172cc5ea44b758b4e1eaacc990a/yurumikuji-0.5.0.tar.gz
+[2024-04-08 16:08:10] WARNING root fetch - processPackages [lineartest]: Skipping, unable to determine old version
+[2024-04-08 16:08:10] INFO root fetch - processPackages [lineartest]: Start processing: btc-embedded
+[2024-04-08 16:08:10] INFO root fetch - main [MainThread]: End processing [lineartest] error
+[2024-04-08 16:08:11] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.6] Old Version: [24.1.5]
+[2024-04-08 16:08:11] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/8b/e8/9e00e79b018e905f39d99897ba81460a4b885356f929a725f6e9351948bc/btc_embedded-24.1.5.tar.gz
+[2024-04-08 16:08:11] WARNING root fetch - processPackages [yurumikuji]: Timeout reached during download
+[2024-04-08 16:08:11] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-08 16:08:11] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-08 16:08:11] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-08 16:08:11] INFO root fetch - processPackages [auto-coder]: Start processing: pyproject-parser
+[2024-04-08 16:08:11] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-08 16:08:11] INFO root fetch - processPackages [yurumikuji]: Downloading https://files.pythonhosted.org/packages/a0/f1/6cfcc4628f0fdac936cb8f02c70cdd1c1ad07b0dea29aa2dfb944d3db93e/yurumikuji-0.5.1.tar.gz
+[2024-04-08 16:08:11] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-04-08 16:08:11] WARNING root fetch - processPackages [yurumikuji]: Timeout reached during download
+[2024-04-08 16:08:11] INFO root fetch - processPackages [yurumikuji]: executing diffoscope
+[2024-04-08 16:08:11] INFO root fetch - processPackages [yurumikuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yurumikuji-0.5.0.tar.gz tmp/yurumikuji-0.5.1.tar.gz --markdown 20240408/y/yurumikuji/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-08 16:08:11] INFO root fetch - processPackages [pyproject-parser]: New version: [0.9.1] Old Version: [0.9.0b2]
+[2024-04-08 16:08:11] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-08 16:08:11] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-04-08 16:08:11] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.5.tar.gz tmp/btc_embedded-24.1.6.tar.gz --markdown 20240408/b/btc-embedded/24.1.5-24.1.6/diff.md --exclude *.pyd
+[2024-04-08 16:08:11] INFO root fetch - processPackages [jupyterlab-judge]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_judge-1.24.2.tar.gz]
+[2024-04-08 16:08:11] INFO root fetch - processPackages [jupyterlab-judge]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_judge-1.24.3.tar.gz]
+[2024-04-08 16:08:11] INFO root fetch - processPackages [jupyterlab-judge]: Start processing: vtjson
+[2024-04-08 16:08:11] INFO root fetch - main [MainThread]: End processing [jupyterlab-judge]: success
+[2024-04-08 16:08:11] INFO root fetch - processPackages [sdk_entrepot_gpf]: Remove: archive file [/home/abi/fetcher/tmp/sdk_entrepot_gpf-0.1.24.tar.gz]
+[2024-04-08 16:08:11] INFO root fetch - processPackages [sdk_entrepot_gpf]: Remove: archive file [/home/abi/fetcher/tmp/sdk_entrepot_gpf-0.1.25.tar.gz]
+[2024-04-08 16:08:11] INFO root fetch - processPackages [sdk_entrepot_gpf]: Start processing: jhub-apps
+[2024-04-08 16:08:11] INFO root fetch - main [MainThread]: End processing [sdk_entrepot_gpf]: success
+[2024-04-08 16:08:11] INFO root fetch - processPackages [vtjson]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-04-08 16:08:11] INFO root fetch - processPackages [pyproject-parser]: Downloading https://files.pythonhosted.org/packages/3c/52/396c60167671072c896fd753d5deaee7c6ef52d0882433a5161a7bf0deac/pyproject-parser-0.9.0b2.tar.gz
+[2024-04-08 16:08:11] INFO root fetch - processPackages [jhub-apps]: New version: [2024.4.1rc5] Old Version: [2024.4.1rc4]
+[2024-04-08 16:08:11] WARNING root fetch - processPackages [pyproject-parser]: Timeout reached during download
+[2024-04-08 16:08:12] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/eb/7f/2ace690d27f870391b2ada4d7027ef41287bfec34d7ab9bda74ac2386198/vtjson-1.6.5.tar.gz
+[2024-04-08 16:08:12] WARNING root fetch - processPackages [vtjson]: Timeout reached during download
+[2024-04-08 16:08:12] INFO root fetch - processPackages [jhub-apps]: Downloading https://files.pythonhosted.org/packages/36/e2/d9e6c3267f77b86664bc56eda7f74689c2527890098029c7c699ad695d7d/jhub_apps-2024.4.1rc4.tar.gz
+[2024-04-08 16:08:12] INFO root fetch - processPackages [pyproject-parser]: Downloading https://files.pythonhosted.org/packages/db/6f/f6409314637988adc35b9a4443634dfd46d8450261461b3cacaaef149ba1/pyproject-parser-0.9.1.tar.gz
+[2024-04-08 16:08:12] WARNING root fetch - processPackages [jhub-apps]: Skipping package: exceeds size limit 12200481>=10485760
+[2024-04-08 16:08:12] INFO root fetch - processPackages [jhub-apps]: Start processing: wm-topicgpt
+[2024-04-08 16:08:12] INFO root fetch - main [MainThread]: End processing [jhub-apps] error
+[2024-04-08 16:08:12] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/cc/cc/94855febd76bb6d296cbb623c250e22ff37533ab4d96bf191cbc44034f62/vtjson-1.6.6.tar.gz
+[2024-04-08 16:08:12] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.5.tar.gz]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [btc-embedded]: Start processing: slurpit_nautobot
+[2024-04-08 16:08:12] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-04-08 16:08:12] WARNING root fetch - processPackages [pyproject-parser]: Timeout reached during download
+[2024-04-08 16:08:12] INFO root fetch - processPackages [pyproject-parser]: executing diffoscope
+[2024-04-08 16:08:12] INFO root fetch - processPackages [pyproject-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-parser-0.9.0b2.tar.gz tmp/pyproject-parser-0.9.1.tar.gz --markdown 20240408/p/pyproject-parser/0.9.0b2-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 16:08:12] INFO root fetch - processPackages [wm-topicgpt]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [django-xprez]: Remove: archive file [/home/abi/fetcher/tmp/django_xprez-0.2.8.tar.gz]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [django-xprez]: Remove: archive file [/home/abi/fetcher/tmp/django_xprez-0.2.9.tar.gz]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [django-xprez]: Start processing: pyserilog
+[2024-04-08 16:08:12] INFO root fetch - main [MainThread]: End processing [django-xprez]: success
+[2024-04-08 16:08:12] WARNING root fetch - processPackages [vtjson]: Timeout reached during download
+[2024-04-08 16:08:12] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-04-08 16:08:12] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.6.5.tar.gz tmp/vtjson-1.6.6.tar.gz --markdown 20240408/v/vtjson/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2024-04-08 16:08:12] INFO root fetch - processPackages [slurpit_nautobot]: New version: [0.8.65] Old Version: [0.8.64]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [pyserilog]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [yurumikuji]: Remove: archive file [/home/abi/fetcher/tmp/yurumikuji-0.5.0.tar.gz]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [yurumikuji]: Remove: archive file [/home/abi/fetcher/tmp/yurumikuji-0.5.1.tar.gz]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [yurumikuji]: Start processing: casioplot
+[2024-04-08 16:08:12] INFO root fetch - main [MainThread]: End processing [yurumikuji]: success
+[2024-04-08 16:08:12] INFO root fetch - processPackages [wm-topicgpt]: Downloading https://files.pythonhosted.org/packages/83/99/f7afe75f695ce4060dfeffdc92bec91644c7d1296461475e8d7ccd0d5c0e/wm_topicgpt-0.0.4.tar.gz
+[2024-04-08 16:08:12] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/bc/da/b081986963ae8e4ffdecb5d6074c642f40a565814c8a55027b36e634b5a7/slurpit_nautobot-0.8.64.tar.gz
+[2024-04-08 16:08:12] INFO root fetch - processPackages [casioplot]: New version: [3.2.0] Old Version: [3.1.7]
+[2024-04-08 16:08:12] INFO root fetch - processPackages [pyserilog]: Downloading https://files.pythonhosted.org/packages/73/ca/a981d708ed7364f21d029cba5236e14076963c5fceeb2fe0f1d4db3f99c7/pyserilog-0.3.1-py3-none-any.whl
+[2024-04-08 16:08:12] WARNING root fetch - processPackages [wm-topicgpt]: Timeout reached during download
+[2024-04-08 16:08:12] WARNING root fetch - processPackages [slurpit_nautobot]: Timeout reached during download
+[2024-04-08 16:08:12] WARNING root fetch - processPackages [pyserilog]: Timeout reached during download
+[2024-04-08 16:08:13] INFO root fetch - processPackages [wm-topicgpt]: Downloading https://files.pythonhosted.org/packages/80/94/e8d33651856a03b666f1eb04391734e2467bc10fe6aac3cad7aa4f4d367d/wm_topicgpt-0.0.5.tar.gz
+[2024-04-08 16:08:13] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/b4/67/e738b52b684091bdf55d7bb7352700ffe562fd8914f7406cce69df79ab0c/casioplot-3.1.7.tar.gz
+[2024-04-08 16:08:13] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/78/65/ee24c87bd1152093f27915f6622917cf2940d003d376f6448ce4449971f1/slurpit_nautobot-0.8.65.tar.gz
+[2024-04-08 16:08:13] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-08 16:08:13] INFO root fetch - processPackages [pyserilog]: Downloading https://files.pythonhosted.org/packages/71/f9/e21640ef35ee3dd0964c583b8fe59cfd01b95cca437d3eb9bc0e89147863/pyserilog-0.3.2-py3-none-any.whl
+[2024-04-08 16:08:13] WARNING root fetch - processPackages [wm-topicgpt]: Timeout reached during download
+[2024-04-08 16:08:13] INFO root fetch - processPackages [wm-topicgpt]: executing diffoscope
+[2024-04-08 16:08:13] INFO root fetch - processPackages [wm-topicgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wm_topicgpt-0.0.4.tar.gz tmp/wm_topicgpt-0.0.5.tar.gz --markdown 20240408/w/wm-topicgpt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-08 16:08:13] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.6.5.tar.gz]
+[2024-04-08 16:08:13] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.6.6.tar.gz]
+[2024-04-08 16:08:13] INFO root fetch - processPackages [vtjson]: Start processing: SimuBox
+[2024-04-08 16:08:13] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-04-08 16:08:13] WARNING root fetch - processPackages [slurpit_nautobot]: Timeout reached during download
+[2024-04-08 16:08:13] INFO root fetch - processPackages [slurpit_nautobot]: executing diffoscope
+[2024-04-08 16:08:13] INFO root fetch - processPackages [slurpit_nautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_nautobot-0.8.64.tar.gz tmp/slurpit_nautobot-0.8.65.tar.gz --markdown 20240408/s/slurpit_nautobot/0.8.64-0.8.65/diff.md --exclude *.pyd
+[2024-04-08 16:08:13] WARNING root fetch - processPackages [pyserilog]: Timeout reached during download
+[2024-04-08 16:08:13] INFO root fetch - processPackages [pyserilog]: executing diffoscope
+[2024-04-08 16:08:13] INFO root fetch - processPackages [pyserilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserilog-0.3.1-py3-none-any.whl.zip tmp/pyserilog-0.3.2-py3-none-any.whl.zip --markdown 20240408/p/pyserilog/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-08 16:08:13] INFO root fetch - processPackages [pyproject-parser]: Remove: archive file [/home/abi/fetcher/tmp/pyproject-parser-0.9.0b2.tar.gz]
+[2024-04-08 16:08:13] INFO root fetch - processPackages [pyproject-parser]: Remove: archive file [/home/abi/fetcher/tmp/pyproject-parser-0.9.1.tar.gz]
+[2024-04-08 16:08:13] INFO root fetch - processPackages [pyproject-parser]: Start processing: edc
+[2024-04-08 16:08:13] INFO root fetch - main [MainThread]: End processing [pyproject-parser]: success
+[2024-04-08 16:08:13] INFO root fetch - processPackages [SimuBox]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-08 16:08:13] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/11/75/43443e621bc7f71272259e80bd6409ed08dea0290c86a04d81307a0dc0fa/casioplot-3.2.0.tar.gz
+[2024-04-08 16:08:13] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-08 16:08:13] INFO root fetch - processPackages [casioplot]: executing diffoscope
+[2024-04-08 16:08:13] INFO root fetch - processPackages [casioplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casioplot-3.1.7.tar.gz tmp/casioplot-3.2.0.tar.gz --markdown 20240408/c/casioplot/3.1.7-3.2.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:13] INFO root fetch - processPackages [SimuBox]: Downloading https://files.pythonhosted.org/packages/3a/96/14b42a572af65eeece379eafcf0f7a9d89df4852da76a113c5d1d0028a39/simubox-0.2.2.tar.gz
+[2024-04-08 16:08:13] INFO root fetch - processPackages [edc]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-08 16:08:13] WARNING root fetch - processPackages [SimuBox]: Timeout reached during download
+[2024-04-08 16:08:14] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/0d/71/fd426ffa8384b1a3dcc003d2c9cdcf108903816623585994a8b806e67082/edc-0.5.8.tar.gz
+[2024-04-08 16:08:14] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-3.1.0.tar.gz]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-3.1.1.tar.gz]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [taipy-gui]: Start processing: pyway
+[2024-04-08 16:08:14] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
+[2024-04-08 16:08:14] INFO root fetch - processPackages [wm-topicgpt]: Remove: archive file [/home/abi/fetcher/tmp/wm_topicgpt-0.0.4.tar.gz]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [wm-topicgpt]: Remove: archive file [/home/abi/fetcher/tmp/wm_topicgpt-0.0.5.tar.gz]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [wm-topicgpt]: Start processing: dwiqc
+[2024-04-08 16:08:14] INFO root fetch - main [MainThread]: End processing [wm-topicgpt]: success
+[2024-04-08 16:08:14] INFO root fetch - processPackages [SimuBox]: Downloading https://files.pythonhosted.org/packages/84/b1/bf9ca2b2b8018f8e567941aec70a67093493f6c863e8d29db5c725da724b/simubox-0.2.3.tar.gz
+[2024-04-08 16:08:14] INFO root fetch - processPackages [pyway]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [dwiqc]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-08 16:08:14] WARNING root fetch - processPackages [edc]: Timeout reached during download
+[2024-04-08 16:08:14] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.64.tar.gz]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.65.tar.gz]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [slurpit_nautobot]: Start processing: StonerPlots
+[2024-04-08 16:08:14] INFO root fetch - main [MainThread]: End processing [slurpit_nautobot]: success
+[2024-04-08 16:08:14] WARNING root fetch - processPackages [SimuBox]: Timeout reached during download
+[2024-04-08 16:08:14] INFO root fetch - processPackages [SimuBox]: executing diffoscope
+[2024-04-08 16:08:14] INFO root fetch - processPackages [SimuBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simubox-0.2.2.tar.gz tmp/simubox-0.2.3.tar.gz --markdown 20240408/S/SimuBox/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-08 16:08:14] INFO root fetch - processPackages [pyserilog]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog-0.3.1-py3-none-any.whl.zip]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [pyserilog]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog-0.3.2-py3-none-any.whl.zip]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [pyserilog]: Start processing: slurmpie
+[2024-04-08 16:08:14] INFO root fetch - main [MainThread]: End processing [pyserilog]: success
+[2024-04-08 16:08:14] INFO root fetch - processPackages [pyway]: Downloading https://files.pythonhosted.org/packages/61/02/93cd16130f4d2b838a232051fdc127570a2992cd8e6b959f89e3cbe716ea/pyway-0.3.8.tar.gz
+[2024-04-08 16:08:14] INFO root fetch - processPackages [StonerPlots]: New version: [1.4.0] Old Version: [1.3.4]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.7.tar.gz]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.2.0.tar.gz]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [casioplot]: Start processing: cosmian-kms
+[2024-04-08 16:08:14] INFO root fetch - main [MainThread]: End processing [casioplot]: success
+[2024-04-08 16:08:14] INFO root fetch - processPackages [slurmpie]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-08 16:08:14] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/3a/24/6632edc8342835e022a0890a799f8095b4fb2bd4b5c2a848f9f5efb9cb13/dwiqc-1.5.2-py2.py3-none-any.whl
+[2024-04-08 16:08:14] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/c3/e1/9aff20b85318cc37cad1323d68f6b4fc9186339dd91f77988832e79670ee/edc-0.5.9.tar.gz
+[2024-04-08 16:08:14] WARNING root fetch - processPackages [pyway]: Timeout reached during download
+[2024-04-08 16:08:14] INFO root fetch - processPackages [cosmian-kms]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-08 16:08:14] WARNING root fetch - processPackages [dwiqc]: Timeout reached during download
+[2024-04-08 16:08:14] WARNING root fetch - processPackages [edc]: Timeout reached during download
+[2024-04-08 16:08:14] INFO root fetch - processPackages [edc]: executing diffoscope
+[2024-04-08 16:08:14] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.8.tar.gz tmp/edc-0.5.9.tar.gz --markdown 20240408/e/edc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:14] INFO root fetch - processPackages [StonerPlots]: Downloading https://files.pythonhosted.org/packages/d0/38/6fb4d5a884cc28283adf84ea3adb8c1014aad865608125e62595262fd2b5/StonerPlots-1.3.4.tar.gz
+[2024-04-08 16:08:14] INFO root fetch - processPackages [slurmpie]: Downloading https://files.pythonhosted.org/packages/c9/5c/90d89a181ff8924f321be43af61adb518c4f3a3b3bb7112d2b0392df7bd1/slurmpie-0.8.1.tar.gz
+[2024-04-08 16:08:14] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/f4/4d/d6113b555e84f4eda7c0649b576dcf9ef9a372c79940d008cf0170b7b6e2/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl
+[2024-04-08 16:08:14] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/82/c6/f11a2d4a807cbffc7a190ffd1be03d7c15fec80a8342b9019f446dc6f6d4/dwiqc-1.5.3-py2.py3-none-any.whl
+[2024-04-08 16:08:14] WARNING root fetch - processPackages [slurmpie]: Timeout reached during download
+[2024-04-08 16:08:14] INFO root fetch - processPackages [pyway]: Downloading https://files.pythonhosted.org/packages/11/f5/cb46f2ef9ddb390323fb1ff9c066b701082c3ede3eed33bbb3c4721cc4a8/pyway-0.3.9.tar.gz
+[2024-04-08 16:08:14] WARNING root fetch - processPackages [StonerPlots]: Timeout reached during download
+[2024-04-08 16:08:15] WARNING root fetch - processPackages [dwiqc]: Timeout reached during download
+[2024-04-08 16:08:15] WARNING root fetch - processPackages [pyway]: Timeout reached during download
+[2024-04-08 16:08:15] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2024-04-08 16:08:15] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-1.5.2-py2.py3-none-any.whl.zip tmp/dwiqc-1.5.3-py2.py3-none-any.whl.zip --markdown 20240408/d/dwiqc/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2024-04-08 16:08:15] INFO root fetch - processPackages [pyway]: executing diffoscope
+[2024-04-08 16:08:15] INFO root fetch - processPackages [pyway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyway-0.3.8.tar.gz tmp/pyway-0.3.9.tar.gz --markdown 20240408/p/pyway/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:15] INFO root fetch - processPackages [slurmpie]: Downloading https://files.pythonhosted.org/packages/25/45/434ff66de5a8c2901743a0848a82c92d432eba2f5205c1436c20c4ceeb6d/slurmpie-0.8.2.tar.gz
+[2024-04-08 16:08:15] INFO root fetch - processPackages [StonerPlots]: Downloading https://files.pythonhosted.org/packages/1d/cd/d628a3bc0b16fdb49c6588921edc19a228a9e5bfa7db09b67bdf35a2706f/StonerPlots-1.4.0.tar.gz
+[2024-04-08 16:08:15] WARNING root fetch - processPackages [slurmpie]: Timeout reached during download
+[2024-04-08 16:08:15] INFO root fetch - processPackages [slurmpie]: executing diffoscope
+[2024-04-08 16:08:15] INFO root fetch - processPackages [slurmpie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmpie-0.8.1.tar.gz tmp/slurmpie-0.8.2.tar.gz --markdown 20240408/s/slurmpie/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2024-04-08 16:08:15] INFO root fetch - processPackages [SimuBox]: Remove: archive file [/home/abi/fetcher/tmp/simubox-0.2.2.tar.gz]
+[2024-04-08 16:08:15] INFO root fetch - processPackages [SimuBox]: Remove: archive file [/home/abi/fetcher/tmp/simubox-0.2.3.tar.gz]
+[2024-04-08 16:08:15] INFO root fetch - processPackages [SimuBox]: Start processing: openai-cost-logger
+[2024-04-08 16:08:15] INFO root fetch - main [MainThread]: End processing [SimuBox]: success
+[2024-04-08 16:08:15] WARNING root fetch - processPackages [openai-cost-logger]: Skipping, unable to determine old version
+[2024-04-08 16:08:15] INFO root fetch - processPackages [openai-cost-logger]: Start processing: titanq
+[2024-04-08 16:08:15] INFO root fetch - main [MainThread]: End processing [openai-cost-logger] error
+[2024-04-08 16:08:15] WARNING root fetch - processPackages [cosmian-kms]: Timeout reached during download
+[2024-04-08 16:08:15] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.8.tar.gz]
+[2024-04-08 16:08:15] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
+[2024-04-08 16:08:15] INFO root fetch - processPackages [edc]: Start processing: faxdatasdk
+[2024-04-08 16:08:15] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2024-04-08 16:08:15] INFO root fetch - processPackages [titanq]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-08 16:08:15] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/b0/23/fad1edf9bca7c2a8f6ad0ed4166cec21becfbcc7afbde957144da34013c7/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl
+[2024-04-08 16:08:15] INFO root fetch - processPackages [faxdatasdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 16:08:15] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-1.5.2-py2.py3-none-any.whl.zip]
+[2024-04-08 16:08:15] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-1.5.3-py2.py3-none-any.whl.zip]
+[2024-04-08 16:08:15] INFO root fetch - processPackages [dwiqc]: Start processing: tsq
+[2024-04-08 16:08:15] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2024-04-08 16:08:16] INFO root fetch - processPackages [titanq]: Downloading https://files.pythonhosted.org/packages/14/d7/93245fe89374558c3f4f8faab5d7f030b5e511f0f98e967dbd24c7672b9c/titanq-0.7.1.tar.gz
+[2024-04-08 16:08:16] INFO root fetch - processPackages [pyway]: Remove: archive file [/home/abi/fetcher/tmp/pyway-0.3.8.tar.gz]
+[2024-04-08 16:08:16] INFO root fetch - processPackages [pyway]: Remove: archive file [/home/abi/fetcher/tmp/pyway-0.3.9.tar.gz]
+[2024-04-08 16:08:16] INFO root fetch - processPackages [pyway]: Start processing: visual-decimal
+[2024-04-08 16:08:16] INFO root fetch - main [MainThread]: End processing [pyway]: success
+[2024-04-08 16:08:16] INFO root fetch - processPackages [slurmpie]: Remove: archive file [/home/abi/fetcher/tmp/slurmpie-0.8.1.tar.gz]
+[2024-04-08 16:08:16] INFO root fetch - processPackages [slurmpie]: Remove: archive file [/home/abi/fetcher/tmp/slurmpie-0.8.2.tar.gz]
+[2024-04-08 16:08:16] INFO root fetch - processPackages [slurmpie]: Start processing: matplotlib-visual
+[2024-04-08 16:08:16] INFO root fetch - main [MainThread]: End processing [slurmpie]: success
+[2024-04-08 16:08:16] INFO root fetch - processPackages [faxdatasdk]: Downloading https://files.pythonhosted.org/packages/03/98/9ab45768e4564bf423020677d6d6c3eb980c0cd8bc0ebaab58e4d65d1610/faxdatasdk-0.0.5.tar.gz
+[2024-04-08 16:08:16] INFO root fetch - processPackages [tsq]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [titanq]: Timeout reached during download
+[2024-04-08 16:08:16] INFO root fetch - processPackages [visual-decimal]: New version: [1.0] Old Version: [0.4]
+[2024-04-08 16:08:16] INFO root fetch - processPackages [matplotlib-visual]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [faxdatasdk]: Timeout reached during download
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [StonerPlots]: Timeout reached during download
+[2024-04-08 16:08:16] INFO root fetch - processPackages [StonerPlots]: executing diffoscope
+[2024-04-08 16:08:16] INFO root fetch - processPackages [StonerPlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StonerPlots-1.3.4.tar.gz tmp/StonerPlots-1.4.0.tar.gz --markdown 20240408/S/StonerPlots/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:16] INFO root fetch - processPackages [tsq]: Downloading https://files.pythonhosted.org/packages/97/5a/36d23cf0c7afcb9bd9e864b239e9834fc03fd7a4281b3d0e220a22eda817/tsq-0.0.14.tar.gz
+[2024-04-08 16:08:16] INFO root fetch - processPackages [titanq]: Downloading https://files.pythonhosted.org/packages/f6/83/1562f50e7511ffaf28d14f421d1eeec3ec630d3c93e3108fb4c6576d14d1/titanq-0.8.0.tar.gz
+[2024-04-08 16:08:16] INFO root fetch - processPackages [faxdatasdk]: Downloading https://files.pythonhosted.org/packages/09/45/713e1b4cfc72eb967a33f7ad1787e7a6d2b424ef136f6fb3fb88276e8dbe/faxdatasdk-0.0.6.tar.gz
+[2024-04-08 16:08:16] INFO root fetch - processPackages [matplotlib-visual]: Downloading https://files.pythonhosted.org/packages/de/a6/c863a30ba1ebcd685ad4c1f34325b242936e258823f2853ad90e13311ac1/matplotlib_visual-0.9.1.tar.gz
+[2024-04-08 16:08:16] INFO root fetch - processPackages [visual-decimal]: Downloading https://files.pythonhosted.org/packages/ad/b4/ea9cf32f263f84d40c518c9589192eb11f11623f5a12eeedf57baee1f00e/visual-decimal-0.4.tar.gz
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [tsq]: Timeout reached during download
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [titanq]: Timeout reached during download
+[2024-04-08 16:08:16] INFO root fetch - processPackages [titanq]: executing diffoscope
+[2024-04-08 16:08:16] INFO root fetch - processPackages [titanq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titanq-0.7.1.tar.gz tmp/titanq-0.8.0.tar.gz --markdown 20240408/t/titanq/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [faxdatasdk]: Timeout reached during download
+[2024-04-08 16:08:16] INFO root fetch - processPackages [faxdatasdk]: executing diffoscope
+[2024-04-08 16:08:16] INFO root fetch - processPackages [faxdatasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faxdatasdk-0.0.5.tar.gz tmp/faxdatasdk-0.0.6.tar.gz --markdown 20240408/f/faxdatasdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [cosmian-kms]: Timeout reached during download
+[2024-04-08 16:08:16] INFO root fetch - processPackages [cosmian-kms]: executing diffoscope
+[2024-04-08 16:08:16] INFO root fetch - processPackages [cosmian-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl.zip tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip --markdown 20240408/c/cosmian-kms/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [visual-decimal]: Timeout reached during download
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [matplotlib-visual]: Timeout reached during download
+[2024-04-08 16:08:16] INFO root fetch - processPackages [tsq]: Downloading https://files.pythonhosted.org/packages/f8/2c/3163964374ca3c1d19597b2f09777439535379ea6d8c5db3360e1b3bea99/tsq-0.0.15.tar.gz
+[2024-04-08 16:08:16] WARNING root fetch - processPackages [tsq]: Timeout reached during download
+[2024-04-08 16:08:16] INFO root fetch - processPackages [tsq]: executing diffoscope
+[2024-04-08 16:08:16] INFO root fetch - processPackages [tsq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsq-0.0.14.tar.gz tmp/tsq-0.0.15.tar.gz --markdown 20240408/t/tsq/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2024-04-08 16:08:16] INFO root fetch - processPackages [matplotlib-visual]: Downloading https://files.pythonhosted.org/packages/7b/bc/d07c459c5653d8a5a2174dd989553d706a1039258c81bde616a86beef4c6/matplotlib_visual-0.9.2.tar.gz
+[2024-04-08 16:08:16] INFO root fetch - processPackages [visual-decimal]: Downloading https://files.pythonhosted.org/packages/f1/9e/ae951631ba991e313fab245fb477801cd0fa77feec040774b519441f6c5e/visual-decimal-1.0.tar.gz
+[2024-04-08 16:08:17] WARNING root fetch - processPackages [visual-decimal]: Timeout reached during download
+[2024-04-08 16:08:17] INFO root fetch - processPackages [visual-decimal]: executing diffoscope
+[2024-04-08 16:08:17] INFO root fetch - processPackages [visual-decimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual-decimal-0.4.tar.gz tmp/visual-decimal-1.0.tar.gz --markdown 20240408/v/visual-decimal/0.4-1.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:17] WARNING root fetch - processPackages [matplotlib-visual]: Timeout reached during download
+[2024-04-08 16:08:17] INFO root fetch - processPackages [matplotlib-visual]: executing diffoscope
+[2024-04-08 16:08:17] INFO root fetch - processPackages [matplotlib-visual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlib_visual-0.9.1.tar.gz tmp/matplotlib_visual-0.9.2.tar.gz --markdown 20240408/m/matplotlib-visual/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-08 16:08:17] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.0-cp37-abi3-win_amd64.whl.zip]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [cosmian-kms]: Start processing: sat-toolkit
+[2024-04-08 16:08:17] INFO root fetch - main [MainThread]: End processing [cosmian-kms]: success
+[2024-04-08 16:08:17] INFO root fetch - processPackages [titanq]: Remove: archive file [/home/abi/fetcher/tmp/titanq-0.7.1.tar.gz]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [titanq]: Remove: archive file [/home/abi/fetcher/tmp/titanq-0.8.0.tar.gz]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [titanq]: Start processing: ft-jwt
+[2024-04-08 16:08:17] INFO root fetch - main [MainThread]: End processing [titanq]: success
+[2024-04-08 16:08:17] INFO root fetch - processPackages [faxdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/faxdatasdk-0.0.5.tar.gz]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [faxdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/faxdatasdk-0.0.6.tar.gz]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [faxdatasdk]: Start processing: oceanai
+[2024-04-08 16:08:17] INFO root fetch - main [MainThread]: End processing [faxdatasdk]: success
+[2024-04-08 16:08:17] INFO root fetch - processPackages [sat-toolkit]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [ft-jwt]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [tsq]: Remove: archive file [/home/abi/fetcher/tmp/tsq-0.0.14.tar.gz]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [tsq]: Remove: archive file [/home/abi/fetcher/tmp/tsq-0.0.15.tar.gz]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [tsq]: Start processing: sw-product-lib
+[2024-04-08 16:08:17] INFO root fetch - main [MainThread]: End processing [tsq]: success
+[2024-04-08 16:08:17] INFO root fetch - processPackages [visual-decimal]: Remove: archive file [/home/abi/fetcher/tmp/visual-decimal-0.4.tar.gz]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [visual-decimal]: Remove: archive file [/home/abi/fetcher/tmp/visual-decimal-1.0.tar.gz]
+[2024-04-08 16:08:17] INFO root fetch - processPackages [visual-decimal]: Start processing: jupyterlab
+[2024-04-08 16:08:17] INFO root fetch - main [MainThread]: End processing [visual-decimal]: success
+[2024-04-08 16:08:18] INFO root fetch - processPackages [jupyterlab]: New version: [4.2.0b0] Old Version: [4.2.0a2]
+[2024-04-08 16:08:18] INFO root fetch - processPackages [sat-toolkit]: Downloading https://files.pythonhosted.org/packages/5b/25/6a4df35e706fdc992930eecfa77031d4018b9bfb5ff0aad51031ec2a145c/sat-toolkit-0.4.1.tar.gz
+[2024-04-08 16:08:18] INFO root fetch - processPackages [matplotlib-visual]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_visual-0.9.1.tar.gz]
+[2024-04-08 16:08:18] INFO root fetch - processPackages [matplotlib-visual]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_visual-0.9.2.tar.gz]
+[2024-04-08 16:08:18] INFO root fetch - processPackages [matplotlib-visual]: Start processing: ms2rescore-rs
+[2024-04-08 16:08:18] INFO root fetch - main [MainThread]: End processing [matplotlib-visual]: success
+[2024-04-08 16:08:18] INFO root fetch - processPackages [sw-product-lib]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 16:08:18] INFO root fetch - processPackages [oceanai]: New version: [1.0.0a5] Old Version: [1.0.0a28]
+[2024-04-08 16:08:18] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/98/1b/004d6d75a4bd69150429b72bdeb00530a4829c793f14facb01d1f8979e3b/ft_jwt-0.0.8.tar.gz
+[2024-04-08 16:08:18] INFO root fetch - processPackages [ms2rescore-rs]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-08 16:08:18] INFO root fetch - processPackages [jupyterlab]: Downloading https://files.pythonhosted.org/packages/a1/ce/cb1785e1848bb28ef195670a624740f056c429ddb16d3edb19ea1b6df8ea/jupyterlab-4.2.0a2.tar.gz
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [sat-toolkit]: Timeout reached during download
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [ft-jwt]: Timeout reached during download
+[2024-04-08 16:08:18] INFO root fetch - processPackages [sw-product-lib]: Downloading https://files.pythonhosted.org/packages/34/a9/50d8197b9096a53db35ad4460ed143fc8daff087d1edd60ea96e4694095f/sw_product_lib-0.8.8.tar.gz
+[2024-04-08 16:08:18] INFO root fetch - processPackages [oceanai]: Downloading https://files.pythonhosted.org/packages/0f/4a/5dc0a80dc1cdb8b51df523630b187af1035c1234afacd161d88168f44428/oceanai-1.0.0a28.tar.gz
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [jupyterlab]: Skipping package: exceeds size limit 21919970>=10485760
+[2024-04-08 16:08:18] INFO root fetch - processPackages [jupyterlab]: Start processing: eon-collective-docs-theme
+[2024-04-08 16:08:18] INFO root fetch - main [MainThread]: End processing [jupyterlab] error
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [sw-product-lib]: Timeout reached during download
+[2024-04-08 16:08:18] INFO root fetch - processPackages [ms2rescore-rs]: Downloading https://files.pythonhosted.org/packages/25/ad/83c5b3e2d9bd1f34833b3404298cf045215af72a9b1f51e6ce5a5709313a/ms2rescore_rs-0.1.0.tar.gz
+[2024-04-08 16:08:18] INFO root fetch - processPackages [sat-toolkit]: Downloading https://files.pythonhosted.org/packages/7b/11/da682ba4dc1789552dfa06b761eeb96eeccd6821d245a460b96018ab0b38/sat-toolkit-0.4.2.tar.gz
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [oceanai]: Timeout reached during download
+[2024-04-08 16:08:18] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/f9/a4/cd0e080cf611d1a7013d19b74355c91a7a9f0ebd0d18a26619952f6e9c68/ft_jwt-0.0.9.tar.gz
+[2024-04-08 16:08:18] INFO root fetch - processPackages [eon-collective-docs-theme]: New version: [0.0.2.dev0] Old Version: [0.0.1.dev0]
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [ms2rescore-rs]: Timeout reached during download
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [sat-toolkit]: Timeout reached during download
+[2024-04-08 16:08:18] INFO root fetch - processPackages [sat-toolkit]: executing diffoscope
+[2024-04-08 16:08:18] INFO root fetch - processPackages [sat-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sat-toolkit-0.4.1.tar.gz tmp/sat-toolkit-0.4.2.tar.gz --markdown 20240408/s/sat-toolkit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [ft-jwt]: Timeout reached during download
+[2024-04-08 16:08:18] INFO root fetch - processPackages [ft-jwt]: executing diffoscope
+[2024-04-08 16:08:18] INFO root fetch - processPackages [ft-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_jwt-0.0.8.tar.gz tmp/ft_jwt-0.0.9.tar.gz --markdown 20240408/f/ft-jwt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:18] INFO root fetch - processPackages [sw-product-lib]: Downloading https://files.pythonhosted.org/packages/66/64/3c2a0450c15cbbd10938911a305ffcd02a487c9eb203670eee447e5f8cf9/sw_product_lib-0.8.9.tar.gz
+[2024-04-08 16:08:18] INFO root fetch - processPackages [oceanai]: Downloading https://files.pythonhosted.org/packages/e2/2e/50ce0fa8c36664521d86bdf73f078d5b29e258c450bbbe4eb3eebccfc9e2/oceanai-1.0.0a5.tar.gz
+[2024-04-08 16:08:18] INFO root fetch - processPackages [eon-collective-docs-theme]: Downloading https://files.pythonhosted.org/packages/dc/90/daca4f3a1e87eb6effd9137061032188a420c2e29bbaa0cbfae8a7d5615e/eon_collective_docs_theme-0.0.1.dev0.tar.gz
+[2024-04-08 16:08:18] INFO root fetch - processPackages [ms2rescore-rs]: Downloading https://files.pythonhosted.org/packages/68/f8/c006c58ef65a1efd1df81cc5fdb9ee464eaae1ab380b2a6c264dc7575ffa/ms2rescore_rs-0.2.0.tar.gz
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [sw-product-lib]: Timeout reached during download
+[2024-04-08 16:08:18] INFO root fetch - processPackages [sw-product-lib]: executing diffoscope
+[2024-04-08 16:08:18] INFO root fetch - processPackages [sw-product-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sw_product_lib-0.8.8.tar.gz tmp/sw_product_lib-0.8.9.tar.gz --markdown 20240408/s/sw-product-lib/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [oceanai]: Timeout reached during download
+[2024-04-08 16:08:18] INFO root fetch - processPackages [oceanai]: executing diffoscope
+[2024-04-08 16:08:18] INFO root fetch - processPackages [oceanai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanai-1.0.0a28.tar.gz tmp/oceanai-1.0.0a5.tar.gz --markdown 20240408/o/oceanai/1.0.0a28-1.0.0a5/diff.md --exclude *.pyd
+[2024-04-08 16:08:18] WARNING root fetch - processPackages [ms2rescore-rs]: Timeout reached during download
+[2024-04-08 16:08:18] INFO root fetch - processPackages [ms2rescore-rs]: executing diffoscope
+[2024-04-08 16:08:18] INFO root fetch - processPackages [ms2rescore-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms2rescore_rs-0.1.0.tar.gz tmp/ms2rescore_rs-0.2.0.tar.gz --markdown 20240408/m/ms2rescore-rs/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:19] WARNING root fetch - processPackages [eon-collective-docs-theme]: Timeout reached during download
+[2024-04-08 16:08:19] INFO root fetch - processPackages [eon-collective-docs-theme]: Downloading https://files.pythonhosted.org/packages/56/df/00b1aad8062d201cc2c9b6237b4049d40d878a1dd44892954b61a8f611bf/eon_collective_docs_theme-0.0.2.dev0.tar.gz
+[2024-04-08 16:08:19] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.0.8.tar.gz]
+[2024-04-08 16:08:19] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.0.9.tar.gz]
+[2024-04-08 16:08:19] INFO root fetch - processPackages [ft-jwt]: Start processing: findatapy
+[2024-04-08 16:08:19] INFO root fetch - main [MainThread]: End processing [ft-jwt]: success
+[2024-04-08 16:08:19] WARNING root fetch - processPackages [eon-collective-docs-theme]: Timeout reached during download
+[2024-04-08 16:08:19] INFO root fetch - processPackages [eon-collective-docs-theme]: executing diffoscope
+[2024-04-08 16:08:19] INFO root fetch - processPackages [eon-collective-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eon_collective_docs_theme-0.0.1.dev0.tar.gz tmp/eon_collective_docs_theme-0.0.2.dev0.tar.gz --markdown 20240408/e/eon-collective-docs-theme/0.0.1.dev0-0.0.2.dev0/diff.md --exclude *.pyd
+[2024-04-08 16:08:19] INFO root fetch - processPackages [findatapy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 16:08:19] INFO root fetch - processPackages [sw-product-lib]: Remove: archive file [/home/abi/fetcher/tmp/sw_product_lib-0.8.8.tar.gz]
+[2024-04-08 16:08:19] INFO root fetch - processPackages [sw-product-lib]: Remove: archive file [/home/abi/fetcher/tmp/sw_product_lib-0.8.9.tar.gz]
+[2024-04-08 16:08:19] INFO root fetch - processPackages [sw-product-lib]: Start processing: pyoes
+[2024-04-08 16:08:19] INFO root fetch - main [MainThread]: End processing [sw-product-lib]: success
+[2024-04-08 16:08:19] INFO root fetch - processPackages [findatapy]: Downloading https://files.pythonhosted.org/packages/62/42/3cb60df4d1c9f9318c6e13e27b88469d8b661bf946e08abb586e011410c8/findatapy-0.1.8.tar.gz
+[2024-04-08 16:08:19] INFO root fetch - processPackages [pyoes]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [ms2rescore-rs]: Remove: archive file [/home/abi/fetcher/tmp/ms2rescore_rs-0.1.0.tar.gz]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [ms2rescore-rs]: Remove: archive file [/home/abi/fetcher/tmp/ms2rescore_rs-0.2.0.tar.gz]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [ms2rescore-rs]: Start processing: arion-library
+[2024-04-08 16:08:20] INFO root fetch - main [MainThread]: End processing [ms2rescore-rs]: success
+[2024-04-08 16:08:20] WARNING root fetch - processPackages [findatapy]: Timeout reached during download
+[2024-04-08 16:08:20] INFO root fetch - processPackages [oceanai]: Remove: archive file [/home/abi/fetcher/tmp/oceanai-1.0.0a28.tar.gz]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [oceanai]: Remove: archive file [/home/abi/fetcher/tmp/oceanai-1.0.0a5.tar.gz]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [oceanai]: Start processing: ssh-ca-cli
+[2024-04-08 16:08:20] INFO root fetch - main [MainThread]: End processing [oceanai]: success
+[2024-04-08 16:08:20] INFO root fetch - processPackages [arion-library]: New version: [1.1rc36.dev36] Old Version: [1.1rc35.dev35]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [pyoes]: Downloading https://files.pythonhosted.org/packages/a8/1b/dd0c1d6b31c86db1aac92a5b6c4da235ac782e82d15d699b449a5a3cc82f/pyoes-0.9.1-py2.py3-none-any.whl
+[2024-04-08 16:08:20] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/70/d1/539a0722468fa6fe92a5849b7d3c55272e718b7e0f52ccd463c84da8f449/arion_library-1.1rc35.dev35.tar.gz
+[2024-04-08 16:08:20] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/e8/3d/5eeafb492b4deeb98085bbcc0be3d4c9a8b1a0275c452121ad735817e32e/ssh_ca_cli-0.7.8.tar.gz
+[2024-04-08 16:08:20] INFO root fetch - processPackages [findatapy]: Downloading https://files.pythonhosted.org/packages/90/9a/510bde9636a0a5fcc7f0eac3b6f14cc6abcfc8cbe20da25cb83b1cbd86ea/findatapy-0.1.9.tar.gz
+[2024-04-08 16:08:20] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 16:08:20] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:08:20] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/73/19/c5d704271af3bafd026c7d524f505ffb03925fe00cdffc01d2e094ed6ac5/arion_library-1.1rc36.dev36.tar.gz
+[2024-04-08 16:08:20] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/d9/17/a7a0b2c1f4a0e962ee74fb64fccdd2513ec2311535cfa14bf692e46c5538/ssh_ca_cli-0.7.9.tar.gz
+[2024-04-08 16:08:20] INFO root fetch - processPackages [sat-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/sat-toolkit-0.4.1.tar.gz]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [sat-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/sat-toolkit-0.4.2.tar.gz]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [sat-toolkit]: Start processing: illuminat
+[2024-04-08 16:08:20] INFO root fetch - main [MainThread]: End processing [sat-toolkit]: success
+[2024-04-08 16:08:20] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 16:08:20] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 16:08:20] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc35.dev35.tar.gz tmp/arion_library-1.1rc36.dev36.tar.gz --markdown 20240408/a/arion-library/1.1rc35.dev35-1.1rc36.dev36/diff.md --exclude *.pyd
+[2024-04-08 16:08:20] WARNING root fetch - processPackages [findatapy]: Timeout reached during download
+[2024-04-08 16:08:20] INFO root fetch - processPackages [findatapy]: executing diffoscope
+[2024-04-08 16:08:20] INFO root fetch - processPackages [findatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findatapy-0.1.8.tar.gz tmp/findatapy-0.1.9.tar.gz --markdown 20240408/f/findatapy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:20] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:08:20] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 16:08:20] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.8.tar.gz tmp/ssh_ca_cli-0.7.9.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:20] INFO root fetch - processPackages [illuminat]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [eon-collective-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/eon_collective_docs_theme-0.0.1.dev0.tar.gz]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [eon-collective-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/eon_collective_docs_theme-0.0.2.dev0.tar.gz]
+[2024-04-08 16:08:20] INFO root fetch - processPackages [eon-collective-docs-theme]: Start processing: outfit418-backup-ratting
+[2024-04-08 16:08:20] INFO root fetch - main [MainThread]: End processing [eon-collective-docs-theme]: success
+[2024-04-08 16:08:20] WARNING root fetch - processPackages [pyoes]: Timeout reached during download
+[2024-04-08 16:08:21] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/d2/2f/dfe017cfdd5d689f8e56c63aea041316950f766b8d859319182fa2fa9116/illuminat-1.1.3.tar.gz
+[2024-04-08 16:08:21] INFO root fetch - processPackages [outfit418-backup-ratting]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-04-08 16:08:21] WARNING root fetch - processPackages [illuminat]: Timeout reached during download
+[2024-04-08 16:08:21] INFO root fetch - processPackages [pyoes]: Downloading https://files.pythonhosted.org/packages/a4/19/b9e2dc46fca609bfd9944f584823bbaa3d52a6b2f5ab8ae8f43bd3e07aed/pyoes-0.9.2-py2.py3-none-any.whl
+[2024-04-08 16:08:21] INFO root fetch - processPackages [outfit418-backup-ratting]: Downloading https://files.pythonhosted.org/packages/76/98/03b1b7477ed7ef1ec83c98d78e0829e8ef9b4a8b716ea67bf387f79e3fa9/outfit418_backup_ratting-0.2.4.tar.gz
+[2024-04-08 16:08:21] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/d6/70/c3cd14bce98de234a981bba93e0baba40be62800222da4fbe08e149f3c1d/illuminat-1.1.4.tar.gz
+[2024-04-08 16:08:21] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.8.tar.gz]
+[2024-04-08 16:08:21] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.9.tar.gz]
+[2024-04-08 16:08:21] INFO root fetch - processPackages [ssh-ca-cli]: Start processing: avrotize
+[2024-04-08 16:08:21] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 16:08:21] WARNING root fetch - processPackages [outfit418-backup-ratting]: Timeout reached during download
+[2024-04-08 16:08:21] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc35.dev35.tar.gz]
+[2024-04-08 16:08:21] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc36.dev36.tar.gz]
+[2024-04-08 16:08:21] INFO root fetch - processPackages [arion-library]: Start processing: netpywork
+[2024-04-08 16:08:21] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 16:08:21] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46425503>=10485760
+[2024-04-08 16:08:21] INFO root fetch - processPackages [illuminat]: Start processing: ssh-ca-cli
+[2024-04-08 16:08:21] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 16:08:21] INFO root fetch - processPackages [avrotize]: New version: [1.1.1] Old Version: [1.0.3]
+[2024-04-08 16:08:21] INFO root fetch - processPackages [netpywork]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 16:08:21] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-08 16:08:21] INFO root fetch - processPackages [outfit418-backup-ratting]: Downloading https://files.pythonhosted.org/packages/b7/a5/ea8c518e19da0e25d35b51af80700b429bdbe4162200aae639747fe59121/outfit418_backup_ratting-0.3.0.tar.gz
+[2024-04-08 16:08:21] INFO root fetch - processPackages [netpywork]: Downloading https://files.pythonhosted.org/packages/3f/77/6c646eadd1a6eda6e78a76f6ab5a605c6860a2fab41e8391d85d6a7de4a7/netpywork-0.0.2.tar.gz
+[2024-04-08 16:08:21] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/e8/3d/5eeafb492b4deeb98085bbcc0be3d4c9a8b1a0275c452121ad735817e32e/ssh_ca_cli-0.7.8.tar.gz
+[2024-04-08 16:08:21] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/9e/a1/3782b51ae3fba78432767b3d6531dd2933064060eeaa67e823eddf222c37/avrotize-1.0.3.tar.gz
+[2024-04-08 16:08:21] WARNING root fetch - processPackages [outfit418-backup-ratting]: Timeout reached during download
+[2024-04-08 16:08:21] INFO root fetch - processPackages [outfit418-backup-ratting]: executing diffoscope
+[2024-04-08 16:08:21] INFO root fetch - processPackages [outfit418-backup-ratting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outfit418_backup_ratting-0.2.4.tar.gz tmp/outfit418_backup_ratting-0.3.0.tar.gz --markdown 20240408/o/outfit418-backup-ratting/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:21] WARNING root fetch - processPackages [netpywork]: Timeout reached during download
+[2024-04-08 16:08:21] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:08:21] INFO root fetch - processPackages [findatapy]: Remove: archive file [/home/abi/fetcher/tmp/findatapy-0.1.8.tar.gz]
+[2024-04-08 16:08:21] INFO root fetch - processPackages [findatapy]: Remove: archive file [/home/abi/fetcher/tmp/findatapy-0.1.9.tar.gz]
+[2024-04-08 16:08:21] INFO root fetch - processPackages [findatapy]: Start processing: Channudam-DB-Custome-Connection
+[2024-04-08 16:08:21] INFO root fetch - main [MainThread]: End processing [findatapy]: success
+[2024-04-08 16:08:22] WARNING root fetch - processPackages [avrotize]: Timeout reached during download
+[2024-04-08 16:08:22] INFO root fetch - processPackages [netpywork]: Downloading https://files.pythonhosted.org/packages/29/cc/ed3ed2ce519afceff2a7b203a1bf55efe28ecbe5201f7be6d179763ec914/netpywork-0.0.3.tar.gz
+[2024-04-08 16:08:22] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/d9/17/a7a0b2c1f4a0e962ee74fb64fccdd2513ec2311535cfa14bf692e46c5538/ssh_ca_cli-0.7.9.tar.gz
+[2024-04-08 16:08:22] WARNING root fetch - processPackages [Channudam-DB-Custome-Connection]: Skipping, unable to determine old version
+[2024-04-08 16:08:22] INFO root fetch - processPackages [Channudam-DB-Custome-Connection]: Start processing: openvino-telemetry
+[2024-04-08 16:08:22] INFO root fetch - main [MainThread]: End processing [Channudam-DB-Custome-Connection] error
+[2024-04-08 16:08:22] WARNING root fetch - processPackages [netpywork]: Timeout reached during download
+[2024-04-08 16:08:22] INFO root fetch - processPackages [netpywork]: executing diffoscope
+[2024-04-08 16:08:22] INFO root fetch - processPackages [netpywork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netpywork-0.0.2.tar.gz tmp/netpywork-0.0.3.tar.gz --markdown 20240408/n/netpywork/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 16:08:22] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:08:22] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 16:08:22] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.8.tar.gz tmp/ssh_ca_cli-0.7.9.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:22] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/5e/b4/539553e9f0765bda6aab366d116531d80b799e1425f50aa99cfc51a9e2bc/avrotize-1.1.1.tar.gz
+[2024-04-08 16:08:22] INFO root fetch - processPackages [openvino-telemetry]: New version: [2024.1.0] Old Version: [2023.2.1]
+[2024-04-08 16:08:22] WARNING root fetch - processPackages [avrotize]: Timeout reached during download
+[2024-04-08 16:08:22] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-04-08 16:08:22] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.0.3.tar.gz tmp/avrotize-1.1.1.tar.gz --markdown 20240408/a/avrotize/1.0.3-1.1.1/diff.md --exclude *.pyd
+[2024-04-08 16:08:22] INFO root fetch - processPackages [openvino-telemetry]: Downloading https://files.pythonhosted.org/packages/37/dd/675a6349e4b5a1d5bfaab940cd52a70c988099b6f4c1689af1884c49815a/openvino-telemetry-2023.2.1.tar.gz
+[2024-04-08 16:08:22] INFO root fetch - processPackages [StonerPlots]: Remove: archive file [/home/abi/fetcher/tmp/StonerPlots-1.3.4.tar.gz]
+[2024-04-08 16:08:22] INFO root fetch - processPackages [StonerPlots]: Remove: archive file [/home/abi/fetcher/tmp/StonerPlots-1.4.0.tar.gz]
+[2024-04-08 16:08:22] INFO root fetch - processPackages [StonerPlots]: Start processing: QIDLearningLib-sanchosimoes
+[2024-04-08 16:08:22] INFO root fetch - main [MainThread]: End processing [StonerPlots]: success
+[2024-04-08 16:08:22] WARNING root fetch - processPackages [openvino-telemetry]: Timeout reached during download
+[2024-04-08 16:08:22] WARNING root fetch - processPackages [pyoes]: Timeout reached during download
+[2024-04-08 16:08:22] INFO root fetch - processPackages [pyoes]: executing diffoscope
+[2024-04-08 16:08:22] INFO root fetch - processPackages [pyoes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoes-0.9.1-py2.py3-none-any.whl.zip tmp/pyoes-0.9.2-py2.py3-none-any.whl.zip --markdown 20240408/p/pyoes/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-08 16:08:22] WARNING root fetch - processPackages [QIDLearningLib-sanchosimoes]: Skipping, unable to determine old version
+[2024-04-08 16:08:22] INFO root fetch - processPackages [QIDLearningLib-sanchosimoes]: Start processing: dhlab_toolkit
+[2024-04-08 16:08:22] INFO root fetch - main [MainThread]: End processing [QIDLearningLib-sanchosimoes] error
+[2024-04-08 16:08:22] INFO root fetch - processPackages [openvino-telemetry]: Downloading https://files.pythonhosted.org/packages/2b/c7/ca3bb8cfb17c46cf50d951e0f4dd4bf3f7004e0c207b25164df70e091f6d/openvino-telemetry-2024.1.0.tar.gz
+[2024-04-08 16:08:22] INFO root fetch - processPackages [outfit418-backup-ratting]: Remove: archive file [/home/abi/fetcher/tmp/outfit418_backup_ratting-0.2.4.tar.gz]
+[2024-04-08 16:08:22] INFO root fetch - processPackages [outfit418-backup-ratting]: Remove: archive file [/home/abi/fetcher/tmp/outfit418_backup_ratting-0.3.0.tar.gz]
+[2024-04-08 16:08:22] INFO root fetch - processPackages [outfit418-backup-ratting]: Start processing: python-keycloak
+[2024-04-08 16:08:22] INFO root fetch - main [MainThread]: End processing [outfit418-backup-ratting]: success
+[2024-04-08 16:08:22] INFO root fetch - processPackages [dhlab_toolkit]: New version: [0.2.0] Old Version: [0.1.0a1]
+[2024-04-08 16:08:22] INFO root fetch - processPackages [python-keycloak]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-04-08 16:08:23] WARNING root fetch - processPackages [openvino-telemetry]: Timeout reached during download
+[2024-04-08 16:08:23] INFO root fetch - processPackages [openvino-telemetry]: executing diffoscope
+[2024-04-08 16:08:23] INFO root fetch - processPackages [openvino-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino-telemetry-2023.2.1.tar.gz tmp/openvino-telemetry-2024.1.0.tar.gz --markdown 20240408/o/openvino-telemetry/2023.2.1-2024.1.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:23] INFO root fetch - processPackages [dhlab_toolkit]: Downloading https://files.pythonhosted.org/packages/9e/2f/196b5a4b2debd95458bbb891b7d9a3d72815fdf53ef6a62417bedb2269bc/dhlab_toolkit-0.1.0a1.tar.gz
+[2024-04-08 16:08:23] INFO root fetch - processPackages [netpywork]: Remove: archive file [/home/abi/fetcher/tmp/netpywork-0.0.2.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [netpywork]: Remove: archive file [/home/abi/fetcher/tmp/netpywork-0.0.3.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [netpywork]: Start processing: vellum-ai
+[2024-04-08 16:08:23] INFO root fetch - main [MainThread]: End processing [netpywork]: success
+[2024-04-08 16:08:23] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/b2/80/076b85c4bccda2f1b59698061769260114e01730535198ed893082ffbc6b/python_keycloak-3.9.2.tar.gz
+[2024-04-08 16:08:23] INFO root fetch - processPackages [vellum-ai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-08 16:08:23] WARNING root fetch - processPackages [dhlab_toolkit]: Timeout reached during download
+[2024-04-08 16:08:23] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/78/ae/720d382b9ede37557842d97cf6c0d3aebc8a231a8345d6a89d68671b088f/vellum_ai-0.3.8.tar.gz
+[2024-04-08 16:08:23] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.8.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.9.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [ssh-ca-cli]: Start processing: pnostic
+[2024-04-08 16:08:23] WARNING root fetch - processPackages [python-keycloak]: Timeout reached during download
+[2024-04-08 16:08:23] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 16:08:23] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-1.6.5.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.0.0.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [erlab]: Start processing: rosa-python-client
+[2024-04-08 16:08:23] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-04-08 16:08:23] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.0.3.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.1.1.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [avrotize]: Start processing: FeinCMS
+[2024-04-08 16:08:23] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-04-08 16:08:23] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 16:08:23] WARNING root fetch - processPackages [vellum-ai]: Timeout reached during download
+[2024-04-08 16:08:23] INFO root fetch - processPackages [dhlab_toolkit]: Downloading https://files.pythonhosted.org/packages/44/80/fc3951087aeae2acb38c229b6967993bb9b45256afbc661ab5db38125acc/dhlab_toolkit-0.2.0.tar.gz
+[2024-04-08 16:08:23] INFO root fetch - processPackages [pnostic]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2024-04-08 16:08:23] INFO root fetch - processPackages [FeinCMS]: New version: [24.4.0] Old Version: [23.8.0]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/0d/1c/9c16c53eac3772437ddfc920c76b833af0a0e9f147befd41d1fab1dc13cd/python_keycloak-3.9.3.tar.gz
+[2024-04-08 16:08:23] WARNING root fetch - processPackages [dhlab_toolkit]: Timeout reached during download
+[2024-04-08 16:08:23] INFO root fetch - processPackages [dhlab_toolkit]: executing diffoscope
+[2024-04-08 16:08:23] INFO root fetch - processPackages [dhlab_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhlab_toolkit-0.1.0a1.tar.gz tmp/dhlab_toolkit-0.2.0.tar.gz --markdown 20240408/d/dhlab_toolkit/0.1.0a1-0.2.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:23] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/bf/5a/2c938e0073e88220605a43e67a92e6c57f274bcaee9d8d1b369db835cd0c/vellum_ai-0.3.9.tar.gz
+[2024-04-08 16:08:23] WARNING root fetch - processPackages [rosa-python-client]: Timeout reached during download
+[2024-04-08 16:08:23] INFO root fetch - processPackages [pnostic]: Downloading https://files.pythonhosted.org/packages/8a/74/adb142fadba48149adb2293ba6f5e9772c5c4a2f21e54eae2aff732f3c3d/pnostic-0.8.8.tar.gz
+[2024-04-08 16:08:23] WARNING root fetch - processPackages [python-keycloak]: Timeout reached during download
+[2024-04-08 16:08:23] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2024-04-08 16:08:23] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2024-04-08 16:08:23] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-3.9.2.tar.gz tmp/python_keycloak-3.9.3.tar.gz --markdown 20240408/p/python-keycloak/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2024-04-08 16:08:23] INFO root fetch - processPackages [FeinCMS]: Downloading https://files.pythonhosted.org/packages/9a/50/149d48f7a67473b0cb058e70a529080e61b7745dc7469821d82f8f2490f3/FeinCMS-23.8.0.tar.gz
+[2024-04-08 16:08:23] WARNING root fetch - processPackages [vellum-ai]: Timeout reached during download
+[2024-04-08 16:08:23] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2024-04-08 16:08:23] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.3.8.tar.gz tmp/vellum_ai-0.3.9.tar.gz --markdown 20240408/v/vellum-ai/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:23] INFO root fetch - processPackages [openvino-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/openvino-telemetry-2023.2.1.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [openvino-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/openvino-telemetry-2024.1.0.tar.gz]
+[2024-04-08 16:08:23] INFO root fetch - processPackages [openvino-telemetry]: Start processing: large-image
+[2024-04-08 16:08:23] INFO root fetch - main [MainThread]: End processing [openvino-telemetry]: success
+[2024-04-08 16:08:23] WARNING root fetch - processPackages [rosa-python-client]: Timeout reached during download
+[2024-04-08 16:08:23] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2024-04-08 16:08:23] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20240408/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:24] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:08:24] WARNING root fetch - processPackages [pnostic]: Timeout reached during download
+[2024-04-08 16:08:24] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2024-04-08 16:08:24] WARNING root fetch - processPackages [FeinCMS]: Timeout reached during download
+[2024-04-08 16:08:24] WARNING root fetch - processPackages [large-image]: Timeout reached during download
+[2024-04-08 16:08:24] INFO root fetch - processPackages [pnostic]: Downloading https://files.pythonhosted.org/packages/0c/c0/79239f8b2ef32d8dff3ca96547a88ec5b99f728c73d47b89275249dd2ef0/pnostic-0.8.9.tar.gz
+[2024-04-08 16:08:24] INFO root fetch - processPackages [FeinCMS]: Downloading https://files.pythonhosted.org/packages/bb/91/15a255f9e0a21bfe1f96cda0a7af3f9937199ab49ebba8d7d62be3bc41e7/FeinCMS-24.4.0.tar.gz
+[2024-04-08 16:08:24] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2024-04-08 16:08:24] WARNING root fetch - processPackages [pnostic]: Timeout reached during download
+[2024-04-08 16:08:24] INFO root fetch - processPackages [pnostic]: executing diffoscope
+[2024-04-08 16:08:24] INFO root fetch - processPackages [pnostic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnostic-0.8.8.tar.gz tmp/pnostic-0.8.9.tar.gz --markdown 20240408/p/pnostic/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:24] WARNING root fetch - processPackages [large-image]: Timeout reached during download
+[2024-04-08 16:08:24] INFO root fetch - processPackages [dhlab_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dhlab_toolkit-0.1.0a1.tar.gz]
+[2024-04-08 16:08:24] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2024-04-08 16:08:24] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:08:24] INFO root fetch - processPackages [dhlab_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dhlab_toolkit-0.2.0.tar.gz]
+[2024-04-08 16:08:24] INFO root fetch - processPackages [dhlab_toolkit]: Start processing: giskard
+[2024-04-08 16:08:24] INFO root fetch - main [MainThread]: End processing [dhlab_toolkit]: success
+[2024-04-08 16:08:24] WARNING root fetch - processPackages [FeinCMS]: Timeout reached during download
+[2024-04-08 16:08:24] INFO root fetch - processPackages [FeinCMS]: executing diffoscope
+[2024-04-08 16:08:24] INFO root fetch - processPackages [FeinCMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeinCMS-23.8.0.tar.gz tmp/FeinCMS-24.4.0.tar.gz --markdown 20240408/F/FeinCMS/23.8.0-24.4.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:24] INFO root fetch - processPackages [giskard]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-08 16:08:24] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2024-04-08 16:08:24] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2024-04-08 16:08:24] INFO root fetch - processPackages [rosa-python-client]: Start processing: openshift-python-utilities
+[2024-04-08 16:08:24] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2024-04-08 16:08:24] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.9.2.tar.gz]
+[2024-04-08 16:08:24] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.9.3.tar.gz]
+[2024-04-08 16:08:24] INFO root fetch - processPackages [python-keycloak]: Start processing: python-keycloak
+[2024-04-08 16:08:24] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2024-04-08 16:08:24] INFO root fetch - processPackages [python-keycloak]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-04-08 16:08:24] INFO root fetch - processPackages [openshift-python-utilities]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-04-08 16:08:25] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/64/6f/775e9f80f90e0ab8916a4191439ef8bc325de63c9022236306a53622f92a/giskard-2.8.0.tar.gz
+[2024-04-08 16:08:25] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/b2/80/076b85c4bccda2f1b59698061769260114e01730535198ed893082ffbc6b/python_keycloak-3.9.2.tar.gz
+[2024-04-08 16:08:25] WARNING root fetch - processPackages [python-keycloak]: Timeout reached during download
+[2024-04-08 16:08:25] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/a1/84/0ac268323fbbc1a4a48fcfe6455c6dbedf14088e2e9907e1466ec7e5e972/openshift_python_utilities-5.0.8.tar.gz
+[2024-04-08 16:08:25] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/0d/1c/9c16c53eac3772437ddfc920c76b833af0a0e9f147befd41d1fab1dc13cd/python_keycloak-3.9.3.tar.gz
+[2024-04-08 16:08:25] WARNING root fetch - processPackages [giskard]: Timeout reached during download
+[2024-04-08 16:08:25] INFO root fetch - processPackages [pyoes]: Remove: archive file [/home/abi/fetcher/tmp/pyoes-0.9.1-py2.py3-none-any.whl.zip]
+[2024-04-08 16:08:25] INFO root fetch - processPackages [pyoes]: Remove: archive file [/home/abi/fetcher/tmp/pyoes-0.9.2-py2.py3-none-any.whl.zip]
+[2024-04-08 16:08:25] INFO root fetch - main [MainThread]: End processing [pyoes]: success
+[2024-04-08 16:08:25] INFO root fetch - processPackages [pnostic]: Remove: archive file [/home/abi/fetcher/tmp/pnostic-0.8.8.tar.gz]
+[2024-04-08 16:08:25] INFO root fetch - processPackages [pnostic]: Remove: archive file [/home/abi/fetcher/tmp/pnostic-0.8.9.tar.gz]
+[2024-04-08 16:08:25] INFO root fetch - main [MainThread]: End processing [pnostic]: success
+[2024-04-08 16:08:25] WARNING root fetch - processPackages [python-keycloak]: Timeout reached during download
+[2024-04-08 16:08:25] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2024-04-08 16:08:25] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-3.9.2.tar.gz tmp/python_keycloak-3.9.3.tar.gz --markdown 20240408/p/python-keycloak/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2024-04-08 16:08:25] WARNING root fetch - processPackages [openshift-python-utilities]: Timeout reached during download
+[2024-04-08 16:08:25] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/2b/53/bb44a1997d85a99d74a28c9b79a492c7033bfb624489a4025cbd028f234d/giskard-2.9.0.tar.gz
+[2024-04-08 16:08:25] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2024-04-08 16:08:25] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2024-04-08 16:08:25] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2024-04-08 16:08:25] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/3c/95/4138254900b73e3ff11e5c55d9ea9996866a1087a8366f13039f0590e401/openshift_python_utilities-5.0.9.tar.gz
+[2024-04-08 16:08:25] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.3.8.tar.gz]
+[2024-04-08 16:08:25] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.3.9.tar.gz]
+[2024-04-08 16:08:25] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2024-04-08 16:08:25] WARNING root fetch - processPackages [giskard]: Timeout reached during download
+[2024-04-08 16:08:25] INFO root fetch - processPackages [giskard]: executing diffoscope
+[2024-04-08 16:08:25] INFO root fetch - processPackages [giskard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard-2.8.0.tar.gz tmp/giskard-2.9.0.tar.gz --markdown 20240408/g/giskard/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-08 16:08:25] WARNING root fetch - processPackages [openshift-python-utilities]: Timeout reached during download
+[2024-04-08 16:08:25] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2024-04-08 16:08:25] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_python_utilities-5.0.8.tar.gz tmp/openshift_python_utilities-5.0.9.tar.gz --markdown 20240408/o/openshift-python-utilities/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2024-04-08 16:08:26] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.9.2.tar.gz]
+[2024-04-08 16:08:26] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.9.3.tar.gz]
+[2024-04-08 16:08:26] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2024-04-08 16:08:26] INFO root fetch - processPackages [FeinCMS]: Remove: archive file [/home/abi/fetcher/tmp/FeinCMS-23.8.0.tar.gz]
+[2024-04-08 16:08:26] INFO root fetch - processPackages [FeinCMS]: Remove: archive file [/home/abi/fetcher/tmp/FeinCMS-24.4.0.tar.gz]
+[2024-04-08 16:08:26] INFO root fetch - main [MainThread]: End processing [FeinCMS]: success
+[2024-04-08 16:08:26] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_utilities-5.0.8.tar.gz]
+[2024-04-08 16:08:26] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_utilities-5.0.9.tar.gz]
+[2024-04-08 16:08:26] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2024-04-08 16:08:27] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.8.0.tar.gz]
+[2024-04-08 16:08:27] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.9.0.tar.gz]
+[2024-04-08 16:08:27] INFO root fetch - main [MainThread]: End processing [giskard]: success
+[2024-04-08 16:08:27] INFO root fetch - processPackages [taipy]: Remove: archive file [/home/abi/fetcher/tmp/taipy-3.1.0.tar.gz]
+[2024-04-08 16:08:27] INFO root fetch - processPackages [taipy]: Remove: archive file [/home/abi/fetcher/tmp/taipy-3.1.1.tar.gz]
+[2024-04-08 16:08:27] INFO root fetch - main [MainThread]: End processing [taipy]: success
+[2024-04-08 16:08:30] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-08 16:08:30] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-08 16:08:30] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
+[2024-04-08 16:08:30] INFO root fetch - main [MainThread]: Store serial: [22668418]
