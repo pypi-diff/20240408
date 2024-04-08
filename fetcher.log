@@ -10090,3 +10090,67 @@
 [2024-04-08 08:17:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240408.tar.gz]
 [2024-04-08 08:17:59] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-04-08 08:17:59] INFO root fetch - main [MainThread]: Store serial: [22662901]
+[2024-04-08 08:20:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662901]
+[2024-04-08 08:20:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 08:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdm-polylith-bricks
+[2024-04-08 08:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: y-tal
+[2024-04-08 08:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stock-hexagonal-app
+[2024-04-08 08:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdm-polylith-workspace
+[2024-04-08 08:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorpc
+[2024-04-08 08:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AppWrapper
+[2024-04-08 08:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poetry-polylith-plugin
+[2024-04-08 08:20:08] WARNING root fetch - processPackages [stock-hexagonal-app]: Skipping, unable to determine old version
+[2024-04-08 08:20:08] INFO root fetch - main [MainThread]: End processing [stock-hexagonal-app] error
+[2024-04-08 08:20:08] WARNING root fetch - processPackages [tensorpc]: Skipping, unable to determine old version
+[2024-04-08 08:20:08] INFO root fetch - main [MainThread]: End processing [tensorpc] error
+[2024-04-08 08:20:08] INFO root fetch - processPackages [pdm-polylith-bricks]: New version: [1.0.0] Old Version: [0.1.2]
+[2024-04-08 08:20:08] INFO root fetch - processPackages [AppWrapper]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 08:20:08] INFO root fetch - processPackages [pdm-polylith-workspace]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-04-08 08:20:08] INFO root fetch - processPackages [y-tal]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-08 08:20:08] INFO root fetch - processPackages [poetry-polylith-plugin]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-08 08:20:08] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/5e/d3/e35d5f0cc976fdac22170eeb2e9eac692e9c8d2ae267028a409e962593a1/AppWrapper-0.2.8.tar.gz
+[2024-04-08 08:20:08] INFO root fetch - processPackages [pdm-polylith-bricks]: Downloading https://files.pythonhosted.org/packages/f0/76/8410c21e760606a7ded538c3f1f5adf25540b36d7f5995bcb028f198f09f/pdm_polylith_bricks-0.1.2.tar.gz
+[2024-04-08 08:20:08] INFO root fetch - processPackages [pdm-polylith-workspace]: Downloading https://files.pythonhosted.org/packages/41/c5/22b6129824d6f31b31c9a24f1d35b244ade09166a9b7f38da75f33101dae/pdm_polylith_workspace-0.1.1.tar.gz
+[2024-04-08 08:20:08] INFO root fetch - processPackages [y-tal]: Downloading https://files.pythonhosted.org/packages/cd/40/2e401a304582d7679397036d67f20dd3433a96d36ef78fa7c8a78391a954/y-tal-0.9.2.tar.gz
+[2024-04-08 08:20:08] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/49/29/a828c35757bf7535ba7a9b6395c25166501b045b4b233d801fa6896b0e31/poetry_polylith_plugin-1.8.3.tar.gz
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [pdm-polylith-bricks]: Timeout reached during download
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [pdm-polylith-workspace]: Timeout reached during download
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [y-tal]: Timeout reached during download
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [poetry-polylith-plugin]: Timeout reached during download
+[2024-04-08 08:20:09] INFO root fetch - processPackages [pdm-polylith-bricks]: Downloading https://files.pythonhosted.org/packages/74/35/590e4c8b97602db25182ef443aad1380b2c7c6b05885ba72acb07846e263/pdm_polylith_bricks-1.0.0.tar.gz
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-08 08:20:09] INFO root fetch - processPackages [pdm-polylith-workspace]: Downloading https://files.pythonhosted.org/packages/be/53/1e83eb9da8bdff0a4ffbf03de8ddf326a0b2e8594a53fc2990a44144a909/pdm_polylith_workspace-1.0.0.tar.gz
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [pdm-polylith-bricks]: Timeout reached during download
+[2024-04-08 08:20:09] INFO root fetch - processPackages [pdm-polylith-bricks]: executing diffoscope
+[2024-04-08 08:20:09] INFO root fetch - processPackages [pdm-polylith-bricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_polylith_bricks-0.1.2.tar.gz tmp/pdm_polylith_bricks-1.0.0.tar.gz --markdown 20240408/p/pdm-polylith-bricks/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 08:20:09] INFO root fetch - processPackages [y-tal]: Downloading https://files.pythonhosted.org/packages/c7/42/1992891dadf5435bd808f804a2bca6b80968b7a0dbe544eeb9748c378223/y-tal-0.9.3.tar.gz
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [pdm-polylith-workspace]: Timeout reached during download
+[2024-04-08 08:20:09] INFO root fetch - processPackages [pdm-polylith-workspace]: executing diffoscope
+[2024-04-08 08:20:09] INFO root fetch - processPackages [pdm-polylith-workspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_polylith_workspace-0.1.1.tar.gz tmp/pdm_polylith_workspace-1.0.0.tar.gz --markdown 20240408/p/pdm-polylith-workspace/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 08:20:09] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/de/fb/c9f8f5b2f80b91fb096f4de78316ccfa166654868df2adb403f80746fe2f/poetry_polylith_plugin-1.9.0.tar.gz
+[2024-04-08 08:20:09] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/79/a0/6bf35da1d22d8fb26cc1802bf2ebdc48752b724a5ebf36fe503099ad959e/AppWrapper-0.2.9.tar.gz
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [poetry-polylith-plugin]: Timeout reached during download
+[2024-04-08 08:20:09] INFO root fetch - processPackages [poetry-polylith-plugin]: executing diffoscope
+[2024-04-08 08:20:09] INFO root fetch - processPackages [poetry-polylith-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_polylith_plugin-1.8.3.tar.gz tmp/poetry_polylith_plugin-1.9.0.tar.gz --markdown 20240408/p/poetry-polylith-plugin/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-08 08:20:09] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2024-04-08 08:20:09] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.2.8.tar.gz tmp/AppWrapper-0.2.9.tar.gz --markdown 20240408/A/AppWrapper/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 08:20:09] WARNING root fetch - processPackages [y-tal]: Timeout reached during download
+[2024-04-08 08:20:09] INFO root fetch - processPackages [y-tal]: executing diffoscope
+[2024-04-08 08:20:09] INFO root fetch - processPackages [y-tal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y-tal-0.9.2.tar.gz tmp/y-tal-0.9.3.tar.gz --markdown 20240408/y/y-tal/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-08 08:20:10] INFO root fetch - processPackages [pdm-polylith-bricks]: Remove: archive file [/home/abi/fetcher/tmp/pdm_polylith_bricks-0.1.2.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - processPackages [pdm-polylith-bricks]: Remove: archive file [/home/abi/fetcher/tmp/pdm_polylith_bricks-1.0.0.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - main [MainThread]: End processing [pdm-polylith-bricks]: success
+[2024-04-08 08:20:10] INFO root fetch - processPackages [pdm-polylith-workspace]: Remove: archive file [/home/abi/fetcher/tmp/pdm_polylith_workspace-0.1.1.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - processPackages [pdm-polylith-workspace]: Remove: archive file [/home/abi/fetcher/tmp/pdm_polylith_workspace-1.0.0.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - main [MainThread]: End processing [pdm-polylith-workspace]: success
+[2024-04-08 08:20:10] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.8.3.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.9.0.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - main [MainThread]: End processing [poetry-polylith-plugin]: success
+[2024-04-08 08:20:10] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.8.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.9.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2024-04-08 08:20:10] INFO root fetch - processPackages [y-tal]: Remove: archive file [/home/abi/fetcher/tmp/y-tal-0.9.2.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - processPackages [y-tal]: Remove: archive file [/home/abi/fetcher/tmp/y-tal-0.9.3.tar.gz]
+[2024-04-08 08:20:10] INFO root fetch - main [MainThread]: End processing [y-tal]: success
+[2024-04-08 08:20:10] INFO root fetch - main [MainThread]: Store serial: [22662918]
