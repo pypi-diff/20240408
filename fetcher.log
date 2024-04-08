@@ -19710,3 +19710,56 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:01:50] INFO root fetch - processPackages [viggocore]: Remove: archive file [/home/abi/fetcher/tmp/viggocore-1.2.9.tar.gz]
 [2024-04-08 14:01:50] INFO root fetch - main [MainThread]: End processing [viggocore]: success
 [2024-04-08 14:01:50] INFO root fetch - main [MainThread]: Store serial: [22666575]
+[2024-04-08 14:03:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666575]
+[2024-04-08 14:03:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 14:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openeo-fastapi
+[2024-04-08 14:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-grpc-common
+[2024-04-08 14:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openapi-service-client
+[2024-04-08 14:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsfx
+[2024-04-08 14:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heimdall-tools
+[2024-04-08 14:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssh-ca-cli
+[2024-04-08 14:03:59] INFO root fetch - processPackages [openapi-service-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 14:03:59] WARNING root fetch - processPackages [ssh-ca-cli]: Skipping, unable to determine old version
+[2024-04-08 14:03:59] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli] error
+[2024-04-08 14:03:59] INFO root fetch - processPackages [openapi-service-client]: Downloading https://files.pythonhosted.org/packages/0a/6d/1a9cdb3f50f5283a3e6e92292c45bc20f899149997e065badff67c6cf113/openapi_service_client-0.0.2.tar.gz
+[2024-04-08 14:03:59] WARNING root fetch - processPackages [heimdall-tools]: Skipping, unable to determine old version
+[2024-04-08 14:03:59] INFO root fetch - main [MainThread]: End processing [heimdall-tools] error
+[2024-04-08 14:03:59] INFO root fetch - processPackages [dsfx]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-08 14:03:59] INFO root fetch - processPackages [openeo-fastapi]: New version: [2024.4.1] Old Version: [2024.3.2]
+[2024-04-08 14:03:59] INFO root fetch - processPackages [th2-grpc-common]: New version: [4.5.0.dev8599644190] Old Version: [4.4.0rc1]
+[2024-04-08 14:03:59] WARNING root fetch - processPackages [openapi-service-client]: Timeout reached during download
+[2024-04-08 14:03:59] INFO root fetch - processPackages [dsfx]: Downloading https://files.pythonhosted.org/packages/f3/b3/7b8d516ebc1c56f39f00e0d0ab665236f216c4b08c3e47bdab3c03410246/dsfx-0.2.4.tar.gz
+[2024-04-08 14:03:59] INFO root fetch - processPackages [openeo-fastapi]: Downloading https://files.pythonhosted.org/packages/3f/0d/01bb539947a969392406abe37c1057ec06856b81dace1d66f4762c66f311/openeo_fastapi-2024.3.2.tar.gz
+[2024-04-08 14:03:59] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/73/fb/0a72993fec185d4b8c08b79373655aaaae71b4039a39dd2f8f05ff2e227a/th2_grpc_common-4.4.0rc1.tar.gz
+[2024-04-08 14:03:59] INFO root fetch - processPackages [openapi-service-client]: Downloading https://files.pythonhosted.org/packages/ab/e2/5884924dc513cd660d649ca547dd218a68ec55ead54543d3d37be6d0323b/openapi_service_client-0.0.3.tar.gz
+[2024-04-08 14:03:59] WARNING root fetch - processPackages [dsfx]: Timeout reached during download
+[2024-04-08 14:03:59] WARNING root fetch - processPackages [openeo-fastapi]: Timeout reached during download
+[2024-04-08 14:03:59] WARNING root fetch - processPackages [th2-grpc-common]: Timeout reached during download
+[2024-04-08 14:03:59] INFO root fetch - processPackages [dsfx]: Downloading https://files.pythonhosted.org/packages/00/24/ce7a90ff4520780ec6d9d4b0e0fe56fc13dd0caa710f02c77e56b2e7d85f/dsfx-0.2.5.tar.gz
+[2024-04-08 14:03:59] INFO root fetch - processPackages [openeo-fastapi]: Downloading https://files.pythonhosted.org/packages/10/0a/fab3771dc9d3eb999dd032753e361504ea5d9072bc497aa96d9798bbc894/openeo_fastapi-2024.4.1.tar.gz
+[2024-04-08 14:03:59] WARNING root fetch - processPackages [openapi-service-client]: Timeout reached during download
+[2024-04-08 14:03:59] INFO root fetch - processPackages [openapi-service-client]: executing diffoscope
+[2024-04-08 14:03:59] INFO root fetch - processPackages [openapi-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_service_client-0.0.2.tar.gz tmp/openapi_service_client-0.0.3.tar.gz --markdown 20240408/o/openapi-service-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 14:03:59] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/d0/0f/0ae33fc810893e3de233fb8d6721c2ab6c23cd16b2b792b0abeb6df5f23f/th2_grpc_common-4.5.0.dev8599644190.tar.gz
+[2024-04-08 14:04:00] WARNING root fetch - processPackages [openeo-fastapi]: Timeout reached during download
+[2024-04-08 14:04:00] INFO root fetch - processPackages [openeo-fastapi]: executing diffoscope
+[2024-04-08 14:04:00] INFO root fetch - processPackages [openeo-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_fastapi-2024.3.2.tar.gz tmp/openeo_fastapi-2024.4.1.tar.gz --markdown 20240408/o/openeo-fastapi/2024.3.2-2024.4.1/diff.md --exclude *.pyd
+[2024-04-08 14:04:00] WARNING root fetch - processPackages [dsfx]: Timeout reached during download
+[2024-04-08 14:04:00] INFO root fetch - processPackages [dsfx]: executing diffoscope
+[2024-04-08 14:04:00] INFO root fetch - processPackages [dsfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsfx-0.2.4.tar.gz tmp/dsfx-0.2.5.tar.gz --markdown 20240408/d/dsfx/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-08 14:04:00] WARNING root fetch - processPackages [th2-grpc-common]: Timeout reached during download
+[2024-04-08 14:04:00] INFO root fetch - processPackages [th2-grpc-common]: executing diffoscope
+[2024-04-08 14:04:00] INFO root fetch - processPackages [th2-grpc-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_common-4.4.0rc1.tar.gz tmp/th2_grpc_common-4.5.0.dev8599644190.tar.gz --markdown 20240408/t/th2-grpc-common/4.4.0rc1-4.5.0.dev8599644190/diff.md --exclude *.pyd
+[2024-04-08 14:04:00] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.4.0rc1.tar.gz]
+[2024-04-08 14:04:00] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.5.0.dev8599644190.tar.gz]
+[2024-04-08 14:04:00] INFO root fetch - main [MainThread]: End processing [th2-grpc-common]: success
+[2024-04-08 14:04:00] INFO root fetch - processPackages [openapi-service-client]: Remove: archive file [/home/abi/fetcher/tmp/openapi_service_client-0.0.2.tar.gz]
+[2024-04-08 14:04:00] INFO root fetch - processPackages [openapi-service-client]: Remove: archive file [/home/abi/fetcher/tmp/openapi_service_client-0.0.3.tar.gz]
+[2024-04-08 14:04:00] INFO root fetch - main [MainThread]: End processing [openapi-service-client]: success
+[2024-04-08 14:04:00] INFO root fetch - processPackages [openeo-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openeo_fastapi-2024.3.2.tar.gz]
+[2024-04-08 14:04:00] INFO root fetch - processPackages [openeo-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openeo_fastapi-2024.4.1.tar.gz]
+[2024-04-08 14:04:00] INFO root fetch - main [MainThread]: End processing [openeo-fastapi]: success
+[2024-04-08 14:04:00] INFO root fetch - processPackages [dsfx]: Remove: archive file [/home/abi/fetcher/tmp/dsfx-0.2.4.tar.gz]
+[2024-04-08 14:04:00] INFO root fetch - processPackages [dsfx]: Remove: archive file [/home/abi/fetcher/tmp/dsfx-0.2.5.tar.gz]
+[2024-04-08 14:04:00] INFO root fetch - main [MainThread]: End processing [dsfx]: success
+[2024-04-08 14:04:00] INFO root fetch - main [MainThread]: Store serial: [22666593]
