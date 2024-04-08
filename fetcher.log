@@ -10432,3 +10432,17 @@
 [2024-04-08 08:33:32] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.5.0b9-py3-none-any.whl.zip]
 [2024-04-08 08:33:32] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
 [2024-04-08 08:33:32] INFO root fetch - main [MainThread]: Store serial: [22663002]
+[2024-04-08 08:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663002]
+[2024-04-08 08:35:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NorenRestApi
+[2024-04-08 08:35:40] INFO root fetch - processPackages [NorenRestApi]: New version: [0.0.28] Old Version: [0.0.27]
+[2024-04-08 08:35:40] INFO root fetch - processPackages [NorenRestApi]: Downloading https://files.pythonhosted.org/packages/57/47/c4fa1f5ecfae4238ab7e952f3c25b54507f21a44a44edd91888aee9bfdc7/NorenRestApi-0.0.27-py2.py3-none-any.whl
+[2024-04-08 08:35:41] WARNING root fetch - processPackages [NorenRestApi]: Timeout reached during download
+[2024-04-08 08:35:41] INFO root fetch - processPackages [NorenRestApi]: Downloading https://files.pythonhosted.org/packages/77/a4/208349b6b84abaa4749bdc51080a6e88db43a2c820aa89299605a83178fd/NorenRestApi-0.0.28-py2.py3-none-any.whl
+[2024-04-08 08:35:42] WARNING root fetch - processPackages [NorenRestApi]: Timeout reached during download
+[2024-04-08 08:35:42] INFO root fetch - processPackages [NorenRestApi]: executing diffoscope
+[2024-04-08 08:35:42] INFO root fetch - processPackages [NorenRestApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorenRestApi-0.0.27-py2.py3-none-any.whl.zip tmp/NorenRestApi-0.0.28-py2.py3-none-any.whl.zip --markdown 20240408/N/NorenRestApi/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2024-04-08 08:35:42] INFO root fetch - processPackages [NorenRestApi]: Remove: archive file [/home/abi/fetcher/tmp/NorenRestApi-0.0.27-py2.py3-none-any.whl.zip]
+[2024-04-08 08:35:42] INFO root fetch - processPackages [NorenRestApi]: Remove: archive file [/home/abi/fetcher/tmp/NorenRestApi-0.0.28-py2.py3-none-any.whl.zip]
+[2024-04-08 08:35:42] INFO root fetch - main [MainThread]: End processing [NorenRestApi]: success
+[2024-04-08 08:35:42] INFO root fetch - main [MainThread]: Store serial: [22663004]
