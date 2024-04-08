@@ -1930,3 +1930,50 @@
 [2024-04-08 02:29:58] INFO root fetch - processPackages [jefferson-street-singer-ingest]: Remove: archive file [/home/abi/fetcher/tmp/jefferson-street-singer-ingest-2.9.1.tar.gz]
 [2024-04-08 02:29:58] INFO root fetch - main [MainThread]: End processing [jefferson-street-singer-ingest]: success
 [2024-04-08 02:29:58] INFO root fetch - main [MainThread]: Store serial: [22660358]
+[2024-04-08 02:32:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660358]
+[2024-04-08 02:32:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 02:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2024-04-08 02:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fmbench
+[2024-04-08 02:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huckle
+[2024-04-08 02:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-period-finder
+[2024-04-08 02:32:07] INFO root fetch - processPackages [huckle]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-08 02:32:07] INFO root fetch - processPackages [fmbench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 02:32:07] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240407] Old Version: [0.1.5.dev20240406]
+[2024-04-08 02:32:07] INFO root fetch - processPackages [auto-period-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 02:32:07] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/0f/e0/491a14971cb52dc0d0b9e07e8502b0f47f06e3424d65f2694a8516c59bb4/huckle-3.3.2.tar.gz
+[2024-04-08 02:32:07] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/47/cb/c9604b84fcc8b760b1afacbad7141364d1a4beef8d0758388dbeb51d9dbd/aeppl-nightly-0.1.5.dev20240406.tar.gz
+[2024-04-08 02:32:07] WARNING root fetch - processPackages [huckle]: Timeout reached during download
+[2024-04-08 02:32:07] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/12/ff/7ccc41c0fab7fb2a7b7db448775887d29837bdaabdb47265fcd435e8eb35/fmbench-1.0.8.tar.gz
+[2024-04-08 02:32:07] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-08 02:32:07] INFO root fetch - processPackages [auto-period-finder]: Downloading https://files.pythonhosted.org/packages/04/bb/c5327456400af27c38a5147328a219c88529499844b394686d779a7c9157/auto_period_finder-0.0.8.tar.gz
+[2024-04-08 02:32:07] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/0c/a7/21d8b70707d3eb40d91ac3901d56ee6836f130e2d0a7b77d2ee187167cf5/huckle-3.3.3.tar.gz
+[2024-04-08 02:32:07] WARNING root fetch - processPackages [fmbench]: Timeout reached during download
+[2024-04-08 02:32:07] WARNING root fetch - processPackages [huckle]: Timeout reached during download
+[2024-04-08 02:32:07] INFO root fetch - processPackages [huckle]: executing diffoscope
+[2024-04-08 02:32:07] INFO root fetch - processPackages [huckle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huckle-3.3.2.tar.gz tmp/huckle-3.3.3.tar.gz --markdown 20240408/h/huckle/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2024-04-08 02:32:07] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/2d/40/d0b160df78d48ce2213d45e0fb46539989e90d19ba3412d4023db63d5192/aeppl-nightly-0.1.5.dev20240407.tar.gz
+[2024-04-08 02:32:07] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/84/ee/d5b3731e328488d9664f215a9cdceeb188cdf6dd2c19b5f99a6a59daa9e4/fmbench-1.0.9.tar.gz
+[2024-04-08 02:32:07] WARNING root fetch - processPackages [auto-period-finder]: Timeout reached during download
+[2024-04-08 02:32:07] WARNING root fetch - processPackages [fmbench]: Timeout reached during download
+[2024-04-08 02:32:07] INFO root fetch - processPackages [fmbench]: executing diffoscope
+[2024-04-08 02:32:07] INFO root fetch - processPackages [fmbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmbench-1.0.8.tar.gz tmp/fmbench-1.0.9.tar.gz --markdown 20240408/f/fmbench/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 02:32:08] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-08 02:32:08] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-08 02:32:08] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240406.tar.gz tmp/aeppl-nightly-0.1.5.dev20240407.tar.gz --markdown 20240408/a/aeppl-nightly/0.1.5.dev20240406-0.1.5.dev20240407/diff.md --exclude *.pyd
+[2024-04-08 02:32:08] INFO root fetch - processPackages [auto-period-finder]: Downloading https://files.pythonhosted.org/packages/91/cc/e48ba2d728ee11a14182dced2af87145d2370057415bd0fdadc86e1e85cb/auto_period_finder-0.0.9.tar.gz
+[2024-04-08 02:32:08] WARNING root fetch - processPackages [auto-period-finder]: Timeout reached during download
+[2024-04-08 02:32:08] INFO root fetch - processPackages [auto-period-finder]: executing diffoscope
+[2024-04-08 02:32:08] INFO root fetch - processPackages [auto-period-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_period_finder-0.0.8.tar.gz tmp/auto_period_finder-0.0.9.tar.gz --markdown 20240408/a/auto-period-finder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 02:32:08] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.3.2.tar.gz]
+[2024-04-08 02:32:08] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.3.3.tar.gz]
+[2024-04-08 02:32:08] INFO root fetch - main [MainThread]: End processing [huckle]: success
+[2024-04-08 02:32:08] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240406.tar.gz]
+[2024-04-08 02:32:08] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240407.tar.gz]
+[2024-04-08 02:32:08] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-08 02:32:08] INFO root fetch - processPackages [auto-period-finder]: Remove: archive file [/home/abi/fetcher/tmp/auto_period_finder-0.0.8.tar.gz]
+[2024-04-08 02:32:08] INFO root fetch - processPackages [auto-period-finder]: Remove: archive file [/home/abi/fetcher/tmp/auto_period_finder-0.0.9.tar.gz]
+[2024-04-08 02:32:08] INFO root fetch - main [MainThread]: End processing [auto-period-finder]: success
+[2024-04-08 02:32:08] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.8.tar.gz]
+[2024-04-08 02:32:08] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
+[2024-04-08 02:32:08] INFO root fetch - main [MainThread]: End processing [fmbench]: success
+[2024-04-08 02:32:08] INFO root fetch - main [MainThread]: Store serial: [22660369]
