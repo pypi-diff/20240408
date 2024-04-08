@@ -3724,3 +3724,42 @@
 [2024-04-08 04:38:03] INFO root fetch - processPackages [lineagex]: Remove: archive file [/home/abi/fetcher/tmp/lineagex-0.0.9.tar.gz]
 [2024-04-08 04:38:03] INFO root fetch - main [MainThread]: End processing [lineagex]: success
 [2024-04-08 04:38:03] INFO root fetch - main [MainThread]: Store serial: [22660988]
+[2024-04-08 04:40:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660988]
+[2024-04-08 04:40:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 04:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcli-core
+[2024-04-08 04:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixi-kernel
+[2024-04-08 04:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voiceos
+[2024-04-08 04:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythagoras
+[2024-04-08 04:40:13] WARNING root fetch - processPackages [pythagoras]: Skipping, unable to determine old version
+[2024-04-08 04:40:13] INFO root fetch - main [MainThread]: End processing [pythagoras] error
+[2024-04-08 04:40:13] INFO root fetch - processPackages [voiceos]: New version: [0.8.0.1] Old Version: [0.8.0]
+[2024-04-08 04:40:13] INFO root fetch - processPackages [voiceos]: Downloading https://files.pythonhosted.org/packages/f5/0f/dd1326b9a127496809700a6e11d6d4456d7518046c25a8f9ed5891eb9185/voiceos-0.8.0.tar.gz
+[2024-04-08 04:40:13] INFO root fetch - processPackages [pixi-kernel]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 04:40:13] INFO root fetch - processPackages [hcli-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-08 04:40:13] WARNING root fetch - processPackages [voiceos]: Timeout reached during download
+[2024-04-08 04:40:13] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6b/c1/5e085a3c4ac830a12c44fcbc907efc2f7e0fa4ba2b9860331bce714220a6/hcli_core-0.8.0.tar.gz
+[2024-04-08 04:40:13] INFO root fetch - processPackages [voiceos]: Downloading https://files.pythonhosted.org/packages/01/32/3d6f36c210a679e31802b5c267a1a69ce0d9c23db2b301d6b9476bf0da79/voiceos-0.8.0.1.tar.gz
+[2024-04-08 04:40:13] INFO root fetch - processPackages [pixi-kernel]: Downloading https://files.pythonhosted.org/packages/e7/ff/594b327e130551c938a6b8a834552987ce81b1755be8da4dc96ff7cda5f2/pixi-kernel-0.1.1.tar.gz
+[2024-04-08 04:40:13] WARNING root fetch - processPackages [hcli-core]: Timeout reached during download
+[2024-04-08 04:40:13] WARNING root fetch - processPackages [voiceos]: Timeout reached during download
+[2024-04-08 04:40:13] INFO root fetch - processPackages [voiceos]: executing diffoscope
+[2024-04-08 04:40:13] INFO root fetch - processPackages [voiceos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voiceos-0.8.0.tar.gz tmp/voiceos-0.8.0.1.tar.gz --markdown 20240408/v/voiceos/0.8.0-0.8.0.1/diff.md --exclude *.pyd
+[2024-04-08 04:40:13] WARNING root fetch - processPackages [pixi-kernel]: Timeout reached during download
+[2024-04-08 04:40:13] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6f/b4/19d468c66cf3eb10188374e2181a4f8d497514ff41a3655bc844c82c229e/hcli_core-0.9.0.tar.gz
+[2024-04-08 04:40:14] INFO root fetch - processPackages [pixi-kernel]: Downloading https://files.pythonhosted.org/packages/e6/ac/f5952e07c501b645edc00e23809890c2080e0e3bcd3595c965ae15da9405/pixi-kernel-0.1.2.tar.gz
+[2024-04-08 04:40:14] WARNING root fetch - processPackages [hcli-core]: Timeout reached during download
+[2024-04-08 04:40:14] INFO root fetch - processPackages [hcli-core]: executing diffoscope
+[2024-04-08 04:40:14] INFO root fetch - processPackages [hcli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_core-0.8.0.tar.gz tmp/hcli_core-0.9.0.tar.gz --markdown 20240408/h/hcli-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 04:40:14] WARNING root fetch - processPackages [pixi-kernel]: Timeout reached during download
+[2024-04-08 04:40:14] INFO root fetch - processPackages [pixi-kernel]: executing diffoscope
+[2024-04-08 04:40:14] INFO root fetch - processPackages [pixi-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixi-kernel-0.1.1.tar.gz tmp/pixi-kernel-0.1.2.tar.gz --markdown 20240408/p/pixi-kernel/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 04:40:14] INFO root fetch - processPackages [voiceos]: Remove: archive file [/home/abi/fetcher/tmp/voiceos-0.8.0.tar.gz]
+[2024-04-08 04:40:14] INFO root fetch - processPackages [voiceos]: Remove: archive file [/home/abi/fetcher/tmp/voiceos-0.8.0.1.tar.gz]
+[2024-04-08 04:40:14] INFO root fetch - main [MainThread]: End processing [voiceos]: success
+[2024-04-08 04:40:14] INFO root fetch - processPackages [pixi-kernel]: Remove: archive file [/home/abi/fetcher/tmp/pixi-kernel-0.1.1.tar.gz]
+[2024-04-08 04:40:14] INFO root fetch - processPackages [pixi-kernel]: Remove: archive file [/home/abi/fetcher/tmp/pixi-kernel-0.1.2.tar.gz]
+[2024-04-08 04:40:14] INFO root fetch - main [MainThread]: End processing [pixi-kernel]: success
+[2024-04-08 04:40:14] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.8.0.tar.gz]
+[2024-04-08 04:40:14] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.9.0.tar.gz]
+[2024-04-08 04:40:14] INFO root fetch - main [MainThread]: End processing [hcli-core]: success
+[2024-04-08 04:40:14] INFO root fetch - main [MainThread]: Store serial: [22661000]
