@@ -11614,3 +11614,131 @@
 [2024-04-08 09:22:56] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.9.0.tar.gz]
 [2024-04-08 09:22:56] INFO root fetch - main [MainThread]: End processing [path]: success
 [2024-04-08 09:22:56] INFO root fetch - main [MainThread]: Store serial: [22663425]
+[2024-04-08 09:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663425]
+[2024-04-08 09:25:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dashtext
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redhat-qe-cloud-tools
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ellar-storage
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rosa-python-client
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxapit
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-microservice
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: entegywrapper
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openshift-python-wrapper
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dingtalk-stream
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openshift-python-wrapper
+[2024-04-08 09:25:06] WARNING root fetch - processPackages [ellar-storage]: Skipping, unable to determine old version
+[2024-04-08 09:25:06] INFO root fetch - processPackages [ellar-storage]: Start processing: cyz
+[2024-04-08 09:25:06] INFO root fetch - main [MainThread]: End processing [ellar-storage] error
+[2024-04-08 09:25:06] WARNING root fetch - processPackages [cxapit]: Skipping, unable to determine old version
+[2024-04-08 09:25:06] INFO root fetch - processPackages [cxapit]: Start processing: nerdd-module
+[2024-04-08 09:25:06] INFO root fetch - main [MainThread]: End processing [cxapit] error
+[2024-04-08 09:25:06] INFO root fetch - processPackages [entegywrapper]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [cyz]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [dashtext]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [st-microservice]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/5d/00/7537a122895cd5df4fc6c762aa3161dd0aea1601e131559753028bda2450/entegywrapper-7.0.1.tar.gz
+[2024-04-08 09:25:06] INFO root fetch - processPackages [nerdd-module]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-08 09:25:06] INFO root fetch - processPackages [cyz]: Downloading https://files.pythonhosted.org/packages/e2/03/dd43f622d0f8040645e72ec5feff0506a5ed526086ff22e82b10a93c1bd9/cyz-0.0.1.tar.gz
+[2024-04-08 09:25:06] WARNING root fetch - processPackages [entegywrapper]: Timeout reached during download
+[2024-04-08 09:25:06] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-04-08 09:25:06] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-04-08 09:25:06] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2024-04-08 09:25:07] INFO root fetch - processPackages [dashtext]: Downloading https://files.pythonhosted.org/packages/9a/23/f1e6dd25a376b9e441c4bf55c37f3678da4bcda302053f643baf20539a6d/dashtext-0.0.6-cp39-cp39-win_amd64.whl
+[2024-04-08 09:25:07] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2024-04-08 09:25:07] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/19/12/dcc2a0268acefb33c08068821b01804fcb76f50039c9de8ce905591162cb/dingtalk-stream-0.9.2.tar.gz
+[2024-04-08 09:25:07] INFO root fetch - processPackages [st-microservice]: Downloading https://files.pythonhosted.org/packages/fd/e2/3acc418ad0291785d7a31104de26f896bd170a0040214ef4fed9c9c7f4d7/st_microservice-1.3.3.tar.gz
+[2024-04-08 09:25:07] INFO root fetch - processPackages [nerdd-module]: Downloading https://files.pythonhosted.org/packages/df/bb/3b57b85c0630be1d0e50e918ca6e130e7df7c67bf4c8cbee0b6bf33f3275/nerdd-module-0.2.4.tar.gz
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [cyz]: Timeout reached during download
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [redhat-qe-cloud-tools]: Timeout reached during download
+[2024-04-08 09:25:07] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/0e/81/a2c1dda15c2b47654ab48eb3ad1a2218d0a06b248fddaf8d92fa360acb71/entegywrapper-7.0.2.tar.gz
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [st-microservice]: Timeout reached during download
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [dingtalk-stream]: Timeout reached during download
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [rosa-python-client]: Timeout reached during download
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [entegywrapper]: Timeout reached during download
+[2024-04-08 09:25:07] INFO root fetch - processPackages [entegywrapper]: executing diffoscope
+[2024-04-08 09:25:07] INFO root fetch - processPackages [entegywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entegywrapper-7.0.1.tar.gz tmp/entegywrapper-7.0.2.tar.gz --markdown 20240408/e/entegywrapper/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2024-04-08 09:25:07] INFO root fetch - processPackages [cyz]: Downloading https://files.pythonhosted.org/packages/29/03/ababca8393e59e34fcdf210d159a20efabe19101b75047a5bc9f88993cf8/cyz-0.0.2.tar.gz
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [nerdd-module]: Timeout reached during download
+[2024-04-08 09:25:07] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2024-04-08 09:25:07] INFO root fetch - processPackages [st-microservice]: Downloading https://files.pythonhosted.org/packages/b5/57/2275507cb09a621f675ca06dc372ad9281058172a05d70ce6450ca7e39b5/st_microservice-1.3.4.tar.gz
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [cyz]: Timeout reached during download
+[2024-04-08 09:25:07] INFO root fetch - processPackages [cyz]: executing diffoscope
+[2024-04-08 09:25:07] INFO root fetch - processPackages [cyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyz-0.0.1.tar.gz tmp/cyz-0.0.2.tar.gz --markdown 20240408/c/cyz/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 09:25:07] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2024-04-08 09:25:07] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/22/60/4fcc2bd699ce6c580184e729da62bead180571108decfe08966eea8e28a8/dingtalk-stream-0.9.3.tar.gz
+[2024-04-08 09:25:07] INFO root fetch - processPackages [nerdd-module]: Downloading https://files.pythonhosted.org/packages/32/cb/cef48589afdc847e020b166379b4b0a2897cc0cbf8cc1a7fd3bd01e0f76c/nerdd-module-0.2.5.tar.gz
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [redhat-qe-cloud-tools]: Timeout reached during download
+[2024-04-08 09:25:07] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2024-04-08 09:25:07] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.8.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20240408/r/redhat-qe-cloud-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [st-microservice]: Timeout reached during download
+[2024-04-08 09:25:07] INFO root fetch - processPackages [st-microservice]: executing diffoscope
+[2024-04-08 09:25:07] INFO root fetch - processPackages [st-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_microservice-1.3.3.tar.gz tmp/st_microservice-1.3.4.tar.gz --markdown 20240408/s/st-microservice/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [rosa-python-client]: Timeout reached during download
+[2024-04-08 09:25:07] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2024-04-08 09:25:07] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20240408/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [dingtalk-stream]: Timeout reached during download
+[2024-04-08 09:25:07] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2024-04-08 09:25:07] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.9.2.tar.gz tmp/dingtalk-stream-0.9.3.tar.gz --markdown 20240408/d/dingtalk-stream/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [nerdd-module]: Timeout reached during download
+[2024-04-08 09:25:07] INFO root fetch - processPackages [nerdd-module]: executing diffoscope
+[2024-04-08 09:25:07] INFO root fetch - processPackages [nerdd-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdd-module-0.2.4.tar.gz tmp/nerdd-module-0.2.5.tar.gz --markdown 20240408/n/nerdd-module/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [openshift-python-wrapper]: Timeout reached during download
+[2024-04-08 09:25:07] WARNING root fetch - processPackages [openshift-python-wrapper]: Timeout reached during download
+[2024-04-08 09:25:08] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-04-08 09:25:08] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-04-08 09:25:08] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.0.1.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.0.2.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - processPackages [entegywrapper]: Start processing: dip-coater
+[2024-04-08 09:25:08] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
+[2024-04-08 09:25:08] INFO root fetch - processPackages [cyz]: Remove: archive file [/home/abi/fetcher/tmp/cyz-0.0.1.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - processPackages [cyz]: Remove: archive file [/home/abi/fetcher/tmp/cyz-0.0.2.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - main [MainThread]: End processing [cyz]: success
+[2024-04-08 09:25:08] INFO root fetch - processPackages [dip-coater]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-08 09:25:08] WARNING root fetch - processPackages [dashtext]: Timeout reached during download
+[2024-04-08 09:25:08] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2024-04-08 09:25:08] INFO root fetch - processPackages [st-microservice]: Remove: archive file [/home/abi/fetcher/tmp/st_microservice-1.3.3.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - processPackages [st-microservice]: Remove: archive file [/home/abi/fetcher/tmp/st_microservice-1.3.4.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - main [MainThread]: End processing [st-microservice]: success
+[2024-04-08 09:25:08] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2024-04-08 09:25:08] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/13/94/9d8dde243cd970d51051464a07447db95e81202ad3139990eeb31b07b673/dip-coater-0.5.0.tar.gz
+[2024-04-08 09:25:08] INFO root fetch - processPackages [dashtext]: Downloading https://files.pythonhosted.org/packages/62/94/97cc1dbcc1cce9ca9abaa6c73fba00bde8cd073caf5c8e9f74450e2a77fb/dashtext-0.0.7-cp37-cp37m-macosx_10_9_x86_64.whl
+[2024-04-08 09:25:08] INFO root fetch - processPackages [nerdd-module]: Remove: archive file [/home/abi/fetcher/tmp/nerdd-module-0.2.4.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - processPackages [nerdd-module]: Remove: archive file [/home/abi/fetcher/tmp/nerdd-module-0.2.5.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - main [MainThread]: End processing [nerdd-module]: success
+[2024-04-08 09:25:08] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.9.2.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.9.3.tar.gz]
+[2024-04-08 09:25:08] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2024-04-08 09:25:08] WARNING root fetch - processPackages [openshift-python-wrapper]: Timeout reached during download
+[2024-04-08 09:25:08] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-04-08 09:25:08] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240408/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2024-04-08 09:25:08] WARNING root fetch - processPackages [openshift-python-wrapper]: Timeout reached during download
+[2024-04-08 09:25:08] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-04-08 09:25:08] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240408/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2024-04-08 09:25:08] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-08 09:25:08] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/50/f0/dd4e4d0da4112b65bd9b338cdc82622ef37b8774a1141e81e310c92027bf/dip-coater-0.6.0.tar.gz
+[2024-04-08 09:25:09] WARNING root fetch - processPackages [dip-coater]: Timeout reached during download
+[2024-04-08 09:25:09] INFO root fetch - processPackages [dip-coater]: executing diffoscope
+[2024-04-08 09:25:09] INFO root fetch - processPackages [dip-coater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dip-coater-0.5.0.tar.gz tmp/dip-coater-0.6.0.tar.gz --markdown 20240408/d/dip-coater/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-08 09:25:09] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2024-04-08 09:25:09] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2024-04-08 09:25:09] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-04-08 09:25:09] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-04-08 09:25:09] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.5.0.tar.gz]
+[2024-04-08 09:25:09] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.6.0.tar.gz]
+[2024-04-08 09:25:09] INFO root fetch - main [MainThread]: End processing [dip-coater]: success
+[2024-04-08 09:25:09] WARNING root fetch - processPackages [dashtext]: Timeout reached during download
+[2024-04-08 09:25:09] INFO root fetch - processPackages [dashtext]: executing diffoscope
+[2024-04-08 09:25:09] INFO root fetch - processPackages [dashtext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashtext-0.0.6-cp39-cp39-win_amd64.whl.zip tmp/dashtext-0.0.7-cp37-cp37m-macosx_10_9_x86_64.whl.zip --markdown 20240408/d/dashtext/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-08 09:25:23] INFO root fetch - processPackages [dashtext]: Remove: archive file [/home/abi/fetcher/tmp/dashtext-0.0.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-08 09:25:23] INFO root fetch - processPackages [dashtext]: Remove: archive file [/home/abi/fetcher/tmp/dashtext-0.0.7-cp37-cp37m-macosx_10_9_x86_64.whl.zip]
+[2024-04-08 09:25:23] INFO root fetch - main [MainThread]: End processing [dashtext]: success
+[2024-04-08 09:25:23] INFO root fetch - main [MainThread]: Store serial: [22663459]
