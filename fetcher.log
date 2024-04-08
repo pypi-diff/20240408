@@ -15905,3 +15905,175 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:55:50] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-04-08 11:55:50] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-04-08 11:55:50] INFO root fetch - main [MainThread]: Store serial: [22665261]
+[2024-04-08 11:57:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665261]
+[2024-04-08 11:57:59] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dictionnary-objectify
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-grpc-read-db
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irispie
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensearch-rest-resources
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-ws-scoring
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: voxcell
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tcxreader
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MRCpy
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccdt
+[2024-04-08 11:57:59] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.8rc1] Old Version: [0.0.8.dev8597756949]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [tcxreader]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [dictionnary-objectify]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev5]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [voxcell]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [opensearch-rest-resources]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [django-ws-scoring]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [MRCpy]: New version: [2.2.0] Old Version: [2.1.9]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ccdt]: New version: [2.1.94] Old Version: [2.1.93]
+[2024-04-08 11:57:59] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b3/96/0129ecf7acd75beb007b215a022e654e837a65f90317a00f400f5b66d677/khoj_assistant-1.9.1.dev5.tar.gz
+[2024-04-08 11:57:59] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/83/5c/eb5fca80f0c3e729d17d8b5aaee4a2a5b9bbdf9fd99ce594bc5a262327e6/th2_grpc_read_db-0.0.8.dev8597756949.tar.gz
+[2024-04-08 11:57:59] INFO root fetch - processPackages [tcxreader]: Downloading https://files.pythonhosted.org/packages/18/a5/effac3d95a551dbcd5001bd14a9075e684c2f4561a52217626bbe1590e2f/tcxreader-0.4.8.tar.gz
+[2024-04-08 11:57:59] INFO root fetch - processPackages [dictionnary-objectify]: Downloading https://files.pythonhosted.org/packages/71/00/a579e88b41e3eb74db1435e528d6aebd9d6094eecc4c94ad131de65847ae/dictionnary-objectify-1.0.0.tar.gz
+[2024-04-08 11:57:59] INFO root fetch - processPackages [voxcell]: Downloading https://files.pythonhosted.org/packages/1c/56/dd4c148a26f402d28f48ec53ab72a66eb1fc1f77b380c222b017332aaf67/voxcell-3.1.8.tar.gz
+[2024-04-08 11:57:59] INFO root fetch - processPackages [opensearch-rest-resources]: Downloading https://files.pythonhosted.org/packages/74/1a/86935ded346135942fc09b12d2b4e422100a7110d799b2ef91cac620edc5/opensearch-rest-resources-0.0.8.tar.gz
+[2024-04-08 11:57:59] INFO root fetch - processPackages [django-ws-scoring]: Downloading https://files.pythonhosted.org/packages/f4/39/73cdf992f164b0cb1e7d2e0ff5a8b75cdc04a289967223489176162049e6/django-ws-scoring-0.1.8.tar.gz
+[2024-04-08 11:57:59] INFO root fetch - processPackages [MRCpy]: Downloading https://files.pythonhosted.org/packages/45/0f/6acdcd87e00ec95c560bb96ac8d41c158d6a8745df4f8da54a2b1f1d2d0f/MRCpy-2.1.9.tar.gz
+[2024-04-08 11:57:59] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/fd/e9/b23be9d82f0143b6906d0a963e4f17bde912c659f440c513d88ed84619c0/ccdt-2.1.93.tar.gz
+[2024-04-08 11:57:59] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [dictionnary-objectify]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [django-ws-scoring]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [voxcell]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [tcxreader]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [opensearch-rest-resources]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [ccdt]: Timeout reached during download
+[2024-04-08 11:58:00] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/04/44/e9b4bb65a8c860bb70bf2385d9571804292028e0e0da1a8dcc6223dc81ba/th2_grpc_read_db-0.0.8rc1.tar.gz
+[2024-04-08 11:58:00] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-08 11:58:00] INFO root fetch - processPackages [dictionnary-objectify]: Downloading https://files.pythonhosted.org/packages/c1/04/19fe3e8c4fb09de12fb8d18f529b273716ab94f3a0d9525c30bce3ce5c5b/dictionnary-objectify-1.0.1.tar.gz
+[2024-04-08 11:58:00] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-08 11:58:00] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-04-08 11:58:00] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.8.dev8597756949.tar.gz tmp/th2_grpc_read_db-0.0.8rc1.tar.gz --markdown 20240408/t/th2-grpc-read-db/0.0.8.dev8597756949-0.0.8rc1/diff.md --exclude *.pyd
+[2024-04-08 11:58:00] INFO root fetch - processPackages [django-ws-scoring]: Downloading https://files.pythonhosted.org/packages/63/1f/03954bfac523af5d324cb65e2b66e4bf176a11d702d87b1c13473c5c9efa/django-ws-scoring-0.2.0.tar.gz
+[2024-04-08 11:58:00] INFO root fetch - processPackages [voxcell]: Downloading https://files.pythonhosted.org/packages/eb/2b/739e68ffccfa548121eb8b2578bee84276cf5bddbf4bf31c7baa34b3add3/voxcell-3.1.9.tar.gz
+[2024-04-08 11:58:00] INFO root fetch - processPackages [opensearch-rest-resources]: Downloading https://files.pythonhosted.org/packages/07/d7/d0900600c08c714b969d5cc71211815f1eba04348119ed40eb0fbd05deea/opensearch-rest-resources-0.0.9.tar.gz
+[2024-04-08 11:58:00] INFO root fetch - processPackages [tcxreader]: Downloading https://files.pythonhosted.org/packages/ed/23/0bceb7aea790dc7feab04e2d308b794424c4ad9cb920a5c03c16ef92b015/tcxreader-0.4.9.tar.gz
+[2024-04-08 11:58:00] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/69/8e/f028ef7baa24a9fcbd43c00def15d67a7b9bbdf10f909cea395772c1e359/ccdt-2.1.94.tar.gz
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [dictionnary-objectify]: Timeout reached during download
+[2024-04-08 11:58:00] INFO root fetch - processPackages [dictionnary-objectify]: executing diffoscope
+[2024-04-08 11:58:00] INFO root fetch - processPackages [dictionnary-objectify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dictionnary-objectify-1.0.0.tar.gz tmp/dictionnary-objectify-1.0.1.tar.gz --markdown 20240408/d/dictionnary-objectify/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [django-ws-scoring]: Timeout reached during download
+[2024-04-08 11:58:00] INFO root fetch - processPackages [django-ws-scoring]: executing diffoscope
+[2024-04-08 11:58:00] INFO root fetch - processPackages [django-ws-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-scoring-0.1.8.tar.gz tmp/django-ws-scoring-0.2.0.tar.gz --markdown 20240408/d/django-ws-scoring/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [voxcell]: Timeout reached during download
+[2024-04-08 11:58:00] INFO root fetch - processPackages [voxcell]: executing diffoscope
+[2024-04-08 11:58:00] INFO root fetch - processPackages [voxcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxcell-3.1.8.tar.gz tmp/voxcell-3.1.9.tar.gz --markdown 20240408/v/voxcell/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [opensearch-rest-resources]: Timeout reached during download
+[2024-04-08 11:58:00] INFO root fetch - processPackages [opensearch-rest-resources]: executing diffoscope
+[2024-04-08 11:58:00] INFO root fetch - processPackages [opensearch-rest-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensearch-rest-resources-0.0.8.tar.gz tmp/opensearch-rest-resources-0.0.9.tar.gz --markdown 20240408/o/opensearch-rest-resources/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [ccdt]: Timeout reached during download
+[2024-04-08 11:58:00] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2024-04-08 11:58:00] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.93.tar.gz tmp/ccdt-2.1.94.tar.gz --markdown 20240408/c/ccdt/2.1.93-2.1.94/diff.md --exclude *.pyd
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [tcxreader]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-08 11:58:00] INFO root fetch - processPackages [tcxreader]: executing diffoscope
+[2024-04-08 11:58:00] INFO root fetch - processPackages [tcxreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcxreader-0.4.8.tar.gz tmp/tcxreader-0.4.9.tar.gz --markdown 20240408/t/tcxreader/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-08 11:58:00] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-08 11:58:00] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev5.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240408/k/khoj-assistant/1.9.1.dev5-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [MRCpy]: Timeout reached during download
+[2024-04-08 11:58:00] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-08 11:58:00] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-08 11:58:00] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240408/i/irispie/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 11:58:00] INFO root fetch - processPackages [MRCpy]: Downloading https://files.pythonhosted.org/packages/fe/1a/8a842a1272caf770d5aa5538bd6af02361597d14c523ad656b062ddaf7c6/MRCpy-2.2.0.tar.gz
+[2024-04-08 11:58:01] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8.dev8597756949.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8rc1.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [th2-grpc-read-db]: Start processing: dictionnary-objectify
+[2024-04-08 11:58:01] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-04-08 11:58:01] WARNING root fetch - processPackages [MRCpy]: Timeout reached during download
+[2024-04-08 11:58:01] INFO root fetch - processPackages [MRCpy]: executing diffoscope
+[2024-04-08 11:58:01] INFO root fetch - processPackages [MRCpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MRCpy-2.1.9.tar.gz tmp/MRCpy-2.2.0.tar.gz --markdown 20240408/M/MRCpy/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2024-04-08 11:58:01] INFO root fetch - processPackages [dictionnary-objectify]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [dictionnary-objectify]: Remove: archive file [/home/abi/fetcher/tmp/dictionnary-objectify-1.0.0.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [dictionnary-objectify]: Remove: archive file [/home/abi/fetcher/tmp/dictionnary-objectify-1.0.1.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [dictionnary-objectify]: Start processing: troubadix
+[2024-04-08 11:58:01] INFO root fetch - main [MainThread]: End processing [dictionnary-objectify]: success
+[2024-04-08 11:58:01] INFO root fetch - processPackages [dictionnary-objectify]: Downloading https://files.pythonhosted.org/packages/c1/04/19fe3e8c4fb09de12fb8d18f529b273716ab94f3a0d9525c30bce3ce5c5b/dictionnary-objectify-1.0.1.tar.gz
+[2024-04-08 11:58:01] INFO root fetch - processPackages [django-ws-scoring]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-scoring-0.1.8.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [django-ws-scoring]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-scoring-0.2.0.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [django-ws-scoring]: Start processing: parfive
+[2024-04-08 11:58:01] INFO root fetch - main [MainThread]: End processing [django-ws-scoring]: success
+[2024-04-08 11:58:01] INFO root fetch - processPackages [opensearch-rest-resources]: Remove: archive file [/home/abi/fetcher/tmp/opensearch-rest-resources-0.0.8.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [opensearch-rest-resources]: Remove: archive file [/home/abi/fetcher/tmp/opensearch-rest-resources-0.0.9.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [opensearch-rest-resources]: Start processing: DocumentAI-std
+[2024-04-08 11:58:01] INFO root fetch - main [MainThread]: End processing [opensearch-rest-resources]: success
+[2024-04-08 11:58:01] WARNING root fetch - processPackages [dictionnary-objectify]: Timeout reached during download
+[2024-04-08 11:58:01] INFO root fetch - processPackages [dictionnary-objectify]: executing diffoscope
+[2024-04-08 11:58:01] INFO root fetch - processPackages [dictionnary-objectify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dictionnary-objectify-1.0.0.tar.gz tmp/dictionnary-objectify-1.0.1.tar.gz --markdown 20240408/d/dictionnary-objectify/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 11:58:01] INFO root fetch - processPackages [troubadix]: New version: [24.4.0] Old Version: [24.3.3]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [DocumentAI-std]: New version: [0.2.2.dev1] Old Version: [0.2.0.dev1]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [parfive]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [tcxreader]: Remove: archive file [/home/abi/fetcher/tmp/tcxreader-0.4.8.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [tcxreader]: Remove: archive file [/home/abi/fetcher/tmp/tcxreader-0.4.9.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [tcxreader]: Start processing: fcs-core-model-engine
+[2024-04-08 11:58:01] INFO root fetch - main [MainThread]: End processing [tcxreader]: success
+[2024-04-08 11:58:01] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.93.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.94.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [ccdt]: Start processing: paramount
+[2024-04-08 11:58:01] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2024-04-08 11:58:01] INFO root fetch - processPackages [voxcell]: Remove: archive file [/home/abi/fetcher/tmp/voxcell-3.1.8.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [voxcell]: Remove: archive file [/home/abi/fetcher/tmp/voxcell-3.1.9.tar.gz]
+[2024-04-08 11:58:01] INFO root fetch - main [MainThread]: End processing [voxcell]: success
+[2024-04-08 11:58:01] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/00/9b/0181d354c104f910d0f121a38c460eca18fced2efc8ae6d972bb639bc7f5/troubadix-24.3.3.tar.gz
+[2024-04-08 11:58:01] INFO root fetch - processPackages [DocumentAI-std]: Downloading https://files.pythonhosted.org/packages/5a/90/6eba0db41e0756083e34ed36a0e021fe858697f899ea78559fe63eaa55f4/DocumentAI_std-0.2.0.dev1.tar.gz
+[2024-04-08 11:58:01] INFO root fetch - processPackages [fcs-core-model-engine]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-08 11:58:01] INFO root fetch - processPackages [parfive]: Downloading https://files.pythonhosted.org/packages/a1/91/4747fa3f02ec4a2e7c29881d6fef09643d0386f261fb2f01145860426959/parfive-2.0.2.tar.gz
+[2024-04-08 11:58:01] INFO root fetch - processPackages [paramount]: New version: [0.3.4] Old Version: [0.3.2]
+[2024-04-08 11:58:01] WARNING root fetch - processPackages [DocumentAI-std]: Timeout reached during download
+[2024-04-08 11:58:01] WARNING root fetch - processPackages [parfive]: Timeout reached during download
+[2024-04-08 11:58:01] INFO root fetch - processPackages [fcs-core-model-engine]: Downloading https://files.pythonhosted.org/packages/c8/dc/f322ec4c2da8b421e65849b6ddcc8d5b9a98eb31f708e128755618bf8c7f/fcs_core_model_engine-0.6.3-py3-none-win_amd64.whl
+[2024-04-08 11:58:02] ERROR root fetch - processPackages [dictionnary-objectify]: Diffoscope failed: time="2024-04-08T11:58:01+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/dictionnary-objectify-1.0.0.tar.gz: No such file or directory
+
+[2024-04-08 11:58:02] INFO root fetch - main [MainThread]: End processing [dictionnary-objectify] error
+[2024-04-08 11:58:02] WARNING root fetch - processPackages [troubadix]: Timeout reached during download
+[2024-04-08 11:58:02] INFO root fetch - processPackages [paramount]: Downloading https://files.pythonhosted.org/packages/ce/32/35eab8feabc0e473d8bcc9bae516c6a335674eb4b972b07d07143c15ccab/paramount-0.3.2.tar.gz
+[2024-04-08 11:58:02] INFO root fetch - processPackages [DocumentAI-std]: Downloading https://files.pythonhosted.org/packages/40/9f/41bfb4232ee17586083862483e45a6a53514b3f184d5b5a4927c645ca26d/DocumentAI_std-0.2.2.dev1.tar.gz
+[2024-04-08 11:58:02] INFO root fetch - processPackages [parfive]: Downloading https://files.pythonhosted.org/packages/dc/40/b464df95057770f4e5110bf72c22d525009aad4d2c742baa7f2e67f554e9/parfive-2.1.0.tar.gz
+[2024-04-08 11:58:02] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/c1/e3/0ec0c95bf078d8b9a822b5e93d0b9a3b6d397406e2346257029d7f248b7f/troubadix-24.4.0.tar.gz
+[2024-04-08 11:58:02] WARNING root fetch - processPackages [DocumentAI-std]: Timeout reached during download
+[2024-04-08 11:58:02] INFO root fetch - processPackages [DocumentAI-std]: executing diffoscope
+[2024-04-08 11:58:02] INFO root fetch - processPackages [DocumentAI-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DocumentAI_std-0.2.0.dev1.tar.gz tmp/DocumentAI_std-0.2.2.dev1.tar.gz --markdown 20240408/D/DocumentAI-std/0.2.0.dev1-0.2.2.dev1/diff.md --exclude *.pyd
+[2024-04-08 11:58:02] WARNING root fetch - processPackages [parfive]: Timeout reached during download
+[2024-04-08 11:58:02] INFO root fetch - processPackages [parfive]: executing diffoscope
+[2024-04-08 11:58:02] INFO root fetch - processPackages [parfive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parfive-2.0.2.tar.gz tmp/parfive-2.1.0.tar.gz --markdown 20240408/p/parfive/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2024-04-08 11:58:02] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev5.tar.gz]
+[2024-04-08 11:58:02] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-08 11:58:02] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-08 11:58:02] WARNING root fetch - processPackages [paramount]: Timeout reached during download
+[2024-04-08 11:58:02] WARNING root fetch - processPackages [troubadix]: Timeout reached during download
+[2024-04-08 11:58:02] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2024-04-08 11:58:02] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-24.3.3.tar.gz tmp/troubadix-24.4.0.tar.gz --markdown 20240408/t/troubadix/24.3.3-24.4.0/diff.md --exclude *.pyd
+[2024-04-08 11:58:02] WARNING root fetch - processPackages [fcs-core-model-engine]: Skipping package: exceeds size limit 25223173>=10485760
+[2024-04-08 11:58:02] INFO root fetch - main [MainThread]: End processing [fcs-core-model-engine] error
+[2024-04-08 11:58:02] INFO root fetch - processPackages [paramount]: Downloading https://files.pythonhosted.org/packages/01/47/652a518da75cdbf145a56031a5feee3447cf61d82c89150935cf063e935a/paramount-0.3.4.tar.gz
+[2024-04-08 11:58:02] WARNING root fetch - processPackages [paramount]: Timeout reached during download
+[2024-04-08 11:58:02] INFO root fetch - processPackages [paramount]: executing diffoscope
+[2024-04-08 11:58:02] INFO root fetch - processPackages [paramount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paramount-0.3.2.tar.gz tmp/paramount-0.3.4.tar.gz --markdown 20240408/p/paramount/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2024-04-08 11:58:02] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-08 11:58:02] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-08 11:58:02] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-08 11:58:02] INFO root fetch - processPackages [DocumentAI-std]: Remove: archive file [/home/abi/fetcher/tmp/DocumentAI_std-0.2.0.dev1.tar.gz]
+[2024-04-08 11:58:02] INFO root fetch - processPackages [DocumentAI-std]: Remove: archive file [/home/abi/fetcher/tmp/DocumentAI_std-0.2.2.dev1.tar.gz]
+[2024-04-08 11:58:02] INFO root fetch - main [MainThread]: End processing [DocumentAI-std]: success
+[2024-04-08 11:58:03] INFO root fetch - processPackages [parfive]: Remove: archive file [/home/abi/fetcher/tmp/parfive-2.0.2.tar.gz]
+[2024-04-08 11:58:03] INFO root fetch - processPackages [parfive]: Remove: archive file [/home/abi/fetcher/tmp/parfive-2.1.0.tar.gz]
+[2024-04-08 11:58:03] INFO root fetch - main [MainThread]: End processing [parfive]: success
+[2024-04-08 11:58:03] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.3.3.tar.gz]
+[2024-04-08 11:58:03] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.4.0.tar.gz]
+[2024-04-08 11:58:03] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2024-04-08 11:58:06] INFO root fetch - processPackages [MRCpy]: Remove: archive file [/home/abi/fetcher/tmp/MRCpy-2.1.9.tar.gz]
+[2024-04-08 11:58:06] INFO root fetch - processPackages [MRCpy]: Remove: archive file [/home/abi/fetcher/tmp/MRCpy-2.2.0.tar.gz]
+[2024-04-08 11:58:06] INFO root fetch - main [MainThread]: End processing [MRCpy]: success
+[2024-04-08 11:58:15] INFO root fetch - processPackages [paramount]: Remove: archive file [/home/abi/fetcher/tmp/paramount-0.3.2.tar.gz]
+[2024-04-08 11:58:15] INFO root fetch - processPackages [paramount]: Remove: archive file [/home/abi/fetcher/tmp/paramount-0.3.4.tar.gz]
+[2024-04-08 11:58:15] INFO root fetch - main [MainThread]: End processing [paramount]: success
+[2024-04-08 11:58:15] INFO root fetch - main [MainThread]: Store serial: [22665311]
