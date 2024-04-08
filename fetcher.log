@@ -18412,3 +18412,44 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:07:50] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
 [2024-04-08 13:07:50] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
 [2024-04-08 13:07:50] INFO root fetch - main [MainThread]: Store serial: [22666113]
+[2024-04-08 13:09:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666113]
+[2024-04-08 13:09:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 13:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocf-datapipes
+[2024-04-08 13:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mergoo
+[2024-04-08 13:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qodex-cameras
+[2024-04-08 13:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-cpp
+[2024-04-08 13:09:59] INFO root fetch - processPackages [mergoo]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 13:09:59] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240407] Old Version: [2.5.0b20240406]
+[2024-04-08 13:09:59] INFO root fetch - processPackages [mergoo]: Downloading https://files.pythonhosted.org/packages/11/ff/3b17f30f25023cb570a366c1558793f342efc33ae74ca946d11e576f6917/mergoo-0.0.2.tar.gz
+[2024-04-08 13:09:59] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-08 13:09:59] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-08 13:09:59] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/ad/70/0950347699e8d68b0a604cd949f40a29ca9eff1c70410f9cf5b15c5626d9/bigdl_core_cpp-2.5.0b20240406-py3-none-win_amd64.whl
+[2024-04-08 13:09:59] WARNING root fetch - processPackages [mergoo]: Timeout reached during download
+[2024-04-08 13:09:59] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 35509732>=10485760
+[2024-04-08 13:09:59] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-08 13:09:59] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/63/a0/6ae803271bb3374fc134b5270400e90679960b4c9435445cb5ee231c85fc/qodex_cameras-2.1.7-py3-none-any.whl
+[2024-04-08 13:09:59] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-04-08 13:09:59] INFO root fetch - processPackages [mergoo]: Downloading https://files.pythonhosted.org/packages/19/33/d55f65bec049193c902bd30808c0528bb397c1dcaec9ede589e9da833f8e/mergoo-0.0.3.tar.gz
+[2024-04-08 13:10:00] WARNING root fetch - processPackages [qodex-cameras]: Timeout reached during download
+[2024-04-08 13:10:00] WARNING root fetch - processPackages [mergoo]: Timeout reached during download
+[2024-04-08 13:10:00] INFO root fetch - processPackages [mergoo]: executing diffoscope
+[2024-04-08 13:10:00] INFO root fetch - processPackages [mergoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergoo-0.0.2.tar.gz tmp/mergoo-0.0.3.tar.gz --markdown 20240408/m/mergoo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 13:10:00] WARNING root fetch - processPackages [ocf-datapipes]: Timeout reached during download
+[2024-04-08 13:10:00] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/3e/c0/fe485dc715bf2890ede599d0cfceb93426b210b6779a6e27a0239febcac8/qodex_cameras-2.1.8-py3-none-any.whl
+[2024-04-08 13:10:00] WARNING root fetch - processPackages [qodex-cameras]: Timeout reached during download
+[2024-04-08 13:10:00] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-08 13:10:00] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.1.7-py3-none-any.whl.zip tmp/qodex_cameras-2.1.8-py3-none-any.whl.zip --markdown 20240408/q/qodex-cameras/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2024-04-08 13:10:00] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/55/0a/5970538e840540313fb117c6e1f7bad44ee3f3749d076d0440485cc60a89/ocf_datapipes-3.3.9.tar.gz
+[2024-04-08 13:10:00] INFO root fetch - processPackages [mergoo]: Remove: archive file [/home/abi/fetcher/tmp/mergoo-0.0.2.tar.gz]
+[2024-04-08 13:10:00] INFO root fetch - processPackages [mergoo]: Remove: archive file [/home/abi/fetcher/tmp/mergoo-0.0.3.tar.gz]
+[2024-04-08 13:10:00] INFO root fetch - main [MainThread]: End processing [mergoo]: success
+[2024-04-08 13:10:00] WARNING root fetch - processPackages [ocf-datapipes]: Timeout reached during download
+[2024-04-08 13:10:00] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-04-08 13:10:00] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.8.tar.gz tmp/ocf_datapipes-3.3.9.tar.gz --markdown 20240408/o/ocf-datapipes/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2024-04-08 13:10:00] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.7-py3-none-any.whl.zip]
+[2024-04-08 13:10:00] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.8-py3-none-any.whl.zip]
+[2024-04-08 13:10:00] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-08 13:10:01] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-04-08 13:10:01] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
+[2024-04-08 13:10:01] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-04-08 13:10:01] INFO root fetch - main [MainThread]: Store serial: [22666126]
