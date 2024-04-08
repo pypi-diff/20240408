@@ -18323,3 +18323,92 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:05:34] INFO root fetch - processPackages [language-data]: Remove: archive file [/home/abi/fetcher/tmp/language_data-1.2.0.dev3.tar.gz]
 [2024-04-08 13:05:34] INFO root fetch - main [MainThread]: End processing [language-data]: success
 [2024-04-08 13:05:34] INFO root fetch - main [MainThread]: Store serial: [22666089]
+[2024-04-08 13:07:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666089]
+[2024-04-08 13:07:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ign8
+[2024-04-08 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-subject-dashboard
+[2024-04-08 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiliot-api
+[2024-04-08 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ign8
+[2024-04-08 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-codenerix
+[2024-04-08 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccs-digitalmarketplace-frontend-jinja
+[2024-04-08 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mat3ra-esse
+[2024-04-08 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MultiGATE
+[2024-04-08 13:07:43] INFO root fetch - processPackages [MultiGATE]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.35]
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.35]
+[2024-04-08 13:07:43] INFO root fetch - processPackages [wiliot-api]: New version: [4.8.1] Old Version: [4.8.0]
+[2024-04-08 13:07:43] INFO root fetch - processPackages [mat3ra-esse]: New version: [2024.4.8.post2] Old Version: [2024.4.8.post1]
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-08 13:07:43] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/e2/84/2372204ef1a619e125e55774c66e769e14a17276ef085cca4099fdbf0fee/MultiGATE-0.0.4.tar.gz
+[2024-04-08 13:07:43] INFO root fetch - processPackages [django-codenerix]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-08 13:07:43] INFO root fetch - processPackages [edc-subject-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1c/e0/4815741227170c9ffc9c3b511b690262295654a39197e39d4c9e9750aa8d/ign8-4.8.35.tar.gz
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/1c/e0/4815741227170c9ffc9c3b511b690262295654a39197e39d4c9e9750aa8d/ign8-4.8.35.tar.gz
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-08 13:07:43] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/db/9e/6110aa6a4e1d1933530be3de1975f9d203b8307beee121d9f583b16ec8e6/wiliot-api-4.8.0.tar.gz
+[2024-04-08 13:07:43] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/90/51/31eaeb3779b8b32091086c641e1178fe68684350db7db2445023e4b182f9/mat3ra-esse-2024.4.8.post1.tar.gz
+[2024-04-08 13:07:43] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/e2/de/4ac899f759846a1ffcc6a6347a85e786c1b637d41680d2cae0a6c2007b55/edc_subject_dashboard-0.3.8-py3-none-any.whl
+[2024-04-08 13:07:43] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/ae/10/6c1b18ca5b901dda322ef6ebd63aa51cd777f12179630cfe66a52dbefd73/django-codenerix-4.0.8.tar.gz
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/53/b9/418c1ac26fe07d7cc278314c0a67e28333a5b749940be6bffe434cb61545/ccs-digitalmarketplace-frontend-jinja-1.3.2.tar.gz
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 13:07:43] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/c5/67/b861bf5fbf0481870a49b40e9bf00c1eb3c67e4795a929482d770f1c940a/MultiGATE-0.0.5.tar.gz
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [wiliot-api]: Timeout reached during download
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [edc-subject-dashboard]: Timeout reached during download
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Timeout reached during download
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-08 13:07:43] INFO root fetch - processPackages [MultiGATE]: executing diffoscope
+[2024-04-08 13:07:43] INFO root fetch - processPackages [MultiGATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiGATE-0.0.4.tar.gz tmp/MultiGATE-0.0.5.tar.gz --markdown 20240408/M/MultiGATE/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-08 13:07:43] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/13/a1/ee5f8e56502d64f0ed389da6a8fa802f0cf655142952a1d2b5ad01b55ff9/mat3ra-esse-2024.4.8.post2.tar.gz
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.35.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240408/i/ign8/4.8.35-4.8.5/diff.md --exclude *.pyd
+[2024-04-08 13:07:43] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/40/b8/ee5ce3a59bc85b4806f450edc89ebbdef33b5aa0bd71340ca12bb193efed/wiliot-api-4.8.1.tar.gz
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.35.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240408/i/ign8/4.8.35-4.8.5/diff.md --exclude *.pyd
+[2024-04-08 13:07:43] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/dc/b2/f27cfd5946aaa1c7ae940b84f419cae29f450e721aac2786e84e4a456a12/edc_subject_dashboard-0.3.9-py3-none-any.whl
+[2024-04-08 13:07:43] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/17/fb/6c21a1890108aeb8083fa2e310bb49f3824fc41e8629949fc860062a6261/ccs-digitalmarketplace-frontend-jinja-1.3.3.tar.gz
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [wiliot-api]: Timeout reached during download
+[2024-04-08 13:07:43] INFO root fetch - processPackages [wiliot-api]: executing diffoscope
+[2024-04-08 13:07:43] INFO root fetch - processPackages [wiliot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-api-4.8.0.tar.gz tmp/wiliot-api-4.8.1.tar.gz --markdown 20240408/w/wiliot-api/4.8.0-4.8.1/diff.md --exclude *.pyd
+[2024-04-08 13:07:43] WARNING root fetch - processPackages [edc-subject-dashboard]: Timeout reached during download
+[2024-04-08 13:07:43] INFO root fetch - processPackages [edc-subject-dashboard]: executing diffoscope
+[2024-04-08 13:07:43] INFO root fetch - processPackages [edc-subject-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip --markdown 20240408/e/edc-subject-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-08 13:07:44] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 13:07:44] INFO root fetch - processPackages [mat3ra-esse]: executing diffoscope
+[2024-04-08 13:07:44] INFO root fetch - processPackages [mat3ra-esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-esse-2024.4.8.post1.tar.gz tmp/mat3ra-esse-2024.4.8.post2.tar.gz --markdown 20240408/m/mat3ra-esse/2024.4.8.post1-2024.4.8.post2/diff.md --exclude *.pyd
+[2024-04-08 13:07:44] WARNING root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Timeout reached during download
+[2024-04-08 13:07:44] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: executing diffoscope
+[2024-04-08 13:07:44] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-frontend-jinja-1.3.2.tar.gz tmp/ccs-digitalmarketplace-frontend-jinja-1.3.3.tar.gz --markdown 20240408/c/ccs-digitalmarketplace-frontend-jinja/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2024-04-08 13:07:44] WARNING root fetch - processPackages [django-codenerix]: Timeout reached during download
+[2024-04-08 13:07:44] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.4.tar.gz]
+[2024-04-08 13:07:44] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.5.tar.gz]
+[2024-04-08 13:07:44] INFO root fetch - main [MainThread]: End processing [MultiGATE]: success
+[2024-04-08 13:07:44] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/fa/74/5c81cb6c9cd40266d8845b61025400c9db3344b5ed8063c6b29f18d4574e/django-codenerix-4.0.9.tar.gz
+[2024-04-08 13:07:44] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.8.0.tar.gz]
+[2024-04-08 13:07:44] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.8.1.tar.gz]
+[2024-04-08 13:07:44] INFO root fetch - main [MainThread]: End processing [wiliot-api]: success
+[2024-04-08 13:07:44] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-1.3.2.tar.gz]
+[2024-04-08 13:07:44] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-1.3.3.tar.gz]
+[2024-04-08 13:07:44] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-frontend-jinja]: success
+[2024-04-08 13:07:45] INFO root fetch - processPackages [edc-subject-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip]
+[2024-04-08 13:07:45] INFO root fetch - processPackages [edc-subject-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip]
+[2024-04-08 13:07:45] INFO root fetch - main [MainThread]: End processing [edc-subject-dashboard]: success
+[2024-04-08 13:07:45] WARNING root fetch - processPackages [django-codenerix]: Timeout reached during download
+[2024-04-08 13:07:45] INFO root fetch - processPackages [django-codenerix]: executing diffoscope
+[2024-04-08 13:07:45] INFO root fetch - processPackages [django-codenerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-4.0.8.tar.gz tmp/django-codenerix-4.0.9.tar.gz --markdown 20240408/d/django-codenerix/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-08 13:07:45] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.8.post1.tar.gz]
+[2024-04-08 13:07:45] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.8.post2.tar.gz]
+[2024-04-08 13:07:45] INFO root fetch - main [MainThread]: End processing [mat3ra-esse]: success
+[2024-04-08 13:07:47] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.35.tar.gz]
+[2024-04-08 13:07:47] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-08 13:07:47] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-08 13:07:47] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-08 13:07:50] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.8.tar.gz]
+[2024-04-08 13:07:50] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
+[2024-04-08 13:07:50] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
+[2024-04-08 13:07:50] INFO root fetch - main [MainThread]: Store serial: [22666113]
