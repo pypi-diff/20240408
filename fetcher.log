@@ -9629,3 +9629,37 @@
 [2024-04-08 07:54:44] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.4.2.tar.gz]
 [2024-04-08 07:54:44] INFO root fetch - main [MainThread]: End processing [llamabot]: success
 [2024-04-08 07:54:44] INFO root fetch - main [MainThread]: Store serial: [22662755]
+[2024-04-08 07:57:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662755]
+[2024-04-08 07:57:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 07:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyz
+[2024-04-08 07:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plugp100
+[2024-04-08 07:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geovisio_cli
+[2024-04-08 07:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oci-cli
+[2024-04-08 07:57:05] WARNING root fetch - processPackages [cyz]: Skipping, unable to determine old version
+[2024-04-08 07:57:05] INFO root fetch - main [MainThread]: End processing [cyz] error
+[2024-04-08 07:57:05] INFO root fetch - processPackages [geovisio_cli]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-08 07:57:05] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-08 07:57:05] INFO root fetch - processPackages [plugp100]: New version: [5.1.0] Old Version: [5.0.0.dev6]
+[2024-04-08 07:57:06] INFO root fetch - processPackages [plugp100]: Downloading https://files.pythonhosted.org/packages/3f/5e/8db9c06afa5a9a2a1fe046989c9b7ab1f0b62a9b4631bd7bae1f97ebe63f/plugp100-5.0.0.dev6.tar.gz
+[2024-04-08 07:57:06] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/a4/56/cda54b3c2cf89cf6687a224d31dc6162743f742e68a351f40bb34b91a323/geovisio_cli-0.3.8.tar.gz
+[2024-04-08 07:57:06] WARNING root fetch - processPackages [plugp100]: Timeout reached during download
+[2024-04-08 07:57:06] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2024-04-08 07:57:06] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20240408/o/oci-cli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-08 07:57:06] INFO root fetch - processPackages [plugp100]: Downloading https://files.pythonhosted.org/packages/4f/f2/7d26fc0c1bb77647d02a25aa41eca3d0f74f0150b0a03545f0550c43982c/plugp100-5.1.0.tar.gz
+[2024-04-08 07:57:06] WARNING root fetch - processPackages [plugp100]: Timeout reached during download
+[2024-04-08 07:57:06] INFO root fetch - processPackages [plugp100]: executing diffoscope
+[2024-04-08 07:57:06] INFO root fetch - processPackages [plugp100]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugp100-5.0.0.dev6.tar.gz tmp/plugp100-5.1.0.tar.gz --markdown 20240408/p/plugp100/5.0.0.dev6-5.1.0/diff.md --exclude *.pyd
+[2024-04-08 07:57:06] WARNING root fetch - processPackages [geovisio_cli]: Timeout reached during download
+[2024-04-08 07:57:06] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/2f/0e/209293c33762da73cb92bc93b521883720bad9e5b2b3efd6271c3e5fc13e/geovisio_cli-0.3.9.tar.gz
+[2024-04-08 07:57:07] INFO root fetch - processPackages [plugp100]: Remove: archive file [/home/abi/fetcher/tmp/plugp100-5.0.0.dev6.tar.gz]
+[2024-04-08 07:57:07] INFO root fetch - processPackages [plugp100]: Remove: archive file [/home/abi/fetcher/tmp/plugp100-5.1.0.tar.gz]
+[2024-04-08 07:57:07] INFO root fetch - main [MainThread]: End processing [plugp100]: success
+[2024-04-08 07:57:07] WARNING root fetch - processPackages [geovisio_cli]: Timeout reached during download
+[2024-04-08 07:57:07] INFO root fetch - processPackages [geovisio_cli]: executing diffoscope
+[2024-04-08 07:57:07] INFO root fetch - processPackages [geovisio_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovisio_cli-0.3.8.tar.gz tmp/geovisio_cli-0.3.9.tar.gz --markdown 20240408/g/geovisio_cli/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-08 07:57:08] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.3.8.tar.gz]
+[2024-04-08 07:57:08] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.3.9.tar.gz]
+[2024-04-08 07:57:08] INFO root fetch - main [MainThread]: End processing [geovisio_cli]: success
+[2024-04-08 08:00:06] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2024-04-08 08:00:06] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2024-04-08 08:00:06] INFO root fetch - main [MainThread]: Store serial: [22662768]
