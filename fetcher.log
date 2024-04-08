@@ -13560,3 +13560,94 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:36:24] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.3.1.tar.gz]
 [2024-04-08 10:36:24] INFO root fetch - main [MainThread]: End processing [whiffle-client]: success
 [2024-04-08 10:36:24] INFO root fetch - main [MainThread]: Store serial: [22664286]
+[2024-04-08 10:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664286]
+[2024-04-08 10:38:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valmi-connector-lib
+[2024-04-08 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: searegion-detection
+[2024-04-08 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: string-net
+[2024-04-08 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlcroissant
+[2024-04-08 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelsmith
+[2024-04-08 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odbc2deltalake
+[2024-04-08 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-ns1
+[2024-04-08 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AgentX
+[2024-04-08 10:38:32] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-08 10:38:32] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-08 10:38:32] INFO root fetch - processPackages [AgentX]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 10:38:32] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-08 10:38:32] INFO root fetch - processPackages [mlcroissant]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-08 10:38:32] INFO root fetch - processPackages [string-net]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 10:38:32] INFO root fetch - processPackages [searegion-detection]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-08 10:38:32] INFO root fetch - processPackages [modelsmith]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-08 10:38:32] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/40/9c/983ecd0480fcb8e7b7a9bb662db297a6dff32046cdf9a3f3c76fcebc1348/odbc2deltalake-0.8.0.tar.gz
+[2024-04-08 10:38:32] INFO root fetch - processPackages [AgentX]: Downloading https://files.pythonhosted.org/packages/cd/ff/8c8b901f26cb92e5c01f27efc86784fea6a874e95d1e714c4bae188568f1/AgentX-0.0.5.tar.gz
+[2024-04-08 10:38:32] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1712469243] Old Version: [3.3.0a1712400246]
+[2024-04-08 10:38:32] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-08 10:38:32] WARNING root fetch - processPackages [AgentX]: Timeout reached during download
+[2024-04-08 10:38:32] WARNING root fetch - processPackages [odbc2deltalake]: Timeout reached during download
+[2024-04-08 10:38:32] INFO root fetch - processPackages [mlcroissant]: Downloading https://files.pythonhosted.org/packages/b4/ad/b848f44027676c47969251671015df08985ef6299635f013373f5fc84bea/mlcroissant-1.0.4.tar.gz
+[2024-04-08 10:38:32] INFO root fetch - processPackages [modelsmith]: Downloading https://files.pythonhosted.org/packages/8c/4b/96c6db880124eab3cee225ca5524a322014c1c52da7a89a58ff336c939f2/modelsmith-0.2.3.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [searegion-detection]: Downloading https://files.pythonhosted.org/packages/1a/9b/9b28c2b3722804c45513195b08b99ed352c36570275f8a92f040e43ad470/searegion_detection-0.0.1.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [string-net]: Downloading https://files.pythonhosted.org/packages/30/f9/fce503f95b2f151b63251d39015af0fc2b34a5a0106569ce0c1cc6931045/string_net-0.0.2.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/ff/f7/2bcf08b244fba3741c44b4e84f62b2dfa23dbcbde0e191c0d295d6c25bb4/pulumi_ns1-3.3.0a1712400246.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [AgentX]: Downloading https://files.pythonhosted.org/packages/57/39/d6a7f2f4c504d777fa32a103a31f1f0d002edb7e629c1becfbc7f282286a/AgentX-0.0.6.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/e5/e3/864d7467dd8078a33211f150ebfaa3fba9713dc3e9239a686a64f0526d55/odbc2deltalake-0.8.1.tar.gz
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [mlcroissant]: Timeout reached during download
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [modelsmith]: Timeout reached during download
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [string-net]: Timeout reached during download
+[2024-04-08 10:38:33] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-08 10:38:33] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240408/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [searegion-detection]: Timeout reached during download
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [AgentX]: Timeout reached during download
+[2024-04-08 10:38:33] INFO root fetch - processPackages [AgentX]: executing diffoscope
+[2024-04-08 10:38:33] INFO root fetch - processPackages [AgentX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AgentX-0.0.5.tar.gz tmp/AgentX-0.0.6.tar.gz --markdown 20240408/A/AgentX/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [pulumi-ns1]: Timeout reached during download
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [odbc2deltalake]: Timeout reached during download
+[2024-04-08 10:38:33] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-04-08 10:38:33] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.8.0.tar.gz tmp/odbc2deltalake-0.8.1.tar.gz --markdown 20240408/o/odbc2deltalake/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-08 10:38:33] INFO root fetch - processPackages [mlcroissant]: Downloading https://files.pythonhosted.org/packages/65/d9/229208844620a1db32acd0e1d81f14aca3dd63acb9f94ea3026bfce7f9b5/mlcroissant-1.0.5.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [modelsmith]: Downloading https://files.pythonhosted.org/packages/73/7f/2c80748bf5059bd07b11f9ed8e95a112d170526c224c240e142da8eae430/modelsmith-0.3.0.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [searegion-detection]: Downloading https://files.pythonhosted.org/packages/84/b0/bf32b4b717e41337695276f7f0867d6a8e1aaf5fc9ab19286b057e543844/searegion_detection-0.0.3.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [string-net]: Downloading https://files.pythonhosted.org/packages/4a/b9/1d805ccc4eef002fb3fb888cdacb16c6f336fa018b58d916268fa0dd299a/string_net-0.0.3.tar.gz
+[2024-04-08 10:38:33] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/0f/f1/0ea8b24f27dc38e88c72b43013ae3df19358c451388df12a18eba332eae6/pulumi_ns1-3.3.0a1712469243.tar.gz
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [mlcroissant]: Timeout reached during download
+[2024-04-08 10:38:33] INFO root fetch - processPackages [mlcroissant]: executing diffoscope
+[2024-04-08 10:38:33] INFO root fetch - processPackages [mlcroissant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcroissant-1.0.4.tar.gz tmp/mlcroissant-1.0.5.tar.gz --markdown 20240408/m/mlcroissant/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [string-net]: Timeout reached during download
+[2024-04-08 10:38:33] INFO root fetch - processPackages [string-net]: executing diffoscope
+[2024-04-08 10:38:33] INFO root fetch - processPackages [string-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/string_net-0.0.2.tar.gz tmp/string_net-0.0.3.tar.gz --markdown 20240408/s/string-net/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [modelsmith]: Timeout reached during download
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [searegion-detection]: Timeout reached during download
+[2024-04-08 10:38:33] INFO root fetch - processPackages [modelsmith]: executing diffoscope
+[2024-04-08 10:38:33] INFO root fetch - processPackages [modelsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelsmith-0.2.3.tar.gz tmp/modelsmith-0.3.0.tar.gz --markdown 20240408/m/modelsmith/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2024-04-08 10:38:33] INFO root fetch - processPackages [searegion-detection]: executing diffoscope
+[2024-04-08 10:38:33] INFO root fetch - processPackages [searegion-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searegion_detection-0.0.1.tar.gz tmp/searegion_detection-0.0.3.tar.gz --markdown 20240408/s/searegion-detection/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 10:38:33] WARNING root fetch - processPackages [pulumi-ns1]: Timeout reached during download
+[2024-04-08 10:38:33] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-04-08 10:38:33] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1712400246.tar.gz tmp/pulumi_ns1-3.3.0a1712469243.tar.gz --markdown 20240408/p/pulumi-ns1/3.3.0a1712400246-3.3.0a1712469243/diff.md --exclude *.pyd
+[2024-04-08 10:38:34] INFO root fetch - processPackages [AgentX]: Remove: archive file [/home/abi/fetcher/tmp/AgentX-0.0.5.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - processPackages [AgentX]: Remove: archive file [/home/abi/fetcher/tmp/AgentX-0.0.6.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - main [MainThread]: End processing [AgentX]: success
+[2024-04-08 10:38:34] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.8.0.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.8.1.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-04-08 10:38:34] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-08 10:38:34] INFO root fetch - processPackages [searegion-detection]: Remove: archive file [/home/abi/fetcher/tmp/searegion_detection-0.0.1.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - processPackages [searegion-detection]: Remove: archive file [/home/abi/fetcher/tmp/searegion_detection-0.0.3.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - main [MainThread]: End processing [searegion-detection]: success
+[2024-04-08 10:38:34] INFO root fetch - processPackages [string-net]: Remove: archive file [/home/abi/fetcher/tmp/string_net-0.0.2.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - processPackages [string-net]: Remove: archive file [/home/abi/fetcher/tmp/string_net-0.0.3.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - main [MainThread]: End processing [string-net]: success
+[2024-04-08 10:38:34] INFO root fetch - processPackages [modelsmith]: Remove: archive file [/home/abi/fetcher/tmp/modelsmith-0.2.3.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - processPackages [modelsmith]: Remove: archive file [/home/abi/fetcher/tmp/modelsmith-0.3.0.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - main [MainThread]: End processing [modelsmith]: success
+[2024-04-08 10:38:34] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1712400246.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1712469243.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-04-08 10:38:34] INFO root fetch - processPackages [mlcroissant]: Remove: archive file [/home/abi/fetcher/tmp/mlcroissant-1.0.4.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - processPackages [mlcroissant]: Remove: archive file [/home/abi/fetcher/tmp/mlcroissant-1.0.5.tar.gz]
+[2024-04-08 10:38:34] INFO root fetch - main [MainThread]: End processing [mlcroissant]: success
+[2024-04-08 10:38:34] INFO root fetch - main [MainThread]: Store serial: [22664318]
