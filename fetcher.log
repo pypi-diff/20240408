@@ -8178,3 +8178,50 @@
 [2024-04-08 06:34:23] INFO root fetch - processPackages [fosslight-android]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_android-4.1.17.tar.gz]
 [2024-04-08 06:34:23] INFO root fetch - main [MainThread]: End processing [fosslight-android]: success
 [2024-04-08 06:34:23] INFO root fetch - main [MainThread]: Store serial: [22662303]
+[2024-04-08 06:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662303]
+[2024-04-08 06:36:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 06:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcci
+[2024-04-08 06:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uiautomator2
+[2024-04-08 06:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinta
+[2024-04-08 06:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezdsp
+[2024-04-08 06:36:42] INFO root fetch - processPackages [ezdsp]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-08 06:36:42] INFO root fetch - processPackages [jcci]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 06:36:42] INFO root fetch - processPackages [uiautomator2]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-04-08 06:36:42] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/42/f4/8fbae95981da02d72cf5345527d2d1f814ca00497759d3fe9f531437a6ba/ezdsp-1.0.0.tar.gz
+[2024-04-08 06:36:42] INFO root fetch - processPackages [tinta]: New version: [0.1.7b5] Old Version: [0.1.7b4.post0]
+[2024-04-08 06:36:43] INFO root fetch - processPackages [uiautomator2]: Downloading https://files.pythonhosted.org/packages/1f/2d/5d023a13d1185f72acc5b26182a1e44ff0dd22dc3470483173f7b7bf90b6/uiautomator2-3.0.5.tar.gz
+[2024-04-08 06:36:43] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:36:43] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/ac/a1/8fc7ba90eb932885dacbdc516f4b1269af263844915049fc3e7e48fde141/jcci-0.1.0.tar.gz
+[2024-04-08 06:36:43] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/31/d9/03f7436c281a66d9197c43b9bebf1fa198c5344c31dff109417ecb6d6e85/tinta-0.1.7b4.post0.tar.gz
+[2024-04-08 06:36:43] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/e9/1e/4f04a5d30ab6fc57fd7c845fad61b3ca15b58f3f1d37a711f351b571b006/ezdsp-1.0.1.tar.gz
+[2024-04-08 06:36:43] WARNING root fetch - processPackages [jcci]: Timeout reached during download
+[2024-04-08 06:36:43] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/9a/ab/52a8b714b78f27b52c447ef35e1a51cca404455467cbb34a94a807df1abd/jcci-0.1.1.tar.gz
+[2024-04-08 06:36:43] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:36:43] INFO root fetch - processPackages [ezdsp]: executing diffoscope
+[2024-04-08 06:36:43] INFO root fetch - processPackages [ezdsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdsp-1.0.0.tar.gz tmp/ezdsp-1.0.1.tar.gz --markdown 20240408/e/ezdsp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 06:36:43] WARNING root fetch - processPackages [tinta]: Timeout reached during download
+[2024-04-08 06:36:43] WARNING root fetch - processPackages [jcci]: Timeout reached during download
+[2024-04-08 06:36:43] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2024-04-08 06:36:43] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.1.0.tar.gz tmp/jcci-0.1.1.tar.gz --markdown 20240408/j/jcci/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 06:36:43] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/03/ed/042c9ff65fda73591f38f4c8d5d5bbca3f76cada88b66db134ae5a903b68/tinta-0.1.7b5.tar.gz
+[2024-04-08 06:36:43] WARNING root fetch - processPackages [uiautomator2]: Timeout reached during download
+[2024-04-08 06:36:43] WARNING root fetch - processPackages [tinta]: Timeout reached during download
+[2024-04-08 06:36:43] INFO root fetch - processPackages [tinta]: executing diffoscope
+[2024-04-08 06:36:43] INFO root fetch - processPackages [tinta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinta-0.1.7b4.post0.tar.gz tmp/tinta-0.1.7b5.tar.gz --markdown 20240408/t/tinta/0.1.7b4.post0-0.1.7b5/diff.md --exclude *.pyd
+[2024-04-08 06:36:43] INFO root fetch - processPackages [uiautomator2]: Downloading https://files.pythonhosted.org/packages/d1/29/10f7cf53c424d6997483e0621de5a971a723bc630c20dae47fa097046eaa/uiautomator2-3.0.6.tar.gz
+[2024-04-08 06:36:43] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.0.tar.gz]
+[2024-04-08 06:36:43] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.1.tar.gz]
+[2024-04-08 06:36:43] INFO root fetch - main [MainThread]: End processing [ezdsp]: success
+[2024-04-08 06:36:44] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.1.0.tar.gz]
+[2024-04-08 06:36:44] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.1.1.tar.gz]
+[2024-04-08 06:36:44] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2024-04-08 06:36:44] WARNING root fetch - processPackages [uiautomator2]: Timeout reached during download
+[2024-04-08 06:36:44] INFO root fetch - processPackages [uiautomator2]: executing diffoscope
+[2024-04-08 06:36:44] INFO root fetch - processPackages [uiautomator2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiautomator2-3.0.5.tar.gz tmp/uiautomator2-3.0.6.tar.gz --markdown 20240408/u/uiautomator2/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2024-04-08 06:36:44] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.7b4.post0.tar.gz]
+[2024-04-08 06:36:44] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.7b5.tar.gz]
+[2024-04-08 06:36:44] INFO root fetch - main [MainThread]: End processing [tinta]: success
+[2024-04-08 06:36:45] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.5.tar.gz]
+[2024-04-08 06:36:45] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.6.tar.gz]
+[2024-04-08 06:36:45] INFO root fetch - main [MainThread]: End processing [uiautomator2]: success
+[2024-04-08 06:36:45] INFO root fetch - main [MainThread]: Store serial: [22662318]
