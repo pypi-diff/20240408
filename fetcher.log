@@ -3122,3 +3122,17 @@
 [2024-04-08 04:05:00] INFO root fetch - processPackages [chesscli]: Remove: archive file [/home/abi/fetcher/tmp/chesscli-0.2.1.tar.gz]
 [2024-04-08 04:05:00] INFO root fetch - main [MainThread]: End processing [chesscli]: success
 [2024-04-08 04:05:00] INFO root fetch - main [MainThread]: Store serial: [22660806]
+[2024-04-08 04:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660806]
+[2024-04-08 04:07:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 04:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-08 04:07:11] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b4] Old Version: [0.8.0.1b3]
+[2024-04-08 04:07:11] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/c3/85/2eb4ea248819142973d920218e20f77805e532572032cbd850a23d57e9d4/smaht_submitr-0.8.0.1b3.tar.gz
+[2024-04-08 04:07:11] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:07:11] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/4f/6f/eaa7d5b3f7e8e01a12e992a9e46f236f41b2edfd551938ffde2d5fe4d135/smaht_submitr-0.8.0.1b4.tar.gz
+[2024-04-08 04:07:11] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:07:11] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-08 04:07:11] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b3.tar.gz tmp/smaht_submitr-0.8.0.1b4.tar.gz --markdown 20240408/s/smaht-submitr/0.8.0.1b3-0.8.0.1b4/diff.md --exclude *.pyd
+[2024-04-08 04:07:12] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b3.tar.gz]
+[2024-04-08 04:07:12] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b4.tar.gz]
+[2024-04-08 04:07:12] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-08 04:07:12] INFO root fetch - main [MainThread]: Store serial: [22660810]
