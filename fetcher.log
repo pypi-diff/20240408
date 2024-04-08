@@ -13461,3 +13461,50 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:32:03] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.9.1.tar.gz]
 [2024-04-08 10:32:03] INFO root fetch - main [MainThread]: End processing [neptune-client]: success
 [2024-04-08 10:32:03] INFO root fetch - main [MainThread]: Store serial: [22664239]
+[2024-04-08 10:34:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664239]
+[2024-04-08 10:34:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 10:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ellar-storage
+[2024-04-08 10:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-disconnect-notice
+[2024-04-08 10:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-pro
+[2024-04-08 10:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tclogger
+[2024-04-08 10:34:12] INFO root fetch - processPackages [ellar-storage]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 10:34:12] INFO root fetch - processPackages [tclogger]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-08 10:34:12] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-08 10:34:12] INFO root fetch - processPackages [tclogger]: Downloading https://files.pythonhosted.org/packages/a2/06/f1f6c5ea28e819d6f485abc11167c9ab9f15c2356bb73285f9ebeb7df542/tclogger-0.9.5.tar.gz
+[2024-04-08 10:34:12] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 10:34:12] INFO root fetch - processPackages [ellar-storage]: Downloading https://files.pythonhosted.org/packages/b3/47/c9b85461c3244502ccd15b2488bdbea44ad3aecffae7c7056b9e370f4f5c/ellar_storage-0.1.0.tar.gz
+[2024-04-08 10:34:12] WARNING root fetch - processPackages [tclogger]: Timeout reached during download
+[2024-04-08 10:34:12] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/ff/9b/3c49211cce75d37857229a90014a6de3d90871f6f653cefd2afaf2313ce9/nonebot_plugin_disconnect_notice-0.1.5.tar.gz
+[2024-04-08 10:34:12] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-08 10:34:12] WARNING root fetch - processPackages [ellar-storage]: Timeout reached during download
+[2024-04-08 10:34:12] INFO root fetch - processPackages [tclogger]: Downloading https://files.pythonhosted.org/packages/01/aa/fec828824dd96059b4c11e3ce9bab887c3e8d271cfb98fff14276ade2425/tclogger-0.9.6.tar.gz
+[2024-04-08 10:34:12] WARNING root fetch - processPackages [tclogger]: Timeout reached during download
+[2024-04-08 10:34:12] INFO root fetch - processPackages [tclogger]: executing diffoscope
+[2024-04-08 10:34:12] INFO root fetch - processPackages [tclogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tclogger-0.9.5.tar.gz tmp/tclogger-0.9.6.tar.gz --markdown 20240408/t/tclogger/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-08 10:34:12] WARNING root fetch - processPackages [nonebot-plugin-disconnect-notice]: Timeout reached during download
+[2024-04-08 10:34:12] INFO root fetch - processPackages [ellar-storage]: Downloading https://files.pythonhosted.org/packages/57/f6/a8728d8d4978011f70b60e2645c4506d18dd381b46ed72ddfa95c18a13f2/ellar_storage-0.1.1.tar.gz
+[2024-04-08 10:34:12] WARNING root fetch - processPackages [core-pro]: Timeout reached during download
+[2024-04-08 10:34:13] WARNING root fetch - processPackages [ellar-storage]: Timeout reached during download
+[2024-04-08 10:34:13] INFO root fetch - processPackages [ellar-storage]: executing diffoscope
+[2024-04-08 10:34:13] INFO root fetch - processPackages [ellar-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellar_storage-0.1.0.tar.gz tmp/ellar_storage-0.1.1.tar.gz --markdown 20240408/e/ellar-storage/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 10:34:13] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/81/a9/12c706ab5886de1d8c5fa67d8a15d175ed1ab0bf3da935237287c221161c/nonebot_plugin_disconnect_notice-0.2.0.tar.gz
+[2024-04-08 10:34:13] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-08 10:34:13] WARNING root fetch - processPackages [core-pro]: Timeout reached during download
+[2024-04-08 10:34:13] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-08 10:34:13] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240408/c/core-pro/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:34:13] WARNING root fetch - processPackages [nonebot-plugin-disconnect-notice]: Timeout reached during download
+[2024-04-08 10:34:13] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: executing diffoscope
+[2024-04-08 10:34:13] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_disconnect_notice-0.1.5.tar.gz tmp/nonebot_plugin_disconnect_notice-0.2.0.tar.gz --markdown 20240408/n/nonebot-plugin-disconnect-notice/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2024-04-08 10:34:13] INFO root fetch - processPackages [tclogger]: Remove: archive file [/home/abi/fetcher/tmp/tclogger-0.9.5.tar.gz]
+[2024-04-08 10:34:13] INFO root fetch - processPackages [tclogger]: Remove: archive file [/home/abi/fetcher/tmp/tclogger-0.9.6.tar.gz]
+[2024-04-08 10:34:13] INFO root fetch - main [MainThread]: End processing [tclogger]: success
+[2024-04-08 10:34:13] INFO root fetch - processPackages [ellar-storage]: Remove: archive file [/home/abi/fetcher/tmp/ellar_storage-0.1.0.tar.gz]
+[2024-04-08 10:34:13] INFO root fetch - processPackages [ellar-storage]: Remove: archive file [/home/abi/fetcher/tmp/ellar_storage-0.1.1.tar.gz]
+[2024-04-08 10:34:13] INFO root fetch - main [MainThread]: End processing [ellar-storage]: success
+[2024-04-08 10:34:13] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.1.5.tar.gz]
+[2024-04-08 10:34:13] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.2.0.tar.gz]
+[2024-04-08 10:34:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-disconnect-notice]: success
+[2024-04-08 10:34:13] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-08 10:34:13] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-08 10:34:13] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-08 10:34:13] INFO root fetch - main [MainThread]: Store serial: [22664262]
