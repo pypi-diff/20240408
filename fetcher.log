@@ -14829,3 +14829,50 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:14:12] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
 [2024-04-08 11:14:12] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
 [2024-04-08 11:14:12] INFO root fetch - main [MainThread]: Store serial: [22664791]
+[2024-04-08 11:16:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664791]
+[2024-04-08 11:16:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 11:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-08 11:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irispie
+[2024-04-08 11:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-alto-parser
+[2024-04-08 11:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelbase
+[2024-04-08 11:16:21] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2024-04-08 11:16:21] INFO root fetch - processPackages [simple-alto-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 11:16:21] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-08 11:16:21] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-08 11:16:21] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2024-04-08 11:16:21] INFO root fetch - processPackages [simple-alto-parser]: Downloading https://files.pythonhosted.org/packages/2d/84/288a775370c3b0a74c9022e38e06d864675ccef260b833fb692b0679afd6/simple-alto-parser-0.0.8.tar.gz
+[2024-04-08 11:16:21] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-08 11:16:21] WARNING root fetch - processPackages [modelbase]: Timeout reached during download
+[2024-04-08 11:16:21] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-08 11:16:21] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2024-04-08 11:16:21] WARNING root fetch - processPackages [simple-alto-parser]: Timeout reached during download
+[2024-04-08 11:16:21] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-08 11:16:21] WARNING root fetch - processPackages [modelbase]: Timeout reached during download
+[2024-04-08 11:16:21] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2024-04-08 11:16:21] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20240408/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2024-04-08 11:16:21] INFO root fetch - processPackages [simple-alto-parser]: Downloading https://files.pythonhosted.org/packages/54/a6/e5b5a42bc7f1de8a59b665b6ea950928012570d4b7d82695f5bd835dbd99/simple-alto-parser-0.0.9.tar.gz
+[2024-04-08 11:16:22] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-08 11:16:22] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-08 11:16:22] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-08 11:16:22] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240408/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-08 11:16:22] WARNING root fetch - processPackages [simple-alto-parser]: Timeout reached during download
+[2024-04-08 11:16:22] INFO root fetch - processPackages [simple-alto-parser]: executing diffoscope
+[2024-04-08 11:16:22] INFO root fetch - processPackages [simple-alto-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-alto-parser-0.0.8.tar.gz tmp/simple-alto-parser-0.0.9.tar.gz --markdown 20240408/s/simple-alto-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:16:22] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-08 11:16:22] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-08 11:16:22] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2024-04-08 11:16:22] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2024-04-08 11:16:22] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2024-04-08 11:16:22] INFO root fetch - processPackages [simple-alto-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple-alto-parser-0.0.8.tar.gz]
+[2024-04-08 11:16:22] INFO root fetch - processPackages [simple-alto-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple-alto-parser-0.0.9.tar.gz]
+[2024-04-08 11:16:22] INFO root fetch - main [MainThread]: End processing [simple-alto-parser]: success
+[2024-04-08 11:16:22] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-08 11:16:22] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-08 11:16:22] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-08 11:16:23] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-08 11:16:23] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-08 11:16:23] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240408/i/irispie/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 11:16:25] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-08 11:16:25] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-08 11:16:25] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-08 11:16:25] INFO root fetch - main [MainThread]: Store serial: [22664806]
