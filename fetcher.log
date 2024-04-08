@@ -14101,3 +14101,110 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:51:56] INFO root fetch - processPackages [openclimatedata]: Remove: archive file [/home/abi/fetcher/tmp/openclimatedata-0.9.tar.gz]
 [2024-04-08 10:51:56] INFO root fetch - main [MainThread]: End processing [openclimatedata]: success
 [2024-04-08 10:51:56] INFO root fetch - main [MainThread]: Store serial: [22664509]
+[2024-04-08 10:53:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664509]
+[2024-04-08 10:54:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toolforge-jobs-framework-cli
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sempyro
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-packages
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clearml-agent
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eflips-depot
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rancher2
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apache-airflow
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Canaille
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: parsee-core
+[2024-04-08 10:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lk-utils
+[2024-04-08 10:54:04] INFO root fetch - processPackages [sempyro]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-08 10:54:04] INFO root fetch - processPackages [Canaille]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 10:54:04] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: New version: [16.0.5] Old Version: [16.0.4]
+[2024-04-08 10:54:04] INFO root fetch - processPackages [eflips-depot]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-08 10:54:04] INFO root fetch - processPackages [lk-utils]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-04-08 10:54:04] INFO root fetch - processPackages [parsee-core]: New version: [0.1.3.9] Old Version: [0.1.3.8]
+[2024-04-08 10:54:04] INFO root fetch - processPackages [Canaille]: Downloading https://files.pythonhosted.org/packages/d6/eb/991a3a33db9ca5921988151369084477a94b823d1f0b8df10104a1cf97eb/Canaille-0.0.8.tar.gz
+[2024-04-08 10:54:04] INFO root fetch - processPackages [clearml-agent]: New version: [1.8.1rc0] Old Version: [1.8.0rc0]
+[2024-04-08 10:54:04] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1712401909] Old Version: [6.2.0a1711741665]
+[2024-04-08 10:54:05] INFO root fetch - processPackages [apache-airflow]: New version: [2.9.0rc3] Old Version: [2.9.0rc2]
+[2024-04-08 10:54:05] INFO root fetch - processPackages [aws-packages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 10:54:05] INFO root fetch - processPackages [sempyro]: Downloading https://files.pythonhosted.org/packages/c7/43/d8c6e985a2bd802d0e9844447fb9e30c913924df2618be5c9cadda96e692/sempyro-1.0.0.tar.gz
+[2024-04-08 10:54:05] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: Downloading https://files.pythonhosted.org/packages/e9/11/090a909c971d5158b25e8eb9507e583ae0ca47632ca296a5f084773ce0dc/toolforge-jobs-framework-cli-16.0.4.tar.gz
+[2024-04-08 10:54:05] INFO root fetch - processPackages [apache-airflow]: Downloading https://files.pythonhosted.org/packages/85/43/ffea9ba85c1c9c4f95ea6c8830bb3c78b937f6e44545161c92255f788f56/apache_airflow-2.9.0rc2.tar.gz
+[2024-04-08 10:54:05] INFO root fetch - processPackages [eflips-depot]: Downloading https://files.pythonhosted.org/packages/f9/b4/1e3eba11facd7a0760fb4d1af3b3117326e9b994172dbde31e450dcb4502/eflips_depot-3.0.1.tar.gz
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [apache-airflow]: Skipping package: exceeds size limit 12378686>=10485760
+[2024-04-08 10:54:05] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/d4/4e/3a0d45a41b86e10529a2a4771c4e3b878108fa15ef24b0f1f8f559c33d08/clearml_agent-1.8.0rc0-py3-none-any.whl
+[2024-04-08 10:54:05] INFO root fetch - main [MainThread]: End processing [apache-airflow] error
+[2024-04-08 10:54:05] INFO root fetch - processPackages [lk-utils]: Downloading https://files.pythonhosted.org/packages/ba/ca/1973c1632629340d2a49240d4945571623396ea157ffdfc9d4cdca2496df/lk_utils-2.9.3-py3-none-any.whl
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [Canaille]: Timeout reached during download
+[2024-04-08 10:54:05] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/68/ac/af5b7d90808e26719a57a01d358eb6610c1a876602dc406b4c73010fa771/parsee_core-0.1.3.8.tar.gz
+[2024-04-08 10:54:05] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/93/7f/c04a9404575a2334b2c3c66d3c3851d24936c663a54d79012eb8cdf7b852/pulumi_rancher2-6.2.0a1711741665.tar.gz
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [toolforge-jobs-framework-cli]: Timeout reached during download
+[2024-04-08 10:54:05] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/df/79/dc9dd4f48288c36fa85b903a442b0590b5f087cf3de6feac6a2c7361bd03/aws_packages-0.0.8.tar.gz
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [eflips-depot]: Timeout reached during download
+[2024-04-08 10:54:05] INFO root fetch - processPackages [Canaille]: Downloading https://files.pythonhosted.org/packages/ea/de/e5cb98bd36f4d3ede89c7fd372eb1414185d621efaba9f50b438082962d5/Canaille-0.0.9.tar.gz
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [lk-utils]: Timeout reached during download
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [aws-packages]: Timeout reached during download
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [clearml-agent]: Timeout reached during download
+[2024-04-08 10:54:05] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: Downloading https://files.pythonhosted.org/packages/35/a2/ea72955703c7c315c96f2fb7d5dc56b1102b7b58c40814b4746cfa9fb9ee/toolforge-jobs-framework-cli-16.0.5.tar.gz
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [parsee-core]: Timeout reached during download
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [pulumi-rancher2]: Timeout reached during download
+[2024-04-08 10:54:05] INFO root fetch - processPackages [eflips-depot]: Downloading https://files.pythonhosted.org/packages/5c/45/92a2a9667c3a151d03ac193523d021a955457c56a2cc082a2ef69f776679/eflips_depot-3.0.2.tar.gz
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [toolforge-jobs-framework-cli]: Timeout reached during download
+[2024-04-08 10:54:05] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: executing diffoscope
+[2024-04-08 10:54:05] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolforge-jobs-framework-cli-16.0.4.tar.gz tmp/toolforge-jobs-framework-cli-16.0.5.tar.gz --markdown 20240408/t/toolforge-jobs-framework-cli/16.0.4-16.0.5/diff.md --exclude *.pyd
+[2024-04-08 10:54:05] INFO root fetch - processPackages [lk-utils]: Downloading https://files.pythonhosted.org/packages/cb/f7/c4b9be2e0d2e13589b444492578943979b82f000d436c31db3edf6d3ac51/lk_utils-2.9.4-py3-none-any.whl
+[2024-04-08 10:54:05] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/43/43/85f382bf6076da3263bb17a992b14e3a08474a270ab56ba11ed3c90bf076/clearml_agent-1.8.1rc0-py3-none-any.whl
+[2024-04-08 10:54:05] INFO root fetch - processPackages [aws-packages]: Downloading https://files.pythonhosted.org/packages/f9/70/6dad25f5681631041b67fc5bad90c0828becfec9e1569cd148b0c104a41d/aws_packages-0.0.9.tar.gz
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [Canaille]: Timeout reached during download
+[2024-04-08 10:54:05] INFO root fetch - processPackages [Canaille]: executing diffoscope
+[2024-04-08 10:54:05] INFO root fetch - processPackages [Canaille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Canaille-0.0.8.tar.gz tmp/Canaille-0.0.9.tar.gz --markdown 20240408/C/Canaille/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:54:05] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/cd/be/dc90ae5b40eff036bbc5a2a263bb73bbe07093698afae69ea38a50ee9648/pulumi_rancher2-6.2.0a1712401909.tar.gz
+[2024-04-08 10:54:05] WARNING root fetch - processPackages [eflips-depot]: Timeout reached during download
+[2024-04-08 10:54:05] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/a1/8a/4364b9dc0275821114a9492f360f6a97683a9e25d30a522bd4e24c3b3cc6/parsee_core-0.1.3.9.tar.gz
+[2024-04-08 10:54:05] INFO root fetch - processPackages [eflips-depot]: executing diffoscope
+[2024-04-08 10:54:05] INFO root fetch - processPackages [eflips-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eflips_depot-3.0.1.tar.gz tmp/eflips_depot-3.0.2.tar.gz --markdown 20240408/e/eflips-depot/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2024-04-08 10:54:06] WARNING root fetch - processPackages [aws-packages]: Timeout reached during download
+[2024-04-08 10:54:06] INFO root fetch - processPackages [aws-packages]: executing diffoscope
+[2024-04-08 10:54:06] INFO root fetch - processPackages [aws-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_packages-0.0.8.tar.gz tmp/aws_packages-0.0.9.tar.gz --markdown 20240408/a/aws-packages/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:54:06] WARNING root fetch - processPackages [lk-utils]: Timeout reached during download
+[2024-04-08 10:54:06] INFO root fetch - processPackages [lk-utils]: executing diffoscope
+[2024-04-08 10:54:06] INFO root fetch - processPackages [lk-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_utils-2.9.3-py3-none-any.whl.zip tmp/lk_utils-2.9.4-py3-none-any.whl.zip --markdown 20240408/l/lk-utils/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2024-04-08 10:54:06] WARNING root fetch - processPackages [parsee-core]: Timeout reached during download
+[2024-04-08 10:54:06] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-04-08 10:54:06] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.3.8.tar.gz tmp/parsee_core-0.1.3.9.tar.gz --markdown 20240408/p/parsee-core/0.1.3.8-0.1.3.9/diff.md --exclude *.pyd
+[2024-04-08 10:54:06] WARNING root fetch - processPackages [clearml-agent]: Timeout reached during download
+[2024-04-08 10:54:06] INFO root fetch - processPackages [clearml-agent]: executing diffoscope
+[2024-04-08 10:54:06] INFO root fetch - processPackages [clearml-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml_agent-1.8.0rc0-py3-none-any.whl.zip tmp/clearml_agent-1.8.1rc0-py3-none-any.whl.zip --markdown 20240408/c/clearml-agent/1.8.0rc0-1.8.1rc0/diff.md --exclude *.pyd
+[2024-04-08 10:54:06] WARNING root fetch - processPackages [pulumi-rancher2]: Timeout reached during download
+[2024-04-08 10:54:06] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-04-08 10:54:06] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1711741665.tar.gz tmp/pulumi_rancher2-6.2.0a1712401909.tar.gz --markdown 20240408/p/pulumi-rancher2/6.2.0a1711741665-6.2.0a1712401909/diff.md --exclude *.pyd
+[2024-04-08 10:54:06] WARNING root fetch - processPackages [sempyro]: Timeout reached during download
+[2024-04-08 10:54:06] INFO root fetch - processPackages [sempyro]: Downloading https://files.pythonhosted.org/packages/95/f6/72445b965ac1f44fc8fcf5fc21359a6c966ee33e9086303a31d0aa289507/sempyro-1.1.0.tar.gz
+[2024-04-08 10:54:07] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: Remove: archive file [/home/abi/fetcher/tmp/toolforge-jobs-framework-cli-16.0.4.tar.gz]
+[2024-04-08 10:54:07] INFO root fetch - processPackages [toolforge-jobs-framework-cli]: Remove: archive file [/home/abi/fetcher/tmp/toolforge-jobs-framework-cli-16.0.5.tar.gz]
+[2024-04-08 10:54:07] INFO root fetch - main [MainThread]: End processing [toolforge-jobs-framework-cli]: success
+[2024-04-08 10:54:07] WARNING root fetch - processPackages [sempyro]: Timeout reached during download
+[2024-04-08 10:54:07] INFO root fetch - processPackages [sempyro]: executing diffoscope
+[2024-04-08 10:54:07] INFO root fetch - processPackages [sempyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sempyro-1.0.0.tar.gz tmp/sempyro-1.1.0.tar.gz --markdown 20240408/s/sempyro/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-08 10:54:07] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.8.tar.gz]
+[2024-04-08 10:54:07] INFO root fetch - processPackages [aws-packages]: Remove: archive file [/home/abi/fetcher/tmp/aws_packages-0.0.9.tar.gz]
+[2024-04-08 10:54:07] INFO root fetch - main [MainThread]: End processing [aws-packages]: success
+[2024-04-08 10:54:07] INFO root fetch - processPackages [eflips-depot]: Remove: archive file [/home/abi/fetcher/tmp/eflips_depot-3.0.1.tar.gz]
+[2024-04-08 10:54:07] INFO root fetch - processPackages [eflips-depot]: Remove: archive file [/home/abi/fetcher/tmp/eflips_depot-3.0.2.tar.gz]
+[2024-04-08 10:54:07] INFO root fetch - main [MainThread]: End processing [eflips-depot]: success
+[2024-04-08 10:54:07] INFO root fetch - processPackages [lk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lk_utils-2.9.3-py3-none-any.whl.zip]
+[2024-04-08 10:54:07] INFO root fetch - processPackages [lk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lk_utils-2.9.4-py3-none-any.whl.zip]
+[2024-04-08 10:54:07] INFO root fetch - main [MainThread]: End processing [lk-utils]: success
+[2024-04-08 10:54:07] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.3.8.tar.gz]
+[2024-04-08 10:54:07] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.3.9.tar.gz]
+[2024-04-08 10:54:07] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-04-08 10:54:08] INFO root fetch - processPackages [clearml-agent]: Remove: archive file [/home/abi/fetcher/tmp/clearml_agent-1.8.0rc0-py3-none-any.whl.zip]
+[2024-04-08 10:54:08] INFO root fetch - processPackages [clearml-agent]: Remove: archive file [/home/abi/fetcher/tmp/clearml_agent-1.8.1rc0-py3-none-any.whl.zip]
+[2024-04-08 10:54:08] INFO root fetch - main [MainThread]: End processing [clearml-agent]: success
+[2024-04-08 10:54:08] INFO root fetch - processPackages [Canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.8.tar.gz]
+[2024-04-08 10:54:08] INFO root fetch - processPackages [Canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.9.tar.gz]
+[2024-04-08 10:54:08] INFO root fetch - main [MainThread]: End processing [Canaille]: success
+[2024-04-08 10:54:09] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1711741665.tar.gz]
+[2024-04-08 10:54:09] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1712401909.tar.gz]
+[2024-04-08 10:54:09] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-04-08 10:54:09] INFO root fetch - processPackages [sempyro]: Remove: archive file [/home/abi/fetcher/tmp/sempyro-1.0.0.tar.gz]
+[2024-04-08 10:54:09] INFO root fetch - processPackages [sempyro]: Remove: archive file [/home/abi/fetcher/tmp/sempyro-1.1.0.tar.gz]
+[2024-04-08 10:54:09] INFO root fetch - main [MainThread]: End processing [sempyro]: success
+[2024-04-08 10:54:09] INFO root fetch - main [MainThread]: Store serial: [22664583]
