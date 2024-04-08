@@ -16419,3 +16419,88 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:09:23] INFO root fetch - processPackages [widget-bzvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/widget_bzvisualizer-0.2.3.tar.gz]
 [2024-04-08 12:09:23] INFO root fetch - main [MainThread]: End processing [widget-bzvisualizer]: success
 [2024-04-08 12:09:23] INFO root fetch - main [MainThread]: Store serial: [22665406]
+[2024-04-08 12:11:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665406]
+[2024-04-08 12:11:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure-native
+[2024-04-08 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rysk-client
+[2024-04-08 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpr_sdk
+[2024-04-08 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunholo
+[2024-04-08 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omniply
+[2024-04-08 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: collective.behavior.relatedmedia
+[2024-04-08 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-client
+[2024-04-08 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-lib
+[2024-04-08 12:11:32] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 12:11:32] INFO root fetch - processPackages [rysk-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 12:11:32] INFO root fetch - processPackages [collective.behavior.relatedmedia]: New version: [3.5.4] Old Version: [3.5.3]
+[2024-04-08 12:11:32] INFO root fetch - processPackages [bec-client]: New version: [1.22.2] Old Version: [1.22.1]
+[2024-04-08 12:11:32] INFO root fetch - processPackages [cpr_sdk]: New version: [1.0.1] Old Version: [0.5.6]
+[2024-04-08 12:11:32] INFO root fetch - processPackages [omniply]: New version: [0.3.1] Old Version: [0.3]
+[2024-04-08 12:11:32] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-04-08 12:11:32] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-08 12:11:32] INFO root fetch - processPackages [bec-lib]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 12:11:32] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/2d/71/4cc05f447a214674a13f9f217e773cf5da4e3ebf8a7c17ded9f6e781d4fb/rysk_client-0.2.8.tar.gz
+[2024-04-08 12:11:32] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 12:11:32] INFO root fetch - processPackages [omniply]: Downloading https://files.pythonhosted.org/packages/e6/9c/3ab5bc089676e8a02f0cac0f996c35c9bbc9060e312fe78ab421e873593e/omniply-0.3.tar.gz
+[2024-04-08 12:11:32] INFO root fetch - processPackages [cpr_sdk]: Downloading https://files.pythonhosted.org/packages/7f/24/0b070787d783bf11ff0f728c7c196582398053317306efcb11762b6aa1fa/cpr_sdk-0.5.6.tar.gz
+[2024-04-08 12:11:32] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Downloading https://files.pythonhosted.org/packages/e8/75/f31c9abb44ceba898a95b463e70d3efef3a43a0b7a39ac25383b4ac9e11d/collective.behavior.relatedmedia-3.5.3.tar.gz
+[2024-04-08 12:11:32] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-04-08 12:11:32] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/be/3b/1931d63f9b6935ec2573afda12f43b5190db1ba8f5e45789ae271e2f2134/bec_client-1.22.1.tar.gz
+[2024-04-08 12:11:32] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/0d/e7/a8ddf88465326ac649824e0e689925592ac25bbcbca5c04af89fdd119b7f/bec_lib-1.8.0.tar.gz
+[2024-04-08 12:11:32] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [cpr_sdk]: Timeout reached during download
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [omniply]: Timeout reached during download
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [rysk-client]: Timeout reached during download
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 12:11:33] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-08 12:11:33] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240408/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [bec-lib]: Timeout reached during download
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [bec-client]: Timeout reached during download
+[2024-04-08 12:11:33] INFO root fetch - processPackages [cpr_sdk]: Downloading https://files.pythonhosted.org/packages/f3/e1/50cf80d985e07fdcdadb63281c9ce444a953a3cf51c7a8e5dcaddc220324/cpr_sdk-1.0.1.tar.gz
+[2024-04-08 12:11:33] INFO root fetch - processPackages [omniply]: Downloading https://files.pythonhosted.org/packages/ed/77/f514ef06c2458998ee4811eb2f04ed423c2881a2d83010e47f4c776d9150/omniply-0.3.1.tar.gz
+[2024-04-08 12:11:33] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/e6/a0/f6b7d17f12c0b68012411e6b893a7f08f47bf1be07d720d2609c1882a09c/rysk_client-0.2.9.tar.gz
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-04-08 12:11:33] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [cpr_sdk]: Timeout reached during download
+[2024-04-08 12:11:33] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/d2/50/471403545ef7e40fa6bde4f5315fc5aa721cb840b1a17819f4665b210b9c/bec_client-1.22.2-py3-none-any.whl
+[2024-04-08 12:11:33] INFO root fetch - processPackages [cpr_sdk]: executing diffoscope
+[2024-04-08 12:11:33] INFO root fetch - processPackages [cpr_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpr_sdk-0.5.6.tar.gz tmp/cpr_sdk-1.0.1.tar.gz --markdown 20240408/c/cpr_sdk/0.5.6-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [omniply]: Timeout reached during download
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [rysk-client]: Timeout reached during download
+[2024-04-08 12:11:33] INFO root fetch - processPackages [omniply]: executing diffoscope
+[2024-04-08 12:11:33] INFO root fetch - processPackages [omniply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniply-0.3.tar.gz tmp/omniply-0.3.1.tar.gz --markdown 20240408/o/omniply/0.3-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 12:11:33] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2024-04-08 12:11:33] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.2.8.tar.gz tmp/rysk_client-0.2.9.tar.gz --markdown 20240408/r/rysk-client/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 12:11:33] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/c6/fe/d6d742f9109a15a82397056d1662b1da3e81e7e4f8d692f87fab850fc89d/bec_lib-1.9.0.tar.gz
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [bec-client]: Timeout reached during download
+[2024-04-08 12:11:33] INFO root fetch - processPackages [bec-client]: executing diffoscope
+[2024-04-08 12:11:33] INFO root fetch - processPackages [bec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_client-1.22.1.tar.gz tmp/bec_client-1.22.2-py3-none-any.whl.zip --markdown 20240408/b/bec-client/1.22.1-1.22.2/diff.md --exclude *.pyd
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [bec-lib]: Timeout reached during download
+[2024-04-08 12:11:33] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-04-08 12:11:33] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-1.8.0.tar.gz tmp/bec_lib-1.9.0.tar.gz --markdown 20240408/b/bec-lib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:11:33] WARNING root fetch - processPackages [collective.behavior.relatedmedia]: Timeout reached during download
+[2024-04-08 12:11:33] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Downloading https://files.pythonhosted.org/packages/39/67/dcf0525c48bcf9a1ee7b97cb471821674db9c8d10c4f9f92e04a379ec1a2/collective.behavior.relatedmedia-3.5.4.tar.gz
+[2024-04-08 12:11:34] WARNING root fetch - processPackages [collective.behavior.relatedmedia]: Timeout reached during download
+[2024-04-08 12:11:34] INFO root fetch - processPackages [collective.behavior.relatedmedia]: executing diffoscope
+[2024-04-08 12:11:34] INFO root fetch - processPackages [collective.behavior.relatedmedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.behavior.relatedmedia-3.5.3.tar.gz tmp/collective.behavior.relatedmedia-3.5.4.tar.gz --markdown 20240408/c/collective.behavior.relatedmedia/3.5.3-3.5.4/diff.md --exclude *.pyd
+[2024-04-08 12:11:34] INFO root fetch - processPackages [cpr_sdk]: Remove: archive file [/home/abi/fetcher/tmp/cpr_sdk-0.5.6.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - processPackages [cpr_sdk]: Remove: archive file [/home/abi/fetcher/tmp/cpr_sdk-1.0.1.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - main [MainThread]: End processing [cpr_sdk]: success
+[2024-04-08 12:11:34] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-08 12:11:34] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-1.22.1.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-1.22.2-py3-none-any.whl.zip]
+[2024-04-08 12:11:34] INFO root fetch - main [MainThread]: End processing [bec-client]: success
+[2024-04-08 12:11:34] INFO root fetch - processPackages [omniply]: Remove: archive file [/home/abi/fetcher/tmp/omniply-0.3.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - processPackages [omniply]: Remove: archive file [/home/abi/fetcher/tmp/omniply-0.3.1.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - main [MainThread]: End processing [omniply]: success
+[2024-04-08 12:11:34] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.8.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.9.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2024-04-08 12:11:34] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-1.8.0.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-1.9.0.tar.gz]
+[2024-04-08 12:11:34] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-04-08 12:11:40] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective.behavior.relatedmedia-3.5.3.tar.gz]
+[2024-04-08 12:11:40] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective.behavior.relatedmedia-3.5.4.tar.gz]
+[2024-04-08 12:11:40] INFO root fetch - main [MainThread]: End processing [collective.behavior.relatedmedia]: success
+[2024-04-08 12:11:40] INFO root fetch - main [MainThread]: Store serial: [22665425]
