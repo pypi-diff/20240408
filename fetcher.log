@@ -7768,3 +7768,28 @@
 [2024-04-08 06:08:02] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.5.0.tar.gz]
 [2024-04-08 06:08:02] INFO root fetch - main [MainThread]: End processing [openparse]: success
 [2024-04-08 06:08:02] INFO root fetch - main [MainThread]: Store serial: [22662198]
+[2024-04-08 06:10:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662198]
+[2024-04-08 06:10:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 06:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fsinfo
+[2024-04-08 06:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vcf-generator
+[2024-04-08 06:10:21] INFO root fetch - processPackages [fsinfo]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-08 06:10:21] INFO root fetch - processPackages [vcf-generator]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-08 06:10:21] INFO root fetch - processPackages [vcf-generator]: Downloading https://files.pythonhosted.org/packages/43/70/a390caa313b79bc743f7bea6bf54007a837b138796d0486ff2d6c6a38e28/vcf_generator-1.1.0.tar.gz
+[2024-04-08 06:10:21] INFO root fetch - processPackages [fsinfo]: Downloading https://files.pythonhosted.org/packages/6e/34/d033cb96524e086a5f6d4db603023d84ef7a1fe74a131203bbd053d78b9b/fsinfo-0.0.6.tar.gz
+[2024-04-08 06:10:22] WARNING root fetch - processPackages [vcf-generator]: Timeout reached during download
+[2024-04-08 06:10:22] WARNING root fetch - processPackages [fsinfo]: Timeout reached during download
+[2024-04-08 06:10:22] INFO root fetch - processPackages [fsinfo]: Downloading https://files.pythonhosted.org/packages/e6/9a/25b0269349d2e0307d3df5ca091e6b811938925d97ec177e918ffa2bd694/fsinfo-0.0.7.tar.gz
+[2024-04-08 06:10:22] WARNING root fetch - processPackages [fsinfo]: Timeout reached during download
+[2024-04-08 06:10:22] INFO root fetch - processPackages [fsinfo]: executing diffoscope
+[2024-04-08 06:10:22] INFO root fetch - processPackages [fsinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsinfo-0.0.6.tar.gz tmp/fsinfo-0.0.7.tar.gz --markdown 20240408/f/fsinfo/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-08 06:10:22] INFO root fetch - processPackages [vcf-generator]: Downloading https://files.pythonhosted.org/packages/cc/8c/a71f17bfa39ba94fb58f9b1c9503be0795848e9f0bf34ead6cddb8b3e060/vcf_generator-1.1.1.tar.gz
+[2024-04-08 06:10:22] WARNING root fetch - processPackages [vcf-generator]: Timeout reached during download
+[2024-04-08 06:10:22] INFO root fetch - processPackages [vcf-generator]: executing diffoscope
+[2024-04-08 06:10:22] INFO root fetch - processPackages [vcf-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcf_generator-1.1.0.tar.gz tmp/vcf_generator-1.1.1.tar.gz --markdown 20240408/v/vcf-generator/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-08 06:10:22] INFO root fetch - processPackages [fsinfo]: Remove: archive file [/home/abi/fetcher/tmp/fsinfo-0.0.6.tar.gz]
+[2024-04-08 06:10:22] INFO root fetch - processPackages [fsinfo]: Remove: archive file [/home/abi/fetcher/tmp/fsinfo-0.0.7.tar.gz]
+[2024-04-08 06:10:22] INFO root fetch - main [MainThread]: End processing [fsinfo]: success
+[2024-04-08 06:10:22] INFO root fetch - processPackages [vcf-generator]: Remove: archive file [/home/abi/fetcher/tmp/vcf_generator-1.1.0.tar.gz]
+[2024-04-08 06:10:22] INFO root fetch - processPackages [vcf-generator]: Remove: archive file [/home/abi/fetcher/tmp/vcf_generator-1.1.1.tar.gz]
+[2024-04-08 06:10:22] INFO root fetch - main [MainThread]: End processing [vcf-generator]: success
+[2024-04-08 06:10:22] INFO root fetch - main [MainThread]: Store serial: [22662204]
