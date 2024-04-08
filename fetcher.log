@@ -11880,3 +11880,64 @@
 [2024-04-08 09:29:53] INFO root fetch - processPackages [smda]: Remove: archive file [/home/abi/fetcher/tmp/smda-1.9.9.tar.gz]
 [2024-04-08 09:29:53] INFO root fetch - main [MainThread]: End processing [smda]: success
 [2024-04-08 09:29:53] INFO root fetch - main [MainThread]: Store serial: [22663495]
+[2024-04-08 09:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663495]
+[2024-04-08 09:32:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 09:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest_tagging
+[2024-04-08 09:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyz
+[2024-04-08 09:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-ignore-flaky
+[2024-04-08 09:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypper
+[2024-04-08 09:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medkit-lib
+[2024-04-08 09:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vidstreammmjka
+[2024-04-08 09:32:02] INFO root fetch - processPackages [cyz]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 09:32:02] INFO root fetch - processPackages [pytest_tagging]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-08 09:32:02] INFO root fetch - processPackages [vidstreammmjka]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 09:32:02] INFO root fetch - processPackages [cyz]: Downloading https://files.pythonhosted.org/packages/29/03/ababca8393e59e34fcdf210d159a20efabe19101b75047a5bc9f88993cf8/cyz-0.0.2.tar.gz
+[2024-04-08 09:32:02] INFO root fetch - processPackages [medkit-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-08 09:32:02] WARNING root fetch - processPackages [pypper]: Skipping, unable to determine old version
+[2024-04-08 09:32:02] INFO root fetch - main [MainThread]: End processing [pypper] error
+[2024-04-08 09:32:02] INFO root fetch - processPackages [pytest_tagging]: Downloading https://files.pythonhosted.org/packages/4d/ff/1de8da5ba0fb91135420a9ce0f53b23a5a2fd11d5904352561aaddd6f27b/pytest_tagging-1.5.1.tar.gz
+[2024-04-08 09:32:02] INFO root fetch - processPackages [vidstreammmjka]: Downloading https://files.pythonhosted.org/packages/0f/e0/40a623f30f54f03936f699159ba47671f5b715d9ef35f6621d1008853b54/vidstreammmjka-0.0.2.tar.gz
+[2024-04-08 09:32:02] INFO root fetch - processPackages [pytest-ignore-flaky]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-08 09:32:02] WARNING root fetch - processPackages [cyz]: Timeout reached during download
+[2024-04-08 09:32:02] WARNING root fetch - processPackages [vidstreammmjka]: Timeout reached during download
+[2024-04-08 09:32:02] WARNING root fetch - processPackages [pytest_tagging]: Timeout reached during download
+[2024-04-08 09:32:02] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/74/4b/30398372f26b3c1966e0269a882f2f47924913150928d4ad67a5a616e377/medkit_lib-0.9.1.tar.gz
+[2024-04-08 09:32:02] INFO root fetch - processPackages [pytest-ignore-flaky]: Downloading https://files.pythonhosted.org/packages/5e/1d/ec566a60a02fad11b5a5a73be05e6bfae0b776d006be758e70d1cc5011a0/pytest-ignore-flaky-2.1.0.tar.gz
+[2024-04-08 09:32:02] INFO root fetch - processPackages [cyz]: Downloading https://files.pythonhosted.org/packages/ef/0c/83052743e68ec61730c5d1f4a7604ee57050b66d74cb51509333100c21cd/cyz-0.0.3.tar.gz
+[2024-04-08 09:32:02] INFO root fetch - processPackages [vidstreammmjka]: Downloading https://files.pythonhosted.org/packages/93/97/194e20c38336e68b6b1f9cf1a8f394553dcb1711b9e3f32d0887caad5e77/vidstreammmjka-0.0.3.tar.gz
+[2024-04-08 09:32:02] INFO root fetch - processPackages [pytest_tagging]: Downloading https://files.pythonhosted.org/packages/1c/f1/4d7a5864a75f1bdf7442e8e632f177013394d530680d7f30f17cc6350a38/pytest_tagging-1.5.2.tar.gz
+[2024-04-08 09:32:02] WARNING root fetch - processPackages [pytest-ignore-flaky]: Timeout reached during download
+[2024-04-08 09:32:02] WARNING root fetch - processPackages [cyz]: Timeout reached during download
+[2024-04-08 09:32:02] WARNING root fetch - processPackages [medkit-lib]: Timeout reached during download
+[2024-04-08 09:32:02] INFO root fetch - processPackages [cyz]: executing diffoscope
+[2024-04-08 09:32:02] INFO root fetch - processPackages [cyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyz-0.0.2.tar.gz tmp/cyz-0.0.3.tar.gz --markdown 20240408/c/cyz/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 09:32:02] WARNING root fetch - processPackages [vidstreammmjka]: Timeout reached during download
+[2024-04-08 09:32:02] INFO root fetch - processPackages [vidstreammmjka]: executing diffoscope
+[2024-04-08 09:32:02] INFO root fetch - processPackages [vidstreammmjka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidstreammmjka-0.0.2.tar.gz tmp/vidstreammmjka-0.0.3.tar.gz --markdown 20240408/v/vidstreammmjka/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 09:32:02] WARNING root fetch - processPackages [pytest_tagging]: Timeout reached during download
+[2024-04-08 09:32:02] INFO root fetch - processPackages [pytest_tagging]: executing diffoscope
+[2024-04-08 09:32:02] INFO root fetch - processPackages [pytest_tagging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_tagging-1.5.1.tar.gz tmp/pytest_tagging-1.5.2.tar.gz --markdown 20240408/p/pytest_tagging/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2024-04-08 09:32:02] INFO root fetch - processPackages [pytest-ignore-flaky]: Downloading https://files.pythonhosted.org/packages/26/fb/4c2cf03b436ab8a1415bd04ad24affbf2bac430343cf4f3119015b98b33b/pytest-ignore-flaky-2.2.0.tar.gz
+[2024-04-08 09:32:02] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/70/f6/61a0acaf27d4fdaaca78a8cf0b5c78896e2916d091ef2560dc82c92f341f/medkit_lib-0.9.2.tar.gz
+[2024-04-08 09:32:03] WARNING root fetch - processPackages [medkit-lib]: Timeout reached during download
+[2024-04-08 09:32:03] INFO root fetch - processPackages [medkit-lib]: executing diffoscope
+[2024-04-08 09:32:03] INFO root fetch - processPackages [medkit-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medkit_lib-0.9.1.tar.gz tmp/medkit_lib-0.9.2.tar.gz --markdown 20240408/m/medkit-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-08 09:32:03] WARNING root fetch - processPackages [pytest-ignore-flaky]: Timeout reached during download
+[2024-04-08 09:32:03] INFO root fetch - processPackages [pytest-ignore-flaky]: executing diffoscope
+[2024-04-08 09:32:03] INFO root fetch - processPackages [pytest-ignore-flaky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-ignore-flaky-2.1.0.tar.gz tmp/pytest-ignore-flaky-2.2.0.tar.gz --markdown 20240408/p/pytest-ignore-flaky/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2024-04-08 09:32:03] INFO root fetch - processPackages [cyz]: Remove: archive file [/home/abi/fetcher/tmp/cyz-0.0.2.tar.gz]
+[2024-04-08 09:32:03] INFO root fetch - processPackages [cyz]: Remove: archive file [/home/abi/fetcher/tmp/cyz-0.0.3.tar.gz]
+[2024-04-08 09:32:03] INFO root fetch - main [MainThread]: End processing [cyz]: success
+[2024-04-08 09:32:03] INFO root fetch - processPackages [vidstreammmjka]: Remove: archive file [/home/abi/fetcher/tmp/vidstreammmjka-0.0.2.tar.gz]
+[2024-04-08 09:32:03] INFO root fetch - processPackages [vidstreammmjka]: Remove: archive file [/home/abi/fetcher/tmp/vidstreammmjka-0.0.3.tar.gz]
+[2024-04-08 09:32:03] INFO root fetch - main [MainThread]: End processing [vidstreammmjka]: success
+[2024-04-08 09:32:03] INFO root fetch - processPackages [pytest_tagging]: Remove: archive file [/home/abi/fetcher/tmp/pytest_tagging-1.5.1.tar.gz]
+[2024-04-08 09:32:03] INFO root fetch - processPackages [pytest_tagging]: Remove: archive file [/home/abi/fetcher/tmp/pytest_tagging-1.5.2.tar.gz]
+[2024-04-08 09:32:03] INFO root fetch - main [MainThread]: End processing [pytest_tagging]: success
+[2024-04-08 09:32:04] INFO root fetch - processPackages [pytest-ignore-flaky]: Remove: archive file [/home/abi/fetcher/tmp/pytest-ignore-flaky-2.1.0.tar.gz]
+[2024-04-08 09:32:04] INFO root fetch - processPackages [pytest-ignore-flaky]: Remove: archive file [/home/abi/fetcher/tmp/pytest-ignore-flaky-2.2.0.tar.gz]
+[2024-04-08 09:32:04] INFO root fetch - main [MainThread]: End processing [pytest-ignore-flaky]: success
+[2024-04-08 09:32:04] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.9.1.tar.gz]
+[2024-04-08 09:32:04] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.9.2.tar.gz]
+[2024-04-08 09:32:04] INFO root fetch - main [MainThread]: End processing [medkit-lib]: success
+[2024-04-08 09:32:04] INFO root fetch - main [MainThread]: Store serial: [22663517]
