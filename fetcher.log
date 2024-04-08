@@ -10446,3 +10446,70 @@
 [2024-04-08 08:35:42] INFO root fetch - processPackages [NorenRestApi]: Remove: archive file [/home/abi/fetcher/tmp/NorenRestApi-0.0.28-py2.py3-none-any.whl.zip]
 [2024-04-08 08:35:42] INFO root fetch - main [MainThread]: End processing [NorenRestApi]: success
 [2024-04-08 08:35:42] INFO root fetch - main [MainThread]: Store serial: [22663004]
+[2024-04-08 08:37:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663004]
+[2024-04-08 08:37:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 08:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ryutils
+[2024-04-08 08:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-nl-account-tax-unece
+[2024-04-08 08:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyytext
+[2024-04-08 08:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mtmaod
+[2024-04-08 08:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cefi
+[2024-04-08 08:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyytext
+[2024-04-08 08:37:51] INFO root fetch - processPackages [cefi]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-04-08 08:37:52] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/9f/6f/b7eee3b4879d098e2a52f34c083c22464a458de6a14ec1108b2340d66a6a/cefi-4.4.8.tar.gz
+[2024-04-08 08:37:52] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: New version: [15.0.1.2.0] Old Version: [15.0.1.0.0.3]
+[2024-04-08 08:37:52] INFO root fetch - processPackages [mtmaod]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 08:37:52] INFO root fetch - processPackages [ryutils]: New version: [4.0.0] Old Version: [3.0.1]
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: New version: [1.9] Old Version: [1.8]
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: New version: [1.9] Old Version: [1.8]
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 08:37:52] INFO root fetch - processPackages [ryutils]: Downloading https://files.pythonhosted.org/packages/6a/a2/8d50e227641edcd5aadea65ab3a05215a84e179fd70326576a946bee5e9e/ryutils-3.0.1.tar.gz
+[2024-04-08 08:37:52] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/24/cb/bae47dd044182bcf7ae8adf3c1fccca44fa81eb4a9ecf576af925856d106/cefi-4.4.9.tar.gz
+[2024-04-08 08:37:52] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/1c/2b/5192cde0044402dac2d1c4c9654194e43af60af7410f49f19b5a9f3e87db/odoo_addon_l10n_nl_account_tax_unece-15.0.1.0.0.3-py3-none-any.whl
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: Downloading https://files.pythonhosted.org/packages/41/17/5f193afbcdea9704fb5c192b1ec50fc8aa659bcf34c2f9f4baafd83d827b/lyytext-1.8.tar.gz
+[2024-04-08 08:37:52] INFO root fetch - processPackages [mtmaod]: Downloading https://files.pythonhosted.org/packages/10/05/339e1ceeddfc8ead6a390d0d5fc638d324f7b59bb12c7918e10082ed855c/mtmaod-1.0.8.tar.gz
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: Downloading https://files.pythonhosted.org/packages/41/17/5f193afbcdea9704fb5c192b1ec50fc8aa659bcf34c2f9f4baafd83d827b/lyytext-1.8.tar.gz
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [ryutils]: Timeout reached during download
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 08:37:52] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-08 08:37:52] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.4.8.tar.gz tmp/cefi-4.4.9.tar.gz --markdown 20240408/c/cefi/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Timeout reached during download
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [lyytext]: Timeout reached during download
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [lyytext]: Timeout reached during download
+[2024-04-08 08:37:52] INFO root fetch - processPackages [ryutils]: Downloading https://files.pythonhosted.org/packages/27/f3/1baec26be577a216da28f533574026b5ff107216d06c3794a9f2a9cdc593/ryutils-4.0.0.tar.gz
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [mtmaod]: Timeout reached during download
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [ryutils]: Timeout reached during download
+[2024-04-08 08:37:52] INFO root fetch - processPackages [ryutils]: executing diffoscope
+[2024-04-08 08:37:52] INFO root fetch - processPackages [ryutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryutils-3.0.1.tar.gz tmp/ryutils-4.0.0.tar.gz --markdown 20240408/r/ryutils/3.0.1-4.0.0/diff.md --exclude *.pyd
+[2024-04-08 08:37:52] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/d4/4a/945955168d8129f50f918dd4cbc3fe0b2d29d094778c242fee988a3da108/odoo_addon_l10n_nl_account_tax_unece-15.0.1.2.0-py3-none-any.whl
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: Downloading https://files.pythonhosted.org/packages/e6/b8/a708b1472d970b69750f6c6fc5a374c8098544fee9f1bc7d9de84fca7318/lyytext-1.9.tar.gz
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: Downloading https://files.pythonhosted.org/packages/e6/b8/a708b1472d970b69750f6c6fc5a374c8098544fee9f1bc7d9de84fca7318/lyytext-1.9.tar.gz
+[2024-04-08 08:37:52] INFO root fetch - processPackages [mtmaod]: Downloading https://files.pythonhosted.org/packages/87/21/5322b4910020fffcab4c95b1bf5b6230ca022f12efd0b407fa2bba7e0981/mtmaod-1.0.9.tar.gz
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Timeout reached during download
+[2024-04-08 08:37:52] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: executing diffoscope
+[2024-04-08 08:37:52] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_nl_account_tax_unece-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_nl_account_tax_unece-15.0.1.2.0-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-l10n-nl-account-tax-unece/15.0.1.0.0.3-15.0.1.2.0/diff.md --exclude *.pyd
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [lyytext]: Timeout reached during download
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: executing diffoscope
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyytext-1.8.tar.gz tmp/lyytext-1.9.tar.gz --markdown 20240408/l/lyytext/1.8-1.9/diff.md --exclude *.pyd
+[2024-04-08 08:37:52] WARNING root fetch - processPackages [lyytext]: Timeout reached during download
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: executing diffoscope
+[2024-04-08 08:37:52] INFO root fetch - processPackages [lyytext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyytext-1.8.tar.gz tmp/lyytext-1.9.tar.gz --markdown 20240408/l/lyytext/1.8-1.9/diff.md --exclude *.pyd
+[2024-04-08 08:37:52] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.8.tar.gz]
+[2024-04-08 08:37:52] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.9.tar.gz]
+[2024-04-08 08:37:53] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-08 08:37:53] WARNING root fetch - processPackages [mtmaod]: Timeout reached during download
+[2024-04-08 08:37:53] INFO root fetch - processPackages [mtmaod]: executing diffoscope
+[2024-04-08 08:37:53] INFO root fetch - processPackages [mtmaod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmaod-1.0.8.tar.gz tmp/mtmaod-1.0.9.tar.gz --markdown 20240408/m/mtmaod/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 08:37:53] INFO root fetch - processPackages [ryutils]: Remove: archive file [/home/abi/fetcher/tmp/ryutils-3.0.1.tar.gz]
+[2024-04-08 08:37:53] INFO root fetch - processPackages [ryutils]: Remove: archive file [/home/abi/fetcher/tmp/ryutils-4.0.0.tar.gz]
+[2024-04-08 08:37:53] INFO root fetch - main [MainThread]: End processing [ryutils]: success
+[2024-04-08 08:37:53] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_nl_account_tax_unece-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-08 08:37:53] INFO root fetch - processPackages [odoo-addon-l10n-nl-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_nl_account_tax_unece-15.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-08 08:37:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-nl-account-tax-unece]: success
+[2024-04-08 08:37:53] INFO root fetch - processPackages [lyytext]: Remove: archive file [/home/abi/fetcher/tmp/lyytext-1.8.tar.gz]
+[2024-04-08 08:37:53] INFO root fetch - processPackages [lyytext]: Remove: archive file [/home/abi/fetcher/tmp/lyytext-1.9.tar.gz]
+[2024-04-08 08:37:53] INFO root fetch - main [MainThread]: End processing [lyytext]: success
+[2024-04-08 08:37:53] INFO root fetch - processPackages [mtmaod]: Remove: archive file [/home/abi/fetcher/tmp/mtmaod-1.0.8.tar.gz]
+[2024-04-08 08:37:53] INFO root fetch - processPackages [mtmaod]: Remove: archive file [/home/abi/fetcher/tmp/mtmaod-1.0.9.tar.gz]
+[2024-04-08 08:37:53] INFO root fetch - main [MainThread]: End processing [mtmaod]: success
+[2024-04-08 08:37:53] INFO root fetch - main [MainThread]: End processing [lyytext]: success
+[2024-04-08 08:37:53] INFO root fetch - main [MainThread]: Store serial: [22663019]
