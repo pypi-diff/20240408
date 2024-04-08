@@ -10393,3 +10393,28 @@
 [2024-04-08 08:29:11] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
 [2024-04-08 08:29:11] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-04-08 08:29:11] INFO root fetch - main [MainThread]: Store serial: [22662985]
+[2024-04-08 08:31:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662985]
+[2024-04-08 08:31:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 08:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stock-hexagonal-app
+[2024-04-08 08:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdffont
+[2024-04-08 08:31:20] INFO root fetch - processPackages [stock-hexagonal-app]: New version: [0.1.3] Old Version: [0.0.0]
+[2024-04-08 08:31:20] INFO root fetch - processPackages [bdffont]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 08:31:20] INFO root fetch - processPackages [stock-hexagonal-app]: Downloading https://files.pythonhosted.org/packages/be/6b/d54d1250790852296c1990a1378b372ce00225466d053c5165c92b202d64/stock-hexagonal-app-0.0.0.tar.gz
+[2024-04-08 08:31:20] WARNING root fetch - processPackages [stock-hexagonal-app]: Timeout reached during download
+[2024-04-08 08:31:20] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/9f/78/c824af9f0c4c22da3a7b211d6acf4fcf5cc3738dae57d6eb3d860af0f5e6/bdffont-0.0.8.tar.gz
+[2024-04-08 08:31:20] INFO root fetch - processPackages [stock-hexagonal-app]: Downloading https://files.pythonhosted.org/packages/b7/9c/c0365cf18591dc3b01e95377084204761f1c0e0a72daed9f38f30a4e0dd3/stock-hexagonal-app-0.1.3.tar.gz
+[2024-04-08 08:31:20] WARNING root fetch - processPackages [bdffont]: Timeout reached during download
+[2024-04-08 08:31:20] WARNING root fetch - processPackages [stock-hexagonal-app]: Timeout reached during download
+[2024-04-08 08:31:20] INFO root fetch - processPackages [stock-hexagonal-app]: executing diffoscope
+[2024-04-08 08:31:20] INFO root fetch - processPackages [stock-hexagonal-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-hexagonal-app-0.0.0.tar.gz tmp/stock-hexagonal-app-0.1.3.tar.gz --markdown 20240408/s/stock-hexagonal-app/0.0.0-0.1.3/diff.md --exclude *.pyd
+[2024-04-08 08:31:21] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/cb/1d/a43b84db5c4d3d9bdecfbaa4cbf25995eedcd5543266587876372fb4e338/bdffont-0.0.9.tar.gz
+[2024-04-08 08:31:21] WARNING root fetch - processPackages [bdffont]: Timeout reached during download
+[2024-04-08 08:31:21] INFO root fetch - processPackages [bdffont]: executing diffoscope
+[2024-04-08 08:31:21] INFO root fetch - processPackages [bdffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdffont-0.0.8.tar.gz tmp/bdffont-0.0.9.tar.gz --markdown 20240408/b/bdffont/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 08:31:21] INFO root fetch - processPackages [stock-hexagonal-app]: Remove: archive file [/home/abi/fetcher/tmp/stock-hexagonal-app-0.0.0.tar.gz]
+[2024-04-08 08:31:21] INFO root fetch - processPackages [stock-hexagonal-app]: Remove: archive file [/home/abi/fetcher/tmp/stock-hexagonal-app-0.1.3.tar.gz]
+[2024-04-08 08:31:21] INFO root fetch - main [MainThread]: End processing [stock-hexagonal-app]: success
+[2024-04-08 08:31:21] INFO root fetch - processPackages [bdffont]: Remove: archive file [/home/abi/fetcher/tmp/bdffont-0.0.8.tar.gz]
+[2024-04-08 08:31:21] INFO root fetch - processPackages [bdffont]: Remove: archive file [/home/abi/fetcher/tmp/bdffont-0.0.9.tar.gz]
+[2024-04-08 08:31:21] INFO root fetch - main [MainThread]: End processing [bdffont]: success
+[2024-04-08 08:31:21] INFO root fetch - main [MainThread]: Store serial: [22663000]
