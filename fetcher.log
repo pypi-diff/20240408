@@ -15258,3 +15258,86 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:29:45] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
 [2024-04-08 11:29:45] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2024-04-08 11:29:45] INFO root fetch - main [MainThread]: Store serial: [22664994]
+[2024-04-08 11:31:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664994]
+[2024-04-08 11:31:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 11:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logger-36
+[2024-04-08 11:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-grpc-read-db
+[2024-04-08 11:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-queue-job
+[2024-04-08 11:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: networklab
+[2024-04-08 11:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netsim-tools
+[2024-04-08 11:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clickhouse-ddl
+[2024-04-08 11:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FileSystemModel
+[2024-04-08 11:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stTransfer
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [FileSystemModel]: Skipping, unable to determine old version
+[2024-04-08 11:31:54] INFO root fetch - main [MainThread]: End processing [FileSystemModel] error
+[2024-04-08 11:31:54] INFO root fetch - processPackages [logger-36]: New version: [2024.8] Old Version: [2024.7]
+[2024-04-08 11:31:54] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.8rc1] Old Version: [0.0.8.dev8596917660]
+[2024-04-08 11:31:54] INFO root fetch - processPackages [logger-36]: Downloading https://files.pythonhosted.org/packages/9f/75/e52a8d98afb50113cbe136b0c19453a59c4d701a95f97c3f1678e939b098/logger-36-2024.7.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [stTransfer]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 11:31:54] INFO root fetch - processPackages [clickhouse-ddl]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-08 11:31:54] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/25/3d/75dfb5d44228acf3dbdfbc756542c061a2dfafb490a8ad9558e244a5ce09/th2_grpc_read_db-0.0.8.dev8596917660.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [networklab]: New version: [1.8.1] Old Version: [1.8.0.post2]
+[2024-04-08 11:31:54] INFO root fetch - processPackages [netsim-tools]: New version: [1.8.1] Old Version: [1.8.0.post2]
+[2024-04-08 11:31:54] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [logger-36]: Timeout reached during download
+[2024-04-08 11:31:54] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/04/44/e9b4bb65a8c860bb70bf2385d9571804292028e0e0da1a8dcc6223dc81ba/th2_grpc_read_db-0.0.8rc1.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/e7/3d/6f32e797c5da76df593dd4645c178ceed0ef6593567c851a1c276320ca39/stTransfer-1.0.8.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/ad/18/53b0590c1ba52a744caf24774058032b998081f77981131aa50ae3c71f8e/networklab-1.8.0.post2.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [logger-36]: Downloading https://files.pythonhosted.org/packages/be/ac/d04c6d3018760c0dc2cb021f06007938f73e60b86161086e27f03442f592/logger-36-2024.8.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/a7/93/e32df90a8f17f8a6fabad548f99c3a36fa6d65b73446b646fd0abb8e9170/netsim-tools-1.8.0.post2.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [clickhouse-ddl]: Downloading https://files.pythonhosted.org/packages/a0/f9/fd380b2031682ae6d9f631d9d42b975bdca6e3c500186c361eb06f38ba73/clickhouse_ddl-1.0.4.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/2e/92/734c26c5e37ad6e3b5e5bc01c60c44cbf56fe166f4eefd39186f324d9a8b/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-08 11:31:54] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-04-08 11:31:54] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.8.dev8596917660.tar.gz tmp/th2_grpc_read_db-0.0.8rc1.tar.gz --markdown 20240408/t/th2-grpc-read-db/0.0.8.dev8596917660-0.0.8rc1/diff.md --exclude *.pyd
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [clickhouse-ddl]: Timeout reached during download
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [logger-36]: Timeout reached during download
+[2024-04-08 11:31:54] INFO root fetch - processPackages [logger-36]: executing diffoscope
+[2024-04-08 11:31:54] INFO root fetch - processPackages [logger-36]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-36-2024.7.tar.gz tmp/logger-36-2024.8.tar.gz --markdown 20240408/l/logger-36/2024.7-2024.8/diff.md --exclude *.pyd
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [netsim-tools]: Timeout reached during download
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [stTransfer]: Timeout reached during download
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [networklab]: Timeout reached during download
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [odoo-addon-queue-job]: Timeout reached during download
+[2024-04-08 11:31:54] INFO root fetch - processPackages [clickhouse-ddl]: Downloading https://files.pythonhosted.org/packages/b7/a1/0d97e4ebb2f66000bf13d28a1bf074ca269fea4b1f7c90008ae6de3bb454/clickhouse_ddl-1.0.5.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/af/ab/74d955eb67c3e8a12a4986e1734b43511e57d69a59adf1614f62062285b0/netsim-tools-1.8.1.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/a7/be/74161372cc083a46becbdc8ae9f3be2847446f6360d09831ac56762291c7/stTransfer-1.0.9.tar.gz
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [clickhouse-ddl]: Timeout reached during download
+[2024-04-08 11:31:54] INFO root fetch - processPackages [clickhouse-ddl]: executing diffoscope
+[2024-04-08 11:31:54] INFO root fetch - processPackages [clickhouse-ddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse_ddl-1.0.4.tar.gz tmp/clickhouse_ddl-1.0.5.tar.gz --markdown 20240408/c/clickhouse-ddl/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-08 11:31:54] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/9f/8d/7a73fdb98381ff72bad9e36351a7dd8e476403c60fafe5e6ddbceceec051/networklab-1.8.1.tar.gz
+[2024-04-08 11:31:54] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/d4/fe/d4d32b00106d864e2c65ab6a5ce66b50beda3394e7bd28287fdabe2cfb33/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl
+[2024-04-08 11:31:54] WARNING root fetch - processPackages [netsim-tools]: Timeout reached during download
+[2024-04-08 11:31:54] INFO root fetch - processPackages [netsim-tools]: executing diffoscope
+[2024-04-08 11:31:54] INFO root fetch - processPackages [netsim-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsim-tools-1.8.0.post2.tar.gz tmp/netsim-tools-1.8.1.tar.gz --markdown 20240408/n/netsim-tools/1.8.0.post2-1.8.1/diff.md --exclude *.pyd
+[2024-04-08 11:31:55] WARNING root fetch - processPackages [networklab]: Timeout reached during download
+[2024-04-08 11:31:55] INFO root fetch - processPackages [networklab]: executing diffoscope
+[2024-04-08 11:31:55] INFO root fetch - processPackages [networklab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networklab-1.8.0.post2.tar.gz tmp/networklab-1.8.1.tar.gz --markdown 20240408/n/networklab/1.8.0.post2-1.8.1/diff.md --exclude *.pyd
+[2024-04-08 11:31:55] WARNING root fetch - processPackages [stTransfer]: Timeout reached during download
+[2024-04-08 11:31:55] WARNING root fetch - processPackages [odoo-addon-queue-job]: Timeout reached during download
+[2024-04-08 11:31:55] INFO root fetch - processPackages [stTransfer]: executing diffoscope
+[2024-04-08 11:31:55] INFO root fetch - processPackages [stTransfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stTransfer-1.0.8.tar.gz tmp/stTransfer-1.0.9.tar.gz --markdown 20240408/s/stTransfer/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:31:55] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2024-04-08 11:31:55] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-queue-job/17.0.1.0.0.6-17.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-08 11:31:55] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8.dev8596917660.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8rc1.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-04-08 11:31:55] INFO root fetch - processPackages [netsim-tools]: Remove: archive file [/home/abi/fetcher/tmp/netsim-tools-1.8.0.post2.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - processPackages [netsim-tools]: Remove: archive file [/home/abi/fetcher/tmp/netsim-tools-1.8.1.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - main [MainThread]: End processing [netsim-tools]: success
+[2024-04-08 11:31:55] INFO root fetch - processPackages [clickhouse-ddl]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse_ddl-1.0.4.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - processPackages [clickhouse-ddl]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse_ddl-1.0.5.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - main [MainThread]: End processing [clickhouse-ddl]: success
+[2024-04-08 11:31:55] INFO root fetch - processPackages [logger-36]: Remove: archive file [/home/abi/fetcher/tmp/logger-36-2024.7.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - processPackages [logger-36]: Remove: archive file [/home/abi/fetcher/tmp/logger-36-2024.8.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - main [MainThread]: End processing [logger-36]: success
+[2024-04-08 11:31:55] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.8.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.9.tar.gz]
+[2024-04-08 11:31:55] INFO root fetch - main [MainThread]: End processing [stTransfer]: success
+[2024-04-08 11:31:56] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-08 11:31:56] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-08 11:31:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2024-04-08 11:31:58] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.8.0.post2.tar.gz]
+[2024-04-08 11:31:58] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.8.1.tar.gz]
+[2024-04-08 11:31:58] INFO root fetch - main [MainThread]: End processing [networklab]: success
+[2024-04-08 11:31:58] INFO root fetch - main [MainThread]: Store serial: [22665017]
