@@ -25280,3 +25280,94 @@ EOFError: EOF read where object expected
 [2024-04-08 16:15:18] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
 [2024-04-08 16:15:18] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-04-08 16:15:18] INFO root fetch - main [MainThread]: Store serial: [22668595]
+[2024-04-08 16:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22668595]
+[2024-04-08 16:17:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 16:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyCBA
+[2024-04-08 16:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arion-library
+[2024-04-08 16:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invrs-opt
+[2024-04-08 16:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: faxdatasdk
+[2024-04-08 16:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssh-ca-cli
+[2024-04-08 16:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: df-qc-tools
+[2024-04-08 16:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telegram-bot-reporter
+[2024-04-08 16:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: luminesce-sdk
+[2024-04-08 16:17:27] INFO root fetch - processPackages [df-qc-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 16:17:27] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.8.0] Old Version: [0.7.9]
+[2024-04-08 16:17:27] INFO root fetch - processPackages [faxdatasdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 16:17:27] INFO root fetch - processPackages [telegram-bot-reporter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 16:17:27] INFO root fetch - processPackages [arion-library]: New version: [1.1rc36.dev36] Old Version: [1.1rc35.dev35]
+[2024-04-08 16:17:27] INFO root fetch - processPackages [invrs-opt]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-08 16:17:28] INFO root fetch - processPackages [PyCBA]: New version: [0.5.1] Old Version: [0.4.2]
+[2024-04-08 16:17:28] INFO root fetch - processPackages [df-qc-tools]: Downloading https://files.pythonhosted.org/packages/36/65/1503922ea4cd051db312ee31d1e5ed1c71d99d0d851c58202a92c5fe0013/df_qc_tools-0.0.1.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/d9/17/a7a0b2c1f4a0e962ee74fb64fccdd2513ec2311535cfa14bf692e46c5538/ssh_ca_cli-0.7.9.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [faxdatasdk]: Downloading https://files.pythonhosted.org/packages/03/98/9ab45768e4564bf423020677d6d6c3eb980c0cd8bc0ebaab58e4d65d1610/faxdatasdk-0.0.5.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [telegram-bot-reporter]: Downloading https://files.pythonhosted.org/packages/1e/6b/d77c8b246099c76503eafe0f11a0b43fc651030a2246141b2b99102e8e22/telegram_bot_reporter-0.1.8.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/70/d1/539a0722468fa6fe92a5849b7d3c55272e718b7e0f52ccd463c84da8f449/arion_library-1.1rc35.dev35.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [df-qc-tools]: Timeout reached during download
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [faxdatasdk]: Timeout reached during download
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [telegram-bot-reporter]: Timeout reached during download
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 16:17:28] INFO root fetch - processPackages [invrs-opt]: Downloading https://files.pythonhosted.org/packages/ad/cc/3ee87b38466c00512675aef456c3514ba527524db6071f601d2cbd396839/invrs_opt-0.5.0.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [PyCBA]: Downloading https://files.pythonhosted.org/packages/50/5d/88c6feb9e2d3d09a36278fc0c0120b3ab427ed299f77fc8e5c42d7c73ccc/PyCBA-0.4.2.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [telegram-bot-reporter]: Downloading https://files.pythonhosted.org/packages/fa/0a/762d86452a85b44a1949afb99216913c85f125f5f38bb6a93875775c0aa1/telegram_bot_reporter-0.1.9.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [faxdatasdk]: Downloading https://files.pythonhosted.org/packages/09/45/713e1b4cfc72eb967a33f7ad1787e7a6d2b424ef136f6fb3fb88276e8dbe/faxdatasdk-0.0.6.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [df-qc-tools]: Downloading https://files.pythonhosted.org/packages/90/75/ac1abe50e474c060f6791f8e2139e95cc7d3bc9dd04cb5bd6a14f29c3159/df_qc_tools-0.0.2.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/73/19/c5d704271af3bafd026c7d524f505ffb03925fe00cdffc01d2e094ed6ac5/arion_library-1.1rc36.dev36.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/b0/e8/2ccf396da07daad060fa8fd0fdedc93a528af1f5ba38b18bdc585f8caaac/luminesce_sdk-2.0.98.tar.gz
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [telegram-bot-reporter]: Timeout reached during download
+[2024-04-08 16:17:28] INFO root fetch - processPackages [telegram-bot-reporter]: executing diffoscope
+[2024-04-08 16:17:28] INFO root fetch - processPackages [telegram-bot-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_bot_reporter-0.1.8.tar.gz tmp/telegram_bot_reporter-0.1.9.tar.gz --markdown 20240408/t/telegram-bot-reporter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 16:17:28] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/5d/ac/86eb73ad6c3f586b299d6d0526359184daf3285019a8d73ee0c53bf49a0d/ssh_ca_cli-0.8.0.tar.gz
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [invrs-opt]: Timeout reached during download
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [faxdatasdk]: Timeout reached during download
+[2024-04-08 16:17:28] INFO root fetch - processPackages [faxdatasdk]: executing diffoscope
+[2024-04-08 16:17:28] INFO root fetch - processPackages [faxdatasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faxdatasdk-0.0.5.tar.gz tmp/faxdatasdk-0.0.6.tar.gz --markdown 20240408/f/faxdatasdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [PyCBA]: Timeout reached during download
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 16:17:28] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 16:17:28] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc35.dev35.tar.gz tmp/arion_library-1.1rc36.dev36.tar.gz --markdown 20240408/a/arion-library/1.1rc35.dev35-1.1rc36.dev36/diff.md --exclude *.pyd
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [df-qc-tools]: Timeout reached during download
+[2024-04-08 16:17:28] INFO root fetch - processPackages [df-qc-tools]: executing diffoscope
+[2024-04-08 16:17:28] INFO root fetch - processPackages [df-qc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_qc_tools-0.0.1.tar.gz tmp/df_qc_tools-0.0.2.tar.gz --markdown 20240408/d/df-qc-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:17:28] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 16:17:28] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.9.tar.gz tmp/ssh_ca_cli-0.8.0.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [luminesce-sdk]: Timeout reached during download
+[2024-04-08 16:17:28] INFO root fetch - processPackages [invrs-opt]: Downloading https://files.pythonhosted.org/packages/3b/84/c3db06fbf437d28b0da5438f7b6f59c7145401d4de63d952ad97a89d3a51/invrs_opt-0.5.1.tar.gz
+[2024-04-08 16:17:28] INFO root fetch - processPackages [PyCBA]: Downloading https://files.pythonhosted.org/packages/9c/d4/191cbbe428296f3c17403773276102149d5f09f216b2cee08c443598bf37/PyCBA-0.5.1.tar.gz
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [invrs-opt]: Timeout reached during download
+[2024-04-08 16:17:28] WARNING root fetch - processPackages [PyCBA]: Timeout reached during download
+[2024-04-08 16:17:28] INFO root fetch - processPackages [invrs-opt]: executing diffoscope
+[2024-04-08 16:17:28] INFO root fetch - processPackages [invrs-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invrs_opt-0.5.0.tar.gz tmp/invrs_opt-0.5.1.tar.gz --markdown 20240408/i/invrs-opt/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-08 16:17:28] INFO root fetch - processPackages [PyCBA]: executing diffoscope
+[2024-04-08 16:17:28] INFO root fetch - processPackages [PyCBA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCBA-0.4.2.tar.gz tmp/PyCBA-0.5.1.tar.gz --markdown 20240408/P/PyCBA/0.4.2-0.5.1/diff.md --exclude *.pyd
+[2024-04-08 16:17:28] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/c9/9b/db0c2a879c62744430a540a0acfc0d7be954c3b4cd53257bfbe0096890e5/luminesce_sdk-2.0.99.tar.gz
+[2024-04-08 16:17:29] WARNING root fetch - processPackages [luminesce-sdk]: Timeout reached during download
+[2024-04-08 16:17:29] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-04-08 16:17:29] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.0.98.tar.gz tmp/luminesce_sdk-2.0.99.tar.gz --markdown 20240408/l/luminesce-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-08 16:17:29] INFO root fetch - processPackages [telegram-bot-reporter]: Remove: archive file [/home/abi/fetcher/tmp/telegram_bot_reporter-0.1.8.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - processPackages [telegram-bot-reporter]: Remove: archive file [/home/abi/fetcher/tmp/telegram_bot_reporter-0.1.9.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - main [MainThread]: End processing [telegram-bot-reporter]: success
+[2024-04-08 16:17:29] INFO root fetch - processPackages [df-qc-tools]: Remove: archive file [/home/abi/fetcher/tmp/df_qc_tools-0.0.1.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - processPackages [df-qc-tools]: Remove: archive file [/home/abi/fetcher/tmp/df_qc_tools-0.0.2.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - main [MainThread]: End processing [df-qc-tools]: success
+[2024-04-08 16:17:29] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc35.dev35.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc36.dev36.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 16:17:29] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.9.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.8.0.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 16:17:29] INFO root fetch - processPackages [faxdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/faxdatasdk-0.0.5.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - processPackages [faxdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/faxdatasdk-0.0.6.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - main [MainThread]: End processing [faxdatasdk]: success
+[2024-04-08 16:17:29] INFO root fetch - processPackages [invrs-opt]: Remove: archive file [/home/abi/fetcher/tmp/invrs_opt-0.5.0.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - processPackages [invrs-opt]: Remove: archive file [/home/abi/fetcher/tmp/invrs_opt-0.5.1.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - main [MainThread]: End processing [invrs-opt]: success
+[2024-04-08 16:17:29] INFO root fetch - processPackages [PyCBA]: Remove: archive file [/home/abi/fetcher/tmp/PyCBA-0.4.2.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - processPackages [PyCBA]: Remove: archive file [/home/abi/fetcher/tmp/PyCBA-0.5.1.tar.gz]
+[2024-04-08 16:17:29] INFO root fetch - main [MainThread]: End processing [PyCBA]: success
+[2024-04-08 16:17:30] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.0.98.tar.gz]
+[2024-04-08 16:17:30] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.0.99.tar.gz]
+[2024-04-08 16:17:30] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-04-08 16:17:30] INFO root fetch - main [MainThread]: Store serial: [22668634]
