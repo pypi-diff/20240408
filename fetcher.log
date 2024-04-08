@@ -10368,3 +10368,28 @@
 [2024-04-08 08:26:57] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.4.tar.gz]
 [2024-04-08 08:26:57] INFO root fetch - main [MainThread]: End processing [bride-of-frankensystem]: success
 [2024-04-08 08:26:57] INFO root fetch - main [MainThread]: Store serial: [22662979]
+[2024-04-08 08:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662979]
+[2024-04-08 08:29:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 08:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2024-04-08 08:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scAtlasVAE
+[2024-04-08 08:29:08] INFO root fetch - processPackages [scAtlasVAE]: New version: [1.0.3a2] Old Version: [1.0.2a2]
+[2024-04-08 08:29:08] INFO root fetch - processPackages [qwak-core]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-08 08:29:08] INFO root fetch - processPackages [scAtlasVAE]: Downloading https://files.pythonhosted.org/packages/df/8d/ba330858ef11ab577762d2242dee961beeb9d36e5e7c12e90d34d29d530d/scAtlasVAE-1.0.2a2-py3-none-any.whl
+[2024-04-08 08:29:08] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/59/3f/bd28e625e13a379a9463795eed9d170cceaf191d98c6ea302e910c4788e1/qwak_core-0.3.98.tar.gz
+[2024-04-08 08:29:08] WARNING root fetch - processPackages [scAtlasVAE]: Timeout reached during download
+[2024-04-08 08:29:08] WARNING root fetch - processPackages [qwak-core]: Timeout reached during download
+[2024-04-08 08:29:08] INFO root fetch - processPackages [scAtlasVAE]: Downloading https://files.pythonhosted.org/packages/58/af/058ff908aa55da7d8cbc210dc53206180bf817c30ba2091af7d99df3e142/scAtlasVAE-1.0.3a2-py3-none-any.whl
+[2024-04-08 08:29:08] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/71/0e/e7c880c764df31bf9e71679c2a411ac1a48667bfd4caee997236b1cc61fb/qwak_core-0.3.99.tar.gz
+[2024-04-08 08:29:09] WARNING root fetch - processPackages [scAtlasVAE]: Timeout reached during download
+[2024-04-08 08:29:09] INFO root fetch - processPackages [scAtlasVAE]: executing diffoscope
+[2024-04-08 08:29:09] INFO root fetch - processPackages [scAtlasVAE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scAtlasVAE-1.0.2a2-py3-none-any.whl.zip tmp/scAtlasVAE-1.0.3a2-py3-none-any.whl.zip --markdown 20240408/s/scAtlasVAE/1.0.2a2-1.0.3a2/diff.md --exclude *.pyd
+[2024-04-08 08:29:09] WARNING root fetch - processPackages [qwak-core]: Timeout reached during download
+[2024-04-08 08:29:09] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-04-08 08:29:09] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.3.98.tar.gz tmp/qwak_core-0.3.99.tar.gz --markdown 20240408/q/qwak-core/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-08 08:29:09] INFO root fetch - processPackages [scAtlasVAE]: Remove: archive file [/home/abi/fetcher/tmp/scAtlasVAE-1.0.2a2-py3-none-any.whl.zip]
+[2024-04-08 08:29:09] INFO root fetch - processPackages [scAtlasVAE]: Remove: archive file [/home/abi/fetcher/tmp/scAtlasVAE-1.0.3a2-py3-none-any.whl.zip]
+[2024-04-08 08:29:09] INFO root fetch - main [MainThread]: End processing [scAtlasVAE]: success
+[2024-04-08 08:29:11] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.98.tar.gz]
+[2024-04-08 08:29:11] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
+[2024-04-08 08:29:11] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-04-08 08:29:11] INFO root fetch - main [MainThread]: Store serial: [22662985]
