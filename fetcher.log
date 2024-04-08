@@ -3002,3 +3002,47 @@
 [2024-04-08 03:56:08] INFO root fetch - processPackages [easymaker]: Remove: archive file [/home/abi/fetcher/tmp/easymaker-1.1.5b0-py3-none-any.whl.zip]
 [2024-04-08 03:56:08] INFO root fetch - main [MainThread]: End processing [easymaker]: success
 [2024-04-08 03:56:08] INFO root fetch - main [MainThread]: Store serial: [22660746]
+[2024-04-08 03:58:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660746]
+[2024-04-08 03:58:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 03:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jori-autoprognosis
+[2024-04-08 03:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicAlgLib
+[2024-04-08 03:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythagoras
+[2024-04-08 03:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pgserver
+[2024-04-08 03:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: domain-admin
+[2024-04-08 03:58:17] WARNING root fetch - processPackages [pythagoras]: Skipping, unable to determine old version
+[2024-04-08 03:58:17] INFO root fetch - main [MainThread]: End processing [pythagoras] error
+[2024-04-08 03:58:17] INFO root fetch - processPackages [jori-autoprognosis]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-08 03:58:17] INFO root fetch - processPackages [musicAlgLib]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-08 03:58:17] INFO root fetch - processPackages [domain-admin]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-08 03:58:18] INFO root fetch - processPackages [jori-autoprognosis]: Downloading https://files.pythonhosted.org/packages/e8/a1/9c26387e809517289b87d3d30ba9d4346bf028175ac422e7534fc6ebe5dc/jori_autoprognosis-0.2.4-py2.py3-none-macosx_10_14_x86_64.whl
+[2024-04-08 03:58:18] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/84/0a/6743d0c7c8e4eb0770b4d8cab5b59ea5dcf487e03468cc17ef9940ac6ceb/musicAlgLib-1.1.2.tar.gz
+[2024-04-08 03:58:18] INFO root fetch - processPackages [pgserver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 03:58:18] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/de/18/6b2ebbfc77836907642faa7dfaccb3a69ad3428104183520725639eab9ea/domain-admin-1.6.8.tar.gz
+[2024-04-08 03:58:18] WARNING root fetch - processPackages [jori-autoprognosis]: Timeout reached during download
+[2024-04-08 03:58:18] INFO root fetch - processPackages [pgserver]: Downloading https://files.pythonhosted.org/packages/5b/30/9939ef73a45b540a954facbf1c3c230240c34d55346cc70e199bf02fd31a/pgserver-0.0.8-cp39-cp39-win_amd64.whl
+[2024-04-08 03:58:18] WARNING root fetch - processPackages [musicAlgLib]: Timeout reached during download
+[2024-04-08 03:58:18] INFO root fetch - processPackages [jori-autoprognosis]: Downloading https://files.pythonhosted.org/packages/c3/de/3bb777ea8093f50aaa2f87df87fa676ab286c55fb3b669f93427f2ae7453/jori_autoprognosis-0.2.5-py2.py3-none-macosx_10_14_x86_64.whl
+[2024-04-08 03:58:18] WARNING root fetch - processPackages [pgserver]: Skipping package: exceeds size limit 16313611>=10485760
+[2024-04-08 03:58:18] INFO root fetch - main [MainThread]: End processing [pgserver] error
+[2024-04-08 03:58:18] WARNING root fetch - processPackages [jori-autoprognosis]: Timeout reached during download
+[2024-04-08 03:58:18] INFO root fetch - processPackages [jori-autoprognosis]: executing diffoscope
+[2024-04-08 03:58:18] INFO root fetch - processPackages [jori-autoprognosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jori_autoprognosis-0.2.4-py2.py3-none-macosx_10_14_x86_64.whl.zip tmp/jori_autoprognosis-0.2.5-py2.py3-none-macosx_10_14_x86_64.whl.zip --markdown 20240408/j/jori-autoprognosis/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-08 03:58:18] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/d6/40/1f7aab500b101e2ff1ae7debbbe3549918725360fdbd93ca7b0fc01d7b69/musicAlgLib-1.1.3.tar.gz
+[2024-04-08 03:58:18] WARNING root fetch - processPackages [domain-admin]: Timeout reached during download
+[2024-04-08 03:58:18] WARNING root fetch - processPackages [musicAlgLib]: Timeout reached during download
+[2024-04-08 03:58:18] INFO root fetch - processPackages [musicAlgLib]: executing diffoscope
+[2024-04-08 03:58:18] INFO root fetch - processPackages [musicAlgLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicAlgLib-1.1.2.tar.gz tmp/musicAlgLib-1.1.3.tar.gz --markdown 20240408/m/musicAlgLib/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2024-04-08 03:58:19] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c2/4f/a660c8dc467793c416f781443478f0c9f7b1ee9b4cea27835c40b21245af/domain-admin-1.6.9.tar.gz
+[2024-04-08 03:58:19] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.1.2.tar.gz]
+[2024-04-08 03:58:19] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.1.3.tar.gz]
+[2024-04-08 03:58:19] INFO root fetch - main [MainThread]: End processing [musicAlgLib]: success
+[2024-04-08 03:58:19] INFO root fetch - processPackages [jori-autoprognosis]: Remove: archive file [/home/abi/fetcher/tmp/jori_autoprognosis-0.2.4-py2.py3-none-macosx_10_14_x86_64.whl.zip]
+[2024-04-08 03:58:19] INFO root fetch - processPackages [jori-autoprognosis]: Remove: archive file [/home/abi/fetcher/tmp/jori_autoprognosis-0.2.5-py2.py3-none-macosx_10_14_x86_64.whl.zip]
+[2024-04-08 03:58:19] INFO root fetch - main [MainThread]: End processing [jori-autoprognosis]: success
+[2024-04-08 03:58:19] WARNING root fetch - processPackages [domain-admin]: Timeout reached during download
+[2024-04-08 03:58:19] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2024-04-08 03:58:19] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.6.8.tar.gz tmp/domain-admin-1.6.9.tar.gz --markdown 20240408/d/domain-admin/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2024-04-08 03:58:29] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.8.tar.gz]
+[2024-04-08 03:58:29] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.9.tar.gz]
+[2024-04-08 03:58:29] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2024-04-08 03:58:29] INFO root fetch - main [MainThread]: Store serial: [22660768]
