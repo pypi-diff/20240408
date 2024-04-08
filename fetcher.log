@@ -8031,3 +8031,61 @@
 [2024-04-08 06:24:55] INFO root fetch - processPackages [django-bt5-modulo]: Remove: archive file [/home/abi/fetcher/tmp/django-bt5-modulo-0.5.tar.gz]
 [2024-04-08 06:24:55] INFO root fetch - main [MainThread]: End processing [django-bt5-modulo]: success
 [2024-04-08 06:24:55] INFO root fetch - main [MainThread]: Store serial: [22662261]
+[2024-04-08 06:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662261]
+[2024-04-08 06:27:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygpt-net
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liquisource
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickapiclient
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zepben.protobuf
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezdsp
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ezdsp]: New version: [1.0.0] Old Version: [0.0.0]
+[2024-04-08 06:27:15] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2024-04-08 06:27:15] INFO root fetch - processPackages [quickapiclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 06:27:15] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2024-04-08 06:27:15] INFO root fetch - processPackages [liquisource]: New version: [1.2.9] Old Version: [1.2.7]
+[2024-04-08 06:27:15] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/31/83/65e38ba26318feddab1fcbdfc1636295a193599561baeb6b3a1827f5f2c8/ezdsp-0.0.0.tar.gz
+[2024-04-08 06:27:15] WARNING root fetch - processPackages [zepben.protobuf]: Timeout reached during download
+[2024-04-08 06:27:15] INFO root fetch - processPackages [quickapiclient]: Downloading https://files.pythonhosted.org/packages/72/a3/acd4c723641b896f6937d1b9dad6f9aca30b2cfc258e6da0ef26bb1082ee/quickapiclient-0.0.8.tar.gz
+[2024-04-08 06:27:15] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/d5/e7/64b62184cc67f76caf2a3fe1e7a0a184d4be615bfaf22a1ee9aff592084e/liquisource-1.2.7.tar.gz
+[2024-04-08 06:27:15] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:27:15] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2024-04-08 06:27:15] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-08 06:27:15] WARNING root fetch - processPackages [quickapiclient]: Timeout reached during download
+[2024-04-08 06:27:15] WARNING root fetch - processPackages [liquisource]: Timeout reached during download
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/42/f4/8fbae95981da02d72cf5345527d2d1f814ca00497759d3fe9f531437a6ba/ezdsp-1.0.0.tar.gz
+[2024-04-08 06:27:15] WARNING root fetch - processPackages [zepben.protobuf]: Timeout reached during download
+[2024-04-08 06:27:15] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2024-04-08 06:27:15] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20240408/z/zepben.protobuf/0.9.0b2-0.9.0b3/diff.md --exclude *.pyd
+[2024-04-08 06:27:15] INFO root fetch - processPackages [quickapiclient]: Downloading https://files.pythonhosted.org/packages/df/10/0717d613eaa8b6b545d52387f8d50163fcfe48c6ba1f38a1349c2b7add04/quickapiclient-0.0.9.tar.gz
+[2024-04-08 06:27:15] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/bb/65/33a609322c0ca5c7337864ef5f0d0c0fe9ea1ca4b3113cd93efce46e8447/liquisource-1.2.9.tar.gz
+[2024-04-08 06:27:15] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ezdsp]: executing diffoscope
+[2024-04-08 06:27:15] INFO root fetch - processPackages [ezdsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdsp-0.0.0.tar.gz tmp/ezdsp-1.0.0.tar.gz --markdown 20240408/e/ezdsp/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 06:27:15] WARNING root fetch - processPackages [pygpt-net]: Timeout reached during download
+[2024-04-08 06:27:16] WARNING root fetch - processPackages [quickapiclient]: Timeout reached during download
+[2024-04-08 06:27:16] INFO root fetch - processPackages [quickapiclient]: executing diffoscope
+[2024-04-08 06:27:16] INFO root fetch - processPackages [quickapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickapiclient-0.0.8.tar.gz tmp/quickapiclient-0.0.9.tar.gz --markdown 20240408/q/quickapiclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 06:27:16] WARNING root fetch - processPackages [liquisource]: Timeout reached during download
+[2024-04-08 06:27:16] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2024-04-08 06:27:16] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.2.7.tar.gz tmp/liquisource-1.2.9.tar.gz --markdown 20240408/l/liquisource/1.2.7-1.2.9/diff.md --exclude *.pyd
+[2024-04-08 06:27:16] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-08 06:27:16] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-0.0.0.tar.gz]
+[2024-04-08 06:27:16] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.0.tar.gz]
+[2024-04-08 06:27:16] INFO root fetch - main [MainThread]: End processing [ezdsp]: success
+[2024-04-08 06:27:16] WARNING root fetch - processPackages [pygpt-net]: Timeout reached during download
+[2024-04-08 06:27:16] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-08 06:27:16] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240408/p/pygpt-net/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-08 06:27:16] INFO root fetch - processPackages [quickapiclient]: Remove: archive file [/home/abi/fetcher/tmp/quickapiclient-0.0.8.tar.gz]
+[2024-04-08 06:27:16] INFO root fetch - processPackages [quickapiclient]: Remove: archive file [/home/abi/fetcher/tmp/quickapiclient-0.0.9.tar.gz]
+[2024-04-08 06:27:16] INFO root fetch - main [MainThread]: End processing [quickapiclient]: success
+[2024-04-08 06:27:16] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.7.tar.gz]
+[2024-04-08 06:27:16] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.9.tar.gz]
+[2024-04-08 06:27:16] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2024-04-08 06:27:17] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip]
+[2024-04-08 06:27:17] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
+[2024-04-08 06:27:17] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2024-04-08 06:27:19] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-08 06:27:19] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-08 06:27:19] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-08 06:27:19] INFO root fetch - main [MainThread]: Store serial: [22662275]
