@@ -19129,3 +19129,39 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:35:31] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2024.4.8.tar.gz]
 [2024-04-08 13:35:31] INFO root fetch - main [MainThread]: End processing [shibuya]: success
 [2024-04-08 13:35:31] INFO root fetch - main [MainThread]: Store serial: [22666351]
+[2024-04-08 13:37:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666351]
+[2024-04-08 13:37:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 13:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blackjax-nightly
+[2024-04-08 13:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qctma
+[2024-04-08 13:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linerate
+[2024-04-08 13:37:40] INFO root fetch - processPackages [qctma]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 13:37:40] INFO root fetch - processPackages [blackjax-nightly]: New version: [1.1.1.post7] Old Version: [1.1.1.post6]
+[2024-04-08 13:37:40] INFO root fetch - processPackages [linerate]: New version: [1.0.0] Old Version: [0.0.7]
+[2024-04-08 13:37:40] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/27/6e/a9af730bf1d3a4e543c025395d9d1bc9c097dc7e54496199e4de83fad815/blackjax-nightly-1.1.1.post6.tar.gz
+[2024-04-08 13:37:40] INFO root fetch - processPackages [qctma]: Downloading https://files.pythonhosted.org/packages/e6/1f/5780713e9f40a6ad593b82e871d60eab4dab0fc14d413e3c713cefa559df/qctma-1.0.8.tar.gz
+[2024-04-08 13:37:40] INFO root fetch - processPackages [linerate]: Downloading https://files.pythonhosted.org/packages/bf/5d/7ec1e78360b3dc4cccc23640f5e94f2b648810f54aae9cbe4ae68550cb46/linerate-0.0.7.tar.gz
+[2024-04-08 13:37:41] WARNING root fetch - processPackages [qctma]: Timeout reached during download
+[2024-04-08 13:37:41] INFO root fetch - processPackages [qctma]: Downloading https://files.pythonhosted.org/packages/98/34/fe41d95d647586ecc3ea5e3a207babeaf201d19cd21bb8c43bf3c294dbf2/qctma-1.0.9.tar.gz
+[2024-04-08 13:37:41] WARNING root fetch - processPackages [linerate]: Timeout reached during download
+[2024-04-08 13:37:41] WARNING root fetch - processPackages [qctma]: Timeout reached during download
+[2024-04-08 13:37:41] INFO root fetch - processPackages [qctma]: executing diffoscope
+[2024-04-08 13:37:41] INFO root fetch - processPackages [qctma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctma-1.0.8.tar.gz tmp/qctma-1.0.9.tar.gz --markdown 20240408/q/qctma/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 13:37:41] INFO root fetch - processPackages [linerate]: Downloading https://files.pythonhosted.org/packages/54/b1/52852481ff682e092fe100eacf4e29e4cf75f21e28dc248580acda2cc9f7/linerate-1.0.0.tar.gz
+[2024-04-08 13:37:41] WARNING root fetch - processPackages [blackjax-nightly]: Timeout reached during download
+[2024-04-08 13:37:41] WARNING root fetch - processPackages [linerate]: Timeout reached during download
+[2024-04-08 13:37:41] INFO root fetch - processPackages [linerate]: executing diffoscope
+[2024-04-08 13:37:41] INFO root fetch - processPackages [linerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linerate-0.0.7.tar.gz tmp/linerate-1.0.0.tar.gz --markdown 20240408/l/linerate/0.0.7-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 13:37:41] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/59/98/66c27f02c67297a96b56cb4201e2e4c7d93ffbc6123c566d7e1b695c6ee7/blackjax-nightly-1.1.1.post7.tar.gz
+[2024-04-08 13:37:41] INFO root fetch - processPackages [qctma]: Remove: archive file [/home/abi/fetcher/tmp/qctma-1.0.8.tar.gz]
+[2024-04-08 13:37:41] INFO root fetch - processPackages [qctma]: Remove: archive file [/home/abi/fetcher/tmp/qctma-1.0.9.tar.gz]
+[2024-04-08 13:37:41] INFO root fetch - main [MainThread]: End processing [qctma]: success
+[2024-04-08 13:37:42] INFO root fetch - processPackages [linerate]: Remove: archive file [/home/abi/fetcher/tmp/linerate-0.0.7.tar.gz]
+[2024-04-08 13:37:42] INFO root fetch - processPackages [linerate]: Remove: archive file [/home/abi/fetcher/tmp/linerate-1.0.0.tar.gz]
+[2024-04-08 13:37:42] INFO root fetch - main [MainThread]: End processing [linerate]: success
+[2024-04-08 13:37:42] WARNING root fetch - processPackages [blackjax-nightly]: Timeout reached during download
+[2024-04-08 13:37:42] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2024-04-08 13:37:42] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-1.1.1.post6.tar.gz tmp/blackjax-nightly-1.1.1.post7.tar.gz --markdown 20240408/b/blackjax-nightly/1.1.1.post6-1.1.1.post7/diff.md --exclude *.pyd
+[2024-04-08 13:37:43] INFO root fetch - processPackages [blackjax-nightly]: Remove: archive file [/home/abi/fetcher/tmp/blackjax-nightly-1.1.1.post6.tar.gz]
+[2024-04-08 13:37:43] INFO root fetch - processPackages [blackjax-nightly]: Remove: archive file [/home/abi/fetcher/tmp/blackjax-nightly-1.1.1.post7.tar.gz]
+[2024-04-08 13:37:43] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2024-04-08 13:37:43] INFO root fetch - main [MainThread]: Store serial: [22666362]
