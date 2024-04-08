@@ -8843,3 +8843,42 @@
 [2024-04-08 07:05:15] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.9.tar.gz]
 [2024-04-08 07:05:15] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
 [2024-04-08 07:05:15] INFO root fetch - main [MainThread]: Store serial: [22662483]
+[2024-04-08 07:07:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662483]
+[2024-04-08 07:07:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 07:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-04-08 07:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: low-cost-ecs
+[2024-04-08 07:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: B2cNews
+[2024-04-08 07:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyyddforward
+[2024-04-08 07:07:34] WARNING root fetch - processPackages [B2cNews]: Skipping, unable to determine old version
+[2024-04-08 07:07:34] INFO root fetch - main [MainThread]: End processing [B2cNews] error
+[2024-04-08 07:07:34] INFO root fetch - processPackages [lyyddforward]: New version: [1.8] Old Version: [1.7]
+[2024-04-08 07:07:34] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-08 07:07:34] INFO root fetch - processPackages [low-cost-ecs]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-08 07:07:35] INFO root fetch - processPackages [lyyddforward]: Downloading https://files.pythonhosted.org/packages/69/25/71b3ef563b247e137b11d2f65b218cfb1de34e54d4738b440a7c39af2d52/lyyddforward-1.7.tar.gz
+[2024-04-08 07:07:35] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/e6/c8/fa123ed233e8206fe656664743eb3d51ac4636d89c2abdc192eb4cec74fe/low-cost-ecs-0.0.98.tar.gz
+[2024-04-08 07:07:35] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-08 07:07:35] WARNING root fetch - processPackages [lyyddforward]: Timeout reached during download
+[2024-04-08 07:07:35] WARNING root fetch - processPackages [low-cost-ecs]: Timeout reached during download
+[2024-04-08 07:07:35] WARNING root fetch - processPackages [quantplay]: Timeout reached during download
+[2024-04-08 07:07:35] INFO root fetch - processPackages [lyyddforward]: Downloading https://files.pythonhosted.org/packages/c2/bf/7171a46e2f6c8ae8bf86f5d954bbeb4eb7f5a379d6a38e8b54870bf6dee6/lyyddforward-1.8.tar.gz
+[2024-04-08 07:07:35] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/69/68/92afff1c75cea5f1f28ad173f44b74991debb8dad36acd7e4fe4faf59364/low-cost-ecs-0.0.99.tar.gz
+[2024-04-08 07:07:35] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-08 07:07:35] WARNING root fetch - processPackages [lyyddforward]: Timeout reached during download
+[2024-04-08 07:07:35] INFO root fetch - processPackages [lyyddforward]: executing diffoscope
+[2024-04-08 07:07:35] INFO root fetch - processPackages [lyyddforward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyddforward-1.7.tar.gz tmp/lyyddforward-1.8.tar.gz --markdown 20240408/l/lyyddforward/1.7-1.8/diff.md --exclude *.pyd
+[2024-04-08 07:07:35] WARNING root fetch - processPackages [low-cost-ecs]: Timeout reached during download
+[2024-04-08 07:07:35] INFO root fetch - processPackages [low-cost-ecs]: executing diffoscope
+[2024-04-08 07:07:35] INFO root fetch - processPackages [low-cost-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/low-cost-ecs-0.0.98.tar.gz tmp/low-cost-ecs-0.0.99.tar.gz --markdown 20240408/l/low-cost-ecs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-08 07:07:35] WARNING root fetch - processPackages [quantplay]: Timeout reached during download
+[2024-04-08 07:07:35] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-08 07:07:35] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240408/q/quantplay/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-08 07:07:36] INFO root fetch - processPackages [lyyddforward]: Remove: archive file [/home/abi/fetcher/tmp/lyyddforward-1.7.tar.gz]
+[2024-04-08 07:07:36] INFO root fetch - processPackages [lyyddforward]: Remove: archive file [/home/abi/fetcher/tmp/lyyddforward-1.8.tar.gz]
+[2024-04-08 07:07:36] INFO root fetch - main [MainThread]: End processing [lyyddforward]: success
+[2024-04-08 07:07:36] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.98.tar.gz]
+[2024-04-08 07:07:36] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.99.tar.gz]
+[2024-04-08 07:07:36] INFO root fetch - main [MainThread]: End processing [low-cost-ecs]: success
+[2024-04-08 07:07:36] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-08 07:07:36] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-08 07:07:36] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-08 07:07:36] INFO root fetch - main [MainThread]: Store serial: [22662496]
