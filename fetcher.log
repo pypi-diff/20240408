@@ -16672,3 +16672,149 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:13:57] INFO root fetch - processPackages [otcextensions]: Remove: archive file [/home/abi/fetcher/tmp/otcextensions-0.9.1.tar.gz]
 [2024-04-08 12:13:57] INFO root fetch - main [MainThread]: End processing [otcextensions]: success
 [2024-04-08 12:13:57] INFO root fetch - main [MainThread]: Store serial: [22665474]
+[2024-04-08 12:16:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665474]
+[2024-04-08 12:16:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robocorp-browser
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robocorp-actions
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robocorp-workitems
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robocorp-excel
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robocorp-log-pytest
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-keras-nightly
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robocorp-tasks
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robocorp-storage
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-node-binding
+[2024-04-08 12:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robocorp-vault
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-browser]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-actions]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-vault]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-storage]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-workitems]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-log-pytest]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-excel]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-tasks]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024040809] Old Version: [2.17.0.dev2024040709]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [2.46.1.post1112] Old Version: [2.46.1.post1108]
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-workitems]: Downloading https://files.pythonhosted.org/packages/a4/6c/172cd63ba4f77d93ea3026ef0f2ab4fc1d85c03e4609b57fd686ad8c2bed/robocorp_workitems-1.4.4.tar.gz
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/f5/52/06d22ada415a5800c5766a5ba6e1feecbe489c1c4c2efa337446c59159ca/robocorp_browser-2.3.2.tar.gz
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-actions]: Downloading https://files.pythonhosted.org/packages/42/f2/31c1ed4b8d1be927e4e631a260be1f2c800da34876c613aa25769a4a016a/robocorp_actions-0.1.0.tar.gz
+[2024-04-08 12:16:06] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/01/98/51358a9cc32fe1184e6679de25e7a721fe0d88a625cdab9d3828bf27e7c0/tf_keras-nightly-2.17.0.dev2024040709.tar.gz
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-storage]: Downloading https://files.pythonhosted.org/packages/50/9f/967ddf73781696764a018fb2b8501a1cf644207786c94ba1fb81764cf1e2/robocorp_storage-1.0.3.tar.gz
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-vault]: Downloading https://files.pythonhosted.org/packages/cd/11/cf475f8209db80095aa6b4f8005027925dae9d0de5726f295340aa8b1417/robocorp_vault-1.3.4.tar.gz
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-tasks]: Downloading https://files.pythonhosted.org/packages/ba/63/8abc8584ee81da678a8d2b54df3677033d302ba5c60ded6e404e36335fdd/robocorp_tasks-3.0.1.tar.gz
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-excel]: Downloading https://files.pythonhosted.org/packages/aa/92/35a7961ae4628e800a373859a72fc6f6a3f58c287ee4a11cbf9c3552df7e/robocorp_excel-0.4.3.tar.gz
+[2024-04-08 12:16:06] INFO root fetch - processPackages [robocorp-log-pytest]: Downloading https://files.pythonhosted.org/packages/cf/74/bc6ed299cb94d903b1512ca3be25e9ab3d21d2482c6b594b51148e35c3b2/robocorp_log_pytest-0.0.3.tar.gz
+[2024-04-08 12:16:06] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/4d/85/baf839694b886f95ff6ed79815971f486ebe3445ae740d82865d14be357f/nucliadb_node_binding-2.46.1.post1108.tar.gz
+[2024-04-08 12:16:06] WARNING root fetch - processPackages [robocorp-workitems]: Timeout reached during download
+[2024-04-08 12:16:06] WARNING root fetch - processPackages [robocorp-browser]: Timeout reached during download
+[2024-04-08 12:16:06] WARNING root fetch - processPackages [robocorp-actions]: Timeout reached during download
+[2024-04-08 12:16:06] WARNING root fetch - processPackages [robocorp-storage]: Timeout reached during download
+[2024-04-08 12:16:06] WARNING root fetch - processPackages [robocorp-vault]: Timeout reached during download
+[2024-04-08 12:16:06] WARNING root fetch - processPackages [robocorp-excel]: Timeout reached during download
+[2024-04-08 12:16:06] WARNING root fetch - processPackages [robocorp-tasks]: Timeout reached during download
+[2024-04-08 12:16:06] WARNING root fetch - processPackages [robocorp-log-pytest]: Timeout reached during download
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [tf-keras-nightly]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-actions]: Downloading https://files.pythonhosted.org/packages/5f/98/d8bec3d9f66c6389b42130ac12d54298e9a5f1eb16c7c4c06d555b6b300d/robocorp_actions-0.1.1.tar.gz
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-workitems]: Downloading https://files.pythonhosted.org/packages/4c/5f/874e9f25c9102c207b63f488ae987fc443d8b93bfa8ce34cc865fb27b829/robocorp_workitems-1.4.5.tar.gz
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/34/4b/cac8e961cf4d0db6295917d4216c1644c1977753fff77d8694db3850d701/robocorp_browser-2.3.3.tar.gz
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-vault]: Downloading https://files.pythonhosted.org/packages/88/30/874ce61a4465b6b8b7f18ad0143f966be03fc42f20731bc82bf34f3e2c42/robocorp_vault-1.3.5.tar.gz
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-log-pytest]: Downloading https://files.pythonhosted.org/packages/0e/b2/bce903dcfa451d9778ce425c3d081eb9342feadba86af4202882834e5042/robocorp_log_pytest-0.0.4.tar.gz
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-storage]: Downloading https://files.pythonhosted.org/packages/c2/7f/c2c53d7d81a934a8ebd96802ce6e623ff21d9546b5ffd6e0edae0da81113/robocorp_storage-1.0.4.tar.gz
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-tasks]: Downloading https://files.pythonhosted.org/packages/64/67/d8426b77117e112585bcc7d7d03a458071b113074a0c1e76a65bc31970b5/robocorp_tasks-3.0.2.tar.gz
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-excel]: Downloading https://files.pythonhosted.org/packages/3e/87/04ebc6966ad214cac99614a7adc82fd2db235cbbfb00b3ab0fb74c7f1139/robocorp_excel-0.4.4.tar.gz
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [robocorp-actions]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-actions]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_actions-0.1.0.tar.gz tmp/robocorp_actions-0.1.1.tar.gz --markdown 20240408/r/robocorp-actions/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 12:16:07] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/26/f1/1057a4ab61157a95d54a81a2f362155c2f9e01c3585b4967a4bc3f363265/tf_keras-nightly-2.17.0.dev2024040809.tar.gz
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [robocorp-workitems]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-workitems]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-workitems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_workitems-1.4.4.tar.gz tmp/robocorp_workitems-1.4.5.tar.gz --markdown 20240408/r/robocorp-workitems/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [robocorp-browser]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-browser]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_browser-2.3.2.tar.gz tmp/robocorp_browser-2.3.3.tar.gz --markdown 20240408/r/robocorp-browser/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2024-04-08 12:16:07] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/39/ca/12c227f483330678acf07bcdf966ddbec8f1a8ef5fad2b463afcb9bb5323/nucliadb_node_binding-2.46.1.post1112.tar.gz
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [robocorp-vault]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-vault]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_vault-1.3.4.tar.gz tmp/robocorp_vault-1.3.5.tar.gz --markdown 20240408/r/robocorp-vault/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [robocorp-storage]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-storage]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_storage-1.0.3.tar.gz tmp/robocorp_storage-1.0.4.tar.gz --markdown 20240408/r/robocorp-storage/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [robocorp-log-pytest]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-log-pytest]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-log-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_log_pytest-0.0.3.tar.gz tmp/robocorp_log_pytest-0.0.4.tar.gz --markdown 20240408/r/robocorp-log-pytest/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [robocorp-tasks]: Timeout reached during download
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [robocorp-excel]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-tasks]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-excel]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-excel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_excel-0.4.3.tar.gz tmp/robocorp_excel-0.4.4.tar.gz --markdown 20240408/r/robocorp-excel/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-08 12:16:07] INFO root fetch - processPackages [robocorp-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_tasks-3.0.1.tar.gz tmp/robocorp_tasks-3.0.2.tar.gz --markdown 20240408/r/robocorp-tasks/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-2.46.1.post1108.tar.gz tmp/nucliadb_node_binding-2.46.1.post1112.tar.gz --markdown 20240408/n/nucliadb-node-binding/2.46.1.post1108-2.46.1.post1112/diff.md --exclude *.pyd
+[2024-04-08 12:16:07] WARNING root fetch - processPackages [tf-keras-nightly]: Timeout reached during download
+[2024-04-08 12:16:07] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-08 12:16:07] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras-nightly-2.17.0.dev2024040709.tar.gz tmp/tf_keras-nightly-2.17.0.dev2024040809.tar.gz --markdown 20240408/t/tf-keras-nightly/2.17.0.dev2024040709-2.17.0.dev2024040809/diff.md --exclude *.pyd
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-workitems]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_workitems-1.4.4.tar.gz]
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-actions]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_actions-0.1.0.tar.gz]
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-actions]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_actions-0.1.1.tar.gz]
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-workitems]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_workitems-1.4.5.tar.gz]
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-actions]: Start processing: llm-elasticsearch-cache
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-workitems]: Start processing: hyjinx
+[2024-04-08 12:16:08] INFO root fetch - main [MainThread]: End processing [robocorp-actions]: success
+[2024-04-08 12:16:08] INFO root fetch - main [MainThread]: End processing [robocorp-workitems]: success
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-excel]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_excel-0.4.3.tar.gz]
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-excel]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_excel-0.4.4.tar.gz]
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-excel]: Start processing: irispie
+[2024-04-08 12:16:08] INFO root fetch - main [MainThread]: End processing [robocorp-excel]: success
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-browser]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_browser-2.3.2.tar.gz]
+[2024-04-08 12:16:08] INFO root fetch - processPackages [robocorp-browser]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_browser-2.3.3.tar.gz]
+[2024-04-08 12:16:08] INFO root fetch - main [MainThread]: End processing [robocorp-browser]: success
+[2024-04-08 12:16:09] INFO root fetch - processPackages [robocorp-tasks]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_tasks-3.0.1.tar.gz]
+[2024-04-08 12:16:09] INFO root fetch - processPackages [robocorp-tasks]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_tasks-3.0.2.tar.gz]
+[2024-04-08 12:16:09] INFO root fetch - main [MainThread]: End processing [robocorp-tasks]: success
+[2024-04-08 12:16:09] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-08 12:16:09] INFO root fetch - processPackages [robocorp-vault]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_vault-1.3.4.tar.gz]
+[2024-04-08 12:16:09] INFO root fetch - processPackages [robocorp-vault]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_vault-1.3.5.tar.gz]
+[2024-04-08 12:16:09] INFO root fetch - processPackages [llm-elasticsearch-cache]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-08 12:16:09] INFO root fetch - main [MainThread]: End processing [robocorp-vault]: success
+[2024-04-08 12:16:09] INFO root fetch - processPackages [robocorp-log-pytest]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_log_pytest-0.0.3.tar.gz]
+[2024-04-08 12:16:09] INFO root fetch - processPackages [hyjinx]: New version: [0.28.9] Old Version: [0.28.8]
+[2024-04-08 12:16:09] INFO root fetch - processPackages [robocorp-log-pytest]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_log_pytest-0.0.4.tar.gz]
+[2024-04-08 12:16:09] INFO root fetch - main [MainThread]: End processing [robocorp-log-pytest]: success
+[2024-04-08 12:16:09] INFO root fetch - processPackages [robocorp-storage]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_storage-1.0.3.tar.gz]
+[2024-04-08 12:16:09] INFO root fetch - processPackages [robocorp-storage]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_storage-1.0.4.tar.gz]
+[2024-04-08 12:16:09] INFO root fetch - main [MainThread]: End processing [robocorp-storage]: success
+[2024-04-08 12:16:09] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-08 12:16:09] INFO root fetch - processPackages [hyjinx]: Downloading https://files.pythonhosted.org/packages/91/d7/f43c88b522705449485448baaa61e2974a89e3213c2febabe170f4d144de/hyjinx-0.28.8.tar.gz
+[2024-04-08 12:16:09] INFO root fetch - processPackages [llm-elasticsearch-cache]: Downloading https://files.pythonhosted.org/packages/4c/77/7bbc3e5773967434cf28fb1786babfa92e5f326bf08ab13606f64706a4ad/llm_elasticsearch_cache-0.2.1.tar.gz
+[2024-04-08 12:16:09] WARNING root fetch - processPackages [hyjinx]: Timeout reached during download
+[2024-04-08 12:16:09] WARNING root fetch - processPackages [llm-elasticsearch-cache]: Timeout reached during download
+[2024-04-08 12:16:09] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-08 12:16:09] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-08 12:16:09] INFO root fetch - processPackages [hyjinx]: Downloading https://files.pythonhosted.org/packages/bc/20/3bbc29f72f1b59cfe3f831ef05d6a0cf629676f050ac2fef0d527b7ae046/hyjinx-0.28.9.tar.gz
+[2024-04-08 12:16:09] INFO root fetch - processPackages [llm-elasticsearch-cache]: Downloading https://files.pythonhosted.org/packages/88/51/b62c027e667ebdfee1216a30d75c450491153a4ed95d11cceb82516e8992/llm_elasticsearch_cache-0.2.2.tar.gz
+[2024-04-08 12:16:09] WARNING root fetch - processPackages [hyjinx]: Timeout reached during download
+[2024-04-08 12:16:09] INFO root fetch - processPackages [hyjinx]: executing diffoscope
+[2024-04-08 12:16:09] INFO root fetch - processPackages [hyjinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyjinx-0.28.8.tar.gz tmp/hyjinx-0.28.9.tar.gz --markdown 20240408/h/hyjinx/0.28.8-0.28.9/diff.md --exclude *.pyd
+[2024-04-08 12:16:09] WARNING root fetch - processPackages [llm-elasticsearch-cache]: Timeout reached during download
+[2024-04-08 12:16:09] INFO root fetch - processPackages [llm-elasticsearch-cache]: executing diffoscope
+[2024-04-08 12:16:09] INFO root fetch - processPackages [llm-elasticsearch-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_elasticsearch_cache-0.2.1.tar.gz tmp/llm_elasticsearch_cache-0.2.2.tar.gz --markdown 20240408/l/llm-elasticsearch-cache/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-08 12:16:10] WARNING root fetch - processPackages [irispie]: Timeout reached during download
+[2024-04-08 12:16:10] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-08 12:16:10] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240408/i/irispie/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:16:10] INFO root fetch - processPackages [llm-elasticsearch-cache]: Remove: archive file [/home/abi/fetcher/tmp/llm_elasticsearch_cache-0.2.1.tar.gz]
+[2024-04-08 12:16:10] INFO root fetch - processPackages [llm-elasticsearch-cache]: Remove: archive file [/home/abi/fetcher/tmp/llm_elasticsearch_cache-0.2.2.tar.gz]
+[2024-04-08 12:16:10] INFO root fetch - main [MainThread]: End processing [llm-elasticsearch-cache]: success
+[2024-04-08 12:16:10] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1108.tar.gz]
+[2024-04-08 12:16:10] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1112.tar.gz]
+[2024-04-08 12:16:10] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-08 12:16:10] INFO root fetch - processPackages [hyjinx]: Remove: archive file [/home/abi/fetcher/tmp/hyjinx-0.28.8.tar.gz]
+[2024-04-08 12:16:10] INFO root fetch - processPackages [hyjinx]: Remove: archive file [/home/abi/fetcher/tmp/hyjinx-0.28.9.tar.gz]
+[2024-04-08 12:16:10] INFO root fetch - main [MainThread]: End processing [hyjinx]: success
+[2024-04-08 12:16:11] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040709.tar.gz]
+[2024-04-08 12:16:11] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040809.tar.gz]
+[2024-04-08 12:16:11] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-08 12:16:12] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-08 12:16:12] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-08 12:16:12] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-08 12:16:12] INFO root fetch - main [MainThread]: Store serial: [22665533]
