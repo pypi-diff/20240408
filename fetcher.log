@@ -17755,3 +17755,116 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:50:00] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-08 12:50:00] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-08 12:50:00] INFO root fetch - main [MainThread]: Store serial: [22665873]
+[2024-04-08 12:52:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665873]
+[2024-04-08 12:52:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-08 12:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhelper-utils
+[2024-04-08 12:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonos
+[2024-04-08 12:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamin_cli
+[2024-04-08 12:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graas-observability-utility
+[2024-04-08 12:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mysql-compare
+[2024-04-08 12:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akshare
+[2024-04-08 12:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyflasc
+[2024-04-08 12:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiavatar
+[2024-04-08 12:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: khoj-assistant
+[2024-04-08 12:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: haskellian-either
+[2024-04-08 12:52:09] INFO root fetch - processPackages [nonos]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [pyhelper-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev5]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [mysql-compare]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [nonos]: Downloading https://files.pythonhosted.org/packages/32/93/d5a6e3909a3fc23e40f53796a5bd0ce04082b7067911f5b0f928e347dd11/nonos-0.9.0.tar.gz
+[2024-04-08 12:52:09] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [lamin_cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [haskellian-either]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [pyflasc]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [aiavatar]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-08 12:52:09] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/09/cc/5e96da2e30ee3fe358259fc06483b68de77fbe80880df7b7c039274c94c3/pyhelper_utils-0.0.4.tar.gz
+[2024-04-08 12:52:09] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b3/96/0129ecf7acd75beb007b215a022e654e837a65f90317a00f400f5b66d677/khoj_assistant-1.9.1.dev5.tar.gz
+[2024-04-08 12:52:09] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [pyhelper-utils]: Timeout reached during download
+[2024-04-08 12:52:09] INFO root fetch - processPackages [mysql-compare]: Downloading https://files.pythonhosted.org/packages/b0/a9/b948ffa278910b8fd86299b1d9581d53424d179e07a907b51cce532c45b8/mysql-compare-0.2.8.tar.gz
+[2024-04-08 12:52:09] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/e2/ba/0291f0014e8503d7e3640f9bc1dfd3765d4ab778cb24f4aad3c412b18dea/graas-observability-utility-1.6.0.tar.gz
+[2024-04-08 12:52:09] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/06/6f/682247c7c84251fd5c248d697c2a75fbd541c2f61096241a9886ad794710/pyhelper_utils-0.0.5.tar.gz
+[2024-04-08 12:52:09] INFO root fetch - processPackages [haskellian-either]: Downloading https://files.pythonhosted.org/packages/d5/80/9b1f04103e2b9d5a8b47a7f3e9610afc5096724892fee57117a0f455cfdb/haskellian-either-0.1.4.tar.gz
+[2024-04-08 12:52:09] INFO root fetch - processPackages [pyflasc]: Downloading https://files.pythonhosted.org/packages/b4/a0/c08d7517210c1cdca2309f6517e14c61bab933f3db236176bdaeeaba3c59/pyflasc-0.1.1.tar.gz
+[2024-04-08 12:52:09] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/76/e7/8b335713fcf4e70f828f34cf15301e040a3dbb95acca780ef34c1df22888/aiavatar-0.4.0-py3-none-any.whl
+[2024-04-08 12:52:09] INFO root fetch - processPackages [lamin_cli]: Downloading https://files.pythonhosted.org/packages/b3/65/762e5649503edc943685937f291c7f0fdd23096ee0329017dfbc98bfce33/lamin_cli-0.9.2.tar.gz
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [pyhelper-utils]: Timeout reached during download
+[2024-04-08 12:52:09] INFO root fetch - processPackages [pyhelper-utils]: executing diffoscope
+[2024-04-08 12:52:09] INFO root fetch - processPackages [pyhelper-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelper_utils-0.0.4.tar.gz tmp/pyhelper_utils-0.0.5.tar.gz --markdown 20240408/p/pyhelper-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [mysql-compare]: Timeout reached during download
+[2024-04-08 12:52:09] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [haskellian-either]: Timeout reached during download
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [nonos]: Timeout reached during download
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [lamin_cli]: Timeout reached during download
+[2024-04-08 12:52:09] WARNING root fetch - processPackages [aiavatar]: Timeout reached during download
+[2024-04-08 12:52:10] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/df/64/5d979ef9512333fe8119628bd8e023ed9b6e1501a172a8b19269fcc554e7/graas-observability-utility-1.6.1.tar.gz
+[2024-04-08 12:52:10] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-08 12:52:10] INFO root fetch - processPackages [nonos]: Downloading https://files.pythonhosted.org/packages/30/12/bcc290ea36666366aa72037d1d028af88bdbb6201aeac6681052af71f77d/nonos-0.9.1.tar.gz
+[2024-04-08 12:52:10] INFO root fetch - processPackages [mysql-compare]: Downloading https://files.pythonhosted.org/packages/f4/ec/e1e4c8bf19c39b76e565554550368a429d467a0fee74573dcc638c950a0a/mysql-compare-0.2.9.tar.gz
+[2024-04-08 12:52:10] INFO root fetch - processPackages [haskellian-either]: Downloading https://files.pythonhosted.org/packages/e8/d0/9c03941bbd0edef70be3b584060f5618df0d2fd8598584f6b171ace9bbb5/haskellian-either-0.1.5.tar.gz
+[2024-04-08 12:52:10] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-08 12:52:10] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-04-08 12:52:10] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.6.0.tar.gz tmp/graas-observability-utility-1.6.1.tar.gz --markdown 20240408/g/graas-observability-utility/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-08 12:52:10] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/4d/cc/48e866fd0df5ab1b13cee741a39c3cded30587d0873c8bb5dad7e1024543/aiavatar-0.4.1-py3-none-any.whl
+[2024-04-08 12:52:10] INFO root fetch - processPackages [lamin_cli]: Downloading https://files.pythonhosted.org/packages/d4/e4/7fd525f4a6ed45d5e207ecf462531ba3953864b668bf8d386d1c744212ed/lamin_cli-0.9.3.tar.gz
+[2024-04-08 12:52:10] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-08 12:52:10] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-08 12:52:10] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev5.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240408/k/khoj-assistant/1.9.1.dev5-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 12:52:10] WARNING root fetch - processPackages [mysql-compare]: Timeout reached during download
+[2024-04-08 12:52:10] INFO root fetch - processPackages [mysql-compare]: executing diffoscope
+[2024-04-08 12:52:10] INFO root fetch - processPackages [mysql-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-compare-0.2.8.tar.gz tmp/mysql-compare-0.2.9.tar.gz --markdown 20240408/m/mysql-compare/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 12:52:10] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-08 12:52:10] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-08 12:52:10] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240408/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2024-04-08 12:52:10] WARNING root fetch - processPackages [haskellian-either]: Timeout reached during download
+[2024-04-08 12:52:10] INFO root fetch - processPackages [haskellian-either]: executing diffoscope
+[2024-04-08 12:52:10] INFO root fetch - processPackages [haskellian-either]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-either-0.1.4.tar.gz tmp/haskellian-either-0.1.5.tar.gz --markdown 20240408/h/haskellian-either/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-08 12:52:10] WARNING root fetch - processPackages [pyflasc]: Timeout reached during download
+[2024-04-08 12:52:10] WARNING root fetch - processPackages [aiavatar]: Timeout reached during download
+[2024-04-08 12:52:10] INFO root fetch - processPackages [aiavatar]: executing diffoscope
+[2024-04-08 12:52:10] INFO root fetch - processPackages [aiavatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiavatar-0.4.0-py3-none-any.whl.zip tmp/aiavatar-0.4.1-py3-none-any.whl.zip --markdown 20240408/a/aiavatar/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-08 12:52:10] WARNING root fetch - processPackages [lamin_cli]: Timeout reached during download
+[2024-04-08 12:52:10] INFO root fetch - processPackages [lamin_cli]: executing diffoscope
+[2024-04-08 12:52:10] INFO root fetch - processPackages [lamin_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_cli-0.9.2.tar.gz tmp/lamin_cli-0.9.3.tar.gz --markdown 20240408/l/lamin_cli/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-08 12:52:10] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.4.tar.gz]
+[2024-04-08 12:52:10] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.5.tar.gz]
+[2024-04-08 12:52:10] WARNING root fetch - processPackages [nonos]: Timeout reached during download
+[2024-04-08 12:52:10] INFO root fetch - main [MainThread]: End processing [pyhelper-utils]: success
+[2024-04-08 12:52:10] INFO root fetch - processPackages [pyflasc]: Downloading https://files.pythonhosted.org/packages/f1/4b/2efcab925026b208861f32c0837a1a35d45752a567eea0288fb1e5cbcede/pyflasc-0.1.2.tar.gz
+[2024-04-08 12:52:10] INFO root fetch - processPackages [nonos]: executing diffoscope
+[2024-04-08 12:52:10] INFO root fetch - processPackages [nonos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonos-0.9.0.tar.gz tmp/nonos-0.9.1.tar.gz --markdown 20240408/n/nonos/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 12:52:11] WARNING root fetch - processPackages [pyflasc]: Timeout reached during download
+[2024-04-08 12:52:11] INFO root fetch - processPackages [pyflasc]: executing diffoscope
+[2024-04-08 12:52:11] INFO root fetch - processPackages [pyflasc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflasc-0.1.1.tar.gz tmp/pyflasc-0.1.2.tar.gz --markdown 20240408/p/pyflasc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 12:52:11] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.0.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.1.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-04-08 12:52:11] INFO root fetch - processPackages [haskellian-either]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-either-0.1.4.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - processPackages [haskellian-either]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-either-0.1.5.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - main [MainThread]: End processing [haskellian-either]: success
+[2024-04-08 12:52:11] INFO root fetch - processPackages [lamin_cli]: Remove: archive file [/home/abi/fetcher/tmp/lamin_cli-0.9.2.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - processPackages [lamin_cli]: Remove: archive file [/home/abi/fetcher/tmp/lamin_cli-0.9.3.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - main [MainThread]: End processing [lamin_cli]: success
+[2024-04-08 12:52:11] INFO root fetch - processPackages [mysql-compare]: Remove: archive file [/home/abi/fetcher/tmp/mysql-compare-0.2.8.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - processPackages [mysql-compare]: Remove: archive file [/home/abi/fetcher/tmp/mysql-compare-0.2.9.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - main [MainThread]: End processing [mysql-compare]: success
+[2024-04-08 12:52:11] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.4.0-py3-none-any.whl.zip]
+[2024-04-08 12:52:11] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.4.1-py3-none-any.whl.zip]
+[2024-04-08 12:52:11] INFO root fetch - main [MainThread]: End processing [aiavatar]: success
+[2024-04-08 12:52:11] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev5.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-08 12:52:11] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-08 12:52:12] INFO root fetch - processPackages [pyflasc]: Remove: archive file [/home/abi/fetcher/tmp/pyflasc-0.1.1.tar.gz]
+[2024-04-08 12:52:12] INFO root fetch - processPackages [pyflasc]: Remove: archive file [/home/abi/fetcher/tmp/pyflasc-0.1.2.tar.gz]
+[2024-04-08 12:52:12] INFO root fetch - main [MainThread]: End processing [pyflasc]: success
+[2024-04-08 12:52:12] INFO root fetch - processPackages [nonos]: Remove: archive file [/home/abi/fetcher/tmp/nonos-0.9.0.tar.gz]
+[2024-04-08 12:52:12] INFO root fetch - processPackages [nonos]: Remove: archive file [/home/abi/fetcher/tmp/nonos-0.9.1.tar.gz]
+[2024-04-08 12:52:12] INFO root fetch - main [MainThread]: End processing [nonos]: success
+[2024-04-08 12:52:13] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-08 12:52:13] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-08 12:52:13] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-08 12:52:13] INFO root fetch - main [MainThread]: Store serial: [22665908]
