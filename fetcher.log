@@ -13138,3 +13138,58 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:19:27] INFO root fetch - main [MainThread]: End processing [swarmauri] error
 [2024-04-08 10:19:27] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-08 10:19:27] INFO root fetch - main [MainThread]: Store serial: [22664088]
+[2024-04-08 10:21:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664088]
+[2024-04-08 10:21:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-04-08 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dmk-packages
+[2024-04-08 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: podpointclient
+[2024-04-08 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udata
+[2024-04-08 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biao-maps
+[2024-04-08 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scs-analysis
+[2024-04-08 10:21:37] INFO root fetch - processPackages [podpointclient]: New version: [1.6.0a2] Old Version: [1.6.0a1]
+[2024-04-08 10:21:37] INFO root fetch - processPackages [dmk-packages]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-08 10:21:37] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/ca/b6/e35f1f4686bb6249c2719719183c7d7d9c0569f619c9141734796fe96689/podpointclient-1.6.0a1.tar.gz
+[2024-04-08 10:21:37] WARNING root fetch - processPackages [biao-maps]: Skipping, unable to determine old version
+[2024-04-08 10:21:37] INFO root fetch - main [MainThread]: End processing [biao-maps] error
+[2024-04-08 10:21:37] INFO root fetch - processPackages [scs-analysis]: New version: [3.7.2] Old Version: [3.7.1]
+[2024-04-08 10:21:37] INFO root fetch - processPackages [udata]: New version: [7.0.7.dev28493] Old Version: [7.0.7.dev28474]
+[2024-04-08 10:21:37] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 10:21:37] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/df/62/46acb53fbdd108fbe975d1ee222263e67eda88e9d9e262af1b86c54c94b4/dmk_packages-0.5.0.tar.gz
+[2024-04-08 10:21:37] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/b2/cf/fd1d4276734ac40e01163980ade0bfe7bcdaa303d0497a99e7068cf211e1/scs-analysis-3.7.1.tar.gz
+[2024-04-08 10:21:37] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240408081905] Old Version: [3.3.1.dev20240408065452]
+[2024-04-08 10:21:37] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/0a/c1/2747c0b8a4901672ab41d7085f207dd25c0f38cf827a049ab90793ac1c7c/podpointclient-1.6.0a2.tar.gz
+[2024-04-08 10:21:37] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/bd/26/9cd9501de5d1349c11f15b7dd8e08b5d2a0b6af5fb73465a76ff6de368b6/udata-7.0.7.dev28474-py2.py3-none-any.whl
+[2024-04-08 10:21:37] WARNING root fetch - processPackages [dmk-packages]: Timeout reached during download
+[2024-04-08 10:21:37] WARNING root fetch - processPackages [scs-analysis]: Timeout reached during download
+[2024-04-08 10:21:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ed/6b/33df94f9a2fdced40957e0fae3617a411d290676f3f235e1d1b70658129b/localstack-core-3.3.1.dev20240408065452.tar.gz
+[2024-04-08 10:21:37] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 10:21:37] INFO root fetch - processPackages [podpointclient]: executing diffoscope
+[2024-04-08 10:21:37] INFO root fetch - processPackages [podpointclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podpointclient-1.6.0a1.tar.gz tmp/podpointclient-1.6.0a2.tar.gz --markdown 20240408/p/podpointclient/1.6.0a1-1.6.0a2/diff.md --exclude *.pyd
+[2024-04-08 10:21:37] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/81/f5/9606258a0d2f870b4242c7ffe59f62c4ea49ac324565b42341a1c6d106b3/dmk_packages-0.6.0.tar.gz
+[2024-04-08 10:21:38] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-08 10:21:38] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/ed/64/11231b1d8e7acc142c4f1b18b31defb3be510a028069e6f07bf164596076/scs-analysis-3.7.2.tar.gz
+[2024-04-08 10:21:38] WARNING root fetch - processPackages [dmk-packages]: Timeout reached during download
+[2024-04-08 10:21:38] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-04-08 10:21:38] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.5.0.tar.gz tmp/dmk_packages-0.6.0.tar.gz --markdown 20240408/d/dmk-packages/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-08 10:21:38] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19775368>=10485760
+[2024-04-08 10:21:38] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-08 10:21:38] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2e/0d/c4e828e0de6863fb3c0bc1343b78270f894992bcfef122586b160cf910ad/localstack-core-3.3.1.dev20240408081905.tar.gz
+[2024-04-08 10:21:38] WARNING root fetch - processPackages [scs-analysis]: Timeout reached during download
+[2024-04-08 10:21:38] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2024-04-08 10:21:38] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-analysis-3.7.1.tar.gz tmp/scs-analysis-3.7.2.tar.gz --markdown 20240408/s/scs-analysis/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2024-04-08 10:21:38] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-08 10:21:38] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-08 10:21:38] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240408065452.tar.gz tmp/localstack-core-3.3.1.dev20240408081905.tar.gz --markdown 20240408/l/localstack-core/3.3.1.dev20240408065452-3.3.1.dev20240408081905/diff.md --exclude *.pyd
+[2024-04-08 10:21:38] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.6.0a1.tar.gz]
+[2024-04-08 10:21:38] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.6.0a2.tar.gz]
+[2024-04-08 10:21:38] INFO root fetch - main [MainThread]: End processing [podpointclient]: success
+[2024-04-08 10:21:38] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.5.0.tar.gz]
+[2024-04-08 10:21:38] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.0.tar.gz]
+[2024-04-08 10:21:38] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-04-08 10:21:39] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-3.7.1.tar.gz]
+[2024-04-08 10:21:39] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-3.7.2.tar.gz]
+[2024-04-08 10:21:39] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2024-04-08 10:21:43] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408065452.tar.gz]
+[2024-04-08 10:21:43] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408081905.tar.gz]
+[2024-04-08 10:21:43] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-08 10:21:43] INFO root fetch - main [MainThread]: Store serial: [22664122]
