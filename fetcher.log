@@ -19872,3 +19872,92 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:08:23] INFO root fetch - processPackages [optioner]: Remove: archive file [/home/abi/fetcher/tmp/optioner-1.4.6.tar.gz]
 [2024-04-08 14:08:23] INFO root fetch - main [MainThread]: End processing [optioner]: success
 [2024-04-08 14:08:23] INFO root fetch - main [MainThread]: Store serial: [22666634]
+[2024-04-08 14:10:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666634]
+[2024-04-08 14:10:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 14:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esiaccel
+[2024-04-08 14:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-grpc-common
+[2024-04-08 14:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-resolve
+[2024-04-08 14:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jacksung
+[2024-04-08 14:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickstart-vdk
+[2024-04-08 14:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-power-ops
+[2024-04-08 14:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: th2-grpc-common
+[2024-04-08 14:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torcheval-nightly
+[2024-04-08 14:10:33] INFO root fetch - processPackages [th2-grpc-common]: New version: [4.5.0.dev8599644190] Old Version: [4.4.0rc1]
+[2024-04-08 14:10:33] INFO root fetch - processPackages [th2-grpc-common]: New version: [4.5.0.dev8599644190] Old Version: [4.4.0rc1]
+[2024-04-08 14:10:33] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.7] Old Version: [2024.4.6]
+[2024-04-08 14:10:33] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-08 14:10:33] INFO root fetch - processPackages [jacksung]: New version: [0.0.2.99] Old Version: [0.0.2.98]
+[2024-04-08 14:10:33] INFO root fetch - processPackages [esiaccel]: New version: [0.1.dev7955] Old Version: [0.1.dev7953]
+[2024-04-08 14:10:33] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.92.0] Old Version: [0.91.3]
+[2024-04-08 14:10:33] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/73/fb/0a72993fec185d4b8c08b79373655aaaae71b4039a39dd2f8f05ff2e227a/th2_grpc_common-4.4.0rc1.tar.gz
+[2024-04-08 14:10:33] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-08 14:10:33] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/73/fb/0a72993fec185d4b8c08b79373655aaaae71b4039a39dd2f8f05ff2e227a/th2_grpc_common-4.4.0rc1.tar.gz
+[2024-04-08 14:10:33] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/78/17/b2abbbbdc6bf41f888d66c06eb24c0b9912c5c19e6dddc53d05d1cf85a63/torcheval-nightly-2024.4.6.tar.gz
+[2024-04-08 14:10:33] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [th2-grpc-common]: Timeout reached during download
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [th2-grpc-common]: Timeout reached during download
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [torcheval-nightly]: Timeout reached during download
+[2024-04-08 14:10:34] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/8e/c0/a91afddaebe96f21fe4006a9e28caa39f61479745f67d19d3be639393c75/pydantic_resolve-1.9.2.tar.gz
+[2024-04-08 14:10:34] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/53/49/29d6064a8fb6ccc0f6823e713582dc73298157d8802aa60a65240347ef14/jacksung-0.0.2.98.tar.gz
+[2024-04-08 14:10:34] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/2e/de/81d617d5c53e44bd7eda6dfd9a7e7ceddd40a4e16641bd907db84d0c3733/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-08 14:10:34] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/d8/3b/051f5b9b00b32d957ca856410b6744739339c7de6d39e79de4456b7cf501/cognite_power_ops-0.91.3.tar.gz
+[2024-04-08 14:10:34] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/d0/0f/0ae33fc810893e3de233fb8d6721c2ab6c23cd16b2b792b0abeb6df5f23f/th2_grpc_common-4.5.0.dev8599644190.tar.gz
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-08 14:10:34] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/d0/0f/0ae33fc810893e3de233fb8d6721c2ab6c23cd16b2b792b0abeb6df5f23f/th2_grpc_common-4.5.0.dev8599644190.tar.gz
+[2024-04-08 14:10:34] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/57/67/94d1c9136757951123c904c2404daf85b825874d453ecfff12776d5e1c24/torcheval-nightly-2024.4.7.tar.gz
+[2024-04-08 14:10:34] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [jacksung]: Timeout reached during download
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [th2-grpc-common]: Timeout reached during download
+[2024-04-08 14:10:34] INFO root fetch - processPackages [th2-grpc-common]: executing diffoscope
+[2024-04-08 14:10:34] INFO root fetch - processPackages [th2-grpc-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_common-4.4.0rc1.tar.gz tmp/th2_grpc_common-4.5.0.dev8599644190.tar.gz --markdown 20240408/t/th2-grpc-common/4.4.0rc1-4.5.0.dev8599644190/diff.md --exclude *.pyd
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [pydantic-resolve]: Timeout reached during download
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [th2-grpc-common]: Timeout reached during download
+[2024-04-08 14:10:34] INFO root fetch - processPackages [th2-grpc-common]: executing diffoscope
+[2024-04-08 14:10:34] INFO root fetch - processPackages [th2-grpc-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_common-4.4.0rc1.tar.gz tmp/th2_grpc_common-4.5.0.dev8599644190.tar.gz --markdown 20240408/t/th2-grpc-common/4.4.0rc1-4.5.0.dev8599644190/diff.md --exclude *.pyd
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [cognite-power-ops]: Timeout reached during download
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [torcheval-nightly]: Timeout reached during download
+[2024-04-08 14:10:34] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-08 14:10:34] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.6.tar.gz tmp/torcheval-nightly-2024.4.7.tar.gz --markdown 20240408/t/torcheval-nightly/2024.4.6-2024.4.7/diff.md --exclude *.pyd
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-08 14:10:34] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-08 14:10:34] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240408/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/diff.md --exclude *.pyd
+[2024-04-08 14:10:34] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/b5/22/0dfab66df22ada378e333e97f6287eef4c68d06fd84d4bc9a8d76c3ba65e/jacksung-0.0.2.99.tar.gz
+[2024-04-08 14:10:34] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/e7/63/14b486c36d29a64ac0dbbd1c518f98fd402efeb837a66307af49616bc8da/cognite_power_ops-0.92.0.tar.gz
+[2024-04-08 14:10:34] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/ae/9e/9d50726a0b1302c148a9936ed4cc42a7272d505e1f540cea52fdb856bc6c/pydantic_resolve-1.9.3.tar.gz
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [jacksung]: Timeout reached during download
+[2024-04-08 14:10:34] INFO root fetch - processPackages [jacksung]: executing diffoscope
+[2024-04-08 14:10:34] INFO root fetch - processPackages [jacksung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacksung-0.0.2.98.tar.gz tmp/jacksung-0.0.2.99.tar.gz --markdown 20240408/j/jacksung/0.0.2.98-0.0.2.99/diff.md --exclude *.pyd
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [esiaccel]: Timeout reached during download
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [cognite-power-ops]: Timeout reached during download
+[2024-04-08 14:10:34] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2024-04-08 14:10:34] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.91.3.tar.gz tmp/cognite_power_ops-0.92.0.tar.gz --markdown 20240408/c/cognite-power-ops/0.91.3-0.92.0/diff.md --exclude *.pyd
+[2024-04-08 14:10:34] WARNING root fetch - processPackages [pydantic-resolve]: Timeout reached during download
+[2024-04-08 14:10:34] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2024-04-08 14:10:34] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.9.2.tar.gz tmp/pydantic_resolve-1.9.3.tar.gz --markdown 20240408/p/pydantic-resolve/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2024-04-08 14:10:34] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/61/ef/e4d47adfaf6fa6503a17330a1aa8a78880606fd81a789e39c648bef6c804/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-08 14:10:35] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.4.0rc1.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.5.0.dev8599644190.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - main [MainThread]: End processing [th2-grpc-common]: success
+[2024-04-08 14:10:35] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-08 14:10:35] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.98.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.99.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - main [MainThread]: End processing [jacksung]: success
+[2024-04-08 14:10:35] INFO root fetch - main [MainThread]: End processing [th2-grpc-common]: success
+[2024-04-08 14:10:35] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.6.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.7.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-08 14:10:35] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.9.2.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.9.3.tar.gz]
+[2024-04-08 14:10:35] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2024-04-08 14:10:36] WARNING root fetch - processPackages [esiaccel]: Timeout reached during download
+[2024-04-08 14:10:36] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-04-08 14:10:36] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240408/e/esiaccel/0.1.dev7953-0.1.dev7955/diff.md --exclude *.pyd
+[2024-04-08 14:10:38] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-08 14:10:38] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-08 14:10:38] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-04-08 14:10:39] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.91.3.tar.gz]
+[2024-04-08 14:10:39] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.92.0.tar.gz]
+[2024-04-08 14:10:39] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2024-04-08 14:10:39] INFO root fetch - main [MainThread]: Store serial: [22666661]
