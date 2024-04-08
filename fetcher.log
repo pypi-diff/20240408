@@ -6809,3 +6809,67 @@
 [2024-04-08 05:38:07] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.0.tar.gz]
 [2024-04-08 05:38:07] INFO root fetch - main [MainThread]: End processing [volstreet]: success
 [2024-04-08 05:38:07] INFO root fetch - main [MainThread]: Store serial: [22661922]
+[2024-04-08 05:40:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661922]
+[2024-04-08 05:40:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: noohayo
+[2024-04-08 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tbp
+[2024-04-08 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ts-soup
+[2024-04-08 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tcaplusdb
+[2024-04-08 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepllm
+[2024-04-08 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mocca2
+[2024-04-08 05:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-tcbr
+[2024-04-08 05:40:19] INFO root fetch - processPackages [deepllm]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-08 05:40:19] INFO root fetch - processPackages [ts-soup]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 05:40:19] WARNING root fetch - processPackages [noohayo]: Skipping, unable to determine old version
+[2024-04-08 05:40:19] INFO root fetch - main [MainThread]: End processing [noohayo] error
+[2024-04-08 05:40:19] WARNING root fetch - processPackages [mocca2]: Skipping, unable to determine old version
+[2024-04-08 05:40:19] INFO root fetch - main [MainThread]: End processing [mocca2] error
+[2024-04-08 05:40:19] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/b6/bb/c67b68bb8e4389b12cd476f16f27f9b95e0a035b763df631d564e56b3bc9/deepllm-1.4.3.tar.gz
+[2024-04-08 05:40:19] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/af/2c/324c8cd293860c70049154e097a32cdde3af02fa4cc0c2d5139a5b884c6d/ts-soup-0.0.8.tar.gz
+[2024-04-08 05:40:19] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:40:19] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:40:19] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [ts-soup]: Timeout reached during download
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [deepllm]: Timeout reached during download
+[2024-04-08 05:40:20] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/a3/41/af6bed053fae213e29a5c196885a1c38272583aa11d03392a37b73519b7b/ts-soup-0.0.9.tar.gz
+[2024-04-08 05:40:20] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/e7/1d/c14d73fd27e0124219337d50a3dd4cabb551bb4fd225e28ba9db2aefcb0b/deepllm-1.4.4.tar.gz
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/50/e2/802b374ee03e75e3b25b519e9e7571d6d9e93b3555264033c8b9793cf51d/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/1e/ca/3a77920b5d015352c941caae0af0b9e47101e454af90349e7a00ee9d4f40/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Downloading https://files.pythonhosted.org/packages/5f/55/64982549dccaa37329bc10d337689cdea10cb94098cf652e70ef084b062a/tencentcloud-sdk-python-tbp-3.0.998.tar.gz
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [deepllm]: Timeout reached during download
+[2024-04-08 05:40:20] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2024-04-08 05:40:20] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-1.4.3.tar.gz tmp/deepllm-1.4.4.tar.gz --markdown 20240408/d/deepllm/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [ts-soup]: Timeout reached during download
+[2024-04-08 05:40:20] INFO root fetch - processPackages [ts-soup]: executing diffoscope
+[2024-04-08 05:40:20] INFO root fetch - processPackages [ts-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts-soup-0.0.8.tar.gz tmp/ts-soup-0.0.9.tar.gz --markdown 20240408/t/ts-soup/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Timeout reached during download
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Timeout reached during download
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbp]: Timeout reached during download
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/0c/90/657b8ab58c2086e77f45308e2a174018e0ea4c6fe5a36ba98d4d72caeb9f/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/bc/ea/a72bf279ee2386a70d415d18ef8f8bd2e92f395a8d13c12deb5560030de2/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Downloading https://files.pythonhosted.org/packages/de/b5/2240664beaf312ecba717d537c333908f86a596316a32a136cf6c6b23fae/tencentcloud-sdk-python-tbp-3.0.999.tar.gz
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Timeout reached during download
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbp]: Timeout reached during download
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: executing diffoscope
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tcbr/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: executing diffoscope
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbp-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tbp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:40:20] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Timeout reached during download
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: executing diffoscope
+[2024-04-08 05:40:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tcaplusdb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:40:20] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.4.3.tar.gz]
+[2024-04-08 05:40:20] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.4.4.tar.gz]
+[2024-04-08 05:40:20] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2024-04-08 05:40:21] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.0.8.tar.gz]
+[2024-04-08 05:40:21] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts-soup-0.0.9.tar.gz]
+[2024-04-08 05:40:21] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
+[2024-04-08 05:40:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbp-3.0.998.tar.gz]
+[2024-04-08 05:40:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbp-3.0.999.tar.gz]
+[2024-04-08 05:40:21] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbp]: success
+[2024-04-08 05:40:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz]
+[2024-04-08 05:40:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz]
+[2024-04-08 05:40:21] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcaplusdb]: success
+[2024-04-08 05:40:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz]
+[2024-04-08 05:40:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz]
+[2024-04-08 05:40:21] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcbr]: success
+[2024-04-08 05:40:21] INFO root fetch - main [MainThread]: Store serial: [22661946]
