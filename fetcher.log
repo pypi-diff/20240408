@@ -14059,3 +14059,45 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:49:45] INFO root fetch - processPackages [HBV]: Remove: archive file [/home/abi/fetcher/tmp/hbv-1.4.1.tar.gz]
 [2024-04-08 10:49:45] INFO root fetch - main [MainThread]: End processing [HBV]: success
 [2024-04-08 10:49:45] INFO root fetch - main [MainThread]: Store serial: [22664492]
+[2024-04-08 10:51:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664492]
+[2024-04-08 10:51:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secvision
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openclimatedata
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FileSystemModel
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ewatercycle-HBV
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drops
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ewatercycle-HBV]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-04-08 10:51:54] WARNING root fetch - processPackages [FileSystemModel]: Skipping, unable to determine old version
+[2024-04-08 10:51:54] INFO root fetch - main [MainThread]: End processing [FileSystemModel] error
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ewatercycle-HBV]: Downloading https://files.pythonhosted.org/packages/80/0f/86865295050fc715c1a93cc1d4842ee0f0ed564fe6e58ec5a181c58f8436/ewatercycle_hbv-1.6.1.tar.gz
+[2024-04-08 10:51:54] INFO root fetch - processPackages [openclimatedata]: New version: [0.9] Old Version: [0.8]
+[2024-04-08 10:51:54] WARNING root fetch - processPackages [secvision]: Skipping, unable to determine old version
+[2024-04-08 10:51:54] INFO root fetch - main [MainThread]: End processing [secvision] error
+[2024-04-08 10:51:54] INFO root fetch - processPackages [drops]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-08 10:51:54] WARNING root fetch - processPackages [ewatercycle-HBV]: Timeout reached during download
+[2024-04-08 10:51:54] INFO root fetch - processPackages [openclimatedata]: Downloading https://files.pythonhosted.org/packages/a8/32/ed04455a721bb9faf7a86120fbaaa7223bbaa9a228126bdba076f49d16b1/openclimatedata-0.8.tar.gz
+[2024-04-08 10:51:54] INFO root fetch - processPackages [drops]: Downloading https://files.pythonhosted.org/packages/b2/57/a65eae949b96a003084cd1e50ba8a0437fa1985f7cf740600eb35e1fea0f/drops-1.1.4.tar.gz
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ewatercycle-HBV]: Downloading https://files.pythonhosted.org/packages/c9/ae/11b760070bf62c9cfbbecdf9cfa348d8f21adfc86a47a8f192bbfc5a5fe4/ewatercycle_hbv-1.7.0.tar.gz
+[2024-04-08 10:51:54] WARNING root fetch - processPackages [ewatercycle-HBV]: Timeout reached during download
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ewatercycle-HBV]: executing diffoscope
+[2024-04-08 10:51:54] INFO root fetch - processPackages [ewatercycle-HBV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewatercycle_hbv-1.6.1.tar.gz tmp/ewatercycle_hbv-1.7.0.tar.gz --markdown 20240408/e/ewatercycle-HBV/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2024-04-08 10:51:54] WARNING root fetch - processPackages [openclimatedata]: Timeout reached during download
+[2024-04-08 10:51:54] WARNING root fetch - processPackages [drops]: Timeout reached during download
+[2024-04-08 10:51:54] INFO root fetch - processPackages [drops]: Downloading https://files.pythonhosted.org/packages/2c/30/a83bf3e962baa8d23a1d87d63a8d1b6548cb365ef5e3ee866cfc35cad252/drops-1.1.5.tar.gz
+[2024-04-08 10:51:55] WARNING root fetch - processPackages [drops]: Timeout reached during download
+[2024-04-08 10:51:55] INFO root fetch - processPackages [drops]: executing diffoscope
+[2024-04-08 10:51:55] INFO root fetch - processPackages [drops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drops-1.1.4.tar.gz tmp/drops-1.1.5.tar.gz --markdown 20240408/d/drops/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2024-04-08 10:51:55] INFO root fetch - processPackages [openclimatedata]: Downloading https://files.pythonhosted.org/packages/6e/2e/754d2351fe6051693cf51d38540aeac95e485a40509057b06dd00d361dc8/openclimatedata-0.9.tar.gz
+[2024-04-08 10:51:55] WARNING root fetch - processPackages [openclimatedata]: Timeout reached during download
+[2024-04-08 10:51:55] INFO root fetch - processPackages [openclimatedata]: executing diffoscope
+[2024-04-08 10:51:55] INFO root fetch - processPackages [openclimatedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openclimatedata-0.8.tar.gz tmp/openclimatedata-0.9.tar.gz --markdown 20240408/o/openclimatedata/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-08 10:51:55] INFO root fetch - processPackages [ewatercycle-HBV]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_hbv-1.6.1.tar.gz]
+[2024-04-08 10:51:55] INFO root fetch - processPackages [ewatercycle-HBV]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_hbv-1.7.0.tar.gz]
+[2024-04-08 10:51:55] INFO root fetch - main [MainThread]: End processing [ewatercycle-HBV]: success
+[2024-04-08 10:51:55] INFO root fetch - processPackages [drops]: Remove: archive file [/home/abi/fetcher/tmp/drops-1.1.4.tar.gz]
+[2024-04-08 10:51:55] INFO root fetch - processPackages [drops]: Remove: archive file [/home/abi/fetcher/tmp/drops-1.1.5.tar.gz]
+[2024-04-08 10:51:55] INFO root fetch - main [MainThread]: End processing [drops]: success
+[2024-04-08 10:51:56] INFO root fetch - processPackages [openclimatedata]: Remove: archive file [/home/abi/fetcher/tmp/openclimatedata-0.8.tar.gz]
+[2024-04-08 10:51:56] INFO root fetch - processPackages [openclimatedata]: Remove: archive file [/home/abi/fetcher/tmp/openclimatedata-0.9.tar.gz]
+[2024-04-08 10:51:56] INFO root fetch - main [MainThread]: End processing [openclimatedata]: success
+[2024-04-08 10:51:56] INFO root fetch - main [MainThread]: Store serial: [22664509]
