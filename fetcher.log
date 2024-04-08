@@ -14341,3 +14341,34 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:58:35] INFO root fetch - processPackages [sqlmap]: Remove: archive file [/home/abi/fetcher/tmp/sqlmap-1.8.4.tar.gz]
 [2024-04-08 10:58:35] INFO root fetch - main [MainThread]: End processing [sqlmap]: success
 [2024-04-08 10:58:35] INFO root fetch - main [MainThread]: Store serial: [22664654]
+[2024-04-08 11:00:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664654]
+[2024-04-08 11:00:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 11:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-rise-metadata-form
+[2024-04-08 11:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genomkit
+[2024-04-08 11:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Liacord
+[2024-04-08 11:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evsauto
+[2024-04-08 11:00:46] WARNING root fetch - processPackages [Liacord]: Skipping, unable to determine old version
+[2024-04-08 11:00:46] INFO root fetch - main [MainThread]: End processing [Liacord] error
+[2024-04-08 11:00:46] WARNING root fetch - processPackages [evsauto]: Skipping, unable to determine old version
+[2024-04-08 11:00:46] INFO root fetch - main [MainThread]: End processing [evsauto] error
+[2024-04-08 11:00:46] INFO root fetch - processPackages [jupyterlab-rise-metadata-form]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-08 11:00:46] INFO root fetch - processPackages [genomkit]: New version: [0.2.8] Old Version: [0.2.6]
+[2024-04-08 11:00:46] INFO root fetch - processPackages [jupyterlab-rise-metadata-form]: Downloading https://files.pythonhosted.org/packages/39/3b/76ea7e3c7d9d776d2830962f939a44b01c9f2a13a3ef2fc2c294c50b6d0e/jupyterlab_rise_metadata_form-1.0.0.tar.gz
+[2024-04-08 11:00:46] INFO root fetch - processPackages [genomkit]: Downloading https://files.pythonhosted.org/packages/85/0f/d09e0474a4710b9f315f95201a730ace2ba177aba5b95631140d4094555b/genomkit-0.2.6.tar.gz
+[2024-04-08 11:00:46] WARNING root fetch - processPackages [jupyterlab-rise-metadata-form]: Timeout reached during download
+[2024-04-08 11:00:46] WARNING root fetch - processPackages [genomkit]: Timeout reached during download
+[2024-04-08 11:00:46] INFO root fetch - processPackages [jupyterlab-rise-metadata-form]: Downloading https://files.pythonhosted.org/packages/50/93/bacec2664938b641d91b791615aa59c16d69e91adb5542d48e42a8bbcb0c/jupyterlab_rise_metadata_form-1.0.1.tar.gz
+[2024-04-08 11:00:46] INFO root fetch - processPackages [genomkit]: Downloading https://files.pythonhosted.org/packages/c2/41/642050d861e8b0209ca46e3fd35239beb93eaa08c8355a075ebdc5250b82/genomkit-0.2.8.tar.gz
+[2024-04-08 11:00:46] WARNING root fetch - processPackages [jupyterlab-rise-metadata-form]: Timeout reached during download
+[2024-04-08 11:00:46] INFO root fetch - processPackages [jupyterlab-rise-metadata-form]: executing diffoscope
+[2024-04-08 11:00:46] INFO root fetch - processPackages [jupyterlab-rise-metadata-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_rise_metadata_form-1.0.0.tar.gz tmp/jupyterlab_rise_metadata_form-1.0.1.tar.gz --markdown 20240408/j/jupyterlab-rise-metadata-form/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 11:00:46] WARNING root fetch - processPackages [genomkit]: Timeout reached during download
+[2024-04-08 11:00:46] INFO root fetch - processPackages [genomkit]: executing diffoscope
+[2024-04-08 11:00:46] INFO root fetch - processPackages [genomkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomkit-0.2.6.tar.gz tmp/genomkit-0.2.8.tar.gz --markdown 20240408/g/genomkit/0.2.6-0.2.8/diff.md --exclude *.pyd
+[2024-04-08 11:00:47] INFO root fetch - processPackages [genomkit]: Remove: archive file [/home/abi/fetcher/tmp/genomkit-0.2.6.tar.gz]
+[2024-04-08 11:00:47] INFO root fetch - processPackages [genomkit]: Remove: archive file [/home/abi/fetcher/tmp/genomkit-0.2.8.tar.gz]
+[2024-04-08 11:00:47] INFO root fetch - main [MainThread]: End processing [genomkit]: success
+[2024-04-08 11:00:47] INFO root fetch - processPackages [jupyterlab-rise-metadata-form]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_rise_metadata_form-1.0.0.tar.gz]
+[2024-04-08 11:00:47] INFO root fetch - processPackages [jupyterlab-rise-metadata-form]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_rise_metadata_form-1.0.1.tar.gz]
+[2024-04-08 11:00:47] INFO root fetch - main [MainThread]: End processing [jupyterlab-rise-metadata-form]: success
+[2024-04-08 11:00:47] INFO root fetch - main [MainThread]: Store serial: [22664665]
