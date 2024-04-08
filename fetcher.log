@@ -11958,3 +11958,34 @@
 [2024-04-08 09:34:14] INFO root fetch - processPackages [db-contrib-tool]: Remove: archive file [/home/abi/fetcher/tmp/db_contrib_tool-0.7.1.tar.gz]
 [2024-04-08 09:34:14] INFO root fetch - main [MainThread]: End processing [db-contrib-tool]: success
 [2024-04-08 09:34:14] INFO root fetch - main [MainThread]: Store serial: [22663524]
+[2024-04-08 09:36:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663524]
+[2024-04-08 09:36:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 09:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nhmail-python
+[2024-04-08 09:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Lisva81
+[2024-04-08 09:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatushka
+[2024-04-08 09:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nhmailpy
+[2024-04-08 09:36:24] WARNING root fetch - processPackages [nhmail-python]: Skipping, unable to determine old version
+[2024-04-08 09:36:24] INFO root fetch - main [MainThread]: End processing [nhmail-python] error
+[2024-04-08 09:36:24] INFO root fetch - processPackages [chatushka]: New version: [0.9.0b2] Old Version: [0.9.0b1]
+[2024-04-08 09:36:24] WARNING root fetch - processPackages [nhmailpy]: Skipping, unable to determine old version
+[2024-04-08 09:36:24] INFO root fetch - main [MainThread]: End processing [nhmailpy] error
+[2024-04-08 09:36:24] INFO root fetch - processPackages [Lisva81]: New version: [5.0.0] Old Version: [4.0.0]
+[2024-04-08 09:36:25] INFO root fetch - processPackages [chatushka]: Downloading https://files.pythonhosted.org/packages/00/1f/001f01692eac4f09dc6c77226914cbf344751750e9800a09993b46245954/chatushka-0.9.0b1.tar.gz
+[2024-04-08 09:36:25] INFO root fetch - processPackages [Lisva81]: Downloading https://files.pythonhosted.org/packages/e7/70/89fc0f91389bc6826c74bae7ece489b4f983202593b082458916bcc980b2/Lisva81-4.0.0.tar.gz
+[2024-04-08 09:36:25] WARNING root fetch - processPackages [Lisva81]: Timeout reached during download
+[2024-04-08 09:36:25] WARNING root fetch - processPackages [chatushka]: Timeout reached during download
+[2024-04-08 09:36:25] INFO root fetch - processPackages [Lisva81]: Downloading https://files.pythonhosted.org/packages/52/f5/efcd9bc4ff1a268eadcbe878fde45a04af9f77e1c5fc463616904db78193/Lisva81-5.0.0.tar.gz
+[2024-04-08 09:36:25] WARNING root fetch - processPackages [Lisva81]: Timeout reached during download
+[2024-04-08 09:36:25] INFO root fetch - processPackages [Lisva81]: executing diffoscope
+[2024-04-08 09:36:25] INFO root fetch - processPackages [Lisva81]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lisva81-4.0.0.tar.gz tmp/Lisva81-5.0.0.tar.gz --markdown 20240408/L/Lisva81/4.0.0-5.0.0/diff.md --exclude *.pyd
+[2024-04-08 09:36:25] INFO root fetch - processPackages [chatushka]: Downloading https://files.pythonhosted.org/packages/3a/55/8fc286310b971598416499ddeca872b49a8b9e53ee0199b7b134eff06fad/chatushka-0.9.0b2.tar.gz
+[2024-04-08 09:36:25] WARNING root fetch - processPackages [chatushka]: Timeout reached during download
+[2024-04-08 09:36:25] INFO root fetch - processPackages [chatushka]: executing diffoscope
+[2024-04-08 09:36:25] INFO root fetch - processPackages [chatushka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatushka-0.9.0b1.tar.gz tmp/chatushka-0.9.0b2.tar.gz --markdown 20240408/c/chatushka/0.9.0b1-0.9.0b2/diff.md --exclude *.pyd
+[2024-04-08 09:36:26] INFO root fetch - processPackages [Lisva81]: Remove: archive file [/home/abi/fetcher/tmp/Lisva81-4.0.0.tar.gz]
+[2024-04-08 09:36:26] INFO root fetch - processPackages [Lisva81]: Remove: archive file [/home/abi/fetcher/tmp/Lisva81-5.0.0.tar.gz]
+[2024-04-08 09:36:26] INFO root fetch - main [MainThread]: End processing [Lisva81]: success
+[2024-04-08 09:36:26] INFO root fetch - processPackages [chatushka]: Remove: archive file [/home/abi/fetcher/tmp/chatushka-0.9.0b1.tar.gz]
+[2024-04-08 09:36:26] INFO root fetch - processPackages [chatushka]: Remove: archive file [/home/abi/fetcher/tmp/chatushka-0.9.0b2.tar.gz]
+[2024-04-08 09:36:26] INFO root fetch - main [MainThread]: End processing [chatushka]: success
+[2024-04-08 09:36:26] INFO root fetch - main [MainThread]: Store serial: [22663540]
