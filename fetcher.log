@@ -7122,3 +7122,50 @@
 [2024-04-08 05:49:18] INFO root fetch - processPackages [tencentcloud-sdk-python-tia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tia-3.0.999.tar.gz]
 [2024-04-08 05:49:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tia]: success
 [2024-04-08 05:49:18] INFO root fetch - main [MainThread]: Store serial: [22662014]
+[2024-04-08 05:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662014]
+[2024-04-08 05:51:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 05:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nobuco
+[2024-04-08 05:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fsinfo
+[2024-04-08 05:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-ticm
+[2024-04-08 05:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tics
+[2024-04-08 05:51:31] INFO root fetch - processPackages [fsinfo]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 05:51:31] INFO root fetch - processPackages [fsinfo]: Downloading https://files.pythonhosted.org/packages/55/2b/69487023af43759e8f6a586e2a072103753f72cd13772f13341f8f95d3da/fsinfo-0.0.3.tar.gz
+[2024-04-08 05:51:31] INFO root fetch - processPackages [nobuco]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-08 05:51:31] INFO root fetch - processPackages [tencentcloud-sdk-python-ticm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:51:31] WARNING root fetch - processPackages [fsinfo]: Timeout reached during download
+[2024-04-08 05:51:31] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:51:31] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/68/84/794132dacc433e3e334bbd166200a6803b9ba4ee42d075e7a99aff115d7a/nobuco-0.9.1.tar.gz
+[2024-04-08 05:51:31] INFO root fetch - processPackages [tencentcloud-sdk-python-ticm]: Downloading https://files.pythonhosted.org/packages/f8/a4/92be3fab3828677112331869612027e43afda2fb029d8ca60636e9de86d4/tencentcloud-sdk-python-ticm-3.0.998.tar.gz
+[2024-04-08 05:51:31] INFO root fetch - processPackages [fsinfo]: Downloading https://files.pythonhosted.org/packages/3c/12/cf00629229d2ac7e1d0d6095d114365257a7e15da02ebfcbea1fffae3eaf/fsinfo-0.0.4.tar.gz
+[2024-04-08 05:51:31] WARNING root fetch - processPackages [fsinfo]: Timeout reached during download
+[2024-04-08 05:51:31] INFO root fetch - processPackages [fsinfo]: executing diffoscope
+[2024-04-08 05:51:31] INFO root fetch - processPackages [fsinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsinfo-0.0.3.tar.gz tmp/fsinfo-0.0.4.tar.gz --markdown 20240408/f/fsinfo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 05:51:31] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Downloading https://files.pythonhosted.org/packages/cb/d5/544eef7b901ac7cfe6e062c33f28334b7c183da0e8d0b237587d3fc44f46/tencentcloud-sdk-python-tics-3.0.998.tar.gz
+[2024-04-08 05:51:31] WARNING root fetch - processPackages [tencentcloud-sdk-python-ticm]: Timeout reached during download
+[2024-04-08 05:51:31] WARNING root fetch - processPackages [nobuco]: Timeout reached during download
+[2024-04-08 05:51:32] INFO root fetch - processPackages [tencentcloud-sdk-python-ticm]: Downloading https://files.pythonhosted.org/packages/8b/ff/94a435f576ed7e361401a22b99de19b7ec624f3a0eb3b437734e8a7d84fb/tencentcloud-sdk-python-ticm-3.0.999.tar.gz
+[2024-04-08 05:51:32] WARNING root fetch - processPackages [tencentcloud-sdk-python-tics]: Timeout reached during download
+[2024-04-08 05:51:32] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/82/54/7cd12a09de91e79fb5f11fb08e9049763568458773fc0c674164336780b2/nobuco-0.9.2.tar.gz
+[2024-04-08 05:51:32] WARNING root fetch - processPackages [tencentcloud-sdk-python-ticm]: Timeout reached during download
+[2024-04-08 05:51:32] INFO root fetch - processPackages [tencentcloud-sdk-python-ticm]: executing diffoscope
+[2024-04-08 05:51:32] INFO root fetch - processPackages [tencentcloud-sdk-python-ticm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ticm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ticm-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-ticm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:51:32] WARNING root fetch - processPackages [nobuco]: Timeout reached during download
+[2024-04-08 05:51:32] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2024-04-08 05:51:32] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.9.1.tar.gz tmp/nobuco-0.9.2.tar.gz --markdown 20240408/n/nobuco/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-08 05:51:32] INFO root fetch - processPackages [fsinfo]: Remove: archive file [/home/abi/fetcher/tmp/fsinfo-0.0.3.tar.gz]
+[2024-04-08 05:51:32] INFO root fetch - processPackages [fsinfo]: Remove: archive file [/home/abi/fetcher/tmp/fsinfo-0.0.4.tar.gz]
+[2024-04-08 05:51:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Downloading https://files.pythonhosted.org/packages/a6/c0/1592be13e4dfda8bde9aff86de4a82eed35c99c7d89bc85edb2a03e5063d/tencentcloud-sdk-python-tics-3.0.999.tar.gz
+[2024-04-08 05:51:32] INFO root fetch - main [MainThread]: End processing [fsinfo]: success
+[2024-04-08 05:51:32] WARNING root fetch - processPackages [tencentcloud-sdk-python-tics]: Timeout reached during download
+[2024-04-08 05:51:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: executing diffoscope
+[2024-04-08 05:51:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tics-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tics-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tics/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:51:32] INFO root fetch - processPackages [tencentcloud-sdk-python-ticm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ticm-3.0.998.tar.gz]
+[2024-04-08 05:51:32] INFO root fetch - processPackages [tencentcloud-sdk-python-ticm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ticm-3.0.999.tar.gz]
+[2024-04-08 05:51:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ticm]: success
+[2024-04-08 05:51:32] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.9.1.tar.gz]
+[2024-04-08 05:51:32] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.9.2.tar.gz]
+[2024-04-08 05:51:32] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2024-04-08 05:51:33] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tics-3.0.998.tar.gz]
+[2024-04-08 05:51:33] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tics-3.0.999.tar.gz]
+[2024-04-08 05:51:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tics]: success
+[2024-04-08 05:51:33] INFO root fetch - main [MainThread]: Store serial: [22662025]
