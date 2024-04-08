@@ -14698,3 +14698,95 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:09:49] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1472-py3-none-any.whl.zip]
 [2024-04-08 11:09:49] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-08 11:09:49] INFO root fetch - main [MainThread]: Store serial: [22664751]
+[2024-04-08 11:11:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664751]
+[2024-04-08 11:11:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-08 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secvision-proxysupport-linux-x64
+[2024-04-08 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resc-backend
+[2024-04-08 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbnconfig
+[2024-04-08 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-cost-logger
+[2024-04-08 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyorchestra
+[2024-04-08 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Liacord
+[2024-04-08 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xdat
+[2024-04-08 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openai-cost-logger
+[2024-04-08 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smartboiler
+[2024-04-08 11:11:58] INFO root fetch - processPackages [Liacord]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-04-08 11:11:59] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.6.2] Old Version: [0.0.3.0.0.6.1]
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [secvision-proxysupport-linux-x64]: Skipping, unable to determine old version
+[2024-04-08 11:11:59] INFO root fetch - main [MainThread]: End processing [secvision-proxysupport-linux-x64] error
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 11:11:59] INFO root fetch - processPackages [resc-backend]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-08 11:11:59] INFO root fetch - processPackages [pyorchestra]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-08 11:11:59] INFO root fetch - processPackages [fbnconfig]: New version: [0.0.37] Old Version: [0.0.36]
+[2024-04-08 11:11:59] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-08 11:11:59] INFO root fetch - processPackages [Liacord]: Downloading https://files.pythonhosted.org/packages/6c/79/db033fe4dba1e4193ffecb143f8bee2a6960df626459481ec94dcaf16c38/Liacord-0.1.3.tar.gz
+[2024-04-08 11:11:59] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/33/e1/ba783b3e9018a58a12aac6a2def1c69d0e832c472fa87a16b936e1375e0c/smartboiler-0.0.3.0.0.6.1.tar.gz
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/48/cc/f521eb568efe139ff68a6e9576dc278e73794cc2fb902fc0a33997aab8da/openai_cost_logger-0.0.1.tar.gz
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/48/cc/f521eb568efe139ff68a6e9576dc278e73794cc2fb902fc0a33997aab8da/openai_cost_logger-0.0.1.tar.gz
+[2024-04-08 11:11:59] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/b4/93/41c0b7648e73717fbe0e43e9e269d690410ea7a0a8d0e2233b70d880fa8f/resc_backend-3.0.0.tar.gz
+[2024-04-08 11:11:59] INFO root fetch - processPackages [pyorchestra]: Downloading https://files.pythonhosted.org/packages/e9/99/b92140b173c21be4d080368db20dfcb289ae662ae1fd5efe313ce8c66daa/pyorchestra-0.5.0.tar.gz
+[2024-04-08 11:11:59] INFO root fetch - processPackages [fbnconfig]: Downloading https://files.pythonhosted.org/packages/cc/f8/e768597225a7ef3854a4eb6f88da06be96dde6833f191e90b9de8e2505a9/fbnconfig-0.0.36.tar.gz
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [Liacord]: Timeout reached during download
+[2024-04-08 11:11:59] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [smartboiler]: Timeout reached during download
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 11:11:59] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/8c/10/8dd4b4f7a48ff400d6947e39a1e63fd1e909a8ab58afa5a24d52094a4778/smartboiler-0.0.3.0.0.6.2.tar.gz
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [resc-backend]: Timeout reached during download
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [fbnconfig]: Timeout reached during download
+[2024-04-08 11:11:59] INFO root fetch - processPackages [Liacord]: Downloading https://files.pythonhosted.org/packages/1d/97/47d1c2869b6530fd0fd1526e345c2cc7981d4808f58a9b844a8adab91154/Liacord-0.1.5.tar.gz
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [pyorchestra]: Timeout reached during download
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [xdat]: Timeout reached during download
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/b0/76/56a3c6aea1ab7386a3869291034394eb1e632f83779726e3c7e3409850d5/openai_cost_logger-0.0.2.tar.gz
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/b0/76/56a3c6aea1ab7386a3869291034394eb1e632f83779726e3c7e3409850d5/openai_cost_logger-0.0.2.tar.gz
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [smartboiler]: Timeout reached during download
+[2024-04-08 11:11:59] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-04-08 11:11:59] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.6.1.tar.gz tmp/smartboiler-0.0.3.0.0.6.2.tar.gz --markdown 20240408/s/smartboiler/0.0.3.0.0.6.1-0.0.3.0.0.6.2/diff.md --exclude *.pyd
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [Liacord]: Timeout reached during download
+[2024-04-08 11:11:59] INFO root fetch - processPackages [Liacord]: executing diffoscope
+[2024-04-08 11:11:59] INFO root fetch - processPackages [Liacord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Liacord-0.1.3.tar.gz tmp/Liacord-0.1.5.tar.gz --markdown 20240408/L/Liacord/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2024-04-08 11:11:59] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/1c/1d/2575968158cf336700add55aaa16618382c49bf9b59562aa3ee4559aaea9/resc_backend-3.0.1.tar.gz
+[2024-04-08 11:11:59] INFO root fetch - processPackages [fbnconfig]: Downloading https://files.pythonhosted.org/packages/a1/5f/1bc51664eb6061a373cad7cddce36492048cc9aafc2ebaaf4986939ca102/fbnconfig-0.0.37.tar.gz
+[2024-04-08 11:11:59] INFO root fetch - processPackages [pyorchestra]: Downloading https://files.pythonhosted.org/packages/1b/90/c6360332238ca44fdb983533d9b9cf35a2b5ba1fa22e537a9b1c7fb5aa16/pyorchestra-0.5.1.tar.gz
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: executing diffoscope
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_cost_logger-0.0.1.tar.gz tmp/openai_cost_logger-0.0.2.tar.gz --markdown 20240408/o/openai-cost-logger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: executing diffoscope
+[2024-04-08 11:11:59] INFO root fetch - processPackages [openai-cost-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_cost_logger-0.0.1.tar.gz tmp/openai_cost_logger-0.0.2.tar.gz --markdown 20240408/o/openai-cost-logger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 11:11:59] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2024-04-08 11:11:59] WARNING root fetch - processPackages [fbnconfig]: Timeout reached during download
+[2024-04-08 11:12:00] WARNING root fetch - processPackages [resc-backend]: Timeout reached during download
+[2024-04-08 11:12:00] INFO root fetch - processPackages [fbnconfig]: executing diffoscope
+[2024-04-08 11:12:00] INFO root fetch - processPackages [fbnconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnconfig-0.0.36.tar.gz tmp/fbnconfig-0.0.37.tar.gz --markdown 20240408/f/fbnconfig/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2024-04-08 11:12:00] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-04-08 11:12:00] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.0.0.tar.gz tmp/resc_backend-3.0.1.tar.gz --markdown 20240408/r/resc-backend/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-08 11:12:00] WARNING root fetch - processPackages [pyorchestra]: Timeout reached during download
+[2024-04-08 11:12:00] INFO root fetch - processPackages [pyorchestra]: executing diffoscope
+[2024-04-08 11:12:00] INFO root fetch - processPackages [pyorchestra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyorchestra-0.5.0.tar.gz tmp/pyorchestra-0.5.1.tar.gz --markdown 20240408/p/pyorchestra/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-08 11:12:00] WARNING root fetch - processPackages [xdat]: Timeout reached during download
+[2024-04-08 11:12:00] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2024-04-08 11:12:00] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20240408/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-08 11:12:00] INFO root fetch - processPackages [Liacord]: Remove: archive file [/home/abi/fetcher/tmp/Liacord-0.1.3.tar.gz]
+[2024-04-08 11:12:00] INFO root fetch - processPackages [Liacord]: Remove: archive file [/home/abi/fetcher/tmp/Liacord-0.1.5.tar.gz]
+[2024-04-08 11:12:00] INFO root fetch - main [MainThread]: End processing [Liacord]: success
+[2024-04-08 11:12:00] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai_cost_logger-0.0.1.tar.gz]
+[2024-04-08 11:12:00] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai_cost_logger-0.0.2.tar.gz]
+[2024-04-08 11:12:00] INFO root fetch - main [MainThread]: End processing [openai-cost-logger]: success
+[2024-04-08 11:12:01] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.6.1.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.6.2.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-04-08 11:12:01] INFO root fetch - main [MainThread]: End processing [openai-cost-logger]: success
+[2024-04-08 11:12:01] INFO root fetch - processPackages [fbnconfig]: Remove: archive file [/home/abi/fetcher/tmp/fbnconfig-0.0.36.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - processPackages [fbnconfig]: Remove: archive file [/home/abi/fetcher/tmp/fbnconfig-0.0.37.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - main [MainThread]: End processing [fbnconfig]: success
+[2024-04-08 11:12:01] INFO root fetch - processPackages [pyorchestra]: Remove: archive file [/home/abi/fetcher/tmp/pyorchestra-0.5.0.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - processPackages [pyorchestra]: Remove: archive file [/home/abi/fetcher/tmp/pyorchestra-0.5.1.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - main [MainThread]: End processing [pyorchestra]: success
+[2024-04-08 11:12:01] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2024-04-08 11:12:01] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.0.0.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.0.1.tar.gz]
+[2024-04-08 11:12:01] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-04-08 11:12:01] INFO root fetch - main [MainThread]: Store serial: [22664776]
