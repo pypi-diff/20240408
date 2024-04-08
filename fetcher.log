@@ -21943,3 +21943,230 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:14:37] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-04-08 15:14:37] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-04-08 15:14:37] INFO root fetch - main [MainThread]: Store serial: [22667339]
+[2024-04-08 15:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667339]
+[2024-04-08 15:16:46] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsspetri
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autots
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: illuminat
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyodmongo
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flash-rwkv
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RFL.authentication
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: curated-transformers
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amino.light.py
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: speedtab
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RFL.build
+[2024-04-08 15:16:46] INFO root fetch - processPackages [autots]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-08 15:16:46] INFO root fetch - processPackages [illuminat]: New version: [1.1] Old Version: [0.0.9]
+[2024-04-08 15:16:46] INFO root fetch - processPackages [flash-rwkv]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-08 15:16:46] INFO root fetch - processPackages [jsspetri]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-04-08 15:16:46] INFO root fetch - processPackages [curated-transformers]: New version: [2.0.0.dev1] Old Version: [2.0.0.dev0]
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [RFL.build]: Skipping, unable to determine old version
+[2024-04-08 15:16:46] INFO root fetch - processPackages [RFL.build]: Start processing: docindex
+[2024-04-08 15:16:46] INFO root fetch - main [MainThread]: End processing [RFL.build] error
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [RFL.authentication]: Skipping, unable to determine old version
+[2024-04-08 15:16:46] INFO root fetch - processPackages [pyodmongo]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-08 15:16:46] INFO root fetch - processPackages [amino.light.py]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 15:16:46] INFO root fetch - processPackages [RFL.authentication]: Start processing: RFL.core
+[2024-04-08 15:16:46] INFO root fetch - main [MainThread]: End processing [RFL.authentication] error
+[2024-04-08 15:16:46] INFO root fetch - processPackages [speedtab]: New version: [0.2.1.4] Old Version: [0.2.1.3]
+[2024-04-08 15:16:46] INFO root fetch - processPackages [curated-transformers]: Downloading https://files.pythonhosted.org/packages/bc/d2/0360d1cbc1ffba0290b27005a9e1e3ed4f81967bb27cb9af0baefef5eef4/curated-transformers-2.0.0.dev0.tar.gz
+[2024-04-08 15:16:46] INFO root fetch - processPackages [autots]: Downloading https://files.pythonhosted.org/packages/3b/4d/5c9f3b6678f0f5c8631da75361fe10b304b7a6870c4998d3c0c10f4fc185/autots-0.6.8.tar.gz
+[2024-04-08 15:16:46] INFO root fetch - processPackages [docindex]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-08 15:16:46] INFO root fetch - processPackages [amino.light.py]: Downloading https://files.pythonhosted.org/packages/84/b7/8cfdaaea571003251a8a6d808976a779a17d52c729a6a0cf0e485b54f37d/amino.light.py-0.1.0.tar.gz
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [RFL.core]: Skipping, unable to determine old version
+[2024-04-08 15:16:46] INFO root fetch - processPackages [RFL.core]: Start processing: ssh-ca-cli
+[2024-04-08 15:16:46] INFO root fetch - main [MainThread]: End processing [RFL.core] error
+[2024-04-08 15:16:46] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/10/60/de1fc3ec070b024ef2b0a2b76a38755175df4b81626b7f8fe732f7ee44d4/illuminat-0.0.9.tar.gz
+[2024-04-08 15:16:46] INFO root fetch - processPackages [jsspetri]: Downloading https://files.pythonhosted.org/packages/1c/c6/42d84583a991784b3b2a129b3365f8255e32ae64556f290135a8084e829c/jsspetri-1.0.2-py3-none-any.whl
+[2024-04-08 15:16:46] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/b2/6b/fa8a97758e1bf763bde88345788cb44710ceb6887de062057b07a0537cbe/flash_rwkv-0.1.3-py3-none-any.whl
+[2024-04-08 15:16:46] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/40/b1/c356cff522bd19f0f6e506f50ec3679a27a27cefd92162c06b946d6aebb2/pyodmongo-0.6.6.tar.gz
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-08 15:16:46] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/5f/fe/e82d484b3795538236c2b139b649c877e275ff4484d84c2e85036d977973/speedtab-0.2.1.3.tar.gz
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [amino.light.py]: Timeout reached during download
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [flash-rwkv]: Timeout reached during download
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46425698>=10485760
+[2024-04-08 15:16:46] INFO root fetch - processPackages [illuminat]: Start processing: ztffields
+[2024-04-08 15:16:46] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [curated-transformers]: Timeout reached during download
+[2024-04-08 15:16:46] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/0f/59/9a5ba0a84ab4499ba10b09ca084c90ca3eb53d3078aa382acc450467634f/ssh_ca_cli-0.7.0.tar.gz
+[2024-04-08 15:16:46] INFO root fetch - processPackages [docindex]: Downloading https://files.pythonhosted.org/packages/ba/61/c46d1ef5d752813f80c15265aa46858cc645b135c666ad3ab6521b10725b/docindex-0.0.1.tar.gz
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [jsspetri]: Timeout reached during download
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [autots]: Timeout reached during download
+[2024-04-08 15:16:46] WARNING root fetch - processPackages [speedtab]: Timeout reached during download
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [pyodmongo]: Timeout reached during download
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [docindex]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [ztffields]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [amino.light.py]: Downloading https://files.pythonhosted.org/packages/fe/bd/4e0a3c0e9871585cd37e5746a137e6903d964b9f0d24e66a27e61c2b3c54/amino.light.py-0.1.1.tar.gz
+[2024-04-08 15:16:47] INFO root fetch - processPackages [flash-rwkv]: Downloading https://files.pythonhosted.org/packages/4d/43/ac47e9e205f429726c5f83eacef931884321a6b50aa1a2af89726a942a27/flash_rwkv-0.2.0-py3-none-any.whl
+[2024-04-08 15:16:47] INFO root fetch - processPackages [curated-transformers]: Downloading https://files.pythonhosted.org/packages/16/de/3d1ec7abecba5ef94134782cdaac47c46d9ea300bd4467954dec9e7b51cf/curated-transformers-2.0.0.dev1.tar.gz
+[2024-04-08 15:16:47] INFO root fetch - processPackages [jsspetri]: Downloading https://files.pythonhosted.org/packages/74/74/4d2f19fa58ca547dd52471860624785cec4922a9943df51944a984a8dba9/jsspetri-1.0.4-py3-none-any.whl
+[2024-04-08 15:16:47] INFO root fetch - processPackages [autots]: Downloading https://files.pythonhosted.org/packages/8e/5c/9b02a86bacaa612c71b0e48eb7d2e35ba9b58e2bbcb88a953d408be2a8fd/autots-0.6.9.tar.gz
+[2024-04-08 15:16:47] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/7f/e9/6e49cb77129b0510870dfd0ef67159ab0502685f7aa56305c1066526bd57/speedtab-0.2.1.4.tar.gz
+[2024-04-08 15:16:47] INFO root fetch - processPackages [ztffields]: Downloading https://files.pythonhosted.org/packages/d3/ae/bbff6e1fc7ea90e96d4c8d902906230eab8c3bb9ee1bb0e852e0965b3318/ztffields-0.5.0.tar.gz
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [amino.light.py]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [amino.light.py]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [amino.light.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.light.py-0.1.0.tar.gz tmp/amino.light.py-0.1.1.tar.gz --markdown 20240408/a/amino.light.py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [flash-rwkv]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [flash-rwkv]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [flash-rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_rwkv-0.1.3-py3-none-any.whl.zip tmp/flash_rwkv-0.2.0-py3-none-any.whl.zip --markdown 20240408/f/flash-rwkv/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2024-04-08 15:16:47] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/30/17/d3eca4deeb40193d56655ee4c721894e5bc32711d666872b632ed91df87e/pyodmongo-0.6.7.tar.gz
+[2024-04-08 15:16:47] INFO root fetch - processPackages [docindex]: Downloading https://files.pythonhosted.org/packages/ff/96/2d21da3e9149cb653b9e6131aeace269e3f11d08d71be884205814af0dde/docindex-0.1.0.tar.gz
+[2024-04-08 15:16:47] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/82/ab/1cc092efdd610fd6d69549cb55c06cab6e4e95c0c7f41ece26a7fe454bd7/ssh_ca_cli-0.7.1.tar.gz
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [jsspetri]: Timeout reached during download
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [speedtab]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [jsspetri]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [jsspetri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsspetri-1.0.2-py3-none-any.whl.zip tmp/jsspetri-1.0.4-py3-none-any.whl.zip --markdown 20240408/j/jsspetri/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2024-04-08 15:16:47] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.2.1.3.tar.gz tmp/speedtab-0.2.1.4.tar.gz --markdown 20240408/s/speedtab/0.2.1.3-0.2.1.4/diff.md --exclude *.pyd
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [docindex]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [docindex]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [docindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docindex-0.0.1.tar.gz tmp/docindex-0.1.0.tar.gz --markdown 20240408/d/docindex/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [ztffields]: Timeout reached during download
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [curated-transformers]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [curated-transformers]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [curated-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curated-transformers-2.0.0.dev0.tar.gz tmp/curated-transformers-2.0.0.dev1.tar.gz --markdown 20240408/c/curated-transformers/2.0.0.dev0-2.0.0.dev1/diff.md --exclude *.pyd
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.0.tar.gz tmp/ssh_ca_cli-0.7.1.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [autots]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [autots]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [autots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autots-0.6.8.tar.gz tmp/autots-0.6.9.tar.gz --markdown 20240408/a/autots/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [pyodmongo]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [pyodmongo]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [pyodmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodmongo-0.6.6.tar.gz tmp/pyodmongo-0.6.7.tar.gz --markdown 20240408/p/pyodmongo/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2024-04-08 15:16:47] INFO root fetch - processPackages [ztffields]: Downloading https://files.pythonhosted.org/packages/ea/d9/a29967017cc0bb901c8740e1086e9f5c79a51a616a7088b2802bb84cf27a/ztffields-0.5.1.tar.gz
+[2024-04-08 15:16:47] WARNING root fetch - processPackages [ztffields]: Timeout reached during download
+[2024-04-08 15:16:47] INFO root fetch - processPackages [ztffields]: executing diffoscope
+[2024-04-08 15:16:47] INFO root fetch - processPackages [ztffields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztffields-0.5.0.tar.gz tmp/ztffields-0.5.1.tar.gz --markdown 20240408/z/ztffields/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-08 15:16:48] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.1.3-py3-none-any.whl.zip]
+[2024-04-08 15:16:48] INFO root fetch - processPackages [flash-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/flash_rwkv-0.2.0-py3-none-any.whl.zip]
+[2024-04-08 15:16:48] INFO root fetch - processPackages [flash-rwkv]: Start processing: RFL.log
+[2024-04-08 15:16:48] INFO root fetch - main [MainThread]: End processing [flash-rwkv]: success
+[2024-04-08 15:16:48] WARNING root fetch - processPackages [RFL.log]: Skipping, unable to determine old version
+[2024-04-08 15:16:48] INFO root fetch - processPackages [RFL.log]: Start processing: metalarchivist
+[2024-04-08 15:16:48] INFO root fetch - main [MainThread]: End processing [RFL.log] error
+[2024-04-08 15:16:49] INFO root fetch - processPackages [amino.light.py]: Remove: archive file [/home/abi/fetcher/tmp/amino.light.py-0.1.0.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [amino.light.py]: Remove: archive file [/home/abi/fetcher/tmp/amino.light.py-0.1.1.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [amino.light.py]: Start processing: RFL.permissions
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [amino.light.py]: success
+[2024-04-08 15:16:49] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.3.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.4.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [metalarchivist]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [speedtab]: Start processing: RFL.settings
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2024-04-08 15:16:49] INFO root fetch - processPackages [docindex]: Remove: archive file [/home/abi/fetcher/tmp/docindex-0.0.1.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [docindex]: Remove: archive file [/home/abi/fetcher/tmp/docindex-0.1.0.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [docindex]: Start processing: linien-common
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [docindex]: success
+[2024-04-08 15:16:49] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.0.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.1.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [ssh-ca-cli]: Start processing: linien-server
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 15:16:49] WARNING root fetch - processPackages [RFL.permissions]: Skipping, unable to determine old version
+[2024-04-08 15:16:49] INFO root fetch - processPackages [RFL.permissions]: Start processing: matplotlib-visual
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [RFL.permissions] error
+[2024-04-08 15:16:49] INFO root fetch - processPackages [matplotlib-visual]: New version: [0.9] Old Version: [0.8.2]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [linien-common]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [linien-server]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2024-04-08 15:16:49] WARNING root fetch - processPackages [RFL.settings]: Skipping, unable to determine old version
+[2024-04-08 15:16:49] INFO root fetch - processPackages [RFL.settings]: Start processing: linien-client
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [RFL.settings] error
+[2024-04-08 15:16:49] INFO root fetch - processPackages [ztffields]: Remove: archive file [/home/abi/fetcher/tmp/ztffields-0.5.0.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [ztffields]: Remove: archive file [/home/abi/fetcher/tmp/ztffields-0.5.1.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [ztffields]: Start processing: RFL.web
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [ztffields]: success
+[2024-04-08 15:16:49] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/3f/f8/4fd1a926b9f72e291294726fd73330bdbb50de53bbb77eb23e162bbdd204/metalarchivist-0.1.8.tar.gz
+[2024-04-08 15:16:49] INFO root fetch - processPackages [matplotlib-visual]: Downloading https://files.pythonhosted.org/packages/d3/18/93b67ad89724e99582ad9d4782de0e5523db00be49b4780b7f9244c52d07/matplotlib_visual-0.8.2.tar.gz
+[2024-04-08 15:16:49] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.6.6.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.6.7.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [pyodmongo]: Start processing: linien-gui
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [pyodmongo]: success
+[2024-04-08 15:16:49] WARNING root fetch - processPackages [metalarchivist]: Timeout reached during download
+[2024-04-08 15:16:49] INFO root fetch - processPackages [linien-client]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2024-04-08 15:16:49] WARNING root fetch - processPackages [RFL.web]: Skipping, unable to determine old version
+[2024-04-08 15:16:49] INFO root fetch - processPackages [RFL.web]: Start processing: podpointclient
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [RFL.web] error
+[2024-04-08 15:16:49] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/eb/7a/6289e2a57371413b9fb77a2da352728429d1531236268eb5df9d9cf01e00/linien-common-2.0.0rc2.tar.gz
+[2024-04-08 15:16:49] WARNING root fetch - processPackages [matplotlib-visual]: Timeout reached during download
+[2024-04-08 15:16:49] INFO root fetch - processPackages [podpointclient]: New version: [1.6.0a4] Old Version: [1.6.0a3]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [linien-gui]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/cf/c2/d6f283334f3d96607c7ae2a674fd0f98e7213c0c4ae8ecab4f582892a5cd/linien-server-2.0.0rc2.tar.gz
+[2024-04-08 15:16:49] WARNING root fetch - processPackages [linien-common]: Timeout reached during download
+[2024-04-08 15:16:49] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/a5/26/dbab6843e323f42a5660a659bc09d78fa76b8db6b729a57f854d0b1099ca/metalarchivist-0.1.9.tar.gz
+[2024-04-08 15:16:49] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/65/d0/364653e2aee12e1d88243f65fd12d1fd0d6cb338e0514531ff54b3ede4ba/podpointclient-1.6.0a3.tar.gz
+[2024-04-08 15:16:49] WARNING root fetch - processPackages [linien-server]: Timeout reached during download
+[2024-04-08 15:16:49] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/c7/b7/9d85d0fae839f5ba629d160f209da31caf08839b92ce04f7b37f4463f1bf/linien-client-2.0.0rc2.tar.gz
+[2024-04-08 15:16:49] INFO root fetch - processPackages [matplotlib-visual]: Downloading https://files.pythonhosted.org/packages/06/81/2ce992310c4755d5b083a241ab5ef2604ba21d4efc6b2990db3f9f055c0b/matplotlib_visual-0.9.tar.gz
+[2024-04-08 15:16:49] INFO root fetch - processPackages [curated-transformers]: Remove: archive file [/home/abi/fetcher/tmp/curated-transformers-2.0.0.dev0.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [curated-transformers]: Remove: archive file [/home/abi/fetcher/tmp/curated-transformers-2.0.0.dev1.tar.gz]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [curated-transformers]: Start processing: donetools
+[2024-04-08 15:16:49] INFO root fetch - main [MainThread]: End processing [curated-transformers]: success
+[2024-04-08 15:16:49] WARNING root fetch - processPackages [metalarchivist]: Timeout reached during download
+[2024-04-08 15:16:49] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-04-08 15:16:49] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.1.8.tar.gz tmp/metalarchivist-0.1.9.tar.gz --markdown 20240408/m/metalarchivist/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 15:16:49] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/73/42/148f64ce00e887260c6e326794b9939ae04630053f046946f50df18f3d4b/linien-gui-2.0.0rc2.tar.gz
+[2024-04-08 15:16:49] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 15:16:49] INFO root fetch - processPackages [donetools]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 15:16:49] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/bb/62/e14b0255acf61e9b75e7c7c82af44c5f85153701994a30b0c9a34a018998/linien-common-2.0.0rc3.tar.gz
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [matplotlib-visual]: Timeout reached during download
+[2024-04-08 15:16:50] INFO root fetch - processPackages [matplotlib-visual]: executing diffoscope
+[2024-04-08 15:16:50] INFO root fetch - processPackages [matplotlib-visual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlib_visual-0.8.2.tar.gz tmp/matplotlib_visual-0.9.tar.gz --markdown 20240408/m/matplotlib-visual/0.8.2-0.9/diff.md --exclude *.pyd
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [linien-client]: Timeout reached during download
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/06/6d/d91857b756b4b9723c2fe79b244a38739caa1eae767a2eae780e741c0202/linien-server-2.0.0rc3.tar.gz
+[2024-04-08 15:16:50] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/77/ca/6d7996cb5367c2b3ccb35f508116c15cdd5d47740bd380c9e3ee589d5ff2/donetools-0.0.2.tar.gz
+[2024-04-08 15:16:50] INFO root fetch - processPackages [autots]: Remove: archive file [/home/abi/fetcher/tmp/autots-0.6.8.tar.gz]
+[2024-04-08 15:16:50] INFO root fetch - processPackages [autots]: Remove: archive file [/home/abi/fetcher/tmp/autots-0.6.9.tar.gz]
+[2024-04-08 15:16:50] INFO root fetch - main [MainThread]: End processing [autots]: success
+[2024-04-08 15:16:50] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/a9/9e/c0f999925aead48ca8e30128d3351a5014413b038802edf9aed7908649bc/podpointclient-1.6.0a4.tar.gz
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [linien-gui]: Timeout reached during download
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [donetools]: Timeout reached during download
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [linien-server]: Timeout reached during download
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-2.0.0rc2.tar.gz tmp/linien-server-2.0.0rc3.tar.gz --markdown 20240408/l/linien-server/2.0.0rc2-2.0.0rc3/diff.md --exclude *.pyd
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/5d/80/4594cea8df6f13cdcda56638771a0246e524c1616fb67cc100ed10b40c38/linien-client-2.0.0rc3.tar.gz
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 15:16:50] INFO root fetch - processPackages [podpointclient]: executing diffoscope
+[2024-04-08 15:16:50] INFO root fetch - processPackages [podpointclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podpointclient-1.6.0a3.tar.gz tmp/podpointclient-1.6.0a4.tar.gz --markdown 20240408/p/podpointclient/1.6.0a3-1.6.0a4/diff.md --exclude *.pyd
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [linien-common]: Timeout reached during download
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-2.0.0rc2.tar.gz tmp/linien-common-2.0.0rc3.tar.gz --markdown 20240408/l/linien-common/2.0.0rc2-2.0.0rc3/diff.md --exclude *.pyd
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/0b/03/8a69e49e0953878f9542912e33e05aa90f37db1f2f773af276bb9c89afca/linien-gui-2.0.0rc3.tar.gz
+[2024-04-08 15:16:50] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/88/5d/7389854d7149538c8a7423dece5da56c12c01fb79bf4e4214553420262f3/donetools-0.0.3.tar.gz
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [linien-client]: Timeout reached during download
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-2.0.0rc2.tar.gz tmp/linien-client-2.0.0rc3.tar.gz --markdown 20240408/l/linien-client/2.0.0rc2-2.0.0rc3/diff.md --exclude *.pyd
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [donetools]: Timeout reached during download
+[2024-04-08 15:16:50] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-08 15:16:50] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.2.tar.gz tmp/donetools-0.0.3.tar.gz --markdown 20240408/d/donetools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 15:16:50] WARNING root fetch - processPackages [linien-gui]: Timeout reached during download
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-04-08 15:16:50] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-2.0.0rc2.tar.gz tmp/linien-gui-2.0.0rc3.tar.gz --markdown 20240408/l/linien-gui/2.0.0rc2-2.0.0rc3/diff.md --exclude *.pyd
+[2024-04-08 15:16:50] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.1.8.tar.gz]
+[2024-04-08 15:16:50] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.1.9.tar.gz]
+[2024-04-08 15:16:50] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-04-08 15:16:50] INFO root fetch - processPackages [jsspetri]: Remove: archive file [/home/abi/fetcher/tmp/jsspetri-1.0.2-py3-none-any.whl.zip]
+[2024-04-08 15:16:50] INFO root fetch - processPackages [jsspetri]: Remove: archive file [/home/abi/fetcher/tmp/jsspetri-1.0.4-py3-none-any.whl.zip]
+[2024-04-08 15:16:50] INFO root fetch - main [MainThread]: End processing [jsspetri]: success
+[2024-04-08 15:16:51] INFO root fetch - processPackages [matplotlib-visual]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_visual-0.8.2.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - processPackages [matplotlib-visual]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_visual-0.9.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - main [MainThread]: End processing [matplotlib-visual]: success
+[2024-04-08 15:16:51] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-2.0.0rc2.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-2.0.0rc3.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2024-04-08 15:16:51] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.6.0a3.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.6.0a4.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - main [MainThread]: End processing [podpointclient]: success
+[2024-04-08 15:16:51] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-2.0.0rc2.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-2.0.0rc3.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-04-08 15:16:51] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-2.0.0rc2.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-2.0.0rc3.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2024-04-08 15:16:51] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.2.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.3.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-08 15:16:51] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-2.0.0rc2.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-2.0.0rc3.tar.gz]
+[2024-04-08 15:16:51] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-04-08 15:16:51] INFO root fetch - main [MainThread]: Store serial: [22667427]
