@@ -15449,3 +15449,78 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:38:19] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-04-08 11:38:19] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-04-08 11:38:19] INFO root fetch - main [MainThread]: Store serial: [22665120]
+[2024-04-08 11:40:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665120]
+[2024-04-08 11:40:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: illuminat
+[2024-04-08 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stTransfer
+[2024-04-08 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py2docfx
+[2024-04-08 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suite-py
+[2024-04-08 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logging-strict
+[2024-04-08 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipez
+[2024-04-08 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resc-vcs-scanner
+[2024-04-08 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pentest-package2
+[2024-04-08 11:40:30] INFO root fetch - processPackages [logging-strict]: New version: [1.2.28] Old Version: [1.2.27]
+[2024-04-08 11:40:30] INFO root fetch - processPackages [stTransfer]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 11:40:30] INFO root fetch - processPackages [py2docfx]: New version: [0.1.3rc1683981] Old Version: [0.1.3.dev1684063]
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [pentest-package2]: Skipping, unable to determine old version
+[2024-04-08 11:40:30] INFO root fetch - main [MainThread]: End processing [pentest-package2] error
+[2024-04-08 11:40:30] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/c1/44/f59d30fed86e2bfabb32660ae39d0bef6e098d0b9d8f7741fb9a4aa9e41b/logging-strict-1.2.27.tar.gz
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [illuminat]: Skipping, unable to determine old version
+[2024-04-08 11:40:30] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 11:40:30] INFO root fetch - processPackages [resc-vcs-scanner]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-08 11:40:30] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/e7/3d/6f32e797c5da76df593dd4645c178ceed0ef6593567c851a1c276320ca39/stTransfer-1.0.8.tar.gz
+[2024-04-08 11:40:30] INFO root fetch - processPackages [pipez]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 11:40:30] INFO root fetch - processPackages [suite-py]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-08 11:40:30] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/db/c2/e3b4203a30eef0b7dc7df393e00fcf94186f5a0316d3f5b8ba4cca396c57/py2docfx-0.1.3.dev1684063-py3-none-any.whl
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [stTransfer]: Timeout reached during download
+[2024-04-08 11:40:30] INFO root fetch - processPackages [resc-vcs-scanner]: Downloading https://files.pythonhosted.org/packages/15/c2/04636404b6e6de21534b916b4539b9323edd0b3aab6c40a428db1e52ab72/resc_vcs_scanner-3.0.0.tar.gz
+[2024-04-08 11:40:30] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/ef/37/0c075d9d9338f06c9a311c241ff663a244c16f5e0477cf304edfecb07606/suite-py-1.9.8.tar.gz
+[2024-04-08 11:40:30] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/57/41/15f90ae66b484071299d6e1321594b786409a2ff6c044cf2ceb7f0c89a77/pipez-0.0.8.tar.gz
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-08 11:40:30] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/a7/be/74161372cc083a46becbdc8ae9f3be2847446f6360d09831ac56762291c7/stTransfer-1.0.9.tar.gz
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [resc-vcs-scanner]: Timeout reached during download
+[2024-04-08 11:40:30] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/79/ae/516984fab4915e74a8979453921316075ba1794d28377cb985d9228d8500/py2docfx-0.1.3rc1683981-py3-none-any.whl
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [suite-py]: Timeout reached during download
+[2024-04-08 11:40:30] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/f1/27/a98dde55160a07f5e6c21297a4d6e11e59f171bb4b260b48eaff8b921996/logging-strict-1.2.28.tar.gz
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [stTransfer]: Timeout reached during download
+[2024-04-08 11:40:30] INFO root fetch - processPackages [stTransfer]: executing diffoscope
+[2024-04-08 11:40:30] INFO root fetch - processPackages [stTransfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stTransfer-1.0.8.tar.gz tmp/stTransfer-1.0.9.tar.gz --markdown 20240408/s/stTransfer/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [pipez]: Timeout reached during download
+[2024-04-08 11:40:30] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-08 11:40:30] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-08 11:40:30] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.3.dev1684063-py3-none-any.whl.zip tmp/py2docfx-0.1.3rc1683981-py3-none-any.whl.zip --markdown 20240408/p/py2docfx/0.1.3.dev1684063-0.1.3rc1683981/diff.md --exclude *.pyd
+[2024-04-08 11:40:30] INFO root fetch - processPackages [resc-vcs-scanner]: Downloading https://files.pythonhosted.org/packages/94/93/5fc03a7a4e711b1fcac1a3384b7847b108d5c8145f00733ac19b3da41241/resc_vcs_scanner-3.0.1.tar.gz
+[2024-04-08 11:40:31] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/75/8d/e56fa1005c2ea6072c7f7f32d256169642eb4f4ae134d1fb3a0e1294d0d2/suite-py-1.9.9.tar.gz
+[2024-04-08 11:40:31] WARNING root fetch - processPackages [resc-vcs-scanner]: Timeout reached during download
+[2024-04-08 11:40:31] INFO root fetch - processPackages [resc-vcs-scanner]: executing diffoscope
+[2024-04-08 11:40:31] INFO root fetch - processPackages [resc-vcs-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_vcs_scanner-3.0.0.tar.gz tmp/resc_vcs_scanner-3.0.1.tar.gz --markdown 20240408/r/resc-vcs-scanner/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-08 11:40:31] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a3/7b/b75e90898c1b52cbcd0b17ad4595e5ed0f6d4554e94be045c641282bc131/pipez-0.0.9.tar.gz
+[2024-04-08 11:40:31] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-08 11:40:31] INFO root fetch - processPackages [logging-strict]: executing diffoscope
+[2024-04-08 11:40:31] INFO root fetch - processPackages [logging-strict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-strict-1.2.27.tar.gz tmp/logging-strict-1.2.28.tar.gz --markdown 20240408/l/logging-strict/1.2.27-1.2.28/diff.md --exclude *.pyd
+[2024-04-08 11:40:31] WARNING root fetch - processPackages [pipez]: Timeout reached during download
+[2024-04-08 11:40:31] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-08 11:40:31] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.8.tar.gz tmp/pipez-0.0.9.tar.gz --markdown 20240408/p/pipez/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:40:31] WARNING root fetch - processPackages [suite-py]: Timeout reached during download
+[2024-04-08 11:40:31] INFO root fetch - processPackages [suite-py]: executing diffoscope
+[2024-04-08 11:40:31] INFO root fetch - processPackages [suite-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suite-py-1.9.8.tar.gz tmp/suite-py-1.9.9.tar.gz --markdown 20240408/s/suite-py/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-08 11:40:31] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.8.tar.gz]
+[2024-04-08 11:40:31] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.9.tar.gz]
+[2024-04-08 11:40:31] INFO root fetch - main [MainThread]: End processing [stTransfer]: success
+[2024-04-08 11:40:31] INFO root fetch - processPackages [resc-vcs-scanner]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scanner-3.0.0.tar.gz]
+[2024-04-08 11:40:31] INFO root fetch - processPackages [resc-vcs-scanner]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scanner-3.0.1.tar.gz]
+[2024-04-08 11:40:31] INFO root fetch - main [MainThread]: End processing [resc-vcs-scanner]: success
+[2024-04-08 11:40:31] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.8.tar.gz]
+[2024-04-08 11:40:31] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.9.tar.gz]
+[2024-04-08 11:40:31] INFO root fetch - main [MainThread]: End processing [suite-py]: success
+[2024-04-08 11:40:32] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.8.tar.gz]
+[2024-04-08 11:40:32] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.9.tar.gz]
+[2024-04-08 11:40:32] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-08 11:40:32] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.3.dev1684063-py3-none-any.whl.zip]
+[2024-04-08 11:40:32] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.3rc1683981-py3-none-any.whl.zip]
+[2024-04-08 11:40:32] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-08 11:40:32] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.27.tar.gz]
+[2024-04-08 11:40:32] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.28.tar.gz]
+[2024-04-08 11:40:32] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
+[2024-04-08 11:40:32] INFO root fetch - main [MainThread]: Store serial: [22665156]
