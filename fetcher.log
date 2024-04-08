@@ -19520,3 +19520,20 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:52:59] INFO root fetch - processPackages [msklv-openweather-sdk]: Remove: archive file [/home/abi/fetcher/tmp/msklv_openweather_sdk-1.0.0.tar.gz]
 [2024-04-08 13:52:59] INFO root fetch - main [MainThread]: End processing [msklv-openweather-sdk]: success
 [2024-04-08 13:52:59] INFO root fetch - main [MainThread]: Store serial: [22666479]
+[2024-04-08 13:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666479]
+[2024-04-08 13:55:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mosaicpy
+[2024-04-08 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qoqo-qryd
+[2024-04-08 13:55:08] WARNING root fetch - processPackages [mosaicpy]: Skipping, unable to determine old version
+[2024-04-08 13:55:08] INFO root fetch - main [MainThread]: End processing [mosaicpy] error
+[2024-04-08 13:55:08] INFO root fetch - processPackages [qoqo-qryd]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 13:55:09] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/ca/2b/420d0f35aa32c463bc974eeb01922a2867936f072a8563a2eb31ef0fb5b4/qoqo_qryd-0.9.0.tar.gz
+[2024-04-08 13:55:09] WARNING root fetch - processPackages [qoqo-qryd]: Timeout reached during download
+[2024-04-08 13:55:09] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/20/4b/b71b2f7099b08f81210a20bbd536b745654112786815e9d23b55b697a407/qoqo_qryd-0.9.1.tar.gz
+[2024-04-08 13:55:09] WARNING root fetch - processPackages [qoqo-qryd]: Timeout reached during download
+[2024-04-08 13:55:09] INFO root fetch - processPackages [qoqo-qryd]: executing diffoscope
+[2024-04-08 13:55:09] INFO root fetch - processPackages [qoqo-qryd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qryd-0.9.0.tar.gz tmp/qoqo_qryd-0.9.1.tar.gz --markdown 20240408/q/qoqo-qryd/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 13:55:12] INFO root fetch - processPackages [qoqo-qryd]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qryd-0.9.0.tar.gz]
+[2024-04-08 13:55:12] INFO root fetch - processPackages [qoqo-qryd]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qryd-0.9.1.tar.gz]
+[2024-04-08 13:55:12] INFO root fetch - main [MainThread]: End processing [qoqo-qryd]: success
+[2024-04-08 13:55:12] INFO root fetch - main [MainThread]: Store serial: [22666504]
