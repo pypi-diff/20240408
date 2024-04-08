@@ -17683,3 +17683,75 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:47:46] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-08 12:47:46] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-08 12:47:46] INFO root fetch - main [MainThread]: Store serial: [22665851]
+[2024-04-08 12:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665851]
+[2024-04-08 12:49:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 12:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ign8
+[2024-04-08 12:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lnschema_core
+[2024-04-08 12:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocdiff
+[2024-04-08 12:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dwh-oppfolging
+[2024-04-08 12:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydbtools
+[2024-04-08 12:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openshift-python-wrapper-data-collector
+[2024-04-08 12:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sumo2
+[2024-04-08 12:49:55] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.32]
+[2024-04-08 12:49:55] WARNING root fetch - processPackages [sumo2]: Skipping, unable to determine old version
+[2024-04-08 12:49:55] INFO root fetch - main [MainThread]: End processing [sumo2] error
+[2024-04-08 12:49:55] INFO root fetch - processPackages [ocdiff]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-08 12:49:56] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 12:49:56] INFO root fetch - processPackages [pydbtools]: New version: [5.5.9] Old Version: [5.5.8]
+[2024-04-08 12:49:56] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-08 12:49:56] INFO root fetch - processPackages [dwh-oppfolging]: New version: [0.0.91] Old Version: [0.0.90]
+[2024-04-08 12:49:56] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/00/b3/80d3b66b741656fe691573593866381cb9cf845d8df263ab0fb9b75c5eed/ign8-4.8.32.tar.gz
+[2024-04-08 12:49:56] INFO root fetch - processPackages [ocdiff]: Downloading https://files.pythonhosted.org/packages/93/05/f19786a45157f799cdb7f17e5380406d719e4937ddafea9e253b3d9c8a04/ocdiff-0.0.6.tar.gz
+[2024-04-08 12:49:56] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: Downloading https://files.pythonhosted.org/packages/c3/2a/7eea72d6b97d312f7bcc2598b1ac8cada6fa8500f29946a107c079ee984a/openshift_python_wrapper_data_collector-1.0.8.tar.gz
+[2024-04-08 12:49:56] INFO root fetch - processPackages [pydbtools]: Downloading https://files.pythonhosted.org/packages/c7/35/9e4828551236f1c9f44b505f24aa0e01c4ecb212489115519cd18f4f0be1/pydbtools-5.5.8.tar.gz
+[2024-04-08 12:49:56] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2024-04-08 12:49:56] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/b0/08/6f8736d7a248c802780af3adc014f5ac463ba8bf4848dc48d3db7c00f894/dwh_oppfolging-0.0.90.tar.gz
+[2024-04-08 12:49:56] WARNING root fetch - processPackages [ocdiff]: Timeout reached during download
+[2024-04-08 12:49:56] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:49:56] WARNING root fetch - processPackages [openshift-python-wrapper-data-collector]: Timeout reached during download
+[2024-04-08 12:49:56] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-08 12:49:56] WARNING root fetch - processPackages [pydbtools]: Timeout reached during download
+[2024-04-08 12:49:56] WARNING root fetch - processPackages [lnschema_core]: Timeout reached during download
+[2024-04-08 12:49:56] INFO root fetch - processPackages [ocdiff]: Downloading https://files.pythonhosted.org/packages/dc/65/3e9f0c9d0e2f94cf9a85944fdac426d80ab3fc9e810f6098955800994473/ocdiff-0.0.7.tar.gz
+[2024-04-08 12:49:56] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:49:56] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-08 12:49:56] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.32.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240408/i/ign8/4.8.32-4.8.5/diff.md --exclude *.pyd
+[2024-04-08 12:49:56] WARNING root fetch - processPackages [ocdiff]: Timeout reached during download
+[2024-04-08 12:49:56] INFO root fetch - processPackages [ocdiff]: executing diffoscope
+[2024-04-08 12:49:56] INFO root fetch - processPackages [ocdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdiff-0.0.6.tar.gz tmp/ocdiff-0.0.7.tar.gz --markdown 20240408/o/ocdiff/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-08 12:49:56] INFO root fetch - processPackages [pydbtools]: Downloading https://files.pythonhosted.org/packages/e3/0c/400cda214b30f23e85f1ff0a1bcf4984481a3745829af985118598b12e15/pydbtools-5.5.9.tar.gz
+[2024-04-08 12:49:56] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2024-04-08 12:49:56] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: Downloading https://files.pythonhosted.org/packages/d6/5f/e1855763846f0adf261c946de2283bc9380eca80a9b042019b934a1d6602/openshift_python_wrapper_data_collector-1.0.9.tar.gz
+[2024-04-08 12:49:56] WARNING root fetch - processPackages [pydbtools]: Timeout reached during download
+[2024-04-08 12:49:56] INFO root fetch - processPackages [pydbtools]: executing diffoscope
+[2024-04-08 12:49:56] INFO root fetch - processPackages [pydbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbtools-5.5.8.tar.gz tmp/pydbtools-5.5.9.tar.gz --markdown 20240408/p/pydbtools/5.5.8-5.5.9/diff.md --exclude *.pyd
+[2024-04-08 12:49:57] WARNING root fetch - processPackages [lnschema_core]: Timeout reached during download
+[2024-04-08 12:49:57] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2024-04-08 12:49:57] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20240408/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:49:57] WARNING root fetch - processPackages [openshift-python-wrapper-data-collector]: Timeout reached during download
+[2024-04-08 12:49:57] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: executing diffoscope
+[2024-04-08 12:49:57] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_python_wrapper_data_collector-1.0.8.tar.gz tmp/openshift_python_wrapper_data_collector-1.0.9.tar.gz --markdown 20240408/o/openshift-python-wrapper-data-collector/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 12:49:57] WARNING root fetch - processPackages [dwh-oppfolging]: Timeout reached during download
+[2024-04-08 12:49:57] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/dc/e3/35ce7538711df6c576cea46235652b78bdc4613a977270265dc5a0593b4c/dwh_oppfolging-0.0.91.tar.gz
+[2024-04-08 12:49:57] INFO root fetch - processPackages [ocdiff]: Remove: archive file [/home/abi/fetcher/tmp/ocdiff-0.0.6.tar.gz]
+[2024-04-08 12:49:57] INFO root fetch - processPackages [ocdiff]: Remove: archive file [/home/abi/fetcher/tmp/ocdiff-0.0.7.tar.gz]
+[2024-04-08 12:49:57] INFO root fetch - main [MainThread]: End processing [ocdiff]: success
+[2024-04-08 12:49:57] WARNING root fetch - processPackages [dwh-oppfolging]: Timeout reached during download
+[2024-04-08 12:49:57] INFO root fetch - processPackages [dwh-oppfolging]: executing diffoscope
+[2024-04-08 12:49:57] INFO root fetch - processPackages [dwh-oppfolging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwh_oppfolging-0.0.90.tar.gz tmp/dwh_oppfolging-0.0.91.tar.gz --markdown 20240408/d/dwh-oppfolging/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2024-04-08 12:49:57] INFO root fetch - processPackages [pydbtools]: Remove: archive file [/home/abi/fetcher/tmp/pydbtools-5.5.8.tar.gz]
+[2024-04-08 12:49:57] INFO root fetch - processPackages [pydbtools]: Remove: archive file [/home/abi/fetcher/tmp/pydbtools-5.5.9.tar.gz]
+[2024-04-08 12:49:57] INFO root fetch - main [MainThread]: End processing [pydbtools]: success
+[2024-04-08 12:49:57] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2024-04-08 12:49:57] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2024-04-08 12:49:57] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2024-04-08 12:49:58] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_wrapper_data_collector-1.0.8.tar.gz]
+[2024-04-08 12:49:58] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_wrapper_data_collector-1.0.9.tar.gz]
+[2024-04-08 12:49:58] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper-data-collector]: success
+[2024-04-08 12:49:58] INFO root fetch - processPackages [dwh-oppfolging]: Remove: archive file [/home/abi/fetcher/tmp/dwh_oppfolging-0.0.90.tar.gz]
+[2024-04-08 12:49:58] INFO root fetch - processPackages [dwh-oppfolging]: Remove: archive file [/home/abi/fetcher/tmp/dwh_oppfolging-0.0.91.tar.gz]
+[2024-04-08 12:49:58] INFO root fetch - main [MainThread]: End processing [dwh-oppfolging]: success
+[2024-04-08 12:50:00] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.32.tar.gz]
+[2024-04-08 12:50:00] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-08 12:50:00] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-08 12:50:00] INFO root fetch - main [MainThread]: Store serial: [22665873]
