@@ -4640,3 +4640,28 @@
 [2024-04-08 05:01:57] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdn-3.0.999.tar.gz]
 [2024-04-08 05:01:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdn]: success
 [2024-04-08 05:01:57] INFO root fetch - main [MainThread]: Store serial: [22661282]
+[2024-04-08 05:04:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661282]
+[2024-04-08 05:04:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 05:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-cdn
+[2024-04-08 05:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hcli-hg
+[2024-04-08 05:04:09] INFO root fetch - processPackages [hcli-hg]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-08 05:04:09] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:04:09] INFO root fetch - processPackages [hcli-hg]: Downloading https://files.pythonhosted.org/packages/3c/90/d78cedb958d59797647c86828ac698b60c77931f9e04b8ae831018ccc412/hcli_hg-0.1.4.tar.gz
+[2024-04-08 05:04:09] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: Downloading https://files.pythonhosted.org/packages/05/bb/c085b387a7bf05d00a4c04d43ae92386963a53d0a032a12326ea4b1c83f0/tencentcloud-sdk-python-cdn-3.0.998.tar.gz
+[2024-04-08 05:04:09] WARNING root fetch - processPackages [hcli-hg]: Timeout reached during download
+[2024-04-08 05:04:09] WARNING root fetch - processPackages [tencentcloud-sdk-python-cdn]: Timeout reached during download
+[2024-04-08 05:04:10] INFO root fetch - processPackages [hcli-hg]: Downloading https://files.pythonhosted.org/packages/fa/bb/5fd28884f0bc89f81b4d8a1285c8428ed96394f2df8754333581c8590ea7/hcli_hg-0.1.5.tar.gz
+[2024-04-08 05:04:10] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: Downloading https://files.pythonhosted.org/packages/0d/33/3f63a398f2005d7c327bd2476b5d3aa0c302553060769659d4ad70d50ea6/tencentcloud-sdk-python-cdn-3.0.999.tar.gz
+[2024-04-08 05:04:10] WARNING root fetch - processPackages [hcli-hg]: Timeout reached during download
+[2024-04-08 05:04:10] INFO root fetch - processPackages [hcli-hg]: executing diffoscope
+[2024-04-08 05:04:10] INFO root fetch - processPackages [hcli-hg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_hg-0.1.4.tar.gz tmp/hcli_hg-0.1.5.tar.gz --markdown 20240408/h/hcli-hg/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-08 05:04:10] WARNING root fetch - processPackages [tencentcloud-sdk-python-cdn]: Timeout reached during download
+[2024-04-08 05:04:10] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: executing diffoscope
+[2024-04-08 05:04:10] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cdn-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cdn-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-cdn/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:04:10] INFO root fetch - processPackages [hcli-hg]: Remove: archive file [/home/abi/fetcher/tmp/hcli_hg-0.1.4.tar.gz]
+[2024-04-08 05:04:10] INFO root fetch - processPackages [hcli-hg]: Remove: archive file [/home/abi/fetcher/tmp/hcli_hg-0.1.5.tar.gz]
+[2024-04-08 05:04:10] INFO root fetch - main [MainThread]: End processing [hcli-hg]: success
+[2024-04-08 05:04:10] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdn-3.0.998.tar.gz]
+[2024-04-08 05:04:10] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdn-3.0.999.tar.gz]
+[2024-04-08 05:04:10] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdn]: success
+[2024-04-08 05:04:10] INFO root fetch - main [MainThread]: Store serial: [22661290]
