@@ -15855,3 +15855,53 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:51:36] INFO root fetch - processPackages [axonius-api-client]: Remove: archive file [/home/abi/fetcher/tmp/axonius_api_client-5.0.9-py2.py3-none-any.whl.zip]
 [2024-04-08 11:51:36] INFO root fetch - main [MainThread]: End processing [axonius-api-client]: success
 [2024-04-08 11:51:36] INFO root fetch - main [MainThread]: Store serial: [22665248]
+[2024-04-08 11:53:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665248]
+[2024-04-08 11:53:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 11:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: richie
+[2024-04-08 11:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FileSystemModel-Python
+[2024-04-08 11:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: table-schema-to-markdown
+[2024-04-08 11:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nens-meta
+[2024-04-08 11:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reapit-cdk.edge-api-swapper
+[2024-04-08 11:53:45] WARNING root fetch - processPackages [FileSystemModel-Python]: Skipping, unable to determine old version
+[2024-04-08 11:53:45] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-08 11:53:45] INFO root fetch - main [MainThread]: End processing [FileSystemModel-Python] error
+[2024-04-08 11:53:45] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-08 11:53:45] INFO root fetch - processPackages [table-schema-to-markdown]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-08 11:53:45] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: Downloading https://files.pythonhosted.org/packages/07/d1/518dc1a4a00cdcba78206550881608038980afd2bb34bc86130690260af2/reapit-cdk.edge-api-swapper-0.1.2.tar.gz
+[2024-04-08 11:53:45] INFO root fetch - processPackages [nens-meta]: New version: [0.5] Old Version: [0.4]
+[2024-04-08 11:53:45] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-04-08 11:53:45] WARNING root fetch - processPackages [reapit-cdk.edge-api-swapper]: Timeout reached during download
+[2024-04-08 11:53:45] INFO root fetch - processPackages [table-schema-to-markdown]: Downloading https://files.pythonhosted.org/packages/c3/6f/901f451ec19d508e3575a925e50cbd13e9409d37ac8a40dd9a20751ab952/table_schema_to_markdown-0.4.7-py3-none-any.whl
+[2024-04-08 11:53:45] INFO root fetch - processPackages [nens-meta]: Downloading https://files.pythonhosted.org/packages/2e/21/e3dcb615b4c8ba382f413dfc3ff2cc4260ac11557b0a3cdea81d170b67df/nens-meta-0.4.tar.gz
+[2024-04-08 11:53:45] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: Downloading https://files.pythonhosted.org/packages/d3/7c/ed5e7cbdaa0975f788efd0a36b41c9f194252dc44ef8e58535caf65ddaea/reapit-cdk.edge-api-swapper-0.1.3.tar.gz
+[2024-04-08 11:53:45] WARNING root fetch - processPackages [richie]: Timeout reached during download
+[2024-04-08 11:53:45] WARNING root fetch - processPackages [table-schema-to-markdown]: Timeout reached during download
+[2024-04-08 11:53:45] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-04-08 11:53:45] WARNING root fetch - processPackages [nens-meta]: Timeout reached during download
+[2024-04-08 11:53:45] WARNING root fetch - processPackages [reapit-cdk.edge-api-swapper]: Timeout reached during download
+[2024-04-08 11:53:45] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: executing diffoscope
+[2024-04-08 11:53:45] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reapit-cdk.edge-api-swapper-0.1.2.tar.gz tmp/reapit-cdk.edge-api-swapper-0.1.3.tar.gz --markdown 20240408/r/reapit-cdk.edge-api-swapper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-08 11:53:46] INFO root fetch - processPackages [table-schema-to-markdown]: Downloading https://files.pythonhosted.org/packages/8c/f1/8a519beb3268896ebc12a7c48ab33779bd79bdecd6a7d0466ef269000b48/table_schema_to_markdown-0.4.8-py3-none-any.whl
+[2024-04-08 11:53:46] INFO root fetch - processPackages [nens-meta]: Downloading https://files.pythonhosted.org/packages/cf/58/caf53658a6b0686385f98be76361ce4199aee39e408d92ed39b991938e7d/nens-meta-0.5.tar.gz
+[2024-04-08 11:53:46] WARNING root fetch - processPackages [richie]: Timeout reached during download
+[2024-04-08 11:53:46] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-04-08 11:53:46] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240408/r/richie/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-08 11:53:46] WARNING root fetch - processPackages [table-schema-to-markdown]: Timeout reached during download
+[2024-04-08 11:53:46] INFO root fetch - processPackages [table-schema-to-markdown]: executing diffoscope
+[2024-04-08 11:53:46] INFO root fetch - processPackages [table-schema-to-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/table_schema_to_markdown-0.4.7-py3-none-any.whl.zip tmp/table_schema_to_markdown-0.4.8-py3-none-any.whl.zip --markdown 20240408/t/table-schema-to-markdown/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2024-04-08 11:53:46] WARNING root fetch - processPackages [nens-meta]: Timeout reached during download
+[2024-04-08 11:53:46] INFO root fetch - processPackages [nens-meta]: executing diffoscope
+[2024-04-08 11:53:46] INFO root fetch - processPackages [nens-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nens-meta-0.4.tar.gz tmp/nens-meta-0.5.tar.gz --markdown 20240408/n/nens-meta/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-08 11:53:46] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.edge-api-swapper-0.1.2.tar.gz]
+[2024-04-08 11:53:46] INFO root fetch - processPackages [reapit-cdk.edge-api-swapper]: Remove: archive file [/home/abi/fetcher/tmp/reapit-cdk.edge-api-swapper-0.1.3.tar.gz]
+[2024-04-08 11:53:46] INFO root fetch - main [MainThread]: End processing [reapit-cdk.edge-api-swapper]: success
+[2024-04-08 11:53:46] INFO root fetch - processPackages [table-schema-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/table_schema_to_markdown-0.4.7-py3-none-any.whl.zip]
+[2024-04-08 11:53:46] INFO root fetch - processPackages [table-schema-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/table_schema_to_markdown-0.4.8-py3-none-any.whl.zip]
+[2024-04-08 11:53:46] INFO root fetch - main [MainThread]: End processing [table-schema-to-markdown]: success
+[2024-04-08 11:53:47] INFO root fetch - processPackages [nens-meta]: Remove: archive file [/home/abi/fetcher/tmp/nens-meta-0.4.tar.gz]
+[2024-04-08 11:53:47] INFO root fetch - processPackages [nens-meta]: Remove: archive file [/home/abi/fetcher/tmp/nens-meta-0.5.tar.gz]
+[2024-04-08 11:53:47] INFO root fetch - main [MainThread]: End processing [nens-meta]: success
+[2024-04-08 11:55:50] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-04-08 11:55:50] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-04-08 11:55:50] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-04-08 11:55:50] INFO root fetch - main [MainThread]: Store serial: [22665261]
