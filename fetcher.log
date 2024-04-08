@@ -18674,3 +18674,61 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:18:49] INFO root fetch - processPackages [ytph]: Remove: archive file [/home/abi/fetcher/tmp/ytph-0.0.9.tar.gz]
 [2024-04-08 13:18:49] INFO root fetch - main [MainThread]: End processing [ytph]: success
 [2024-04-08 13:18:49] INFO root fetch - main [MainThread]: Store serial: [22666199]
+[2024-04-08 13:20:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666199]
+[2024-04-08 13:20:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 13:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluepyemodel
+[2024-04-08 13:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb
+[2024-04-08 13:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdm
+[2024-04-08 13:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-dataset
+[2024-04-08 13:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: internal
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-08 13:20:59] INFO root fetch - processPackages [bluepyemodel]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-08 13:20:59] INFO root fetch - processPackages [pdm]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-08 13:20:59] INFO root fetch - processPackages [internal]: New version: [0.1.94] Old Version: [0.1.93]
+[2024-04-08 13:20:59] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-08 13:20:59] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/ae/1c/9a66b9e064763a88e12392ff7254bc1d5a41fd664021437ea9a52d570600/bluepyemodel-0.0.98.tar.gz
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-08 13:20:59] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/0c/1a/5475da7e816fa32e8a94e4df657d8ccb44643257d1d0c307e8e6d420a583/pdm-2.9.2.tar.gz
+[2024-04-08 13:20:59] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-08 13:20:59] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/61/4b/bbc5560e924437e3975ed9409d3fd65286bf9e39820bea995ce6f433f7b6/internal-0.1.93.tar.gz
+[2024-04-08 13:20:59] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-08 13:20:59] WARNING root fetch - processPackages [internal]: Timeout reached during download
+[2024-04-08 13:20:59] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-08 13:20:59] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 13:20:59] WARNING root fetch - processPackages [pdm]: Timeout reached during download
+[2024-04-08 13:21:00] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/7e/c6/6418e4c7238545b4e30f874c72aba8770024349de1857925a7bf7ed5df25/internal-0.1.94.tar.gz
+[2024-04-08 13:21:00] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/58/fd/b081937c283502be42efdf7ae4d7c7f8014c57bd74dbc7f9b629f44d22a2/pdm-2.9.3.tar.gz
+[2024-04-08 13:21:00] WARNING root fetch - processPackages [internal]: Timeout reached during download
+[2024-04-08 13:21:00] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-04-08 13:21:00] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-0.1.93.tar.gz tmp/internal-0.1.94.tar.gz --markdown 20240408/i/internal/0.1.93-0.1.94/diff.md --exclude *.pyd
+[2024-04-08 13:21:00] WARNING root fetch - processPackages [pdm]: Timeout reached during download
+[2024-04-08 13:21:00] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2024-04-08 13:21:00] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.9.2.tar.gz tmp/pdm-2.9.3.tar.gz --markdown 20240408/p/pdm/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2024-04-08 13:21:00] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 13:21:00] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 13:21:00] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-08 13:21:00] WARNING root fetch - processPackages [bluepyemodel]: Timeout reached during download
+[2024-04-08 13:21:01] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/4f/47/cdb97d873b536d0c711e95e2b3623dd29d62b3dedad06807f9db9e2e1d2c/bluepyemodel-0.0.99.tar.gz
+[2024-04-08 13:21:01] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.93.tar.gz]
+[2024-04-08 13:21:01] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.94.tar.gz]
+[2024-04-08 13:21:01] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-04-08 13:21:01] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 13:21:01] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 13:21:01] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-08 13:21:02] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.2.tar.gz]
+[2024-04-08 13:21:02] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.3.tar.gz]
+[2024-04-08 13:21:02] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2024-04-08 13:21:02] WARNING root fetch - processPackages [bluepyemodel]: Timeout reached during download
+[2024-04-08 13:21:02] INFO root fetch - processPackages [bluepyemodel]: executing diffoscope
+[2024-04-08 13:21:02] INFO root fetch - processPackages [bluepyemodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyemodel-0.0.98.tar.gz tmp/bluepyemodel-0.0.99.tar.gz --markdown 20240408/b/bluepyemodel/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-08 13:21:07] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.98.tar.gz]
+[2024-04-08 13:21:07] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
+[2024-04-08 13:21:07] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
+[2024-04-08 13:21:07] INFO root fetch - main [MainThread]: Store serial: [22666213]
