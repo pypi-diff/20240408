@@ -8549,3 +8549,61 @@
 [2024-04-08 06:46:13] INFO root fetch - processPackages [dev-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dev_toolbox-0.1.9.tar.gz]
 [2024-04-08 06:46:13] INFO root fetch - main [MainThread]: End processing [dev-toolbox]: success
 [2024-04-08 06:46:13] INFO root fetch - main [MainThread]: Store serial: [22662393]
+[2024-04-08 06:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662393]
+[2024-04-08 06:48:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GOES
+[2024-04-08 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feapder
+[2024-04-08 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dalpha-ai
+[2024-04-08 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: increff-runner
+[2024-04-08 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dalpha-ai-cpu
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai-cpu]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 06:48:34] INFO root fetch - processPackages [GOES]: New version: [3.4.1] Old Version: [3.4]
+[2024-04-08 06:48:34] INFO root fetch - processPackages [increff-runner]: New version: [3.1.7] Old Version: [3.1.6]
+[2024-04-08 06:48:34] INFO root fetch - processPackages [feapder]: New version: [1.9.1b1] Old Version: [1.9.0b2]
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai]: Downloading https://files.pythonhosted.org/packages/97/49/40878d1e41fcacc3f42c6812551e847def82e2cd9c2df907e6bc2100ecf4/dalpha_ai-0.3.0.tar.gz
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai-cpu]: Downloading https://files.pythonhosted.org/packages/e7/e2/ef93c20f62793e153308f7d05af16a2239ade9f2752422667e79875db996/dalpha_ai_cpu-0.3.0.tar.gz
+[2024-04-08 06:48:34] WARNING root fetch - processPackages [dalpha-ai]: Timeout reached during download
+[2024-04-08 06:48:34] WARNING root fetch - processPackages [dalpha-ai-cpu]: Timeout reached during download
+[2024-04-08 06:48:34] INFO root fetch - processPackages [GOES]: Downloading https://files.pythonhosted.org/packages/c1/30/5ed1c130be7d8fefa631f3c5f96274c055d44b764efb92d970d13b4e17b0/GOES-3.4.tar.gz
+[2024-04-08 06:48:34] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/c5/34/617d65904fcf95e73c480ce8f12046e26b56be32764e7cd4952c21338616/increff_runner-3.1.6-py3-none-any.whl
+[2024-04-08 06:48:34] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/cd/22/826d02cf0936dac1e917efeae0623a334596328ecc7d63799a4194bc0e2a/feapder-1.9.0b2.tar.gz
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai]: Downloading https://files.pythonhosted.org/packages/44/7a/ef65e510f8444f4c6763265e48f7b876692f31c9e567e0982616b9e206bb/dalpha_ai-0.3.1.tar.gz
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai-cpu]: Downloading https://files.pythonhosted.org/packages/0d/11/beace43288b9f1bfa022dec28d142ed0810f6828c618c1c9b111ae32500d/dalpha_ai_cpu-0.3.1.tar.gz
+[2024-04-08 06:48:34] WARNING root fetch - processPackages [GOES]: Timeout reached during download
+[2024-04-08 06:48:34] WARNING root fetch - processPackages [increff-runner]: Timeout reached during download
+[2024-04-08 06:48:34] WARNING root fetch - processPackages [dalpha-ai]: Timeout reached during download
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai]: executing diffoscope
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha_ai-0.3.0.tar.gz tmp/dalpha_ai-0.3.1.tar.gz --markdown 20240408/d/dalpha-ai/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 06:48:34] WARNING root fetch - processPackages [dalpha-ai-cpu]: Timeout reached during download
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai-cpu]: executing diffoscope
+[2024-04-08 06:48:34] INFO root fetch - processPackages [dalpha-ai-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha_ai_cpu-0.3.0.tar.gz tmp/dalpha_ai_cpu-0.3.1.tar.gz --markdown 20240408/d/dalpha-ai-cpu/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 06:48:34] WARNING root fetch - processPackages [feapder]: Timeout reached during download
+[2024-04-08 06:48:34] INFO root fetch - processPackages [GOES]: Downloading https://files.pythonhosted.org/packages/8f/05/e9f2eb65e139a3f5d5687dabbfd6e58ecb8a2807db25f6edf28692a2eadf/GOES-3.4.1.tar.gz
+[2024-04-08 06:48:34] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/06/bb/1980f46492a7d8b082e0a348eb0a5e0deb5c83d0d56b58f84f6bc428a07c/increff_runner-3.1.7-py3-none-any.whl
+[2024-04-08 06:48:34] WARNING root fetch - processPackages [GOES]: Timeout reached during download
+[2024-04-08 06:48:34] INFO root fetch - processPackages [GOES]: executing diffoscope
+[2024-04-08 06:48:34] INFO root fetch - processPackages [GOES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GOES-3.4.tar.gz tmp/GOES-3.4.1.tar.gz --markdown 20240408/G/GOES/3.4-3.4.1/diff.md --exclude *.pyd
+[2024-04-08 06:48:34] WARNING root fetch - processPackages [increff-runner]: Timeout reached during download
+[2024-04-08 06:48:34] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-04-08 06:48:34] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.1.6-py3-none-any.whl.zip tmp/increff_runner-3.1.7-py3-none-any.whl.zip --markdown 20240408/i/increff-runner/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2024-04-08 06:48:35] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/de/be/fd2d97c90d25d42f14a4e36f8500b4492b8fe91c4025902320a12a6802fc/feapder-1.9.1b1.tar.gz
+[2024-04-08 06:48:35] WARNING root fetch - processPackages [feapder]: Timeout reached during download
+[2024-04-08 06:48:35] INFO root fetch - processPackages [feapder]: executing diffoscope
+[2024-04-08 06:48:35] INFO root fetch - processPackages [feapder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feapder-1.9.0b2.tar.gz tmp/feapder-1.9.1b1.tar.gz --markdown 20240408/f/feapder/1.9.0b2-1.9.1b1/diff.md --exclude *.pyd
+[2024-04-08 06:48:35] INFO root fetch - processPackages [dalpha-ai]: Remove: archive file [/home/abi/fetcher/tmp/dalpha_ai-0.3.0.tar.gz]
+[2024-04-08 06:48:35] INFO root fetch - processPackages [dalpha-ai]: Remove: archive file [/home/abi/fetcher/tmp/dalpha_ai-0.3.1.tar.gz]
+[2024-04-08 06:48:35] INFO root fetch - main [MainThread]: End processing [dalpha-ai]: success
+[2024-04-08 06:48:35] INFO root fetch - processPackages [dalpha-ai-cpu]: Remove: archive file [/home/abi/fetcher/tmp/dalpha_ai_cpu-0.3.0.tar.gz]
+[2024-04-08 06:48:35] INFO root fetch - processPackages [dalpha-ai-cpu]: Remove: archive file [/home/abi/fetcher/tmp/dalpha_ai_cpu-0.3.1.tar.gz]
+[2024-04-08 06:48:35] INFO root fetch - main [MainThread]: End processing [dalpha-ai-cpu]: success
+[2024-04-08 06:48:35] INFO root fetch - processPackages [GOES]: Remove: archive file [/home/abi/fetcher/tmp/GOES-3.4.tar.gz]
+[2024-04-08 06:48:35] INFO root fetch - processPackages [GOES]: Remove: archive file [/home/abi/fetcher/tmp/GOES-3.4.1.tar.gz]
+[2024-04-08 06:48:35] INFO root fetch - main [MainThread]: End processing [GOES]: success
+[2024-04-08 06:48:35] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.6-py3-none-any.whl.zip]
+[2024-04-08 06:48:35] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.7-py3-none-any.whl.zip]
+[2024-04-08 06:48:35] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-04-08 06:48:36] INFO root fetch - processPackages [feapder]: Remove: archive file [/home/abi/fetcher/tmp/feapder-1.9.0b2.tar.gz]
+[2024-04-08 06:48:36] INFO root fetch - processPackages [feapder]: Remove: archive file [/home/abi/fetcher/tmp/feapder-1.9.1b1.tar.gz]
+[2024-04-08 06:48:36] INFO root fetch - main [MainThread]: End processing [feapder]: success
+[2024-04-08 06:48:36] INFO root fetch - main [MainThread]: Store serial: [22662407]
