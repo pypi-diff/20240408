@@ -10721,3 +10721,9 @@
 [2024-04-08 08:46:42] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
 [2024-04-08 08:46:42] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
 [2024-04-08 08:46:42] INFO root fetch - main [MainThread]: Store serial: [22663135]
+[2024-04-08 08:48:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663135]
+[2024-04-08 08:48:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 08:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syllogistic
+[2024-04-08 08:48:50] WARNING root fetch - processPackages [syllogistic]: Skipping, unable to determine old version
+[2024-04-08 08:48:50] INFO root fetch - main [MainThread]: End processing [syllogistic] error
+[2024-04-08 08:48:50] INFO root fetch - main [MainThread]: Store serial: [22663140]
