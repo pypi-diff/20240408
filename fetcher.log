@@ -17156,3 +17156,56 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:29:30] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.nmr-0.34.tar.gz]
 [2024-04-08 12:29:30] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.nmr]: success
 [2024-04-08 12:29:30] INFO root fetch - main [MainThread]: Store serial: [22665688]
+[2024-04-08 12:31:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665688]
+[2024-04-08 12:31:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 12:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imax
+[2024-04-08 12:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monviso
+[2024-04-08 12:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iamlistening
+[2024-04-08 12:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mergoo
+[2024-04-08 12:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocdiff
+[2024-04-08 12:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hybrid-model-for-russian-sentiment-analysis
+[2024-04-08 12:31:41] WARNING root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: Skipping, unable to determine old version
+[2024-04-08 12:31:41] INFO root fetch - main [MainThread]: End processing [hybrid-model-for-russian-sentiment-analysis] error
+[2024-04-08 12:31:41] INFO root fetch - processPackages [ocdiff]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 12:31:41] INFO root fetch - processPackages [iamlistening]: New version: [5.1.6] Old Version: [5.1.5]
+[2024-04-08 12:31:41] WARNING root fetch - processPackages [mergoo]: Skipping, unable to determine old version
+[2024-04-08 12:31:41] INFO root fetch - main [MainThread]: End processing [mergoo] error
+[2024-04-08 12:31:41] INFO root fetch - processPackages [monviso]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 12:31:41] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/92/46/d2d69e1a839bf5643f921aed5e95527382dc8674068b50d300ca3ce71af0/iamlistening-5.1.5.tar.gz
+[2024-04-08 12:31:41] INFO root fetch - processPackages [imax]: New version: [0.0.1b8] Old Version: [0.0.1b7]
+[2024-04-08 12:31:41] INFO root fetch - processPackages [ocdiff]: Downloading https://files.pythonhosted.org/packages/a5/e8/f661afc1122796290ceb5e285a8427a52c8749d1937f628a995753267994/ocdiff-0.0.5.tar.gz
+[2024-04-08 12:31:41] INFO root fetch - processPackages [imax]: Downloading https://files.pythonhosted.org/packages/49/27/42a560c451449251f44ba70e426ae27359ed0ce67187fafa414ff7d4604b/imax-0.0.1b7.tar.gz
+[2024-04-08 12:31:41] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/a9/8a/5e0b13546e06575e97edb83d18a080950186d4c4aca8614bf8f2934499c4/monviso-0.1.1.tar.gz
+[2024-04-08 12:31:41] WARNING root fetch - processPackages [ocdiff]: Timeout reached during download
+[2024-04-08 12:31:41] WARNING root fetch - processPackages [iamlistening]: Timeout reached during download
+[2024-04-08 12:31:42] WARNING root fetch - processPackages [imax]: Timeout reached during download
+[2024-04-08 12:31:42] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/2c/68/4f9f5cee2e1006fea409c776c6546cc53765490e14523d56a65dc9f77f0f/iamlistening-5.1.6.tar.gz
+[2024-04-08 12:31:42] WARNING root fetch - processPackages [monviso]: Timeout reached during download
+[2024-04-08 12:31:42] INFO root fetch - processPackages [ocdiff]: Downloading https://files.pythonhosted.org/packages/93/05/f19786a45157f799cdb7f17e5380406d719e4937ddafea9e253b3d9c8a04/ocdiff-0.0.6.tar.gz
+[2024-04-08 12:31:42] WARNING root fetch - processPackages [iamlistening]: Timeout reached during download
+[2024-04-08 12:31:42] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2024-04-08 12:31:42] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-5.1.5.tar.gz tmp/iamlistening-5.1.6.tar.gz --markdown 20240408/i/iamlistening/5.1.5-5.1.6/diff.md --exclude *.pyd
+[2024-04-08 12:31:42] INFO root fetch - processPackages [imax]: Downloading https://files.pythonhosted.org/packages/60/1f/044752eb6af10797f48cb3624ace9c2713f60171d1c500ca9fa8806d221d/imax-0.0.1b8.tar.gz
+[2024-04-08 12:31:42] WARNING root fetch - processPackages [ocdiff]: Timeout reached during download
+[2024-04-08 12:31:42] INFO root fetch - processPackages [ocdiff]: executing diffoscope
+[2024-04-08 12:31:42] INFO root fetch - processPackages [ocdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdiff-0.0.5.tar.gz tmp/ocdiff-0.0.6.tar.gz --markdown 20240408/o/ocdiff/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 12:31:42] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/bc/a6/35fb556c021c4a446444f944874d22d3c1809ef5ef8be68d09677cc56b02/monviso-0.1.2.tar.gz
+[2024-04-08 12:31:42] WARNING root fetch - processPackages [imax]: Timeout reached during download
+[2024-04-08 12:31:42] INFO root fetch - processPackages [imax]: executing diffoscope
+[2024-04-08 12:31:42] INFO root fetch - processPackages [imax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imax-0.0.1b7.tar.gz tmp/imax-0.0.1b8.tar.gz --markdown 20240408/i/imax/0.0.1b7-0.0.1b8/diff.md --exclude *.pyd
+[2024-04-08 12:31:42] WARNING root fetch - processPackages [monviso]: Timeout reached during download
+[2024-04-08 12:31:42] INFO root fetch - processPackages [monviso]: executing diffoscope
+[2024-04-08 12:31:42] INFO root fetch - processPackages [monviso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monviso-0.1.1.tar.gz tmp/monviso-0.1.2.tar.gz --markdown 20240408/m/monviso/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 12:31:42] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.5.tar.gz]
+[2024-04-08 12:31:42] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.6.tar.gz]
+[2024-04-08 12:31:42] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2024-04-08 12:31:43] INFO root fetch - processPackages [ocdiff]: Remove: archive file [/home/abi/fetcher/tmp/ocdiff-0.0.5.tar.gz]
+[2024-04-08 12:31:43] INFO root fetch - processPackages [ocdiff]: Remove: archive file [/home/abi/fetcher/tmp/ocdiff-0.0.6.tar.gz]
+[2024-04-08 12:31:43] INFO root fetch - main [MainThread]: End processing [ocdiff]: success
+[2024-04-08 12:31:43] INFO root fetch - processPackages [imax]: Remove: archive file [/home/abi/fetcher/tmp/imax-0.0.1b7.tar.gz]
+[2024-04-08 12:31:43] INFO root fetch - processPackages [imax]: Remove: archive file [/home/abi/fetcher/tmp/imax-0.0.1b8.tar.gz]
+[2024-04-08 12:31:43] INFO root fetch - main [MainThread]: End processing [imax]: success
+[2024-04-08 12:31:43] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.1.tar.gz]
+[2024-04-08 12:31:43] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.2.tar.gz]
+[2024-04-08 12:31:43] INFO root fetch - main [MainThread]: End processing [monviso]: success
+[2024-04-08 12:31:43] INFO root fetch - main [MainThread]: Store serial: [22665707]
