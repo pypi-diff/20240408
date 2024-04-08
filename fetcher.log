@@ -1637,3 +1637,23 @@
 [2024-04-08 02:08:14] WARNING root fetch - processPackages [wii-music-editor]: Skipping package: exceeds size limit 35454323>=10485760
 [2024-04-08 02:08:14] INFO root fetch - main [MainThread]: End processing [wii-music-editor] error
 [2024-04-08 02:08:14] INFO root fetch - main [MainThread]: Store serial: [22660227]
+[2024-04-08 02:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660227]
+[2024-04-08 02:10:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 02:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chesscli-guav
+[2024-04-08 02:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-nightly
+[2024-04-08 02:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chesscli
+[2024-04-08 02:10:24] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404070011] Old Version: [4.1.6.dev202404060009]
+[2024-04-08 02:10:24] WARNING root fetch - processPackages [chesscli]: Skipping, unable to determine old version
+[2024-04-08 02:10:24] INFO root fetch - main [MainThread]: End processing [chesscli] error
+[2024-04-08 02:10:24] WARNING root fetch - processPackages [chesscli-guav]: Skipping, unable to determine old version
+[2024-04-08 02:10:24] INFO root fetch - main [MainThread]: End processing [chesscli-guav] error
+[2024-04-08 02:10:24] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/144c987f67a83b12225b5443917d32f2c59e71518300b5dc4b0e37f52658/openbb_nightly-4.1.6.dev202404060009.tar.gz
+[2024-04-08 02:10:24] WARNING root fetch - processPackages [openbb-nightly]: Timeout reached during download
+[2024-04-08 02:10:25] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b4/7ab8cb21e92ee4afb7ab45aee73ea77e5a03e567caf846e208ae320a2684/openbb_nightly-4.1.6.dev202404070011.tar.gz
+[2024-04-08 02:10:25] WARNING root fetch - processPackages [openbb-nightly]: Timeout reached during download
+[2024-04-08 02:10:25] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-08 02:10:25] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404060009.tar.gz tmp/openbb_nightly-4.1.6.dev202404070011.tar.gz --markdown 20240408/o/openbb-nightly/4.1.6.dev202404060009-4.1.6.dev202404070011/diff.md --exclude *.pyd
+[2024-04-08 02:10:28] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404060009.tar.gz]
+[2024-04-08 02:10:28] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404070011.tar.gz]
+[2024-04-08 02:10:28] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-08 02:10:28] INFO root fetch - main [MainThread]: Store serial: [22660242]
