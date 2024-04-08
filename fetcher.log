@@ -24959,3 +24959,207 @@ EOFError: EOF read where object expected
 [2024-04-08 16:10:51] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.8.tar.gz]
 [2024-04-08 16:10:51] INFO root fetch - main [MainThread]: End processing [shdo]: success
 [2024-04-08 16:10:51] INFO root fetch - main [MainThread]: Store serial: [22668497]
+[2024-04-08 16:12:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22668497]
+[2024-04-08 16:13:01] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fractal-client
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-nd2
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tutor-contrib-k8s-deploy-tasks
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-pets
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-ometiff
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nextconsole
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-source-openjpeg
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: podpointclient
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: large-image-source-openslide
+[2024-04-08 16:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: monviso
+[2024-04-08 16:13:01] WARNING root fetch - processPackages [py-pets]: Skipping, unable to determine old version
+[2024-04-08 16:13:01] INFO root fetch - processPackages [py-pets]: Start processing: c2cwsgiutils
+[2024-04-08 16:13:01] INFO root fetch - main [MainThread]: End processing [py-pets] error
+[2024-04-08 16:13:01] INFO root fetch - processPackages [nextconsole]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [monviso]: New version: [0.1.2.2] Old Version: [0.1.2]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [large-image-source-nd2]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [podpointclient]: New version: [1.6.0a4] Old Version: [1.6.0a3]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [fractal-client]: New version: [2.0.0a0] Old Version: [1.4.4]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [large-image-source-openjpeg]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [large-image-source-openslide]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [large-image-source-ometiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/6a/9d/92073db7ab07a2429923dc08043c9dade00e09900ca432d3ec9f05bf0751/nextconsole-0.0.4-py3-none-any.whl
+[2024-04-08 16:13:01] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: New version: [17.0.4] Old Version: [17.0.3]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-08 16:13:01] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/1a/29/7390d858dfa6f7980312cb40b7706fbad943f78bf477bf6315522dafc015/large-image-source-nd2-1.9.1.dev6.tar.gz
+[2024-04-08 16:13:01] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/65/d0/364653e2aee12e1d88243f65fd12d1fd0d6cb338e0514531ff54b3ede4ba/podpointclient-1.6.0a3.tar.gz
+[2024-04-08 16:13:01] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/2f/5b/1fa5e7d299f111aa1c84c910b5ae23ff0beb6ca3b87c79cf293f658a2f24/fractal_client-1.4.4.tar.gz
+[2024-04-08 16:13:01] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/95/ea/1df84324de3d3648afee1380dfe201cc2df04f407dc2811e7244e4f911d8/large-image-source-openjpeg-1.9.1.dev6.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/e8/92/40431cff52dd08697018589d4cd716496dc3b1a45d50f232d8d37f735798/large-image-source-ometiff-1.9.1.dev6.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/bc/a6/35fb556c021c4a446444f944874d22d3c1809ef5ef8be68d09677cc56b02/monviso-0.1.2.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/73/2c/cb5bcd12f494516af0965d8399bae2e5b62d6c0afc01da7b16b2ebef69c2/large-image-source-openslide-1.9.1.dev6.tar.gz
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [large-image-source-nd2]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Downloading https://files.pythonhosted.org/packages/76/c3/39edb8942a15884673f1955e65ff6ff443abad75de1136900a6f56cd4562/tutor-contrib-k8s-deploy-tasks-17.0.3.tar.gz
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [large-image-source-openjpeg]: Timeout reached during download
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [fractal-client]: Timeout reached during download
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [large-image-source-ometiff]: Timeout reached during download
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [large-image-source-openslide]: Timeout reached during download
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [monviso]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/ad/f8/3502ff8bc248720e7d34dd0ec2e965aa195b277d9c5226faacc36b518157/nextconsole-0.0.5-py3-none-any.whl
+[2024-04-08 16:13:02] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/a9/9e/c0f999925aead48ca8e30128d3351a5014413b038802edf9aed7908649bc/podpointclient-1.6.0a4.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/b7/c9/95c7e2154104780b160e9968dd9863f2de88d77a5986bc280d05e4811ebd/large-image-source-openjpeg-1.9.1.dev8.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/f1/cb/52da6f83840e3fc60f8f9cbeedd8b1900adb14c376113e0d77a591723ba5/fractal_client-2.0.0a0.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/e2/73/86ec6d93de63690b5e2a8a2f6fc98fce9a12e4da38b4cfc37f1188c0240c/large-image-source-nd2-1.9.1.dev8.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/8f/73/a25300dd64f045a5c3bad6c454d98e1d7dc0728d40536c8ec22fe913f92b/large-image-source-ometiff-1.9.1.dev8.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/f0/7e/d45a7c8f1888ff585bf418622f627fb048aaa7ed8d8e2b8d7e97a3c27f8e/large-image-source-openslide-1.9.1.dev8.tar.gz
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-08 16:13:02] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.4-py3-none-any.whl.zip tmp/nextconsole-0.0.5-py3-none-any.whl.zip --markdown 20240408/n/nextconsole/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Timeout reached during download
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [large-image-source-openjpeg]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-openjpeg]: executing diffoscope
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-openjpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-openjpeg/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:13:02] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/33/50/6e5de2dbf0da2f02ac177c687442cce0409c461cfee2b49dc854a977d1bb/monviso-0.1.2.2.tar.gz
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [fractal-client]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [fractal-client]: executing diffoscope
+[2024-04-08 16:13:02] INFO root fetch - processPackages [fractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_client-1.4.4.tar.gz tmp/fractal_client-2.0.0a0.tar.gz --markdown 20240408/f/fractal-client/1.4.4-2.0.0a0/diff.md --exclude *.pyd
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [large-image-source-ometiff]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-ometiff]: executing diffoscope
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-ometiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-ometiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [large-image-source-openslide]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-openslide]: executing diffoscope
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [large-image-source-nd2]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-openslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openslide-1.9.1.dev6.tar.gz tmp/large-image-source-openslide-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-openslide/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-nd2]: executing diffoscope
+[2024-04-08 16:13:02] INFO root fetch - processPackages [large-image-source-nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-nd2-1.9.1.dev6.tar.gz tmp/large-image-source-nd2-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-nd2/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [c2cwsgiutils]: Timeout reached during download
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [podpointclient]: executing diffoscope
+[2024-04-08 16:13:02] INFO root fetch - processPackages [podpointclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podpointclient-1.6.0a3.tar.gz tmp/podpointclient-1.6.0a4.tar.gz --markdown 20240408/p/podpointclient/1.6.0a3-1.6.0a4/diff.md --exclude *.pyd
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [monviso]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [monviso]: executing diffoscope
+[2024-04-08 16:13:02] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Downloading https://files.pythonhosted.org/packages/de/16/43e94db5916e6382d92b9ac22a4fa16a0ae4e9944da727a9343f12e77815/tutor-contrib-k8s-deploy-tasks-17.0.4.tar.gz
+[2024-04-08 16:13:02] INFO root fetch - processPackages [monviso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monviso-0.1.2.tar.gz tmp/monviso-0.1.2.2.tar.gz --markdown 20240408/m/monviso/0.1.2-0.1.2.2/diff.md --exclude *.pyd
+[2024-04-08 16:13:02] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-08 16:13:02] WARNING root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Timeout reached during download
+[2024-04-08 16:13:02] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: executing diffoscope
+[2024-04-08 16:13:02] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-k8s-deploy-tasks-17.0.3.tar.gz tmp/tutor-contrib-k8s-deploy-tasks-17.0.4.tar.gz --markdown 20240408/t/tutor-contrib-k8s-deploy-tasks/17.0.3-17.0.4/diff.md --exclude *.pyd
+[2024-04-08 16:13:03] WARNING root fetch - processPackages [c2cwsgiutils]: Timeout reached during download
+[2024-04-08 16:13:03] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-08 16:13:03] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240408/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-openjpeg]: Start processing: large-image-source-pil
+[2024-04-08 16:13:03] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
+[2024-04-08 16:13:03] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.4.4.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-2.0.0a0.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [fractal-client]: Start processing: large-image-source-rasterio
+[2024-04-08 16:13:03] INFO root fetch - main [MainThread]: End processing [fractal-client]: success
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.4-py3-none-any.whl.zip]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.5-py3-none-any.whl.zip]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [nextconsole]: Start processing: large-image-source-test
+[2024-04-08 16:13:03] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev6.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev8.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-nd2]: Start processing: volcano-cooking
+[2024-04-08 16:13:03] INFO root fetch - main [MainThread]: End processing [large-image-source-nd2]: success
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/62/43/ee7dff22ed2010638ae04420c847d0eeeffd3ec95c15aef5dd78c0f9de79/large-image-source-pil-1.9.1.dev6.tar.gz
+[2024-04-08 16:13:03] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.6.0a3.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.6.0a4.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [podpointclient]: Start processing: large-image-source-tiff
+[2024-04-08 16:13:03] INFO root fetch - main [MainThread]: End processing [podpointclient]: success
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/e5/4d/54a12df265960b44e9ac353de8a91ac62e1494d0cf64b394b4246868ccde/large-image-source-rasterio-1.27.5.dev8.tar.gz
+[2024-04-08 16:13:03] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.2.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.2.2.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [monviso]: Start processing: tutor-contrib-aspects
+[2024-04-08 16:13:03] INFO root fetch - main [MainThread]: End processing [monviso]: success
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev6.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev8.tar.gz]
+[2024-04-08 16:13:03] INFO root fetch - processPackages [large-image-source-openslide]: Start processing: large-image-source-tifffile
+[2024-04-08 16:13:03] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
+[2024-04-08 16:13:03] INFO root fetch - processPackages [volcano-cooking]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/8d/5f/0655a339ab1bb6dda15d0c4e174a5c2f0eae690a497018f912f490f67c26/large-image-source-test-1.9.1.dev6.tar.gz
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz]
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz]
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-ometiff]: Start processing: large-image-source-vips
+[2024-04-08 16:13:04] INFO root fetch - main [MainThread]: End processing [large-image-source-ometiff]: success
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:13:04] INFO root fetch - processPackages [tutor-contrib-aspects]: New version: [0.94.0] Old Version: [0.93.0]
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-pil]: Timeout reached during download
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-rasterio]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/43/7e/a87cb87b4ceee6672d61babd68675fe30fa19e5a9ce41be12db36ccbeabe/large-image-source-tifffile-1.27.5.dev8.tar.gz
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-test]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2024-04-08 16:13:04] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-k8s-deploy-tasks-17.0.3.tar.gz]
+[2024-04-08 16:13:04] INFO root fetch - processPackages [tutor-contrib-k8s-deploy-tasks]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-k8s-deploy-tasks-17.0.4.tar.gz]
+[2024-04-08 16:13:04] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-08 16:13:04] INFO root fetch - main [MainThread]: End processing [tutor-contrib-k8s-deploy-tasks]: success
+[2024-04-08 16:13:04] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-08 16:13:04] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/51/73/2b201201e4bd4d42037d602dc35d468eba8131dce691debda3e43e3817f7/large-image-source-pil-1.9.1.dev8.tar.gz
+[2024-04-08 16:13:04] INFO root fetch - processPackages [volcano-cooking]: Downloading https://files.pythonhosted.org/packages/14/c1/8d12341ee25e73fc00e7fddfc93d1f6c85cc924b2b12abd6b4b0b3b119da/volcano_cooking-0.9.2.tar.gz
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/1b/ee/fa403b8ef136422c7bba62d5464a717873da2f9acb2670ff9fe843e6516f/large-image-source-rasterio-1.27.5.dev99.tar.gz
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/42/8b/8e5ed63322e9cd80876e689358f0022376b17993a71418eff701a5a95998/large-image-source-vips-1.27.5.dev8.tar.gz
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-tifffile]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/6c/52/b863313751b2cf1efc96557c639944027ef1db00dedd386ad79707764cfe/large-image-source-test-1.9.1.dev8.tar.gz
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-tiff]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/b8/41/dc1428e5a65ce9dee8bbe29aac935969b71e3b0a9cdc3fc43c1820bebf74/tutor-contrib-aspects-0.93.0.tar.gz
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-rasterio]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.27.5.dev8.tar.gz tmp/large-image-source-rasterio-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-rasterio/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-pil]: Timeout reached during download
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-vips]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/95/8c/c99351c4aaed907960d6897d10c50126cc94f3b40996c1dc466be59d91ae/large-image-source-tifffile-1.27.5.dev99.tar.gz
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/43/30/ac1e3f35fa139e0e7beface4bccf9d9ada9ba2bc021d659a6898b48f4541/large-image-source-vips-1.27.5.dev99.tar.gz
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-test]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [volcano-cooking]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [tutor-contrib-aspects]: Timeout reached during download
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-tifffile]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.27.5.dev8.tar.gz tmp/large-image-source-tifffile-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-tifffile/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-vips]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.27.5.dev8.tar.gz tmp/large-image-source-vips-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-vips/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:13:04] WARNING root fetch - processPackages [large-image-source-tiff]: Timeout reached during download
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2024-04-08 16:13:04] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:13:04] INFO root fetch - processPackages [volcano-cooking]: Downloading https://files.pythonhosted.org/packages/14/de/714d18dec715e8558897a80b0c72431bf5bfc41728e6c0d84be90960a545/volcano_cooking-0.9.3.tar.gz
+[2024-04-08 16:13:04] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/8e/c4/43e4c7c0e7af088a50989c529ae4b8c28c33278e718674ed34807f91a59b/tutor-contrib-aspects-0.94.0.tar.gz
+[2024-04-08 16:13:05] WARNING root fetch - processPackages [tutor-contrib-aspects]: Timeout reached during download
+[2024-04-08 16:13:05] INFO root fetch - processPackages [tutor-contrib-aspects]: executing diffoscope
+[2024-04-08 16:13:05] INFO root fetch - processPackages [tutor-contrib-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-aspects-0.93.0.tar.gz tmp/tutor-contrib-aspects-0.94.0.tar.gz --markdown 20240408/t/tutor-contrib-aspects/0.93.0-0.94.0/diff.md --exclude *.pyd
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev6.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev8.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev6.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev8.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.27.5.dev8.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.27.5.dev99.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.27.5.dev8.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.27.5.dev99.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.27.5.dev8.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.27.5.dev99.tar.gz]
+[2024-04-08 16:13:05] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-04-08 16:13:05] WARNING root fetch - processPackages [volcano-cooking]: Timeout reached during download
+[2024-04-08 16:13:05] INFO root fetch - processPackages [volcano-cooking]: executing diffoscope
+[2024-04-08 16:13:05] INFO root fetch - processPackages [volcano-cooking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcano_cooking-0.9.2.tar.gz tmp/volcano_cooking-0.9.3.tar.gz --markdown 20240408/v/volcano-cooking/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-08 16:13:06] INFO root fetch - processPackages [volcano-cooking]: Remove: archive file [/home/abi/fetcher/tmp/volcano_cooking-0.9.2.tar.gz]
+[2024-04-08 16:13:06] INFO root fetch - processPackages [volcano-cooking]: Remove: archive file [/home/abi/fetcher/tmp/volcano_cooking-0.9.3.tar.gz]
+[2024-04-08 16:13:06] INFO root fetch - main [MainThread]: End processing [volcano-cooking]: success
+[2024-04-08 16:13:06] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.93.0.tar.gz]
+[2024-04-08 16:13:06] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.94.0.tar.gz]
+[2024-04-08 16:13:06] INFO root fetch - main [MainThread]: End processing [tutor-contrib-aspects]: success
+[2024-04-08 16:13:06] INFO root fetch - main [MainThread]: Store serial: [22668552]
