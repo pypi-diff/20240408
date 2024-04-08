@@ -2904,3 +2904,34 @@
 [2024-04-08 03:47:26] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-1.1.3.tar.gz]
 [2024-04-08 03:47:26] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
 [2024-04-08 03:47:26] INFO root fetch - main [MainThread]: Store serial: [22660694]
+[2024-04-08 03:49:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660694]
+[2024-04-08 03:49:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 03:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prodpadlm-client
+[2024-04-08 03:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: landborn
+[2024-04-08 03:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pluggy-sdk
+[2024-04-08 03:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jax-tools
+[2024-04-08 03:49:36] INFO root fetch - processPackages [landborn]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-08 03:49:36] INFO root fetch - processPackages [landborn]: Downloading https://files.pythonhosted.org/packages/2d/25/525fad92c2e69bf0eaa96bb3d1ccfe479f7ee30122ad42a637d530487479/landborn-0.2.4.tar.gz
+[2024-04-08 03:49:36] WARNING root fetch - processPackages [pluggy-sdk]: Skipping, unable to determine old version
+[2024-04-08 03:49:36] INFO root fetch - main [MainThread]: End processing [pluggy-sdk] error
+[2024-04-08 03:49:36] WARNING root fetch - processPackages [prodpadlm-client]: Skipping, unable to determine old version
+[2024-04-08 03:49:36] INFO root fetch - main [MainThread]: End processing [prodpadlm-client] error
+[2024-04-08 03:49:36] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-04-08 03:49:36] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-04-08 03:49:36] WARNING root fetch - processPackages [landborn]: Timeout reached during download
+[2024-04-08 03:49:36] INFO root fetch - processPackages [landborn]: Downloading https://files.pythonhosted.org/packages/77/71/ef68d55eb0dfb85020318c6a3272b7a257a0b0519d65633c264d8d70e93b/landborn-0.2.5.tar.gz
+[2024-04-08 03:49:36] WARNING root fetch - processPackages [jax-tools]: Timeout reached during download
+[2024-04-08 03:49:36] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-04-08 03:49:36] WARNING root fetch - processPackages [landborn]: Timeout reached during download
+[2024-04-08 03:49:36] INFO root fetch - processPackages [landborn]: executing diffoscope
+[2024-04-08 03:49:36] INFO root fetch - processPackages [landborn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landborn-0.2.4.tar.gz tmp/landborn-0.2.5.tar.gz --markdown 20240408/l/landborn/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-08 03:49:36] WARNING root fetch - processPackages [jax-tools]: Timeout reached during download
+[2024-04-08 03:49:36] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-04-08 03:49:36] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240408/j/jax-tools/1.0.89-1.0.97/diff.md --exclude *.pyd
+[2024-04-08 03:49:37] INFO root fetch - processPackages [landborn]: Remove: archive file [/home/abi/fetcher/tmp/landborn-0.2.4.tar.gz]
+[2024-04-08 03:49:37] INFO root fetch - processPackages [landborn]: Remove: archive file [/home/abi/fetcher/tmp/landborn-0.2.5.tar.gz]
+[2024-04-08 03:49:37] INFO root fetch - main [MainThread]: End processing [landborn]: success
+[2024-04-08 03:49:37] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-04-08 03:49:37] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-04-08 03:49:37] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-04-08 03:49:37] INFO root fetch - main [MainThread]: Store serial: [22660727]
