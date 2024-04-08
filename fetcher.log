@@ -1558,3 +1558,44 @@
 [2024-04-08 02:03:52] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240407.tar.gz]
 [2024-04-08 02:03:52] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-04-08 02:03:52] INFO root fetch - main [MainThread]: Store serial: [22660197]
+[2024-04-08 02:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660197]
+[2024-04-08 02:06:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 02:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2024-04-08 02:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2024-04-08 02:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codist
+[2024-04-08 02:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wxPythonMeticy
+[2024-04-08 02:06:01] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-08 02:06:01] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240407.442] Old Version: [2.0.0.20240406.415]
+[2024-04-08 02:06:01] INFO root fetch - processPackages [codist]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-08 02:06:01] INFO root fetch - processPackages [wxPythonMeticy]: New version: [2024.4.7.0] Old Version: [2024.3.14.10]
+[2024-04-08 02:06:01] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/20/00/103b399ede16d38170a6d52df1229713fc48fbc488a0801319b434c5991c/mct-nightly-2.0.0.20240406.415.tar.gz
+[2024-04-08 02:06:01] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-08 02:06:01] INFO root fetch - processPackages [codist]: Downloading https://files.pythonhosted.org/packages/4a/d1/074b6594a96ec202af95b096c9daef8fcdddba85b63bbd28ba760161176c/codist-0.1.2.tar.gz
+[2024-04-08 02:06:01] INFO root fetch - processPackages [wxPythonMeticy]: Downloading https://files.pythonhosted.org/packages/a1/5e/0797397bf9ce1f71d99d839704c31ef6bb4a33b817022ca5347be1000193/wxPythonMeticy-2024.3.14.10.tar.gz
+[2024-04-08 02:06:01] WARNING root fetch - processPackages [mct-nightly]: Timeout reached during download
+[2024-04-08 02:06:01] WARNING root fetch - processPackages [jaxkern-nightly]: Timeout reached during download
+[2024-04-08 02:06:01] WARNING root fetch - processPackages [codist]: Timeout reached during download
+[2024-04-08 02:06:01] WARNING root fetch - processPackages [wxPythonMeticy]: Skipping package: exceeds size limit 51490996>=10485760
+[2024-04-08 02:06:01] INFO root fetch - main [MainThread]: End processing [wxPythonMeticy] error
+[2024-04-08 02:06:01] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-08 02:06:01] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/04/7e/07a65ed2174487be4bcb73fce390ad440a98289ea728285b3879e109e6eb/mct-nightly-2.0.0.20240407.442.tar.gz
+[2024-04-08 02:06:01] WARNING root fetch - processPackages [jaxkern-nightly]: Timeout reached during download
+[2024-04-08 02:06:01] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-08 02:06:01] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240408/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2024-04-08 02:06:01] INFO root fetch - processPackages [codist]: Downloading https://files.pythonhosted.org/packages/46/d1/bbcb27491b2142c48153134db888b6c0989d7f2cf2aa61313a899e179bba/codist-0.2.0.tar.gz
+[2024-04-08 02:06:02] WARNING root fetch - processPackages [mct-nightly]: Timeout reached during download
+[2024-04-08 02:06:02] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-08 02:06:02] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240406.415.tar.gz tmp/mct-nightly-2.0.0.20240407.442.tar.gz --markdown 20240408/m/mct-nightly/2.0.0.20240406.415-2.0.0.20240407.442/diff.md --exclude *.pyd
+[2024-04-08 02:06:02] WARNING root fetch - processPackages [codist]: Timeout reached during download
+[2024-04-08 02:06:02] INFO root fetch - processPackages [codist]: executing diffoscope
+[2024-04-08 02:06:02] INFO root fetch - processPackages [codist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codist-0.1.2.tar.gz tmp/codist-0.2.0.tar.gz --markdown 20240408/c/codist/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2024-04-08 02:06:02] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-08 02:06:02] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-08 02:06:02] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-08 02:06:02] INFO root fetch - processPackages [codist]: Remove: archive file [/home/abi/fetcher/tmp/codist-0.1.2.tar.gz]
+[2024-04-08 02:06:02] INFO root fetch - processPackages [codist]: Remove: archive file [/home/abi/fetcher/tmp/codist-0.2.0.tar.gz]
+[2024-04-08 02:06:02] INFO root fetch - main [MainThread]: End processing [codist]: success
+[2024-04-08 02:06:04] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240406.415.tar.gz]
+[2024-04-08 02:06:04] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240407.442.tar.gz]
+[2024-04-08 02:06:04] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-08 02:06:04] INFO root fetch - main [MainThread]: Store serial: [22660208]
