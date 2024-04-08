@@ -11448,3 +11448,75 @@
 [2024-04-08 09:16:17] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-08 09:16:17] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-08 09:16:17] INFO root fetch - main [MainThread]: Store serial: [22663374]
+[2024-04-08 09:18:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663374]
+[2024-04-08 09:18:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 09:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vidstreammmjka
+[2024-04-08 09:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Chameleon
+[2024-04-08 09:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trailblazer
+[2024-04-08 09:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipython-ngql
+[2024-04-08 09:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tidal-per-transformers
+[2024-04-08 09:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Leonardo-Ai-SDK
+[2024-04-08 09:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyter-nebulagraph
+[2024-04-08 09:18:27] WARNING root fetch - processPackages [vidstreammmjka]: Skipping, unable to determine old version
+[2024-04-08 09:18:27] INFO root fetch - main [MainThread]: End processing [vidstreammmjka] error
+[2024-04-08 09:18:27] INFO root fetch - processPackages [Chameleon]: New version: [4.5.3] Old Version: [4.5.2]
+[2024-04-08 09:18:27] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 09:18:27] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.11.0]
+[2024-04-08 09:18:27] INFO root fetch - processPackages [tidal-per-transformers]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 09:18:27] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.3] Old Version: [5.3.2]
+[2024-04-08 09:18:27] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-04-08 09:18:28] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/a0/2f/5971edc3ed1355273d81d1cc46763c4465134231042197714ff7cd9426da/jupyter_nebulagraph-0.11.0.tar.gz
+[2024-04-08 09:18:28] INFO root fetch - processPackages [Chameleon]: Downloading https://files.pythonhosted.org/packages/aa/ec/6f18b5ec9b7e69c25cd9f6d515df98dbbd9a0792ce76a610c0fb145608f3/Chameleon-4.5.2.tar.gz
+[2024-04-08 09:18:28] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-04-08 09:18:28] INFO root fetch - processPackages [tidal-per-transformers]: Downloading https://files.pythonhosted.org/packages/e5/79/8894d49ce0ac3219f16fcb3acb08b429b6a2791c298c75e36fe11544ee7f/tidal_per_transformers-0.1.1.tar.gz
+[2024-04-08 09:18:28] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/07/6f/1b25ac479127ee5723dd1eb3016e79e7ec8037ea44bb16d793765e53ff1f/Leonardo-Ai-SDK-5.3.2.tar.gz
+[2024-04-08 09:18:28] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [Chameleon]: Timeout reached during download
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [ipython-ngql]: Timeout reached during download
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [Leonardo-Ai-SDK]: Timeout reached during download
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [jupyter-nebulagraph]: Timeout reached during download
+[2024-04-08 09:18:28] INFO root fetch - processPackages [Chameleon]: Downloading https://files.pythonhosted.org/packages/98/7d/1a2cd1e784ff04bace1d8b740eec76753d726634dccb3ca86c28608ec394/Chameleon-4.5.3.tar.gz
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [tidal-per-transformers]: Timeout reached during download
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [trailblazer]: Timeout reached during download
+[2024-04-08 09:18:28] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/4e/1b/3afea7c203988f2ec2a2d09febdce512ab9c453a41af98a9bbca5f2a9a08/Leonardo-Ai-SDK-5.3.3.tar.gz
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [Chameleon]: Timeout reached during download
+[2024-04-08 09:18:28] INFO root fetch - processPackages [Chameleon]: executing diffoscope
+[2024-04-08 09:18:28] INFO root fetch - processPackages [Chameleon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chameleon-4.5.2.tar.gz tmp/Chameleon-4.5.3.tar.gz --markdown 20240408/C/Chameleon/4.5.2-4.5.3/diff.md --exclude *.pyd
+[2024-04-08 09:18:28] INFO root fetch - processPackages [tidal-per-transformers]: Downloading https://files.pythonhosted.org/packages/d2/d6/de8ae4c9f39616705c3c0ac87088efe74b2c2562a20566debc4ea3c487a7/tidal_per_transformers-0.1.2.tar.gz
+[2024-04-08 09:18:28] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-04-08 09:18:28] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-04-08 09:18:28] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [ipython-ngql]: Timeout reached during download
+[2024-04-08 09:18:28] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-04-08 09:18:28] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240408/i/ipython-ngql/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [Leonardo-Ai-SDK]: Timeout reached during download
+[2024-04-08 09:18:28] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-04-08 09:18:28] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.3.2.tar.gz tmp/Leonardo-Ai-SDK-5.3.3.tar.gz --markdown 20240408/L/Leonardo-Ai-SDK/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [jupyter-nebulagraph]: Timeout reached during download
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [tidal-per-transformers]: Timeout reached during download
+[2024-04-08 09:18:28] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-04-08 09:18:28] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.11.0.tar.gz tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240408/j/jupyter-nebulagraph/0.11.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 09:18:28] INFO root fetch - processPackages [tidal-per-transformers]: executing diffoscope
+[2024-04-08 09:18:28] INFO root fetch - processPackages [tidal-per-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_per_transformers-0.1.1.tar.gz tmp/tidal_per_transformers-0.1.2.tar.gz --markdown 20240408/t/tidal-per-transformers/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 09:18:28] WARNING root fetch - processPackages [trailblazer]: Timeout reached during download
+[2024-04-08 09:18:28] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-04-08 09:18:28] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240408/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2024-04-08 09:18:29] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-04-08 09:18:29] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-04-08 09:18:29] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-04-08 09:18:29] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.11.0.tar.gz]
+[2024-04-08 09:18:29] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-04-08 09:18:29] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-04-08 09:18:29] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-04-08 09:18:29] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-04-08 09:18:29] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-04-08 09:18:29] INFO root fetch - processPackages [tidal-per-transformers]: Remove: archive file [/home/abi/fetcher/tmp/tidal_per_transformers-0.1.1.tar.gz]
+[2024-04-08 09:18:29] INFO root fetch - processPackages [tidal-per-transformers]: Remove: archive file [/home/abi/fetcher/tmp/tidal_per_transformers-0.1.2.tar.gz]
+[2024-04-08 09:18:29] INFO root fetch - main [MainThread]: End processing [tidal-per-transformers]: success
+[2024-04-08 09:18:30] INFO root fetch - processPackages [Chameleon]: Remove: archive file [/home/abi/fetcher/tmp/Chameleon-4.5.2.tar.gz]
+[2024-04-08 09:18:30] INFO root fetch - processPackages [Chameleon]: Remove: archive file [/home/abi/fetcher/tmp/Chameleon-4.5.3.tar.gz]
+[2024-04-08 09:18:30] INFO root fetch - main [MainThread]: End processing [Chameleon]: success
+[2024-04-08 09:18:30] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.2.tar.gz]
+[2024-04-08 09:18:30] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.3.tar.gz]
+[2024-04-08 09:18:30] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-04-08 09:18:30] INFO root fetch - main [MainThread]: Store serial: [22663395]
