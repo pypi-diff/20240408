@@ -10418,3 +10418,17 @@
 [2024-04-08 08:31:21] INFO root fetch - processPackages [bdffont]: Remove: archive file [/home/abi/fetcher/tmp/bdffont-0.0.9.tar.gz]
 [2024-04-08 08:31:21] INFO root fetch - main [MainThread]: End processing [bdffont]: success
 [2024-04-08 08:31:21] INFO root fetch - main [MainThread]: Store serial: [22663000]
+[2024-04-08 08:33:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663000]
+[2024-04-08 08:33:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 08:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aos-prov
+[2024-04-08 08:33:30] INFO root fetch - processPackages [aos-prov]: New version: [4.5.0b9] Old Version: [4.5.0b8]
+[2024-04-08 08:33:30] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/e1/51/32d67aa801eda42d9a0c95042c025b4e8aa432a9be4a9630eb32b8f47295/aos_prov-4.5.0b8-py3-none-any.whl
+[2024-04-08 08:33:31] WARNING root fetch - processPackages [aos-prov]: Timeout reached during download
+[2024-04-08 08:33:31] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/03/89/5d9410ef3bf7d3437825ec29c4d03ef42c4cf197008ff7283abe01fcd15f/aos_prov-4.5.0b9-py3-none-any.whl
+[2024-04-08 08:33:31] WARNING root fetch - processPackages [aos-prov]: Timeout reached during download
+[2024-04-08 08:33:31] INFO root fetch - processPackages [aos-prov]: executing diffoscope
+[2024-04-08 08:33:31] INFO root fetch - processPackages [aos-prov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_prov-4.5.0b8-py3-none-any.whl.zip tmp/aos_prov-4.5.0b9-py3-none-any.whl.zip --markdown 20240408/a/aos-prov/4.5.0b8-4.5.0b9/diff.md --exclude *.pyd
+[2024-04-08 08:33:32] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.5.0b8-py3-none-any.whl.zip]
+[2024-04-08 08:33:32] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.5.0b9-py3-none-any.whl.zip]
+[2024-04-08 08:33:32] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
+[2024-04-08 08:33:32] INFO root fetch - main [MainThread]: Store serial: [22663002]
