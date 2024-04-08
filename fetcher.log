@@ -18829,3 +18829,113 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:25:27] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
 [2024-04-08 13:25:27] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
 [2024-04-08 13:25:27] INFO root fetch - main [MainThread]: Store serial: [22666251]
+[2024-04-08 13:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666251]
+[2024-04-08 13:27:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: t-bug-catcher
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-mapengine
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: internal
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-rsa-auth-ui
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataTransformationsBertas
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testsolar-testtool-sdk
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-pets
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: litestar
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asosoft
+[2024-04-08 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-core-xe-21
+[2024-04-08 13:27:36] WARNING root fetch - processPackages [dataTransformationsBertas]: Skipping, unable to determine old version
+[2024-04-08 13:27:36] INFO root fetch - processPackages [dataTransformationsBertas]: Start processing: hcube
+[2024-04-08 13:27:36] INFO root fetch - main [MainThread]: End processing [dataTransformationsBertas] error
+[2024-04-08 13:27:36] INFO root fetch - processPackages [internal]: New version: [0.1.95] Old Version: [0.1.94]
+[2024-04-08 13:27:36] WARNING root fetch - processPackages [py-pets]: Skipping, unable to determine old version
+[2024-04-08 13:27:36] INFO root fetch - processPackages [py-pets]: Start processing: illuminat
+[2024-04-08 13:27:36] INFO root fetch - main [MainThread]: End processing [py-pets] error
+[2024-04-08 13:27:36] INFO root fetch - processPackages [streamlit-rsa-auth-ui]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-08 13:27:36] INFO root fetch - processPackages [django-mapengine]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-08 13:27:36] INFO root fetch - processPackages [asosoft]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-08 13:27:36] INFO root fetch - processPackages [t-bug-catcher]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-08 13:27:36] WARNING root fetch - processPackages [testsolar-testtool-sdk]: Skipping, unable to determine old version
+[2024-04-08 13:27:36] INFO root fetch - processPackages [testsolar-testtool-sdk]: Start processing: MultiGATE
+[2024-04-08 13:27:36] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk] error
+[2024-04-08 13:27:36] INFO root fetch - processPackages [litestar]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-04-08 13:27:36] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240408] Old Version: [2.5.0b20240407]
+[2024-04-08 13:27:36] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 13:27:36] INFO root fetch - processPackages [illuminat]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-08 13:27:36] INFO root fetch - processPackages [MultiGATE]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-04-08 13:27:36] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/7e/c6/6418e4c7238545b4e30f874c72aba8770024349de1857925a7bf7ed5df25/internal-0.1.94.tar.gz
+[2024-04-08 13:27:36] INFO root fetch - processPackages [django-mapengine]: Downloading https://files.pythonhosted.org/packages/fd/b0/0c7b7edc43491d81c119a589ea57feaee04e1d94a0161730d33631c07147/django_mapengine-1.4.0.tar.gz
+[2024-04-08 13:27:36] INFO root fetch - processPackages [streamlit-rsa-auth-ui]: Downloading https://files.pythonhosted.org/packages/ea/1b/e3949fdf896a7a67489a23d785ec23488e6088f87876d052bb7bf8e9f64e/streamlit-rsa-auth-ui-1.1.0.tar.gz
+[2024-04-08 13:27:36] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/80/3c/1332bb7bd76c7ecc1fc55e8a3c53039361f035bcc3278b8b302e7ec645db/illuminat-0.0.6.tar.gz
+[2024-04-08 13:27:36] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/ea/29/e8398f8156c04a33f3a76ddb11f3615cb7b770df11ce5f947513e0ac24f3/MultiGATE-0.0.6.tar.gz
+[2024-04-08 13:27:36] WARNING root fetch - processPackages [internal]: Timeout reached during download
+[2024-04-08 13:27:36] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/44/aa/9f73bb16ace7a3286c4abe9a95b8eba1637c100855653ca2015ab4c389ce/litestar-2.8.0.tar.gz
+[2024-04-08 13:27:36] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/c7/f2/3874f7b5b22243c42172f087dc2ffe159ad16ca4629180fba2b954723371/bigdl_core_xe_21-2.5.0b20240407-cp39-cp39-win_amd64.whl
+[2024-04-08 13:27:36] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46425315>=10485760
+[2024-04-08 13:27:36] INFO root fetch - processPackages [asosoft]: Downloading https://files.pythonhosted.org/packages/0a/68/b1c8f90ccd963a3b782ef895ef2372e9b7a07d486dd8a151c8ace09b33ad/asosoft-0.1.2.tar.gz
+[2024-04-08 13:27:36] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/0d/33/305612e64089caae0da4b5922096b2353158cca7a78a0a7eca5b90860fa9/t_bug_catcher-0.4.0.tar.gz
+[2024-04-08 13:27:36] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 13:27:36] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-04-08 13:27:36] WARNING root fetch - processPackages [django-mapengine]: Timeout reached during download
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/55/c1/764fe70db0f4d18f1a4553aa7d89d402dd21118e44033200f2d804b663f4/internal-0.1.95.tar.gz
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [t-bug-catcher]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [django-mapengine]: Downloading https://files.pythonhosted.org/packages/5c/32/ff12febb0af34f26a44cc8cfab268cfdf49c6f532653b4897223d0622f64/django_mapengine-1.4.1.tar.gz
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [litestar]: Timeout reached during download
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [hcube]: Timeout reached during download
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [asosoft]: Timeout reached during download
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 25408590>=10485760
+[2024-04-08 13:27:37] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [streamlit-rsa-auth-ui]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/6d/b6/1cb873f18fe05021c33b90cd610970779199199a253b4cbb55371f036fe2/MultiGATE-0.0.8.tar.gz
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [internal]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-04-08 13:27:37] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-0.1.94.tar.gz tmp/internal-0.1.95.tar.gz --markdown 20240408/i/internal/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2024-04-08 13:27:37] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/6c/ac/16fbef452383f5388bcaa8eea967b5ae73dc06c9d2c001da55d4f4ecc6ae/t_bug_catcher-0.4.1.tar.gz
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [django-mapengine]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [django-mapengine]: executing diffoscope
+[2024-04-08 13:27:37] INFO root fetch - processPackages [django-mapengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_mapengine-1.4.0.tar.gz tmp/django_mapengine-1.4.1.tar.gz --markdown 20240408/d/django-mapengine/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2024-04-08 13:27:37] INFO root fetch - processPackages [asosoft]: Downloading https://files.pythonhosted.org/packages/c1/d6/00fb8029863e349a728bfb8d355dca17112f1932a952bcdab41ec03b6490/asosoft-0.1.3.tar.gz
+[2024-04-08 13:27:37] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/3b/93/a2064e3273b761ccd964804070b0bf87bb4a2d7b615d153d154957ee300c/litestar-2.8.1.tar.gz
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [MultiGATE]: executing diffoscope
+[2024-04-08 13:27:37] INFO root fetch - processPackages [MultiGATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiGATE-0.0.6.tar.gz tmp/MultiGATE-0.0.8.tar.gz --markdown 20240408/M/MultiGATE/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2024-04-08 13:27:37] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-04-08 13:27:37] INFO root fetch - processPackages [streamlit-rsa-auth-ui]: Downloading https://files.pythonhosted.org/packages/95/68/b57762a36c1c28389367785369105e1b3b6c7cded612405ebcf3207b7e3a/streamlit-rsa-auth-ui-1.1.1.tar.gz
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [t-bug-catcher]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [t-bug-catcher]: executing diffoscope
+[2024-04-08 13:27:37] INFO root fetch - processPackages [t-bug-catcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_bug_catcher-0.4.0.tar.gz tmp/t_bug_catcher-0.4.1.tar.gz --markdown 20240408/t/t-bug-catcher/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [asosoft]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [asosoft]: executing diffoscope
+[2024-04-08 13:27:37] INFO root fetch - processPackages [asosoft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asosoft-0.1.2.tar.gz tmp/asosoft-0.1.3.tar.gz --markdown 20240408/a/asosoft/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [hcube]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-04-08 13:27:37] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240408/h/hcube/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [litestar]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [litestar]: executing diffoscope
+[2024-04-08 13:27:37] INFO root fetch - processPackages [litestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litestar-2.8.0.tar.gz tmp/litestar-2.8.1.tar.gz --markdown 20240408/l/litestar/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2024-04-08 13:27:37] WARNING root fetch - processPackages [streamlit-rsa-auth-ui]: Timeout reached during download
+[2024-04-08 13:27:37] INFO root fetch - processPackages [streamlit-rsa-auth-ui]: executing diffoscope
+[2024-04-08 13:27:37] INFO root fetch - processPackages [streamlit-rsa-auth-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-rsa-auth-ui-1.1.0.tar.gz tmp/streamlit-rsa-auth-ui-1.1.1.tar.gz --markdown 20240408/s/streamlit-rsa-auth-ui/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-08 13:27:38] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.94.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.95.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-04-08 13:27:38] INFO root fetch - processPackages [django-mapengine]: Remove: archive file [/home/abi/fetcher/tmp/django_mapengine-1.4.0.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - processPackages [django-mapengine]: Remove: archive file [/home/abi/fetcher/tmp/django_mapengine-1.4.1.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - main [MainThread]: End processing [django-mapengine]: success
+[2024-04-08 13:27:38] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.0.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.1.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - main [MainThread]: End processing [t-bug-catcher]: success
+[2024-04-08 13:27:38] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.6.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.8.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - main [MainThread]: End processing [MultiGATE]: success
+[2024-04-08 13:27:38] INFO root fetch - processPackages [asosoft]: Remove: archive file [/home/abi/fetcher/tmp/asosoft-0.1.2.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - processPackages [asosoft]: Remove: archive file [/home/abi/fetcher/tmp/asosoft-0.1.3.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - main [MainThread]: End processing [asosoft]: success
+[2024-04-08 13:27:38] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-04-08 13:27:38] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-04-08 13:27:40] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.8.0.tar.gz]
+[2024-04-08 13:27:40] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.8.1.tar.gz]
+[2024-04-08 13:27:40] INFO root fetch - main [MainThread]: End processing [litestar]: success
+[2024-04-08 13:28:56] INFO root fetch - processPackages [streamlit-rsa-auth-ui]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-rsa-auth-ui-1.1.0.tar.gz]
+[2024-04-08 13:28:56] INFO root fetch - processPackages [streamlit-rsa-auth-ui]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-rsa-auth-ui-1.1.1.tar.gz]
+[2024-04-08 13:28:56] INFO root fetch - main [MainThread]: End processing [streamlit-rsa-auth-ui]: success
+[2024-04-08 13:28:56] INFO root fetch - main [MainThread]: Store serial: [22666291]
