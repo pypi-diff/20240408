@@ -3494,3 +3494,83 @@
 [2024-04-08 04:26:57] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b7.tar.gz]
 [2024-04-08 04:26:57] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
 [2024-04-08 04:26:57] INFO root fetch - main [MainThread]: Store serial: [22660922]
+[2024-04-08 04:29:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660922]
+[2024-04-08 04:29:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 04:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-04-08 04:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaml-to-markdown
+[2024-04-08 04:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyds-cli
+[2024-04-08 04:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-04-08 04:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CtqKit
+[2024-04-08 04:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smaht-submitr
+[2024-04-08 04:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ampapi
+[2024-04-08 04:29:08] INFO root fetch - processPackages [pyds-cli]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-08 04:29:08] INFO root fetch - processPackages [yaml-to-markdown]: New version: [0.1.1712531157] Old Version: [0.1.1712460996]
+[2024-04-08 04:29:08] INFO root fetch - processPackages [lambkid]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 04:29:09] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b8] Old Version: [0.8.0.1b7]
+[2024-04-08 04:29:09] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/ef/3e/13977ddac4b21b369b62f46d54f2c93424bcff7132a990474a63723edd72/lambkid-0.1.1.tar.gz
+[2024-04-08 04:29:09] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/35/a4/0ce783de8608437c2dd70f98cdd58cbd09db07e35219f1934bcd083998b5/pyds-cli-0.4.0.tar.gz
+[2024-04-08 04:29:09] INFO root fetch - processPackages [CtqKit]: New version: [0.1.1b4] Old Version: [0.1.1b3]
+[2024-04-08 04:29:09] INFO root fetch - processPackages [ampapi]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-08 04:29:09] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/0c/b2/45c1759875a95c52ca52823e9dc19ca927aecad0c39d63dc19277f0a03ac/smaht_submitr-0.8.0.1b7.tar.gz
+[2024-04-08 04:29:09] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240408022728] Old Version: [3.3.1.dev20240405162709]
+[2024-04-08 04:29:09] INFO root fetch - processPackages [yaml-to-markdown]: Downloading https://files.pythonhosted.org/packages/05/5a/a99760c02dcf5b979422815eb0f89f75d5c9bfd4eb5d5f81390d84c3c039/yaml-to-markdown-0.1.1712460996.tar.gz
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [lambkid]: Timeout reached during download
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [pyds-cli]: Timeout reached during download
+[2024-04-08 04:29:09] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/29/ad/6fa4cd20b72262cf4204dc1ae9a1e8492c5a3e3d4dca6a579e9a68a8efa4/ctqkit-0.1.1b3.tar.gz
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [yaml-to-markdown]: Timeout reached during download
+[2024-04-08 04:29:09] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/d4/79/fe821dee368d4e438c5cb2e462b92eb15889b2ad18d1a7ab4f9b1047603b/ampapi-1.3.8.tar.gz
+[2024-04-08 04:29:09] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/16/7a/c3a3d04a8f5fb9703705793ada215d2c17762cc427db035d8b192970e35e/localstack-core-3.3.1.dev20240405162709.tar.gz
+[2024-04-08 04:29:09] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/97/03/bea64d47cf39daa1bc36aced9d54b5076e20fcf542d95d75080658cb20a5/pyds-cli-0.4.1.tar.gz
+[2024-04-08 04:29:09] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/13/86/18ba43f6e132c77beeb7cc26e7a5e380bfc6f25028204a38c2823dd44cb5/lambkid-0.1.2.tar.gz
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [CtqKit]: Timeout reached during download
+[2024-04-08 04:29:09] INFO root fetch - processPackages [yaml-to-markdown]: Downloading https://files.pythonhosted.org/packages/2f/a0/56b88e06e44f535ae0f1127d8280b151950119fa22e847e38659a9f2b58c/yaml-to-markdown-0.1.1712531157.tar.gz
+[2024-04-08 04:29:09] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [ampapi]: Timeout reached during download
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [pyds-cli]: Timeout reached during download
+[2024-04-08 04:29:09] INFO root fetch - processPackages [pyds-cli]: executing diffoscope
+[2024-04-08 04:29:09] INFO root fetch - processPackages [pyds-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyds-cli-0.4.0.tar.gz tmp/pyds-cli-0.4.1.tar.gz --markdown 20240408/p/pyds-cli/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [lambkid]: Timeout reached during download
+[2024-04-08 04:29:09] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-08 04:29:09] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.1.tar.gz tmp/lambkid-0.1.2.tar.gz --markdown 20240408/l/lambkid/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [yaml-to-markdown]: Timeout reached during download
+[2024-04-08 04:29:09] INFO root fetch - processPackages [yaml-to-markdown]: executing diffoscope
+[2024-04-08 04:29:09] INFO root fetch - processPackages [yaml-to-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-to-markdown-0.1.1712460996.tar.gz tmp/yaml-to-markdown-0.1.1712531157.tar.gz --markdown 20240408/y/yaml-to-markdown/0.1.1712460996-0.1.1712531157/diff.md --exclude *.pyd
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:29:09] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-08 04:29:09] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b7.tar.gz tmp/smaht_submitr-0.8.0.1b8.tar.gz --markdown 20240408/s/smaht-submitr/0.8.0.1b7-0.8.0.1b8/diff.md --exclude *.pyd
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-08 04:29:09] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/bd/29/ea63dd4610bd72a6f61ca5bb0a282f31b52665faa492d8958524c76c54cb/ctqkit-0.1.1b4.tar.gz
+[2024-04-08 04:29:09] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/97/63/73b3825bb6ab9140b2805ede023d1651eccf2a4bc3e7f873c4f3d772edc5/ampapi-1.3.9.tar.gz
+[2024-04-08 04:29:09] WARNING root fetch - processPackages [CtqKit]: Timeout reached during download
+[2024-04-08 04:29:09] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-04-08 04:29:09] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.1b3.tar.gz tmp/ctqkit-0.1.1b4.tar.gz --markdown 20240408/C/CtqKit/0.1.1b3-0.1.1b4/diff.md --exclude *.pyd
+[2024-04-08 04:29:09] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7f/60/5c04cdeb744551662089e31158052ff8dd26a8c3567761f31142a1fe6a39/localstack-core-3.3.1.dev20240408022728.tar.gz
+[2024-04-08 04:29:10] WARNING root fetch - processPackages [ampapi]: Timeout reached during download
+[2024-04-08 04:29:10] INFO root fetch - processPackages [ampapi]: executing diffoscope
+[2024-04-08 04:29:10] INFO root fetch - processPackages [ampapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampapi-1.3.8.tar.gz tmp/ampapi-1.3.9.tar.gz --markdown 20240408/a/ampapi/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-08 04:29:10] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-08 04:29:10] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-08 04:29:10] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240405162709.tar.gz tmp/localstack-core-3.3.1.dev20240408022728.tar.gz --markdown 20240408/l/localstack-core/3.3.1.dev20240405162709-3.3.1.dev20240408022728/diff.md --exclude *.pyd
+[2024-04-08 04:29:10] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.1.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.2.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-08 04:29:10] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds-cli-0.4.0.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - processPackages [yaml-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/yaml-to-markdown-0.1.1712460996.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - processPackages [yaml-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/yaml-to-markdown-0.1.1712531157.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds-cli-0.4.1.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - main [MainThread]: End processing [yaml-to-markdown]: success
+[2024-04-08 04:29:10] INFO root fetch - main [MainThread]: End processing [pyds-cli]: success
+[2024-04-08 04:29:10] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.1b3.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.1b4.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-04-08 04:29:10] INFO root fetch - processPackages [ampapi]: Remove: archive file [/home/abi/fetcher/tmp/ampapi-1.3.8.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b7.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - processPackages [ampapi]: Remove: archive file [/home/abi/fetcher/tmp/ampapi-1.3.9.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-08 04:29:10] INFO root fetch - main [MainThread]: End processing [ampapi]: success
+[2024-04-08 04:29:10] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-08 04:29:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240405162709.tar.gz]
+[2024-04-08 04:29:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408022728.tar.gz]
+[2024-04-08 04:29:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-08 04:29:13] INFO root fetch - main [MainThread]: Store serial: [22660944]
