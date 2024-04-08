@@ -8654,3 +8654,42 @@
 [2024-04-08 06:50:59] INFO root fetch - processPackages [binchicken]: Remove: archive file [/home/abi/fetcher/tmp/binchicken-0.10.4.tar.gz]
 [2024-04-08 06:50:59] INFO root fetch - main [MainThread]: End processing [binchicken]: success
 [2024-04-08 06:50:59] INFO root fetch - main [MainThread]: Store serial: [22662418]
+[2024-04-08 06:53:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662418]
+[2024-04-08 06:53:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 06:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orm-alchemist
+[2024-04-08 06:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matplotlib-visual
+[2024-04-08 06:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-04-08 06:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-rds-dump
+[2024-04-08 06:53:18] INFO root fetch - processPackages [matplotlib-visual]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-08 06:53:19] INFO root fetch - processPackages [matplotlib-visual]: Downloading https://files.pythonhosted.org/packages/7e/cf/ef906538ec00777728736a531b3f6041d475cc4db40ecc03d9c4c99c86a2/matplotlib_visual-0.8.1.tar.gz
+[2024-04-08 06:53:19] WARNING root fetch - processPackages [orm-alchemist]: Skipping, unable to determine old version
+[2024-04-08 06:53:19] INFO root fetch - main [MainThread]: End processing [orm-alchemist] error
+[2024-04-08 06:53:19] INFO root fetch - processPackages [cdk-rds-dump]: New version: [2.1.0] Old Version: [2.0.5]
+[2024-04-08 06:53:19] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-08 06:53:19] WARNING root fetch - processPackages [matplotlib-visual]: Timeout reached during download
+[2024-04-08 06:53:19] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-08 06:53:19] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-08 06:53:19] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/a3/f9/57da399c88b6d852194c5114b5d6b8b0b6c20767fd1accb7cc2a18ffeda6/cdk-rds-dump-2.0.5.tar.gz
+[2024-04-08 06:53:19] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-08 06:53:19] INFO root fetch - processPackages [matplotlib-visual]: Downloading https://files.pythonhosted.org/packages/d3/18/93b67ad89724e99582ad9d4782de0e5523db00be49b4780b7f9244c52d07/matplotlib_visual-0.8.2.tar.gz
+[2024-04-08 06:53:19] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-08 06:53:19] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-08 06:53:19] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240408/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/diff.md --exclude *.pyd
+[2024-04-08 06:53:19] WARNING root fetch - processPackages [matplotlib-visual]: Timeout reached during download
+[2024-04-08 06:53:19] INFO root fetch - processPackages [matplotlib-visual]: executing diffoscope
+[2024-04-08 06:53:19] INFO root fetch - processPackages [matplotlib-visual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlib_visual-0.8.1.tar.gz tmp/matplotlib_visual-0.8.2.tar.gz --markdown 20240408/m/matplotlib-visual/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2024-04-08 06:53:19] WARNING root fetch - processPackages [cdk-rds-dump]: Timeout reached during download
+[2024-04-08 06:53:19] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-08 06:53:19] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-08 06:53:19] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-08 06:53:20] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/3e/e6/06f603436f0450d6ec52323dabbf3913b93aa24db40169a394d2912ff6ba/cdk-rds-dump-2.1.0.tar.gz
+[2024-04-08 06:53:20] INFO root fetch - processPackages [matplotlib-visual]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_visual-0.8.1.tar.gz]
+[2024-04-08 06:53:20] INFO root fetch - processPackages [matplotlib-visual]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_visual-0.8.2.tar.gz]
+[2024-04-08 06:53:20] INFO root fetch - main [MainThread]: End processing [matplotlib-visual]: success
+[2024-04-08 06:53:20] WARNING root fetch - processPackages [cdk-rds-dump]: Timeout reached during download
+[2024-04-08 06:53:20] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2024-04-08 06:53:20] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-2.0.5.tar.gz tmp/cdk-rds-dump-2.1.0.tar.gz --markdown 20240408/c/cdk-rds-dump/2.0.5-2.1.0/diff.md --exclude *.pyd
+[2024-04-08 06:53:21] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-2.0.5.tar.gz]
+[2024-04-08 06:53:21] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-2.1.0.tar.gz]
+[2024-04-08 06:53:21] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2024-04-08 06:53:21] INFO root fetch - main [MainThread]: Store serial: [22662434]
