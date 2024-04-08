@@ -14001,3 +14001,61 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:47:32] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-04-08 10:47:32] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-04-08 10:47:32] INFO root fetch - main [MainThread]: Store serial: [22664472]
+[2024-04-08 10:49:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664472]
+[2024-04-08 10:49:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepdiff
+[2024-04-08 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cads-api-client
+[2024-04-08 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyquocca
+[2024-04-08 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catflow
+[2024-04-08 10:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HBV
+[2024-04-08 10:49:42] INFO root fetch - processPackages [pyquocca]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 10:49:42] INFO root fetch - processPackages [deepdiff]: New version: [7.0.0] Old Version: [6.7.1]
+[2024-04-08 10:49:42] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/d3/ee/0df9cc749a20ee73217971a4a8accba6e5ae58832d346d23f9bdf85661bb/pyquocca-0.0.8.tar.gz
+[2024-04-08 10:49:42] INFO root fetch - processPackages [HBV]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-08 10:49:42] INFO root fetch - processPackages [cads-api-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-08 10:49:42] INFO root fetch - processPackages [catflow]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-08 10:49:42] INFO root fetch - processPackages [deepdiff]: Downloading https://files.pythonhosted.org/packages/52/11/d265eb046685fe97538e39f71d16d58a1197ddbd59873e06167bcfba8a89/deepdiff-6.7.1.tar.gz
+[2024-04-08 10:49:42] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-08 10:49:43] WARNING root fetch - processPackages [deepdiff]: Timeout reached during download
+[2024-04-08 10:49:43] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/fc/d6/3ed100e86f6095ad8dd381a7888f5c3788305adc4031549b3ba2edccc46f/cads-api-client-0.9.1.tar.gz
+[2024-04-08 10:49:43] INFO root fetch - processPackages [catflow]: Downloading https://files.pythonhosted.org/packages/bd/40/d225b063d23a6385a2f29a9e31d12af979668fb614655943d7955dab18ce/catflow-0.4.0.tar.gz
+[2024-04-08 10:49:43] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/14/91/ed05b4a616e1d9c0b20ad8d5ad80c7c832df545d142d03d9d7c56970298d/pyquocca-0.0.9.tar.gz
+[2024-04-08 10:49:43] INFO root fetch - processPackages [HBV]: Downloading https://files.pythonhosted.org/packages/f1/58/64c9825db18c48f67df6ef0ae0e19b3446747a9b85ccf1846ed994b26986/hbv-1.4.0.tar.gz
+[2024-04-08 10:49:43] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-08 10:49:43] INFO root fetch - processPackages [pyquocca]: executing diffoscope
+[2024-04-08 10:49:43] INFO root fetch - processPackages [pyquocca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquocca-0.0.8.tar.gz tmp/pyquocca-0.0.9.tar.gz --markdown 20240408/p/pyquocca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:49:43] INFO root fetch - processPackages [deepdiff]: Downloading https://files.pythonhosted.org/packages/96/1f/4bd35c82f043c6549aa248277cd65a51f1016521610343efba2a843fe4c5/deepdiff-7.0.0.tar.gz
+[2024-04-08 10:49:43] WARNING root fetch - processPackages [HBV]: Timeout reached during download
+[2024-04-08 10:49:43] WARNING root fetch - processPackages [cads-api-client]: Timeout reached during download
+[2024-04-08 10:49:43] WARNING root fetch - processPackages [catflow]: Timeout reached during download
+[2024-04-08 10:49:43] WARNING root fetch - processPackages [deepdiff]: Timeout reached during download
+[2024-04-08 10:49:43] INFO root fetch - processPackages [deepdiff]: executing diffoscope
+[2024-04-08 10:49:43] INFO root fetch - processPackages [deepdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdiff-6.7.1.tar.gz tmp/deepdiff-7.0.0.tar.gz --markdown 20240408/d/deepdiff/6.7.1-7.0.0/diff.md --exclude *.pyd
+[2024-04-08 10:49:43] INFO root fetch - processPackages [HBV]: Downloading https://files.pythonhosted.org/packages/b8/e4/b1ef9b2c635e804c3117d1137eb94b40f2e74f9b691897c79ab412b85f52/hbv-1.4.1.tar.gz
+[2024-04-08 10:49:43] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/7c/d7/9433522d16e35d2fea04c804ea2861cf2146327e9ed2fb898c852cb17adc/cads-api-client-0.9.2.tar.gz
+[2024-04-08 10:49:43] INFO root fetch - processPackages [catflow]: Downloading https://files.pythonhosted.org/packages/da/56/76a8f4fba003f3f18f0b44d2858d51e18fb56ca143a83d00247d171171a8/catflow-0.5.0.tar.gz
+[2024-04-08 10:49:43] WARNING root fetch - processPackages [cads-api-client]: Timeout reached during download
+[2024-04-08 10:49:43] INFO root fetch - processPackages [cads-api-client]: executing diffoscope
+[2024-04-08 10:49:43] INFO root fetch - processPackages [cads-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads-api-client-0.9.1.tar.gz tmp/cads-api-client-0.9.2.tar.gz --markdown 20240408/c/cads-api-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-08 10:49:43] WARNING root fetch - processPackages [HBV]: Timeout reached during download
+[2024-04-08 10:49:43] INFO root fetch - processPackages [HBV]: executing diffoscope
+[2024-04-08 10:49:43] INFO root fetch - processPackages [HBV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbv-1.4.0.tar.gz tmp/hbv-1.4.1.tar.gz --markdown 20240408/H/HBV/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2024-04-08 10:49:43] WARNING root fetch - processPackages [catflow]: Timeout reached during download
+[2024-04-08 10:49:43] INFO root fetch - processPackages [catflow]: executing diffoscope
+[2024-04-08 10:49:43] INFO root fetch - processPackages [catflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catflow-0.4.0.tar.gz tmp/catflow-0.5.0.tar.gz --markdown 20240408/c/catflow/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-08 10:49:43] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.8.tar.gz]
+[2024-04-08 10:49:43] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.9.tar.gz]
+[2024-04-08 10:49:43] INFO root fetch - main [MainThread]: End processing [pyquocca]: success
+[2024-04-08 10:49:44] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads-api-client-0.9.1.tar.gz]
+[2024-04-08 10:49:44] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads-api-client-0.9.2.tar.gz]
+[2024-04-08 10:49:44] INFO root fetch - main [MainThread]: End processing [cads-api-client]: success
+[2024-04-08 10:49:45] INFO root fetch - processPackages [catflow]: Remove: archive file [/home/abi/fetcher/tmp/catflow-0.4.0.tar.gz]
+[2024-04-08 10:49:45] INFO root fetch - processPackages [catflow]: Remove: archive file [/home/abi/fetcher/tmp/catflow-0.5.0.tar.gz]
+[2024-04-08 10:49:45] INFO root fetch - main [MainThread]: End processing [catflow]: success
+[2024-04-08 10:49:45] INFO root fetch - processPackages [deepdiff]: Remove: archive file [/home/abi/fetcher/tmp/deepdiff-6.7.1.tar.gz]
+[2024-04-08 10:49:45] INFO root fetch - processPackages [deepdiff]: Remove: archive file [/home/abi/fetcher/tmp/deepdiff-7.0.0.tar.gz]
+[2024-04-08 10:49:45] INFO root fetch - main [MainThread]: End processing [deepdiff]: success
+[2024-04-08 10:49:45] INFO root fetch - processPackages [HBV]: Remove: archive file [/home/abi/fetcher/tmp/hbv-1.4.0.tar.gz]
+[2024-04-08 10:49:45] INFO root fetch - processPackages [HBV]: Remove: archive file [/home/abi/fetcher/tmp/hbv-1.4.1.tar.gz]
+[2024-04-08 10:49:45] INFO root fetch - main [MainThread]: End processing [HBV]: success
+[2024-04-08 10:49:45] INFO root fetch - main [MainThread]: Store serial: [22664492]
