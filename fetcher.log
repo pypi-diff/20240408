@@ -8389,3 +8389,163 @@
 [2024-04-08 06:43:49] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
 [2024-04-08 06:43:49] INFO root fetch - main [MainThread]: End processing [sawsi]: success
 [2024-04-08 06:43:49] INFO root fetch - main [MainThread]: Store serial: [22662359]
+[2024-04-08 06:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662359]
+[2024-04-08 06:46:09] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncmodels
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sawsi
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seapopym
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-transaction-done-mixin
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-multiple-approval-mixin
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-transaction-cancel-mixin
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-transaction-confirm-mixin
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-ssi-transaction-open-mixin
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ssi-transaction-ready-mixin
+[2024-04-08 06:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-ssi-transaction-win-lost-mixin
+[2024-04-08 06:46:09] INFO root fetch - processPackages [sawsi]: New version: [9.9] Old Version: [9.8]
+[2024-04-08 06:46:09] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.0]
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.0]
+[2024-04-08 06:46:09] WARNING root fetch - processPackages [seapopym]: Skipping, unable to determine old version
+[2024-04-08 06:46:09] INFO root fetch - processPackages [seapopym]: Start processing: odoo14-addon-ssi-transaction-mixin
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-open-mixin]: New version: [14.0.1.8.0] Old Version: [14.0.1.7.0]
+[2024-04-08 06:46:09] INFO root fetch - main [MainThread]: End processing [seapopym] error
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-multiple-approval-mixin]: New version: [14.0.1.7.0] Old Version: [14.0.1.6.0]
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: New version: [14.0.1.7.0] Old Version: [14.0.1.6.0]
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: New version: [14.0.2.6.0] Old Version: [14.0.2.5.0]
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: New version: [14.0.1.5.0] Old Version: [14.0.1.4.0]
+[2024-04-08 06:46:09] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/a5/89/e5230b963c36d9342bd53c4174b8b4f9595f77c5aa510614cf80ac5315a0/sawsi-9.8.tar.gz
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: New version: [14.0.4.6.0] Old Version: [14.0.4.5.0]
+[2024-04-08 06:46:09] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-open-mixin]: Downloading https://files.pythonhosted.org/packages/1e/03/938417021c8f5d6ce701e43df104ae32558bcff837e1480001b31cebb647/odoo14_addon_ssi_transaction_open_mixin-14.0.1.7.0-py3-none-any.whl
+[2024-04-08 06:46:09] WARNING root fetch - processPackages [sawsi]: Timeout reached during download
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: Downloading https://files.pythonhosted.org/packages/52/d5/f3a9af3058e9423d8249b15cd6415f1edb4b000fb58f0e36332dc18aa837/odoo14_addon_ssi_transaction_done_mixin-14.0.1.8.0-py3-none-any.whl
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: Downloading https://files.pythonhosted.org/packages/dc/cd/4a3d1b9865dfc22db117a75495040aa7ecfdf1df9c050fdf5dfb10b23385/odoo14_addon_ssi_transaction_cancel_mixin-14.0.1.8.0-py3-none-any.whl
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: Downloading https://files.pythonhosted.org/packages/4e/dd/7804caed22be4db61b9221c3df01b04f3e97cd38ff4fca924766a4f0eb00/odoo14_addon_ssi_transaction_ready_mixin-14.0.1.6.0-py3-none-any.whl
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-multiple-approval-mixin]: Downloading https://files.pythonhosted.org/packages/eb/dd/cb49e3f73e30e41abf635a90980c0b321f0b7011b63d8cbe046b63d96e98/odoo14_addon_ssi_multiple_approval_mixin-14.0.1.6.0-py3-none-any.whl
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: Downloading https://files.pythonhosted.org/packages/ac/89/1383ba0a9d886e66414778690b33244bce0282f1f5b1d7734004e91152b0/odoo14_addon_ssi_transaction_confirm_mixin-14.0.2.5.0-py3-none-any.whl
+[2024-04-08 06:46:09] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Downloading https://files.pythonhosted.org/packages/f0/26/a1388e83af149ad2257e6c7bd8a750343d979f492d92794a7945e3c3759f/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.4.0-py3-none-any.whl
+[2024-04-08 06:46:10] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/69/c2/e945385340121de75cca5d00aa9ac99f3d874c5977239a7d7efe5e969e17/sawsi-9.9.tar.gz
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Downloading https://files.pythonhosted.org/packages/66/bb/e5fcf4dc5efa6d636a1cc3389249174e1be1cea57a1d9cbbad677784a92a/odoo14_addon_ssi_transaction_mixin-14.0.4.5.0-py3-none-any.whl
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [syncmodels]: Timeout reached during download
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-open-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [sawsi]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [sawsi]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [sawsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sawsi-9.8.tar.gz tmp/sawsi-9.9.tar.gz --markdown 20240408/s/sawsi/9.8-9.9/diff.md --exclude *.pyd
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-multiple-approval-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: Downloading https://files.pythonhosted.org/packages/fd/02/e70e23fd5d56a4c753552e06bb4c109c056fae7057d6961ffe65513cfb35/odoo14_addon_ssi_transaction_done_mixin-14.0.1.9.0-py3-none-any.whl
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-open-mixin]: Downloading https://files.pythonhosted.org/packages/15/fa/237ea232f8c87f4359acb52461855b7f7599c125bf92c1199be92e0df818/odoo14_addon_ssi_transaction_open_mixin-14.0.1.8.0-py3-none-any.whl
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: Downloading https://files.pythonhosted.org/packages/a1/b8/a4bb2252ec67dfe1c9a4f255438a485d1b1d71b4f46d03395c26e6e0ee5b/odoo14_addon_ssi_transaction_cancel_mixin-14.0.1.9.0-py3-none-any.whl
+[2024-04-08 06:46:10] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: Downloading https://files.pythonhosted.org/packages/fa/25/c4363eed24657379363a959396b769140205cbb493a3696d73229014d76f/odoo14_addon_ssi_transaction_ready_mixin-14.0.1.7.0-py3-none-any.whl
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-multiple-approval-mixin]: Downloading https://files.pythonhosted.org/packages/a4/2b/dcea24e56dc6a75450af04115ae290b889045971f82ff6677e2fd832782b/odoo14_addon_ssi_multiple_approval_mixin-14.0.1.7.0-py3-none-any.whl
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: Downloading https://files.pythonhosted.org/packages/f5/63/db965e526323f7dbb17a0ab953a3aa403a1ff0f70a48727ed4eb03c79313/odoo14_addon_ssi_transaction_confirm_mixin-14.0.2.6.0-py3-none-any.whl
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Downloading https://files.pythonhosted.org/packages/2f/fb/6113cb6c61af5e1e9d569ebf6e8b20d7f58bfe7a70ad3b6036762c2fa55b/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.5.0-py3-none-any.whl
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_done_mixin-14.0.1.8.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_done_mixin-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-transaction-done-mixin/14.0.1.8.0-14.0.1.9.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Downloading https://files.pythonhosted.org/packages/4e/e6/0d147b3a8bd98a8f2fe6da2d56cca6d247a56c4f1e0be910d8938f3e7302/odoo14_addon_ssi_transaction_mixin-14.0.4.6.0-py3-none-any.whl
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_cancel_mixin-14.0.1.8.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_cancel_mixin-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-transaction-cancel-mixin/14.0.1.8.0-14.0.1.9.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_ready_mixin-14.0.1.6.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_ready_mixin-14.0.1.7.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-transaction-ready-mixin/14.0.1.6.0-14.0.1.7.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-open-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-multiple-approval-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-open-mixin]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-open-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_open_mixin-14.0.1.7.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_open_mixin-14.0.1.8.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-transaction-open-mixin/14.0.1.7.0-14.0.1.8.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-multiple-approval-mixin]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-multiple-approval-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_multiple_approval_mixin-14.0.1.6.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_multiple_approval_mixin-14.0.1.7.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-multiple-approval-mixin/14.0.1.6.0-14.0.1.7.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [syncmodels]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240408/s/syncmodels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_confirm_mixin-14.0.2.5.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_confirm_mixin-14.0.2.6.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-transaction-confirm-mixin/14.0.2.5.0-14.0.2.6.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.5.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.6.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-transaction-mixin/14.0.4.5.0-14.0.4.6.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:10] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Timeout reached during download
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: executing diffoscope
+[2024-04-08 06:46:10] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.4.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.5.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-transaction-win-lost-mixin/14.0.1.4.0-14.0.1.5.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:11] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.8.tar.gz]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [sawsi]: Start processing: odoo14-addon-ssi-transaction-terminate-mixin
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [sawsi]: success
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: New version: [14.0.1.8.0] Old Version: [14.0.1.7.0]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Downloading https://files.pythonhosted.org/packages/12/1f/58361425ff734eb3bc237c9c580adc3c20fd502682f3221dfe8123665fcf/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.7.0-py3-none-any.whl
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_done_mixin-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_done_mixin-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-done-mixin]: Start processing: odoo14-addon-ssi-decorator
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-done-mixin]: success
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_confirm_mixin-14.0.2.5.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_confirm_mixin-14.0.2.6.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-confirm-mixin]: Start processing: dev-toolbox
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-confirm-mixin]: success
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_ready_mixin-14.0.1.6.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_ready_mixin-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-ready-mixin]: Start processing: liquisource
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-ready-mixin]: success
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-decorator]: New version: [14.0.1.5.0] Old Version: [14.0.1.4.0]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_cancel_mixin-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_cancel_mixin-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-cancel-mixin]: success
+[2024-04-08 06:46:11] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Timeout reached during download
+[2024-04-08 06:46:11] INFO root fetch - processPackages [liquisource]: New version: [1.2.9] Old Version: [1.2.7]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [dev-toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-open-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_open_mixin-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-open-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_open_mixin-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-open-mixin]: success
+[2024-04-08 06:46:11] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/d5/e7/64b62184cc67f76caf2a3fe1e7a0a184d4be615bfaf22a1ee9aff592084e/liquisource-1.2.7.tar.gz
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.4.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.5.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-win-lost-mixin]: success
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-multiple-approval-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_multiple_approval_mixin-14.0.1.6.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-multiple-approval-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_multiple_approval_mixin-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-multiple-approval-mixin]: success
+[2024-04-08 06:46:11] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-decorator]: Downloading https://files.pythonhosted.org/packages/06/a1/8a66f343b193f0e09464e9cd02d6a9bef0169663a12ffcf36e335752878a/odoo14_addon_ssi_decorator-14.0.1.4.0-py3-none-any.whl
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Downloading https://files.pythonhosted.org/packages/94/f9/7a8abc482ca226e2ab5c0342830ba191363606839b753506346f96cbb05f/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.8.0-py3-none-any.whl
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.5.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.6.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-mixin]: success
+[2024-04-08 06:46:11] WARNING root fetch - processPackages [liquisource]: Timeout reached during download
+[2024-04-08 06:46:11] INFO root fetch - processPackages [dev-toolbox]: Downloading https://files.pythonhosted.org/packages/00/03/afa0126eadc36abfe356976f2f3900c29f89bdb91fc3dda1f826b3247f28/dev_toolbox-0.1.8.tar.gz
+[2024-04-08 06:46:11] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/bb/65/33a609322c0ca5c7337864ef5f0d0c0fe9ea1ca4b3113cd93efce46e8447/liquisource-1.2.9.tar.gz
+[2024-04-08 06:46:12] WARNING root fetch - processPackages [odoo14-addon-ssi-decorator]: Timeout reached during download
+[2024-04-08 06:46:12] WARNING root fetch - processPackages [liquisource]: Timeout reached during download
+[2024-04-08 06:46:12] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2024-04-08 06:46:12] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.2.7.tar.gz tmp/liquisource-1.2.9.tar.gz --markdown 20240408/l/liquisource/1.2.7-1.2.9/diff.md --exclude *.pyd
+[2024-04-08 06:46:12] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Timeout reached during download
+[2024-04-08 06:46:12] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: executing diffoscope
+[2024-04-08 06:46:12] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.7.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.8.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-transaction-terminate-mixin/14.0.1.7.0-14.0.1.8.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:12] WARNING root fetch - processPackages [dev-toolbox]: Timeout reached during download
+[2024-04-08 06:46:12] INFO root fetch - processPackages [odoo14-addon-ssi-decorator]: Downloading https://files.pythonhosted.org/packages/df/1a/dcec72a46e4f58198d4c96c6a5de8ebc82d00c5cbf58799a6d29c8575c37/odoo14_addon_ssi_decorator-14.0.1.5.0-py3-none-any.whl
+[2024-04-08 06:46:12] INFO root fetch - processPackages [dev-toolbox]: Downloading https://files.pythonhosted.org/packages/0b/aa/9c092d82f700d3cb0a774c28f029bee8027150a71b5e8ecf37014e752974/dev_toolbox-0.1.9.tar.gz
+[2024-04-08 06:46:12] WARNING root fetch - processPackages [odoo14-addon-ssi-decorator]: Timeout reached during download
+[2024-04-08 06:46:12] INFO root fetch - processPackages [odoo14-addon-ssi-decorator]: executing diffoscope
+[2024-04-08 06:46:12] INFO root fetch - processPackages [odoo14-addon-ssi-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_decorator-14.0.1.4.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_decorator-14.0.1.5.0-py3-none-any.whl.zip --markdown 20240408/o/odoo14-addon-ssi-decorator/14.0.1.4.0-14.0.1.5.0/diff.md --exclude *.pyd
+[2024-04-08 06:46:12] WARNING root fetch - processPackages [dev-toolbox]: Timeout reached during download
+[2024-04-08 06:46:12] INFO root fetch - processPackages [dev-toolbox]: executing diffoscope
+[2024-04-08 06:46:12] INFO root fetch - processPackages [dev-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev_toolbox-0.1.8.tar.gz tmp/dev_toolbox-0.1.9.tar.gz --markdown 20240408/d/dev-toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 06:46:12] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:12] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-terminate-mixin]: success
+[2024-04-08 06:46:12] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.7.tar.gz]
+[2024-04-08 06:46:12] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.9.tar.gz]
+[2024-04-08 06:46:12] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2024-04-08 06:46:13] INFO root fetch - processPackages [odoo14-addon-ssi-decorator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_decorator-14.0.1.4.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:13] INFO root fetch - processPackages [odoo14-addon-ssi-decorator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_decorator-14.0.1.5.0-py3-none-any.whl.zip]
+[2024-04-08 06:46:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-decorator]: success
+[2024-04-08 06:46:13] INFO root fetch - processPackages [dev-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dev_toolbox-0.1.8.tar.gz]
+[2024-04-08 06:46:13] INFO root fetch - processPackages [dev-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dev_toolbox-0.1.9.tar.gz]
+[2024-04-08 06:46:13] INFO root fetch - main [MainThread]: End processing [dev-toolbox]: success
+[2024-04-08 06:46:13] INFO root fetch - main [MainThread]: Store serial: [22662393]
