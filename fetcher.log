@@ -7169,3 +7169,86 @@
 [2024-04-08 05:51:33] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tics-3.0.999.tar.gz]
 [2024-04-08 05:51:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tics]: success
 [2024-04-08 05:51:33] INFO root fetch - main [MainThread]: Store serial: [22662025]
+[2024-04-08 05:53:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662025]
+[2024-04-08 05:53:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 05:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tiems
+[2024-04-08 05:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tiia
+[2024-04-08 05:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyvncs
+[2024-04-08 05:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geostat
+[2024-04-08 05:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-k8s
+[2024-04-08 05:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-tione
+[2024-04-08 05:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: noohayo
+[2024-04-08 05:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: galileo-core
+[2024-04-08 05:53:45] INFO root fetch - processPackages [galileo-core]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-08 05:53:45] WARNING root fetch - processPackages [noohayo]: Skipping, unable to determine old version
+[2024-04-08 05:53:45] INFO root fetch - main [MainThread]: End processing [noohayo] error
+[2024-04-08 05:53:45] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/dd/b1/4561d2843a763ee883e2911b97063ee27f430f395be6192bdb6c3b5a946f/galileo_core-0.8.1.tar.gz
+[2024-04-08 05:53:45] INFO root fetch - processPackages [pyvncs]: New version: [0.0.5.dev2] Old Version: [0.0.5.dev1]
+[2024-04-08 05:53:45] INFO root fetch - processPackages [easy-k8s]: New version: [0.2.0.post2] Old Version: [0.2.0.post1]
+[2024-04-08 05:53:45] INFO root fetch - processPackages [geostat]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 05:53:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:53:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:53:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:53:45] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 05:53:45] INFO root fetch - processPackages [pyvncs]: Downloading https://files.pythonhosted.org/packages/09/5e/a5fd109ae214336616f814ea8261a2bc0aebc39bbfe47f9a8fa28a213d01/pyvncs-0.0.5.dev1.tar.gz
+[2024-04-08 05:53:45] INFO root fetch - processPackages [easy-k8s]: Downloading https://files.pythonhosted.org/packages/21/b9/26fe4e1a9efd90055b4e7b2f2624acf9ff384ecab7b3a2601a6ec02d6866/easy_k8s-0.2.0.post1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-08 05:53:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: Downloading https://files.pythonhosted.org/packages/15/1f/cec7a90ff620186cc8cd6ccc8f6a68c01954f3e42636bdbb035ef0add760/tencentcloud-sdk-python-tione-3.0.998.tar.gz
+[2024-04-08 05:53:45] INFO root fetch - processPackages [geostat]: Downloading https://files.pythonhosted.org/packages/a4/ab/c0d62ba842d61c4a9b17ff04fc938deef3f5f33fcad72b6c3b61b4b6a6f9/geostat-0.9.0.tar.gz
+[2024-04-08 05:53:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Downloading https://files.pythonhosted.org/packages/7d/44/794f54c761ad7240e521d54096c73c5cda58a8be7acb7740a04cdc5464cc/tencentcloud-sdk-python-tiems-3.0.998.tar.gz
+[2024-04-08 05:53:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Downloading https://files.pythonhosted.org/packages/af/27/4ad442a5d25485197a556ada200fa71343c412ee6a4ee82ac012af4402b5/tencentcloud-sdk-python-tiia-3.0.998.tar.gz
+[2024-04-08 05:53:45] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/3e/44/654cb6ab6728f96855b72de198027616a85e11b4c85ad50b964227e63856/galileo_core-0.9.0.tar.gz
+[2024-04-08 05:53:45] WARNING root fetch - processPackages [pyvncs]: Timeout reached during download
+[2024-04-08 05:53:45] WARNING root fetch - processPackages [geostat]: Timeout reached during download
+[2024-04-08 05:53:45] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 05:53:45] INFO root fetch - processPackages [galileo-core]: executing diffoscope
+[2024-04-08 05:53:45] INFO root fetch - processPackages [galileo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_core-0.8.1.tar.gz tmp/galileo_core-0.9.0.tar.gz --markdown 20240408/g/galileo-core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 05:53:45] WARNING root fetch - processPackages [tencentcloud-sdk-python-tione]: Timeout reached during download
+[2024-04-08 05:53:45] INFO root fetch - processPackages [geostat]: Downloading https://files.pythonhosted.org/packages/ba/52/6414510d482cb8b5a8bb6e5d1b512714df44355dac63efe24e6028c75d28/geostat-0.9.1.tar.gz
+[2024-04-08 05:53:45] WARNING root fetch - processPackages [tencentcloud-sdk-python-tiems]: Timeout reached during download
+[2024-04-08 05:53:45] INFO root fetch - processPackages [pyvncs]: Downloading https://files.pythonhosted.org/packages/77/d3/cdca588ccbefa3f2f812852c8518d4289ff0c1697d2f4f0f078d9014cbf7/pyvncs-0.0.5.dev2.tar.gz
+[2024-04-08 05:53:45] WARNING root fetch - processPackages [tencentcloud-sdk-python-tiia]: Timeout reached during download
+[2024-04-08 05:53:45] WARNING root fetch - processPackages [pyvncs]: Timeout reached during download
+[2024-04-08 05:53:45] INFO root fetch - processPackages [pyvncs]: executing diffoscope
+[2024-04-08 05:53:45] INFO root fetch - processPackages [pyvncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvncs-0.0.5.dev1.tar.gz tmp/pyvncs-0.0.5.dev2.tar.gz --markdown 20240408/p/pyvncs/0.0.5.dev1-0.0.5.dev2/diff.md --exclude *.pyd
+[2024-04-08 05:53:45] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: Downloading https://files.pythonhosted.org/packages/fa/9d/c01410a69a986675de2ec6a761ac8d923ca56dfd36f6382f6f5dd6496ee4/tencentcloud-sdk-python-tione-3.0.999.tar.gz
+[2024-04-08 05:53:46] WARNING root fetch - processPackages [geostat]: Timeout reached during download
+[2024-04-08 05:53:46] INFO root fetch - processPackages [geostat]: executing diffoscope
+[2024-04-08 05:53:46] INFO root fetch - processPackages [geostat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geostat-0.9.0.tar.gz tmp/geostat-0.9.1.tar.gz --markdown 20240408/g/geostat/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Downloading https://files.pythonhosted.org/packages/d6/4e/57a8aa4f2c8576516cf928fd6dbfaec80218157e0554b781bdbb7df72622/tencentcloud-sdk-python-tiems-3.0.999.tar.gz
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Downloading https://files.pythonhosted.org/packages/cc/23/051612b22f6b5c1d75c05182ee42a3d1c7736dd05147367d7b6aa0b5e403/tencentcloud-sdk-python-tiia-3.0.999.tar.gz
+[2024-04-08 05:53:46] WARNING root fetch - processPackages [easy-k8s]: Timeout reached during download
+[2024-04-08 05:53:46] WARNING root fetch - processPackages [tencentcloud-sdk-python-tione]: Timeout reached during download
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: executing diffoscope
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tione-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tione-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tione/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:53:46] WARNING root fetch - processPackages [tencentcloud-sdk-python-tiems]: Timeout reached during download
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: executing diffoscope
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tiems-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tiems-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tiems/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:53:46] WARNING root fetch - processPackages [tencentcloud-sdk-python-tiia]: Timeout reached during download
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: executing diffoscope
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tiia-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tiia-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tiia/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:53:46] INFO root fetch - processPackages [easy-k8s]: Downloading https://files.pythonhosted.org/packages/7d/3f/74128bbf32dd4b1c483110256e732d57348c3d2e8b15a50542487155ab1e/easy_k8s-0.2.0.post2.tar.gz
+[2024-04-08 05:53:46] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.8.1.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.9.0.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
+[2024-04-08 05:53:46] WARNING root fetch - processPackages [easy-k8s]: Timeout reached during download
+[2024-04-08 05:53:46] INFO root fetch - processPackages [easy-k8s]: executing diffoscope
+[2024-04-08 05:53:46] INFO root fetch - processPackages [easy-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_k8s-0.2.0.post1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/easy_k8s-0.2.0.post2.tar.gz --markdown 20240408/e/easy-k8s/0.2.0.post1-0.2.0.post2/diff.md --exclude *.pyd
+[2024-04-08 05:53:46] INFO root fetch - processPackages [pyvncs]: Remove: archive file [/home/abi/fetcher/tmp/pyvncs-0.0.5.dev1.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - processPackages [pyvncs]: Remove: archive file [/home/abi/fetcher/tmp/pyvncs-0.0.5.dev2.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - main [MainThread]: End processing [pyvncs]: success
+[2024-04-08 05:53:46] INFO root fetch - processPackages [geostat]: Remove: archive file [/home/abi/fetcher/tmp/geostat-0.9.0.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - processPackages [geostat]: Remove: archive file [/home/abi/fetcher/tmp/geostat-0.9.1.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - main [MainThread]: End processing [geostat]: success
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiems-3.0.998.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiems-3.0.999.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tiems]: success
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiia-3.0.998.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiia-3.0.999.tar.gz]
+[2024-04-08 05:53:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tiia]: success
+[2024-04-08 05:53:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tione-3.0.998.tar.gz]
+[2024-04-08 05:53:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tione-3.0.999.tar.gz]
+[2024-04-08 05:53:47] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tione]: success
+[2024-04-08 05:53:49] INFO root fetch - processPackages [easy-k8s]: Remove: archive file [/home/abi/fetcher/tmp/easy_k8s-0.2.0.post1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-08 05:53:49] INFO root fetch - processPackages [easy-k8s]: Remove: archive file [/home/abi/fetcher/tmp/easy_k8s-0.2.0.post2.tar.gz]
+[2024-04-08 05:53:49] INFO root fetch - main [MainThread]: End processing [easy-k8s]: success
+[2024-04-08 05:53:49] INFO root fetch - main [MainThread]: Store serial: [22662049]
