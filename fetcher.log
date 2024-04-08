@@ -20253,3 +20253,28 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:19:31] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.7rc0.tar.gz]
 [2024-04-08 14:19:31] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2024-04-08 14:19:31] INFO root fetch - main [MainThread]: Store serial: [22666780]
+[2024-04-08 14:21:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666780]
+[2024-04-08 14:21:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 14:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-api-pyensight
+[2024-04-08 14:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cefi
+[2024-04-08 14:21:40] INFO root fetch - processPackages [ansys-api-pyensight]: New version: [0.5.0.dev0] Old Version: [0.3.9]
+[2024-04-08 14:21:40] INFO root fetch - processPackages [cefi]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-04-08 14:21:40] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/9f/6f/b7eee3b4879d098e2a52f34c083c22464a458de6a14ec1108b2340d66a6a/cefi-4.4.8.tar.gz
+[2024-04-08 14:21:40] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/dc/0b/5fc64e9d040a955c34d28b5e4528962344e4abff3412905b3eed5d22aba7/ansys-api-pyensight-0.3.9.tar.gz
+[2024-04-08 14:21:40] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 14:21:40] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/24/cb/bae47dd044182bcf7ae8adf3c1fccca44fa81eb4a9ecf576af925856d106/cefi-4.4.9.tar.gz
+[2024-04-08 14:21:40] WARNING root fetch - processPackages [ansys-api-pyensight]: Timeout reached during download
+[2024-04-08 14:21:40] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 14:21:40] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-08 14:21:40] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.4.8.tar.gz tmp/cefi-4.4.9.tar.gz --markdown 20240408/c/cefi/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2024-04-08 14:21:41] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/1d/4d/74f2aacccff9667904ef55fa81fe28475605f643e2ec53044ac86d291849/ansys-api-pyensight-0.5.0.dev0.tar.gz
+[2024-04-08 14:21:41] WARNING root fetch - processPackages [ansys-api-pyensight]: Timeout reached during download
+[2024-04-08 14:21:41] INFO root fetch - processPackages [ansys-api-pyensight]: executing diffoscope
+[2024-04-08 14:21:41] INFO root fetch - processPackages [ansys-api-pyensight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-pyensight-0.3.9.tar.gz tmp/ansys-api-pyensight-0.5.0.dev0.tar.gz --markdown 20240408/a/ansys-api-pyensight/0.3.9-0.5.0.dev0/diff.md --exclude *.pyd
+[2024-04-08 14:21:41] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.8.tar.gz]
+[2024-04-08 14:21:41] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.9.tar.gz]
+[2024-04-08 14:21:41] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-08 14:21:46] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.3.9.tar.gz]
+[2024-04-08 14:21:46] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.5.0.dev0.tar.gz]
+[2024-04-08 14:21:46] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
+[2024-04-08 14:21:46] INFO root fetch - main [MainThread]: Store serial: [22666787]
