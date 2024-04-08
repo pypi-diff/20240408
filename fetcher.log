@@ -23177,3 +23177,200 @@ EOFError: EOF read where object expected
 [2024-04-08 15:37:06] INFO root fetch - processPackages [GridCalEngine]: Remove: archive file [/home/abi/fetcher/tmp/GridCalEngine-5.1.2.tar.gz]
 [2024-04-08 15:37:06] INFO root fetch - main [MainThread]: End processing [GridCalEngine]: success
 [2024-04-08 15:37:06] INFO root fetch - main [MainThread]: Store serial: [22667798]
+[2024-04-08 15:39:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667798]
+[2024-04-08 15:39:17] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: girder-large-image
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: girder-large-image-annotation
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asyncur
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arion-library
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-converter
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robocorp
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-tasks
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dnsmule
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dnsmule-plugins
+[2024-04-08 15:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-bioformats
+[2024-04-08 15:39:17] INFO root fetch - processPackages [arion-library]: New version: [1.1rc32.dev32] Old Version: [1.1rc31.dev31]
+[2024-04-08 15:39:17] INFO root fetch - processPackages [asyncur]: New version: [0.4.2] Old Version: [0.4.0]
+[2024-04-08 15:39:17] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/6b/3a/c4d3ac79eac1bc7c05bd87230d4a2138a7f85c5a5ae8b50bafa278fe2bab/arion_library-1.1rc31.dev31.tar.gz
+[2024-04-08 15:39:17] INFO root fetch - processPackages [robocorp]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-08 15:39:17] INFO root fetch - processPackages [dnsmule]: New version: [0.8.0rc1] Old Version: [0.5.0]
+[2024-04-08 15:39:17] INFO root fetch - processPackages [dnsmule-plugins]: New version: [0.8.0rc1] Old Version: [0.5.0]
+[2024-04-08 15:39:17] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:39:17] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:39:17] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:39:17] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:39:17] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:39:17] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 15:39:17] INFO root fetch - processPackages [asyncur]: Downloading https://files.pythonhosted.org/packages/94/0d/221e6b00e2f6595f8cbe05b32ff2f13cd549812a5f16bbb182d28e19da10/asyncur-0.4.0.tar.gz
+[2024-04-08 15:39:17] INFO root fetch - processPackages [dnsmule-plugins]: Downloading https://files.pythonhosted.org/packages/5b/10/d9c63fa1ee54aa6ea926cad89b7c3427811af67521cb665b7a55c257054f/dnsmule-plugins-0.5.0.tar.gz
+[2024-04-08 15:39:17] INFO root fetch - processPackages [dnsmule]: Downloading https://files.pythonhosted.org/packages/50/5d/79f6cc520157be3e8e6bcb9014213fdad266632e354119f19445e79d1e84/dnsmule-0.5.0.tar.gz
+[2024-04-08 15:39:17] INFO root fetch - processPackages [robocorp]: Downloading https://files.pythonhosted.org/packages/9b/9e/61b5ab5b3d464d62ce15bfebb1db69542d9104898427f04389e6b845b5e4/robocorp-2.0.0.tar.gz
+[2024-04-08 15:39:17] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2024-04-08 15:39:17] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/d2/92/d072fa606a4761eb667b0efc0ba4137c9f9b34386f41757c597cdeff49d5/large-image-tasks-1.9.1.dev6.tar.gz
+[2024-04-08 15:39:17] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/9f/7d/764189c337fd7a890bec6278bb2e1d065d51af7f06726f3d00b6d3836aa4/large-image-source-bioformats-1.9.1.dev6.tar.gz
+[2024-04-08 15:39:17] WARNING root fetch - processPackages [asyncur]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [robocorp]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2024-04-08 15:39:18] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/48/a8/2148ab6a0ba4fd80dbba2a9bc72218a91c7ab326bb814bb34b65724e78e0/arion_library-1.1rc32.dev32.tar.gz
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [large-image-tasks]: Timeout reached during download
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [girder-large-image-annotation]: Timeout reached during download
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [dnsmule]: Timeout reached during download
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [dnsmule-plugins]: Timeout reached during download
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [large-image-source-bioformats]: Timeout reached during download
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc31.dev31.tar.gz tmp/arion_library-1.1rc32.dev32.tar.gz --markdown 20240408/a/arion-library/1.1rc31.dev31-1.1rc32.dev32/diff.md --exclude *.pyd
+[2024-04-08 15:39:18] INFO root fetch - processPackages [asyncur]: Downloading https://files.pythonhosted.org/packages/f6/ea/140dbb4912bc28075822c20968b28aa856410a0ba5458f70f45d9839bcaf/asyncur-0.4.2.tar.gz
+[2024-04-08 15:39:18] INFO root fetch - processPackages [robocorp]: Downloading https://files.pythonhosted.org/packages/6d/1d/a793c19dc52f2bc6d34cbfbcf680088588242450466b03e4bd82d4ba0e76/robocorp-2.0.1.tar.gz
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [girder-large-image]: Timeout reached during download
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [large-image-converter]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/59/66/7de5976597497ff75f76e9d1e817dc755ed82ff85669b1f9613d1b27c9e8/large-image-tasks-1.9.1.dev8.tar.gz
+[2024-04-08 15:39:18] INFO root fetch - processPackages [dnsmule]: Downloading https://files.pythonhosted.org/packages/d8/67/809246bbe674b8523e8040ef6e80d11fac3fe7cae48f2967916a9cbee54d/dnsmule-0.8.0rc1.tar.gz
+[2024-04-08 15:39:18] INFO root fetch - processPackages [dnsmule-plugins]: Downloading https://files.pythonhosted.org/packages/ea/e1/8e49851718be512548d2b360646c090a18c3508dbb0b6ce6fc5f84401ef3/dnsmule-plugins-0.8.0rc1.tar.gz
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [asyncur]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [asyncur]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [asyncur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncur-0.4.0.tar.gz tmp/asyncur-0.4.2.tar.gz --markdown 20240408/a/asyncur/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2024-04-08 15:39:18] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [robocorp]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [robocorp]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [robocorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp-2.0.0.tar.gz tmp/robocorp-2.0.1.tar.gz --markdown 20240408/r/robocorp/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/be/b1/457ea10f23a8022b9045522623e3c24789e308b80800b4fd679928bb7cf8/large-image-source-bioformats-1.9.1.dev8.tar.gz
+[2024-04-08 15:39:18] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [dnsmule-plugins]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [dnsmule-plugins]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [dnsmule-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnsmule-plugins-0.5.0.tar.gz tmp/dnsmule-plugins-0.8.0rc1.tar.gz --markdown 20240408/d/dnsmule-plugins/0.5.0-0.8.0rc1/diff.md --exclude *.pyd
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [large-image-source-bioformats]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [dnsmule]: Timeout reached during download
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [large-image-tasks]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [dnsmule]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [dnsmule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnsmule-0.5.0.tar.gz tmp/dnsmule-0.8.0rc1.tar.gz --markdown 20240408/d/dnsmule/0.5.0-0.8.0rc1/diff.md --exclude *.pyd
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [girder-large-image]: Timeout reached during download
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [girder-large-image-annotation]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20240408/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:39:18] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20240408/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:39:18] WARNING root fetch - processPackages [large-image-converter]: Timeout reached during download
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2024-04-08 15:39:18] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:39:19] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc31.dev31.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc32.dev32.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [arion-library]: Start processing: large-image-source-deepzoom
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-source-deepzoom]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [robocorp]: Remove: archive file [/home/abi/fetcher/tmp/robocorp-2.0.0.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [robocorp]: Remove: archive file [/home/abi/fetcher/tmp/robocorp-2.0.1.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [robocorp]: Start processing: large-image-source-dicom
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [robocorp]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [asyncur]: Remove: archive file [/home/abi/fetcher/tmp/asyncur-0.4.0.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [asyncur]: Remove: archive file [/home/abi/fetcher/tmp/asyncur-0.4.2.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [asyncur]: Start processing: pupyl
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [asyncur]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-source-dicom]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev6.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev8.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-tasks]: Start processing: graphsense-lib
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/16/46/821666cfb4c3a315b4ccc86d7ba529a1af49e4581bbd8b7ca8e1cb5fa4ba/large-image-source-deepzoom-1.9.1.dev6.tar.gz
+[2024-04-08 15:39:19] INFO root fetch - processPackages [pupyl]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [girder-large-image]: Start processing: jafgen
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-source-bioformats]: Start processing: yooncloud-dart
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [dnsmule]: Remove: archive file [/home/abi/fetcher/tmp/dnsmule-0.5.0.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [graphsense-lib]: New version: [2.2.5] Old Version: [2.2.2]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [dnsmule]: Remove: archive file [/home/abi/fetcher/tmp/dnsmule-0.8.0rc1.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [dnsmule]: Start processing: large-image-source-dummy
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [dnsmule]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [girder-large-image-annotation]: Start processing: large-image-source-gdal
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [dnsmule-plugins]: Remove: archive file [/home/abi/fetcher/tmp/dnsmule-plugins-0.5.0.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - processPackages [dnsmule-plugins]: Remove: archive file [/home/abi/fetcher/tmp/dnsmule-plugins-0.8.0rc1.tar.gz]
+[2024-04-08 15:39:19] INFO root fetch - main [MainThread]: End processing [dnsmule-plugins]: success
+[2024-04-08 15:39:19] INFO root fetch - processPackages [yooncloud-dart]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/88/6d/fd0d191c979c85e7c08491d59a4274bc7794776090ee162f84483dc50405/large-image-source-dicom-1.27.5.dev8.tar.gz
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [large-image-source-deepzoom]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [jafgen]: New version: [0.4.9] Old Version: [0.4.6]
+[2024-04-08 15:39:20] INFO root fetch - processPackages [yooncloud-dart]: Downloading https://files.pythonhosted.org/packages/e7/15/937843a3d0113111011097e58f406a30a848227968a62f7990f4ad22af18/yooncloud-dart-0.0.2.tar.gz
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-dummy]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [large-image-source-dicom]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [pupyl]: Downloading https://files.pythonhosted.org/packages/4c/91/cbca989cb3f9e49ba81dd4f803ef774b7b9a8a1dbf7250eeb12f11eff109/pupyl-0.9.8.tar.gz
+[2024-04-08 15:39:20] INFO root fetch - processPackages [graphsense-lib]: Downloading https://files.pythonhosted.org/packages/e7/40/4fbbeaf9d9ca0ce22f80995f55f93bd337d1d76568872fbfc8f59d5a2895/graphsense-lib-2.2.2.tar.gz
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/1f/75/67d4e66af91c90873acb456f65871c79b18f4690638c624ddd6f22d8dc5c/large-image-source-deepzoom-1.9.1.dev8.tar.gz
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [yooncloud-dart]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [jafgen]: Downloading https://files.pythonhosted.org/packages/46/22/98dec1c130155ed3d16912e7e12421eff1489506bc72f8a0b443f5fa370c/jafgen-0.4.6.tar.gz
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-gdal]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/30/98/9360f895c54d507cacd42e533498360c54d795212721299d29320acb0d76/large-image-source-dicom-1.27.5.dev99.tar.gz
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [large-image-source-deepzoom]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-deepzoom]: executing diffoscope
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-deepzoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-deepzoom/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-dummy]: Downloading https://files.pythonhosted.org/packages/a7/47/6a6b2735ef16d597973161650868769abbd88ca81aa572367cb13d00618e/large-image-source-dummy-1.9.1.dev6.tar.gz
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [pupyl]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [yooncloud-dart]: Downloading https://files.pythonhosted.org/packages/7e/38/dd9d4134ed0b445fb7b0f594d5190181ec320e9f3e1db3d25e7caecaa12b/yooncloud-dart-0.0.3.tar.gz
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [jafgen]: Timeout reached during download
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [graphsense-lib]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-gdal]: Downloading https://files.pythonhosted.org/packages/06/09/9cc15777a61a9746370b4445caa7d36d66ce0b1a197652f2c9da003e5e01/large-image-source-gdal-1.9.1.dev6.tar.gz
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [large-image-source-dicom]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-dicom]: executing diffoscope
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dicom-1.27.5.dev8.tar.gz tmp/large-image-source-dicom-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-dicom/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [yooncloud-dart]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [yooncloud-dart]: executing diffoscope
+[2024-04-08 15:39:20] INFO root fetch - processPackages [yooncloud-dart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yooncloud-dart-0.0.2.tar.gz tmp/yooncloud-dart-0.0.3.tar.gz --markdown 20240408/y/yooncloud-dart/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [large-image-source-dummy]: Timeout reached during download
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [large-image-source-gdal]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [pupyl]: Downloading https://files.pythonhosted.org/packages/37/4c/03c290f46da8ddaab4e1d4ed7fc8fd075abd62c3ab94855fe3aa96b205ea/pupyl-0.9.9.tar.gz
+[2024-04-08 15:39:20] INFO root fetch - processPackages [jafgen]: Downloading https://files.pythonhosted.org/packages/46/c4/300a1dab2933592bc4482ab40a7989479e27a5001a28995099392335c1cc/jafgen-0.4.9.tar.gz
+[2024-04-08 15:39:20] INFO root fetch - processPackages [graphsense-lib]: Downloading https://files.pythonhosted.org/packages/7b/8d/98603c99c1ab020f56caa4e4a74f50d0ccbe168a72ea2e26fb570735666a/graphsense-lib-2.2.5.tar.gz
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [graphsense-lib]: Skipping package: exceeds size limit 11246244>=10485760
+[2024-04-08 15:39:20] INFO root fetch - main [MainThread]: End processing [graphsense-lib] error
+[2024-04-08 15:39:20] INFO root fetch - processPackages [large-image-source-dummy]: Downloading https://files.pythonhosted.org/packages/65/2c/392be6b06828c27c73b918dd280229b97af5bf7bdab89b8eb79ed22e60a4/large-image-source-dummy-1.9.1.dev8.tar.gz
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [pupyl]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [pupyl]: executing diffoscope
+[2024-04-08 15:39:20] INFO root fetch - processPackages [pupyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pupyl-0.9.8.tar.gz tmp/pupyl-0.9.9.tar.gz --markdown 20240408/p/pupyl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-08 15:39:20] WARNING root fetch - processPackages [jafgen]: Timeout reached during download
+[2024-04-08 15:39:20] INFO root fetch - processPackages [jafgen]: executing diffoscope
+[2024-04-08 15:39:20] INFO root fetch - processPackages [jafgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jafgen-0.4.6.tar.gz tmp/jafgen-0.4.9.tar.gz --markdown 20240408/j/jafgen/0.4.6-0.4.9/diff.md --exclude *.pyd
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - main [MainThread]: End processing [large-image-source-deepzoom]: success
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-gdal]: Downloading https://files.pythonhosted.org/packages/23/56/8a639012c8318fe32f5c437aac0a345ff997578582ba8e1c5e83d93e4d88/large-image-source-gdal-1.9.1.dev8.tar.gz
+[2024-04-08 15:39:21] WARNING root fetch - processPackages [large-image-source-dummy]: Timeout reached during download
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-dummy]: executing diffoscope
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dummy-1.9.1.dev6.tar.gz tmp/large-image-source-dummy-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-dummy/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.27.5.dev8.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.27.5.dev99.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - main [MainThread]: End processing [large-image-source-dicom]: success
+[2024-04-08 15:39:21] INFO root fetch - processPackages [yooncloud-dart]: Remove: archive file [/home/abi/fetcher/tmp/yooncloud-dart-0.0.2.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - processPackages [yooncloud-dart]: Remove: archive file [/home/abi/fetcher/tmp/yooncloud-dart-0.0.3.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - main [MainThread]: End processing [yooncloud-dart]: success
+[2024-04-08 15:39:21] WARNING root fetch - processPackages [large-image-source-gdal]: Timeout reached during download
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-gdal]: executing diffoscope
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-gdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-gdal-1.9.1.dev6.tar.gz tmp/large-image-source-gdal-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-gdal/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 15:39:21] INFO root fetch - processPackages [pupyl]: Remove: archive file [/home/abi/fetcher/tmp/pupyl-0.9.8.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - processPackages [pupyl]: Remove: archive file [/home/abi/fetcher/tmp/pupyl-0.9.9.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - main [MainThread]: End processing [pupyl]: success
+[2024-04-08 15:39:21] INFO root fetch - processPackages [jafgen]: Remove: archive file [/home/abi/fetcher/tmp/jafgen-0.4.6.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - processPackages [jafgen]: Remove: archive file [/home/abi/fetcher/tmp/jafgen-0.4.9.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - main [MainThread]: End processing [jafgen]: success
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-dummy]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dummy-1.9.1.dev6.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-dummy]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dummy-1.9.1.dev8.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - main [MainThread]: End processing [large-image-source-dummy]: success
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-gdal]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-gdal-1.9.1.dev6.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - processPackages [large-image-source-gdal]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-gdal-1.9.1.dev8.tar.gz]
+[2024-04-08 15:39:21] INFO root fetch - main [MainThread]: End processing [large-image-source-gdal]: success
+[2024-04-08 15:39:21] INFO root fetch - main [MainThread]: Store serial: [22667911]
