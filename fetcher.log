@@ -24685,3 +24685,277 @@ EOFError: EOF read where object expected
 [2024-04-08 16:08:30] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-08 16:08:30] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
 [2024-04-08 16:08:30] INFO root fetch - main [MainThread]: Store serial: [22668418]
+[2024-04-08 16:10:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22668418]
+[2024-04-08 16:10:45] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: girder-large-image
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openshift-python-wrapper
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-bot-reporter
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder-large-image-annotation
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grooveshop-django-api
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cosmix-launcher
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-converter
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: monviso
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: large-image-tasks
+[2024-04-08 16:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-bioformats
+[2024-04-08 16:10:45] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.98.0] Old Version: [0.97.0]
+[2024-04-08 16:10:45] INFO root fetch - processPackages [telegram-bot-reporter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 16:10:45] INFO root fetch - processPackages [monviso]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-08 16:10:45] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:10:45] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-04-08 16:10:45] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:10:45] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:10:45] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:10:45] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:10:45] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/a9/8a/5e0b13546e06575e97edb83d18a080950186d4c4aca8614bf8f2934499c4/monviso-0.1.1.tar.gz
+[2024-04-08 16:10:45] WARNING root fetch - processPackages [cosmix-launcher]: Skipping, unable to determine old version
+[2024-04-08 16:10:45] INFO root fetch - processPackages [cosmix-launcher]: Start processing: kobushi-trackviewer
+[2024-04-08 16:10:45] INFO root fetch - main [MainThread]: End processing [cosmix-launcher] error
+[2024-04-08 16:10:45] INFO root fetch - processPackages [telegram-bot-reporter]: Downloading https://files.pythonhosted.org/packages/1e/6b/d77c8b246099c76503eafe0f11a0b43fc651030a2246141b2b99102e8e22/telegram_bot_reporter-0.1.8.tar.gz
+[2024-04-08 16:10:45] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/74/5a/ef09cbf2923d3895066a00766508af2eb910ce21021b5f3bc6444473349a/grooveshop_django_api-0.97.0.tar.gz
+[2024-04-08 16:10:45] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/9f/7d/764189c337fd7a890bec6278bb2e1d065d51af7f06726f3d00b6d3836aa4/large-image-source-bioformats-1.9.1.dev6.tar.gz
+[2024-04-08 16:10:45] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-04-08 16:10:45] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2024-04-08 16:10:45] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/d2/92/d072fa606a4761eb667b0efc0ba4137c9f9b34386f41757c597cdeff49d5/large-image-tasks-1.9.1.dev6.tar.gz
+[2024-04-08 16:10:45] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2024-04-08 16:10:45] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33750441>=10485760
+[2024-04-08 16:10:45] INFO root fetch - processPackages [grooveshop-django-api]: Start processing: stela-professional
+[2024-04-08 16:10:45] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-04-08 16:10:45] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2024-04-08 16:10:45] INFO root fetch - processPackages [kobushi-trackviewer]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-08 16:10:45] WARNING root fetch - processPackages [telegram-bot-reporter]: Timeout reached during download
+[2024-04-08 16:10:45] WARNING root fetch - processPackages [monviso]: Timeout reached during download
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [openshift-python-wrapper]: Timeout reached during download
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [large-image-source-bioformats]: Timeout reached during download
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [large-image-tasks]: Timeout reached during download
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [girder-large-image-annotation]: Timeout reached during download
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [girder-large-image]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [stela-professional]: New version: [0.4.0] Old Version: [0.3.99]
+[2024-04-08 16:10:46] INFO root fetch - processPackages [telegram-bot-reporter]: Downloading https://files.pythonhosted.org/packages/fa/0a/762d86452a85b44a1949afb99216913c85f125f5f38bb6a93875775c0aa1/telegram_bot_reporter-0.1.9.tar.gz
+[2024-04-08 16:10:46] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/bc/a6/35fb556c021c4a446444f944874d22d3c1809ef5ef8be68d09677cc56b02/monviso-0.1.2.tar.gz
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [large-image-converter]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-04-08 16:10:46] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/be/b1/457ea10f23a8022b9045522623e3c24789e308b80800b4fd679928bb7cf8/large-image-source-bioformats-1.9.1.dev8.tar.gz
+[2024-04-08 16:10:46] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/59/66/7de5976597497ff75f76e9d1e817dc755ed82ff85669b1f9613d1b27c9e8/large-image-tasks-1.9.1.dev8.tar.gz
+[2024-04-08 16:10:46] INFO root fetch - processPackages [kobushi-trackviewer]: Downloading https://files.pythonhosted.org/packages/80/46/a5466ffc66db4a2b4badaa4ccf28cb7861356f20cf250ea4d5121e532faa/kobushi_trackviewer-1.1.6-py3-none-any.whl
+[2024-04-08 16:10:46] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2024-04-08 16:10:46] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [telegram-bot-reporter]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [telegram-bot-reporter]: executing diffoscope
+[2024-04-08 16:10:46] INFO root fetch - processPackages [telegram-bot-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_bot_reporter-0.1.8.tar.gz tmp/telegram_bot_reporter-0.1.9.tar.gz --markdown 20240408/t/telegram-bot-reporter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 16:10:46] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [monviso]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [monviso]: executing diffoscope
+[2024-04-08 16:10:46] INFO root fetch - processPackages [monviso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monviso-0.1.1.tar.gz tmp/monviso-0.1.2.tar.gz --markdown 20240408/m/monviso/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [openshift-python-wrapper]: Timeout reached during download
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [large-image-source-bioformats]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-04-08 16:10:46] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240408/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2024-04-08 16:10:46] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2024-04-08 16:10:46] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:10:46] INFO root fetch - processPackages [stela-professional]: Downloading https://files.pythonhosted.org/packages/71/e0/b4665c4f6006529a26012c80887bd7c11479e8becc802c07a9a5a427f5bb/stela_professional-0.3.99.tar.gz
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [large-image-tasks]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2024-04-08 16:10:46] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [kobushi-trackviewer]: Timeout reached during download
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [girder-large-image]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2024-04-08 16:10:46] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20240408/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [girder-large-image-annotation]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2024-04-08 16:10:46] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20240408/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [large-image-converter]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2024-04-08 16:10:46] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:10:46] INFO root fetch - processPackages [kobushi-trackviewer]: Downloading https://files.pythonhosted.org/packages/1e/1a/c33661b9c89ec8fd2e29fe9bfd25c39d2e75d8710ad08a1b2b52e3a61d50/kobushi_trackviewer-1.1.7-py3-none-any.whl
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [stela-professional]: Timeout reached during download
+[2024-04-08 16:10:46] WARNING root fetch - processPackages [kobushi-trackviewer]: Timeout reached during download
+[2024-04-08 16:10:46] INFO root fetch - processPackages [kobushi-trackviewer]: executing diffoscope
+[2024-04-08 16:10:46] INFO root fetch - processPackages [kobushi-trackviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobushi_trackviewer-1.1.6-py3-none-any.whl.zip tmp/kobushi_trackviewer-1.1.7-py3-none-any.whl.zip --markdown 20240408/k/kobushi-trackviewer/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2024-04-08 16:10:46] INFO root fetch - processPackages [stela-professional]: Downloading https://files.pythonhosted.org/packages/46/8e/c7d4dd1508a086347d0a0af56b54c6c72e16117fd5d6a8fcb196c9428de0/stela_professional-0.4.0.tar.gz
+[2024-04-08 16:10:47] INFO root fetch - processPackages [telegram-bot-reporter]: Remove: archive file [/home/abi/fetcher/tmp/telegram_bot_reporter-0.1.8.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [telegram-bot-reporter]: Remove: archive file [/home/abi/fetcher/tmp/telegram_bot_reporter-0.1.9.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [telegram-bot-reporter]: Start processing: openshift-cluster-management-python-wrapper
+[2024-04-08 16:10:47] INFO root fetch - main [MainThread]: End processing [telegram-bot-reporter]: success
+[2024-04-08 16:10:47] WARNING root fetch - processPackages [stela-professional]: Timeout reached during download
+[2024-04-08 16:10:47] INFO root fetch - processPackages [stela-professional]: executing diffoscope
+[2024-04-08 16:10:47] INFO root fetch - processPackages [stela-professional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stela_professional-0.3.99.tar.gz tmp/stela_professional-0.4.0.tar.gz --markdown 20240408/s/stela-professional/0.3.99-0.4.0/diff.md --exclude *.pyd
+[2024-04-08 16:10:47] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.98] Old Version: [1.0.97]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-bioformats]: Start processing: large-image-source-deepzoom
+[2024-04-08 16:10:47] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2024-04-08 16:10:47] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/2f/4e/9ccfd22089104140cc1834daff8a97884bb350012f561259bc821eff0f41/openshift_cluster_management_python_wrapper-1.0.97.tar.gz
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev6.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev8.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-tasks]: Start processing: python-keycloak
+[2024-04-08 16:10:47] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-deepzoom]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.1.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.2.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [monviso]: Start processing: large-image-source-dicom
+[2024-04-08 16:10:47] INFO root fetch - main [MainThread]: End processing [monviso]: success
+[2024-04-08 16:10:47] INFO root fetch - processPackages [python-keycloak]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-04-08 16:10:47] WARNING root fetch - processPackages [openshift-cluster-management-python-wrapper]: Timeout reached during download
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/16/46/821666cfb4c3a315b4ccc86d7ba529a1af49e4581bbd8b7ca8e1cb5fa4ba/large-image-source-deepzoom-1.9.1.dev6.tar.gz
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-dicom]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [girder-large-image-annotation]: Start processing: python-keycloak
+[2024-04-08 16:10:47] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2024-04-08 16:10:47] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/b2/80/076b85c4bccda2f1b59698061769260114e01730535198ed893082ffbc6b/python_keycloak-3.9.2.tar.gz
+[2024-04-08 16:10:47] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c0/59/4a411cf32353a4aa27ed7df897022dba7186efabe6440e073e02e93578c7/openshift_cluster_management_python_wrapper-1.0.98.tar.gz
+[2024-04-08 16:10:47] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [openshift-python-wrapper]: Start processing: python-keycloak
+[2024-04-08 16:10:47] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/88/6d/fd0d191c979c85e7c08491d59a4274bc7794776090ee162f84483dc50405/large-image-source-dicom-1.27.5.dev8.tar.gz
+[2024-04-08 16:10:47] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2024-04-08 16:10:47] WARNING root fetch - processPackages [large-image-source-deepzoom]: Timeout reached during download
+[2024-04-08 16:10:47] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [girder-large-image]: Start processing: large-image-source-dummy
+[2024-04-08 16:10:47] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-converter]: Start processing: python-keycloak
+[2024-04-08 16:10:47] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2024-04-08 16:10:47] INFO root fetch - processPackages [python-keycloak]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [python-keycloak]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [kobushi-trackviewer]: Remove: archive file [/home/abi/fetcher/tmp/kobushi_trackviewer-1.1.6-py3-none-any.whl.zip]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [kobushi-trackviewer]: Remove: archive file [/home/abi/fetcher/tmp/kobushi_trackviewer-1.1.7-py3-none-any.whl.zip]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [kobushi-trackviewer]: Start processing: vasprocar
+[2024-04-08 16:10:47] INFO root fetch - main [MainThread]: End processing [kobushi-trackviewer]: success
+[2024-04-08 16:10:47] INFO root fetch - processPackages [python-keycloak]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-04-08 16:10:47] WARNING root fetch - processPackages [openshift-cluster-management-python-wrapper]: Timeout reached during download
+[2024-04-08 16:10:47] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2024-04-08 16:10:47] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cluster_management_python_wrapper-1.0.97.tar.gz tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz --markdown 20240408/o/openshift-cluster-management-python-wrapper/1.0.97-1.0.98/diff.md --exclude *.pyd
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-dummy]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:10:47] WARNING root fetch - processPackages [python-keycloak]: Timeout reached during download
+[2024-04-08 16:10:47] WARNING root fetch - processPackages [large-image-source-dicom]: Timeout reached during download
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/1f/75/67d4e66af91c90873acb456f65871c79b18f4690638c624ddd6f22d8dc5c/large-image-source-deepzoom-1.9.1.dev8.tar.gz
+[2024-04-08 16:10:47] INFO root fetch - processPackages [vasprocar]: New version: [1.1.18.52] Old Version: [1.1.18.51]
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-dummy]: Downloading https://files.pythonhosted.org/packages/a7/47/6a6b2735ef16d597973161650868769abbd88ca81aa572367cb13d00618e/large-image-source-dummy-1.9.1.dev6.tar.gz
+[2024-04-08 16:10:47] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/0d/1c/9c16c53eac3772437ddfc920c76b833af0a0e9f147befd41d1fab1dc13cd/python_keycloak-3.9.3.tar.gz
+[2024-04-08 16:10:47] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/30/98/9360f895c54d507cacd42e533498360c54d795212721299d29320acb0d76/large-image-source-dicom-1.27.5.dev99.tar.gz
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/0d/1c/9c16c53eac3772437ddfc920c76b833af0a0e9f147befd41d1fab1dc13cd/python_keycloak-3.9.3.tar.gz
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/0d/1c/9c16c53eac3772437ddfc920c76b833af0a0e9f147befd41d1fab1dc13cd/python_keycloak-3.9.3.tar.gz
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [large-image-source-deepzoom]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-deepzoom]: executing diffoscope
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-deepzoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-deepzoom/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: Downloading https://files.pythonhosted.org/packages/0d/1c/9c16c53eac3772437ddfc920c76b833af0a0e9f147befd41d1fab1dc13cd/python_keycloak-3.9.3.tar.gz
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [large-image-source-dummy]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [vasprocar]: Downloading https://files.pythonhosted.org/packages/d3/e0/81dbdace9f726cc33abb4cefa198863816da247cd10f5b0450c1b80cc557/vasprocar-1.1.18.51.tar.gz
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [large-image-source-dicom]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-dicom]: executing diffoscope
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dicom-1.27.5.dev8.tar.gz tmp/large-image-source-dicom-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-dicom/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [python-keycloak]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-3.9.2.tar.gz tmp/python_keycloak-3.9.3.tar.gz --markdown 20240408/p/python-keycloak/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [python-keycloak]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-3.9.2.tar.gz tmp/python_keycloak-3.9.3.tar.gz --markdown 20240408/p/python-keycloak/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [python-keycloak]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-3.9.2.tar.gz tmp/python_keycloak-3.9.3.tar.gz --markdown 20240408/p/python-keycloak/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [python-keycloak]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2024-04-08 16:10:48] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-3.9.2.tar.gz tmp/python_keycloak-3.9.3.tar.gz --markdown 20240408/p/python-keycloak/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-dummy]: Downloading https://files.pythonhosted.org/packages/65/2c/392be6b06828c27c73b918dd280229b97af5bf7bdab89b8eb79ed22e60a4/large-image-source-dummy-1.9.1.dev8.tar.gz
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [vasprocar]: Timeout reached during download
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [large-image-source-dummy]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-dummy]: executing diffoscope
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dummy-1.9.1.dev6.tar.gz tmp/large-image-source-dummy-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-dummy/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:10:48] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.97.tar.gz]
+[2024-04-08 16:10:48] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz]
+[2024-04-08 16:10:48] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Start processing: ssh-ca-cli
+[2024-04-08 16:10:48] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2024-04-08 16:10:48] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-08 16:10:48] INFO root fetch - processPackages [vasprocar]: Downloading https://files.pythonhosted.org/packages/47/d7/bddc634f0ed5aac18167218f87d40d25662b80283f31f2194565b2943f58/vasprocar-1.1.18.52.tar.gz
+[2024-04-08 16:10:48] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/e8/3d/5eeafb492b4deeb98085bbcc0be3d4c9a8b1a0275c452121ad735817e32e/ssh_ca_cli-0.7.8.tar.gz
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/d9/17/a7a0b2c1f4a0e962ee74fb64fccdd2513ec2311535cfa14bf692e46c5538/ssh_ca_cli-0.7.9.tar.gz
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz]
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz]
+[2024-04-08 16:10:48] INFO root fetch - processPackages [large-image-source-deepzoom]: Start processing: large-image-source-gdal
+[2024-04-08 16:10:48] INFO root fetch - main [MainThread]: End processing [large-image-source-deepzoom]: success
+[2024-04-08 16:10:48] WARNING root fetch - processPackages [vasprocar]: Timeout reached during download
+[2024-04-08 16:10:48] INFO root fetch - processPackages [vasprocar]: executing diffoscope
+[2024-04-08 16:10:48] INFO root fetch - processPackages [vasprocar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vasprocar-1.1.18.51.tar.gz tmp/vasprocar-1.1.18.52.tar.gz --markdown 20240408/v/vasprocar/1.1.18.51-1.1.18.52/diff.md --exclude *.pyd
+[2024-04-08 16:10:49] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 16:10:49] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 16:10:49] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.8.tar.gz tmp/ssh_ca_cli-0.7.9.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-gdal]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-gdal]: Downloading https://files.pythonhosted.org/packages/06/09/9cc15777a61a9746370b4445caa7d36d66ce0b1a197652f2c9da003e5e01/large-image-source-gdal-1.9.1.dev6.tar.gz
+[2024-04-08 16:10:49] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.9.2.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [python-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/python_keycloak-3.9.3.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [python-keycloak]: Start processing: shdo
+[2024-04-08 16:10:49] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2024-04-08 16:10:49] WARNING root fetch - processPackages [large-image-source-gdal]: Timeout reached during download
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.27.5.dev8.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.27.5.dev99.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-dicom]: Start processing: large-image-source-mapnik
+[2024-04-08 16:10:49] INFO root fetch - main [MainThread]: End processing [large-image-source-dicom]: success
+[2024-04-08 16:10:49] INFO root fetch - processPackages [python-keycloak]: Start processing: large-image-source-multi
+[2024-04-08 16:10:49] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2024-04-08 16:10:49] INFO root fetch - processPackages [python-keycloak]: Start processing: fractal-client
+[2024-04-08 16:10:49] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-multi]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-gdal]: Downloading https://files.pythonhosted.org/packages/23/56/8a639012c8318fe32f5c437aac0a345ff997578582ba8e1c5e83d93e4d88/large-image-source-gdal-1.9.1.dev8.tar.gz
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-dummy]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dummy-1.9.1.dev6.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-dummy]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dummy-1.9.1.dev8.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-mapnik]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-08 16:10:49] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2024-04-08 16:10:49] INFO root fetch - main [MainThread]: End processing [large-image-source-dummy]: success
+[2024-04-08 16:10:49] INFO root fetch - processPackages [shdo]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [stela-professional]: Remove: archive file [/home/abi/fetcher/tmp/stela_professional-0.3.99.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [stela-professional]: Remove: archive file [/home/abi/fetcher/tmp/stela_professional-0.4.0.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - main [MainThread]: End processing [stela-professional]: success
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-mapnik]: Downloading https://files.pythonhosted.org/packages/ec/f8/40c5e595a0666f11af70b13b5528b91d61179bf3560aa54bf97025e81322/large-image-source-mapnik-1.9.1.dev6.tar.gz
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-multi]: Downloading https://files.pythonhosted.org/packages/d9/21/b61b00f5731696ef089922ba38d16dc863f2344801b00e20bcce54ca43f0/large-image-source-multi-1.27.5.dev8.tar.gz
+[2024-04-08 16:10:49] WARNING root fetch - processPackages [large-image-source-gdal]: Timeout reached during download
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-gdal]: executing diffoscope
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-gdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-gdal-1.9.1.dev6.tar.gz tmp/large-image-source-gdal-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-gdal/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:10:49] INFO root fetch - processPackages [fractal-client]: New version: [2.0.0a0] Old Version: [1.4.4]
+[2024-04-08 16:10:49] WARNING root fetch - processPackages [large-image-source-multi]: Timeout reached during download
+[2024-04-08 16:10:49] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/5d/eb/7e88c738448370c79f1f3cbfa10b934ce47686ed30d78472b21204ec5b9e/shdo-0.0.7.tar.gz
+[2024-04-08 16:10:49] WARNING root fetch - processPackages [large-image-source-mapnik]: Timeout reached during download
+[2024-04-08 16:10:49] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.8.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.9.tar.gz]
+[2024-04-08 16:10:49] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-multi]: Downloading https://files.pythonhosted.org/packages/9d/71/93e085a35b7691409c73655acc502b9fa66e982e29f71b9f2eb0a8ffa885/large-image-source-multi-1.27.5.dev99.tar.gz
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-mapnik]: Downloading https://files.pythonhosted.org/packages/cb/26/ae6c10f6388de2806ecc5e1ca9d5afad29ab6d5ac2e1d280a53970288577/large-image-source-mapnik-1.9.1.dev8.tar.gz
+[2024-04-08 16:10:49] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/2f/5b/1fa5e7d299f111aa1c84c910b5ae23ff0beb6ca3b87c79cf293f658a2f24/fractal_client-1.4.4.tar.gz
+[2024-04-08 16:10:49] WARNING root fetch - processPackages [large-image-source-mapnik]: Timeout reached during download
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-mapnik]: executing diffoscope
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-mapnik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz --markdown 20240408/l/large-image-source-mapnik/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 16:10:49] WARNING root fetch - processPackages [large-image-source-multi]: Timeout reached during download
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-multi]: executing diffoscope
+[2024-04-08 16:10:49] INFO root fetch - processPackages [large-image-source-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-multi-1.27.5.dev8.tar.gz tmp/large-image-source-multi-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-multi/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:10:49] WARNING root fetch - processPackages [fractal-client]: Timeout reached during download
+[2024-04-08 16:10:50] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/f1/cb/52da6f83840e3fc60f8f9cbeedd8b1900adb14c376113e0d77a591723ba5/fractal_client-2.0.0a0.tar.gz
+[2024-04-08 16:10:50] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-08 16:10:50] INFO root fetch - processPackages [large-image-source-gdal]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-gdal-1.9.1.dev6.tar.gz]
+[2024-04-08 16:10:50] INFO root fetch - processPackages [large-image-source-gdal]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-gdal-1.9.1.dev8.tar.gz]
+[2024-04-08 16:10:50] INFO root fetch - main [MainThread]: End processing [large-image-source-gdal]: success
+[2024-04-08 16:10:50] INFO root fetch - processPackages [vasprocar]: Remove: archive file [/home/abi/fetcher/tmp/vasprocar-1.1.18.51.tar.gz]
+[2024-04-08 16:10:50] INFO root fetch - processPackages [vasprocar]: Remove: archive file [/home/abi/fetcher/tmp/vasprocar-1.1.18.52.tar.gz]
+[2024-04-08 16:10:50] INFO root fetch - main [MainThread]: End processing [vasprocar]: success
+[2024-04-08 16:10:50] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/71/56/ecec9b4ede326cd50adfa0a49c707dfcd76e908e217b036530a3e8647779/shdo-0.0.8.tar.gz
+[2024-04-08 16:10:50] WARNING root fetch - processPackages [fractal-client]: Timeout reached during download
+[2024-04-08 16:10:50] INFO root fetch - processPackages [fractal-client]: executing diffoscope
+[2024-04-08 16:10:50] INFO root fetch - processPackages [fractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_client-1.4.4.tar.gz tmp/fractal_client-2.0.0a0.tar.gz --markdown 20240408/f/fractal-client/1.4.4-2.0.0a0/diff.md --exclude *.pyd
+[2024-04-08 16:10:50] INFO root fetch - processPackages [large-image-source-mapnik]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz]
+[2024-04-08 16:10:50] INFO root fetch - processPackages [large-image-source-mapnik]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz]
+[2024-04-08 16:10:50] INFO root fetch - main [MainThread]: End processing [large-image-source-mapnik]: success
+[2024-04-08 16:10:50] INFO root fetch - processPackages [large-image-source-multi]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-multi-1.27.5.dev8.tar.gz]
+[2024-04-08 16:10:50] INFO root fetch - processPackages [large-image-source-multi]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-multi-1.27.5.dev99.tar.gz]
+[2024-04-08 16:10:50] INFO root fetch - main [MainThread]: End processing [large-image-source-multi]: success
+[2024-04-08 16:10:50] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-08 16:10:50] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-08 16:10:50] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.0.7.tar.gz tmp/shdo-0.0.8.tar.gz --markdown 20240408/s/shdo/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-08 16:10:51] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.4.4.tar.gz]
+[2024-04-08 16:10:51] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-2.0.0a0.tar.gz]
+[2024-04-08 16:10:51] INFO root fetch - main [MainThread]: End processing [fractal-client]: success
+[2024-04-08 16:10:51] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.7.tar.gz]
+[2024-04-08 16:10:51] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.8.tar.gz]
+[2024-04-08 16:10:51] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-08 16:10:51] INFO root fetch - main [MainThread]: Store serial: [22668497]
