@@ -15731,3 +15731,80 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:47:09] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.22.tar.gz]
 [2024-04-08 11:47:09] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
 [2024-04-08 11:47:09] INFO root fetch - main [MainThread]: Store serial: [22665213]
+[2024-04-08 11:49:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665213]
+[2024-04-08 11:49:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 11:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lims-utils
+[2024-04-08 11:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-utils
+[2024-04-08 11:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wassncplot
+[2024-04-08 11:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: up42-py
+[2024-04-08 11:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sabledocs
+[2024-04-08 11:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nextconsole
+[2024-04-08 11:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m-caching
+[2024-04-08 11:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2024-04-08 11:49:19] WARNING root fetch - processPackages [nextconsole]: Skipping, unable to determine old version
+[2024-04-08 11:49:19] INFO root fetch - main [MainThread]: End processing [nextconsole] error
+[2024-04-08 11:49:19] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240407.10.46.245471] Old Version: [20240406.17.45.356043]
+[2024-04-08 11:49:19] INFO root fetch - processPackages [deep-utils]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-08 11:49:19] INFO root fetch - processPackages [lims-utils]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-08 11:49:19] INFO root fetch - processPackages [up42-py]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-08 11:49:19] INFO root fetch - processPackages [m-caching]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 11:49:19] INFO root fetch - processPackages [wassncplot]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-04-08 11:49:19] INFO root fetch - processPackages [sabledocs]: New version: [0.9.479] Old Version: [0.9.474.dev0]
+[2024-04-08 11:49:19] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/70/39/d02bfb6f01d1f4804b179132a29649626032cb9c4e4bf15a2ba6e8eac3aa/certora-cli-alpha-master-20240406.17.45.356043.tar.gz
+[2024-04-08 11:49:19] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14477980>=10485760
+[2024-04-08 11:49:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-08 11:49:19] INFO root fetch - processPackages [deep-utils]: Downloading https://files.pythonhosted.org/packages/49/68/f6e5c4226abe4bc6dd3b14531abddd5374e59fc2ce1832907d93f2855935/deep_utils-1.3.8.tar.gz
+[2024-04-08 11:49:19] INFO root fetch - processPackages [wassncplot]: Downloading https://files.pythonhosted.org/packages/d1/8f/8811d9ffefb33b0cc9b6dcebd63f25f88190092a37741a51e32c73a1ad5d/wassncplot-2.2.3.tar.gz
+[2024-04-08 11:49:19] INFO root fetch - processPackages [lims-utils]: Downloading https://files.pythonhosted.org/packages/7a/d7/a0572b228c9ff03c2dbd97a794f045251723df6c4c00ad6012082b69df4b/lims-utils-0.2.0.tar.gz
+[2024-04-08 11:49:19] INFO root fetch - processPackages [up42-py]: Downloading https://files.pythonhosted.org/packages/56/5b/680c6031a8ba19d991001612cf44760173e0518cebe401feed41ab0e13fc/up42-py-0.9.2.tar.gz
+[2024-04-08 11:49:19] INFO root fetch - processPackages [m-caching]: Downloading https://files.pythonhosted.org/packages/92/35/07e332a7bfcfea921f39ce41253213a07530cde600c8302171c14960b1af/m-caching-0.1.8.tar.gz
+[2024-04-08 11:49:19] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/cd/23/ce98639fb8fe61efdfc469b798b754c78336a4b81abd0add9e0c9040e7fd/sabledocs-0.9.474.dev0.tar.gz
+[2024-04-08 11:49:19] WARNING root fetch - processPackages [m-caching]: Timeout reached during download
+[2024-04-08 11:49:19] WARNING root fetch - processPackages [sabledocs]: Timeout reached during download
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [deep-utils]: Timeout reached during download
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [wassncplot]: Timeout reached during download
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [lims-utils]: Timeout reached during download
+[2024-04-08 11:49:20] INFO root fetch - processPackages [m-caching]: Downloading https://files.pythonhosted.org/packages/28/7b/677fa56e93b5ed9555dd16a08d128d3fa583d8d799e3e61a2b360bb6d0e4/m-caching-0.1.9.tar.gz
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [up42-py]: Timeout reached during download
+[2024-04-08 11:49:20] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/2b/1c/b5373896c960769e1562595887cf7b0cf744a16aa88f8a171661983aff4c/sabledocs-0.9.479.tar.gz
+[2024-04-08 11:49:20] INFO root fetch - processPackages [deep-utils]: Downloading https://files.pythonhosted.org/packages/e0/06/728eb7458cfb1b26de44010d59bef94cd9a590a00dac7dda13e3777e437c/deep_utils-1.3.9.tar.gz
+[2024-04-08 11:49:20] INFO root fetch - processPackages [wassncplot]: Downloading https://files.pythonhosted.org/packages/d5/2a/97e4fa127ac8616a758c4a517ccc9122bb595e4269f37d5f7bb3c62ba015/wassncplot-2.3.0.tar.gz
+[2024-04-08 11:49:20] INFO root fetch - processPackages [lims-utils]: Downloading https://files.pythonhosted.org/packages/a5/60/cc47dc855b3fd7bdb9f143c72ec9fd0d9e7b91e62e0506ab81783f664b48/lims-utils-0.2.1.tar.gz
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [wassncplot]: Timeout reached during download
+[2024-04-08 11:49:20] INFO root fetch - processPackages [wassncplot]: executing diffoscope
+[2024-04-08 11:49:20] INFO root fetch - processPackages [wassncplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wassncplot-2.2.3.tar.gz tmp/wassncplot-2.3.0.tar.gz --markdown 20240408/w/wassncplot/2.2.3-2.3.0/diff.md --exclude *.pyd
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [sabledocs]: Timeout reached during download
+[2024-04-08 11:49:20] INFO root fetch - processPackages [sabledocs]: executing diffoscope
+[2024-04-08 11:49:20] INFO root fetch - processPackages [sabledocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabledocs-0.9.474.dev0.tar.gz tmp/sabledocs-0.9.479.tar.gz --markdown 20240408/s/sabledocs/0.9.474.dev0-0.9.479/diff.md --exclude *.pyd
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [m-caching]: Timeout reached during download
+[2024-04-08 11:49:20] INFO root fetch - processPackages [m-caching]: executing diffoscope
+[2024-04-08 11:49:20] INFO root fetch - processPackages [m-caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-caching-0.1.8.tar.gz tmp/m-caching-0.1.9.tar.gz --markdown 20240408/m/m-caching/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 11:49:20] INFO root fetch - processPackages [up42-py]: Downloading https://files.pythonhosted.org/packages/02/b8/432e331ff95aad55657255329187db293143fd1bd91665fdb332664cd438/up42-py-0.9.3.tar.gz
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [deep-utils]: Timeout reached during download
+[2024-04-08 11:49:20] INFO root fetch - processPackages [deep-utils]: executing diffoscope
+[2024-04-08 11:49:20] INFO root fetch - processPackages [deep-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_utils-1.3.8.tar.gz tmp/deep_utils-1.3.9.tar.gz --markdown 20240408/d/deep-utils/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [lims-utils]: Timeout reached during download
+[2024-04-08 11:49:20] INFO root fetch - processPackages [lims-utils]: executing diffoscope
+[2024-04-08 11:49:20] INFO root fetch - processPackages [lims-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lims-utils-0.2.0.tar.gz tmp/lims-utils-0.2.1.tar.gz --markdown 20240408/l/lims-utils/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-08 11:49:20] WARNING root fetch - processPackages [up42-py]: Timeout reached during download
+[2024-04-08 11:49:20] INFO root fetch - processPackages [up42-py]: executing diffoscope
+[2024-04-08 11:49:20] INFO root fetch - processPackages [up42-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up42-py-0.9.2.tar.gz tmp/up42-py-0.9.3.tar.gz --markdown 20240408/u/up42-py/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-08 11:49:21] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.9.474.dev0.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.9.479.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - main [MainThread]: End processing [sabledocs]: success
+[2024-04-08 11:49:21] INFO root fetch - processPackages [wassncplot]: Remove: archive file [/home/abi/fetcher/tmp/wassncplot-2.2.3.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - processPackages [wassncplot]: Remove: archive file [/home/abi/fetcher/tmp/wassncplot-2.3.0.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - main [MainThread]: End processing [wassncplot]: success
+[2024-04-08 11:49:21] INFO root fetch - processPackages [m-caching]: Remove: archive file [/home/abi/fetcher/tmp/m-caching-0.1.8.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - processPackages [m-caching]: Remove: archive file [/home/abi/fetcher/tmp/m-caching-0.1.9.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - main [MainThread]: End processing [m-caching]: success
+[2024-04-08 11:49:21] INFO root fetch - processPackages [up42-py]: Remove: archive file [/home/abi/fetcher/tmp/up42-py-0.9.2.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - processPackages [up42-py]: Remove: archive file [/home/abi/fetcher/tmp/up42-py-0.9.3.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - main [MainThread]: End processing [up42-py]: success
+[2024-04-08 11:49:21] INFO root fetch - processPackages [lims-utils]: Remove: archive file [/home/abi/fetcher/tmp/lims-utils-0.2.0.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - processPackages [lims-utils]: Remove: archive file [/home/abi/fetcher/tmp/lims-utils-0.2.1.tar.gz]
+[2024-04-08 11:49:21] INFO root fetch - main [MainThread]: End processing [lims-utils]: success
+[2024-04-08 11:49:22] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.8.tar.gz]
+[2024-04-08 11:49:22] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.9.tar.gz]
+[2024-04-08 11:49:22] INFO root fetch - main [MainThread]: End processing [deep-utils]: success
+[2024-04-08 11:49:22] INFO root fetch - main [MainThread]: Store serial: [22665236]
