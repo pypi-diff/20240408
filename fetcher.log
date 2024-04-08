@@ -8801,3 +8801,20 @@
 [2024-04-08 07:00:29] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.9.tar.gz]
 [2024-04-08 07:00:29] INFO root fetch - main [MainThread]: End processing [GeneralAgent]: success
 [2024-04-08 07:00:29] INFO root fetch - main [MainThread]: Store serial: [22662468]
+[2024-04-08 07:02:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662468]
+[2024-04-08 07:02:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BNews
+[2024-04-08 07:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PublicDataReader
+[2024-04-08 07:02:50] WARNING root fetch - processPackages [BNews]: Skipping, unable to determine old version
+[2024-04-08 07:02:50] INFO root fetch - main [MainThread]: End processing [BNews] error
+[2024-04-08 07:02:50] INFO root fetch - processPackages [PublicDataReader]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 07:02:50] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/d9/61/8c1c2030551efc9c01fc9fdd2f3e6402e116fe9f59fc9dd57e918c1c808d/PublicDataReader-1.0.8.tar.gz
+[2024-04-08 07:02:51] WARNING root fetch - processPackages [PublicDataReader]: Timeout reached during download
+[2024-04-08 07:02:51] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/b6/98/4322639b4e6d25bce8bfeab944f77d37c551eb84c395a742a2bdcd8c5658/PublicDataReader-1.0.9.tar.gz
+[2024-04-08 07:02:51] WARNING root fetch - processPackages [PublicDataReader]: Timeout reached during download
+[2024-04-08 07:02:51] INFO root fetch - processPackages [PublicDataReader]: executing diffoscope
+[2024-04-08 07:02:51] INFO root fetch - processPackages [PublicDataReader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PublicDataReader-1.0.8.tar.gz tmp/PublicDataReader-1.0.9.tar.gz --markdown 20240408/P/PublicDataReader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 07:02:52] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.8.tar.gz]
+[2024-04-08 07:02:52] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.9.tar.gz]
+[2024-04-08 07:02:52] INFO root fetch - main [MainThread]: End processing [PublicDataReader]: success
+[2024-04-08 07:02:52] INFO root fetch - main [MainThread]: Store serial: [22662477]
