@@ -11520,3 +11520,50 @@
 [2024-04-08 09:18:30] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.3.tar.gz]
 [2024-04-08 09:18:30] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
 [2024-04-08 09:18:30] INFO root fetch - main [MainThread]: Store serial: [22663395]
+[2024-04-08 09:20:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663395]
+[2024-04-08 09:20:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 09:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonos
+[2024-04-08 09:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-extras
+[2024-04-08 09:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-pbx-admin
+[2024-04-08 09:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pwdata
+[2024-04-08 09:20:40] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-08 09:20:40] INFO root fetch - processPackages [nonos]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 09:20:40] INFO root fetch - processPackages [pwdata]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 09:20:40] INFO root fetch - processPackages [astro-extras]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-08 09:20:40] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2024-04-08 09:20:40] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/94/56/e0bd8f39d42da292be4f3b7afd5816e1f5ae516877bae48d8f57d38e794d/astro_extras-0.0.7.tar.gz
+[2024-04-08 09:20:40] INFO root fetch - processPackages [nonos]: Downloading https://files.pythonhosted.org/packages/32/93/d5a6e3909a3fc23e40f53796a5bd0ce04082b7067911f5b0f928e347dd11/nonos-0.9.0.tar.gz
+[2024-04-08 09:20:40] INFO root fetch - processPackages [pwdata]: Downloading https://files.pythonhosted.org/packages/9e/8c/9bda3a14b92767b8695e5cb00e7bf16712bc73b88115b0de8680d8e6f79a/pwdata-0.2.8.tar.gz
+[2024-04-08 09:20:40] WARNING root fetch - processPackages [astro-extras]: Timeout reached during download
+[2024-04-08 09:20:40] WARNING root fetch - processPackages [pwdata]: Timeout reached during download
+[2024-04-08 09:20:41] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/ea/80/f4a2841dd56b545e7c7711fcf3d3c029b317f213ec0268d45a43f8aabdad/astro_extras-0.0.8.tar.gz
+[2024-04-08 09:20:41] INFO root fetch - processPackages [pwdata]: Downloading https://files.pythonhosted.org/packages/c7/46/816d6f1f659933364c1e3bc31d1c47429cdc64d389e1aeabf300efa31353/pwdata-0.2.9.tar.gz
+[2024-04-08 09:20:41] WARNING root fetch - processPackages [astro-extras]: Timeout reached during download
+[2024-04-08 09:20:41] INFO root fetch - processPackages [astro-extras]: executing diffoscope
+[2024-04-08 09:20:41] INFO root fetch - processPackages [astro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_extras-0.0.7.tar.gz tmp/astro_extras-0.0.8.tar.gz --markdown 20240408/a/astro-extras/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-08 09:20:41] WARNING root fetch - processPackages [pwdata]: Timeout reached during download
+[2024-04-08 09:20:41] INFO root fetch - processPackages [pwdata]: executing diffoscope
+[2024-04-08 09:20:41] INFO root fetch - processPackages [pwdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwdata-0.2.8.tar.gz tmp/pwdata-0.2.9.tar.gz --markdown 20240408/p/pwdata/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 09:20:41] WARNING root fetch - processPackages [django-pbx-admin]: Timeout reached during download
+[2024-04-08 09:20:41] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2024-04-08 09:20:42] WARNING root fetch - processPackages [nonos]: Timeout reached during download
+[2024-04-08 09:20:42] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.0.7.tar.gz]
+[2024-04-08 09:20:42] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.0.8.tar.gz]
+[2024-04-08 09:20:42] INFO root fetch - main [MainThread]: End processing [astro-extras]: success
+[2024-04-08 09:20:42] INFO root fetch - processPackages [pwdata]: Remove: archive file [/home/abi/fetcher/tmp/pwdata-0.2.8.tar.gz]
+[2024-04-08 09:20:42] INFO root fetch - processPackages [pwdata]: Remove: archive file [/home/abi/fetcher/tmp/pwdata-0.2.9.tar.gz]
+[2024-04-08 09:20:42] INFO root fetch - main [MainThread]: End processing [pwdata]: success
+[2024-04-08 09:20:42] INFO root fetch - processPackages [nonos]: Downloading https://files.pythonhosted.org/packages/30/12/bcc290ea36666366aa72037d1d028af88bdbb6201aeac6681052af71f77d/nonos-0.9.1.tar.gz
+[2024-04-08 09:20:43] WARNING root fetch - processPackages [django-pbx-admin]: Timeout reached during download
+[2024-04-08 09:20:43] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2024-04-08 09:20:43] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20240408/d/django-pbx-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 09:20:43] WARNING root fetch - processPackages [nonos]: Timeout reached during download
+[2024-04-08 09:20:43] INFO root fetch - processPackages [nonos]: executing diffoscope
+[2024-04-08 09:20:43] INFO root fetch - processPackages [nonos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonos-0.9.0.tar.gz tmp/nonos-0.9.1.tar.gz --markdown 20240408/n/nonos/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 09:20:45] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2024-04-08 09:20:45] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2024-04-08 09:20:45] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2024-04-08 09:20:45] INFO root fetch - processPackages [nonos]: Remove: archive file [/home/abi/fetcher/tmp/nonos-0.9.0.tar.gz]
+[2024-04-08 09:20:45] INFO root fetch - processPackages [nonos]: Remove: archive file [/home/abi/fetcher/tmp/nonos-0.9.1.tar.gz]
+[2024-04-08 09:20:45] INFO root fetch - main [MainThread]: End processing [nonos]: success
+[2024-04-08 09:20:45] INFO root fetch - main [MainThread]: Store serial: [22663406]
