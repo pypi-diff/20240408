@@ -14463,3 +14463,64 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:03:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-08 11:03:03] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-08 11:03:03] INFO root fetch - main [MainThread]: Store serial: [22664688]
+[2024-04-08 11:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664688]
+[2024-04-08 11:05:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 11:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-sts-payone
+[2024-04-08 11:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bosing
+[2024-04-08 11:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secvision-bindeps-linux-x64
+[2024-04-08 11:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: execnet
+[2024-04-08 11:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.common
+[2024-04-08 11:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.core
+[2024-04-08 11:05:11] INFO root fetch - processPackages [bosing]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2024-04-08 11:05:11] INFO root fetch - processPackages [autogluon.core]: New version: [1.0.1b20240407] Old Version: [1.0.1b20240406]
+[2024-04-08 11:05:11] INFO root fetch - processPackages [python-sts-payone]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-08 11:05:11] INFO root fetch - processPackages [execnet]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-08 11:05:11] WARNING root fetch - processPackages [secvision-bindeps-linux-x64]: Skipping, unable to determine old version
+[2024-04-08 11:05:11] INFO root fetch - main [MainThread]: End processing [secvision-bindeps-linux-x64] error
+[2024-04-08 11:05:11] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/5d/58/86d7640de36f7318b0abf3ee8393ad3207cdf1451cf81afb41bd66993a66/bosing-1.0.0b3.tar.gz
+[2024-04-08 11:05:11] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/44/90/0b0a76f36453a658f7df669ccb9fbbd4f3cacf72ce838775784f6aedc7c6/autogluon.core-1.0.1b20240406.tar.gz
+[2024-04-08 11:05:11] WARNING root fetch - processPackages [bosing]: Timeout reached during download
+[2024-04-08 11:05:11] INFO root fetch - processPackages [python-sts-payone]: Downloading https://files.pythonhosted.org/packages/d8/f0/29aed3362fbc06cee84a22f0bb54270a42c4fdd8c1cb5f80b04765247095/python_sts_payone-0.0.9.tar.gz
+[2024-04-08 11:05:11] INFO root fetch - processPackages [autogluon.common]: New version: [1.0.1b20240408] Old Version: [1.0.1b20240407]
+[2024-04-08 11:05:11] WARNING root fetch - processPackages [autogluon.core]: Timeout reached during download
+[2024-04-08 11:05:11] INFO root fetch - processPackages [execnet]: Downloading https://files.pythonhosted.org/packages/66/c6/14bd4bd2db833ebc90ebdaf4af21ea6e672e92725e03bc91683e2e08af8d/execnet-2.1.0.tar.gz
+[2024-04-08 11:05:12] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/39/8b/ce36e54d9af40ae915a2a3bf1ca1fdcef43e24ebc68128b6d7b15153ed50/bosing-1.0.0b4.tar.gz
+[2024-04-08 11:05:12] WARNING root fetch - processPackages [python-sts-payone]: Timeout reached during download
+[2024-04-08 11:05:12] WARNING root fetch - processPackages [execnet]: Timeout reached during download
+[2024-04-08 11:05:12] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/c6/49/fdb69bc756f32e7888455842f71e5f019ec153b2b11314a34b1743cc44a3/autogluon.common-1.0.1b20240407.tar.gz
+[2024-04-08 11:05:12] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/30/b7/9bb60666caf785ba38616e93b01148545ea5d0e1137b369222a3f658f710/autogluon.core-1.0.1b20240407.tar.gz
+[2024-04-08 11:05:12] WARNING root fetch - processPackages [bosing]: Timeout reached during download
+[2024-04-08 11:05:12] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-04-08 11:05:12] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-1.0.0b3.tar.gz tmp/bosing-1.0.0b4.tar.gz --markdown 20240408/b/bosing/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2024-04-08 11:05:12] WARNING root fetch - processPackages [autogluon.common]: Timeout reached during download
+[2024-04-08 11:05:12] INFO root fetch - processPackages [execnet]: Downloading https://files.pythonhosted.org/packages/bb/ff/b4c0dc78fbe20c3e59c0c7334de0c27eb4001a2b2017999af398bf730817/execnet-2.1.1.tar.gz
+[2024-04-08 11:05:12] INFO root fetch - processPackages [python-sts-payone]: Downloading https://files.pythonhosted.org/packages/ab/8e/01209f06dad2caf62a8931c30989c2e4e00633a2ff320e3d4be706611926/python_sts_payone-0.1.0.tar.gz
+[2024-04-08 11:05:12] WARNING root fetch - processPackages [autogluon.core]: Timeout reached during download
+[2024-04-08 11:05:12] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-08 11:05:12] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.0.1b20240406.tar.gz tmp/autogluon.core-1.0.1b20240407.tar.gz --markdown 20240408/a/autogluon.core/1.0.1b20240406-1.0.1b20240407/diff.md --exclude *.pyd
+[2024-04-08 11:05:12] WARNING root fetch - processPackages [python-sts-payone]: Timeout reached during download
+[2024-04-08 11:05:12] INFO root fetch - processPackages [python-sts-payone]: executing diffoscope
+[2024-04-08 11:05:12] INFO root fetch - processPackages [python-sts-payone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sts_payone-0.0.9.tar.gz tmp/python_sts_payone-0.1.0.tar.gz --markdown 20240408/p/python-sts-payone/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-08 11:05:12] WARNING root fetch - processPackages [execnet]: Timeout reached during download
+[2024-04-08 11:05:12] INFO root fetch - processPackages [execnet]: executing diffoscope
+[2024-04-08 11:05:12] INFO root fetch - processPackages [execnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execnet-2.1.0.tar.gz tmp/execnet-2.1.1.tar.gz --markdown 20240408/e/execnet/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-08 11:05:12] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/25/f4/e763bfd08d600c91801a28a2de299e580896e8be584dbaa454682a6dfaf1/autogluon.common-1.0.1b20240408.tar.gz
+[2024-04-08 11:05:12] WARNING root fetch - processPackages [autogluon.common]: Timeout reached during download
+[2024-04-08 11:05:12] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-08 11:05:12] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.0.1b20240407.tar.gz tmp/autogluon.common-1.0.1b20240408.tar.gz --markdown 20240408/a/autogluon.common/1.0.1b20240407-1.0.1b20240408/diff.md --exclude *.pyd
+[2024-04-08 11:05:13] INFO root fetch - processPackages [python-sts-payone]: Remove: archive file [/home/abi/fetcher/tmp/python_sts_payone-0.0.9.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - processPackages [python-sts-payone]: Remove: archive file [/home/abi/fetcher/tmp/python_sts_payone-0.1.0.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - main [MainThread]: End processing [python-sts-payone]: success
+[2024-04-08 11:05:13] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240406.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240407.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-08 11:05:13] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-1.0.0b3.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-1.0.0b4.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-04-08 11:05:13] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240407.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240408.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-08 11:05:13] INFO root fetch - processPackages [execnet]: Remove: archive file [/home/abi/fetcher/tmp/execnet-2.1.0.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - processPackages [execnet]: Remove: archive file [/home/abi/fetcher/tmp/execnet-2.1.1.tar.gz]
+[2024-04-08 11:05:13] INFO root fetch - main [MainThread]: End processing [execnet]: success
+[2024-04-08 11:05:13] INFO root fetch - main [MainThread]: Store serial: [22664709]
