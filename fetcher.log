@@ -18522,3 +18522,53 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:14:25] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
 [2024-04-08 13:14:25] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
 [2024-04-08 13:14:25] INFO root fetch - main [MainThread]: Store serial: [22666152]
+[2024-04-08 13:16:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666152]
+[2024-04-08 13:16:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tb-nightly
+[2024-04-08 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mergoo
+[2024-04-08 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: btc-embedded
+[2024-04-08 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lib-pcg-algopy
+[2024-04-08 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arion-library
+[2024-04-08 13:16:34] WARNING root fetch - processPackages [mergoo]: Skipping, unable to determine old version
+[2024-04-08 13:16:34] INFO root fetch - main [MainThread]: End processing [mergoo] error
+[2024-04-08 13:16:34] INFO root fetch - processPackages [lib-pcg-algopy]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-08 13:16:34] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.4] Old Version: [24.1.3]
+[2024-04-08 13:16:34] INFO root fetch - processPackages [arion-library]: New version: [1.1rc27.dev27] Old Version: [1.1rc1.dev4]
+[2024-04-08 13:16:34] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-08 13:16:34] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-08 13:16:34] INFO root fetch - processPackages [lib-pcg-algopy]: Downloading https://files.pythonhosted.org/packages/ff/6e/81034a849485e74b2b0f773df81b97444618f73d5e55c321cc70d9c4530c/lib_pcg_algopy-0.2.1.tar.gz
+[2024-04-08 13:16:34] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/f0/97/f45380141abac50196530cb337124957b76e451ff417310caf0d37e4ac8b/btc_embedded-24.1.3.tar.gz
+[2024-04-08 13:16:34] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/c8/6c/7d2502170c1e00fb1bd3b5e76ffbccf35d58dc08c072e60e9dc30d05184b/arion_library-1.1rc1.dev4.tar.gz
+[2024-04-08 13:16:34] WARNING root fetch - processPackages [lib-pcg-algopy]: Timeout reached during download
+[2024-04-08 13:16:34] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-08 13:16:34] INFO root fetch - processPackages [lib-pcg-algopy]: Downloading https://files.pythonhosted.org/packages/29/bf/713c54b98f4912def994cac4a9a00f9ed5e4341a502fba0e6957daf6a655/lib_pcg_algopy-0.2.2.tar.gz
+[2024-04-08 13:16:34] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 13:16:34] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/78/0a/57fc7993f58745a5603a23d50e39fc4c6c88f9c7b5b7339e7442f0e43b00/btc_embedded-24.1.4.tar.gz
+[2024-04-08 13:16:34] WARNING root fetch - processPackages [btc-embedded]: Timeout reached during download
+[2024-04-08 13:16:34] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-04-08 13:16:34] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.3.tar.gz tmp/btc_embedded-24.1.4.tar.gz --markdown 20240408/b/btc-embedded/24.1.3-24.1.4/diff.md --exclude *.pyd
+[2024-04-08 13:16:34] WARNING root fetch - processPackages [lib-pcg-algopy]: Timeout reached during download
+[2024-04-08 13:16:34] INFO root fetch - processPackages [lib-pcg-algopy]: executing diffoscope
+[2024-04-08 13:16:34] INFO root fetch - processPackages [lib-pcg-algopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_pcg_algopy-0.2.1.tar.gz tmp/lib_pcg_algopy-0.2.2.tar.gz --markdown 20240408/l/lib-pcg-algopy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-08 13:16:34] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/2b/5f/20aeac2ee9d2b5660ca965dfd6cca93ea1db771ecf12028b339179efbdd8/arion_library-1.1rc27.dev27.tar.gz
+[2024-04-08 13:16:34] WARNING root fetch - processPackages [tb-nightly]: Timeout reached during download
+[2024-04-08 13:16:35] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 13:16:35] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 13:16:35] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc1.dev4.tar.gz tmp/arion_library-1.1rc27.dev27.tar.gz --markdown 20240408/a/arion-library/1.1rc1.dev4-1.1rc27.dev27/diff.md --exclude *.pyd
+[2024-04-08 13:16:35] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-08 13:16:35] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.3.tar.gz]
+[2024-04-08 13:16:35] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.4.tar.gz]
+[2024-04-08 13:16:35] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-04-08 13:16:35] WARNING root fetch - processPackages [tb-nightly]: Timeout reached during download
+[2024-04-08 13:16:35] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-08 13:16:35] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240408/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2024-04-08 13:16:35] INFO root fetch - processPackages [lib-pcg-algopy]: Remove: archive file [/home/abi/fetcher/tmp/lib_pcg_algopy-0.2.1.tar.gz]
+[2024-04-08 13:16:35] INFO root fetch - processPackages [lib-pcg-algopy]: Remove: archive file [/home/abi/fetcher/tmp/lib_pcg_algopy-0.2.2.tar.gz]
+[2024-04-08 13:16:35] INFO root fetch - main [MainThread]: End processing [lib-pcg-algopy]: success
+[2024-04-08 13:16:35] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc1.dev4.tar.gz]
+[2024-04-08 13:16:35] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc27.dev27.tar.gz]
+[2024-04-08 13:16:35] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 13:16:37] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-08 13:16:37] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-08 13:16:37] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-08 13:16:37] INFO root fetch - main [MainThread]: Store serial: [22666166]
