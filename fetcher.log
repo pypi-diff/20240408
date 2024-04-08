@@ -19452,3 +19452,71 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:50:49] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.8-py3-none-any.whl.zip]
 [2024-04-08 13:50:49] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
 [2024-04-08 13:50:49] INFO root fetch - main [MainThread]: Store serial: [22666460]
+[2024-04-08 13:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666460]
+[2024-04-08 13:52:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 13:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: illuminat
+[2024-04-08 13:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arion-library
+[2024-04-08 13:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quant2
+[2024-04-08 13:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pspipe-utils
+[2024-04-08 13:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-use-cases.custom-cloud9-ssm
+[2024-04-08 13:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amazon-ads-api-connector
+[2024-04-08 13:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msklv-openweather-sdk
+[2024-04-08 13:52:58] INFO root fetch - processPackages [arion-library]: New version: [1.1rc28.dev28] Old Version: [1.1rc27.dev27]
+[2024-04-08 13:52:58] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-08 13:52:58] INFO root fetch - processPackages [illuminat]: New version: [0.0.8.2] Old Version: [0.0.8.1]
+[2024-04-08 13:52:58] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/2b/5f/20aeac2ee9d2b5660ca965dfd6cca93ea1db771ecf12028b339179efbdd8/arion_library-1.1rc27.dev27.tar.gz
+[2024-04-08 13:52:58] INFO root fetch - processPackages [quant2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 13:52:58] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Downloading https://files.pythonhosted.org/packages/c9/1e/e53ad81aac6fe0db357266fd7f1b09e1da28e505355896c1059b282fb5a0/cdk-use-cases.custom-cloud9-ssm-1.3.2.tar.gz
+[2024-04-08 13:52:58] INFO root fetch - processPackages [amazon-ads-api-connector]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-08 13:52:58] INFO root fetch - processPackages [pspipe-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-08 13:52:58] INFO root fetch - processPackages [msklv-openweather-sdk]: New version: [1.0.0] Old Version: [0.3.3]
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 13:52:58] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/11/bf/4225581d3021d37874804da989897221f25fc6c93fa5f1b07d38fcbf01d3/quant2-0.0.8.tar.gz
+[2024-04-08 13:52:58] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/99/9e/ed8ba6a0745266191fd7ecdd178e733845d5443dfa79bd950f090c1656a4/illuminat-0.0.8.1.tar.gz
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Timeout reached during download
+[2024-04-08 13:52:58] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/00/ea/5f25202672b1e40d41dfdda0ceb64b3aaa7f929e71e3ee044521e4749e55/arion_library-1.1rc28.dev28.tar.gz
+[2024-04-08 13:52:58] INFO root fetch - processPackages [pspipe-utils]: Downloading https://files.pythonhosted.org/packages/eb/19/ef8de34ce7c0d3579b0c20409d7bf69a46139d33484b96304a75a00ce10f/pspipe_utils-0.1.5.tar.gz
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [quant2]: Timeout reached during download
+[2024-04-08 13:52:58] INFO root fetch - processPackages [amazon-ads-api-connector]: Downloading https://files.pythonhosted.org/packages/5f/10/898be182f0ec58fbe30feaf71e1cfb6155d47c1c1d307b8c0ae504777883/amazon-ads-api-connector-0.1.3.tar.gz
+[2024-04-08 13:52:58] INFO root fetch - processPackages [msklv-openweather-sdk]: Downloading https://files.pythonhosted.org/packages/81/c8/bf041b3d8889753b9c16fedead17901398428e98ee0ed395a18fa268a082/msklv_openweather_sdk-0.3.3.tar.gz
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46426661>=10485760
+[2024-04-08 13:52:58] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 13:52:58] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 13:52:58] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc27.dev27.tar.gz tmp/arion_library-1.1rc28.dev28.tar.gz --markdown 20240408/a/arion-library/1.1rc27.dev27-1.1rc28.dev28/diff.md --exclude *.pyd
+[2024-04-08 13:52:58] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/14/b2/02902adfc8374a2d4e7cf6e11c97319142fb7a2f1565e78bcc91dd0cd825/quant2-0.0.9.tar.gz
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [pspipe-utils]: Skipping package: exceeds size limit 31339669>=10485760
+[2024-04-08 13:52:58] INFO root fetch - main [MainThread]: End processing [pspipe-utils] error
+[2024-04-08 13:52:58] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Downloading https://files.pythonhosted.org/packages/8e/b5/e2a1b7c39dcdf194a5ff9fc5ff03676b18e6a73c6eea3b58090b4723ec86/cdk-use-cases.custom-cloud9-ssm-1.3.3.tar.gz
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [msklv-openweather-sdk]: Timeout reached during download
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [amazon-ads-api-connector]: Timeout reached during download
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [quant2]: Timeout reached during download
+[2024-04-08 13:52:58] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-04-08 13:52:58] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.0.8.tar.gz tmp/quant2-0.0.9.tar.gz --markdown 20240408/q/quant2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 13:52:58] WARNING root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Timeout reached during download
+[2024-04-08 13:52:58] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: executing diffoscope
+[2024-04-08 13:52:58] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-use-cases.custom-cloud9-ssm-1.3.2.tar.gz tmp/cdk-use-cases.custom-cloud9-ssm-1.3.3.tar.gz --markdown 20240408/c/cdk-use-cases.custom-cloud9-ssm/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2024-04-08 13:52:58] INFO root fetch - processPackages [amazon-ads-api-connector]: Downloading https://files.pythonhosted.org/packages/92/e1/09ad5a46c557d9512fea89f6173edf25c94c899a966ade27d16b847fed0c/amazon-ads-api-connector-0.1.4.tar.gz
+[2024-04-08 13:52:58] INFO root fetch - processPackages [msklv-openweather-sdk]: Downloading https://files.pythonhosted.org/packages/13/68/7d9a43c4c54956578c07714ab5fc5c374a23deeba24bc173554cf5a65b77/msklv_openweather_sdk-1.0.0.tar.gz
+[2024-04-08 13:52:59] WARNING root fetch - processPackages [amazon-ads-api-connector]: Timeout reached during download
+[2024-04-08 13:52:59] INFO root fetch - processPackages [amazon-ads-api-connector]: executing diffoscope
+[2024-04-08 13:52:59] INFO root fetch - processPackages [amazon-ads-api-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-ads-api-connector-0.1.3.tar.gz tmp/amazon-ads-api-connector-0.1.4.tar.gz --markdown 20240408/a/amazon-ads-api-connector/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-08 13:52:59] WARNING root fetch - processPackages [msklv-openweather-sdk]: Timeout reached during download
+[2024-04-08 13:52:59] INFO root fetch - processPackages [msklv-openweather-sdk]: executing diffoscope
+[2024-04-08 13:52:59] INFO root fetch - processPackages [msklv-openweather-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msklv_openweather_sdk-0.3.3.tar.gz tmp/msklv_openweather_sdk-1.0.0.tar.gz --markdown 20240408/m/msklv-openweather-sdk/0.3.3-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 13:52:59] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc27.dev27.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc28.dev28.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 13:52:59] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.8.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.9.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-04-08 13:52:59] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Remove: archive file [/home/abi/fetcher/tmp/cdk-use-cases.custom-cloud9-ssm-1.3.2.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - processPackages [cdk-use-cases.custom-cloud9-ssm]: Remove: archive file [/home/abi/fetcher/tmp/cdk-use-cases.custom-cloud9-ssm-1.3.3.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - main [MainThread]: End processing [cdk-use-cases.custom-cloud9-ssm]: success
+[2024-04-08 13:52:59] INFO root fetch - processPackages [amazon-ads-api-connector]: Remove: archive file [/home/abi/fetcher/tmp/amazon-ads-api-connector-0.1.3.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - processPackages [amazon-ads-api-connector]: Remove: archive file [/home/abi/fetcher/tmp/amazon-ads-api-connector-0.1.4.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - main [MainThread]: End processing [amazon-ads-api-connector]: success
+[2024-04-08 13:52:59] INFO root fetch - processPackages [msklv-openweather-sdk]: Remove: archive file [/home/abi/fetcher/tmp/msklv_openweather_sdk-0.3.3.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - processPackages [msklv-openweather-sdk]: Remove: archive file [/home/abi/fetcher/tmp/msklv_openweather_sdk-1.0.0.tar.gz]
+[2024-04-08 13:52:59] INFO root fetch - main [MainThread]: End processing [msklv-openweather-sdk]: success
+[2024-04-08 13:52:59] INFO root fetch - main [MainThread]: Store serial: [22666479]
