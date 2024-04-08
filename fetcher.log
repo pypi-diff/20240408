@@ -20132,3 +20132,61 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:15:07] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-08 14:15:07] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-08 14:15:07] INFO root fetch - main [MainThread]: Store serial: [22666731]
+[2024-04-08 14:17:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666731]
+[2024-04-08 14:17:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DataRecorder
+[2024-04-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netpywork
+[2024-04-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openeo-fastapi
+[2024-04-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluecellulab
+[2024-04-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MLSCAT
+[2024-04-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkQC
+[2024-04-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunholo
+[2024-04-08 14:17:16] INFO root fetch - processPackages [openeo-fastapi]: New version: [2024.4.1] Old Version: [2024.3.2]
+[2024-04-08 14:17:16] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 14:17:16] INFO root fetch - processPackages [openeo-fastapi]: Downloading https://files.pythonhosted.org/packages/3f/0d/01bb539947a969392406abe37c1057ec06856b81dace1d66f4762c66f311/openeo_fastapi-2024.3.2.tar.gz
+[2024-04-08 14:17:16] WARNING root fetch - processPackages [netpywork]: Skipping, unable to determine old version
+[2024-04-08 14:17:16] INFO root fetch - main [MainThread]: End processing [netpywork] error
+[2024-04-08 14:17:16] INFO root fetch - processPackages [checkQC]: New version: [4.0.2rc1] Old Version: [4.0.1]
+[2024-04-08 14:17:16] WARNING root fetch - processPackages [MLSCAT]: Skipping, unable to determine old version
+[2024-04-08 14:17:16] INFO root fetch - main [MainThread]: End processing [MLSCAT] error
+[2024-04-08 14:17:16] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-08 14:17:16] INFO root fetch - processPackages [DataRecorder]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-04-08 14:17:16] INFO root fetch - processPackages [bluecellulab]: New version: [2.5.3] Old Version: [2.5.0]
+[2024-04-08 14:17:16] WARNING root fetch - processPackages [openeo-fastapi]: Timeout reached during download
+[2024-04-08 14:17:16] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 14:17:16] INFO root fetch - processPackages [checkQC]: Downloading https://files.pythonhosted.org/packages/0b/77/2329f368d6bacea3a620832f1898883ba07f42adcf270d59973ee9c61780/checkQC-4.0.1.tar.gz
+[2024-04-08 14:17:16] INFO root fetch - processPackages [DataRecorder]: Downloading https://files.pythonhosted.org/packages/3d/8e/602e4086f30c1f02f72f481ac192627c3de051f1e55824e0a982b3c41cef/DataRecorder-3.4.8.tar.gz
+[2024-04-08 14:17:16] INFO root fetch - processPackages [openeo-fastapi]: Downloading https://files.pythonhosted.org/packages/10/0a/fab3771dc9d3eb999dd032753e361504ea5d9072bc497aa96d9798bbc894/openeo_fastapi-2024.4.1.tar.gz
+[2024-04-08 14:17:17] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/be/e9/f08030fd73bc4d4c39999f5733b69d86d8876576ca80af038f428d45f9a2/bluecellulab-2.5.0.tar.gz
+[2024-04-08 14:17:17] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-08 14:17:17] WARNING root fetch - processPackages [DataRecorder]: Timeout reached during download
+[2024-04-08 14:17:17] WARNING root fetch - processPackages [openeo-fastapi]: Timeout reached during download
+[2024-04-08 14:17:17] INFO root fetch - processPackages [openeo-fastapi]: executing diffoscope
+[2024-04-08 14:17:17] INFO root fetch - processPackages [openeo-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_fastapi-2024.3.2.tar.gz tmp/openeo_fastapi-2024.4.1.tar.gz --markdown 20240408/o/openeo-fastapi/2024.3.2-2024.4.1/diff.md --exclude *.pyd
+[2024-04-08 14:17:17] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16241124>=10485760
+[2024-04-08 14:17:17] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-04-08 14:17:17] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 14:17:17] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-08 14:17:17] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240408/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 14:17:17] WARNING root fetch - processPackages [checkQC]: Timeout reached during download
+[2024-04-08 14:17:17] INFO root fetch - processPackages [DataRecorder]: Downloading https://files.pythonhosted.org/packages/26/45/b642b205a235ed5bdb549ab9d475b6ffb9f55a5a3bdcbc7b04014136a77e/DataRecorder-3.4.9.tar.gz
+[2024-04-08 14:17:17] INFO root fetch - processPackages [checkQC]: Downloading https://files.pythonhosted.org/packages/96/81/d44b38ccc57d5549841cd29f6a1b4323c6fc88c91355a5d062572b91b48b/checkQC-4.0.2rc1.tar.gz
+[2024-04-08 14:17:17] WARNING root fetch - processPackages [checkQC]: Timeout reached during download
+[2024-04-08 14:17:17] INFO root fetch - processPackages [checkQC]: executing diffoscope
+[2024-04-08 14:17:17] INFO root fetch - processPackages [checkQC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkQC-4.0.1.tar.gz tmp/checkQC-4.0.2rc1.tar.gz --markdown 20240408/c/checkQC/4.0.1-4.0.2rc1/diff.md --exclude *.pyd
+[2024-04-08 14:17:17] WARNING root fetch - processPackages [DataRecorder]: Timeout reached during download
+[2024-04-08 14:17:17] INFO root fetch - processPackages [DataRecorder]: executing diffoscope
+[2024-04-08 14:17:17] INFO root fetch - processPackages [DataRecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataRecorder-3.4.8.tar.gz tmp/DataRecorder-3.4.9.tar.gz --markdown 20240408/D/DataRecorder/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2024-04-08 14:17:17] INFO root fetch - processPackages [openeo-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openeo_fastapi-2024.3.2.tar.gz]
+[2024-04-08 14:17:17] INFO root fetch - processPackages [openeo-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openeo_fastapi-2024.4.1.tar.gz]
+[2024-04-08 14:17:17] INFO root fetch - main [MainThread]: End processing [openeo-fastapi]: success
+[2024-04-08 14:17:18] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-08 14:17:18] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-08 14:17:18] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-08 14:17:18] INFO root fetch - processPackages [DataRecorder]: Remove: archive file [/home/abi/fetcher/tmp/DataRecorder-3.4.8.tar.gz]
+[2024-04-08 14:17:18] INFO root fetch - processPackages [DataRecorder]: Remove: archive file [/home/abi/fetcher/tmp/DataRecorder-3.4.9.tar.gz]
+[2024-04-08 14:17:18] INFO root fetch - main [MainThread]: End processing [DataRecorder]: success
+[2024-04-08 14:17:18] INFO root fetch - processPackages [checkQC]: Remove: archive file [/home/abi/fetcher/tmp/checkQC-4.0.1.tar.gz]
+[2024-04-08 14:17:18] INFO root fetch - processPackages [checkQC]: Remove: archive file [/home/abi/fetcher/tmp/checkQC-4.0.2rc1.tar.gz]
+[2024-04-08 14:17:18] INFO root fetch - main [MainThread]: End processing [checkQC]: success
+[2024-04-08 14:17:18] INFO root fetch - main [MainThread]: Store serial: [22666762]
