@@ -12768,3 +12768,75 @@
 [2024-04-08 10:10:30] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
 [2024-04-08 10:10:30] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
 [2024-04-08 10:10:30] INFO root fetch - main [MainThread]: Store serial: [22663893]
+[2024-04-08 10:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663893]
+[2024-04-08 10:12:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 10:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reuse
+[2024-04-08 10:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2024-04-08 10:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vectice
+[2024-04-08 10:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trailblazer
+[2024-04-08 10:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lacogito
+[2024-04-08 10:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parsel
+[2024-04-08 10:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: valmi-connector-lib
+[2024-04-08 10:12:39] INFO root fetch - processPackages [parsel]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-08 10:12:39] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-08 10:12:39] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-04-08 10:12:39] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-08 10:12:39] WARNING root fetch - processPackages [lacogito]: Skipping, unable to determine old version
+[2024-04-08 10:12:39] INFO root fetch - processPackages [reuse]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-08 10:12:39] INFO root fetch - main [MainThread]: End processing [lacogito] error
+[2024-04-08 10:12:39] INFO root fetch - processPackages [vectice]: New version: [24.1.9.0] Old Version: [24.1.8.1]
+[2024-04-08 10:12:39] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-04-08 10:12:39] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-08 10:12:39] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-04-08 10:12:39] INFO root fetch - processPackages [parsel]: Downloading https://files.pythonhosted.org/packages/75/2a/824fe02ed04292879b779a8cfc89083a1db3a390b6afc336bcf4baeb9424/parsel-1.8.1.tar.gz
+[2024-04-08 10:12:39] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-08 10:12:39] WARNING root fetch - processPackages [trailblazer]: Timeout reached during download
+[2024-04-08 10:12:39] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/d5/aa/990e47e07fd70f1afd2bc52b845ecd89c7446eebe4b1964249654c2441eb/vectice-24.1.8.1.tar.gz
+[2024-04-08 10:12:39] WARNING root fetch - processPackages [bridgecrew]: Timeout reached during download
+[2024-04-08 10:12:39] INFO root fetch - processPackages [reuse]: Downloading https://files.pythonhosted.org/packages/17/a0/4e03e870f2a09856d96aafaa707160bb0e97159249ad2b7d58c38b09db5f/reuse-3.0.1.tar.gz
+[2024-04-08 10:12:39] WARNING root fetch - processPackages [parsel]: Timeout reached during download
+[2024-04-08 10:12:39] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-08 10:12:39] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-04-08 10:12:40] WARNING root fetch - processPackages [reuse]: Timeout reached during download
+[2024-04-08 10:12:40] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-04-08 10:12:40] WARNING root fetch - processPackages [bridgecrew]: Timeout reached during download
+[2024-04-08 10:12:40] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-04-08 10:12:40] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240408/b/bridgecrew/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2024-04-08 10:12:40] WARNING root fetch - processPackages [vectice]: Timeout reached during download
+[2024-04-08 10:12:40] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-08 10:12:40] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-08 10:12:40] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240408/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-08 10:12:40] INFO root fetch - processPackages [parsel]: Downloading https://files.pythonhosted.org/packages/55/72/5129a09cc8148cee9d4be3c9b89dd9ba1c89ec9b5db2c454871b9d30e615/parsel-1.9.0.tar.gz
+[2024-04-08 10:12:40] INFO root fetch - processPackages [reuse]: Downloading https://files.pythonhosted.org/packages/b1/66/920212eb7497e0d01bb6547e39e00445d9d14dca5bac0c91229b6f22e054/reuse-3.0.2.tar.gz
+[2024-04-08 10:12:40] WARNING root fetch - processPackages [trailblazer]: Timeout reached during download
+[2024-04-08 10:12:40] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-04-08 10:12:40] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240408/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2024-04-08 10:12:40] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/3c/94/621dffb163df1e2950957407abf243350e8439199409ff40afbed4ef1267/vectice-24.1.9.0.tar.gz
+[2024-04-08 10:12:40] WARNING root fetch - processPackages [parsel]: Timeout reached during download
+[2024-04-08 10:12:40] INFO root fetch - processPackages [parsel]: executing diffoscope
+[2024-04-08 10:12:40] INFO root fetch - processPackages [parsel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsel-1.8.1.tar.gz tmp/parsel-1.9.0.tar.gz --markdown 20240408/p/parsel/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 10:12:40] WARNING root fetch - processPackages [reuse]: Timeout reached during download
+[2024-04-08 10:12:40] INFO root fetch - processPackages [reuse]: executing diffoscope
+[2024-04-08 10:12:40] INFO root fetch - processPackages [reuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reuse-3.0.1.tar.gz tmp/reuse-3.0.2.tar.gz --markdown 20240408/r/reuse/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2024-04-08 10:12:40] WARNING root fetch - processPackages [vectice]: Timeout reached during download
+[2024-04-08 10:12:40] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2024-04-08 10:12:40] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-24.1.8.1.tar.gz tmp/vectice-24.1.9.0.tar.gz --markdown 20240408/v/vectice/24.1.8.1-24.1.9.0/diff.md --exclude *.pyd
+[2024-04-08 10:12:41] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-04-08 10:12:41] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-04-08 10:12:41] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-04-08 10:12:41] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-08 10:12:41] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-08 10:12:41] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-08 10:12:41] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-04-08 10:12:41] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-04-08 10:12:41] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-04-08 10:12:42] INFO root fetch - processPackages [reuse]: Remove: archive file [/home/abi/fetcher/tmp/reuse-3.0.1.tar.gz]
+[2024-04-08 10:12:42] INFO root fetch - processPackages [reuse]: Remove: archive file [/home/abi/fetcher/tmp/reuse-3.0.2.tar.gz]
+[2024-04-08 10:12:42] INFO root fetch - main [MainThread]: End processing [reuse]: success
+[2024-04-08 10:12:42] INFO root fetch - processPackages [parsel]: Remove: archive file [/home/abi/fetcher/tmp/parsel-1.8.1.tar.gz]
+[2024-04-08 10:12:42] INFO root fetch - processPackages [parsel]: Remove: archive file [/home/abi/fetcher/tmp/parsel-1.9.0.tar.gz]
+[2024-04-08 10:12:42] INFO root fetch - main [MainThread]: End processing [parsel]: success
+[2024-04-08 10:12:42] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.1.8.1.tar.gz]
+[2024-04-08 10:12:42] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.1.9.0.tar.gz]
+[2024-04-08 10:12:42] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2024-04-08 10:12:42] INFO root fetch - main [MainThread]: Store serial: [22663916]
