@@ -15388,3 +15388,64 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:34:08] INFO root fetch - processPackages [spark-batch]: Remove: archive file [/home/abi/fetcher/tmp/spark_batch-2.7-py3-none-any.whl.zip]
 [2024-04-08 11:34:08] INFO root fetch - main [MainThread]: End processing [spark-batch]: success
 [2024-04-08 11:34:08] INFO root fetch - main [MainThread]: Store serial: [22665055]
+[2024-04-08 11:36:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665055]
+[2024-04-08 11:36:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 11:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zerohertzLib
+[2024-04-08 11:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microchain-python
+[2024-04-08 11:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: richie
+[2024-04-08 11:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FileSystemModel-Python
+[2024-04-08 11:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-cost-logger
+[2024-04-08 11:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localcosmos-server
+[2024-04-08 11:36:17] INFO root fetch - processPackages [openai-cost-logger]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 11:36:17] INFO root fetch - processPackages [microchain-python]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-08 11:36:17] WARNING root fetch - processPackages [FileSystemModel-Python]: Skipping, unable to determine old version
+[2024-04-08 11:36:17] INFO root fetch - main [MainThread]: End processing [FileSystemModel-Python] error
+[2024-04-08 11:36:17] INFO root fetch - processPackages [zerohertzLib]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-08 11:36:17] INFO root fetch - processPackages [localcosmos-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-08 11:36:17] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-08 11:36:18] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/48/cc/f521eb568efe139ff68a6e9576dc278e73794cc2fb902fc0a33997aab8da/openai_cost_logger-0.0.1.tar.gz
+[2024-04-08 11:36:18] INFO root fetch - processPackages [microchain-python]: Downloading https://files.pythonhosted.org/packages/3a/de/e56d1f4b337cb9b69cd87939cffbd0991a49403bde95c184bb178d9a4065/microchain-python-0.3.4.tar.gz
+[2024-04-08 11:36:18] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/57/9a/7f0156d43b5043160e1160bd6153edd5008e91594cd2d3e4a1762c61c1b9/zerohertzLib-1.0.4.tar.gz
+[2024-04-08 11:36:18] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-04-08 11:36:18] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 11:36:18] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/61/00/ab654a56ccee649ce5ffc92e70830470f4b118aba44f5448791ded818adf/localcosmos_server-0.9.3.tar.gz
+[2024-04-08 11:36:18] WARNING root fetch - processPackages [microchain-python]: Timeout reached during download
+[2024-04-08 11:36:18] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/b0/76/56a3c6aea1ab7386a3869291034394eb1e632f83779726e3c7e3409850d5/openai_cost_logger-0.0.2.tar.gz
+[2024-04-08 11:36:18] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 11:36:18] INFO root fetch - processPackages [openai-cost-logger]: executing diffoscope
+[2024-04-08 11:36:18] INFO root fetch - processPackages [openai-cost-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_cost_logger-0.0.1.tar.gz tmp/openai_cost_logger-0.0.2.tar.gz --markdown 20240408/o/openai-cost-logger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 11:36:18] INFO root fetch - processPackages [microchain-python]: Downloading https://files.pythonhosted.org/packages/72/7f/8f82aa178306de0d03aac74f9f9a0934ad6e79c0f1322dbcd3b4e8422e45/microchain-python-0.3.5.tar.gz
+[2024-04-08 11:36:18] WARNING root fetch - processPackages [richie]: Timeout reached during download
+[2024-04-08 11:36:18] WARNING root fetch - processPackages [microchain-python]: Timeout reached during download
+[2024-04-08 11:36:18] INFO root fetch - processPackages [microchain-python]: executing diffoscope
+[2024-04-08 11:36:18] INFO root fetch - processPackages [microchain-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microchain-python-0.3.4.tar.gz tmp/microchain-python-0.3.5.tar.gz --markdown 20240408/m/microchain-python/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2024-04-08 11:36:18] WARNING root fetch - processPackages [zerohertzLib]: Timeout reached during download
+[2024-04-08 11:36:18] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-04-08 11:36:18] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/e9/09/c1a5ecb277dc315f26db03abfc9940819c1f0c8954bfda1928bac840985b/zerohertzLib-1.0.5.tar.gz
+[2024-04-08 11:36:19] WARNING root fetch - processPackages [richie]: Timeout reached during download
+[2024-04-08 11:36:19] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-04-08 11:36:19] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240408/r/richie/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-08 11:36:19] WARNING root fetch - processPackages [zerohertzLib]: Timeout reached during download
+[2024-04-08 11:36:19] INFO root fetch - processPackages [zerohertzLib]: executing diffoscope
+[2024-04-08 11:36:19] INFO root fetch - processPackages [zerohertzLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerohertzLib-1.0.4.tar.gz tmp/zerohertzLib-1.0.5.tar.gz --markdown 20240408/z/zerohertzLib/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-08 11:36:19] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai_cost_logger-0.0.1.tar.gz]
+[2024-04-08 11:36:19] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai_cost_logger-0.0.2.tar.gz]
+[2024-04-08 11:36:19] INFO root fetch - main [MainThread]: End processing [openai-cost-logger]: success
+[2024-04-08 11:36:19] INFO root fetch - processPackages [microchain-python]: Remove: archive file [/home/abi/fetcher/tmp/microchain-python-0.3.4.tar.gz]
+[2024-04-08 11:36:19] INFO root fetch - processPackages [microchain-python]: Remove: archive file [/home/abi/fetcher/tmp/microchain-python-0.3.5.tar.gz]
+[2024-04-08 11:36:19] INFO root fetch - main [MainThread]: End processing [microchain-python]: success
+[2024-04-08 11:36:19] WARNING root fetch - processPackages [localcosmos-server]: Timeout reached during download
+[2024-04-08 11:36:19] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/5d/b5/0c97a340dd47c39e15214419963c0d28f5e1c89f1340833bc42fc71f32e2/localcosmos_server-0.9.4.tar.gz
+[2024-04-08 11:36:20] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.4.tar.gz]
+[2024-04-08 11:36:20] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.5.tar.gz]
+[2024-04-08 11:36:20] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
+[2024-04-08 11:36:21] WARNING root fetch - processPackages [localcosmos-server]: Timeout reached during download
+[2024-04-08 11:36:21] INFO root fetch - processPackages [localcosmos-server]: executing diffoscope
+[2024-04-08 11:36:21] INFO root fetch - processPackages [localcosmos-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_server-0.9.3.tar.gz tmp/localcosmos_server-0.9.4.tar.gz --markdown 20240408/l/localcosmos-server/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-08 11:36:26] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.3.tar.gz]
+[2024-04-08 11:36:26] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.4.tar.gz]
+[2024-04-08 11:36:26] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
+[2024-04-08 11:38:19] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-04-08 11:38:19] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-04-08 11:38:19] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-04-08 11:38:19] INFO root fetch - main [MainThread]: Store serial: [22665120]
