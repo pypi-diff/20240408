@@ -12026,3 +12026,48 @@
 [2024-04-08 09:40:48] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
 [2024-04-08 09:40:48] INFO root fetch - main [MainThread]: End processing [cdktf]: success
 [2024-04-08 09:40:48] INFO root fetch - main [MainThread]: Store serial: [22663559]
+[2024-04-08 09:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663559]
+[2024-04-08 09:42:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: increff-runner
+[2024-04-08 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nhlpysdkm
+[2024-04-08 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: B2cNews
+[2024-04-08 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mteb
+[2024-04-08 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slurm-gui
+[2024-04-08 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nhlmail
+[2024-04-08 09:42:57] INFO root fetch - processPackages [increff-runner]: New version: [3.1.7] Old Version: [3.1.6]
+[2024-04-08 09:42:57] INFO root fetch - processPackages [slurm-gui]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-08 09:42:57] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/c5/34/617d65904fcf95e73c480ce8f12046e26b56be32764e7cd4952c21338616/increff_runner-3.1.6-py3-none-any.whl
+[2024-04-08 09:42:57] WARNING root fetch - processPackages [nhlpysdkm]: Skipping, unable to determine old version
+[2024-04-08 09:42:57] INFO root fetch - main [MainThread]: End processing [nhlpysdkm] error
+[2024-04-08 09:42:57] INFO root fetch - processPackages [slurm-gui]: Downloading https://files.pythonhosted.org/packages/09/b0/98bac30db3e50359b92489a3261e0681d08e62a31a3cf6575d5ac8bb56ad/slurm-gui-0.2.2.tar.gz
+[2024-04-08 09:42:57] WARNING root fetch - processPackages [B2cNews]: Skipping, unable to determine old version
+[2024-04-08 09:42:57] INFO root fetch - main [MainThread]: End processing [B2cNews] error
+[2024-04-08 09:42:57] WARNING root fetch - processPackages [nhlmail]: Skipping, unable to determine old version
+[2024-04-08 09:42:57] INFO root fetch - main [MainThread]: End processing [nhlmail] error
+[2024-04-08 09:42:57] INFO root fetch - processPackages [mteb]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-08 09:42:57] WARNING root fetch - processPackages [increff-runner]: Timeout reached during download
+[2024-04-08 09:42:57] WARNING root fetch - processPackages [slurm-gui]: Timeout reached during download
+[2024-04-08 09:42:57] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/06/bb/1980f46492a7d8b082e0a348eb0a5e0deb5c83d0d56b58f84f6bc428a07c/increff_runner-3.1.7-py3-none-any.whl
+[2024-04-08 09:42:57] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/97/df/a66eb46bd7a59fd80dfae04aeca575914119624de0923e73db031b6edccb/mteb-1.5.2.tar.gz
+[2024-04-08 09:42:57] INFO root fetch - processPackages [slurm-gui]: Downloading https://files.pythonhosted.org/packages/4f/0d/810977faefd04e1693f1520e099ac2fe472bf064126c0e077ffb2ad1410c/slurm-gui-0.2.3.tar.gz
+[2024-04-08 09:42:57] WARNING root fetch - processPackages [increff-runner]: Timeout reached during download
+[2024-04-08 09:42:57] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-04-08 09:42:57] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.1.6-py3-none-any.whl.zip tmp/increff_runner-3.1.7-py3-none-any.whl.zip --markdown 20240408/i/increff-runner/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2024-04-08 09:42:57] WARNING root fetch - processPackages [slurm-gui]: Timeout reached during download
+[2024-04-08 09:42:57] INFO root fetch - processPackages [slurm-gui]: executing diffoscope
+[2024-04-08 09:42:57] INFO root fetch - processPackages [slurm-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurm-gui-0.2.2.tar.gz tmp/slurm-gui-0.2.3.tar.gz --markdown 20240408/s/slurm-gui/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-08 09:42:57] WARNING root fetch - processPackages [mteb]: Timeout reached during download
+[2024-04-08 09:42:57] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b4/e4/2e697ce8ec282fb5f3483a956ee32f3779dfd0e1f3b6823bfc97688821a9/mteb-1.5.3.tar.gz
+[2024-04-08 09:42:58] WARNING root fetch - processPackages [mteb]: Timeout reached during download
+[2024-04-08 09:42:58] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-08 09:42:58] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.5.2.tar.gz tmp/mteb-1.5.3.tar.gz --markdown 20240408/m/mteb/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2024-04-08 09:42:58] INFO root fetch - processPackages [slurm-gui]: Remove: archive file [/home/abi/fetcher/tmp/slurm-gui-0.2.2.tar.gz]
+[2024-04-08 09:42:58] INFO root fetch - processPackages [slurm-gui]: Remove: archive file [/home/abi/fetcher/tmp/slurm-gui-0.2.3.tar.gz]
+[2024-04-08 09:42:58] INFO root fetch - main [MainThread]: End processing [slurm-gui]: success
+[2024-04-08 09:42:58] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.6-py3-none-any.whl.zip]
+[2024-04-08 09:42:58] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.7-py3-none-any.whl.zip]
+[2024-04-08 09:42:58] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-04-08 09:42:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.5.2.tar.gz]
+[2024-04-08 09:42:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.5.3.tar.gz]
+[2024-04-08 09:42:59] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-08 09:42:59] INFO root fetch - main [MainThread]: Store serial: [22663580]
