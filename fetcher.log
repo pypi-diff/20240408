@@ -2650,3 +2650,17 @@
 [2024-04-08 03:21:26] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.3.7.tar.gz]
 [2024-04-08 03:21:26] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
 [2024-04-08 03:21:26] INFO root fetch - main [MainThread]: Store serial: [22660617]
+[2024-04-08 03:23:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660617]
+[2024-04-08 03:23:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 03:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trex-lib
+[2024-04-08 03:23:35] INFO root fetch - processPackages [trex-lib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 03:23:35] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/d8/c4/8a879c9f3e3458f05cf16a704baff580039c9621e89c198dcb20a4ac439d/trex-lib-1.0.8.tar.gz
+[2024-04-08 03:23:35] WARNING root fetch - processPackages [trex-lib]: Timeout reached during download
+[2024-04-08 03:23:35] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/7c/6a/2f7afc7c912276ba6eae4b705575d79723a97e7cb214f8a9b42fbdce4e88/trex-lib-1.0.9.tar.gz
+[2024-04-08 03:23:35] WARNING root fetch - processPackages [trex-lib]: Timeout reached during download
+[2024-04-08 03:23:35] INFO root fetch - processPackages [trex-lib]: executing diffoscope
+[2024-04-08 03:23:35] INFO root fetch - processPackages [trex-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-lib-1.0.8.tar.gz tmp/trex-lib-1.0.9.tar.gz --markdown 20240408/t/trex-lib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 03:23:36] INFO root fetch - processPackages [trex-lib]: Remove: archive file [/home/abi/fetcher/tmp/trex-lib-1.0.8.tar.gz]
+[2024-04-08 03:23:36] INFO root fetch - processPackages [trex-lib]: Remove: archive file [/home/abi/fetcher/tmp/trex-lib-1.0.9.tar.gz]
+[2024-04-08 03:23:36] INFO root fetch - main [MainThread]: End processing [trex-lib]: success
+[2024-04-08 03:23:36] INFO root fetch - main [MainThread]: Store serial: [22660619]
