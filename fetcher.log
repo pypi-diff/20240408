@@ -17370,3 +17370,39 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:36:12] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-08 12:36:12] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-08 12:36:12] INFO root fetch - main [MainThread]: Store serial: [22665747]
+[2024-04-08 12:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665747]
+[2024-04-08 12:38:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 12:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easytl
+[2024-04-08 12:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astrapy
+[2024-04-08 12:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guarddog
+[2024-04-08 12:38:23] INFO root fetch - processPackages [guarddog]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-04-08 12:38:23] INFO root fetch - processPackages [astrapy]: New version: [1.0.0rc1] Old Version: [0.7.7]
+[2024-04-08 12:38:23] INFO root fetch - processPackages [easytl]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 12:38:23] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/02/e4/877ba483ffee4b74e1b5a0bcaacc813b7129c4007f7f69074776357ab4d2/easytl-0.0.3.tar.gz
+[2024-04-08 12:38:23] INFO root fetch - processPackages [astrapy]: Downloading https://files.pythonhosted.org/packages/35/a3/dda164ed8a28de8a248730d01a0ac04928a67637c931a3b8a5ff22276412/astrapy-0.7.7.tar.gz
+[2024-04-08 12:38:24] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/3d/26/daec0f0dcbce645144febdd20797b7e3da5fd7170346302990c3d9b636e5/guarddog-1.5.7.tar.gz
+[2024-04-08 12:38:24] WARNING root fetch - processPackages [easytl]: Timeout reached during download
+[2024-04-08 12:38:24] WARNING root fetch - processPackages [astrapy]: Timeout reached during download
+[2024-04-08 12:38:24] WARNING root fetch - processPackages [guarddog]: Timeout reached during download
+[2024-04-08 12:38:24] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/94/96/cf8ff6593d7cad58bd68a9ae1f1234d4c86c1d836eb3ea66396d684037b6/easytl-0.0.4.tar.gz
+[2024-04-08 12:38:24] INFO root fetch - processPackages [astrapy]: Downloading https://files.pythonhosted.org/packages/d1/f3/a38a85e3be094e707c4464e36d97d20829bbffe045c85e9620d2304e997a/astrapy-1.0.0rc1.tar.gz
+[2024-04-08 12:38:24] WARNING root fetch - processPackages [easytl]: Timeout reached during download
+[2024-04-08 12:38:24] INFO root fetch - processPackages [easytl]: executing diffoscope
+[2024-04-08 12:38:24] INFO root fetch - processPackages [easytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytl-0.0.3.tar.gz tmp/easytl-0.0.4.tar.gz --markdown 20240408/e/easytl/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 12:38:24] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/e6/65/9f6a5fa85f52fab06fa6eb1d1e90b7ac723e51a75b2c22b8c52abf57982e/guarddog-1.5.8.tar.gz
+[2024-04-08 12:38:24] WARNING root fetch - processPackages [guarddog]: Timeout reached during download
+[2024-04-08 12:38:24] INFO root fetch - processPackages [guarddog]: executing diffoscope
+[2024-04-08 12:38:24] INFO root fetch - processPackages [guarddog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guarddog-1.5.7.tar.gz tmp/guarddog-1.5.8.tar.gz --markdown 20240408/g/guarddog/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2024-04-08 12:38:24] WARNING root fetch - processPackages [astrapy]: Timeout reached during download
+[2024-04-08 12:38:24] INFO root fetch - processPackages [astrapy]: executing diffoscope
+[2024-04-08 12:38:24] INFO root fetch - processPackages [astrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrapy-0.7.7.tar.gz tmp/astrapy-1.0.0rc1.tar.gz --markdown 20240408/a/astrapy/0.7.7-1.0.0rc1/diff.md --exclude *.pyd
+[2024-04-08 12:38:25] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.0.3.tar.gz]
+[2024-04-08 12:38:25] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.0.4.tar.gz]
+[2024-04-08 12:38:25] INFO root fetch - main [MainThread]: End processing [easytl]: success
+[2024-04-08 12:38:25] INFO root fetch - processPackages [astrapy]: Remove: archive file [/home/abi/fetcher/tmp/astrapy-0.7.7.tar.gz]
+[2024-04-08 12:38:25] INFO root fetch - processPackages [astrapy]: Remove: archive file [/home/abi/fetcher/tmp/astrapy-1.0.0rc1.tar.gz]
+[2024-04-08 12:38:25] INFO root fetch - main [MainThread]: End processing [astrapy]: success
+[2024-04-08 12:38:25] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.5.7.tar.gz]
+[2024-04-08 12:38:25] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.5.8.tar.gz]
+[2024-04-08 12:38:25] INFO root fetch - main [MainThread]: End processing [guarddog]: success
+[2024-04-08 12:38:25] INFO root fetch - main [MainThread]: Store serial: [22665763]
