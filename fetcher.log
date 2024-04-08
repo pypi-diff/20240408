@@ -6762,3 +6762,50 @@
 [2024-04-08 05:35:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tan-3.0.999.tar.gz]
 [2024-04-08 05:35:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tan]: success
 [2024-04-08 05:35:54] INFO root fetch - main [MainThread]: Store serial: [22661909]
+[2024-04-08 05:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661909]
+[2024-04-08 05:38:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 05:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tbaas
+[2024-04-08 05:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tbm
+[2024-04-08 05:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volstreet
+[2024-04-08 05:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owmpy
+[2024-04-08 05:38:05] INFO root fetch - processPackages [owmpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-08 05:38:05] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/74/de/12a0a49f180d110db5b22d3b3f79eb3f5bf0299038f2ed9a86f81d05cc0e/owmpy-1.0.2.tar.gz
+[2024-04-08 05:38:05] INFO root fetch - processPackages [volstreet]: New version: [7.1.0] Old Version: [7.0.4]
+[2024-04-08 05:38:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:38:05] WARNING root fetch - processPackages [owmpy]: Timeout reached during download
+[2024-04-08 05:38:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:38:06] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/67/b9/b6c718924d65cbb8f77b640bf431f53ee911cf3d8b50fd85c77945ce5996/volstreet-7.0.4.tar.gz
+[2024-04-08 05:38:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Downloading https://files.pythonhosted.org/packages/84/6d/e2c0391bb815c4991165bf94d0a453e516db13f59b899dca72bfab8537b8/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz
+[2024-04-08 05:38:06] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Timeout reached during download
+[2024-04-08 05:38:06] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/66/64/4135ed49554a866773aeab2c60a3462e51fff12e0b8cafa40d59fad2ce02/owmpy-1.0.3.tar.gz
+[2024-04-08 05:38:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Downloading https://files.pythonhosted.org/packages/8c/2f/b26a68d58bf637586ec28197c54a1f1434b269e6d4efe0f99f6e4e529cdd/tencentcloud-sdk-python-tbm-3.0.998.tar.gz
+[2024-04-08 05:38:06] WARNING root fetch - processPackages [volstreet]: Timeout reached during download
+[2024-04-08 05:38:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Downloading https://files.pythonhosted.org/packages/80/a2/7707e6bca876dec3dc7fa1659d518217bb9047b654ee4f7a82aa81c23e3d/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz
+[2024-04-08 05:38:06] WARNING root fetch - processPackages [owmpy]: Timeout reached during download
+[2024-04-08 05:38:06] INFO root fetch - processPackages [owmpy]: executing diffoscope
+[2024-04-08 05:38:06] INFO root fetch - processPackages [owmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owmpy-1.0.2.tar.gz tmp/owmpy-1.0.3.tar.gz --markdown 20240408/o/owmpy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-08 05:38:06] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbm]: Timeout reached during download
+[2024-04-08 05:38:06] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/b2/0c/9f71c75de151d391b86133d8d26cf3153a32280643a48bf231b30b70aafe/volstreet-7.1.0.tar.gz
+[2024-04-08 05:38:06] WARNING root fetch - processPackages [volstreet]: Timeout reached during download
+[2024-04-08 05:38:06] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-08 05:38:06] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-7.0.4.tar.gz tmp/volstreet-7.1.0.tar.gz --markdown 20240408/v/volstreet/7.0.4-7.1.0/diff.md --exclude *.pyd
+[2024-04-08 05:38:06] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Timeout reached during download
+[2024-04-08 05:38:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: executing diffoscope
+[2024-04-08 05:38:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tbaas/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:38:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Downloading https://files.pythonhosted.org/packages/db/df/52d0566ff93bbe4cf052b80784061a8e9e94e58c56bcebf0de1191206719/tencentcloud-sdk-python-tbm-3.0.999.tar.gz
+[2024-04-08 05:38:06] WARNING root fetch - processPackages [tencentcloud-sdk-python-tbm]: Timeout reached during download
+[2024-04-08 05:38:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: executing diffoscope
+[2024-04-08 05:38:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbm-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tbm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:38:07] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-1.0.2.tar.gz]
+[2024-04-08 05:38:07] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-1.0.3.tar.gz]
+[2024-04-08 05:38:07] INFO root fetch - main [MainThread]: End processing [owmpy]: success
+[2024-04-08 05:38:07] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz]
+[2024-04-08 05:38:07] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz]
+[2024-04-08 05:38:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbaas]: success
+[2024-04-08 05:38:07] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbm-3.0.998.tar.gz]
+[2024-04-08 05:38:07] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbm-3.0.999.tar.gz]
+[2024-04-08 05:38:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbm]: success
+[2024-04-08 05:38:07] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.0.4.tar.gz]
+[2024-04-08 05:38:07] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.0.tar.gz]
+[2024-04-08 05:38:07] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-08 05:38:07] INFO root fetch - main [MainThread]: Store serial: [22661922]
