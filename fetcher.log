@@ -2935,3 +2935,39 @@
 [2024-04-08 03:49:37] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
 [2024-04-08 03:49:37] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
 [2024-04-08 03:49:37] INFO root fetch - main [MainThread]: Store serial: [22660727]
+[2024-04-08 03:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660727]
+[2024-04-08 03:51:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 03:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: missim-config
+[2024-04-08 03:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: missim-cli
+[2024-04-08 03:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkl-python
+[2024-04-08 03:51:46] INFO root fetch - processPackages [missim-cli]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-04-08 03:51:46] INFO root fetch - processPackages [pkl-python]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-04-08 03:51:46] INFO root fetch - processPackages [missim-config]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-04-08 03:51:46] INFO root fetch - processPackages [missim-cli]: Downloading https://files.pythonhosted.org/packages/5e/f2/b7ead060a05d5a77d410e1226041eb0815450cc3c1c842404a4087cde3c8/missim_cli-1.7.1.tar.gz
+[2024-04-08 03:51:46] INFO root fetch - processPackages [missim-config]: Downloading https://files.pythonhosted.org/packages/32/1a/a93572aedc8e644cbb18148d035cd2662a130f51b9de85d39bd2f46e3655/missim_config-1.7.1.tar.gz
+[2024-04-08 03:51:46] INFO root fetch - processPackages [pkl-python]: Downloading https://files.pythonhosted.org/packages/8c/ac/d39eebbd3e2657de14430b40d0681d955cd06e9617dcebadffe881a08e03/pkl-python-0.1.11.tar.gz
+[2024-04-08 03:51:46] WARNING root fetch - processPackages [missim-config]: Timeout reached during download
+[2024-04-08 03:51:46] WARNING root fetch - processPackages [missim-cli]: Timeout reached during download
+[2024-04-08 03:51:46] WARNING root fetch - processPackages [pkl-python]: Timeout reached during download
+[2024-04-08 03:51:46] INFO root fetch - processPackages [missim-cli]: Downloading https://files.pythonhosted.org/packages/a2/1c/313f0af347cc848f0a8c6bf7c8a126ee3a91295891740d64826553219d25/missim_cli-1.8.0.tar.gz
+[2024-04-08 03:51:46] INFO root fetch - processPackages [missim-config]: Downloading https://files.pythonhosted.org/packages/2c/d0/96aa5ba35f0909b116501a617ece8c928985c1668b2c669ce57fa725a1e1/missim_config-1.8.0.tar.gz
+[2024-04-08 03:51:47] INFO root fetch - processPackages [pkl-python]: Downloading https://files.pythonhosted.org/packages/8d/a4/03b866d92e0e941b365fd6f8f727fbd6f73c0b97a2c9729e3f8186e2d634/pkl-python-0.1.12.tar.gz
+[2024-04-08 03:51:47] WARNING root fetch - processPackages [missim-config]: Timeout reached during download
+[2024-04-08 03:51:47] WARNING root fetch - processPackages [missim-cli]: Timeout reached during download
+[2024-04-08 03:51:47] INFO root fetch - processPackages [missim-config]: executing diffoscope
+[2024-04-08 03:51:47] INFO root fetch - processPackages [missim-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missim_config-1.7.1.tar.gz tmp/missim_config-1.8.0.tar.gz --markdown 20240408/m/missim-config/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2024-04-08 03:51:47] INFO root fetch - processPackages [missim-cli]: executing diffoscope
+[2024-04-08 03:51:47] INFO root fetch - processPackages [missim-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missim_cli-1.7.1.tar.gz tmp/missim_cli-1.8.0.tar.gz --markdown 20240408/m/missim-cli/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2024-04-08 03:51:47] WARNING root fetch - processPackages [pkl-python]: Timeout reached during download
+[2024-04-08 03:51:47] INFO root fetch - processPackages [pkl-python]: executing diffoscope
+[2024-04-08 03:51:47] INFO root fetch - processPackages [pkl-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkl-python-0.1.11.tar.gz tmp/pkl-python-0.1.12.tar.gz --markdown 20240408/p/pkl-python/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2024-04-08 03:51:47] INFO root fetch - processPackages [missim-config]: Remove: archive file [/home/abi/fetcher/tmp/missim_config-1.7.1.tar.gz]
+[2024-04-08 03:51:47] INFO root fetch - processPackages [missim-config]: Remove: archive file [/home/abi/fetcher/tmp/missim_config-1.8.0.tar.gz]
+[2024-04-08 03:51:47] INFO root fetch - main [MainThread]: End processing [missim-config]: success
+[2024-04-08 03:51:47] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.7.1.tar.gz]
+[2024-04-08 03:51:47] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.8.0.tar.gz]
+[2024-04-08 03:51:47] INFO root fetch - main [MainThread]: End processing [missim-cli]: success
+[2024-04-08 03:51:47] INFO root fetch - processPackages [pkl-python]: Remove: archive file [/home/abi/fetcher/tmp/pkl-python-0.1.11.tar.gz]
+[2024-04-08 03:51:47] INFO root fetch - processPackages [pkl-python]: Remove: archive file [/home/abi/fetcher/tmp/pkl-python-0.1.12.tar.gz]
+[2024-04-08 03:51:47] INFO root fetch - main [MainThread]: End processing [pkl-python]: success
+[2024-04-08 03:51:47] INFO root fetch - main [MainThread]: Store serial: [22660736]
