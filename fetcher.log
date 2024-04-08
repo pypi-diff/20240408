@@ -12382,3 +12382,86 @@
 [2024-04-08 09:58:19] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-08 09:58:19] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-08 09:58:19] INFO root fetch - main [MainThread]: Store serial: [22663749]
+[2024-04-08 10:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663749]
+[2024-04-08 10:00:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apollo-lunar
+[2024-04-08 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunholo
+[2024-04-08 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fennecs
+[2024-04-08 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tclogger
+[2024-04-08 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2024-04-08 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2024-04-08 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dora-rs
+[2024-04-08 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: logging-strict
+[2024-04-08 10:00:28] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 10:00:28] INFO root fetch - processPackages [qwak-core]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-08 10:00:28] INFO root fetch - processPackages [tclogger]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [fennecs]: Skipping, unable to determine old version
+[2024-04-08 10:00:28] INFO root fetch - main [MainThread]: End processing [fennecs] error
+[2024-04-08 10:00:28] INFO root fetch - processPackages [logging-strict]: New version: [1.2.28] Old Version: [1.2.27]
+[2024-04-08 10:00:28] INFO root fetch - processPackages [apollo-lunar]: New version: [2024.4.4rc1] Old Version: [2024.4.4]
+[2024-04-08 10:00:28] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-08 10:00:28] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240408] Old Version: [2.17.0.dev20240407]
+[2024-04-08 10:00:28] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/59/3f/bd28e625e13a379a9463795eed9d170cceaf191d98c6ea302e910c4788e1/qwak_core-0.3.98.tar.gz
+[2024-04-08 10:00:28] INFO root fetch - processPackages [dora-rs]: New version: [0.3.3rc1] Old Version: [0.3.2rc2]
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 10:00:28] INFO root fetch - processPackages [tclogger]: Downloading https://files.pythonhosted.org/packages/a2/06/f1f6c5ea28e819d6f485abc11167c9ab9f15c2356bb73285f9ebeb7df542/tclogger-0.9.5.tar.gz
+[2024-04-08 10:00:28] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/a7/d1/da315750c330973c1ef139a12c8e514b80c836abc6647ae2db699b1dae35/apollo_lunar-2024.4.4.tar.gz
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [qwak-core]: Timeout reached during download
+[2024-04-08 10:00:28] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-08 10:00:28] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/41/2c/6b3a6b618f2745ae604f6fb72ece82ec1f1750fc4091dae5bd99a9ff7c8c/tf_nightly-2.17.0.dev20240407-cp39-cp39-win_amd64.whl
+[2024-04-08 10:00:28] INFO root fetch - processPackages [dora-rs]: Downloading https://files.pythonhosted.org/packages/18/ef/4a1605f0a18da420c8658cc9ddbd90db2077dfc664e2e6c74bd248600666/dora_rs-0.3.2rc2.tar.gz
+[2024-04-08 10:00:28] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/c1/44/f59d30fed86e2bfabb32660ae39d0bef6e098d0b9d8f7741fb9a4aa9e41b/logging-strict-1.2.27.tar.gz
+[2024-04-08 10:00:28] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/71/0e/e7c880c764df31bf9e71679c2a411ac1a48667bfd4caee997236b1cc61fb/qwak_core-0.3.99.tar.gz
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [tclogger]: Timeout reached during download
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 10:00:28] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-08 10:00:28] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240408/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [tf-nightly]: Timeout reached during download
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [apollo-lunar]: Timeout reached during download
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [dora-rs]: Timeout reached during download
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [qwak-core]: Timeout reached during download
+[2024-04-08 10:00:28] INFO root fetch - processPackages [tclogger]: Downloading https://files.pythonhosted.org/packages/01/aa/fec828824dd96059b4c11e3ce9bab887c3e8d271cfb98fff14276ade2425/tclogger-0.9.6.tar.gz
+[2024-04-08 10:00:28] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-04-08 10:00:28] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.3.98.tar.gz tmp/qwak_core-0.3.99.tar.gz --markdown 20240408/q/qwak-core/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-08 10:00:28] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/aa/5d/db005207540c0903e1d4d57365b797dc6d7ecab0e395b78b5408b77e5ab5/tf_nightly-2.17.0.dev20240408-cp39-cp39-win_amd64.whl
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-08 10:00:28] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/2b/7d/ac278e0c2b56e554ec91a1fe5793ba9eec4ac940340d612bc809f49fb825/apollo_lunar-2024.4.4rc1.tar.gz
+[2024-04-08 10:00:28] WARNING root fetch - processPackages [tclogger]: Timeout reached during download
+[2024-04-08 10:00:29] INFO root fetch - processPackages [tclogger]: executing diffoscope
+[2024-04-08 10:00:29] INFO root fetch - processPackages [tclogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tclogger-0.9.5.tar.gz tmp/tclogger-0.9.6.tar.gz --markdown 20240408/t/tclogger/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-08 10:00:29] INFO root fetch - processPackages [dora-rs]: Downloading https://files.pythonhosted.org/packages/4b/09/ab91bee6de7405aba4d20566cb0aac7a9edbc64c45745028af3553bf15a3/dora_rs-0.3.3rc1.tar.gz
+[2024-04-08 10:00:29] WARNING root fetch - processPackages [tf-nightly]: Timeout reached during download
+[2024-04-08 10:00:29] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-08 10:00:29] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240407-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240408-cp39-cp39-win_amd64.whl.zip --markdown 20240408/t/tf-nightly/2.17.0.dev20240407-2.17.0.dev20240408/diff.md --exclude *.pyd
+[2024-04-08 10:00:29] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/f1/27/a98dde55160a07f5e6c21297a4d6e11e59f171bb4b260b48eaff8b921996/logging-strict-1.2.28.tar.gz
+[2024-04-08 10:00:29] WARNING root fetch - processPackages [dora-rs]: Timeout reached during download
+[2024-04-08 10:00:29] INFO root fetch - processPackages [dora-rs]: executing diffoscope
+[2024-04-08 10:00:29] INFO root fetch - processPackages [dora-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dora_rs-0.3.2rc2.tar.gz tmp/dora_rs-0.3.3rc1.tar.gz --markdown 20240408/d/dora-rs/0.3.2rc2-0.3.3rc1/diff.md --exclude *.pyd
+[2024-04-08 10:00:29] WARNING root fetch - processPackages [apollo-lunar]: Timeout reached during download
+[2024-04-08 10:00:29] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2024-04-08 10:00:29] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_lunar-2024.4.4.tar.gz tmp/apollo_lunar-2024.4.4rc1.tar.gz --markdown 20240408/a/apollo-lunar/2024.4.4-2024.4.4rc1/diff.md --exclude *.pyd
+[2024-04-08 10:00:29] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-08 10:00:29] INFO root fetch - processPackages [logging-strict]: executing diffoscope
+[2024-04-08 10:00:29] INFO root fetch - processPackages [logging-strict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-strict-1.2.27.tar.gz tmp/logging-strict-1.2.28.tar.gz --markdown 20240408/l/logging-strict/1.2.27-1.2.28/diff.md --exclude *.pyd
+[2024-04-08 10:00:29] INFO root fetch - processPackages [tclogger]: Remove: archive file [/home/abi/fetcher/tmp/tclogger-0.9.5.tar.gz]
+[2024-04-08 10:00:29] INFO root fetch - processPackages [tclogger]: Remove: archive file [/home/abi/fetcher/tmp/tclogger-0.9.6.tar.gz]
+[2024-04-08 10:00:29] INFO root fetch - main [MainThread]: End processing [tclogger]: success
+[2024-04-08 10:00:30] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-08 10:00:30] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-08 10:00:30] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-08 10:00:30] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240407-cp39-cp39-win_amd64.whl.zip]
+[2024-04-08 10:00:30] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240408-cp39-cp39-win_amd64.whl.zip]
+[2024-04-08 10:00:30] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-08 10:00:30] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4.tar.gz]
+[2024-04-08 10:00:30] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
+[2024-04-08 10:00:30] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2024-04-08 10:00:30] INFO root fetch - processPackages [dora-rs]: Remove: archive file [/home/abi/fetcher/tmp/dora_rs-0.3.2rc2.tar.gz]
+[2024-04-08 10:00:30] INFO root fetch - processPackages [dora-rs]: Remove: archive file [/home/abi/fetcher/tmp/dora_rs-0.3.3rc1.tar.gz]
+[2024-04-08 10:00:30] INFO root fetch - main [MainThread]: End processing [dora-rs]: success
+[2024-04-08 10:00:31] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.27.tar.gz]
+[2024-04-08 10:00:31] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.28.tar.gz]
+[2024-04-08 10:00:31] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
+[2024-04-08 10:00:32] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.98.tar.gz]
+[2024-04-08 10:00:32] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
+[2024-04-08 10:00:32] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-04-08 10:00:32] INFO root fetch - main [MainThread]: Store serial: [22663786]
