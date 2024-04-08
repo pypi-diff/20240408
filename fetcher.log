@@ -2374,3 +2374,50 @@
 [2024-04-08 03:05:02] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.9.tar.gz]
 [2024-04-08 03:05:02] INFO root fetch - main [MainThread]: End processing [cycparser]: success
 [2024-04-08 03:05:02] INFO root fetch - main [MainThread]: Store serial: [22660514]
+[2024-04-08 03:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660514]
+[2024-04-08 03:07:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 03:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hue-sunrise
+[2024-04-08 03:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyway
+[2024-04-08 03:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flarespy
+[2024-04-08 03:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dismo
+[2024-04-08 03:07:11] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-08 03:07:11] INFO root fetch - processPackages [pyway]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-08 03:07:11] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-08 03:07:11] INFO root fetch - processPackages [dismo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 03:07:11] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/04/25/388588a964ee3e165799f36a52ac68432b412f43d936c345577d8f7314ff/flarespy-0.9.7.tar.gz
+[2024-04-08 03:07:11] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2024-04-08 03:07:11] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/e9/d8/33ec1926582882ec91e543cb167d590ea8473e0c8fdc328d9b16cf94dc2e/dismo-1.0.8.tar.gz
+[2024-04-08 03:07:11] WARNING root fetch - processPackages [flarespy]: Timeout reached during download
+[2024-04-08 03:07:11] WARNING root fetch - processPackages [hue-sunrise]: Timeout reached during download
+[2024-04-08 03:07:11] WARNING root fetch - processPackages [dismo]: Timeout reached during download
+[2024-04-08 03:07:11] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2024-04-08 03:07:11] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/c8/7e/3f154203fb0f1369802551bb5c886d19787ba3740cac776f1ab46ff30696/flarespy-0.9.8.tar.gz
+[2024-04-08 03:07:11] WARNING root fetch - processPackages [hue-sunrise]: Timeout reached during download
+[2024-04-08 03:07:11] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2024-04-08 03:07:11] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20240408/h/hue-sunrise/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2024-04-08 03:07:11] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/46/ea/aca21eb7dddb69cc86666a35b07fe59fd6139a8b65bae53f8052ace4d4ec/dismo-1.0.9.tar.gz
+[2024-04-08 03:07:11] WARNING root fetch - processPackages [flarespy]: Timeout reached during download
+[2024-04-08 03:07:11] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2024-04-08 03:07:11] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20240408/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-08 03:07:11] INFO root fetch - processPackages [pyway]: Downloading https://files.pythonhosted.org/packages/61/02/93cd16130f4d2b838a232051fdc127570a2992cd8e6b959f89e3cbe716ea/pyway-0.3.8.tar.gz
+[2024-04-08 03:07:12] WARNING root fetch - processPackages [pyway]: Timeout reached during download
+[2024-04-08 03:07:12] WARNING root fetch - processPackages [dismo]: Timeout reached during download
+[2024-04-08 03:07:12] INFO root fetch - processPackages [dismo]: executing diffoscope
+[2024-04-08 03:07:12] INFO root fetch - processPackages [dismo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismo-1.0.8.tar.gz tmp/dismo-1.0.9.tar.gz --markdown 20240408/d/dismo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 03:07:12] INFO root fetch - processPackages [pyway]: Downloading https://files.pythonhosted.org/packages/11/f5/cb46f2ef9ddb390323fb1ff9c066b701082c3ede3eed33bbb3c4721cc4a8/pyway-0.3.9.tar.gz
+[2024-04-08 03:07:12] WARNING root fetch - processPackages [pyway]: Timeout reached during download
+[2024-04-08 03:07:12] INFO root fetch - processPackages [pyway]: executing diffoscope
+[2024-04-08 03:07:12] INFO root fetch - processPackages [pyway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyway-0.3.8.tar.gz tmp/pyway-0.3.9.tar.gz --markdown 20240408/p/pyway/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-08 03:07:12] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.8.tar.gz]
+[2024-04-08 03:07:12] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
+[2024-04-08 03:07:12] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2024-04-08 03:07:12] INFO root fetch - processPackages [flarespy]: Remove: archive file [/home/abi/fetcher/tmp/flarespy-0.9.7.tar.gz]
+[2024-04-08 03:07:12] INFO root fetch - processPackages [flarespy]: Remove: archive file [/home/abi/fetcher/tmp/flarespy-0.9.8.tar.gz]
+[2024-04-08 03:07:12] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2024-04-08 03:07:12] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.8.tar.gz]
+[2024-04-08 03:07:12] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.9.tar.gz]
+[2024-04-08 03:07:12] INFO root fetch - main [MainThread]: End processing [dismo]: success
+[2024-04-08 03:07:13] INFO root fetch - processPackages [pyway]: Remove: archive file [/home/abi/fetcher/tmp/pyway-0.3.8.tar.gz]
+[2024-04-08 03:07:13] INFO root fetch - processPackages [pyway]: Remove: archive file [/home/abi/fetcher/tmp/pyway-0.3.9.tar.gz]
+[2024-04-08 03:07:13] INFO root fetch - main [MainThread]: End processing [pyway]: success
+[2024-04-08 03:07:13] INFO root fetch - main [MainThread]: Store serial: [22660526]
