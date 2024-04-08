@@ -16223,3 +16223,149 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:04:49] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.5.tar.gz]
 [2024-04-08 12:04:49] INFO root fetch - main [MainThread]: End processing [development-tool]: success
 [2024-04-08 12:04:49] INFO root fetch - main [MainThread]: Store serial: [22665358]
+[2024-04-08 12:06:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665358]
+[2024-04-08 12:06:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocb-dc-ose-2021
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangocms-text
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyqsar
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-sdk
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langfuse
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-telemetry
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.1.post405] Old Version: [2.46.1.post403]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [lazyqsar]: New version: [0.4] Old Version: [0.3]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [djangocms-text]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [ocb-dc-ose-2021]: New version: [2024.4.8.1205] Old Version: [2024.4.5.2130]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [langfuse]: New version: [2.9.2] Old Version: [2.9.1a0]
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-08 12:06:59] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/5f/22/a0eb5ff6d0432d82f232c55786b9aa3df4038ee4336f8717ef2c6503498e/nucliadb_telemetry-2.46.1.post403-py3-none-any.whl
+[2024-04-08 12:07:00] INFO root fetch - processPackages [lazyqsar]: Downloading https://files.pythonhosted.org/packages/23/db/e763177b71e1112acc7fc6c52b9e36173a09c2065e460ffd61e9bc56d8f2/lazyqsar-0.3.tar.gz
+[2024-04-08 12:07:00] INFO root fetch - processPackages [djangocms-text]: Downloading https://files.pythonhosted.org/packages/69/29/13f9c2d3bd139491db21a91dca3964df5d8eae45c45b77edaaf2415bb48d/djangocms_text-0.1.0.tar.gz
+[2024-04-08 12:07:00] INFO root fetch - processPackages [ocb-dc-ose-2021]: Downloading https://files.pythonhosted.org/packages/73/48/918b460a917e0fefdd23d26ad3f9b4d1473c05b8113ec4024a44d842ddc0/ocb-dc-ose-2021-2024.4.5.2130.tar.gz
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/43/38/4a1023711cee549cb5f62c09965d08724e93f5cac8e7dcd2becd75f7b302/langfuse-2.9.1a0.tar.gz
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [ocb-dc-ose-2021]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [lazyqsar]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/c0/dc/72325f33658adb971b672e64a2c8173cb6d64467900229e512c6c3ff44a8/nucliadb_telemetry-2.46.1.post405-py3-none-any.whl
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [langfuse]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [ocb-dc-ose-2021]: Downloading https://files.pythonhosted.org/packages/97/63/d1f44a8f0083a4df48d9df73ccf9620b29d4cd0b0acaded737ae59f6948f/ocb-dc-ose-2021-2024.4.8.1205.tar.gz
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [lazyqsar]: Downloading https://files.pythonhosted.org/packages/af/b6/72763d2522e94cdb59aa6233733b761391302f9ac654657e33bf5b587126/lazyqsar-0.4.tar.gz
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [ocb-dc-ose-2021]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [ocb-dc-ose-2021]: executing diffoscope
+[2024-04-08 12:07:00] INFO root fetch - processPackages [ocb-dc-ose-2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocb-dc-ose-2021-2024.4.5.2130.tar.gz tmp/ocb-dc-ose-2021-2024.4.8.1205.tar.gz --markdown 20240408/o/ocb-dc-ose-2021/2024.4.5.2130-2024.4.8.1205/diff.md --exclude *.pyd
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.1.post403-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.1.post405-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-telemetry/2.46.1.post403-2.46.1.post405/diff.md --exclude *.pyd
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-08 12:07:00] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [djangocms-text]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/71/c4/6571f0f3c2539390fbd49ca27636f5611971c2b1f9f15fae183b3c67838c/langfuse-2.9.2.tar.gz
+[2024-04-08 12:07:00] WARNING root fetch - processPackages [lazyqsar]: Timeout reached during download
+[2024-04-08 12:07:00] INFO root fetch - processPackages [lazyqsar]: executing diffoscope
+[2024-04-08 12:07:00] INFO root fetch - processPackages [lazyqsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqsar-0.3.tar.gz tmp/lazyqsar-0.4.tar.gz --markdown 20240408/l/lazyqsar/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-08 12:07:00] INFO root fetch - processPackages [djangocms-text]: Downloading https://files.pythonhosted.org/packages/00/4c/45fd73df1d36f5d0b419f7cfb279588500615016560817f12d0f506a289f/djangocms_text-0.1.1.tar.gz
+[2024-04-08 12:07:01] WARNING root fetch - processPackages [langfuse]: Timeout reached during download
+[2024-04-08 12:07:01] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2024-04-08 12:07:01] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-2.9.1a0.tar.gz tmp/langfuse-2.9.2.tar.gz --markdown 20240408/l/langfuse/2.9.1a0-2.9.2/diff.md --exclude *.pyd
+[2024-04-08 12:07:01] WARNING root fetch - processPackages [djangocms-text]: Timeout reached during download
+[2024-04-08 12:07:01] INFO root fetch - processPackages [djangocms-text]: executing diffoscope
+[2024-04-08 12:07:01] INFO root fetch - processPackages [djangocms-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_text-0.1.0.tar.gz tmp/djangocms_text-0.1.1.tar.gz --markdown 20240408/d/djangocms-text/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-utils
+[2024-04-08 12:07:02] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-models]: Start processing: th2-grpc-read-db
+[2024-04-08 12:07:02] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-08 12:07:02] INFO root fetch - processPackages [ocb-dc-ose-2021]: Remove: archive file [/home/abi/fetcher/tmp/ocb-dc-ose-2021-2024.4.5.2130.tar.gz]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [ocb-dc-ose-2021]: Remove: archive file [/home/abi/fetcher/tmp/ocb-dc-ose-2021-2024.4.8.1205.tar.gz]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [ocb-dc-ose-2021]: Start processing: jupyterlab-server
+[2024-04-08 12:07:02] INFO root fetch - main [MainThread]: End processing [ocb-dc-ose-2021]: success
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.8rc1] Old Version: [0.0.8.dev8598057150]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [lazyqsar]: Remove: archive file [/home/abi/fetcher/tmp/lazyqsar-0.3.tar.gz]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [lazyqsar]: Remove: archive file [/home/abi/fetcher/tmp/lazyqsar-0.4.tar.gz]
+[2024-04-08 12:07:02] INFO root fetch - main [MainThread]: End processing [lazyqsar]: success
+[2024-04-08 12:07:02] INFO root fetch - processPackages [jupyterlab-server]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-08 12:07:02] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/64/57/099986039528b2a22ca04bb1a7e272137abfc2c80097b778a3000aa1e980/th2_grpc_read_db-0.0.8.dev8598057150.tar.gz
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post403-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post405-py3-none-any.whl.zip]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [jupyterlab-server]: Downloading https://files.pythonhosted.org/packages/79/41/552120becdd267b505f6aafc522c0d90bb051d780cd1b1e7429286b01418/jupyterlab_server-2.8.2.tar.gz
+[2024-04-08 12:07:02] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-08 12:07:02] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-08 12:07:02] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-08 12:07:02] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-08 12:07:02] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.1a0.tar.gz]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.2.tar.gz]
+[2024-04-08 12:07:02] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/04/44/e9b4bb65a8c860bb70bf2385d9571804292028e0e0da1a8dcc6223dc81ba/th2_grpc_read_db-0.0.8rc1.tar.gz
+[2024-04-08 12:07:02] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2024-04-08 12:07:03] WARNING root fetch - processPackages [jupyterlab-server]: Timeout reached during download
+[2024-04-08 12:07:03] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-08 12:07:03] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-04-08 12:07:03] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.8.dev8598057150.tar.gz tmp/th2_grpc_read_db-0.0.8rc1.tar.gz --markdown 20240408/t/th2-grpc-read-db/0.0.8.dev8598057150-0.0.8rc1/diff.md --exclude *.pyd
+[2024-04-08 12:07:03] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-08 12:07:03] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-08 12:07:03] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 12:07:03] INFO root fetch - processPackages [jupyterlab-server]: Downloading https://files.pythonhosted.org/packages/34/4f/40ba0045d6bb0249d36cb66e3407ae0fa151991af1cfa238f1add5059aa8/jupyterlab_server-2.9.0.tar.gz
+[2024-04-08 12:07:03] WARNING root fetch - processPackages [jupyterlab-server]: Timeout reached during download
+[2024-04-08 12:07:03] INFO root fetch - processPackages [jupyterlab-server]: executing diffoscope
+[2024-04-08 12:07:03] INFO root fetch - processPackages [jupyterlab-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_server-2.8.2.tar.gz tmp/jupyterlab_server-2.9.0.tar.gz --markdown 20240408/j/jupyterlab-server/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:07:03] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 12:07:03] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 12:07:03] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-08 12:07:03] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8.dev8598057150.tar.gz]
+[2024-04-08 12:07:03] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8rc1.tar.gz]
+[2024-04-08 12:07:03] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-04-08 12:07:04] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 12:07:04] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 12:07:04] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-08 12:07:04] INFO root fetch - processPackages [jupyterlab-server]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_server-2.8.2.tar.gz]
+[2024-04-08 12:07:04] INFO root fetch - processPackages [jupyterlab-server]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_server-2.9.0.tar.gz]
+[2024-04-08 12:07:04] INFO root fetch - main [MainThread]: End processing [jupyterlab-server]: success
+[2024-04-08 12:07:08] INFO root fetch - processPackages [djangocms-text]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_text-0.1.0.tar.gz]
+[2024-04-08 12:07:08] INFO root fetch - processPackages [djangocms-text]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_text-0.1.1.tar.gz]
+[2024-04-08 12:07:08] INFO root fetch - main [MainThread]: End processing [djangocms-text]: success
+[2024-04-08 12:07:08] INFO root fetch - main [MainThread]: Store serial: [22665389]
