@@ -20560,3 +20560,80 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:32:23] ERROR root fetch - processPackages [moto]: Timeout during execution of pkgdiff
 [2024-04-08 14:32:23] INFO root fetch - main [MainThread]: End processing [moto] error
 [2024-04-08 14:32:23] INFO root fetch - main [MainThread]: Store serial: [22666876]
+[2024-04-08 14:34:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666876]
+[2024-04-08 14:34:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spreadsheetsmalldemo
+[2024-04-08 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uptrace
+[2024-04-08 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2024-04-08 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rerun-sdk
+[2024-04-08 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: homeassistant
+[2024-04-08 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spreadsheetsmalldemo
+[2024-04-08 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: changelog_gen
+[2024-04-08 14:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RSTAB
+[2024-04-08 14:34:33] INFO root fetch - processPackages [homeassistant]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-08 14:34:33] INFO root fetch - processPackages [uptrace]: New version: [1.9.1] Old Version: [1.8.0]
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 14:34:33] INFO root fetch - processPackages [changelog_gen]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-08 14:34:33] INFO root fetch - processPackages [RSTAB]: New version: [1.9.5] Old Version: [1.9.3]
+[2024-04-08 14:34:33] INFO root fetch - processPackages [rerun-sdk]: New version: [0.9.1rc4] Old Version: [0.9.1rc3]
+[2024-04-08 14:34:33] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/70/b1/ce2e864c09373bacf32caea13284b208d7bde9f11167f9457b94a6373cba/homeassistant-2024.4.1.tar.gz
+[2024-04-08 14:34:33] INFO root fetch - processPackages [uptrace]: Downloading https://files.pythonhosted.org/packages/90/25/a88a8169a333cadb6289f293903f84e0f84b43aac803cb62067cc5dde920/uptrace-1.8.0.tar.gz
+[2024-04-08 14:34:33] INFO root fetch - processPackages [policyengine-us]: New version: [0.723.0] Old Version: [0.720.0]
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 20684761>=10485760
+[2024-04-08 14:34:33] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2024-04-08 14:34:33] INFO root fetch - processPackages [rerun-sdk]: Downloading https://files.pythonhosted.org/packages/d1/e1/b91b14b05fd2b89460faeff3f73002a52c230fe72d4ba52093856793107e/rerun_sdk-0.9.1rc3-cp38-abi3-win_amd64.whl
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: Downloading https://files.pythonhosted.org/packages/b9/e2/d44ba8190c68ce733293f218cea13c153fb104f2dcc7fcde98217ccac300/spreadsheetsmalldemo-0.0.3.tar.gz
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: Downloading https://files.pythonhosted.org/packages/b9/e2/d44ba8190c68ce733293f218cea13c153fb104f2dcc7fcde98217ccac300/spreadsheetsmalldemo-0.0.3.tar.gz
+[2024-04-08 14:34:33] INFO root fetch - processPackages [changelog_gen]: Downloading https://files.pythonhosted.org/packages/ab/a1/21871c3c6da275937822af803e35158acc5203ed3191ec017d9a072434d9/changelog_gen-0.9.6.tar.gz
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [uptrace]: Timeout reached during download
+[2024-04-08 14:34:33] INFO root fetch - processPackages [RSTAB]: Downloading https://files.pythonhosted.org/packages/9c/b6/5ea7224f21d2e4c6447c82744f48c18680258e2ca1d55854e294977227c4/RSTAB-1.9.3.tar.gz
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [spreadsheetsmalldemo]: Timeout reached during download
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [spreadsheetsmalldemo]: Timeout reached during download
+[2024-04-08 14:34:33] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/1b/4e/62a020e76c72db84f4db425be33577e303140261d09b30db6ae79c88ccf5/policyengine-us-0.720.0.tar.gz
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [changelog_gen]: Timeout reached during download
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [RSTAB]: Timeout reached during download
+[2024-04-08 14:34:33] INFO root fetch - processPackages [uptrace]: Downloading https://files.pythonhosted.org/packages/ee/60/f823a2780543e27ba6d84f37dade514ec486fe3eb39ae626a435fde8a11b/uptrace-1.9.1.tar.gz
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: Downloading https://files.pythonhosted.org/packages/5f/f6/f390aa14de3f9f3673cdc0abf11594a16f726b24898c7c7cca8f0b09cd5e/spreadsheetsmalldemo-0.0.4.tar.gz
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: Downloading https://files.pythonhosted.org/packages/5f/f6/f390aa14de3f9f3673cdc0abf11594a16f726b24898c7c7cca8f0b09cd5e/spreadsheetsmalldemo-0.0.4.tar.gz
+[2024-04-08 14:34:33] INFO root fetch - processPackages [changelog_gen]: Downloading https://files.pythonhosted.org/packages/a5/f5/b8bc0ecce28e63b505131f224773b885574995ddcbcad95e482ca3beef0f/changelog_gen-0.9.7.tar.gz
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [rerun-sdk]: Skipping package: exceeds size limit 23779013>=10485760
+[2024-04-08 14:34:33] INFO root fetch - main [MainThread]: End processing [rerun-sdk] error
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [uptrace]: Timeout reached during download
+[2024-04-08 14:34:33] INFO root fetch - processPackages [uptrace]: executing diffoscope
+[2024-04-08 14:34:33] INFO root fetch - processPackages [uptrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptrace-1.8.0.tar.gz tmp/uptrace-1.9.1.tar.gz --markdown 20240408/u/uptrace/1.8.0-1.9.1/diff.md --exclude *.pyd
+[2024-04-08 14:34:33] INFO root fetch - processPackages [RSTAB]: Downloading https://files.pythonhosted.org/packages/36/b1/8fecdb36eb1ffc1f67b746500cc14840456e087b67e1efc248669c3068b6/RSTAB-1.9.5.tar.gz
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [spreadsheetsmalldemo]: Timeout reached during download
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: executing diffoscope
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spreadsheetsmalldemo-0.0.3.tar.gz tmp/spreadsheetsmalldemo-0.0.4.tar.gz --markdown 20240408/s/spreadsheetsmalldemo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 14:34:33] WARNING root fetch - processPackages [spreadsheetsmalldemo]: Timeout reached during download
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: executing diffoscope
+[2024-04-08 14:34:33] INFO root fetch - processPackages [spreadsheetsmalldemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spreadsheetsmalldemo-0.0.3.tar.gz tmp/spreadsheetsmalldemo-0.0.4.tar.gz --markdown 20240408/s/spreadsheetsmalldemo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 14:34:34] WARNING root fetch - processPackages [changelog_gen]: Timeout reached during download
+[2024-04-08 14:34:34] INFO root fetch - processPackages [changelog_gen]: executing diffoscope
+[2024-04-08 14:34:34] INFO root fetch - processPackages [changelog_gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changelog_gen-0.9.6.tar.gz tmp/changelog_gen-0.9.7.tar.gz --markdown 20240408/c/changelog_gen/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2024-04-08 14:34:34] WARNING root fetch - processPackages [RSTAB]: Timeout reached during download
+[2024-04-08 14:34:34] INFO root fetch - processPackages [RSTAB]: executing diffoscope
+[2024-04-08 14:34:34] INFO root fetch - processPackages [RSTAB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RSTAB-1.9.3.tar.gz tmp/RSTAB-1.9.5.tar.gz --markdown 20240408/R/RSTAB/1.9.3-1.9.5/diff.md --exclude *.pyd
+[2024-04-08 14:34:34] WARNING root fetch - processPackages [policyengine-us]: Timeout reached during download
+[2024-04-08 14:34:34] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5d/e8/28e2f97386be303aeb78ada48bb7d52214dde2e40665eab647b21acfc64e/policyengine-us-0.723.0.tar.gz
+[2024-04-08 14:34:34] INFO root fetch - processPackages [spreadsheetsmalldemo]: Remove: archive file [/home/abi/fetcher/tmp/spreadsheetsmalldemo-0.0.3.tar.gz]
+[2024-04-08 14:34:34] INFO root fetch - processPackages [spreadsheetsmalldemo]: Remove: archive file [/home/abi/fetcher/tmp/spreadsheetsmalldemo-0.0.4.tar.gz]
+[2024-04-08 14:34:34] INFO root fetch - main [MainThread]: End processing [spreadsheetsmalldemo]: success
+[2024-04-08 14:34:34] INFO root fetch - processPackages [changelog_gen]: Remove: archive file [/home/abi/fetcher/tmp/changelog_gen-0.9.6.tar.gz]
+[2024-04-08 14:34:34] INFO root fetch - processPackages [changelog_gen]: Remove: archive file [/home/abi/fetcher/tmp/changelog_gen-0.9.7.tar.gz]
+[2024-04-08 14:34:34] INFO root fetch - main [MainThread]: End processing [changelog_gen]: success
+[2024-04-08 14:34:34] WARNING root fetch - processPackages [policyengine-us]: Timeout reached during download
+[2024-04-08 14:34:34] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-08 14:34:34] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.720.0.tar.gz tmp/policyengine-us-0.723.0.tar.gz --markdown 20240408/p/policyengine-us/0.720.0-0.723.0/diff.md --exclude *.pyd
+[2024-04-08 14:34:34] INFO root fetch - processPackages [uptrace]: Remove: archive file [/home/abi/fetcher/tmp/uptrace-1.8.0.tar.gz]
+[2024-04-08 14:34:34] INFO root fetch - processPackages [uptrace]: Remove: archive file [/home/abi/fetcher/tmp/uptrace-1.9.1.tar.gz]
+[2024-04-08 14:34:34] INFO root fetch - main [MainThread]: End processing [uptrace]: success
+[2024-04-08 14:34:34] INFO root fetch - main [MainThread]: End processing [spreadsheetsmalldemo]: success
+[2024-04-08 14:34:35] INFO root fetch - processPackages [RSTAB]: Remove: archive file [/home/abi/fetcher/tmp/RSTAB-1.9.3.tar.gz]
+[2024-04-08 14:34:35] INFO root fetch - processPackages [RSTAB]: Remove: archive file [/home/abi/fetcher/tmp/RSTAB-1.9.5.tar.gz]
+[2024-04-08 14:34:35] INFO root fetch - main [MainThread]: End processing [RSTAB]: success
+[2024-04-08 14:35:12] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.720.0.tar.gz]
+[2024-04-08 14:35:12] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.723.0.tar.gz]
+[2024-04-08 14:35:12] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-08 14:35:12] INFO root fetch - main [MainThread]: Store serial: [22666904]
