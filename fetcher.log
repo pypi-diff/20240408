@@ -9853,3 +9853,55 @@
 [2024-04-08 08:09:02] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.20.tar.gz]
 [2024-04-08 08:09:02] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
 [2024-04-08 08:09:02] INFO root fetch - main [MainThread]: Store serial: [22662844]
+[2024-04-08 08:11:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662844]
+[2024-04-08 08:11:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 08:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygameextra
+[2024-04-08 08:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aicli
+[2024-04-08 08:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rp
+[2024-04-08 08:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slurm-gui
+[2024-04-08 08:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miose-toolkit-common
+[2024-04-08 08:11:11] INFO root fetch - processPackages [slurm-gui]: New version: [0.2.1] Old Version: [0.0.0]
+[2024-04-08 08:11:11] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-08 08:11:11] INFO root fetch - processPackages [pygameextra]: New version: [2.0.0rc1] Old Version: [2.0.0b9]
+[2024-04-08 08:11:11] INFO root fetch - processPackages [miose-toolkit-common]: New version: [0.3.2] Old Version: [0.2.2]
+[2024-04-08 08:11:11] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-08 08:11:11] INFO root fetch - processPackages [aicli]: New version: [99.0.202404080609] Old Version: [99.0.202403282009]
+[2024-04-08 08:11:11] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-08 08:11:11] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-08 08:11:11] INFO root fetch - processPackages [slurm-gui]: Downloading https://files.pythonhosted.org/packages/0c/25/ed5e15182dd5990e06daae7cf2fac33fb3827cf4a957cb3a7ad6893b05a8/slurm_gui-0.0.0-py3-none-any.whl
+[2024-04-08 08:11:11] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/15/cb/24a5d9be0275983b579bf12118e5e33ef9078ad6bbf622a6335e2f1afdb4/pygameextra-2.0.0b9.tar.gz
+[2024-04-08 08:11:11] INFO root fetch - processPackages [miose-toolkit-common]: Downloading https://files.pythonhosted.org/packages/ed/0c/d06ee9b1f7cc54e49c3a331063371bdf72d65e71468f36b4caf46dacb887/miose_toolkit_common-0.2.2.tar.gz
+[2024-04-08 08:11:11] WARNING root fetch - processPackages [slurm-gui]: Timeout reached during download
+[2024-04-08 08:11:11] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/13/05/de779f9e9fd17fa090e6d061afd8746e4459cee164bf4359194d4b435b6b/aicli-99.0.202403282009-py3-none-any.whl
+[2024-04-08 08:11:11] WARNING root fetch - processPackages [miose-toolkit-common]: Timeout reached during download
+[2024-04-08 08:11:11] WARNING root fetch - processPackages [aicli]: Timeout reached during download
+[2024-04-08 08:11:11] WARNING root fetch - processPackages [pygameextra]: Timeout reached during download
+[2024-04-08 08:11:11] INFO root fetch - processPackages [slurm-gui]: Downloading https://files.pythonhosted.org/packages/46/6f/c2643f15675066de16e8610d4f270cfe3e08a36a19bcb9d2a5643edb6fe7/slurm-gui-0.2.1.tar.gz
+[2024-04-08 08:11:11] INFO root fetch - processPackages [miose-toolkit-common]: Downloading https://files.pythonhosted.org/packages/3f/e6/3070c412e8b4483356bbf2b7873f48f13245648e6667cfeed5f93389f2c8/miose_toolkit_common-0.3.2.tar.gz
+[2024-04-08 08:11:11] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/3a/17/a1d03f47ee7acabf74fc22e7db35a11f146c9398335dacf85aa2307e4cdd/aicli-99.0.202404080609-py3-none-any.whl
+[2024-04-08 08:11:11] WARNING root fetch - processPackages [slurm-gui]: Timeout reached during download
+[2024-04-08 08:11:11] INFO root fetch - processPackages [slurm-gui]: executing diffoscope
+[2024-04-08 08:11:11] INFO root fetch - processPackages [slurm-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurm_gui-0.0.0-py3-none-any.whl.zip tmp/slurm-gui-0.2.1.tar.gz --markdown 20240408/s/slurm-gui/0.0.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-08 08:11:11] WARNING root fetch - processPackages [miose-toolkit-common]: Timeout reached during download
+[2024-04-08 08:11:11] INFO root fetch - processPackages [miose-toolkit-common]: executing diffoscope
+[2024-04-08 08:11:11] INFO root fetch - processPackages [miose-toolkit-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miose_toolkit_common-0.2.2.tar.gz tmp/miose_toolkit_common-0.3.2.tar.gz --markdown 20240408/m/miose-toolkit-common/0.2.2-0.3.2/diff.md --exclude *.pyd
+[2024-04-08 08:11:11] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/2b/a7/fac6c4d7d9b52934a787a48365b843d0cd5354fdf2af0bc5e0c5d843bb55/pygameextra-2.0.0rc1.tar.gz
+[2024-04-08 08:11:11] WARNING root fetch - processPackages [aicli]: Timeout reached during download
+[2024-04-08 08:11:11] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2024-04-08 08:11:11] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202403282009-py3-none-any.whl.zip tmp/aicli-99.0.202404080609-py3-none-any.whl.zip --markdown 20240408/a/aicli/99.0.202403282009-99.0.202404080609/diff.md --exclude *.pyd
+[2024-04-08 08:11:12] WARNING root fetch - processPackages [pygameextra]: Timeout reached during download
+[2024-04-08 08:11:12] INFO root fetch - processPackages [pygameextra]: executing diffoscope
+[2024-04-08 08:11:12] INFO root fetch - processPackages [pygameextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygameextra-2.0.0b9.tar.gz tmp/pygameextra-2.0.0rc1.tar.gz --markdown 20240408/p/pygameextra/2.0.0b9-2.0.0rc1/diff.md --exclude *.pyd
+[2024-04-08 08:11:12] INFO root fetch - processPackages [miose-toolkit-common]: Remove: archive file [/home/abi/fetcher/tmp/miose_toolkit_common-0.2.2.tar.gz]
+[2024-04-08 08:11:12] INFO root fetch - processPackages [miose-toolkit-common]: Remove: archive file [/home/abi/fetcher/tmp/miose_toolkit_common-0.3.2.tar.gz]
+[2024-04-08 08:11:12] INFO root fetch - main [MainThread]: End processing [miose-toolkit-common]: success
+[2024-04-08 08:11:12] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202403282009-py3-none-any.whl.zip]
+[2024-04-08 08:11:12] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202404080609-py3-none-any.whl.zip]
+[2024-04-08 08:11:12] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2024-04-08 08:11:12] INFO root fetch - processPackages [slurm-gui]: Remove: archive file [/home/abi/fetcher/tmp/slurm_gui-0.0.0-py3-none-any.whl.zip]
+[2024-04-08 08:11:12] INFO root fetch - processPackages [slurm-gui]: Remove: archive file [/home/abi/fetcher/tmp/slurm-gui-0.2.1.tar.gz]
+[2024-04-08 08:11:12] INFO root fetch - main [MainThread]: End processing [slurm-gui]: success
+[2024-04-08 08:11:12] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0b9.tar.gz]
+[2024-04-08 08:11:12] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0rc1.tar.gz]
+[2024-04-08 08:11:12] INFO root fetch - main [MainThread]: End processing [pygameextra]: success
+[2024-04-08 08:11:12] INFO root fetch - main [MainThread]: Store serial: [22662856]
