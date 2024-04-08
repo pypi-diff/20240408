@@ -3264,3 +3264,86 @@
 [2024-04-08 04:16:02] INFO root fetch - processPackages [youtube-dl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/youtube_dl_nightly-2024.4.8-py2.py3-none-any.whl.zip]
 [2024-04-08 04:16:02] INFO root fetch - main [MainThread]: End processing [youtube-dl-nightly]: success
 [2024-04-08 04:16:02] INFO root fetch - main [MainThread]: Store serial: [22660845]
+[2024-04-08 04:18:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660845]
+[2024-04-08 04:18:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-08 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-pywin32
+[2024-04-08 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-openpyxl
+[2024-04-08 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-qrcode
+[2024-04-08 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-protobuf
+[2024-04-08 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-gdb
+[2024-04-08 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-capturer
+[2024-04-08 04:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hdfs-native
+[2024-04-08 04:18:12] INFO root fetch - processPackages [types-gdb]: New version: [12.1.4.5] Old Version: [12.1.4.4]
+[2024-04-08 04:18:12] INFO root fetch - processPackages [types-protobuf]: New version: [4.24.0.4] Old Version: [4.24.0.3]
+[2024-04-08 04:18:12] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b5] Old Version: [0.8.0.1b4]
+[2024-04-08 04:18:12] INFO root fetch - processPackages [types-qrcode]: New version: [7.4.0.20240408] Old Version: [7.4.0.20240106]
+[2024-04-08 04:18:12] INFO root fetch - processPackages [types-pywin32]: New version: [306.0.0.8] Old Version: [306.0.0.7]
+[2024-04-08 04:18:12] ERROR root fetch - processPackages [types-capturer]: Unable to get metadata: No such project 'types-capturer'
+[2024-04-08 04:18:12] INFO root fetch - main [MainThread]: End processing [types-capturer] error
+[2024-04-08 04:18:12] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.9] Old Version: [3.1.0.8]
+[2024-04-08 04:18:12] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/4f/6f/eaa7d5b3f7e8e01a12e992a9e46f236f41b2edfd551938ffde2d5fe4d135/smaht_submitr-0.8.0.1b4.tar.gz
+[2024-04-08 04:18:12] INFO root fetch - processPackages [hdfs-native]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-gdb]: Downloading https://files.pythonhosted.org/packages/50/02/02324f3caaac461ee3572459e174db884232f2c4d1291755d7be586a798b/types-gdb-12.1.4.4.tar.gz
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/54/78/4f9dc5fa8884d7c31bd06824609e7af80bf24397f979b9a2d27e4298f8ef/types-protobuf-4.24.0.3.tar.gz
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-gdb]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/1b/8a/70639ec16728a27eb8efb7ffc70ebf607fb622eb4122f8a8aef9167c4502/types-openpyxl-3.1.0.8.tar.gz
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-qrcode]: Downloading https://files.pythonhosted.org/packages/ff/5d/dabea5298e72062a2bf2090b50696397346f99dc652201a77e97d753fea1/types-qrcode-7.4.0.20240106.tar.gz
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-pywin32]: Downloading https://files.pythonhosted.org/packages/4f/38/bea1ba7effced76473b30ad7b9e46779e0d13f3126f69bd1480595a55e53/types-pywin32-306.0.0.7.tar.gz
+[2024-04-08 04:18:13] INFO root fetch - processPackages [hdfs-native]: Downloading https://files.pythonhosted.org/packages/22/2d/9e2b2e5918d66ac383206c3674bffc3b3764cd0eedc9311a73e566c5785b/hdfs_native-0.8.0.tar.gz
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-protobuf]: Timeout reached during download
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-qrcode]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-gdb]: Downloading https://files.pythonhosted.org/packages/0d/af/90e2237f657cdafe07af1f0cf61a5c30856daf7fbe7baacd766b976b3366/types-gdb-12.1.4.5.tar.gz
+[2024-04-08 04:18:13] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/7b/e0/2fce6debf4d68a018d7ddc523c0528a0ffd4bc745d34dddf4f7ee1445f00/smaht_submitr-0.8.0.1b5.tar.gz
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-openpyxl]: Timeout reached during download
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [hdfs-native]: Timeout reached during download
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-gdb]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-gdb]: executing diffoscope
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-gdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-gdb-12.1.4.4.tar.gz tmp/types-gdb-12.1.4.5.tar.gz --markdown 20240408/t/types-gdb/12.1.4.4-12.1.4.5/diff.md --exclude *.pyd
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/99/a4/ab97dff4a76e30d33ccb42cb37912bf5ba63121466f579f5c7146a5e8eb0/types-protobuf-4.24.0.4.tar.gz
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-08 04:18:13] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b4.tar.gz tmp/smaht_submitr-0.8.0.1b5.tar.gz --markdown 20240408/s/smaht-submitr/0.8.0.1b4-0.8.0.1b5/diff.md --exclude *.pyd
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-qrcode]: Downloading https://files.pythonhosted.org/packages/a7/d4/b775251aaf7aee9b3865c8762d64a3ba207dfe9dad724097c4b600a243db/types-qrcode-7.4.0.20240408.tar.gz
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-pywin32]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/b9/65/22bbec74fcc943aa6c6fdb6df2ce51327bae5470283f90badeeb0bf4ac39/types-openpyxl-3.1.0.9.tar.gz
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-qrcode]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-qrcode]: executing diffoscope
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-qrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-qrcode-7.4.0.20240106.tar.gz tmp/types-qrcode-7.4.0.20240408.tar.gz --markdown 20240408/t/types-qrcode/7.4.0.20240106-7.4.0.20240408/diff.md --exclude *.pyd
+[2024-04-08 04:18:13] INFO root fetch - processPackages [hdfs-native]: Downloading https://files.pythonhosted.org/packages/a5/0f/05f5d86e7c96e909d3dfd9e6a40c051c2ad81e55e1ec691a261150f5a502/hdfs_native-0.9.1.tar.gz
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-protobuf]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-protobuf]: executing diffoscope
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-protobuf-4.24.0.3.tar.gz tmp/types-protobuf-4.24.0.4.tar.gz --markdown 20240408/t/types-protobuf/4.24.0.3-4.24.0.4/diff.md --exclude *.pyd
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-pywin32]: Downloading https://files.pythonhosted.org/packages/bd/27/d4be1194d4f022de95fa9185a9924e636994ab27136e20e58f5c37b70bab/types-pywin32-306.0.0.8.tar.gz
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-openpyxl]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.8.tar.gz tmp/types-openpyxl-3.1.0.9.tar.gz --markdown 20240408/t/types-openpyxl/3.1.0.8-3.1.0.9/diff.md --exclude *.pyd
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [hdfs-native]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [hdfs-native]: executing diffoscope
+[2024-04-08 04:18:13] INFO root fetch - processPackages [hdfs-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdfs_native-0.8.0.tar.gz tmp/hdfs_native-0.9.1.tar.gz --markdown 20240408/h/hdfs-native/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 04:18:13] WARNING root fetch - processPackages [types-pywin32]: Timeout reached during download
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-pywin32]: executing diffoscope
+[2024-04-08 04:18:13] INFO root fetch - processPackages [types-pywin32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pywin32-306.0.0.7.tar.gz tmp/types-pywin32-306.0.0.8.tar.gz --markdown 20240408/t/types-pywin32/306.0.0.7-306.0.0.8/diff.md --exclude *.pyd
+[2024-04-08 04:18:14] INFO root fetch - processPackages [types-gdb]: Remove: archive file [/home/abi/fetcher/tmp/types-gdb-12.1.4.4.tar.gz]
+[2024-04-08 04:18:14] INFO root fetch - processPackages [types-gdb]: Remove: archive file [/home/abi/fetcher/tmp/types-gdb-12.1.4.5.tar.gz]
+[2024-04-08 04:18:14] INFO root fetch - main [MainThread]: End processing [types-gdb]: success
+[2024-04-08 04:18:14] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b4.tar.gz]
+[2024-04-08 04:18:14] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b5.tar.gz]
+[2024-04-08 04:18:14] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-08 04:18:14] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.24.0.3.tar.gz]
+[2024-04-08 04:18:14] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.24.0.4.tar.gz]
+[2024-04-08 04:18:14] INFO root fetch - main [MainThread]: End processing [types-protobuf]: success
+[2024-04-08 04:18:14] INFO root fetch - processPackages [types-qrcode]: Remove: archive file [/home/abi/fetcher/tmp/types-qrcode-7.4.0.20240106.tar.gz]
+[2024-04-08 04:18:14] INFO root fetch - processPackages [types-qrcode]: Remove: archive file [/home/abi/fetcher/tmp/types-qrcode-7.4.0.20240408.tar.gz]
+[2024-04-08 04:18:14] INFO root fetch - main [MainThread]: End processing [types-qrcode]: success
+[2024-04-08 04:18:15] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.8.tar.gz]
+[2024-04-08 04:18:15] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.9.tar.gz]
+[2024-04-08 04:18:15] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2024-04-08 04:18:15] INFO root fetch - processPackages [hdfs-native]: Remove: archive file [/home/abi/fetcher/tmp/hdfs_native-0.8.0.tar.gz]
+[2024-04-08 04:18:15] INFO root fetch - processPackages [hdfs-native]: Remove: archive file [/home/abi/fetcher/tmp/hdfs_native-0.9.1.tar.gz]
+[2024-04-08 04:18:15] INFO root fetch - main [MainThread]: End processing [hdfs-native]: success
+[2024-04-08 04:18:15] INFO root fetch - processPackages [types-pywin32]: Remove: archive file [/home/abi/fetcher/tmp/types-pywin32-306.0.0.7.tar.gz]
+[2024-04-08 04:18:15] INFO root fetch - processPackages [types-pywin32]: Remove: archive file [/home/abi/fetcher/tmp/types-pywin32-306.0.0.8.tar.gz]
+[2024-04-08 04:18:15] INFO root fetch - main [MainThread]: End processing [types-pywin32]: success
+[2024-04-08 04:18:15] INFO root fetch - main [MainThread]: Store serial: [22660877]
