@@ -13193,3 +13193,53 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:21:43] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408081905.tar.gz]
 [2024-04-08 10:21:43] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-08 10:21:43] INFO root fetch - main [MainThread]: Store serial: [22664122]
+[2024-04-08 10:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664122]
+[2024-04-08 10:23:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 10:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scs-core
+[2024-04-08 10:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glif-client
+[2024-04-08 10:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sae-vis
+[2024-04-08 10:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: i2
+[2024-04-08 10:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codenerix-lib
+[2024-04-08 10:23:53] INFO root fetch - processPackages [sae-vis]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 10:23:53] INFO root fetch - processPackages [i2]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:23:53] INFO root fetch - processPackages [scs-core]: New version: [3.9.5] Old Version: [3.9.4]
+[2024-04-08 10:23:53] INFO root fetch - processPackages [codenerix-lib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 10:23:53] WARNING root fetch - processPackages [glif-client]: Skipping, unable to determine old version
+[2024-04-08 10:23:53] INFO root fetch - main [MainThread]: End processing [glif-client] error
+[2024-04-08 10:23:53] INFO root fetch - processPackages [i2]: Downloading https://files.pythonhosted.org/packages/4a/4a/1ffdf98d10939d4cd6bec3b8f185847b0bc1829532579cafe4333f053ec6/i2-0.1.8.tar.gz
+[2024-04-08 10:23:53] INFO root fetch - processPackages [sae-vis]: Downloading https://files.pythonhosted.org/packages/41/60/b7fdf368aed9c8dd61c0db677bd692930cc6ea73b861fd2925fab6460c71/sae-vis-0.2.8.tar.gz
+[2024-04-08 10:23:53] WARNING root fetch - processPackages [i2]: Timeout reached during download
+[2024-04-08 10:23:53] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/16/0f/cfe27fc1c173550fcd053816dea81df44643bae2859d7c1edf0cce125741/scs-core-3.9.4.tar.gz
+[2024-04-08 10:23:53] INFO root fetch - processPackages [codenerix-lib]: Downloading https://files.pythonhosted.org/packages/1a/89/e7e9f49267f698eebaba89b27ba07479c9fc45d24ffe87e4a7d1e6a77c9b/codenerix-lib-1.0.8.tar.gz
+[2024-04-08 10:23:53] INFO root fetch - processPackages [i2]: Downloading https://files.pythonhosted.org/packages/3d/39/ec371b8193ff958bddd94f50dc3a9b618532a2030ba835bd063033c39977/i2-0.1.9.tar.gz
+[2024-04-08 10:23:53] WARNING root fetch - processPackages [sae-vis]: Timeout reached during download
+[2024-04-08 10:23:53] INFO root fetch - processPackages [sae-vis]: Downloading https://files.pythonhosted.org/packages/7f/ab/3d421c7c8ad6574d57aec3c2ae9cf540fd37978ef92c9492e7a82839af9d/sae-vis-0.2.9.tar.gz
+[2024-04-08 10:23:53] WARNING root fetch - processPackages [scs-core]: Timeout reached during download
+[2024-04-08 10:23:53] WARNING root fetch - processPackages [i2]: Timeout reached during download
+[2024-04-08 10:23:53] INFO root fetch - processPackages [i2]: executing diffoscope
+[2024-04-08 10:23:53] INFO root fetch - processPackages [i2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2-0.1.8.tar.gz tmp/i2-0.1.9.tar.gz --markdown 20240408/i/i2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:23:53] WARNING root fetch - processPackages [codenerix-lib]: Timeout reached during download
+[2024-04-08 10:23:54] WARNING root fetch - processPackages [sae-vis]: Timeout reached during download
+[2024-04-08 10:23:54] INFO root fetch - processPackages [sae-vis]: executing diffoscope
+[2024-04-08 10:23:54] INFO root fetch - processPackages [sae-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sae-vis-0.2.8.tar.gz tmp/sae-vis-0.2.9.tar.gz --markdown 20240408/s/sae-vis/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 10:23:54] INFO root fetch - processPackages [codenerix-lib]: Downloading https://files.pythonhosted.org/packages/b1/40/859ccc73dbc6aca3adfd24f57c9b60dfba46bcc531b2e28f061490e08202/codenerix-lib-1.0.9.tar.gz
+[2024-04-08 10:23:54] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/57/af/3987873caff8cb82812e00ed94241928f47c7c6cb52e25c3163689be282c/scs-core-3.9.5.tar.gz
+[2024-04-08 10:23:54] WARNING root fetch - processPackages [codenerix-lib]: Timeout reached during download
+[2024-04-08 10:23:54] INFO root fetch - processPackages [codenerix-lib]: executing diffoscope
+[2024-04-08 10:23:54] INFO root fetch - processPackages [codenerix-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codenerix-lib-1.0.8.tar.gz tmp/codenerix-lib-1.0.9.tar.gz --markdown 20240408/c/codenerix-lib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:23:54] WARNING root fetch - processPackages [scs-core]: Timeout reached during download
+[2024-04-08 10:23:54] INFO root fetch - processPackages [scs-core]: executing diffoscope
+[2024-04-08 10:23:54] INFO root fetch - processPackages [scs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-core-3.9.4.tar.gz tmp/scs-core-3.9.5.tar.gz --markdown 20240408/s/scs-core/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2024-04-08 10:23:54] INFO root fetch - processPackages [sae-vis]: Remove: archive file [/home/abi/fetcher/tmp/sae-vis-0.2.8.tar.gz]
+[2024-04-08 10:23:54] INFO root fetch - processPackages [sae-vis]: Remove: archive file [/home/abi/fetcher/tmp/sae-vis-0.2.9.tar.gz]
+[2024-04-08 10:23:54] INFO root fetch - main [MainThread]: End processing [sae-vis]: success
+[2024-04-08 10:23:54] INFO root fetch - processPackages [i2]: Remove: archive file [/home/abi/fetcher/tmp/i2-0.1.8.tar.gz]
+[2024-04-08 10:23:54] INFO root fetch - processPackages [i2]: Remove: archive file [/home/abi/fetcher/tmp/i2-0.1.9.tar.gz]
+[2024-04-08 10:23:54] INFO root fetch - main [MainThread]: End processing [i2]: success
+[2024-04-08 10:23:55] INFO root fetch - processPackages [codenerix-lib]: Remove: archive file [/home/abi/fetcher/tmp/codenerix-lib-1.0.8.tar.gz]
+[2024-04-08 10:23:55] INFO root fetch - processPackages [codenerix-lib]: Remove: archive file [/home/abi/fetcher/tmp/codenerix-lib-1.0.9.tar.gz]
+[2024-04-08 10:23:55] INFO root fetch - main [MainThread]: End processing [codenerix-lib]: success
+[2024-04-08 10:23:56] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.4.tar.gz]
+[2024-04-08 10:23:56] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.5.tar.gz]
+[2024-04-08 10:23:56] INFO root fetch - main [MainThread]: End processing [scs-core]: success
+[2024-04-08 10:23:56] INFO root fetch - main [MainThread]: Store serial: [22664142]
