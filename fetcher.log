@@ -11105,3 +11105,83 @@
 [2024-04-08 09:04:51] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.3.tar.gz]
 [2024-04-08 09:04:51] INFO root fetch - main [MainThread]: End processing [zrb]: success
 [2024-04-08 09:04:51] INFO root fetch - main [MainThread]: Store serial: [22663274]
+[2024-04-08 09:06:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663274]
+[2024-04-08 09:07:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 09:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TSMasterAPI
+[2024-04-08 09:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuxsuite
+[2024-04-08 09:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: navertrans
+[2024-04-08 09:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-module
+[2024-04-08 09:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inksplash
+[2024-04-08 09:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crossword-puzzle
+[2024-04-08 09:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-picking-product-barcode-report
+[2024-04-08 09:07:00] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.46] Old Version: [1.2.45]
+[2024-04-08 09:07:00] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 09:07:00] INFO root fetch - processPackages [inksplash]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-08 09:07:00] INFO root fetch - processPackages [navertrans]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-08 09:07:00] INFO root fetch - processPackages [TSMasterAPI]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-04-08 09:07:00] INFO root fetch - processPackages [xia-module]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 09:07:00] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: New version: [15.0.3.5.0] Old Version: [15.0.3.4.0.1]
+[2024-04-08 09:07:00] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/1c/26/f43e88c5ac33ff617f8fe34781dd4bd063a77317ac357116f1752348e625/crossword_puzzle-1.2.45.tar.gz
+[2024-04-08 09:07:00] INFO root fetch - processPackages [xia-module]: Downloading https://files.pythonhosted.org/packages/55/8c/b5f4d9073926cf6d461ebe83b5a802ed97126d43bfbbca28029b97104fa5/xia-module-0.0.8.tar.gz
+[2024-04-08 09:07:00] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2024-04-08 09:07:00] INFO root fetch - processPackages [inksplash]: Downloading https://files.pythonhosted.org/packages/3e/05/be7e28c77119cea261fbbdaf95b63c1be0a948616a67b141a1b445dd2389/inksplash-1.0.3.tar.gz
+[2024-04-08 09:07:00] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Downloading https://files.pythonhosted.org/packages/19/90/c6c71fd246c4dc53b269325a2e1079dd2e7983c783caad3372870a74edc6/odoo_addon_stock_picking_product_barcode_report-15.0.3.4.0.1-py3-none-any.whl
+[2024-04-08 09:07:00] INFO root fetch - processPackages [navertrans]: Downloading https://files.pythonhosted.org/packages/4e/1e/b8d5f04983275eed41cfd1e0a8a29ad16dc7dfb877e01317e2bf536a087f/navertrans-0.0.9.tar.gz
+[2024-04-08 09:07:00] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/58/a5/b7a892dfb835038871c38e287897ff27a1c9fd85a1c132373d75afd0bf95/TSMasterAPI-2.3.3.tar.gz
+[2024-04-08 09:07:00] WARNING root fetch - processPackages [crossword-puzzle]: Timeout reached during download
+[2024-04-08 09:07:00] WARNING root fetch - processPackages [xia-module]: Timeout reached during download
+[2024-04-08 09:07:00] INFO root fetch - processPackages [xia-module]: Downloading https://files.pythonhosted.org/packages/62/2e/9848dd19a26406a4e1509ed0dbde4c7c9f4fdd697d2f2a66097c57597ee5/xia-module-0.0.9.tar.gz
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [inksplash]: Timeout reached during download
+[2024-04-08 09:07:01] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/80/63/2e71b7118ba202292197f6cf5be79843ceb8784ff415adf17e0e868c1607/crossword_puzzle-1.2.46.tar.gz
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [TSMasterAPI]: Timeout reached during download
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [navertrans]: Timeout reached during download
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [tuxsuite]: Timeout reached during download
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Timeout reached during download
+[2024-04-08 09:07:01] INFO root fetch - processPackages [inksplash]: Downloading https://files.pythonhosted.org/packages/3f/9f/665d325af9c15bc66214229e95e334c52416ff1e970b9cd7274f8fa27c64/inksplash-1.0.4.tar.gz
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [xia-module]: Timeout reached during download
+[2024-04-08 09:07:01] INFO root fetch - processPackages [xia-module]: executing diffoscope
+[2024-04-08 09:07:01] INFO root fetch - processPackages [xia-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia-module-0.0.8.tar.gz tmp/xia-module-0.0.9.tar.gz --markdown 20240408/x/xia-module/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 09:07:01] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/99/c6/9395c2208d28a5558eba94b56d21d5eb214700e867de09ca77baab36e201/TSMasterAPI-2.3.4.tar.gz
+[2024-04-08 09:07:01] INFO root fetch - processPackages [navertrans]: Downloading https://files.pythonhosted.org/packages/7a/dd/58acba6dad4cb8a2c1128214d9cc1d08f14efcb848e31b3c879ac986f6ee/navertrans-0.1.0.tar.gz
+[2024-04-08 09:07:01] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Downloading https://files.pythonhosted.org/packages/6f/a2/293176bd2760992834f73c8eb02eba909ac7457a9c386420e17466c26c48/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0-py3-none-any.whl
+[2024-04-08 09:07:01] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [navertrans]: Timeout reached during download
+[2024-04-08 09:07:01] INFO root fetch - processPackages [navertrans]: executing diffoscope
+[2024-04-08 09:07:01] INFO root fetch - processPackages [navertrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navertrans-0.0.9.tar.gz tmp/navertrans-0.1.0.tar.gz --markdown 20240408/n/navertrans/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [inksplash]: Timeout reached during download
+[2024-04-08 09:07:01] INFO root fetch - processPackages [inksplash]: executing diffoscope
+[2024-04-08 09:07:01] INFO root fetch - processPackages [inksplash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inksplash-1.0.3.tar.gz tmp/inksplash-1.0.4.tar.gz --markdown 20240408/i/inksplash/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Timeout reached during download
+[2024-04-08 09:07:01] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: executing diffoscope
+[2024-04-08 09:07:01] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_product_barcode_report-15.0.3.4.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-stock-picking-product-barcode-report/15.0.3.4.0.1-15.0.3.5.0/diff.md --exclude *.pyd
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [TSMasterAPI]: Timeout reached during download
+[2024-04-08 09:07:01] INFO root fetch - processPackages [TSMasterAPI]: executing diffoscope
+[2024-04-08 09:07:01] INFO root fetch - processPackages [TSMasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSMasterAPI-2.3.3.tar.gz tmp/TSMasterAPI-2.3.4.tar.gz --markdown 20240408/T/TSMasterAPI/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [crossword-puzzle]: Timeout reached during download
+[2024-04-08 09:07:01] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-04-08 09:07:01] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.45.tar.gz tmp/crossword_puzzle-1.2.46.tar.gz --markdown 20240408/c/crossword-puzzle/1.2.45-1.2.46/diff.md --exclude *.pyd
+[2024-04-08 09:07:01] WARNING root fetch - processPackages [tuxsuite]: Timeout reached during download
+[2024-04-08 09:07:01] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2024-04-08 09:07:01] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20240408/t/tuxsuite/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 09:07:02] INFO root fetch - processPackages [xia-module]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-0.0.8.tar.gz]
+[2024-04-08 09:07:02] INFO root fetch - processPackages [xia-module]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-0.0.9.tar.gz]
+[2024-04-08 09:07:02] INFO root fetch - main [MainThread]: End processing [xia-module]: success
+[2024-04-08 09:07:02] INFO root fetch - processPackages [navertrans]: Remove: archive file [/home/abi/fetcher/tmp/navertrans-0.0.9.tar.gz]
+[2024-04-08 09:07:02] INFO root fetch - processPackages [navertrans]: Remove: archive file [/home/abi/fetcher/tmp/navertrans-0.1.0.tar.gz]
+[2024-04-08 09:07:02] INFO root fetch - main [MainThread]: End processing [navertrans]: success
+[2024-04-08 09:07:02] INFO root fetch - processPackages [inksplash]: Remove: archive file [/home/abi/fetcher/tmp/inksplash-1.0.3.tar.gz]
+[2024-04-08 09:07:02] INFO root fetch - processPackages [inksplash]: Remove: archive file [/home/abi/fetcher/tmp/inksplash-1.0.4.tar.gz]
+[2024-04-08 09:07:02] INFO root fetch - main [MainThread]: End processing [inksplash]: success
+[2024-04-08 09:07:02] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_product_barcode_report-15.0.3.4.0.1-py3-none-any.whl.zip]
+[2024-04-08 09:07:02] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_product_barcode_report-15.0.3.5.0-py3-none-any.whl.zip]
+[2024-04-08 09:07:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-product-barcode-report]: success
+[2024-04-08 09:07:03] INFO root fetch - processPackages [TSMasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/TSMasterAPI-2.3.3.tar.gz]
+[2024-04-08 09:07:03] INFO root fetch - processPackages [TSMasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/TSMasterAPI-2.3.4.tar.gz]
+[2024-04-08 09:07:03] INFO root fetch - main [MainThread]: End processing [TSMasterAPI]: success
+[2024-04-08 09:07:03] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2024-04-08 09:07:03] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2024-04-08 09:07:03] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2024-04-08 09:07:33] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.45.tar.gz]
+[2024-04-08 09:07:33] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.46.tar.gz]
+[2024-04-08 09:07:33] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-04-08 09:07:33] INFO root fetch - main [MainThread]: Store serial: [22663293]
