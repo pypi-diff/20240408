@@ -25480,3 +25480,81 @@ EOFError: EOF read where object expected
 [2024-04-08 16:19:42] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
 [2024-04-08 16:19:42] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-04-08 16:19:42] INFO root fetch - main [MainThread]: Store serial: [22668662]
+[2024-04-08 16:21:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22668662]
+[2024-04-08 16:21:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystages
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feno
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandassta
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plus-slurm
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imio.pyutils
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h2o-pysparkling-2.3
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-pyensight-core
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: h2o-pysparkling-scoring-2.3
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ansys-pyensight-core]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-08 16:21:52] INFO root fetch - processPackages [plus-slurm]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-08 16:21:52] INFO root fetch - processPackages [pystages]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-08 16:21:52] INFO root fetch - processPackages [feno]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-08 16:21:52] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: New version: [3.46.0.1.post1] Old Version: [3.44.0.3.post1]
+[2024-04-08 16:21:52] INFO root fetch - processPackages [h2o-pysparkling-2.3]: New version: [3.46.0.1.post1] Old Version: [3.44.0.3.post1]
+[2024-04-08 16:21:52] INFO root fetch - processPackages [imio.pyutils]: New version: [1.0.1] Old Version: [1.0.0a1]
+[2024-04-08 16:21:52] INFO root fetch - processPackages [ansys-pyensight-core]: Downloading https://files.pythonhosted.org/packages/07/c7/90d008cd570819bd01178908e4c86bc27eca5088a61c2244d211541bddf7/ansys_pyensight_core-0.7.8.tar.gz
+[2024-04-08 16:21:52] INFO root fetch - processPackages [pandassta]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 16:21:52] INFO root fetch - processPackages [plus-slurm]: Downloading https://files.pythonhosted.org/packages/c9/7f/a6fd0d4abe230e38825febb9659d951678ea676d16817be739b47a1a6dc5/plus_slurm-0.2.1.tar.gz
+[2024-04-08 16:21:52] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: Downloading https://files.pythonhosted.org/packages/63/2e/624953b505448fdc4e08e70b666596261e85a6b93430d628084934f3069a/h2o_pysparkling_scoring_2.3-3.44.0.3.post1.tar.gz
+[2024-04-08 16:21:52] INFO root fetch - processPackages [pystages]: Downloading https://files.pythonhosted.org/packages/8a/21/7a2f8e29bc3997006c51c6e1a23c9a012177c43bffb9c755eb68cf31aaa9/pystages-1.1.tar.gz
+[2024-04-08 16:21:52] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/78/4a/ca0e5955d0d7d5406e46bb1de950172fe88c9704a8f35d07e3074110894e/feno-0.1.5.tar.gz
+[2024-04-08 16:21:52] INFO root fetch - processPackages [h2o-pysparkling-2.3]: Downloading https://files.pythonhosted.org/packages/aa/9f/b1740864e26af421399768c131d8673f7174b67fe97cc63fa5e3411b05d5/h2o_pysparkling_2.3-3.44.0.3.post1.tar.gz
+[2024-04-08 16:21:52] INFO root fetch - processPackages [imio.pyutils]: Downloading https://files.pythonhosted.org/packages/c6/03/a5e453dfd7284be38106fdebb55e63dd47a8cfd78ad6be725b3534ab3b27/imio.pyutils-1.0.0a1.tar.gz
+[2024-04-08 16:21:52] WARNING root fetch - processPackages [ansys-pyensight-core]: Skipping package: exceeds size limit 10780496>=10485760
+[2024-04-08 16:21:52] INFO root fetch - main [MainThread]: End processing [ansys-pyensight-core] error
+[2024-04-08 16:21:52] WARNING root fetch - processPackages [h2o-pysparkling-2.3]: Skipping package: exceeds size limit 224448502>=10485760
+[2024-04-08 16:21:52] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-2.3] error
+[2024-04-08 16:21:52] WARNING root fetch - processPackages [plus-slurm]: Timeout reached during download
+[2024-04-08 16:21:52] WARNING root fetch - processPackages [pystages]: Timeout reached during download
+[2024-04-08 16:21:52] WARNING root fetch - processPackages [feno]: Timeout reached during download
+[2024-04-08 16:21:52] INFO root fetch - processPackages [pandassta]: Downloading https://files.pythonhosted.org/packages/13/db/172ad7faa47578cad0a68e219da7e74cba7e2d3adc176080238fb5d0b4e2/pandassta-0.0.2.tar.gz
+[2024-04-08 16:21:52] WARNING root fetch - processPackages [imio.pyutils]: Timeout reached during download
+[2024-04-08 16:21:52] INFO root fetch - processPackages [plus-slurm]: Downloading https://files.pythonhosted.org/packages/24/04/bb96408ef9a99758b056b0a315e5646bc7c77e31d2fa322cd0ba55e9e40d/plus_slurm-0.2.2.tar.gz
+[2024-04-08 16:21:52] WARNING root fetch - processPackages [pandassta]: Timeout reached during download
+[2024-04-08 16:21:52] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/01/9d/b330f9db22d1a5285e74e6645ae088332c79b6a1ace81f22417d1c7f7d46/feno-0.1.6.tar.gz
+[2024-04-08 16:21:52] INFO root fetch - processPackages [pystages]: Downloading https://files.pythonhosted.org/packages/83/7e/da63a8a6ee9fcb2ad8a8b79c0136c347591775df60f7da02ff5a49759eab/pystages-1.1.1.tar.gz
+[2024-04-08 16:21:53] WARNING root fetch - processPackages [plus-slurm]: Timeout reached during download
+[2024-04-08 16:21:53] INFO root fetch - processPackages [plus-slurm]: executing diffoscope
+[2024-04-08 16:21:53] INFO root fetch - processPackages [plus-slurm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plus_slurm-0.2.1.tar.gz tmp/plus_slurm-0.2.2.tar.gz --markdown 20240408/p/plus-slurm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-08 16:21:53] INFO root fetch - processPackages [imio.pyutils]: Downloading https://files.pythonhosted.org/packages/b3/86/79158f1d54bbd4666e4dd926c7def6129db6845eaeab0b086b8b24303b49/imio.pyutils-1.0.1.tar.gz
+[2024-04-08 16:21:53] WARNING root fetch - processPackages [feno]: Timeout reached during download
+[2024-04-08 16:21:53] INFO root fetch - processPackages [feno]: executing diffoscope
+[2024-04-08 16:21:53] INFO root fetch - processPackages [feno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feno-0.1.5.tar.gz tmp/feno-0.1.6.tar.gz --markdown 20240408/f/feno/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-08 16:21:53] WARNING root fetch - processPackages [pystages]: Timeout reached during download
+[2024-04-08 16:21:53] INFO root fetch - processPackages [pystages]: executing diffoscope
+[2024-04-08 16:21:53] INFO root fetch - processPackages [pystages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystages-1.1.tar.gz tmp/pystages-1.1.1.tar.gz --markdown 20240408/p/pystages/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-08 16:21:53] INFO root fetch - processPackages [pandassta]: Downloading https://files.pythonhosted.org/packages/2b/99/410bfdb6ecabc48bae4592e56c5e44dbd64cfe38f1d08f9b4364966ff9c6/pandassta-0.0.3.tar.gz
+[2024-04-08 16:21:53] WARNING root fetch - processPackages [imio.pyutils]: Timeout reached during download
+[2024-04-08 16:21:53] INFO root fetch - processPackages [imio.pyutils]: executing diffoscope
+[2024-04-08 16:21:53] INFO root fetch - processPackages [imio.pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.pyutils-1.0.0a1.tar.gz tmp/imio.pyutils-1.0.1.tar.gz --markdown 20240408/i/imio.pyutils/1.0.0a1-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 16:21:53] WARNING root fetch - processPackages [pandassta]: Timeout reached during download
+[2024-04-08 16:21:53] INFO root fetch - processPackages [pandassta]: executing diffoscope
+[2024-04-08 16:21:53] INFO root fetch - processPackages [pandassta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandassta-0.0.2.tar.gz tmp/pandassta-0.0.3.tar.gz --markdown 20240408/p/pandassta/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 16:21:53] WARNING root fetch - processPackages [h2o-pysparkling-scoring-2.3]: Timeout reached during download
+[2024-04-08 16:21:53] INFO root fetch - processPackages [plus-slurm]: Remove: archive file [/home/abi/fetcher/tmp/plus_slurm-0.2.1.tar.gz]
+[2024-04-08 16:21:53] INFO root fetch - processPackages [plus-slurm]: Remove: archive file [/home/abi/fetcher/tmp/plus_slurm-0.2.2.tar.gz]
+[2024-04-08 16:21:53] INFO root fetch - main [MainThread]: End processing [plus-slurm]: success
+[2024-04-08 16:21:53] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.1.5.tar.gz]
+[2024-04-08 16:21:53] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.1.6.tar.gz]
+[2024-04-08 16:21:53] INFO root fetch - main [MainThread]: End processing [feno]: success
+[2024-04-08 16:21:53] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: Downloading https://files.pythonhosted.org/packages/c9/30/42cb39572ab0fdb9a9342515fedab198503ebbc9ca90bf9e6d5d21e2f000/h2o_pysparkling_scoring_2.3-3.46.0.1.post1.tar.gz
+[2024-04-08 16:21:53] INFO root fetch - processPackages [imio.pyutils]: Remove: archive file [/home/abi/fetcher/tmp/imio.pyutils-1.0.0a1.tar.gz]
+[2024-04-08 16:21:53] INFO root fetch - processPackages [imio.pyutils]: Remove: archive file [/home/abi/fetcher/tmp/imio.pyutils-1.0.1.tar.gz]
+[2024-04-08 16:21:53] INFO root fetch - main [MainThread]: End processing [imio.pyutils]: success
+[2024-04-08 16:21:54] INFO root fetch - processPackages [pystages]: Remove: archive file [/home/abi/fetcher/tmp/pystages-1.1.tar.gz]
+[2024-04-08 16:21:54] INFO root fetch - processPackages [pystages]: Remove: archive file [/home/abi/fetcher/tmp/pystages-1.1.1.tar.gz]
+[2024-04-08 16:21:54] INFO root fetch - main [MainThread]: End processing [pystages]: success
+[2024-04-08 16:21:54] INFO root fetch - processPackages [pandassta]: Remove: archive file [/home/abi/fetcher/tmp/pandassta-0.0.2.tar.gz]
+[2024-04-08 16:21:54] INFO root fetch - processPackages [pandassta]: Remove: archive file [/home/abi/fetcher/tmp/pandassta-0.0.3.tar.gz]
+[2024-04-08 16:21:54] INFO root fetch - main [MainThread]: End processing [pandassta]: success
+[2024-04-08 16:21:55] WARNING root fetch - processPackages [h2o-pysparkling-scoring-2.3]: Timeout reached during download
+[2024-04-08 16:21:55] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: executing diffoscope
+[2024-04-08 16:21:55] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_2.3-3.44.0.3.post1.tar.gz tmp/h2o_pysparkling_scoring_2.3-3.46.0.1.post1.tar.gz --markdown 20240408/h/h2o-pysparkling-scoring-2.3/3.44.0.3.post1-3.46.0.1.post1/diff.md --exclude *.pyd
+[2024-04-08 16:24:56] ERROR root fetch - processPackages [h2o-pysparkling-scoring-2.3]: Timeout during execution of pkgdiff
+[2024-04-08 16:24:56] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-2.3] error
+[2024-04-08 16:24:56] INFO root fetch - main [MainThread]: Store serial: [22668684]
