@@ -9371,3 +9371,130 @@
 [2024-04-08 07:42:54] INFO root fetch - processPackages [pm4py]: Remove: archive file [/home/abi/fetcher/tmp/pm4py-2.7.9.4.tar.gz]
 [2024-04-08 07:42:54] INFO root fetch - main [MainThread]: End processing [pm4py]: success
 [2024-04-08 07:42:54] INFO root fetch - main [MainThread]: Store serial: [22662674]
+[2024-04-08 07:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662674]
+[2024-04-08 07:45:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kongfu-api
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boldi
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boldi-backup
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boldi-build
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boldi-cli
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boldi-ctx
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boldi-dev
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: boldi-githooks
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: boldi-plugins
+[2024-04-08 07:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boldi-proc
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi]: New version: [0.6.1] Old Version: [0.5.0]
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-plugins]: New version: [0.6.1] Old Version: [0.5.0]
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-proc]: New version: [0.6.1] Old Version: [0.5.0]
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-dev]: New version: [0.6.1] Old Version: [0.5.0]
+[2024-04-08 07:45:14] INFO root fetch - processPackages [kongfu-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-cli]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-08 07:45:14] WARNING root fetch - processPackages [boldi-githooks]: Skipping, unable to determine old version
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-githooks]: Start processing: boldi-webalbum
+[2024-04-08 07:45:14] INFO root fetch - main [MainThread]: End processing [boldi-githooks] error
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-backup]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi]: Downloading https://files.pythonhosted.org/packages/e0/10/06f52d1c1c106f3abf25c38a8f24547529b1593e25be2b28d72e7d2ad2ef/boldi-0.5.0.tar.gz
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-build]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-ctx]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-plugins]: Downloading https://files.pythonhosted.org/packages/b1/31/665459d07f413c58c4a8abd888b285cc45ca46ace587cebfa5ec21b8c3d2/boldi_plugins-0.5.0.tar.gz
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-proc]: Downloading https://files.pythonhosted.org/packages/bf/49/a9bf9f80a9cd420bd77b0da017ebd2f2451c1f3ac5f5ab94a3e9ccd0ed64/boldi_proc-0.5.0.tar.gz
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-webalbum]: New version: [0.6.1] Old Version: [0.5.0]
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-backup]: Downloading https://files.pythonhosted.org/packages/93/71/f48695de4cae635e3f26fc9474ee88b58b154cb3fc5617f0c5eae4652361/boldi_backup-0.6.1-py3-none-any.whl
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-dev]: Downloading https://files.pythonhosted.org/packages/21/df/710db88fd446218e5bfde7ad0240a4f3aaf24e6e4b1124a363ee19197318/boldi_dev-0.5.0.tar.gz
+[2024-04-08 07:45:14] WARNING root fetch - processPackages [boldi]: Timeout reached during download
+[2024-04-08 07:45:14] WARNING root fetch - processPackages [boldi-plugins]: Timeout reached during download
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-cli]: Downloading https://files.pythonhosted.org/packages/af/c7/1d83ff7630005fcda0719b4672a26b92471aaa61254297dfc9b85478b59a/boldi_cli-0.6.1-py3-none-any.whl
+[2024-04-08 07:45:14] WARNING root fetch - processPackages [boldi-proc]: Timeout reached during download
+[2024-04-08 07:45:14] INFO root fetch - processPackages [kongfu-api]: Downloading https://files.pythonhosted.org/packages/5b/5c/24abc2714886068618fed43f6dafe4d7a63aa8d286d705fd75d68a3e8e72/kongfu-api-0.0.4.tar.gz
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-ctx]: Downloading https://files.pythonhosted.org/packages/c7/e6/6e529f709ee2f4854968345ef6e3b8a42e2a20c245a72828fb5b8fde3176/boldi_ctx-0.6.1-py3-none-any.whl
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-build]: Downloading https://files.pythonhosted.org/packages/51/4e/7ddb75f29a24734b6c247833ae56aa2e52883d0dba6a60e55d9cc968b463/boldi_build-0.6.1-py3-none-any.whl
+[2024-04-08 07:45:14] INFO root fetch - processPackages [boldi-webalbum]: Downloading https://files.pythonhosted.org/packages/67/9c/e769343c01bed4ed661599f86bae7efe2e7167e9f137ff20102119561993/boldi_webalbum-0.5.0.tar.gz
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-backup]: Timeout reached during download
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-dev]: Timeout reached during download
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-cli]: Timeout reached during download
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-ctx]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi]: Downloading https://files.pythonhosted.org/packages/50/f0/bab99cb6d2b183e6e7c3878babcfec75672dda9b43ce6701cbfe917e3a24/boldi-0.6.1-py3-none-any.whl
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-build]: Timeout reached during download
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [kongfu-api]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-plugins]: Downloading https://files.pythonhosted.org/packages/bc/b0/3036dfe40d99162b044b741b24a48d4e37ad119718ba76dc7794ec6d446d/boldi_plugins-0.6.1-py3-none-any.whl
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-webalbum]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-proc]: Downloading https://files.pythonhosted.org/packages/6e/ff/872aa66682bd1424389d0dbe6d2ad43f81e13165ac93b91a59a3e9d36a79/boldi_proc-0.6.1-py3-none-any.whl
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldi-0.5.0.tar.gz tmp/boldi-0.6.1-py3-none-any.whl.zip --markdown 20240408/b/boldi/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-dev]: Downloading https://files.pythonhosted.org/packages/84/71/23273d6f3f997f18a4caa0662fdd3417f21eeaf23e88190b7b607f017c68/boldi_dev-0.6.1-py3-none-any.whl
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-plugins]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-backup]: Downloading https://files.pythonhosted.org/packages/49/b9/9800786b8574facb6e182a886c21393c2b2d11887c8b68280465ac988869/boldi_backup-0.6.2.tar.gz
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-plugins]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldi_plugins-0.5.0.tar.gz tmp/boldi_plugins-0.6.1-py3-none-any.whl.zip --markdown 20240408/b/boldi-plugins/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-cli]: Downloading https://files.pythonhosted.org/packages/24/1b/8eb41ab892c9a758a663e0752566266ce1a9164b996894663f4a3f4048f5/boldi_cli-0.6.2.tar.gz
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-ctx]: Downloading https://files.pythonhosted.org/packages/47/ee/9984f3f33f09766ebe47cd72b81a2a109fbde4f725e3b3c3d55c25ee7f86/boldi_ctx-0.6.2.tar.gz
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-proc]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-proc]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-proc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldi_proc-0.5.0.tar.gz tmp/boldi_proc-0.6.1-py3-none-any.whl.zip --markdown 20240408/b/boldi-proc/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-08 07:45:15] INFO root fetch - processPackages [kongfu-api]: Downloading https://files.pythonhosted.org/packages/45/df/a1fc07de7193674c292abc9960af44066dc69ed3ac5dadaa60890ca66184/kongfu-api-0.0.5.tar.gz
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-build]: Downloading https://files.pythonhosted.org/packages/43/57/08db5cdea287c3835b705fe7f06c4e82be89d47050eb89ec890e48ca9ab4/boldi_build-0.6.2.tar.gz
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-webalbum]: Downloading https://files.pythonhosted.org/packages/fc/02/384d2fb477673bdf973cc81c4a64032c5a096f3d614bff1b3852eefa4c0b/boldi_webalbum-0.6.1-py3-none-any.whl
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-dev]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-dev]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldi_dev-0.5.0.tar.gz tmp/boldi_dev-0.6.1-py3-none-any.whl.zip --markdown 20240408/b/boldi-dev/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-backup]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-backup]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldi_backup-0.6.1-py3-none-any.whl.zip tmp/boldi_backup-0.6.2.tar.gz --markdown 20240408/b/boldi-backup/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-ctx]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-ctx]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-ctx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldi_ctx-0.6.1-py3-none-any.whl.zip tmp/boldi_ctx-0.6.2.tar.gz --markdown 20240408/b/boldi-ctx/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-cli]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-cli]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldi_cli-0.6.1-py3-none-any.whl.zip tmp/boldi_cli-0.6.2.tar.gz --markdown 20240408/b/boldi-cli/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [kongfu-api]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [kongfu-api]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [kongfu-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kongfu-api-0.0.4.tar.gz tmp/kongfu-api-0.0.5.tar.gz --markdown 20240408/k/kongfu-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-build]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-build]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldi_build-0.6.1-py3-none-any.whl.zip tmp/boldi_build-0.6.2.tar.gz --markdown 20240408/b/boldi-build/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-08 07:45:15] WARNING root fetch - processPackages [boldi-webalbum]: Timeout reached during download
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-webalbum]: executing diffoscope
+[2024-04-08 07:45:15] INFO root fetch - processPackages [boldi-webalbum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldi_webalbum-0.5.0.tar.gz tmp/boldi_webalbum-0.6.1-py3-none-any.whl.zip --markdown 20240408/b/boldi-webalbum/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-plugins]: Remove: archive file [/home/abi/fetcher/tmp/boldi_plugins-0.5.0.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-plugins]: Remove: archive file [/home/abi/fetcher/tmp/boldi_plugins-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-plugins]: Start processing: meds-etl-cpp
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [boldi-plugins]: success
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi]: Remove: archive file [/home/abi/fetcher/tmp/boldi-0.5.0.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi]: Remove: archive file [/home/abi/fetcher/tmp/boldi-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [boldi]: success
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-proc]: Remove: archive file [/home/abi/fetcher/tmp/boldi_proc-0.5.0.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-proc]: Remove: archive file [/home/abi/fetcher/tmp/boldi_proc-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [boldi-proc]: success
+[2024-04-08 07:45:16] INFO root fetch - processPackages [meds-etl-cpp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-backup]: Remove: archive file [/home/abi/fetcher/tmp/boldi_backup-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-backup]: Remove: archive file [/home/abi/fetcher/tmp/boldi_backup-0.6.2.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [boldi-backup]: success
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-dev]: Remove: archive file [/home/abi/fetcher/tmp/boldi_dev-0.5.0.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-dev]: Remove: archive file [/home/abi/fetcher/tmp/boldi_dev-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [boldi-dev]: success
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-cli]: Remove: archive file [/home/abi/fetcher/tmp/boldi_cli-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-cli]: Remove: archive file [/home/abi/fetcher/tmp/boldi_cli-0.6.2.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [boldi-cli]: success
+[2024-04-08 07:45:16] INFO root fetch - processPackages [meds-etl-cpp]: Downloading https://files.pythonhosted.org/packages/1f/03/a3cc3caaf1374bd53060301e4c660cd054c93f9b1781e450315a87c3d947/meds_etl_cpp-0.1.0.tar.gz
+[2024-04-08 07:45:16] INFO root fetch - processPackages [kongfu-api]: Remove: archive file [/home/abi/fetcher/tmp/kongfu-api-0.0.4.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [kongfu-api]: Remove: archive file [/home/abi/fetcher/tmp/kongfu-api-0.0.5.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [kongfu-api]: success
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-webalbum]: Remove: archive file [/home/abi/fetcher/tmp/boldi_webalbum-0.5.0.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-webalbum]: Remove: archive file [/home/abi/fetcher/tmp/boldi_webalbum-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [boldi-webalbum]: success
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-ctx]: Remove: archive file [/home/abi/fetcher/tmp/boldi_ctx-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-ctx]: Remove: archive file [/home/abi/fetcher/tmp/boldi_ctx-0.6.2.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [boldi-ctx]: success
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-build]: Remove: archive file [/home/abi/fetcher/tmp/boldi_build-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 07:45:16] INFO root fetch - processPackages [boldi-build]: Remove: archive file [/home/abi/fetcher/tmp/boldi_build-0.6.2.tar.gz]
+[2024-04-08 07:45:16] INFO root fetch - main [MainThread]: End processing [boldi-build]: success
+[2024-04-08 07:45:16] WARNING root fetch - processPackages [meds-etl-cpp]: Timeout reached during download
+[2024-04-08 07:45:16] INFO root fetch - processPackages [meds-etl-cpp]: Downloading https://files.pythonhosted.org/packages/ae/82/2ac279a2246213997ba5d6080e6807fd697459e013bfa1006e3e1d79d513/meds_etl_cpp-0.1.1.tar.gz
+[2024-04-08 07:45:16] WARNING root fetch - processPackages [meds-etl-cpp]: Timeout reached during download
+[2024-04-08 07:45:16] INFO root fetch - processPackages [meds-etl-cpp]: executing diffoscope
+[2024-04-08 07:45:16] INFO root fetch - processPackages [meds-etl-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meds_etl_cpp-0.1.0.tar.gz tmp/meds_etl_cpp-0.1.1.tar.gz --markdown 20240408/m/meds-etl-cpp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 07:45:17] INFO root fetch - processPackages [meds-etl-cpp]: Remove: archive file [/home/abi/fetcher/tmp/meds_etl_cpp-0.1.0.tar.gz]
+[2024-04-08 07:45:17] INFO root fetch - processPackages [meds-etl-cpp]: Remove: archive file [/home/abi/fetcher/tmp/meds_etl_cpp-0.1.1.tar.gz]
+[2024-04-08 07:45:17] INFO root fetch - main [MainThread]: End processing [meds-etl-cpp]: success
+[2024-04-08 07:45:17] INFO root fetch - main [MainThread]: Store serial: [22662715]
