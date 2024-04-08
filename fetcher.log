@@ -18453,3 +18453,50 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:10:01] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
 [2024-04-08 13:10:01] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
 [2024-04-08 13:10:01] INFO root fetch - main [MainThread]: Store serial: [22666126]
+[2024-04-08 13:12:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666126]
+[2024-04-08 13:12:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 13:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prometrix
+[2024-04-08 13:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-tidb
+[2024-04-08 13:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrofork
+[2024-04-08 13:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forecast-solar
+[2024-04-08 13:12:10] INFO root fetch - processPackages [pyrofork]: New version: [2.4.0rc1] Old Version: [2.3.9.post2]
+[2024-04-08 13:12:10] INFO root fetch - processPackages [pyrofork]: Downloading https://files.pythonhosted.org/packages/76/4c/a811f786af1f4693948bf3c1ed0f138b9a0cddfccfa812e2a009d2ce8dbc/PyroFork-2.3.9.post2.tar.gz
+[2024-04-08 13:12:10] INFO root fetch - processPackages [prometrix]: New version: [0.1.17] Old Version: [0.1.16]
+[2024-04-08 13:12:10] INFO root fetch - processPackages [django-tidb]: New version: [5.0.0] Old Version: [4.2.4]
+[2024-04-08 13:12:10] INFO root fetch - processPackages [forecast-solar]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-08 13:12:10] WARNING root fetch - processPackages [pyrofork]: Timeout reached during download
+[2024-04-08 13:12:10] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/62/01/bd5c8d109e7096170b4e510110f9748d2d831869b3c24dfa5f630ada0178/prometrix-0.1.16.tar.gz
+[2024-04-08 13:12:10] INFO root fetch - processPackages [django-tidb]: Downloading https://files.pythonhosted.org/packages/ee/e3/55b5eb748baa7165f59335782f4fa2a79192dae6766b2b86c7068f3c0511/django-tidb-4.2.4.tar.gz
+[2024-04-08 13:12:10] INFO root fetch - processPackages [forecast-solar]: Downloading https://files.pythonhosted.org/packages/52/f4/662ddd720ea21908ac055cc40bbd51f6e521a5ad13ebb1c654f500435462/forecast_solar-3.0.0.tar.gz
+[2024-04-08 13:12:10] INFO root fetch - processPackages [pyrofork]: Downloading https://files.pythonhosted.org/packages/e1/ab/1633ebf424a12d38d11ab1dce941cacbc4f3e4873df00c9d742c79852917/pyrofork-2.4.0rc1.tar.gz
+[2024-04-08 13:12:10] WARNING root fetch - processPackages [forecast-solar]: Timeout reached during download
+[2024-04-08 13:12:10] WARNING root fetch - processPackages [prometrix]: Timeout reached during download
+[2024-04-08 13:12:10] WARNING root fetch - processPackages [django-tidb]: Timeout reached during download
+[2024-04-08 13:12:10] WARNING root fetch - processPackages [pyrofork]: Timeout reached during download
+[2024-04-08 13:12:10] INFO root fetch - processPackages [pyrofork]: executing diffoscope
+[2024-04-08 13:12:10] INFO root fetch - processPackages [pyrofork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-2.3.9.post2.tar.gz tmp/pyrofork-2.4.0rc1.tar.gz --markdown 20240408/p/pyrofork/2.3.9.post2-2.4.0rc1/diff.md --exclude *.pyd
+[2024-04-08 13:12:10] INFO root fetch - processPackages [forecast-solar]: Downloading https://files.pythonhosted.org/packages/a8/d5/8b360d690fe4cdd18ccff67f5233cb36212184ecb02da672ea2aad424d8a/forecast_solar-3.1.0.tar.gz
+[2024-04-08 13:12:10] INFO root fetch - processPackages [prometrix]: Downloading https://files.pythonhosted.org/packages/99/d8/8f6698c07f7e349a06ea0e8772e1c1e043b1860624adb71e8bf76f5a4602/prometrix-0.1.17.tar.gz
+[2024-04-08 13:12:10] INFO root fetch - processPackages [django-tidb]: Downloading https://files.pythonhosted.org/packages/d6/50/f6c66915b3655cfb76d53893afa87e889829cd244960237110ecf47288fb/django-tidb-5.0.0.tar.gz
+[2024-04-08 13:12:10] WARNING root fetch - processPackages [prometrix]: Timeout reached during download
+[2024-04-08 13:12:10] INFO root fetch - processPackages [prometrix]: executing diffoscope
+[2024-04-08 13:12:10] INFO root fetch - processPackages [prometrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometrix-0.1.16.tar.gz tmp/prometrix-0.1.17.tar.gz --markdown 20240408/p/prometrix/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2024-04-08 13:12:11] WARNING root fetch - processPackages [forecast-solar]: Timeout reached during download
+[2024-04-08 13:12:11] INFO root fetch - processPackages [forecast-solar]: executing diffoscope
+[2024-04-08 13:12:11] INFO root fetch - processPackages [forecast-solar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecast_solar-3.0.0.tar.gz tmp/forecast_solar-3.1.0.tar.gz --markdown 20240408/f/forecast-solar/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2024-04-08 13:12:11] WARNING root fetch - processPackages [django-tidb]: Timeout reached during download
+[2024-04-08 13:12:11] INFO root fetch - processPackages [django-tidb]: executing diffoscope
+[2024-04-08 13:12:11] INFO root fetch - processPackages [django-tidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tidb-4.2.4.tar.gz tmp/django-tidb-5.0.0.tar.gz --markdown 20240408/d/django-tidb/4.2.4-5.0.0/diff.md --exclude *.pyd
+[2024-04-08 13:12:11] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.16.tar.gz]
+[2024-04-08 13:12:11] INFO root fetch - processPackages [prometrix]: Remove: archive file [/home/abi/fetcher/tmp/prometrix-0.1.17.tar.gz]
+[2024-04-08 13:12:11] INFO root fetch - main [MainThread]: End processing [prometrix]: success
+[2024-04-08 13:12:11] INFO root fetch - processPackages [forecast-solar]: Remove: archive file [/home/abi/fetcher/tmp/forecast_solar-3.0.0.tar.gz]
+[2024-04-08 13:12:11] INFO root fetch - processPackages [forecast-solar]: Remove: archive file [/home/abi/fetcher/tmp/forecast_solar-3.1.0.tar.gz]
+[2024-04-08 13:12:11] INFO root fetch - main [MainThread]: End processing [forecast-solar]: success
+[2024-04-08 13:12:11] INFO root fetch - processPackages [django-tidb]: Remove: archive file [/home/abi/fetcher/tmp/django-tidb-4.2.4.tar.gz]
+[2024-04-08 13:12:11] INFO root fetch - processPackages [django-tidb]: Remove: archive file [/home/abi/fetcher/tmp/django-tidb-5.0.0.tar.gz]
+[2024-04-08 13:12:11] INFO root fetch - main [MainThread]: End processing [django-tidb]: success
+[2024-04-08 13:12:14] INFO root fetch - processPackages [pyrofork]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-2.3.9.post2.tar.gz]
+[2024-04-08 13:12:14] INFO root fetch - processPackages [pyrofork]: Remove: archive file [/home/abi/fetcher/tmp/pyrofork-2.4.0rc1.tar.gz]
+[2024-04-08 13:12:14] INFO root fetch - main [MainThread]: End processing [pyrofork]: success
+[2024-04-08 13:12:14] INFO root fetch - main [MainThread]: Store serial: [22666144]
