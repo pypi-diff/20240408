@@ -9021,3 +9021,17 @@
 [2024-04-08 07:17:02] INFO root fetch - processPackages [relari]: Remove: archive file [/home/abi/fetcher/tmp/relari-0.1.4.tar.gz]
 [2024-04-08 07:17:02] INFO root fetch - main [MainThread]: End processing [relari]: success
 [2024-04-08 07:17:02] INFO root fetch - main [MainThread]: Store serial: [22662542]
+[2024-04-08 07:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662542]
+[2024-04-08 07:19:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 07:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapper-parser
+[2024-04-08 07:19:21] INFO root fetch - processPackages [mapper-parser]: New version: [1.0] Old Version: [0.0.1]
+[2024-04-08 07:19:22] INFO root fetch - processPackages [mapper-parser]: Downloading https://files.pythonhosted.org/packages/62/b8/c1636413c6768646a00e8f0aca369a1d72db530d5edb486a8ec0b2fd6415/mapper_parser-0.0.1.tar.gz
+[2024-04-08 07:19:22] WARNING root fetch - processPackages [mapper-parser]: Timeout reached during download
+[2024-04-08 07:19:22] INFO root fetch - processPackages [mapper-parser]: Downloading https://files.pythonhosted.org/packages/12/eb/e80d5052b70ee4322025914665289ccabb12609cee00cfcd2b9ffec2fed8/mapper_parser-1.0.tar.gz
+[2024-04-08 07:19:22] WARNING root fetch - processPackages [mapper-parser]: Timeout reached during download
+[2024-04-08 07:19:22] INFO root fetch - processPackages [mapper-parser]: executing diffoscope
+[2024-04-08 07:19:22] INFO root fetch - processPackages [mapper-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapper_parser-0.0.1.tar.gz tmp/mapper_parser-1.0.tar.gz --markdown 20240408/m/mapper-parser/0.0.1-1.0/diff.md --exclude *.pyd
+[2024-04-08 07:19:23] INFO root fetch - processPackages [mapper-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapper_parser-0.0.1.tar.gz]
+[2024-04-08 07:19:23] INFO root fetch - processPackages [mapper-parser]: Remove: archive file [/home/abi/fetcher/tmp/mapper_parser-1.0.tar.gz]
+[2024-04-08 07:19:23] INFO root fetch - main [MainThread]: End processing [mapper-parser]: success
+[2024-04-08 07:19:23] INFO root fetch - main [MainThread]: Store serial: [22662545]
