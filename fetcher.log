@@ -22446,3 +22446,105 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:21:20] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.30.tar.gz]
 [2024-04-08 15:21:20] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
 [2024-04-08 15:21:20] INFO root fetch - main [MainThread]: Store serial: [22667539]
+[2024-04-08 15:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667539]
+[2024-04-08 15:23:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxel-dic
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssh-ca-cli
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psgdemos
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synch2jira
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orchestrator-core
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbis-exc-manager
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: v4-proto
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arion-library
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blueetl-core
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-08 15:23:30] INFO root fetch - processPackages [pyxel-dic]: New version: [3.1.3] Old Version: [3.1.2]
+[2024-04-08 15:23:30] INFO root fetch - processPackages [arion-library]: New version: [1.1rc31.dev31] Old Version: [1.1rc30.dev30]
+[2024-04-08 15:23:30] INFO root fetch - processPackages [psgdemos]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-04-08 15:23:30] INFO root fetch - processPackages [orchestrator-core]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-08 15:23:30] INFO root fetch - processPackages [blueetl-core]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-08 15:23:30] INFO root fetch - processPackages [v4-proto]: New version: [5.0.0.dev0] Old Version: [4.0.2]
+[2024-04-08 15:23:30] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/e1/4c/b0896200ea701ff60277e8966850aea8cf9d8493a7f4cc30b010d9fcb112/pyxel-dic-3.1.2.tar.gz
+[2024-04-08 15:23:30] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-08 15:23:30] INFO root fetch - processPackages [psgdemos]: Downloading https://files.pythonhosted.org/packages/69/0a/4c0ed64b3afe1cc8e1e4d81c6a9ccc2a5140263fbfc3508d10e8dbdde4f8/psgdemos-5.0.0.tar.gz
+[2024-04-08 15:23:30] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/93/eb/6ccbb6a7fb6096a4d69fd92baf742b26dde5293d439073ea2fc78341116a/arion_library-1.1rc30.dev30.tar.gz
+[2024-04-08 15:23:30] INFO root fetch - processPackages [dbis-exc-manager]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-08 15:23:30] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/bc/c5/4474c8cc1e155751adbc97b396f025c4bb0d5a770771bf87945e516538e4/ssh_ca_cli-0.7.3.tar.gz
+[2024-04-08 15:23:30] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 15:23:30] WARNING root fetch - processPackages [psgdemos]: Timeout reached during download
+[2024-04-08 15:23:30] WARNING root fetch - processPackages [pyxel-dic]: Timeout reached during download
+[2024-04-08 15:23:30] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/71/ec/0291ebfd03a69efcd7bd4432c014a7376f430265774863690b88afa6057a/orchestrator_core-2.2.0.tar.gz
+[2024-04-08 15:23:30] INFO root fetch - processPackages [v4-proto]: Downloading https://files.pythonhosted.org/packages/48/0c/98a8b52500978ba9a1b111daba6bb56e91caf191cfc3e445e9e599dd2014/v4-proto-4.0.2.tar.gz
+[2024-04-08 15:23:30] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-08 15:23:31] INFO root fetch - processPackages [blueetl-core]: Downloading https://files.pythonhosted.org/packages/c8/25/9124d7ef8ec0f11241af4a8efcddc079610d6432d96ee3c7b08828a79ce0/blueetl-core-0.2.1.tar.gz
+[2024-04-08 15:23:31] INFO root fetch - processPackages [psgdemos]: Downloading https://files.pythonhosted.org/packages/39/99/0e73580f10837f6df49e141eccce9a7c5fa6592c19080ef26921f5729edc/psgdemos-5.1.0.tar.gz
+[2024-04-08 15:23:31] INFO root fetch - processPackages [dbis-exc-manager]: Downloading https://files.pythonhosted.org/packages/b2/90/72d7a4506d1b9c55a6426d40bd3ee7803733d658bc50eb93c39b7c6854fd/dbis-exc-manager-0.3.2.tar.gz
+[2024-04-08 15:23:31] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/a0/d1/afb9d187bf20446b21a8ea4cb758d9150531444f6f83d8f74140b929d5ce/pyxel-dic-3.1.3.tar.gz
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [synch2jira]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/6b/3a/c4d3ac79eac1bc7c05bd87230d4a2138a7f85c5a5ae8b50bafa278fe2bab/arion_library-1.1rc31.dev31.tar.gz
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [v4-proto]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/f4/07/7e7897e9b09a4c9415be97a0db318cc1dc8316fb701b1c617d3f0d0a8ddc/ssh_ca_cli-0.7.4.tar.gz
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [orchestrator-core]: Timeout reached during download
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [pyxel-dic]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [pyxel-dic]: executing diffoscope
+[2024-04-08 15:23:31] INFO root fetch - processPackages [pyxel-dic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel-dic-3.1.2.tar.gz tmp/pyxel-dic-3.1.3.tar.gz --markdown 20240408/p/pyxel-dic/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [psgdemos]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [psgdemos]: executing diffoscope
+[2024-04-08 15:23:31] INFO root fetch - processPackages [psgdemos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgdemos-5.0.0.tar.gz tmp/psgdemos-5.1.0.tar.gz --markdown 20240408/p/psgdemos/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [blueetl-core]: Timeout reached during download
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [dbis-exc-manager]: Timeout reached during download
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 15:23:31] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc30.dev30.tar.gz tmp/arion_library-1.1rc31.dev31.tar.gz --markdown 20240408/a/arion-library/1.1rc30.dev30-1.1rc31.dev31/diff.md --exclude *.pyd
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 15:23:31] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.3.tar.gz tmp/ssh_ca_cli-0.7.4.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2024-04-08 15:23:31] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-08 15:23:31] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/7f/96/c7d09ef620426120aaec1dfdbdadb38914823a12f1a048a586d74f96e701/orchestrator_core-2.2.1.tar.gz
+[2024-04-08 15:23:31] INFO root fetch - processPackages [v4-proto]: Downloading https://files.pythonhosted.org/packages/71/15/0bc0568edc00e5e4f1fcff2a40ea2584a765f14f97b0417327b194acec24/v4-proto-5.0.0.dev0.tar.gz
+[2024-04-08 15:23:31] INFO root fetch - processPackages [dbis-exc-manager]: Downloading https://files.pythonhosted.org/packages/ea/39/7ca63a9b5ffe34b219fdcf1194f1edb784cc5b7ccf0ab19e79754193966e/dbis-exc-manager-0.4.0.tar.gz
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [synch2jira]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-08 15:23:31] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240408/s/synch2jira/0.0.90-0.0.92/diff.md --exclude *.pyd
+[2024-04-08 15:23:31] INFO root fetch - processPackages [blueetl-core]: Downloading https://files.pythonhosted.org/packages/89/75/2f777fbbb4653380cd00777de3c6ec9ebab697111424c078c20d23f3cacd/blueetl-core-0.2.2.tar.gz
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [dbis-exc-manager]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [dbis-exc-manager]: executing diffoscope
+[2024-04-08 15:23:31] INFO root fetch - processPackages [dbis-exc-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis-exc-manager-0.3.2.tar.gz tmp/dbis-exc-manager-0.4.0.tar.gz --markdown 20240408/d/dbis-exc-manager/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [orchestrator-core]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2024-04-08 15:23:31] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-2.2.0.tar.gz tmp/orchestrator_core-2.2.1.tar.gz --markdown 20240408/o/orchestrator-core/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [v4-proto]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [v4-proto]: executing diffoscope
+[2024-04-08 15:23:31] INFO root fetch - processPackages [v4-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v4-proto-4.0.2.tar.gz tmp/v4-proto-5.0.0.dev0.tar.gz --markdown 20240408/v/v4-proto/4.0.2-5.0.0.dev0/diff.md --exclude *.pyd
+[2024-04-08 15:23:31] WARNING root fetch - processPackages [blueetl-core]: Timeout reached during download
+[2024-04-08 15:23:31] INFO root fetch - processPackages [blueetl-core]: executing diffoscope
+[2024-04-08 15:23:31] INFO root fetch - processPackages [blueetl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueetl-core-0.2.1.tar.gz tmp/blueetl-core-0.2.2.tar.gz --markdown 20240408/b/blueetl-core/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-08 15:23:32] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.3.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.4.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 15:23:32] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc30.dev30.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc31.dev31.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 15:23:32] INFO root fetch - processPackages [psgdemos]: Remove: archive file [/home/abi/fetcher/tmp/psgdemos-5.0.0.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - processPackages [psgdemos]: Remove: archive file [/home/abi/fetcher/tmp/psgdemos-5.1.0.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - main [MainThread]: End processing [psgdemos]: success
+[2024-04-08 15:23:32] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-08 15:23:32] INFO root fetch - processPackages [pyxel-dic]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-dic-3.1.2.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - processPackages [pyxel-dic]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-dic-3.1.3.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - main [MainThread]: End processing [pyxel-dic]: success
+[2024-04-08 15:23:32] INFO root fetch - processPackages [dbis-exc-manager]: Remove: archive file [/home/abi/fetcher/tmp/dbis-exc-manager-0.3.2.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - processPackages [dbis-exc-manager]: Remove: archive file [/home/abi/fetcher/tmp/dbis-exc-manager-0.4.0.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - main [MainThread]: End processing [dbis-exc-manager]: success
+[2024-04-08 15:23:32] INFO root fetch - processPackages [blueetl-core]: Remove: archive file [/home/abi/fetcher/tmp/blueetl-core-0.2.1.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - processPackages [blueetl-core]: Remove: archive file [/home/abi/fetcher/tmp/blueetl-core-0.2.2.tar.gz]
+[2024-04-08 15:23:32] INFO root fetch - main [MainThread]: End processing [blueetl-core]: success
+[2024-04-08 15:23:34] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.0.tar.gz]
+[2024-04-08 15:23:34] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.1.tar.gz]
+[2024-04-08 15:23:34] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2024-04-08 15:23:34] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-4.0.2.tar.gz]
+[2024-04-08 15:23:34] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-5.0.0.dev0.tar.gz]
+[2024-04-08 15:23:34] INFO root fetch - main [MainThread]: End processing [v4-proto]: success
+[2024-04-08 15:23:34] INFO root fetch - main [MainThread]: Store serial: [22667570]
