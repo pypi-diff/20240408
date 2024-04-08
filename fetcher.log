@@ -10574,3 +10574,80 @@
 [2024-04-08 08:40:05] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
 [2024-04-08 08:40:05] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2024-04-08 08:40:05] INFO root fetch - main [MainThread]: Store serial: [22663063]
+[2024-04-08 08:42:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663063]
+[2024-04-08 08:42:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 08:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funasr
+[2024-04-08 08:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyytext
+[2024-04-08 08:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atommic
+[2024-04-08 08:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-hand
+[2024-04-08 08:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-osubot
+[2024-04-08 08:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PublicDataReader
+[2024-04-08 08:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypomes-core
+[2024-04-08 08:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-mail-improved-tracking-value
+[2024-04-08 08:42:14] INFO root fetch - processPackages [PublicDataReader]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 08:42:14] INFO root fetch - processPackages [lyytext]: New version: [1.9] Old Version: [1.8]
+[2024-04-08 08:42:14] INFO root fetch - processPackages [pypomes-core]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-08 08:42:14] INFO root fetch - processPackages [funasr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 08:42:14] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.4.0] Old Version: [5.3.0]
+[2024-04-08 08:42:14] INFO root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2024-04-08 08:42:14] INFO root fetch - processPackages [th2-grpc-hand]: New version: [3.0.0.dev8595680143] Old Version: [3.0.0.dev8561791673]
+[2024-04-08 08:42:14] WARNING root fetch - processPackages [atommic]: Skipping, unable to determine old version
+[2024-04-08 08:42:14] INFO root fetch - main [MainThread]: End processing [atommic] error
+[2024-04-08 08:42:14] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/d9/61/8c1c2030551efc9c01fc9fdd2f3e6402e116fe9f59fc9dd57e918c1c808d/PublicDataReader-1.0.8.tar.gz
+[2024-04-08 08:42:14] INFO root fetch - processPackages [lyytext]: Downloading https://files.pythonhosted.org/packages/41/17/5f193afbcdea9704fb5c192b1ec50fc8aa659bcf34c2f9f4baafd83d827b/lyytext-1.8.tar.gz
+[2024-04-08 08:42:14] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/75/69/5c23502b4f867393ef8d3d054ca26160feb129dc012448fd61cb22b3018e/pypomes_core-0.8.0.tar.gz
+[2024-04-08 08:42:14] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/21/21/731cf3cbf78402270debbdb84df0ea7792894307364fd9d73b168d54311f/funasr-1.0.8.tar.gz
+[2024-04-08 08:42:14] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/38/17/00a217a768578222c4dde96dd3dc17141ad0443f0d9f1325a7cb4bc0ee5a/nonebot-plugin-osubot-5.3.0.tar.gz
+[2024-04-08 08:42:14] INFO root fetch - processPackages [th2-grpc-hand]: Downloading https://files.pythonhosted.org/packages/11/2c/a605c5dab42f5f55c1164755c1aee74cb29694330e3ec3422cced6c3c545/th2_grpc_hand-3.0.0.dev8561791673.tar.gz
+[2024-04-08 08:42:14] INFO root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: Downloading https://files.pythonhosted.org/packages/a7/35/48e378451634a70ad8cc3a76ed23d9936bcac645a46bfac939e11345c01f/odoo_addon_mail_improved_tracking_value-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-08 08:42:14] WARNING root fetch - processPackages [funasr]: Timeout reached during download
+[2024-04-08 08:42:14] WARNING root fetch - processPackages [PublicDataReader]: Timeout reached during download
+[2024-04-08 08:42:14] WARNING root fetch - processPackages [pypomes-core]: Timeout reached during download
+[2024-04-08 08:42:14] WARNING root fetch - processPackages [lyytext]: Timeout reached during download
+[2024-04-08 08:42:14] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d0/dd/6f3c701795e79dbbbfe61e62b81fabcb3d7a62598476c4197f8156a012ad/funasr-1.0.9.tar.gz
+[2024-04-08 08:42:14] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/b6/98/4322639b4e6d25bce8bfeab944f77d37c551eb84c395a742a2bdcd8c5658/PublicDataReader-1.0.9.tar.gz
+[2024-04-08 08:42:14] INFO root fetch - processPackages [lyytext]: Downloading https://files.pythonhosted.org/packages/e6/b8/a708b1472d970b69750f6c6fc5a374c8098544fee9f1bc7d9de84fca7318/lyytext-1.9.tar.gz
+[2024-04-08 08:42:14] WARNING root fetch - processPackages [th2-grpc-hand]: Timeout reached during download
+[2024-04-08 08:42:14] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/a5/b5/be3f59618f83774717e995be1ed0b96edad86708d60078fc102a4816e35d/pypomes_core-0.8.1.tar.gz
+[2024-04-08 08:42:14] WARNING root fetch - processPackages [funasr]: Timeout reached during download
+[2024-04-08 08:42:14] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2024-04-08 08:42:14] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-1.0.8.tar.gz tmp/funasr-1.0.9.tar.gz --markdown 20240408/f/funasr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 08:42:15] WARNING root fetch - processPackages [PublicDataReader]: Timeout reached during download
+[2024-04-08 08:42:15] INFO root fetch - processPackages [PublicDataReader]: executing diffoscope
+[2024-04-08 08:42:15] INFO root fetch - processPackages [PublicDataReader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PublicDataReader-1.0.8.tar.gz tmp/PublicDataReader-1.0.9.tar.gz --markdown 20240408/P/PublicDataReader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 08:42:15] WARNING root fetch - processPackages [lyytext]: Timeout reached during download
+[2024-04-08 08:42:15] INFO root fetch - processPackages [lyytext]: executing diffoscope
+[2024-04-08 08:42:15] INFO root fetch - processPackages [lyytext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyytext-1.8.tar.gz tmp/lyytext-1.9.tar.gz --markdown 20240408/l/lyytext/1.8-1.9/diff.md --exclude *.pyd
+[2024-04-08 08:42:15] INFO root fetch - processPackages [th2-grpc-hand]: Downloading https://files.pythonhosted.org/packages/05/c1/ce2b7590e0c89ef1415c09e6acebb10ed4d0c7bc7a62684cb3e78c55aa95/th2_grpc_hand-3.0.0.dev8595680143.tar.gz
+[2024-04-08 08:42:15] WARNING root fetch - processPackages [pypomes-core]: Timeout reached during download
+[2024-04-08 08:42:15] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-04-08 08:42:15] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.8.0.tar.gz tmp/pypomes_core-0.8.1.tar.gz --markdown 20240408/p/pypomes-core/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-08 08:42:15] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29381011>=10485760
+[2024-04-08 08:42:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-08 08:42:15] WARNING root fetch - processPackages [th2-grpc-hand]: Timeout reached during download
+[2024-04-08 08:42:15] INFO root fetch - processPackages [th2-grpc-hand]: executing diffoscope
+[2024-04-08 08:42:15] INFO root fetch - processPackages [th2-grpc-hand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_hand-3.0.0.dev8561791673.tar.gz tmp/th2_grpc_hand-3.0.0.dev8595680143.tar.gz --markdown 20240408/t/th2-grpc-hand/3.0.0.dev8561791673-3.0.0.dev8595680143/diff.md --exclude *.pyd
+[2024-04-08 08:42:15] WARNING root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: Timeout reached during download
+[2024-04-08 08:42:15] INFO root fetch - processPackages [lyytext]: Remove: archive file [/home/abi/fetcher/tmp/lyytext-1.8.tar.gz]
+[2024-04-08 08:42:15] INFO root fetch - processPackages [lyytext]: Remove: archive file [/home/abi/fetcher/tmp/lyytext-1.9.tar.gz]
+[2024-04-08 08:42:15] INFO root fetch - main [MainThread]: End processing [lyytext]: success
+[2024-04-08 08:42:15] INFO root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: Downloading https://files.pythonhosted.org/packages/09/39/eeb663dca4d473363658c80df34841a152a3f75363d8ca5f1cc4db3e49e7/odoo_addon_mail_improved_tracking_value-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-08 08:42:15] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.8.0.tar.gz]
+[2024-04-08 08:42:15] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.8.1.tar.gz]
+[2024-04-08 08:42:15] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-04-08 08:42:15] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.8.tar.gz]
+[2024-04-08 08:42:15] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.9.tar.gz]
+[2024-04-08 08:42:15] INFO root fetch - main [MainThread]: End processing [PublicDataReader]: success
+[2024-04-08 08:42:15] INFO root fetch - processPackages [th2-grpc-hand]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_hand-3.0.0.dev8561791673.tar.gz]
+[2024-04-08 08:42:15] INFO root fetch - processPackages [th2-grpc-hand]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_hand-3.0.0.dev8595680143.tar.gz]
+[2024-04-08 08:42:15] INFO root fetch - main [MainThread]: End processing [th2-grpc-hand]: success
+[2024-04-08 08:42:16] WARNING root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: Timeout reached during download
+[2024-04-08 08:42:16] INFO root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: executing diffoscope
+[2024-04-08 08:42:16] INFO root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_improved_tracking_value-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mail_improved_tracking_value-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-mail-improved-tracking-value/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2024-04-08 08:42:16] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.8.tar.gz]
+[2024-04-08 08:42:16] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
+[2024-04-08 08:42:16] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2024-04-08 08:42:16] INFO root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_improved_tracking_value-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-08 08:42:16] INFO root fetch - processPackages [odoo-addon-mail-improved-tracking-value]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_improved_tracking_value-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-08 08:42:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-improved-tracking-value]: success
+[2024-04-08 08:42:16] INFO root fetch - main [MainThread]: Store serial: [22663106]
