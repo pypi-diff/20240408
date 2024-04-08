@@ -20428,3 +20428,135 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:27:10] INFO root fetch - processPackages [STEAM-materials]: Remove: archive file [/home/abi/fetcher/tmp/STEAM_materials-2024.4.1.tar.gz]
 [2024-04-08 14:27:10] INFO root fetch - main [MainThread]: End processing [STEAM-materials]: success
 [2024-04-08 14:27:10] INFO root fetch - main [MainThread]: Store serial: [22666834]
+[2024-04-08 14:29:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666834]
+[2024-04-08 14:29:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: github-provenance-demo
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sky-api-client
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datamarket
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: widget-bzvisualizer
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arion-library
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: illuminat
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grib2io
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spreadsheetsmalldemo
+[2024-04-08 14:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DocumentAI-std
+[2024-04-08 14:29:21] INFO root fetch - processPackages [sky-api-client]: New version: [3.3.2] Old Version: [3.3.1]
+[2024-04-08 14:29:21] INFO root fetch - processPackages [arion-library]: New version: [1.1rc28.dev28] Old Version: [1.1rc27.dev27]
+[2024-04-08 14:29:21] INFO root fetch - processPackages [DocumentAI-std]: New version: [0.2.3.dev1] Old Version: [0.2.2.dev1]
+[2024-04-08 14:29:21] INFO root fetch - processPackages [datamarket]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-08 14:29:21] INFO root fetch - processPackages [github-provenance-demo]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 14:29:21] INFO root fetch - processPackages [sky-api-client]: Downloading https://files.pythonhosted.org/packages/7e/82/116e54c059cdd856560b4e741ca860c086eee5c6cac1a6df68b86d85cd7d/sky_api_client-3.3.1.tar.gz
+[2024-04-08 14:29:21] INFO root fetch - processPackages [grib2io]: New version: [2.2.0] Old Version: [2.1.4]
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [spreadsheetsmalldemo]: Skipping, unable to determine old version
+[2024-04-08 14:29:21] INFO root fetch - processPackages [spreadsheetsmalldemo]: Start processing: illuminat
+[2024-04-08 14:29:21] INFO root fetch - main [MainThread]: End processing [spreadsheetsmalldemo] error
+[2024-04-08 14:29:21] INFO root fetch - processPackages [illuminat]: New version: [0.0.8.5] Old Version: [0.0.8.4]
+[2024-04-08 14:29:21] INFO root fetch - processPackages [widget-bzvisualizer]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-08 14:29:21] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/2b/5f/20aeac2ee9d2b5660ca965dfd6cca93ea1db771ecf12028b339179efbdd8/arion_library-1.1rc27.dev27.tar.gz
+[2024-04-08 14:29:21] INFO root fetch - processPackages [DocumentAI-std]: Downloading https://files.pythonhosted.org/packages/40/9f/41bfb4232ee17586083862483e45a6a53514b3f184d5b5a4927c645ca26d/DocumentAI_std-0.2.2.dev1.tar.gz
+[2024-04-08 14:29:21] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/e4/50/1bec32a474be5e3e7c9b8092a5a49b269b62b9db6ffc29520ae9b6cf47e0/datamarket-0.5.3.tar.gz
+[2024-04-08 14:29:21] INFO root fetch - processPackages [illuminat]: New version: [0.0.8.5] Old Version: [0.0.8.4]
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [sky-api-client]: Timeout reached during download
+[2024-04-08 14:29:21] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/b5/d7/e823fa75c2d8907113e744c48915369e849c8d27aa96545e405e98c1595a/illuminat-0.0.8.4.tar.gz
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [DocumentAI-std]: Timeout reached during download
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [datamarket]: Timeout reached during download
+[2024-04-08 14:29:21] INFO root fetch - processPackages [github-provenance-demo]: Downloading https://files.pythonhosted.org/packages/41/18/4d78810b134c183e0bbe9d5fb47f3f330c7077a69ffaf67c449c72dbe1c4/github-provenance-demo-0.0.5.tar.gz
+[2024-04-08 14:29:21] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/b5/d7/e823fa75c2d8907113e744c48915369e849c8d27aa96545e405e98c1595a/illuminat-0.0.8.4.tar.gz
+[2024-04-08 14:29:21] INFO root fetch - processPackages [widget-bzvisualizer]: Downloading https://files.pythonhosted.org/packages/7e/fc/9bd924277205d30e51ed5fc0f653df1277a472aa368efaa914436d45c8c3/widget_bzvisualizer-0.2.3.tar.gz
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 14:29:21] INFO root fetch - processPackages [grib2io]: Downloading https://files.pythonhosted.org/packages/b5/33/7f8ec155410cdf7e14bb0ef4c94b607d87c2e06f863de84342ff162ae02b/grib2io-2.1.4.tar.gz
+[2024-04-08 14:29:21] INFO root fetch - processPackages [moto]: New version: [5.0.6.dev4] Old Version: [5.0.6.dev2]
+[2024-04-08 14:29:21] INFO root fetch - processPackages [sky-api-client]: Downloading https://files.pythonhosted.org/packages/58/ec/21230364f70df8e64b3139b56f678511b29254575f90379c71bb0e54777c/sky_api_client-3.3.2.tar.gz
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [grib2io]: Skipping package: exceeds size limit 49209222>=10485760
+[2024-04-08 14:29:21] INFO root fetch - processPackages [grib2io]: Start processing: eastmoneypy
+[2024-04-08 14:29:21] INFO root fetch - main [MainThread]: End processing [grib2io] error
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [illuminat]: Timeout reached during download
+[2024-04-08 14:29:21] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/22/7c/9928a563118856d78cffb35db6154c4ac50cca87cb20cd52119c3b1cd58a/datamarket-0.5.4.tar.gz
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [github-provenance-demo]: Timeout reached during download
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [widget-bzvisualizer]: Timeout reached during download
+[2024-04-08 14:29:21] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/00/ea/5f25202672b1e40d41dfdda0ceb64b3aaa7f929e71e3ee044521e4749e55/arion_library-1.1rc28.dev28.tar.gz
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [illuminat]: Timeout reached during download
+[2024-04-08 14:29:21] WARNING root fetch - processPackages [sky-api-client]: Timeout reached during download
+[2024-04-08 14:29:21] INFO root fetch - processPackages [sky-api-client]: executing diffoscope
+[2024-04-08 14:29:21] INFO root fetch - processPackages [sky-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sky_api_client-3.3.1.tar.gz tmp/sky_api_client-3.3.2.tar.gz --markdown 20240408/s/sky-api-client/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2024-04-08 14:29:21] INFO root fetch - processPackages [DocumentAI-std]: Downloading https://files.pythonhosted.org/packages/52/42/bcddff18b75327fdda9aa7ad2416a230845945122e011445296207412781/DocumentAI_std-0.2.3.dev1.tar.gz
+[2024-04-08 14:29:22] INFO root fetch - processPackages [eastmoneypy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-08 14:29:22] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/eb/8d/c49f8c9dd1e06195bae8b4289a95e902ab437505bb3d2d0cae497341182b/moto-5.0.6.dev2.tar.gz
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [datamarket]: Timeout reached during download
+[2024-04-08 14:29:22] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2024-04-08 14:29:22] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.5.3.tar.gz tmp/datamarket-0.5.4.tar.gz --markdown 20240408/d/datamarket/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 14:29:22] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 14:29:22] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc27.dev27.tar.gz tmp/arion_library-1.1rc28.dev28.tar.gz --markdown 20240408/a/arion-library/1.1rc27.dev27-1.1rc28.dev28/diff.md --exclude *.pyd
+[2024-04-08 14:29:22] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/87/20/0f3f81e9b301f2e08762de77a11a19cefa3fc15035ba3295a57f65ba7b49/illuminat-0.0.8.5.tar.gz
+[2024-04-08 14:29:22] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/87/20/0f3f81e9b301f2e08762de77a11a19cefa3fc15035ba3295a57f65ba7b49/illuminat-0.0.8.5.tar.gz
+[2024-04-08 14:29:22] INFO root fetch - processPackages [github-provenance-demo]: Downloading https://files.pythonhosted.org/packages/1c/58/d206c5d7d4cf66d3e053c98872f3fc375ae75888213660d2e794aa7e9966/github-provenance-demo-0.0.6.tar.gz
+[2024-04-08 14:29:22] INFO root fetch - processPackages [widget-bzvisualizer]: Downloading https://files.pythonhosted.org/packages/89/98/f8e170987291c7132b2a527af2bb463ec97c33fd50faebb99128f5058b91/widget_bzvisualizer-0.2.4.tar.gz
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [DocumentAI-std]: Timeout reached during download
+[2024-04-08 14:29:22] INFO root fetch - processPackages [DocumentAI-std]: executing diffoscope
+[2024-04-08 14:29:22] INFO root fetch - processPackages [DocumentAI-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DocumentAI_std-0.2.2.dev1.tar.gz tmp/DocumentAI_std-0.2.3.dev1.tar.gz --markdown 20240408/D/DocumentAI-std/0.2.2.dev1-0.2.3.dev1/diff.md --exclude *.pyd
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [illuminat]: Timeout reached during download
+[2024-04-08 14:29:22] INFO root fetch - processPackages [illuminat]: executing diffoscope
+[2024-04-08 14:29:22] INFO root fetch - processPackages [illuminat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/illuminat-0.0.8.4.tar.gz tmp/illuminat-0.0.8.5.tar.gz --markdown 20240408/i/illuminat/0.0.8.4-0.0.8.5/diff.md --exclude *.pyd
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [illuminat]: Timeout reached during download
+[2024-04-08 14:29:22] INFO root fetch - processPackages [illuminat]: executing diffoscope
+[2024-04-08 14:29:22] INFO root fetch - processPackages [illuminat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/illuminat-0.0.8.4.tar.gz tmp/illuminat-0.0.8.5.tar.gz --markdown 20240408/i/illuminat/0.0.8.4-0.0.8.5/diff.md --exclude *.pyd
+[2024-04-08 14:29:22] INFO root fetch - processPackages [eastmoneypy]: Downloading https://files.pythonhosted.org/packages/f3/29/872375f3e2a34d65042140689c9d95598325a93041eb505236a183050ca8/eastmoneypy-0.1.3.tar.gz
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [github-provenance-demo]: Timeout reached during download
+[2024-04-08 14:29:22] INFO root fetch - processPackages [github-provenance-demo]: executing diffoscope
+[2024-04-08 14:29:22] INFO root fetch - processPackages [github-provenance-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github-provenance-demo-0.0.5.tar.gz tmp/github-provenance-demo-0.0.6.tar.gz --markdown 20240408/g/github-provenance-demo/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [widget-bzvisualizer]: Timeout reached during download
+[2024-04-08 14:29:22] INFO root fetch - processPackages [widget-bzvisualizer]: executing diffoscope
+[2024-04-08 14:29:22] INFO root fetch - processPackages [widget-bzvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget_bzvisualizer-0.2.3.tar.gz tmp/widget_bzvisualizer-0.2.4.tar.gz --markdown 20240408/w/widget-bzvisualizer/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [eastmoneypy]: Timeout reached during download
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [moto]: Timeout reached during download
+[2024-04-08 14:29:22] INFO root fetch - processPackages [eastmoneypy]: Downloading https://files.pythonhosted.org/packages/41/8e/c9d88293a97c9591893bd634f416006ee8d0218d50f7e3f7976ea8a0cae8/eastmoneypy-0.1.4.tar.gz
+[2024-04-08 14:29:22] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/6e/28/e759c26ac9e517ff5bf544b343f023dd9198e68f11f70794f1ac30097b51/moto-5.0.6.dev4.tar.gz
+[2024-04-08 14:29:22] WARNING root fetch - processPackages [eastmoneypy]: Timeout reached during download
+[2024-04-08 14:29:22] INFO root fetch - processPackages [eastmoneypy]: executing diffoscope
+[2024-04-08 14:29:22] INFO root fetch - processPackages [eastmoneypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eastmoneypy-0.1.3.tar.gz tmp/eastmoneypy-0.1.4.tar.gz --markdown 20240408/e/eastmoneypy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-08 14:29:23] WARNING root fetch - processPackages [moto]: Timeout reached during download
+[2024-04-08 14:29:23] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-08 14:29:23] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.6.dev2.tar.gz tmp/moto-5.0.6.dev4.tar.gz --markdown 20240408/m/moto/5.0.6.dev2-5.0.6.dev4/diff.md --exclude *.pyd
+[2024-04-08 14:29:23] INFO root fetch - processPackages [sky-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sky_api_client-3.3.1.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [sky-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sky_api_client-3.3.2.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [sky-api-client]: Start processing: multiversx-sdk-cli
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [sky-api-client]: success
+[2024-04-08 14:29:23] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.5.3.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.5.4.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [datamarket]: Start processing: flattentei
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2024-04-08 14:29:23] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc27.dev27.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc28.dev28.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 14:29:23] INFO root fetch - processPackages [DocumentAI-std]: Remove: archive file [/home/abi/fetcher/tmp/DocumentAI_std-0.2.2.dev1.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [DocumentAI-std]: Remove: archive file [/home/abi/fetcher/tmp/DocumentAI_std-0.2.3.dev1.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [DocumentAI-std]: success
+[2024-04-08 14:29:23] INFO root fetch - processPackages [multiversx-sdk-cli]: New version: [9.5.3] Old Version: [9.5.2]
+[2024-04-08 14:29:23] WARNING root fetch - processPackages [flattentei]: Skipping, unable to determine old version
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [flattentei] error
+[2024-04-08 14:29:23] INFO root fetch - processPackages [github-provenance-demo]: Remove: archive file [/home/abi/fetcher/tmp/github-provenance-demo-0.0.5.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [github-provenance-demo]: Remove: archive file [/home/abi/fetcher/tmp/github-provenance-demo-0.0.6.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [github-provenance-demo]: success
+[2024-04-08 14:29:23] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/a1/e0/899053ccd8ffe7de77f22a6571a282be8bd9c384bbdb9c9dcecede0df581/multiversx_sdk_cli-9.5.2.tar.gz
+[2024-04-08 14:29:23] INFO root fetch - processPackages [illuminat]: Remove: archive file [/home/abi/fetcher/tmp/illuminat-0.0.8.4.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [widget-bzvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/widget_bzvisualizer-0.2.3.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [illuminat]: Remove: archive file [/home/abi/fetcher/tmp/illuminat-0.0.8.5.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [widget-bzvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/widget_bzvisualizer-0.2.4.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [illuminat]: success
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [widget-bzvisualizer]: success
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [illuminat]: success
+[2024-04-08 14:29:23] INFO root fetch - processPackages [eastmoneypy]: Remove: archive file [/home/abi/fetcher/tmp/eastmoneypy-0.1.3.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - processPackages [eastmoneypy]: Remove: archive file [/home/abi/fetcher/tmp/eastmoneypy-0.1.4.tar.gz]
+[2024-04-08 14:29:23] INFO root fetch - main [MainThread]: End processing [eastmoneypy]: success
+[2024-04-08 14:29:24] WARNING root fetch - processPackages [multiversx-sdk-cli]: Timeout reached during download
+[2024-04-08 14:29:24] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/e4/81/7fcb22c1b8b19e4dd264a28b5186eaf0173dcaa70896d94d8b7034ecf3ab/multiversx_sdk_cli-9.5.3.tar.gz
+[2024-04-08 14:29:24] WARNING root fetch - processPackages [multiversx-sdk-cli]: Timeout reached during download
+[2024-04-08 14:29:24] INFO root fetch - processPackages [multiversx-sdk-cli]: executing diffoscope
+[2024-04-08 14:29:24] INFO root fetch - processPackages [multiversx-sdk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_cli-9.5.2.tar.gz tmp/multiversx_sdk_cli-9.5.3.tar.gz --markdown 20240408/m/multiversx-sdk-cli/9.5.2-9.5.3/diff.md --exclude *.pyd
+[2024-04-08 14:29:25] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-9.5.2.tar.gz]
+[2024-04-08 14:29:25] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-9.5.3.tar.gz]
+[2024-04-08 14:29:25] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-cli]: success
+[2024-04-08 14:32:23] ERROR root fetch - processPackages [moto]: Timeout during execution of pkgdiff
+[2024-04-08 14:32:23] INFO root fetch - main [MainThread]: End processing [moto] error
+[2024-04-08 14:32:23] INFO root fetch - main [MainThread]: Store serial: [22666876]
