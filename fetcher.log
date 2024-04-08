@@ -9905,3 +9905,39 @@
 [2024-04-08 08:11:12] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0rc1.tar.gz]
 [2024-04-08 08:11:12] INFO root fetch - main [MainThread]: End processing [pygameextra]: success
 [2024-04-08 08:11:12] INFO root fetch - main [MainThread]: Store serial: [22662856]
+[2024-04-08 08:13:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662856]
+[2024-04-08 08:13:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 08:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanomonsv
+[2024-04-08 08:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2024-04-08 08:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2024-04-08 08:13:21] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240407] Old Version: [2.6.0.dev20240406]
+[2024-04-08 08:13:21] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-08 08:13:21] INFO root fetch - processPackages [nanomonsv]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-08 08:13:22] INFO root fetch - processPackages [nanomonsv]: Downloading https://files.pythonhosted.org/packages/b1/46/d041d265d6ac53bb6979b475b30df43f02e47a1481d0f36816d033918927/nanomonsv-0.7.1.tar.gz
+[2024-04-08 08:13:22] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-08 08:13:22] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/80/e0/ff9bcb47689cb01f08890859a79a466dd892e285370377c2d764090533b6/pyg_nightly-2.6.0.dev20240406.tar.gz
+[2024-04-08 08:13:22] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-08 08:13:22] WARNING root fetch - processPackages [nanomonsv]: Timeout reached during download
+[2024-04-08 08:13:22] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/77/48/de39497a8a03f4c2671bb082a5a706f7ba8fbe3a77c14691afe66129b5b4/pyg_nightly-2.6.0.dev20240407.tar.gz
+[2024-04-08 08:13:22] WARNING root fetch - processPackages [checkov]: Timeout reached during download
+[2024-04-08 08:13:22] INFO root fetch - processPackages [nanomonsv]: Downloading https://files.pythonhosted.org/packages/53/1d/587229f0d1be16536babcf4cfa42e264adc4ef18c4c2453593f4697b8e1f/nanomonsv-0.7.2.tar.gz
+[2024-04-08 08:13:22] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-08 08:13:22] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-08 08:13:22] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240406.tar.gz tmp/pyg_nightly-2.6.0.dev20240407.tar.gz --markdown 20240408/p/pyg-nightly/2.6.0.dev20240406-2.6.0.dev20240407/diff.md --exclude *.pyd
+[2024-04-08 08:13:22] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-08 08:13:22] WARNING root fetch - processPackages [nanomonsv]: Timeout reached during download
+[2024-04-08 08:13:22] INFO root fetch - processPackages [nanomonsv]: executing diffoscope
+[2024-04-08 08:13:22] INFO root fetch - processPackages [nanomonsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomonsv-0.7.1.tar.gz tmp/nanomonsv-0.7.2.tar.gz --markdown 20240408/n/nanomonsv/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-08 08:13:22] WARNING root fetch - processPackages [checkov]: Timeout reached during download
+[2024-04-08 08:13:22] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-08 08:13:22] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240408/c/checkov/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2024-04-08 08:13:23] INFO root fetch - processPackages [nanomonsv]: Remove: archive file [/home/abi/fetcher/tmp/nanomonsv-0.7.1.tar.gz]
+[2024-04-08 08:13:23] INFO root fetch - processPackages [nanomonsv]: Remove: archive file [/home/abi/fetcher/tmp/nanomonsv-0.7.2.tar.gz]
+[2024-04-08 08:13:23] INFO root fetch - main [MainThread]: End processing [nanomonsv]: success
+[2024-04-08 08:13:24] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240406.tar.gz]
+[2024-04-08 08:13:24] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240407.tar.gz]
+[2024-04-08 08:13:24] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-08 08:13:30] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-08 08:13:30] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-08 08:13:30] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-08 08:13:30] INFO root fetch - main [MainThread]: Store serial: [22662865]
