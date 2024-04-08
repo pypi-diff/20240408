@@ -20786,3 +20786,106 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:39:36] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
 [2024-04-08 14:39:36] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2024-04-08 14:39:36] INFO root fetch - main [MainThread]: Store serial: [22666947]
+[2024-04-08 14:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666947]
+[2024-04-08 14:41:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pogo-migrate
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opshin
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-keycloak
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beacon2-import
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-llm
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pogo-migrate
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-adapter-minecraft
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-grpc-hand
+[2024-04-08 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FreeWork
+[2024-04-08 14:41:44] INFO root fetch - processPackages [FreeWork]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-08 14:41:44] INFO root fetch - processPackages [th2-grpc-hand]: New version: [3.0.0.dev8595680143] Old Version: [3.0.0.dev8561791673]
+[2024-04-08 14:41:44] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-08 14:41:44] INFO root fetch - processPackages [nonebot-adapter-minecraft]: New version: [1.0.8.post5] Old Version: [1.0.8.post4]
+[2024-04-08 14:41:44] INFO root fetch - processPackages [pogo-migrate]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 14:41:44] INFO root fetch - processPackages [pogo-migrate]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 14:41:44] INFO root fetch - processPackages [opshin]: New version: [0.9.15] Old Version: [0.9.14]
+[2024-04-08 14:41:44] WARNING root fetch - processPackages [beacon2-import]: Skipping, unable to determine old version
+[2024-04-08 14:41:44] INFO root fetch - main [MainThread]: End processing [beacon2-import] error
+[2024-04-08 14:41:44] INFO root fetch - processPackages [FreeWork]: Downloading https://files.pythonhosted.org/packages/05/f8/a72b07b1ee6e3fd4ba0db71353f1b85c78957237c1b2eb75d05edc1d98a2/FreeWork-0.1.7.zip
+[2024-04-08 14:41:44] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240408] Old Version: [2.5.0b20240407]
+[2024-04-08 14:41:44] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1712578930] Old Version: [5.4.0a1710156899]
+[2024-04-08 14:41:44] INFO root fetch - processPackages [th2-grpc-hand]: Downloading https://files.pythonhosted.org/packages/11/2c/a605c5dab42f5f55c1164755c1aee74cb29694330e3ec3422cced6c3c545/th2_grpc_hand-3.0.0.dev8561791673.tar.gz
+[2024-04-08 14:41:45] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/ff/28/461ed536403eebb4134787b235c735858065030ccccb3cc105dd12df902f/pogo_migrate-0.0.8.tar.gz
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/ff/28/461ed536403eebb4134787b235c735858065030ccccb3cc105dd12df902f/pogo_migrate-0.0.8.tar.gz
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [FreeWork]: Timeout reached during download
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [DLMS-SPODES]: Timeout reached during download
+[2024-04-08 14:41:45] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Downloading https://files.pythonhosted.org/packages/48/13/a2f5943633b8268c9f5c7e110c3446018df885b445cb0942e2888003ad23/nonebot_adapter_minecraft-1.0.8.post4.tar.gz
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [th2-grpc-hand]: Timeout reached during download
+[2024-04-08 14:41:45] INFO root fetch - processPackages [FreeWork]: Downloading https://files.pythonhosted.org/packages/ed/aa/2e6e7f7df5c35299066c8fff2e77c78f6f015d75ab2f696e5a438f4032f7/FreeWork-0.1.8.zip
+[2024-04-08 14:41:45] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/ac/8f/230fda1102c884b7ed406b6fa48643d7b0826e924f753db71c59de2fd65f/opshin-0.9.14.tar.gz
+[2024-04-08 14:41:45] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/b8/89/2af7c21f99eacc5cce3b4b327e6a727dc20ec8ec25cc22dfb4768f27c3d8/bigdl_llm-2.5.0b20240407-py3-none-win_amd64.whl
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/e0/49/4d01826dbec29b75a80304ffaabcef19e0d29e61df5880df0f5bccd7d197/pulumi_keycloak-5.4.0a1710156899.tar.gz
+[2024-04-08 14:41:45] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-04-08 14:41:45] INFO root fetch - processPackages [th2-grpc-hand]: Downloading https://files.pythonhosted.org/packages/05/c1/ce2b7590e0c89ef1415c09e6acebb10ed4d0c7bc7a62684cb3e78c55aa95/th2_grpc_hand-3.0.0.dev8595680143.tar.gz
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [FreeWork]: Timeout reached during download
+[2024-04-08 14:41:45] INFO root fetch - processPackages [FreeWork]: executing diffoscope
+[2024-04-08 14:41:45] INFO root fetch - processPackages [FreeWork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeWork-0.1.7.zip tmp/FreeWork-0.1.8.zip --markdown 20240408/F/FreeWork/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [pogo-migrate]: Timeout reached during download
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [pogo-migrate]: Timeout reached during download
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [nonebot-adapter-minecraft]: Timeout reached during download
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [pulumi-keycloak]: Timeout reached during download
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [DLMS-SPODES]: Timeout reached during download
+[2024-04-08 14:41:45] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-04-08 14:41:45] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240408/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [th2-grpc-hand]: Timeout reached during download
+[2024-04-08 14:41:45] INFO root fetch - processPackages [th2-grpc-hand]: executing diffoscope
+[2024-04-08 14:41:45] INFO root fetch - processPackages [th2-grpc-hand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_hand-3.0.0.dev8561791673.tar.gz tmp/th2_grpc_hand-3.0.0.dev8595680143.tar.gz --markdown 20240408/t/th2-grpc-hand/3.0.0.dev8561791673-3.0.0.dev8595680143/diff.md --exclude *.pyd
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/02/aa/e3bf46e082861ed7f89041ee9e1efd453ec18b5267d59c75d03e23b11a09/pogo_migrate-0.0.9.tar.gz
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/02/aa/e3bf46e082861ed7f89041ee9e1efd453ec18b5267d59c75d03e23b11a09/pogo_migrate-0.0.9.tar.gz
+[2024-04-08 14:41:45] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Downloading https://files.pythonhosted.org/packages/b9/a3/18cd0f67134d65fe71b073c56ed652303daf38661894d4ea9bf829496ff7/nonebot_adapter_minecraft-1.0.8.post5.tar.gz
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/67/d8/89e5ceeddc8bb625d09277d740281f7e173ee06e8c8cd650e315165d78bb/pulumi_keycloak-5.4.0a1712578930.tar.gz
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [opshin]: Timeout reached during download
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [bigdl-llm]: Timeout reached during download
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [pulumi-keycloak]: Timeout reached during download
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1710156899.tar.gz tmp/pulumi_keycloak-5.4.0a1712578930.tar.gz --markdown 20240408/p/pulumi-keycloak/5.4.0a1710156899-5.4.0a1712578930/diff.md --exclude *.pyd
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [pogo-migrate]: Timeout reached during download
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [pogo-migrate]: Timeout reached during download
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pogo-migrate]: executing diffoscope
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pogo-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pogo_migrate-0.0.8.tar.gz tmp/pogo_migrate-0.0.9.tar.gz --markdown 20240408/p/pogo-migrate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pogo-migrate]: executing diffoscope
+[2024-04-08 14:41:45] INFO root fetch - processPackages [pogo-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pogo_migrate-0.0.8.tar.gz tmp/pogo_migrate-0.0.9.tar.gz --markdown 20240408/p/pogo-migrate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 14:41:45] WARNING root fetch - processPackages [nonebot-adapter-minecraft]: Timeout reached during download
+[2024-04-08 14:41:45] INFO root fetch - processPackages [nonebot-adapter-minecraft]: executing diffoscope
+[2024-04-08 14:41:45] INFO root fetch - processPackages [nonebot-adapter-minecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_minecraft-1.0.8.post4.tar.gz tmp/nonebot_adapter_minecraft-1.0.8.post5.tar.gz --markdown 20240408/n/nonebot-adapter-minecraft/1.0.8.post4-1.0.8.post5/diff.md --exclude *.pyd
+[2024-04-08 14:41:45] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/85/27/589ead27cf5b537b46af189eb5765afcf156edecbd7075c43b3d788048ac/opshin-0.9.15.tar.gz
+[2024-04-08 14:41:46] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/87/da/a5b746cd1fd5e33f17ee2cd50c59a74bb738929ea32c3244f26db29b7a4b/bigdl_llm-2.5.0b20240408-py3-none-win_amd64.whl
+[2024-04-08 14:41:46] INFO root fetch - processPackages [FreeWork]: Remove: archive file [/home/abi/fetcher/tmp/FreeWork-0.1.7.zip]
+[2024-04-08 14:41:46] INFO root fetch - processPackages [FreeWork]: Remove: archive file [/home/abi/fetcher/tmp/FreeWork-0.1.8.zip]
+[2024-04-08 14:41:46] INFO root fetch - main [MainThread]: End processing [FreeWork]: success
+[2024-04-08 14:41:46] WARNING root fetch - processPackages [opshin]: Timeout reached during download
+[2024-04-08 14:41:46] INFO root fetch - processPackages [opshin]: executing diffoscope
+[2024-04-08 14:41:46] INFO root fetch - processPackages [opshin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opshin-0.9.14.tar.gz tmp/opshin-0.9.15.tar.gz --markdown 20240408/o/opshin/0.9.14-0.9.15/diff.md --exclude *.pyd
+[2024-04-08 14:41:46] INFO root fetch - processPackages [th2-grpc-hand]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_hand-3.0.0.dev8561791673.tar.gz]
+[2024-04-08 14:41:46] INFO root fetch - processPackages [th2-grpc-hand]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_hand-3.0.0.dev8595680143.tar.gz]
+[2024-04-08 14:41:46] INFO root fetch - main [MainThread]: End processing [th2-grpc-hand]: success
+[2024-04-08 14:41:46] INFO root fetch - processPackages [pogo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pogo_migrate-0.0.8.tar.gz]
+[2024-04-08 14:41:46] INFO root fetch - processPackages [pogo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pogo_migrate-0.0.9.tar.gz]
+[2024-04-08 14:41:46] INFO root fetch - main [MainThread]: End processing [pogo-migrate]: success
+[2024-04-08 14:41:46] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_minecraft-1.0.8.post4.tar.gz]
+[2024-04-08 14:41:46] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_minecraft-1.0.8.post5.tar.gz]
+[2024-04-08 14:41:46] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-minecraft]: success
+[2024-04-08 14:41:46] WARNING root fetch - processPackages [bigdl-llm]: Timeout reached during download
+[2024-04-08 14:41:46] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-04-08 14:41:46] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240407-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240408-py3-none-win_amd64.whl.zip --markdown 20240408/b/bigdl-llm/2.5.0b20240407-2.5.0b20240408/diff.md --exclude *.pyd
+[2024-04-08 14:41:46] INFO root fetch - main [MainThread]: End processing [pogo-migrate]: success
+[2024-04-08 14:41:46] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-04-08 14:41:46] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-04-08 14:41:46] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-04-08 14:41:47] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.14.tar.gz]
+[2024-04-08 14:41:47] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.15.tar.gz]
+[2024-04-08 14:41:47] INFO root fetch - main [MainThread]: End processing [opshin]: success
+[2024-04-08 14:41:47] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1710156899.tar.gz]
+[2024-04-08 14:41:47] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1712578930.tar.gz]
+[2024-04-08 14:41:47] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-04-08 14:41:48] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240407-py3-none-win_amd64.whl.zip]
+[2024-04-08 14:41:48] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240408-py3-none-win_amd64.whl.zip]
+[2024-04-08 14:41:48] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-04-08 14:41:48] INFO root fetch - main [MainThread]: Store serial: [22666976]
