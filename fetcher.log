@@ -19234,3 +19234,22 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:39:55] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.2.tar.gz]
 [2024-04-08 13:39:55] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
 [2024-04-08 13:39:55] INFO root fetch - main [MainThread]: Store serial: [22666382]
+[2024-04-08 13:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666382]
+[2024-04-08 13:42:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 13:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydivkit
+[2024-04-08 13:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apache-superset
+[2024-04-08 13:42:05] INFO root fetch - processPackages [pydivkit]: New version: [29.9.0] Old Version: [29.8.0]
+[2024-04-08 13:42:05] INFO root fetch - processPackages [apache-superset]: New version: [4.0.0rc2] Old Version: [4.0.0rc1]
+[2024-04-08 13:42:05] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/42/a1/6e9c9bf0381cdd05c889c253313b5dae76afc9a776d674ae61e59eec076a/pydivkit-29.8.0.tar.gz
+[2024-04-08 13:42:05] INFO root fetch - processPackages [apache-superset]: Downloading https://files.pythonhosted.org/packages/f2/8e/3a50c697cc0a4bde393c000dbca38d26af6bc79e7d36342dcd28a2a9e83c/apache-superset-4.0.0rc1.tar.gz
+[2024-04-08 13:42:06] WARNING root fetch - processPackages [pydivkit]: Timeout reached during download
+[2024-04-08 13:42:06] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/c4/cc/fa1edd25ae1d1b30a98ee6486f6794e38f7fe120e457a60d491fc8848148/pydivkit-29.9.0.tar.gz
+[2024-04-08 13:42:06] WARNING root fetch - processPackages [pydivkit]: Timeout reached during download
+[2024-04-08 13:42:06] INFO root fetch - processPackages [pydivkit]: executing diffoscope
+[2024-04-08 13:42:06] INFO root fetch - processPackages [pydivkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivkit-29.8.0.tar.gz tmp/pydivkit-29.9.0.tar.gz --markdown 20240408/p/pydivkit/29.8.0-29.9.0/diff.md --exclude *.pyd
+[2024-04-08 13:42:07] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-29.8.0.tar.gz]
+[2024-04-08 13:42:07] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-29.9.0.tar.gz]
+[2024-04-08 13:42:07] INFO root fetch - main [MainThread]: End processing [pydivkit]: success
+[2024-04-08 13:42:07] WARNING root fetch - processPackages [apache-superset]: Skipping package: exceeds size limit 49493607>=10485760
+[2024-04-08 13:42:07] INFO root fetch - main [MainThread]: End processing [apache-superset] error
+[2024-04-08 13:42:07] INFO root fetch - main [MainThread]: Store serial: [22666387]
