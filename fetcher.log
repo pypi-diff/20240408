@@ -16504,3 +16504,171 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:11:40] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective.behavior.relatedmedia-3.5.4.tar.gz]
 [2024-04-08 12:11:40] INFO root fetch - main [MainThread]: End processing [collective.behavior.relatedmedia]: success
 [2024-04-08 12:11:40] INFO root fetch - main [MainThread]: Store serial: [22665425]
+[2024-04-08 12:13:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665425]
+[2024-04-08 12:13:49] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bec-lib
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bec-scan-server
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yooncloud-dart
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-device-server
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-scan-bundler
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otcextensions
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-file-writer
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-dap
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-scihub
+[2024-04-08 12:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-server
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-lib]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [otcextensions]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/0d/e7/a8ddf88465326ac649824e0e689925592ac25bbcbca5c04af89fdd119b7f/bec_lib-1.8.0.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [yooncloud-dart]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-scan-server]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-scihub]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-scan-bundler]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-device-server]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-file-writer]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-dap]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-server]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 12:13:50] INFO root fetch - processPackages [otcextensions]: Downloading https://files.pythonhosted.org/packages/5a/e1/b37ce486fe5d81fbba91d826090926b06f34a2f1194f8334181fe0f740ae/otcextensions-0.9.0.tar.gz
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [bec-lib]: Timeout reached during download
+[2024-04-08 12:13:50] INFO root fetch - processPackages [yooncloud-dart]: Downloading https://files.pythonhosted.org/packages/e7/15/937843a3d0113111011097e58f406a30a848227968a62f7990f4ad22af18/yooncloud-dart-0.0.2.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/f9/77/9bf2b01a5d4e913091e38b4573fa55018adf209a098796b02adb6402006c/bec_scan_server-1.8.0.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/2e/ef/a29fa7e9adcda7b1de0be670788a8c7b548989c2f5e1500aaadae3ff0942/bec_file_writer-1.8.0.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/31/e4/2f53a3c59b302ae55704a92f7a83b9b7a9311d816fdcdcea87cd1390af8d/bec_scihub-1.8.0.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/c6/fe/d6d742f9109a15a82397056d1662b1da3e81e7e4f8d692f87fab850fc89d/bec_lib-1.9.0.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5a/d8/055323d5cf8ace841479313aa32052f858bf81044d0476d102dd7f648595/bec-server-1.8.0.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/c5/bf/fcbdf2841b4aae5c43cf698c3dafbe3e0b7857f1761533dc4b07dac0bbe7/bec_scan_bundler-1.8.0.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/eb/4c/d23aecb6c9e3771ce74a25dda199d7f33fa20074a412b22c678155f21e90/bec_device_server-1.8.0.tar.gz
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [yooncloud-dart]: Timeout reached during download
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/e6/e6/ccbbc5684c6f8b25af42e103c8bdd86835f802a6027e211b538f8ffbea7c/bec_dap-1.8.0.tar.gz
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [bec-scan-server]: Timeout reached during download
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [bec-lib]: Timeout reached during download
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-1.8.0.tar.gz tmp/bec_lib-1.9.0.tar.gz --markdown 20240408/b/bec-lib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [otcextensions]: Timeout reached during download
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [bec-file-writer]: Timeout reached during download
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [bec-scihub]: Timeout reached during download
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [bec-server]: Timeout reached during download
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [bec-scan-bundler]: Timeout reached during download
+[2024-04-08 12:13:50] INFO root fetch - processPackages [yooncloud-dart]: Downloading https://files.pythonhosted.org/packages/7e/38/dd9d4134ed0b445fb7b0f594d5190181ec320e9f3e1db3d25e7caecaa12b/yooncloud-dart-0.0.3.tar.gz
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [bec-device-server]: Timeout reached during download
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [bec-dap]: Timeout reached during download
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/dd/88/88d36f463e0524ffdccde903cf8a12e110d5a676e31333ffc276c09e1712/bec_scan_server-1.9.0.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [otcextensions]: Downloading https://files.pythonhosted.org/packages/ea/e5/80fc2d41bb151ca58bb2269ff2fa831f78c6bdc75a1f931bd1e85661a0b6/otcextensions-0.9.1.tar.gz
+[2024-04-08 12:13:50] WARNING root fetch - processPackages [yooncloud-dart]: Timeout reached during download
+[2024-04-08 12:13:50] INFO root fetch - processPackages [yooncloud-dart]: executing diffoscope
+[2024-04-08 12:13:50] INFO root fetch - processPackages [yooncloud-dart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yooncloud-dart-0.0.2.tar.gz tmp/yooncloud-dart-0.0.3.tar.gz --markdown 20240408/y/yooncloud-dart/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/18/9a/197dd5979f5b34702c72f444cfa1999ce28a9cd62eb99a67e863798c7190/bec_file_writer-1.9.0.tar.gz
+[2024-04-08 12:13:50] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/76/6f/c113eddcd9e42fa0e7ab1de5ea609bbedab64bce7ead2a6c1c0c3c72b36a/bec-server-1.9.0.tar.gz
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/c1/5d/cf7e338ef4761f7d1333e699c289a03ecbab278dc44567790cacde2f42ea/bec_scihub-1.9.0.tar.gz
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/21/cf/12c406a9e758eab67ea698a569af0e68543591c7ef7957fa202021ad31e8/bec_device_server-1.9.0.tar.gz
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/46/2c/8be1cdd14ef771cc13c44e14f4af26af7451498eaf0a08ecdce4ce0bfdec/bec_dap-1.9.0.tar.gz
+[2024-04-08 12:13:51] WARNING root fetch - processPackages [bec-scan-server]: Timeout reached during download
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-1.8.0.tar.gz tmp/bec_scan_server-1.9.0.tar.gz --markdown 20240408/b/bec-scan-server/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/54/0e/ce0ea946e712fba3817352c6241703a8913cdab19f9486dc40a7f616bda2/bec_scan_bundler-1.9.0.tar.gz
+[2024-04-08 12:13:51] WARNING root fetch - processPackages [bec-file-writer]: Timeout reached during download
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-1.8.0.tar.gz tmp/bec_file_writer-1.9.0.tar.gz --markdown 20240408/b/bec-file-writer/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:51] WARNING root fetch - processPackages [bec-server]: Timeout reached during download
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-1.8.0.tar.gz tmp/bec-server-1.9.0.tar.gz --markdown 20240408/b/bec-server/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:51] WARNING root fetch - processPackages [bec-scihub]: Timeout reached during download
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-scihub]: executing diffoscope
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-scihub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scihub-1.8.0.tar.gz tmp/bec_scihub-1.9.0.tar.gz --markdown 20240408/b/bec-scihub/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:51] WARNING root fetch - processPackages [bec-device-server]: Timeout reached during download
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-1.8.0.tar.gz tmp/bec_device_server-1.9.0.tar.gz --markdown 20240408/b/bec-device-server/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:51] WARNING root fetch - processPackages [bec-scan-bundler]: Timeout reached during download
+[2024-04-08 12:13:51] WARNING root fetch - processPackages [bec-dap]: Timeout reached during download
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-1.8.0.tar.gz tmp/bec_scan_bundler-1.9.0.tar.gz --markdown 20240408/b/bec-scan-bundler/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2024-04-08 12:13:51] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-1.8.0.tar.gz tmp/bec_dap-1.9.0.tar.gz --markdown 20240408/b/bec-dap/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:51] WARNING root fetch - processPackages [otcextensions]: Timeout reached during download
+[2024-04-08 12:13:51] INFO root fetch - processPackages [otcextensions]: executing diffoscope
+[2024-04-08 12:13:51] INFO root fetch - processPackages [otcextensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otcextensions-0.9.0.tar.gz tmp/otcextensions-0.9.1.tar.gz --markdown 20240408/o/otcextensions/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 12:13:52] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-1.8.0.tar.gz]
+[2024-04-08 12:13:52] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-1.9.0.tar.gz]
+[2024-04-08 12:13:52] INFO root fetch - processPackages [bec-lib]: Start processing: ncache-client
+[2024-04-08 12:13:52] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-04-08 12:13:52] INFO root fetch - processPackages [ncache-client]: New version: [5.3.3] Old Version: [5.3.0]
+[2024-04-08 12:13:52] INFO root fetch - processPackages [yooncloud-dart]: Remove: archive file [/home/abi/fetcher/tmp/yooncloud-dart-0.0.2.tar.gz]
+[2024-04-08 12:13:52] INFO root fetch - processPackages [yooncloud-dart]: Remove: archive file [/home/abi/fetcher/tmp/yooncloud-dart-0.0.3.tar.gz]
+[2024-04-08 12:13:52] INFO root fetch - processPackages [yooncloud-dart]: Start processing: secvision-proxysupport-linux-x64
+[2024-04-08 12:13:52] INFO root fetch - main [MainThread]: End processing [yooncloud-dart]: success
+[2024-04-08 12:13:52] WARNING root fetch - processPackages [secvision-proxysupport-linux-x64]: Skipping, unable to determine old version
+[2024-04-08 12:13:52] INFO root fetch - processPackages [secvision-proxysupport-linux-x64]: Start processing: illuminat
+[2024-04-08 12:13:52] INFO root fetch - main [MainThread]: End processing [secvision-proxysupport-linux-x64] error
+[2024-04-08 12:13:52] INFO root fetch - processPackages [ncache-client]: Downloading https://files.pythonhosted.org/packages/11/7d/b008489153ac0ea0a5cf199e30cc5668ad444aa7f85172918f52ff7c7fa7/ncache-client-5.3.0.tar.gz
+[2024-04-08 12:13:52] WARNING root fetch - processPackages [illuminat]: Skipping, unable to determine old version
+[2024-04-08 12:13:52] INFO root fetch - processPackages [illuminat]: Start processing: cimsparql
+[2024-04-08 12:13:52] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 12:13:52] WARNING root fetch - processPackages [ncache-client]: Skipping package: exceeds size limit 20790776>=10485760
+[2024-04-08 12:13:52] INFO root fetch - processPackages [ncache-client]: Start processing: energy-base
+[2024-04-08 12:13:52] INFO root fetch - main [MainThread]: End processing [ncache-client] error
+[2024-04-08 12:13:52] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-1.8.0.tar.gz]
+[2024-04-08 12:13:52] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-1.9.0.tar.gz]
+[2024-04-08 12:13:52] INFO root fetch - processPackages [bec-file-writer]: Start processing: postfinancecheckout
+[2024-04-08 12:13:52] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-1.8.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-1.9.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-scan-server]: Start processing: wallee
+[2024-04-08 12:13:53] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-1.8.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-1.9.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-04-08 12:13:53] INFO root fetch - processPackages [cimsparql]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-1.8.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-1.9.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [energy-base]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-04-08 12:13:53] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-1.8.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-1.9.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - main [MainThread]: End processing [bec-scihub]: success
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-1.8.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-1.9.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-1.8.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-1.9.0.tar.gz]
+[2024-04-08 12:13:53] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2024-04-08 12:13:53] INFO root fetch - processPackages [wallee]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [postfinancecheckout]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-04-08 12:13:53] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/37/69/8660efdecccbd29b810bc33414194092bd690fce4b32c1e6b3c0f763fa21/cimsparql-3.1.0.tar.gz
+[2024-04-08 12:13:53] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/4a/1b/5843dc466dbf0c56c9ebb2555164f67b1a13473ee029e8af3212de6f15bb/energy_base-1.6.7.tar.gz
+[2024-04-08 12:13:53] INFO root fetch - processPackages [wallee]: Downloading https://files.pythonhosted.org/packages/51/56/2496447f239dcd66ed2476b07df3196f013a3d0a0d383448686295ad2e1f/wallee-5.0.0.tar.gz
+[2024-04-08 12:13:53] INFO root fetch - processPackages [postfinancecheckout]: Downloading https://files.pythonhosted.org/packages/78/57/741da9444aa0267e098b76e32e200d497582dd68f8cf9c1f1a89f4648eba/postfinancecheckout-5.0.0.tar.gz
+[2024-04-08 12:13:53] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-08 12:13:53] WARNING root fetch - processPackages [cimsparql]: Timeout reached during download
+[2024-04-08 12:13:53] WARNING root fetch - processPackages [wallee]: Timeout reached during download
+[2024-04-08 12:13:53] WARNING root fetch - processPackages [postfinancecheckout]: Timeout reached during download
+[2024-04-08 12:13:53] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/b8/29/9c62d542811e0b67e9658f4973d04cf6e679fa3183b5ea6313db82f7b20a/energy_base-1.6.8.tar.gz
+[2024-04-08 12:13:53] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/ff/50/e53b793ee73f5a91a0065f5813ab7339157338e9e5b753286f44e06077e6/cimsparql-3.2.0.tar.gz
+[2024-04-08 12:13:53] WARNING root fetch - processPackages [energy-base]: Timeout reached during download
+[2024-04-08 12:13:53] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-08 12:13:53] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.6.7.tar.gz tmp/energy_base-1.6.8.tar.gz --markdown 20240408/e/energy-base/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2024-04-08 12:13:53] WARNING root fetch - processPackages [cimsparql]: Timeout reached during download
+[2024-04-08 12:13:53] INFO root fetch - processPackages [cimsparql]: executing diffoscope
+[2024-04-08 12:13:53] INFO root fetch - processPackages [cimsparql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cimsparql-3.1.0.tar.gz tmp/cimsparql-3.2.0.tar.gz --markdown 20240408/c/cimsparql/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:53] INFO root fetch - processPackages [wallee]: Downloading https://files.pythonhosted.org/packages/c3/94/e6165b0481f40302905b8a10c9a448987601857889a5d71fcf4b926c4ae2/wallee-5.1.0.tar.gz
+[2024-04-08 12:13:53] INFO root fetch - processPackages [postfinancecheckout]: Downloading https://files.pythonhosted.org/packages/20/41/d46d79452d3117f3dbf147a58ea7fc7efa8be7d927fc65ffdc78416444c3/postfinancecheckout-5.1.0.tar.gz
+[2024-04-08 12:13:54] WARNING root fetch - processPackages [postfinancecheckout]: Timeout reached during download
+[2024-04-08 12:13:54] WARNING root fetch - processPackages [wallee]: Timeout reached during download
+[2024-04-08 12:13:54] INFO root fetch - processPackages [postfinancecheckout]: executing diffoscope
+[2024-04-08 12:13:54] INFO root fetch - processPackages [postfinancecheckout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postfinancecheckout-5.0.0.tar.gz tmp/postfinancecheckout-5.1.0.tar.gz --markdown 20240408/p/postfinancecheckout/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:54] INFO root fetch - processPackages [wallee]: executing diffoscope
+[2024-04-08 12:13:54] INFO root fetch - processPackages [wallee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wallee-5.0.0.tar.gz tmp/wallee-5.1.0.tar.gz --markdown 20240408/w/wallee/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2024-04-08 12:13:54] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.7.tar.gz]
+[2024-04-08 12:13:54] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.8.tar.gz]
+[2024-04-08 12:13:54] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-08 12:13:54] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-3.1.0.tar.gz]
+[2024-04-08 12:13:54] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-3.2.0.tar.gz]
+[2024-04-08 12:13:54] INFO root fetch - main [MainThread]: End processing [cimsparql]: success
+[2024-04-08 12:13:56] INFO root fetch - processPackages [postfinancecheckout]: Remove: archive file [/home/abi/fetcher/tmp/postfinancecheckout-5.0.0.tar.gz]
+[2024-04-08 12:13:56] INFO root fetch - processPackages [postfinancecheckout]: Remove: archive file [/home/abi/fetcher/tmp/postfinancecheckout-5.1.0.tar.gz]
+[2024-04-08 12:13:56] INFO root fetch - main [MainThread]: End processing [postfinancecheckout]: success
+[2024-04-08 12:13:57] INFO root fetch - processPackages [wallee]: Remove: archive file [/home/abi/fetcher/tmp/wallee-5.0.0.tar.gz]
+[2024-04-08 12:13:57] INFO root fetch - processPackages [wallee]: Remove: archive file [/home/abi/fetcher/tmp/wallee-5.1.0.tar.gz]
+[2024-04-08 12:13:57] INFO root fetch - main [MainThread]: End processing [wallee]: success
+[2024-04-08 12:13:57] INFO root fetch - processPackages [otcextensions]: Remove: archive file [/home/abi/fetcher/tmp/otcextensions-0.9.0.tar.gz]
+[2024-04-08 12:13:57] INFO root fetch - processPackages [otcextensions]: Remove: archive file [/home/abi/fetcher/tmp/otcextensions-0.9.1.tar.gz]
+[2024-04-08 12:13:57] INFO root fetch - main [MainThread]: End processing [otcextensions]: success
+[2024-04-08 12:13:57] INFO root fetch - main [MainThread]: Store serial: [22665474]
