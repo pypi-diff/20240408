@@ -9663,3 +9663,75 @@
 [2024-04-08 08:00:06] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2024-04-08 08:00:06] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2024-04-08 08:00:06] INFO root fetch - main [MainThread]: Store serial: [22662768]
+[2024-04-08 08:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662768]
+[2024-04-08 08:02:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 08:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haliax
+[2024-04-08 08:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydbapi
+[2024-04-08 08:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SyDataSets
+[2024-04-08 08:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezdsp
+[2024-04-08 08:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-linode
+[2024-04-08 08:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyds-cli
+[2024-04-08 08:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: just_design_phase
+[2024-04-08 08:02:27] WARNING root fetch - processPackages [SyDataSets]: Skipping, unable to determine old version
+[2024-04-08 08:02:27] INFO root fetch - main [MainThread]: End processing [SyDataSets] error
+[2024-04-08 08:02:27] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-04-08 08:02:27] INFO root fetch - processPackages [ezdsp]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-08 08:02:27] INFO root fetch - processPackages [pyds-cli]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-08 08:02:28] INFO root fetch - processPackages [just_design_phase]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 08:02:28] INFO root fetch - processPackages [haliax]: New version: [1.3.dev287] Old Version: [1.3]
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/97/03/bea64d47cf39daa1bc36aced9d54b5076e20fcf542d95d75080658cb20a5/pyds-cli-0.4.1.tar.gz
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pydbapi]: New version: [0.0.98] Old Version: [0.0.97]
+[2024-04-08 08:02:28] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/fc/12/8152da568036e3a71f180b495d98a88e8052dc35b66afa95c7bcda3d54da/ezdsp-1.0.5.tar.gz
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [pyds-cli]: Timeout reached during download
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 08:02:28] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/9e/a6/b6c5320c811fda89c19e0702d03e3f9f529e4be83c50a56f3d4e1b4d1627/haliax-1.3.tar.gz
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pydbapi]: Downloading https://files.pythonhosted.org/packages/21/bf/df6f10068eb3e7fcab15fb118b962b0ecd89419e4c08f7f1feaf0a0d8a8f/pydbapi-0.0.97.tar.gz
+[2024-04-08 08:02:28] INFO root fetch - processPackages [just_design_phase]: Downloading https://files.pythonhosted.org/packages/7d/f5/e1e6f21f81f306ebcde6bba08c09cb5dc644f3603c310cafc00ab3de077e/just_design_phase-0.0.8.tar.gz
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [pulumi-linode]: Timeout reached during download
+[2024-04-08 08:02:28] INFO root fetch - processPackages [ezdsp]: Downloading https://files.pythonhosted.org/packages/88/ba/2471d17334fec06e5c6412a11c61123011acffc420a45bc02e64b1d11715/ezdsp-1.0.6.tar.gz
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [pydbapi]: Timeout reached during download
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/46/f6/d53aca4f00d572379e3f6851c6a76f5c6a3de3f6f204d287d1e0e2d4c568/pyds-cli-0.4.2.tar.gz
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [haliax]: Timeout reached during download
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [just_design_phase]: Timeout reached during download
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [ezdsp]: Timeout reached during download
+[2024-04-08 08:02:28] INFO root fetch - processPackages [ezdsp]: executing diffoscope
+[2024-04-08 08:02:28] INFO root fetch - processPackages [ezdsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdsp-1.0.5.tar.gz tmp/ezdsp-1.0.6.tar.gz --markdown 20240408/e/ezdsp/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [pyds-cli]: Timeout reached during download
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pyds-cli]: executing diffoscope
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pyds-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyds-cli-0.4.1.tar.gz tmp/pyds-cli-0.4.2.tar.gz --markdown 20240408/p/pyds-cli/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [pulumi-linode]: Timeout reached during download
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240408/p/pulumi-linode/4.9.0a1700248892-4.9.1/diff.md --exclude *.pyd
+[2024-04-08 08:02:28] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/99/5f/38bf8547d2a4234d563911a1324b51823790f6f161ac10fb5db8c6f1d0c6/haliax-1.3.dev287.tar.gz
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pydbapi]: Downloading https://files.pythonhosted.org/packages/f4/c7/8303cd1d3ce9d177d1b77762d457e400bba324c6257b84c966cd99724f5e/pydbapi-0.0.98.tar.gz
+[2024-04-08 08:02:28] INFO root fetch - processPackages [just_design_phase]: Downloading https://files.pythonhosted.org/packages/aa/b5/29ee0abf7aa594516a36ed125483f2184a52d792c0c9a50f97903114d895/just_design_phase-0.0.9.tar.gz
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [pydbapi]: Timeout reached during download
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pydbapi]: executing diffoscope
+[2024-04-08 08:02:28] INFO root fetch - processPackages [pydbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbapi-0.0.97.tar.gz tmp/pydbapi-0.0.98.tar.gz --markdown 20240408/p/pydbapi/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [just_design_phase]: Timeout reached during download
+[2024-04-08 08:02:28] INFO root fetch - processPackages [just_design_phase]: executing diffoscope
+[2024-04-08 08:02:28] INFO root fetch - processPackages [just_design_phase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/just_design_phase-0.0.8.tar.gz tmp/just_design_phase-0.0.9.tar.gz --markdown 20240408/j/just_design_phase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 08:02:28] WARNING root fetch - processPackages [haliax]: Timeout reached during download
+[2024-04-08 08:02:28] INFO root fetch - processPackages [haliax]: executing diffoscope
+[2024-04-08 08:02:28] INFO root fetch - processPackages [haliax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haliax-1.3.tar.gz tmp/haliax-1.3.dev287.tar.gz --markdown 20240408/h/haliax/1.3-1.3.dev287/diff.md --exclude *.pyd
+[2024-04-08 08:02:29] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.5.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - processPackages [ezdsp]: Remove: archive file [/home/abi/fetcher/tmp/ezdsp-1.0.6.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - main [MainThread]: End processing [ezdsp]: success
+[2024-04-08 08:02:29] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds-cli-0.4.1.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds-cli-0.4.2.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - main [MainThread]: End processing [pyds-cli]: success
+[2024-04-08 08:02:29] INFO root fetch - processPackages [just_design_phase]: Remove: archive file [/home/abi/fetcher/tmp/just_design_phase-0.0.8.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - processPackages [just_design_phase]: Remove: archive file [/home/abi/fetcher/tmp/just_design_phase-0.0.9.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - main [MainThread]: End processing [just_design_phase]: success
+[2024-04-08 08:02:29] INFO root fetch - processPackages [pydbapi]: Remove: archive file [/home/abi/fetcher/tmp/pydbapi-0.0.97.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - processPackages [pydbapi]: Remove: archive file [/home/abi/fetcher/tmp/pydbapi-0.0.98.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - main [MainThread]: End processing [pydbapi]: success
+[2024-04-08 08:02:29] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-04-08 08:02:29] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.3.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.3.dev287.tar.gz]
+[2024-04-08 08:02:29] INFO root fetch - main [MainThread]: End processing [haliax]: success
+[2024-04-08 08:02:29] INFO root fetch - main [MainThread]: Store serial: [22662791]
