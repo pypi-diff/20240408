@@ -18215,3 +18215,111 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:03:18] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-08 13:03:18] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-08 13:03:18] INFO root fetch - main [MainThread]: Store serial: [22666059]
+[2024-04-08 13:05:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666059]
+[2024-04-08 13:05:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asgikit
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: language-data
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: development-tool
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamindb
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prusek-spheroid
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thingsvision
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unicoder
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stockdatamanager
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oarepo-requests
+[2024-04-08 13:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-codenerix-email
+[2024-04-08 13:05:26] INFO root fetch - processPackages [language-data]: New version: [1.2.0.dev3] Old Version: [1.1]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [development-tool]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [unicoder]: New version: [1.2.3151] Old Version: [1.2.3147]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [stockdatamanager]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [prusek-spheroid]: New version: [4.1] Old Version: [4.0]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [thingsvision]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [oarepo-requests]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [django-codenerix-email]: New version: [4.0.4] Old Version: [4.0.3]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [asgikit]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-08 13:05:26] INFO root fetch - processPackages [stockdatamanager]: Downloading https://files.pythonhosted.org/packages/5e/ea/bffd547a88d65a049e44c3eabfa427b227482ff76e286fe25d32ff002bac/stockdatamanager-0.9.tar.gz
+[2024-04-08 13:05:26] INFO root fetch - processPackages [unicoder]: Downloading https://files.pythonhosted.org/packages/62/80/e9afbef4ce37bd2d529e4774f9ca8c67b311be5008bcf2c5b78ad3a7d2dc/unicoder-1.2.3147.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/d7/f9/62f02e9cb9a848a4f6873aec142b513192e9621002e6b9b293e007e74894/development-tool-0.3.5.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [language-data]: Downloading https://files.pythonhosted.org/packages/f4/ef/b2176538ebb01ac7c08b29c9d8cf878275ff98a4e717c57ee8123c373424/language_data-1.1.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/f4/e8/d42ea7902a33cc18caae0254897ca96d598cc2c5b8cd6f2154ff85bb3c00/prusek_spheroid-4.0.tar.gz
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [unicoder]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/f3/64/821bb2b4aa41071f9026644a8f442b0e8920987e7652c11b731789755292/thingsvision-2.5.2.tar.gz
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [stockdatamanager]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [oarepo-requests]: Downloading https://files.pythonhosted.org/packages/33/6f/8d1f25079758c1ec0d1492f7b49706fa7f23d85526accdc87b8105d94ab6/oarepo-requests-1.1.8.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [asgikit]: Downloading https://files.pythonhosted.org/packages/a2/12/0fc71799773a433facb460954682abb42ffdb5d9cc9a93e3bd38319a560b/asgikit-0.6.0.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [django-codenerix-email]: Downloading https://files.pythonhosted.org/packages/8f/b0/78976df4a86d828085ac462be70d83007f7d830400821cc2787c0c80cf21/django-codenerix-email-4.0.3.tar.gz
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [development-tool]: Timeout reached during download
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [prusek-spheroid]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [stockdatamanager]: Downloading https://files.pythonhosted.org/packages/5d/76/8dba7aa39b8162c1c404dd81e5906d1e29dcfc22521d6e693943f06256f7/stockdatamanager-0.9.1.tar.gz
+[2024-04-08 13:05:27] ERROR root fetch - processPackages [unicoder]: Unable to fetch info: No such project/version 'unicoder' 1.2.3151
+[2024-04-08 13:05:27] INFO root fetch - main [MainThread]: End processing [unicoder] error
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [asgikit]: Timeout reached during download
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [oarepo-requests]: Timeout reached during download
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [thingsvision]: Timeout reached during download
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [language-data]: Timeout reached during download
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [lamindb]: Timeout reached during download
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [stockdatamanager]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [stockdatamanager]: executing diffoscope
+[2024-04-08 13:05:27] INFO root fetch - processPackages [stockdatamanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockdatamanager-0.9.tar.gz tmp/stockdatamanager-0.9.1.tar.gz --markdown 20240408/s/stockdatamanager/0.9-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 13:05:27] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/03/df/bc7fc9abbdac0983190b9b810c57702c72ae1ed8785c33822e573629ec34/development-tool-0.3.6.tar.gz
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [django-codenerix-email]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/5e/2f/6bcf870c976198d4d98b3680f35dbf75a8cd150a86227edaa000060de733/prusek_spheroid-4.1.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [asgikit]: Downloading https://files.pythonhosted.org/packages/b5/e8/28d0752fb32759af56fe6293dbdc8506ec519fa384f561af1cf09bbdbcc5/asgikit-0.7.0.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [oarepo-requests]: Downloading https://files.pythonhosted.org/packages/e4/74/a60552d8b5230aa1baff2a77618cb19cf9ce59be5895d7d27207106260f2/oarepo-requests-1.1.9.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/a6/de/98d9fd079ceb7f62ae7b634a60b7d89475cc541edcc18b5876a65642a1c7/thingsvision-2.5.3.tar.gz
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [prusek-spheroid]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2024-04-08 13:05:27] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-08 13:05:27] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-4.0.tar.gz tmp/prusek_spheroid-4.1.tar.gz --markdown 20240408/p/prusek-spheroid/4.0-4.1/diff.md --exclude *.pyd
+[2024-04-08 13:05:27] INFO root fetch - processPackages [language-data]: Downloading https://files.pythonhosted.org/packages/5f/93/2c85afe56e02606d19ce33e88f850eaf7f9f324c4dfd97d609c548b6cbcc/language_data-1.2.0.dev3.tar.gz
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [asgikit]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [asgikit]: executing diffoscope
+[2024-04-08 13:05:27] INFO root fetch - processPackages [asgikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgikit-0.6.0.tar.gz tmp/asgikit-0.7.0.tar.gz --markdown 20240408/a/asgikit/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [development-tool]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [development-tool]: executing diffoscope
+[2024-04-08 13:05:27] INFO root fetch - processPackages [development-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/development-tool-0.3.5.tar.gz tmp/development-tool-0.3.6.tar.gz --markdown 20240408/d/development-tool/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-08 13:05:27] INFO root fetch - processPackages [django-codenerix-email]: Downloading https://files.pythonhosted.org/packages/c1/20/ef896779cba1024033283b4106ac8acaa8cbf4d9846ee194ec5413fe6de8/django-codenerix-email-4.0.4.tar.gz
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [oarepo-requests]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [oarepo-requests]: executing diffoscope
+[2024-04-08 13:05:27] INFO root fetch - processPackages [oarepo-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-requests-1.1.8.tar.gz tmp/oarepo-requests-1.1.9.tar.gz --markdown 20240408/o/oarepo-requests/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [thingsvision]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [thingsvision]: executing diffoscope
+[2024-04-08 13:05:27] INFO root fetch - processPackages [thingsvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsvision-2.5.2.tar.gz tmp/thingsvision-2.5.3.tar.gz --markdown 20240408/t/thingsvision/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [django-codenerix-email]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [django-codenerix-email]: executing diffoscope
+[2024-04-08 13:05:27] INFO root fetch - processPackages [django-codenerix-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-email-4.0.3.tar.gz tmp/django-codenerix-email-4.0.4.tar.gz --markdown 20240408/d/django-codenerix-email/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2024-04-08 13:05:27] WARNING root fetch - processPackages [lamindb]: Timeout reached during download
+[2024-04-08 13:05:27] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2024-04-08 13:05:27] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20240408/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2024-04-08 13:05:28] WARNING root fetch - processPackages [language-data]: Timeout reached during download
+[2024-04-08 13:05:28] INFO root fetch - processPackages [language-data]: executing diffoscope
+[2024-04-08 13:05:28] INFO root fetch - processPackages [language-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/language_data-1.1.tar.gz tmp/language_data-1.2.0.dev3.tar.gz --markdown 20240408/l/language-data/1.1-1.2.0.dev3/diff.md --exclude *.pyd
+[2024-04-08 13:05:28] INFO root fetch - processPackages [stockdatamanager]: Remove: archive file [/home/abi/fetcher/tmp/stockdatamanager-0.9.tar.gz]
+[2024-04-08 13:05:28] INFO root fetch - processPackages [stockdatamanager]: Remove: archive file [/home/abi/fetcher/tmp/stockdatamanager-0.9.1.tar.gz]
+[2024-04-08 13:05:28] INFO root fetch - main [MainThread]: End processing [stockdatamanager]: success
+[2024-04-08 13:05:29] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.0.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-4.1.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-08 13:05:29] INFO root fetch - processPackages [oarepo-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-requests-1.1.8.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - processPackages [oarepo-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-requests-1.1.9.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - main [MainThread]: End processing [oarepo-requests]: success
+[2024-04-08 13:05:29] INFO root fetch - processPackages [asgikit]: Remove: archive file [/home/abi/fetcher/tmp/asgikit-0.6.0.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - processPackages [asgikit]: Remove: archive file [/home/abi/fetcher/tmp/asgikit-0.7.0.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - main [MainThread]: End processing [asgikit]: success
+[2024-04-08 13:05:29] INFO root fetch - processPackages [django-codenerix-email]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-email-4.0.3.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - processPackages [django-codenerix-email]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-email-4.0.4.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - main [MainThread]: End processing [django-codenerix-email]: success
+[2024-04-08 13:05:29] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.5.2.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.5.3.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - main [MainThread]: End processing [thingsvision]: success
+[2024-04-08 13:05:29] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.5.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.6.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - main [MainThread]: End processing [development-tool]: success
+[2024-04-08 13:05:29] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2024-04-08 13:05:29] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2024-04-08 13:05:34] INFO root fetch - processPackages [language-data]: Remove: archive file [/home/abi/fetcher/tmp/language_data-1.1.tar.gz]
+[2024-04-08 13:05:34] INFO root fetch - processPackages [language-data]: Remove: archive file [/home/abi/fetcher/tmp/language_data-1.2.0.dev3.tar.gz]
+[2024-04-08 13:05:34] INFO root fetch - main [MainThread]: End processing [language-data]: success
+[2024-04-08 13:05:34] INFO root fetch - main [MainThread]: Store serial: [22666089]
