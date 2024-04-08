@@ -14208,3 +14208,62 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:54:09] INFO root fetch - processPackages [sempyro]: Remove: archive file [/home/abi/fetcher/tmp/sempyro-1.1.0.tar.gz]
 [2024-04-08 10:54:09] INFO root fetch - main [MainThread]: End processing [sempyro]: success
 [2024-04-08 10:54:09] INFO root fetch - main [MainThread]: Store serial: [22664583]
+[2024-04-08 10:56:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664583]
+[2024-04-08 10:56:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 10:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apis-acdhch-default-settings
+[2024-04-08 10:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfitnesspal
+[2024-04-08 10:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyconverters-whisperx
+[2024-04-08 10:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skilleter-thingy
+[2024-04-08 10:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wg-utilities
+[2024-04-08 10:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyconverters-whisperx
+[2024-04-08 10:56:19] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-04-08 10:56:19] INFO root fetch - processPackages [wg-utilities]: New version: [5.9.0] Old Version: [5.8.4]
+[2024-04-08 10:56:19] INFO root fetch - processPackages [pyconverters-whisperx]: New version: [0.5.6] Old Version: [0.5.4]
+[2024-04-08 10:56:19] INFO root fetch - processPackages [pyconverters-whisperx]: New version: [0.5.6] Old Version: [0.5.4]
+[2024-04-08 10:56:19] INFO root fetch - processPackages [apis-acdhch-default-settings]: New version: [1.0.0] Old Version: [0.1.24]
+[2024-04-08 10:56:19] WARNING root fetch - processPackages [pyfitnesspal]: Skipping, unable to determine old version
+[2024-04-08 10:56:19] INFO root fetch - main [MainThread]: End processing [pyfitnesspal] error
+[2024-04-08 10:56:19] INFO root fetch - processPackages [apis-acdhch-default-settings]: Downloading https://files.pythonhosted.org/packages/02/35/d651e6ca9b2d4cea2b992cda5177348a6326411bada978104d288373561a/apis_acdhch_default_settings-0.1.24.tar.gz
+[2024-04-08 10:56:20] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/ce/aa/d1e8a451be8313e28958038a939a50a9903360aa5a995c81d64985db92ef/skilleter_thingy-0.0.23.tar.gz
+[2024-04-08 10:56:20] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/a6/a1/61df5d799fb6b325eb90f9b3f99dd03c0f98943370ec9ac20e00e739e183/pyconverters_whisperx-0.5.4.tar.gz
+[2024-04-08 10:56:20] INFO root fetch - processPackages [wg-utilities]: Downloading https://files.pythonhosted.org/packages/a2/7f/84a6f7a987704a196fb4a41e13f84850ea59dd73e5749d1f956e99a42c6f/wg_utilities-5.8.4.tar.gz
+[2024-04-08 10:56:20] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/a6/a1/61df5d799fb6b325eb90f9b3f99dd03c0f98943370ec9ac20e00e739e183/pyconverters_whisperx-0.5.4.tar.gz
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [apis-acdhch-default-settings]: Timeout reached during download
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [skilleter-thingy]: Timeout reached during download
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [wg-utilities]: Timeout reached during download
+[2024-04-08 10:56:20] INFO root fetch - processPackages [apis-acdhch-default-settings]: Downloading https://files.pythonhosted.org/packages/fb/7c/6d48866539245d3b610b06e0c793cf0b6d2cd36138144c834ca7243e0d5c/apis_acdhch_default_settings-1.0.0.tar.gz
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [apis-acdhch-default-settings]: Timeout reached during download
+[2024-04-08 10:56:20] INFO root fetch - processPackages [apis-acdhch-default-settings]: executing diffoscope
+[2024-04-08 10:56:20] INFO root fetch - processPackages [apis-acdhch-default-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apis_acdhch_default_settings-0.1.24.tar.gz tmp/apis_acdhch_default_settings-1.0.0.tar.gz --markdown 20240408/a/apis-acdhch-default-settings/0.1.24-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 10:56:20] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/f4/fe/48db6da0d340bde88c487ce2139a98bf8e9dee84ab1c79ae3b469ff49f22/pyconverters_whisperx-0.5.6.tar.gz
+[2024-04-08 10:56:20] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/f4/fe/48db6da0d340bde88c487ce2139a98bf8e9dee84ab1c79ae3b469ff49f22/pyconverters_whisperx-0.5.6.tar.gz
+[2024-04-08 10:56:20] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/98/21/e82edea29ed5abc337bd7c5f62e9e357a52b205c28a0c5e1f3ebbcea977d/skilleter_thingy-0.0.24.tar.gz
+[2024-04-08 10:56:20] INFO root fetch - processPackages [wg-utilities]: Downloading https://files.pythonhosted.org/packages/23/bc/396a6e7516320d7c839831333bc832b8f2e2fa8cefd2e0dfe566c8a17a44/wg_utilities-5.9.0.tar.gz
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [skilleter-thingy]: Timeout reached during download
+[2024-04-08 10:56:20] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-04-08 10:56:20] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.23.tar.gz tmp/skilleter_thingy-0.0.24.tar.gz --markdown 20240408/s/skilleter-thingy/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 10:56:20] INFO root fetch - processPackages [pyconverters-whisperx]: executing diffoscope
+[2024-04-08 10:56:20] INFO root fetch - processPackages [pyconverters-whisperx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconverters_whisperx-0.5.4.tar.gz tmp/pyconverters_whisperx-0.5.6.tar.gz --markdown 20240408/p/pyconverters-whisperx/0.5.4-0.5.6/diff.md --exclude *.pyd
+[2024-04-08 10:56:20] INFO root fetch - processPackages [pyconverters-whisperx]: executing diffoscope
+[2024-04-08 10:56:20] INFO root fetch - processPackages [pyconverters-whisperx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconverters_whisperx-0.5.4.tar.gz tmp/pyconverters_whisperx-0.5.6.tar.gz --markdown 20240408/p/pyconverters-whisperx/0.5.4-0.5.6/diff.md --exclude *.pyd
+[2024-04-08 10:56:20] WARNING root fetch - processPackages [wg-utilities]: Timeout reached during download
+[2024-04-08 10:56:20] INFO root fetch - processPackages [wg-utilities]: executing diffoscope
+[2024-04-08 10:56:20] INFO root fetch - processPackages [wg-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wg_utilities-5.8.4.tar.gz tmp/wg_utilities-5.9.0.tar.gz --markdown 20240408/w/wg-utilities/5.8.4-5.9.0/diff.md --exclude *.pyd
+[2024-04-08 10:56:21] INFO root fetch - processPackages [apis-acdhch-default-settings]: Remove: archive file [/home/abi/fetcher/tmp/apis_acdhch_default_settings-0.1.24.tar.gz]
+[2024-04-08 10:56:21] INFO root fetch - processPackages [apis-acdhch-default-settings]: Remove: archive file [/home/abi/fetcher/tmp/apis_acdhch_default_settings-1.0.0.tar.gz]
+[2024-04-08 10:56:21] INFO root fetch - main [MainThread]: End processing [apis-acdhch-default-settings]: success
+[2024-04-08 10:56:21] INFO root fetch - processPackages [pyconverters-whisperx]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_whisperx-0.5.4.tar.gz]
+[2024-04-08 10:56:21] INFO root fetch - processPackages [pyconverters-whisperx]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_whisperx-0.5.6.tar.gz]
+[2024-04-08 10:56:21] INFO root fetch - main [MainThread]: End processing [pyconverters-whisperx]: success
+[2024-04-08 10:56:21] INFO root fetch - main [MainThread]: End processing [pyconverters-whisperx]: success
+[2024-04-08 10:56:21] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.23.tar.gz]
+[2024-04-08 10:56:21] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.24.tar.gz]
+[2024-04-08 10:56:21] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-04-08 10:56:21] INFO root fetch - processPackages [wg-utilities]: Remove: archive file [/home/abi/fetcher/tmp/wg_utilities-5.8.4.tar.gz]
+[2024-04-08 10:56:21] INFO root fetch - processPackages [wg-utilities]: Remove: archive file [/home/abi/fetcher/tmp/wg_utilities-5.9.0.tar.gz]
+[2024-04-08 10:56:21] INFO root fetch - main [MainThread]: End processing [wg-utilities]: success
+[2024-04-08 10:56:21] INFO root fetch - main [MainThread]: Store serial: [22664633]
