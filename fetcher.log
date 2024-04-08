@@ -12598,3 +12598,60 @@
 [2024-04-08 10:05:03] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
 [2024-04-08 10:05:03] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
 [2024-04-08 10:05:03] INFO root fetch - main [MainThread]: Store serial: [22663835]
+[2024-04-08 10:07:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663835]
+[2024-04-08 10:07:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 10:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoctopuce
+[2024-04-08 10:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waylay-sdk
+[2024-04-08 10:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odbc2deltalake
+[2024-04-08 10:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansys-sphinx-theme
+[2024-04-08 10:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SuRFM
+[2024-04-08 10:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: komodo-sdk
+[2024-04-08 10:07:12] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.9] Old Version: [0.0.87]
+[2024-04-08 10:07:12] INFO root fetch - processPackages [waylay-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 10:07:12] WARNING root fetch - processPackages [SuRFM]: Skipping, unable to determine old version
+[2024-04-08 10:07:12] INFO root fetch - main [MainThread]: End processing [SuRFM] error
+[2024-04-08 10:07:12] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-08 10:07:12] INFO root fetch - processPackages [ansys-sphinx-theme]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-08 10:07:12] INFO root fetch - processPackages [yoctopuce]: New version: [2.0.60394] Old Version: [2.0.59526]
+[2024-04-08 10:07:12] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/04/d6/dcc434bc666d281376cb4166cc24b0e11ec86717ed46072bdfbb30230729/komodo_sdk-0.0.87.tar.gz
+[2024-04-08 10:07:12] INFO root fetch - processPackages [yoctopuce]: Downloading https://files.pythonhosted.org/packages/4e/89/8d40254332485883f699af06e08c0319790084b3edc58b1672cf532e6549/yoctopuce-2.0.59526.tar.gz
+[2024-04-08 10:07:12] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/40/9c/983ecd0480fcb8e7b7a9bb662db297a6dff32046cdf9a3f3c76fcebc1348/odbc2deltalake-0.8.0.tar.gz
+[2024-04-08 10:07:12] INFO root fetch - processPackages [waylay-sdk]: Downloading https://files.pythonhosted.org/packages/05/6a/8766c4677b3b8b63ae026561d6610bf1377f66d70b88cfc30e995fcd614e/waylay-sdk-0.0.5.tar.gz
+[2024-04-08 10:07:12] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/ff/ed/eaba1d94eb6e4d850323103f8bcfc9d37f4b4ca7bc8061fe45c76ddf50a3/ansys-sphinx-theme-0.9.8.tar.gz
+[2024-04-08 10:07:12] WARNING root fetch - processPackages [waylay-sdk]: Timeout reached during download
+[2024-04-08 10:07:12] WARNING root fetch - processPackages [odbc2deltalake]: Timeout reached during download
+[2024-04-08 10:07:12] WARNING root fetch - processPackages [ansys-sphinx-theme]: Timeout reached during download
+[2024-04-08 10:07:12] WARNING root fetch - processPackages [komodo-sdk]: Timeout reached during download
+[2024-04-08 10:07:12] INFO root fetch - processPackages [waylay-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d4/081dfa5804eba3d27d4e7a988899a8c9cb221d982b6b8ae3078a978284b5/waylay-sdk-0.0.6.tar.gz
+[2024-04-08 10:07:12] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/e5/e3/864d7467dd8078a33211f150ebfaa3fba9713dc3e9239a686a64f0526d55/odbc2deltalake-0.8.1.tar.gz
+[2024-04-08 10:07:13] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/70/5b/157d8b6bf61c537f299e3cf927537b5c17116cd0a7b718eae284558b48e3/ansys-sphinx-theme-0.9.9.tar.gz
+[2024-04-08 10:07:13] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/c1/75/64665f8823652ae983842708f771508649b4a085802d170fbb9d173d580d/komodo_sdk-0.0.9.tar.gz
+[2024-04-08 10:07:13] WARNING root fetch - processPackages [waylay-sdk]: Timeout reached during download
+[2024-04-08 10:07:13] INFO root fetch - processPackages [waylay-sdk]: executing diffoscope
+[2024-04-08 10:07:13] INFO root fetch - processPackages [waylay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-0.0.5.tar.gz tmp/waylay-sdk-0.0.6.tar.gz --markdown 20240408/w/waylay-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 10:07:13] WARNING root fetch - processPackages [komodo-sdk]: Skipping package: exceeds size limit 41417628>=10485760
+[2024-04-08 10:07:13] INFO root fetch - main [MainThread]: End processing [komodo-sdk] error
+[2024-04-08 10:07:13] WARNING root fetch - processPackages [odbc2deltalake]: Timeout reached during download
+[2024-04-08 10:07:13] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-04-08 10:07:13] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.8.0.tar.gz tmp/odbc2deltalake-0.8.1.tar.gz --markdown 20240408/o/odbc2deltalake/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-08 10:07:13] WARNING root fetch - processPackages [yoctopuce]: Timeout reached during download
+[2024-04-08 10:07:13] WARNING root fetch - processPackages [ansys-sphinx-theme]: Timeout reached during download
+[2024-04-08 10:07:13] INFO root fetch - processPackages [ansys-sphinx-theme]: executing diffoscope
+[2024-04-08 10:07:13] INFO root fetch - processPackages [ansys-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-sphinx-theme-0.9.8.tar.gz tmp/ansys-sphinx-theme-0.9.9.tar.gz --markdown 20240408/a/ansys-sphinx-theme/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-08 10:07:13] INFO root fetch - processPackages [yoctopuce]: Downloading https://files.pythonhosted.org/packages/9f/7f/f57c82f11e0ca9bf530ed9946b05259dca0435b0114fc0078bfe8bff386b/yoctopuce-2.0.60394.tar.gz
+[2024-04-08 10:07:13] WARNING root fetch - processPackages [yoctopuce]: Timeout reached during download
+[2024-04-08 10:07:13] INFO root fetch - processPackages [yoctopuce]: executing diffoscope
+[2024-04-08 10:07:13] INFO root fetch - processPackages [yoctopuce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoctopuce-2.0.59526.tar.gz tmp/yoctopuce-2.0.60394.tar.gz --markdown 20240408/y/yoctopuce/2.0.59526-2.0.60394/diff.md --exclude *.pyd
+[2024-04-08 10:07:13] INFO root fetch - processPackages [waylay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-0.0.5.tar.gz]
+[2024-04-08 10:07:13] INFO root fetch - processPackages [waylay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-0.0.6.tar.gz]
+[2024-04-08 10:07:13] INFO root fetch - main [MainThread]: End processing [waylay-sdk]: success
+[2024-04-08 10:07:13] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.8.0.tar.gz]
+[2024-04-08 10:07:13] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.8.1.tar.gz]
+[2024-04-08 10:07:13] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-04-08 10:07:14] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.8.tar.gz]
+[2024-04-08 10:07:14] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.9.tar.gz]
+[2024-04-08 10:07:14] INFO root fetch - main [MainThread]: End processing [ansys-sphinx-theme]: success
+[2024-04-08 10:08:04] INFO root fetch - processPackages [yoctopuce]: Remove: archive file [/home/abi/fetcher/tmp/yoctopuce-2.0.59526.tar.gz]
+[2024-04-08 10:08:04] INFO root fetch - processPackages [yoctopuce]: Remove: archive file [/home/abi/fetcher/tmp/yoctopuce-2.0.60394.tar.gz]
+[2024-04-08 10:08:04] INFO root fetch - main [MainThread]: End processing [yoctopuce]: success
+[2024-04-08 10:08:04] INFO root fetch - main [MainThread]: Store serial: [22663863]
