@@ -15197,3 +15197,64 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:27:33] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
 [2024-04-08 11:27:33] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2024-04-08 11:27:33] INFO root fetch - main [MainThread]: Store serial: [22664972]
+[2024-04-08 11:29:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664972]
+[2024-04-08 11:29:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 11:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testcontainers
+[2024-04-08 11:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiges
+[2024-04-08 11:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-sdk
+[2024-04-08 11:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xfem
+[2024-04-08 11:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-acp-core
+[2024-04-08 11:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-unused-fixtures
+[2024-04-08 11:29:42] INFO root fetch - processPackages [testcontainers]: New version: [4.3.1rc1] Old Version: [4.3.1]
+[2024-04-08 11:29:42] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post66.dev0]
+[2024-04-08 11:29:42] ERROR root fetch - processPackages [ansys-acp-core]: Unable to get metadata: No such project 'ansys-acp-core'
+[2024-04-08 11:29:42] INFO root fetch - main [MainThread]: End processing [ansys-acp-core] error
+[2024-04-08 11:29:42] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-04-08 11:29:42] INFO root fetch - processPackages [aiges]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 11:29:42] INFO root fetch - processPackages [pytest-unused-fixtures]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-08 11:29:42] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/e4/c7/c14f93484238d366b76a9e241a19ec367cdc150a6c3a4e98696482a4101e/xfem-2.1.2303.post66.dev0.tar.gz
+[2024-04-08 11:29:43] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/c8/88/de4d98bb1b9484860e24aa4aa136146eb82feaeff103623508d01b58b9d2/testcontainers-4.3.1.tar.gz
+[2024-04-08 11:29:43] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-04-08 11:29:43] INFO root fetch - processPackages [pytest-unused-fixtures]: Downloading https://files.pythonhosted.org/packages/d0/18/f2c8c22813229caf50ab49c9208dd1556877b210369fef61c41ddb6eb887/pytest_unused_fixtures-0.1.4.tar.gz
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [testcontainers]: Timeout reached during download
+[2024-04-08 11:29:43] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/bf/b7/eabaea8d93438d6f015788efed71fc32b8fc4403045b59f3b9342930c26e/aiges-0.9.0.tar.gz
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 11:29:43] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [pytest-unused-fixtures]: Timeout reached during download
+[2024-04-08 11:29:43] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/df/93/981fbad00dfec753bb934ac2ca8e903fca9a91ecbf88ce716698b2d88d9f/testcontainers-4.3.1rc1.tar.gz
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [cognite-sdk]: Timeout reached during download
+[2024-04-08 11:29:43] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2024-04-08 11:29:43] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post66.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20240408/x/xfem/2.1.2303.post66.dev0-2.1.2303.post8.dev0/diff.md --exclude *.pyd
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [aiges]: Timeout reached during download
+[2024-04-08 11:29:43] INFO root fetch - processPackages [pytest-unused-fixtures]: Downloading https://files.pythonhosted.org/packages/35/45/780fd2e93adb2828e1ae95597283697169ba408fb24667b3849de0e169bf/pytest_unused_fixtures-0.1.5.tar.gz
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [testcontainers]: Timeout reached during download
+[2024-04-08 11:29:43] INFO root fetch - processPackages [testcontainers]: executing diffoscope
+[2024-04-08 11:29:43] INFO root fetch - processPackages [testcontainers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testcontainers-4.3.1.tar.gz tmp/testcontainers-4.3.1rc1.tar.gz --markdown 20240408/t/testcontainers/4.3.1-4.3.1rc1/diff.md --exclude *.pyd
+[2024-04-08 11:29:43] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-04-08 11:29:43] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/03/ce/48485e621c555a5b8e1c5bf8c7ca31578667147b89084320bca0f41a8932/aiges-0.9.1.tar.gz
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [pytest-unused-fixtures]: Timeout reached during download
+[2024-04-08 11:29:43] INFO root fetch - processPackages [pytest-unused-fixtures]: executing diffoscope
+[2024-04-08 11:29:43] INFO root fetch - processPackages [pytest-unused-fixtures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_unused_fixtures-0.1.4.tar.gz tmp/pytest_unused_fixtures-0.1.5.tar.gz --markdown 20240408/p/pytest-unused-fixtures/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [aiges]: Timeout reached during download
+[2024-04-08 11:29:43] INFO root fetch - processPackages [aiges]: executing diffoscope
+[2024-04-08 11:29:43] INFO root fetch - processPackages [aiges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiges-0.9.0.tar.gz tmp/aiges-0.9.1.tar.gz --markdown 20240408/a/aiges/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 11:29:43] WARNING root fetch - processPackages [cognite-sdk]: Timeout reached during download
+[2024-04-08 11:29:43] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-04-08 11:29:43] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240408/c/cognite-sdk/7.8.9-7.9.0/diff.md --exclude *.pyd
+[2024-04-08 11:29:44] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.3.1.tar.gz]
+[2024-04-08 11:29:44] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.3.1rc1.tar.gz]
+[2024-04-08 11:29:44] INFO root fetch - main [MainThread]: End processing [testcontainers]: success
+[2024-04-08 11:29:44] INFO root fetch - processPackages [pytest-unused-fixtures]: Remove: archive file [/home/abi/fetcher/tmp/pytest_unused_fixtures-0.1.4.tar.gz]
+[2024-04-08 11:29:44] INFO root fetch - processPackages [pytest-unused-fixtures]: Remove: archive file [/home/abi/fetcher/tmp/pytest_unused_fixtures-0.1.5.tar.gz]
+[2024-04-08 11:29:44] INFO root fetch - main [MainThread]: End processing [pytest-unused-fixtures]: success
+[2024-04-08 11:29:44] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post66.dev0.tar.gz]
+[2024-04-08 11:29:44] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2024-04-08 11:29:44] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2024-04-08 11:29:44] INFO root fetch - processPackages [aiges]: Remove: archive file [/home/abi/fetcher/tmp/aiges-0.9.0.tar.gz]
+[2024-04-08 11:29:44] INFO root fetch - processPackages [aiges]: Remove: archive file [/home/abi/fetcher/tmp/aiges-0.9.1.tar.gz]
+[2024-04-08 11:29:44] INFO root fetch - main [MainThread]: End processing [aiges]: success
+[2024-04-08 11:29:45] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-04-08 11:29:45] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-04-08 11:29:45] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-04-08 11:29:45] INFO root fetch - main [MainThread]: Store serial: [22664994]
