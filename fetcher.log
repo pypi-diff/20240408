@@ -13243,3 +13243,72 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:23:56] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.5.tar.gz]
 [2024-04-08 10:23:56] INFO root fetch - main [MainThread]: End processing [scs-core]: success
 [2024-04-08 10:23:56] INFO root fetch - main [MainThread]: Store serial: [22664142]
+[2024-04-08 10:26:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664142]
+[2024-04-08 10:26:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbviews-django
+[2024-04-08 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-maintenance-plan-activity
+[2024-04-08 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-graph
+[2024-04-08 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kongfu-api
+[2024-04-08 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-admin-assets
+[2024-04-08 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revert-api
+[2024-04-08 10:26:05] INFO root fetch - processPackages [dbviews-django]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 10:26:05] INFO root fetch - processPackages [kongfu-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-08 10:26:05] INFO root fetch - processPackages [dbviews-django]: Downloading https://files.pythonhosted.org/packages/c8/a2/21743c0eb64eb5906319a215077ce26fc5b3dfb26b810379ebc8b1e36298/dbviews_django-0.1.0.tar.gz
+[2024-04-08 10:26:05] INFO root fetch - processPackages [revert-api]: New version: [0.0.834] Old Version: [0.0.795]
+[2024-04-08 10:26:05] INFO root fetch - processPackages [odoo-addon-maintenance-plan-activity]: New version: [16.0.1.0.0.1] Old Version: [15.0.1.0.2.4]
+[2024-04-08 10:26:05] INFO root fetch - processPackages [kongfu-api]: Downloading https://files.pythonhosted.org/packages/5b/5c/24abc2714886068618fed43f6dafe4d7a63aa8d286d705fd75d68a3e8e72/kongfu-api-0.0.4.tar.gz
+[2024-04-08 10:26:05] INFO root fetch - processPackages [sphinx-graph]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-08 10:26:05] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1472] Old Version: [1.0.0.post1470]
+[2024-04-08 10:26:05] WARNING root fetch - processPackages [dbviews-django]: Timeout reached during download
+[2024-04-08 10:26:05] WARNING root fetch - processPackages [kongfu-api]: Timeout reached during download
+[2024-04-08 10:26:05] INFO root fetch - processPackages [dbviews-django]: Downloading https://files.pythonhosted.org/packages/98/19/a1010bcffd4d269ff29573cf74eae0cc355289420832027f3bf2c0006d9b/dbviews_django-0.1.1.tar.gz
+[2024-04-08 10:26:05] INFO root fetch - processPackages [odoo-addon-maintenance-plan-activity]: Downloading https://files.pythonhosted.org/packages/52/3a/1c0baeccbd537ed3952fcae80515f4e979041eedda4ac883ceb418f49f73/odoo_addon_maintenance_plan_activity-15.0.1.0.2.4-py3-none-any.whl
+[2024-04-08 10:26:05] INFO root fetch - processPackages [sphinx-graph]: Downloading https://files.pythonhosted.org/packages/73/56/2f26d7afb6d5db8272aa6354670c701fedb8737da9e0e3a3e1925f1ef9a9/sphinx_graph-0.2.2.tar.gz
+[2024-04-08 10:26:05] INFO root fetch - processPackages [kongfu-api]: Downloading https://files.pythonhosted.org/packages/45/df/a1fc07de7193674c292abc9960af44066dc69ed3ac5dadaa60890ca66184/kongfu-api-0.0.5.tar.gz
+[2024-04-08 10:26:05] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/2f/f1/f9f054815bf6326ab384dc96476cc2b5b2c9a3d620bfdce9c215c70cd3fa/revert_api-0.0.795.tar.gz
+[2024-04-08 10:26:05] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/fe/ff/2193ec2bf331b22979c27c31c2a1118c9c4e1f10a1d495124e6cf40684fe/nucliadb_admin_assets-1.0.0.post1470-py3-none-any.whl
+[2024-04-08 10:26:05] WARNING root fetch - processPackages [dbviews-django]: Timeout reached during download
+[2024-04-08 10:26:05] INFO root fetch - processPackages [dbviews-django]: executing diffoscope
+[2024-04-08 10:26:05] INFO root fetch - processPackages [dbviews-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbviews_django-0.1.0.tar.gz tmp/dbviews_django-0.1.1.tar.gz --markdown 20240408/d/dbviews-django/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 10:26:05] WARNING root fetch - processPackages [kongfu-api]: Timeout reached during download
+[2024-04-08 10:26:05] INFO root fetch - processPackages [kongfu-api]: executing diffoscope
+[2024-04-08 10:26:05] INFO root fetch - processPackages [kongfu-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kongfu-api-0.0.4.tar.gz tmp/kongfu-api-0.0.5.tar.gz --markdown 20240408/k/kongfu-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-08 10:26:05] WARNING root fetch - processPackages [revert-api]: Timeout reached during download
+[2024-04-08 10:26:05] WARNING root fetch - processPackages [sphinx-graph]: Timeout reached during download
+[2024-04-08 10:26:05] WARNING root fetch - processPackages [odoo-addon-maintenance-plan-activity]: Timeout reached during download
+[2024-04-08 10:26:05] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-08 10:26:05] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/d7/cc/292ee866841febdda1ff9292cca6b26ccb648f83d1b2dc962b2d545691f8/revert_api-0.0.834.tar.gz
+[2024-04-08 10:26:06] INFO root fetch - processPackages [sphinx-graph]: Downloading https://files.pythonhosted.org/packages/49/e4/8bd9c75c0213e38694a3fb3bb0c26ac44c9fb9c7f6456cf4fe61f06f8bfd/sphinx_graph-0.2.3.tar.gz
+[2024-04-08 10:26:06] INFO root fetch - processPackages [odoo-addon-maintenance-plan-activity]: Downloading https://files.pythonhosted.org/packages/45/c4/8470bd39784fb6b94ca6557d9abbe57668c4d368bab26b7ab8b14a1a1a3e/odoo_addon_maintenance_plan_activity-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-08 10:26:06] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/69/5f/0d2f615c690ca0e944d2e0335928dff4dd31de21a7e2ee84a32be6538c01/nucliadb_admin_assets-1.0.0.post1472-py3-none-any.whl
+[2024-04-08 10:26:06] WARNING root fetch - processPackages [sphinx-graph]: Timeout reached during download
+[2024-04-08 10:26:06] INFO root fetch - processPackages [sphinx-graph]: executing diffoscope
+[2024-04-08 10:26:06] INFO root fetch - processPackages [sphinx-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_graph-0.2.2.tar.gz tmp/sphinx_graph-0.2.3.tar.gz --markdown 20240408/s/sphinx-graph/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-08 10:26:06] WARNING root fetch - processPackages [revert-api]: Timeout reached during download
+[2024-04-08 10:26:06] INFO root fetch - processPackages [revert-api]: executing diffoscope
+[2024-04-08 10:26:06] INFO root fetch - processPackages [revert-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revert_api-0.0.795.tar.gz tmp/revert_api-0.0.834.tar.gz --markdown 20240408/r/revert-api/0.0.795-0.0.834/diff.md --exclude *.pyd
+[2024-04-08 10:26:06] WARNING root fetch - processPackages [odoo-addon-maintenance-plan-activity]: Timeout reached during download
+[2024-04-08 10:26:06] INFO root fetch - processPackages [odoo-addon-maintenance-plan-activity]: executing diffoscope
+[2024-04-08 10:26:06] INFO root fetch - processPackages [odoo-addon-maintenance-plan-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_plan_activity-15.0.1.0.2.4-py3-none-any.whl.zip tmp/odoo_addon_maintenance_plan_activity-16.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-maintenance-plan-activity/15.0.1.0.2.4-16.0.1.0.0.1/diff.md --exclude *.pyd
+[2024-04-08 10:26:06] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-08 10:26:06] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-08 10:26:06] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1470-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1472-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-admin-assets/1.0.0.post1470-1.0.0.post1472/diff.md --exclude *.pyd
+[2024-04-08 10:26:06] INFO root fetch - processPackages [dbviews-django]: Remove: archive file [/home/abi/fetcher/tmp/dbviews_django-0.1.0.tar.gz]
+[2024-04-08 10:26:06] INFO root fetch - processPackages [dbviews-django]: Remove: archive file [/home/abi/fetcher/tmp/dbviews_django-0.1.1.tar.gz]
+[2024-04-08 10:26:06] INFO root fetch - main [MainThread]: End processing [dbviews-django]: success
+[2024-04-08 10:26:06] INFO root fetch - processPackages [kongfu-api]: Remove: archive file [/home/abi/fetcher/tmp/kongfu-api-0.0.4.tar.gz]
+[2024-04-08 10:26:06] INFO root fetch - processPackages [kongfu-api]: Remove: archive file [/home/abi/fetcher/tmp/kongfu-api-0.0.5.tar.gz]
+[2024-04-08 10:26:06] INFO root fetch - main [MainThread]: End processing [kongfu-api]: success
+[2024-04-08 10:26:07] INFO root fetch - processPackages [odoo-addon-maintenance-plan-activity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_plan_activity-15.0.1.0.2.4-py3-none-any.whl.zip]
+[2024-04-08 10:26:07] INFO root fetch - processPackages [odoo-addon-maintenance-plan-activity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_plan_activity-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-08 10:26:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-plan-activity]: success
+[2024-04-08 10:26:07] INFO root fetch - processPackages [sphinx-graph]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_graph-0.2.2.tar.gz]
+[2024-04-08 10:26:07] INFO root fetch - processPackages [sphinx-graph]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_graph-0.2.3.tar.gz]
+[2024-04-08 10:26:07] INFO root fetch - main [MainThread]: End processing [sphinx-graph]: success
+[2024-04-08 10:26:07] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.795.tar.gz]
+[2024-04-08 10:26:07] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.834.tar.gz]
+[2024-04-08 10:26:07] INFO root fetch - main [MainThread]: End processing [revert-api]: success
+[2024-04-08 10:26:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1470-py3-none-any.whl.zip]
+[2024-04-08 10:26:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1472-py3-none-any.whl.zip]
+[2024-04-08 10:26:22] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-08 10:26:22] INFO root fetch - main [MainThread]: Store serial: [22664165]
