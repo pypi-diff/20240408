@@ -17406,3 +17406,61 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:38:25] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.5.8.tar.gz]
 [2024-04-08 12:38:25] INFO root fetch - main [MainThread]: End processing [guarddog]: success
 [2024-04-08 12:38:25] INFO root fetch - main [MainThread]: Store serial: [22665763]
+[2024-04-08 12:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665763]
+[2024-04-08 12:40:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ign8
+[2024-04-08 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: development-tool
+[2024-04-08 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastlane-bot
+[2024-04-08 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radix_tree
+[2024-04-08 12:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymemgpt-nightly
+[2024-04-08 12:40:34] INFO root fetch - processPackages [development-tool]: New version: [0.3.5] Old Version: [0.3]
+[2024-04-08 12:40:34] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.28]
+[2024-04-08 12:40:34] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.8.dev20240407103920] Old Version: [0.3.8.dev20240407003448]
+[2024-04-08 12:40:34] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/59/99/b056ba5dec2fbc9fb1ee878f357dabf3ef14c17620c8747f6dd8bd7154d6/development-tool-0.3.tar.gz
+[2024-04-08 12:40:34] INFO root fetch - processPackages [fastlane-bot]: New version: [3.1.4] Old Version: [3.1.3]
+[2024-04-08 12:40:34] INFO root fetch - processPackages [radix_tree]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 12:40:34] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/07/78/9f15e6a3aca4e38c32d467e37303c1ae6376d50aed631f66ec665e24d868/pymemgpt_nightly-0.3.8.dev20240407003448.tar.gz
+[2024-04-08 12:40:34] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/d7/04/0a66cc9674e776deb0b8135c4ff17827fe939a8b954597460c4acad4c184/ign8-4.8.28.tar.gz
+[2024-04-08 12:40:34] INFO root fetch - processPackages [radix_tree]: Downloading https://files.pythonhosted.org/packages/c9/86/ba8aef1fe197da26f20ba40e359adb1f992bca4f45d21400ee0dd2a7e967/radix_tree-0.0.2.tar.gz
+[2024-04-08 12:40:34] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/d8/76/c81f2a65c962d2a0fffd9a4a36e6b59e6dd03a8aea356a84ee04deadd926/fastlane_bot-3.1.3-py3-none-any.whl
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [development-tool]: Timeout reached during download
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [pymemgpt-nightly]: Timeout reached during download
+[2024-04-08 12:40:35] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/d7/f9/62f02e9cb9a848a4f6873aec142b513192e9621002e6b9b293e007e74894/development-tool-0.3.5.tar.gz
+[2024-04-08 12:40:35] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [radix_tree]: Timeout reached during download
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [fastlane-bot]: Timeout reached during download
+[2024-04-08 12:40:35] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/fc/cf/3e61349197a3649a19de57d48a89c4e4970e557b83914d2291753bba62da/pymemgpt_nightly-0.3.8.dev20240407103920.tar.gz
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:40:35] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-08 12:40:35] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.28.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240408/i/ign8/4.8.28-4.8.5/diff.md --exclude *.pyd
+[2024-04-08 12:40:35] INFO root fetch - processPackages [radix_tree]: Downloading https://files.pythonhosted.org/packages/3c/ac/480af1233f33ec0f0165634946b203e0cd70a6fe0ad143558ae389a0875c/radix_tree-0.0.3.tar.gz
+[2024-04-08 12:40:35] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/74/07/7a2ebf4470e6f9cdc04be64f889aac38566a2ac2f4b713fdf8bea8fb41e5/fastlane_bot-3.1.4-py3-none-any.whl
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [development-tool]: Timeout reached during download
+[2024-04-08 12:40:35] INFO root fetch - processPackages [development-tool]: executing diffoscope
+[2024-04-08 12:40:35] INFO root fetch - processPackages [development-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/development-tool-0.3.tar.gz tmp/development-tool-0.3.5.tar.gz --markdown 20240408/d/development-tool/0.3-0.3.5/diff.md --exclude *.pyd
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [pymemgpt-nightly]: Timeout reached during download
+[2024-04-08 12:40:35] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-08 12:40:35] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.8.dev20240407003448.tar.gz tmp/pymemgpt_nightly-0.3.8.dev20240407103920.tar.gz --markdown 20240408/p/pymemgpt-nightly/0.3.8.dev20240407003448-0.3.8.dev20240407103920/diff.md --exclude *.pyd
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [radix_tree]: Timeout reached during download
+[2024-04-08 12:40:35] INFO root fetch - processPackages [radix_tree]: executing diffoscope
+[2024-04-08 12:40:35] INFO root fetch - processPackages [radix_tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radix_tree-0.0.2.tar.gz tmp/radix_tree-0.0.3.tar.gz --markdown 20240408/r/radix_tree/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 12:40:35] WARNING root fetch - processPackages [fastlane-bot]: Timeout reached during download
+[2024-04-08 12:40:35] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2024-04-08 12:40:35] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-3.1.3-py3-none-any.whl.zip tmp/fastlane_bot-3.1.4-py3-none-any.whl.zip --markdown 20240408/f/fastlane-bot/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2024-04-08 12:40:36] INFO root fetch - processPackages [radix_tree]: Remove: archive file [/home/abi/fetcher/tmp/radix_tree-0.0.2.tar.gz]
+[2024-04-08 12:40:36] INFO root fetch - processPackages [radix_tree]: Remove: archive file [/home/abi/fetcher/tmp/radix_tree-0.0.3.tar.gz]
+[2024-04-08 12:40:36] INFO root fetch - main [MainThread]: End processing [radix_tree]: success
+[2024-04-08 12:40:36] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.tar.gz]
+[2024-04-08 12:40:36] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.5.tar.gz]
+[2024-04-08 12:40:36] INFO root fetch - main [MainThread]: End processing [development-tool]: success
+[2024-04-08 12:40:36] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240407003448.tar.gz]
+[2024-04-08 12:40:36] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240407103920.tar.gz]
+[2024-04-08 12:40:36] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-08 12:40:36] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-3.1.3-py3-none-any.whl.zip]
+[2024-04-08 12:40:36] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-3.1.4-py3-none-any.whl.zip]
+[2024-04-08 12:40:36] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2024-04-08 12:40:39] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.28.tar.gz]
+[2024-04-08 12:40:39] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-08 12:40:39] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-08 12:40:39] INFO root fetch - main [MainThread]: Store serial: [22665776]
