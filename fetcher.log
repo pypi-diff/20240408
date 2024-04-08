@@ -22170,3 +22170,103 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:16:51] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-2.0.0rc3.tar.gz]
 [2024-04-08 15:16:51] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
 [2024-04-08 15:16:51] INFO root fetch - main [MainThread]: Store serial: [22667427]
+[2024-04-08 15:18:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667427]
+[2024-04-08 15:19:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssh-ca-cli
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ridepy
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic2-resolve
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scyan
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssh-ca-cli
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-espresso
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cefi
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: falconz
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sunholo
+[2024-04-08 15:19:02] INFO root fetch - processPackages [python-espresso]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-08 15:19:02] INFO root fetch - processPackages [cefi]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-04-08 15:19:02] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 15:19:02] INFO root fetch - processPackages [python-espresso]: Downloading https://files.pythonhosted.org/packages/a4/5a/8d863d27b30b042675de024f2e584196edb09af1cb2d463f8b56b02df849/python-espresso-1.8.0.tar.gz
+[2024-04-08 15:19:02] INFO root fetch - processPackages [scyan]: New version: [1.6.0] Old Version: [1.5.4]
+[2024-04-08 15:19:02] INFO root fetch - processPackages [pydantic2-resolve]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/82/ab/1cc092efdd610fd6d69549cb55c06cab6e4e95c0c7f41ece26a7fe454bd7/ssh_ca_cli-0.7.1.tar.gz
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ridepy]: New version: [2.5] Old Version: [2.4.2.post1]
+[2024-04-08 15:19:02] INFO root fetch - processPackages [falconz]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-04-08 15:19:02] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-08 15:19:02] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/82/ab/1cc092efdd610fd6d69549cb55c06cab6e4e95c0c7f41ece26a7fe454bd7/ssh_ca_cli-0.7.1.tar.gz
+[2024-04-08 15:19:02] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/9f/6f/b7eee3b4879d098e2a52f34c083c22464a458de6a14ec1108b2340d66a6a/cefi-4.4.8.tar.gz
+[2024-04-08 15:19:02] WARNING root fetch - processPackages [python-espresso]: Timeout reached during download
+[2024-04-08 15:19:02] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:19:02] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:19:02] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [scyan]: Downloading https://files.pythonhosted.org/packages/9b/7a/130ce8f6e59cc86fa26956ed5399bca3217340a3f752945b7738b49432b9/scyan-1.5.4.tar.gz
+[2024-04-08 15:19:03] INFO root fetch - processPackages [pydantic2-resolve]: Downloading https://files.pythonhosted.org/packages/8c/6d/c39b2d587e20bf17df6ed399328c6417b6481068f9d4f3c0ea10e52dc044/pydantic2_resolve-2.0.0.tar.gz
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ridepy]: Downloading https://files.pythonhosted.org/packages/eb/87/c332df008b0f5cf7306b7102a74aacc7b3b5737a892235fe2e2b733bbe74/ridepy-2.4.2.post1.tar.gz
+[2024-04-08 15:19:03] INFO root fetch - processPackages [falconz]: Downloading https://files.pythonhosted.org/packages/0d/32/50cc94ad5dfa960acbc5a908544063b3d48818ccaa22aeaadd0b56138180/falconz-2.0.9.tar.gz
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-08 15:19:03] INFO root fetch - processPackages [python-espresso]: Downloading https://files.pythonhosted.org/packages/7c/bb/5ad43da7f4b7048d15e2b769cf6ac2fae7290fc5364563d2ec541e2f2c90/python-espresso-1.8.1.tar.gz
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [scyan]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/65/ac/93b6ff2e92c8b0d2f3b1034e1993816d9ab543d39235dcc4c47232b52b73/ssh_ca_cli-0.7.2.tar.gz
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ssh-ca-cli]: Downloading https://files.pythonhosted.org/packages/65/ac/93b6ff2e92c8b0d2f3b1034e1993816d9ab543d39235dcc4c47232b52b73/ssh_ca_cli-0.7.2.tar.gz
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [ridepy]: Timeout reached during download
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [sunholo]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-08 15:19:03] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240408/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [pydantic2-resolve]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/24/cb/bae47dd044182bcf7ae8adf3c1fccca44fa81eb4a9ecf576af925856d106/cefi-4.4.9.tar.gz
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.1.tar.gz tmp/ssh_ca_cli-0.7.2.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [falconz]: Timeout reached during download
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [ssh-ca-cli]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ssh-ca-cli]: executing diffoscope
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ssh-ca-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_ca_cli-0.7.1.tar.gz tmp/ssh_ca_cli-0.7.2.tar.gz --markdown 20240408/s/ssh-ca-cli/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [python-espresso]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [python-espresso]: executing diffoscope
+[2024-04-08 15:19:03] INFO root fetch - processPackages [python-espresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-espresso-1.8.0.tar.gz tmp/python-espresso-1.8.1.tar.gz --markdown 20240408/p/python-espresso/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2024-04-08 15:19:03] INFO root fetch - processPackages [scyan]: Downloading https://files.pythonhosted.org/packages/3f/61/a6feaa55645229d3f6c67effd569d303bed294c80506f2778ff97011494e/scyan-1.6.0.tar.gz
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ridepy]: Downloading https://files.pythonhosted.org/packages/ce/f7/321b721fab1fbe0ad0ec845678665c5fab4abf283d1a9259c21edef4fa86/ridepy-2.5.tar.gz
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-08 15:19:03] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.4.8.tar.gz tmp/cefi-4.4.9.tar.gz --markdown 20240408/c/cefi/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2024-04-08 15:19:03] INFO root fetch - processPackages [pydantic2-resolve]: Downloading https://files.pythonhosted.org/packages/db/cc/0fad75b80fc391ec66589ed57770d24f8f7d7c94617122ae6552f83468c1/pydantic2_resolve-2.1.0.tar.gz
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [scyan]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [scyan]: executing diffoscope
+[2024-04-08 15:19:03] INFO root fetch - processPackages [scyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scyan-1.5.4.tar.gz tmp/scyan-1.6.0.tar.gz --markdown 20240408/s/scyan/1.5.4-1.6.0/diff.md --exclude *.pyd
+[2024-04-08 15:19:03] INFO root fetch - processPackages [falconz]: Downloading https://files.pythonhosted.org/packages/9d/82/0f19922ca7930dd0583f5897a3c38b85d7b8726b6d09872989ed01709901/falconz-2.1.0.tar.gz
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [ridepy]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ridepy]: executing diffoscope
+[2024-04-08 15:19:03] INFO root fetch - processPackages [ridepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridepy-2.4.2.post1.tar.gz tmp/ridepy-2.5.tar.gz --markdown 20240408/r/ridepy/2.4.2.post1-2.5/diff.md --exclude *.pyd
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [pydantic2-resolve]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [pydantic2-resolve]: executing diffoscope
+[2024-04-08 15:19:03] INFO root fetch - processPackages [pydantic2-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic2_resolve-2.0.0.tar.gz tmp/pydantic2_resolve-2.1.0.tar.gz --markdown 20240408/p/pydantic2-resolve/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-08 15:19:03] WARNING root fetch - processPackages [falconz]: Timeout reached during download
+[2024-04-08 15:19:03] INFO root fetch - processPackages [falconz]: executing diffoscope
+[2024-04-08 15:19:03] INFO root fetch - processPackages [falconz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falconz-2.0.9.tar.gz tmp/falconz-2.1.0.tar.gz --markdown 20240408/f/falconz/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2024-04-08 15:19:04] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.1.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - processPackages [ssh-ca-cli]: Remove: archive file [/home/abi/fetcher/tmp/ssh_ca_cli-0.7.2.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli]: success
+[2024-04-08 15:19:04] INFO root fetch - processPackages [python-espresso]: Remove: archive file [/home/abi/fetcher/tmp/python-espresso-1.8.0.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - processPackages [python-espresso]: Remove: archive file [/home/abi/fetcher/tmp/python-espresso-1.8.1.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [python-espresso]: success
+[2024-04-08 15:19:04] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.8.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.9.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-08 15:19:04] INFO root fetch - processPackages [pydantic2-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic2_resolve-2.0.0.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - processPackages [pydantic2-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic2_resolve-2.1.0.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [pydantic2-resolve]: success
+[2024-04-08 15:19:04] INFO root fetch - processPackages [falconz]: Remove: archive file [/home/abi/fetcher/tmp/falconz-2.0.9.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - processPackages [falconz]: Remove: archive file [/home/abi/fetcher/tmp/falconz-2.1.0.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [falconz]: success
+[2024-04-08 15:19:04] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-08 15:19:04] INFO root fetch - processPackages [scyan]: Remove: archive file [/home/abi/fetcher/tmp/scyan-1.5.4.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - processPackages [scyan]: Remove: archive file [/home/abi/fetcher/tmp/scyan-1.6.0.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [scyan]: success
+[2024-04-08 15:19:04] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.4.2.post1.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.5.tar.gz]
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [ridepy]: success
+[2024-04-08 15:19:04] INFO root fetch - main [MainThread]: Store serial: [22667454]
