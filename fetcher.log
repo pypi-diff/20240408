@@ -12551,3 +12551,50 @@
 [2024-04-08 10:02:51] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-04-08 10:02:51] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-04-08 10:02:51] INFO root fetch - main [MainThread]: Store serial: [22663823]
+[2024-04-08 10:04:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663823]
+[2024-04-08 10:05:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 10:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hestia-earth-models
+[2024-04-08 10:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qarray
+[2024-04-08 10:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langfun
+[2024-04-08 10:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prodpadlm-client
+[2024-04-08 10:05:00] INFO root fetch - processPackages [prodpadlm-client]: New version: [0.1.1.3] Old Version: [0.1.1.2]
+[2024-04-08 10:05:00] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240407] Old Version: [0.0.2.dev20240406]
+[2024-04-08 10:05:00] INFO root fetch - processPackages [qarray]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 10:05:00] INFO root fetch - processPackages [prodpadlm-client]: Downloading https://files.pythonhosted.org/packages/79/3f/cf078eac4a6204f50411ec23869a3d1a002fd0867222de0164e1c1983a5c/prodpadlm_client-0.1.1.2.tar.gz
+[2024-04-08 10:05:00] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/31/89/409922c731cc256b6da5fbd1df0695b53015e4dcce7f48efb4400d4ba37b/langfun-0.0.2.dev20240406.tar.gz
+[2024-04-08 10:05:00] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 10:05:00] WARNING root fetch - processPackages [prodpadlm-client]: Timeout reached during download
+[2024-04-08 10:05:00] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/f4/30/e3d86ebb9bc2646028e1d8c491ea40bc155ebff45fd670545d5e93b156a2/qarray-1.0.8.tar.gz
+[2024-04-08 10:05:00] WARNING root fetch - processPackages [langfun]: Timeout reached during download
+[2024-04-08 10:05:00] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2024-04-08 10:05:00] INFO root fetch - processPackages [prodpadlm-client]: Downloading https://files.pythonhosted.org/packages/cf/16/8d2751f3210c08989f69781a41f2e16000efbf4484a58d0801de0cc20d07/prodpadlm_client-0.1.1.3.tar.gz
+[2024-04-08 10:05:00] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/4a/7d/84b5af4be1acf1bcc72457e4b177b1ee0794c39d4df8cca9dd93688a76eb/langfun-0.0.2.dev20240407.tar.gz
+[2024-04-08 10:05:00] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-08 10:05:00] WARNING root fetch - processPackages [hestia-earth-models]: Timeout reached during download
+[2024-04-08 10:05:00] WARNING root fetch - processPackages [prodpadlm-client]: Timeout reached during download
+[2024-04-08 10:05:00] INFO root fetch - processPackages [prodpadlm-client]: executing diffoscope
+[2024-04-08 10:05:00] INFO root fetch - processPackages [prodpadlm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodpadlm_client-0.1.1.2.tar.gz tmp/prodpadlm_client-0.1.1.3.tar.gz --markdown 20240408/p/prodpadlm-client/0.1.1.2-0.1.1.3/diff.md --exclude *.pyd
+[2024-04-08 10:05:00] WARNING root fetch - processPackages [langfun]: Timeout reached during download
+[2024-04-08 10:05:00] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-08 10:05:00] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240406.tar.gz tmp/langfun-0.0.2.dev20240407.tar.gz --markdown 20240408/l/langfun/0.0.2.dev20240406-0.0.2.dev20240407/diff.md --exclude *.pyd
+[2024-04-08 10:05:01] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/c8/ae/deb254c43a3f13e4f9d9066a312647a1fe26692bc116dfbda4ac487f8fa5/qarray-1.0.9.tar.gz
+[2024-04-08 10:05:01] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2024-04-08 10:05:01] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-08 10:05:01] INFO root fetch - processPackages [qarray]: executing diffoscope
+[2024-04-08 10:05:01] INFO root fetch - processPackages [qarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qarray-1.0.8.tar.gz tmp/qarray-1.0.9.tar.gz --markdown 20240408/q/qarray/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:05:01] INFO root fetch - processPackages [prodpadlm-client]: Remove: archive file [/home/abi/fetcher/tmp/prodpadlm_client-0.1.1.2.tar.gz]
+[2024-04-08 10:05:01] INFO root fetch - processPackages [prodpadlm-client]: Remove: archive file [/home/abi/fetcher/tmp/prodpadlm_client-0.1.1.3.tar.gz]
+[2024-04-08 10:05:01] INFO root fetch - main [MainThread]: End processing [prodpadlm-client]: success
+[2024-04-08 10:05:01] WARNING root fetch - processPackages [hestia-earth-models]: Timeout reached during download
+[2024-04-08 10:05:01] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2024-04-08 10:05:01] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20240408/h/hestia-earth-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 10:05:01] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240406.tar.gz]
+[2024-04-08 10:05:01] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240407.tar.gz]
+[2024-04-08 10:05:01] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-08 10:05:02] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.8.tar.gz]
+[2024-04-08 10:05:02] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.9.tar.gz]
+[2024-04-08 10:05:02] INFO root fetch - main [MainThread]: End processing [qarray]: success
+[2024-04-08 10:05:03] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.0.tar.gz]
+[2024-04-08 10:05:03] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
+[2024-04-08 10:05:03] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2024-04-08 10:05:03] INFO root fetch - main [MainThread]: Store serial: [22663835]
