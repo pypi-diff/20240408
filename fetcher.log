@@ -12157,3 +12157,34 @@
 [2024-04-08 09:47:22] INFO root fetch - processPackages [sql-mock]: Remove: archive file [/home/abi/fetcher/tmp/sql_mock-0.6.1.tar.gz]
 [2024-04-08 09:47:22] INFO root fetch - main [MainThread]: End processing [sql-mock]: success
 [2024-04-08 09:47:22] INFO root fetch - main [MainThread]: Store serial: [22663610]
+[2024-04-08 09:49:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663610]
+[2024-04-08 09:49:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prodpadlm-client
+[2024-04-08 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-zhipu
+[2024-04-08 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nhmail
+[2024-04-08 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funasr
+[2024-04-08 09:49:31] INFO root fetch - processPackages [prodpadlm-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 09:49:31] INFO root fetch - processPackages [funasr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 09:49:31] WARNING root fetch - processPackages [nhmail]: Skipping, unable to determine old version
+[2024-04-08 09:49:31] INFO root fetch - main [MainThread]: End processing [nhmail] error
+[2024-04-08 09:49:31] WARNING root fetch - processPackages [llm-zhipu]: Skipping, unable to determine old version
+[2024-04-08 09:49:31] INFO root fetch - main [MainThread]: End processing [llm-zhipu] error
+[2024-04-08 09:49:31] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/21/21/731cf3cbf78402270debbdb84df0ea7792894307364fd9d73b168d54311f/funasr-1.0.8.tar.gz
+[2024-04-08 09:49:31] INFO root fetch - processPackages [prodpadlm-client]: Downloading https://files.pythonhosted.org/packages/62/25/5d9e6dd2623f7695f57aab4246c28b68bfb49745884be1e7611b60d9dbda/prodpadlm_client-0.1.0.tar.gz
+[2024-04-08 09:49:31] WARNING root fetch - processPackages [prodpadlm-client]: Timeout reached during download
+[2024-04-08 09:49:31] WARNING root fetch - processPackages [funasr]: Timeout reached during download
+[2024-04-08 09:49:31] INFO root fetch - processPackages [prodpadlm-client]: Downloading https://files.pythonhosted.org/packages/fe/23/a4047fd9de02d958d0e761dca3483072e57b6466b793fdbeab596598fc7b/prodpadlm_client-0.1.1.tar.gz
+[2024-04-08 09:49:31] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d0/dd/6f3c701795e79dbbbfe61e62b81fabcb3d7a62598476c4197f8156a012ad/funasr-1.0.9.tar.gz
+[2024-04-08 09:49:31] WARNING root fetch - processPackages [prodpadlm-client]: Timeout reached during download
+[2024-04-08 09:49:31] INFO root fetch - processPackages [prodpadlm-client]: executing diffoscope
+[2024-04-08 09:49:31] INFO root fetch - processPackages [prodpadlm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodpadlm_client-0.1.0.tar.gz tmp/prodpadlm_client-0.1.1.tar.gz --markdown 20240408/p/prodpadlm-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 09:49:31] WARNING root fetch - processPackages [funasr]: Timeout reached during download
+[2024-04-08 09:49:31] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2024-04-08 09:49:31] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-1.0.8.tar.gz tmp/funasr-1.0.9.tar.gz --markdown 20240408/f/funasr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 09:49:32] INFO root fetch - processPackages [prodpadlm-client]: Remove: archive file [/home/abi/fetcher/tmp/prodpadlm_client-0.1.0.tar.gz]
+[2024-04-08 09:49:32] INFO root fetch - processPackages [prodpadlm-client]: Remove: archive file [/home/abi/fetcher/tmp/prodpadlm_client-0.1.1.tar.gz]
+[2024-04-08 09:49:32] INFO root fetch - main [MainThread]: End processing [prodpadlm-client]: success
+[2024-04-08 09:49:33] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.8.tar.gz]
+[2024-04-08 09:49:33] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
+[2024-04-08 09:49:33] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2024-04-08 09:49:33] INFO root fetch - main [MainThread]: Store serial: [22663630]
