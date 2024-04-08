@@ -8982,3 +8982,42 @@
 [2024-04-08 07:14:40] INFO root fetch - processPackages [pyflyby]: Remove: archive file [/home/abi/fetcher/tmp/pyflyby-1.9.3.tar.gz]
 [2024-04-08 07:14:40] INFO root fetch - main [MainThread]: End processing [pyflyby]: success
 [2024-04-08 07:14:40] INFO root fetch - main [MainThread]: Store serial: [22662529]
+[2024-04-08 07:16:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662529]
+[2024-04-08 07:17:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 07:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SyDataSet
+[2024-04-08 07:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-space-trader
+[2024-04-08 07:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: relari
+[2024-04-08 07:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinta
+[2024-04-08 07:17:00] INFO root fetch - processPackages [tinta]: New version: [0.1.7b5] Old Version: [0.1.7b4.post0]
+[2024-04-08 07:17:00] INFO root fetch - processPackages [deep-space-trader]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-04-08 07:17:00] INFO root fetch - processPackages [deep-space-trader]: Downloading https://files.pythonhosted.org/packages/d1/0f/ae603b3f09cbbd77849b5668d499b2e253636cb93da3a01c2337d23db7fb/deep_space_trader-1.2.3-py3-none-any.whl
+[2024-04-08 07:17:00] INFO root fetch - processPackages [relari]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-08 07:17:00] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/31/d9/03f7436c281a66d9197c43b9bebf1fa198c5344c31dff109417ecb6d6e85/tinta-0.1.7b4.post0.tar.gz
+[2024-04-08 07:17:00] WARNING root fetch - processPackages [SyDataSet]: Skipping, unable to determine old version
+[2024-04-08 07:17:00] INFO root fetch - main [MainThread]: End processing [SyDataSet] error
+[2024-04-08 07:17:00] WARNING root fetch - processPackages [deep-space-trader]: Timeout reached during download
+[2024-04-08 07:17:00] WARNING root fetch - processPackages [tinta]: Timeout reached during download
+[2024-04-08 07:17:01] INFO root fetch - processPackages [deep-space-trader]: Downloading https://files.pythonhosted.org/packages/04/c0/b9323ec7ee797da8f9cdf8a919da72e810903a7b0b08cf394466867046d9/deep_space_trader-1.3.0-py3-none-any.whl
+[2024-04-08 07:17:01] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/03/ed/042c9ff65fda73591f38f4c8d5d5bbca3f76cada88b66db134ae5a903b68/tinta-0.1.7b5.tar.gz
+[2024-04-08 07:17:01] INFO root fetch - processPackages [relari]: Downloading https://files.pythonhosted.org/packages/ac/a7/b2132c73a63f0778e0cece6555f96f5e31ef6d096226a1aba9b193308417/relari-0.1.3.tar.gz
+[2024-04-08 07:17:01] WARNING root fetch - processPackages [relari]: Timeout reached during download
+[2024-04-08 07:17:01] WARNING root fetch - processPackages [deep-space-trader]: Timeout reached during download
+[2024-04-08 07:17:01] INFO root fetch - processPackages [deep-space-trader]: executing diffoscope
+[2024-04-08 07:17:01] INFO root fetch - processPackages [deep-space-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_space_trader-1.2.3-py3-none-any.whl.zip tmp/deep_space_trader-1.3.0-py3-none-any.whl.zip --markdown 20240408/d/deep-space-trader/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2024-04-08 07:17:01] WARNING root fetch - processPackages [tinta]: Timeout reached during download
+[2024-04-08 07:17:01] INFO root fetch - processPackages [tinta]: executing diffoscope
+[2024-04-08 07:17:01] INFO root fetch - processPackages [tinta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinta-0.1.7b4.post0.tar.gz tmp/tinta-0.1.7b5.tar.gz --markdown 20240408/t/tinta/0.1.7b4.post0-0.1.7b5/diff.md --exclude *.pyd
+[2024-04-08 07:17:01] INFO root fetch - processPackages [relari]: Downloading https://files.pythonhosted.org/packages/67/f7/7451d6f365a462d719d6137ea9a95fcd984ab9531ed5386ff63b7ae7db02/relari-0.1.4.tar.gz
+[2024-04-08 07:17:01] WARNING root fetch - processPackages [relari]: Timeout reached during download
+[2024-04-08 07:17:01] INFO root fetch - processPackages [relari]: executing diffoscope
+[2024-04-08 07:17:01] INFO root fetch - processPackages [relari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relari-0.1.3.tar.gz tmp/relari-0.1.4.tar.gz --markdown 20240408/r/relari/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-08 07:17:01] INFO root fetch - processPackages [deep-space-trader]: Remove: archive file [/home/abi/fetcher/tmp/deep_space_trader-1.2.3-py3-none-any.whl.zip]
+[2024-04-08 07:17:01] INFO root fetch - processPackages [deep-space-trader]: Remove: archive file [/home/abi/fetcher/tmp/deep_space_trader-1.3.0-py3-none-any.whl.zip]
+[2024-04-08 07:17:01] INFO root fetch - main [MainThread]: End processing [deep-space-trader]: success
+[2024-04-08 07:17:01] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.7b4.post0.tar.gz]
+[2024-04-08 07:17:01] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.7b5.tar.gz]
+[2024-04-08 07:17:01] INFO root fetch - main [MainThread]: End processing [tinta]: success
+[2024-04-08 07:17:02] INFO root fetch - processPackages [relari]: Remove: archive file [/home/abi/fetcher/tmp/relari-0.1.3.tar.gz]
+[2024-04-08 07:17:02] INFO root fetch - processPackages [relari]: Remove: archive file [/home/abi/fetcher/tmp/relari-0.1.4.tar.gz]
+[2024-04-08 07:17:02] INFO root fetch - main [MainThread]: End processing [relari]: success
+[2024-04-08 07:17:02] INFO root fetch - main [MainThread]: Store serial: [22662542]
