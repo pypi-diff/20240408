@@ -13830,3 +13830,108 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:43:07] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev9.tar.gz]
 [2024-04-08 10:43:07] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-08 10:43:07] INFO root fetch - main [MainThread]: Store serial: [22664399]
+[2024-04-08 10:45:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664399]
+[2024-04-08 10:45:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-toothfairy-annotator
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kqcircuits
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unibot_hn
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-venafi
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-confluentcloud
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openai-cost-tracer
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: InsulaClient
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opentf-tools-nightly
+[2024-04-08 10:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: podpointclient
+[2024-04-08 10:45:16] INFO root fetch - processPackages [kfish]: New version: [99.0.202404080617] Old Version: [99.0.202404061955]
+[2024-04-08 10:45:16] INFO root fetch - processPackages [napari-toothfairy-annotator]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-08 10:45:16] INFO root fetch - processPackages [podpointclient]: New version: [1.6.0a3] Old Version: [1.6.0a2]
+[2024-04-08 10:45:16] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.47.0.dev730] Old Version: [0.47.0.dev727]
+[2024-04-08 10:45:16] INFO root fetch - processPackages [kqcircuits]: New version: [4.7.9] Old Version: [4.7.7]
+[2024-04-08 10:45:16] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.8.0a1712403151] Old Version: [1.8.0a1711781679]
+[2024-04-08 10:45:16] INFO root fetch - processPackages [InsulaClient]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-08 10:45:16] WARNING root fetch - processPackages [openai-cost-tracer]: Skipping, unable to determine old version
+[2024-04-08 10:45:16] INFO root fetch - main [MainThread]: End processing [openai-cost-tracer] error
+[2024-04-08 10:45:16] INFO root fetch - processPackages [unibot_hn]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-08 10:45:16] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/a1/ed/839fb6b85a7a5671adff0e932c12b36a57e9489f8e44ca854bde27727f93/kqcircuits-4.7.7.tar.gz
+[2024-04-08 10:45:16] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e7/a0/e7d9917db83ff24018f8644c1a0153974c29ecdc28f7799b0d1163402b05/kfish-99.0.202404061955-py3-none-any.whl
+[2024-04-08 10:45:16] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/0a/c1/2747c0b8a4901672ab41d7085f207dd25c0f38cf827a049ab90793ac1c7c/podpointclient-1.6.0a2.tar.gz
+[2024-04-08 10:45:16] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-08 10:45:16] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/4f/0b/f79658d1f6f66d4396b58aebc69124a60647fd2ad11e4f3856d2d3a4f7d3/opentf_tools_nightly-0.47.0.dev727-py3-none-any.whl
+[2024-04-08 10:45:16] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/ba/ee/e6168aaae8ef9359defff4b31522162765b34ba61d13d094398271904a43/napari-toothfairy-annotator-0.0.6.tar.gz
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [kqcircuits]: Timeout reached during download
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [opentf-tools-nightly]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [InsulaClient]: Downloading https://files.pythonhosted.org/packages/92/e7/91c00db13d491e6b6c5a29a3fba5533614ae8115642e5df4ab11719d799c/insulaclient-0.6.0-py3-none-any.whl
+[2024-04-08 10:45:17] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/68/7f/1c941dbb43a2545482db18382dcfdd19c84556d11c13e6c6ac777462ef8a/pulumi_venafi-1.8.0a1711781679.tar.gz
+[2024-04-08 10:45:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [napari-toothfairy-annotator]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ce/40/18170da1e87045074bd2ab41f506f79fb5a1f5de1c8b2481a1f5f35aa31d/kfish-99.0.202404080617-py3-none-any.whl
+[2024-04-08 10:45:17] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/0f/66/e738dc55ec6ab57487e99a84596a44bea1df97654810360b0bca99c00feb/kqcircuits-4.7.9.tar.gz
+[2024-04-08 10:45:17] INFO root fetch - processPackages [unibot_hn]: Downloading https://files.pythonhosted.org/packages/01/20/9b9c46b8b3553fc7defcd9e73efa12202bde302dd8df1ac25dbc890046c5/unibot_hn-0.0.7.tar.gz
+[2024-04-08 10:45:17] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/a9/02/621227a6933bc7309234aa9d3fe5a42c643159ddd61434ec56280a3bc584/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [pulumi-venafi]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/60/32/8d521fb5a94ecc4342cb2ed8d2e5db23392cc3ee04fd0ce0ad099ba9f37c/napari-toothfairy-annotator-0.0.7.tar.gz
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [InsulaClient]: Timeout reached during download
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-08 10:45:17] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404061955-py3-none-any.whl.zip tmp/kfish-99.0.202404080617-py3-none-any.whl.zip --markdown 20240408/k/kfish/99.0.202404061955-99.0.202404080617/diff.md --exclude *.pyd
+[2024-04-08 10:45:17] INFO root fetch - processPackages [podpointclient]: Downloading https://files.pythonhosted.org/packages/65/d0/364653e2aee12e1d88243f65fd12d1fd0d6cb338e0514531ff54b3ede4ba/podpointclient-1.6.0a3.tar.gz
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [opentf-tools-nightly]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2024-04-08 10:45:17] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.47.0.dev727-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl.zip --markdown 20240408/o/opentf-tools-nightly/0.47.0.dev727-0.47.0.dev730/diff.md --exclude *.pyd
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [kqcircuits]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2024-04-08 10:45:17] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.7.7.tar.gz tmp/kqcircuits-4.7.9.tar.gz --markdown 20240408/k/kqcircuits/4.7.7-4.7.9/diff.md --exclude *.pyd
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [napari-toothfairy-annotator]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [napari-toothfairy-annotator]: executing diffoscope
+[2024-04-08 10:45:17] INFO root fetch - processPackages [napari-toothfairy-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-toothfairy-annotator-0.0.6.tar.gz tmp/napari-toothfairy-annotator-0.0.7.tar.gz --markdown 20240408/n/napari-toothfairy-annotator/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [unibot_hn]: Timeout reached during download
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [pulumi-confluentcloud]: Timeout reached during download
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [podpointclient]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [podpointclient]: executing diffoscope
+[2024-04-08 10:45:17] INFO root fetch - processPackages [podpointclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podpointclient-1.6.0a2.tar.gz tmp/podpointclient-1.6.0a3.tar.gz --markdown 20240408/p/podpointclient/1.6.0a2-1.6.0a3/diff.md --exclude *.pyd
+[2024-04-08 10:45:17] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/59/67/6599bedf0fe1fce2924989c3990234f15373b1a9ea01a45322f0e8095f5d/pulumi_venafi-1.8.0a1712403151.tar.gz
+[2024-04-08 10:45:17] INFO root fetch - processPackages [InsulaClient]: Downloading https://files.pythonhosted.org/packages/51/43/737248e1ab17da560dcaf4051a6ba368981b8de81e0903333c4489ff053e/insulaclient-0.6.1-py3-none-any.whl
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [pulumi-venafi]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-04-08 10:45:17] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.8.0a1711781679.tar.gz tmp/pulumi_venafi-1.8.0a1712403151.tar.gz --markdown 20240408/p/pulumi-venafi/1.8.0a1711781679-1.8.0a1712403151/diff.md --exclude *.pyd
+[2024-04-08 10:45:17] INFO root fetch - processPackages [unibot_hn]: Downloading https://files.pythonhosted.org/packages/75/8c/8b5171d805d25f812e9ac46a5ae7b3075e30347959ec2c80237d9f7ada6f/unibot_hn-0.0.8.tar.gz
+[2024-04-08 10:45:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [InsulaClient]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [InsulaClient]: executing diffoscope
+[2024-04-08 10:45:17] INFO root fetch - processPackages [InsulaClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insulaclient-0.6.0-py3-none-any.whl.zip tmp/insulaclient-0.6.1-py3-none-any.whl.zip --markdown 20240408/I/InsulaClient/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-08 10:45:17] WARNING root fetch - processPackages [pulumi-confluentcloud]: Timeout reached during download
+[2024-04-08 10:45:17] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-08 10:45:17] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240408/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2024-04-08 10:45:18] WARNING root fetch - processPackages [unibot_hn]: Timeout reached during download
+[2024-04-08 10:45:18] INFO root fetch - processPackages [unibot_hn]: executing diffoscope
+[2024-04-08 10:45:18] INFO root fetch - processPackages [unibot_hn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibot_hn-0.0.7.tar.gz tmp/unibot_hn-0.0.8.tar.gz --markdown 20240408/u/unibot_hn/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-08 10:45:18] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404061955-py3-none-any.whl.zip]
+[2024-04-08 10:45:18] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404080617-py3-none-any.whl.zip]
+[2024-04-08 10:45:18] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-08 10:45:18] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.6.tar.gz]
+[2024-04-08 10:45:18] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.7.tar.gz]
+[2024-04-08 10:45:18] INFO root fetch - main [MainThread]: End processing [napari-toothfairy-annotator]: success
+[2024-04-08 10:45:18] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev727-py3-none-any.whl.zip]
+[2024-04-08 10:45:18] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl.zip]
+[2024-04-08 10:45:18] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2024-04-08 10:45:18] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.6.0a2.tar.gz]
+[2024-04-08 10:45:18] INFO root fetch - processPackages [podpointclient]: Remove: archive file [/home/abi/fetcher/tmp/podpointclient-1.6.0a3.tar.gz]
+[2024-04-08 10:45:18] INFO root fetch - main [MainThread]: End processing [podpointclient]: success
+[2024-04-08 10:45:18] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.8.0a1711781679.tar.gz]
+[2024-04-08 10:45:18] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.8.0a1712403151.tar.gz]
+[2024-04-08 10:45:18] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-04-08 10:45:18] INFO root fetch - processPackages [InsulaClient]: Remove: archive file [/home/abi/fetcher/tmp/insulaclient-0.6.0-py3-none-any.whl.zip]
+[2024-04-08 10:45:18] INFO root fetch - processPackages [InsulaClient]: Remove: archive file [/home/abi/fetcher/tmp/insulaclient-0.6.1-py3-none-any.whl.zip]
+[2024-04-08 10:45:18] INFO root fetch - main [MainThread]: End processing [InsulaClient]: success
+[2024-04-08 10:45:18] INFO root fetch - processPackages [unibot_hn]: Remove: archive file [/home/abi/fetcher/tmp/unibot_hn-0.0.7.tar.gz]
+[2024-04-08 10:45:18] INFO root fetch - processPackages [unibot_hn]: Remove: archive file [/home/abi/fetcher/tmp/unibot_hn-0.0.8.tar.gz]
+[2024-04-08 10:45:18] INFO root fetch - main [MainThread]: End processing [unibot_hn]: success
+[2024-04-08 10:45:19] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-08 10:45:19] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-08 10:45:19] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-08 10:45:19] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.7.7.tar.gz]
+[2024-04-08 10:45:19] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.7.9.tar.gz]
+[2024-04-08 10:45:19] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2024-04-08 10:45:19] INFO root fetch - main [MainThread]: Store serial: [22664446]
