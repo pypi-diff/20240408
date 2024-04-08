@@ -3136,3 +3136,39 @@
 [2024-04-08 04:07:12] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b4.tar.gz]
 [2024-04-08 04:07:12] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
 [2024-04-08 04:07:12] INFO root fetch - main [MainThread]: Store serial: [22660810]
+[2024-04-08 04:09:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660810]
+[2024-04-08 04:09:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 04:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reprompt
+[2024-04-08 04:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambkid
+[2024-04-08 04:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CheeseAPI
+[2024-04-08 04:09:21] INFO root fetch - processPackages [reprompt]: New version: [0.0.6rc46.post1] Old Version: [0.0.6rc45.post1]
+[2024-04-08 04:09:21] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/14/f2/55cc19443e18a7ad5904f9dbbbf10d38a3ea7a4d953e2dc15e901676f0f9/reprompt-0.0.6rc45.post1.tar.gz
+[2024-04-08 04:09:21] INFO root fetch - processPackages [lambkid]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 04:09:21] INFO root fetch - processPackages [CheeseAPI]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-08 04:09:21] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/06/ef/5143a3a43affcf98e210e1e05ad04a2e0c652d0c699aee178d2c3bbe8e10/lambkid-0.1.0.tar.gz
+[2024-04-08 04:09:21] WARNING root fetch - processPackages [reprompt]: Timeout reached during download
+[2024-04-08 04:09:21] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/92/b3/71650462441ed08a696a08ca66c42169a0d5a458d0dce9862bacc8f7fb9e/cheeseapi-0.4.8.tar.gz
+[2024-04-08 04:09:21] WARNING root fetch - processPackages [lambkid]: Timeout reached during download
+[2024-04-08 04:09:21] WARNING root fetch - processPackages [CheeseAPI]: Timeout reached during download
+[2024-04-08 04:09:21] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/2b/38/071214bc0b73e17a3f60081cfcfd3cce0e628e963ee8b9565baa805e7020/reprompt-0.0.6rc46.post1.tar.gz
+[2024-04-08 04:09:21] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/ef/3e/13977ddac4b21b369b62f46d54f2c93424bcff7132a990474a63723edd72/lambkid-0.1.1.tar.gz
+[2024-04-08 04:09:21] WARNING root fetch - processPackages [lambkid]: Timeout reached during download
+[2024-04-08 04:09:21] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-08 04:09:21] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.0.tar.gz tmp/lambkid-0.1.1.tar.gz --markdown 20240408/l/lambkid/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 04:09:21] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/7f/08/69377bd33c0bdcb65ea2ed6a3018cf243492be45847030ee51309866d113/cheeseapi-0.4.9.tar.gz
+[2024-04-08 04:09:21] WARNING root fetch - processPackages [reprompt]: Timeout reached during download
+[2024-04-08 04:09:21] INFO root fetch - processPackages [reprompt]: executing diffoscope
+[2024-04-08 04:09:21] INFO root fetch - processPackages [reprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprompt-0.0.6rc45.post1.tar.gz tmp/reprompt-0.0.6rc46.post1.tar.gz --markdown 20240408/r/reprompt/0.0.6rc45.post1-0.0.6rc46.post1/diff.md --exclude *.pyd
+[2024-04-08 04:09:21] WARNING root fetch - processPackages [CheeseAPI]: Timeout reached during download
+[2024-04-08 04:09:21] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2024-04-08 04:09:21] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheeseapi-0.4.8.tar.gz tmp/cheeseapi-0.4.9.tar.gz --markdown 20240408/C/CheeseAPI/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-08 04:09:22] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.0.tar.gz]
+[2024-04-08 04:09:22] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.1.tar.gz]
+[2024-04-08 04:09:22] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-08 04:09:22] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-0.4.8.tar.gz]
+[2024-04-08 04:09:22] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-0.4.9.tar.gz]
+[2024-04-08 04:09:22] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2024-04-08 04:09:22] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.6rc45.post1.tar.gz]
+[2024-04-08 04:09:22] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.6rc46.post1.tar.gz]
+[2024-04-08 04:09:22] INFO root fetch - main [MainThread]: End processing [reprompt]: success
+[2024-04-08 04:09:22] INFO root fetch - main [MainThread]: Store serial: [22660818]
