@@ -7563,3 +7563,75 @@
 [2024-04-08 05:58:37] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vms-3.0.999.tar.gz]
 [2024-04-08 05:58:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vms]: success
 [2024-04-08 05:58:37] INFO root fetch - main [MainThread]: Store serial: [22662125]
+[2024-04-08 06:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662125]
+[2024-04-08 06:00:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 06:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RismTemplate
+[2024-04-08 06:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-wav
+[2024-04-08 06:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-wedata
+[2024-04-08 06:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-weilingwith
+[2024-04-08 06:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gasm
+[2024-04-08 06:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psrdb
+[2024-04-08 06:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MeMeST
+[2024-04-08 06:00:56] WARNING root fetch - processPackages [RismTemplate]: Skipping, unable to determine old version
+[2024-04-08 06:00:56] INFO root fetch - main [MainThread]: End processing [RismTemplate] error
+[2024-04-08 06:00:56] INFO root fetch - processPackages [MeMeST]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-08 06:00:56] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/0a/05/4fe658103ed73881615e4175ddb5418e7e4410fc67235400f9dd9410e5a5/MeMeST-1.0-py3-none-any.whl
+[2024-04-08 06:00:56] INFO root fetch - processPackages [gasm]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-08 06:00:56] INFO root fetch - processPackages [psrdb]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-08 06:00:56] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 06:00:56] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 06:00:56] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 06:00:56] WARNING root fetch - processPackages [MeMeST]: Timeout reached during download
+[2024-04-08 06:00:57] INFO root fetch - processPackages [psrdb]: Downloading https://files.pythonhosted.org/packages/ec/0b/e87bcf91e7dc490f776fdae2bf190c03b051d0abd1f5b5b9c60d322c1821/psrdb-3.0.2.tar.gz
+[2024-04-08 06:00:57] INFO root fetch - processPackages [gasm]: Downloading https://files.pythonhosted.org/packages/f9/90/9225af44a3aeb4ffdc7f78b0be09e64517f85c57403cb13170f71c86e5d5/gasm-1.1.7.tar.gz
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/e1/bb/443aa69e996bba0b0b2c092c2f0432d30eb93660e9ab22e6fa18c4e3deba/tencentcloud-sdk-python-wav-3.0.998.tar.gz
+[2024-04-08 06:00:57] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c1/3b/c7955d1c3c703db2c158071944977fa9fb44e5fda0a9129283cd841f7004/MeMeST-1.0.1.tar.gz
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/35/b3/f926e3ed6c290f3bbf08ac990f833a7daaf3868d916b224d01578d8d378d/tencentcloud-sdk-python-wedata-3.0.998.tar.gz
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/81/63/b0d1801a15fad8e2aa2c233009875f8c4240c99f14a58252fee1453d7213/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [psrdb]: Timeout reached during download
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [gasm]: Timeout reached during download
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [MeMeST]: Timeout reached during download
+[2024-04-08 06:00:57] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-08 06:00:57] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-1.0-py3-none-any.whl.zip tmp/MeMeST-1.0.1.tar.gz --markdown 20240408/M/MeMeST/1.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Timeout reached during download
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [tencentcloud-sdk-python-wedata]: Timeout reached during download
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [tencentcloud-sdk-python-wav]: Timeout reached during download
+[2024-04-08 06:00:57] INFO root fetch - processPackages [psrdb]: Downloading https://files.pythonhosted.org/packages/ff/88/7cbf904573a433b22eeab03b321f014dd33e2a93953a9f8e15155fcae9a4/psrdb-3.0.3.tar.gz
+[2024-04-08 06:00:57] INFO root fetch - processPackages [gasm]: Downloading https://files.pythonhosted.org/packages/25/8e/51e6ecd1dff399f845b857329a11aff3cf97d1a4e1f587acb7d40f1a4ad7/gasm-1.1.8.tar.gz
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [psrdb]: Timeout reached during download
+[2024-04-08 06:00:57] INFO root fetch - processPackages [psrdb]: executing diffoscope
+[2024-04-08 06:00:57] INFO root fetch - processPackages [psrdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psrdb-3.0.2.tar.gz tmp/psrdb-3.0.3.tar.gz --markdown 20240408/p/psrdb/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [gasm]: Timeout reached during download
+[2024-04-08 06:00:57] INFO root fetch - processPackages [gasm]: executing diffoscope
+[2024-04-08 06:00:57] INFO root fetch - processPackages [gasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gasm-1.1.7.tar.gz tmp/gasm-1.1.8.tar.gz --markdown 20240408/g/gasm/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/53/86/2730b85def19aa7efe94bf2779bbcef46bbbbf609dfc65193421600e0a6c/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/67/5c/c7bc89115e9650fa844054ef443a6901cd25f53c6d3f46f51c6b9536ac7a/tencentcloud-sdk-python-wav-3.0.999.tar.gz
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/13/f7/dd48b9a4c3f121c9e4be93063ea150b1d23184f2079d7796592825767327/tencentcloud-sdk-python-wedata-3.0.999.tar.gz
+[2024-04-08 06:00:57] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-1.0-py3-none-any.whl.zip]
+[2024-04-08 06:00:57] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-1.0.1.tar.gz]
+[2024-04-08 06:00:57] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Timeout reached during download
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: executing diffoscope
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-weilingwith/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 06:00:57] WARNING root fetch - processPackages [tencentcloud-sdk-python-wedata]: Timeout reached during download
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: executing diffoscope
+[2024-04-08 06:00:57] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-wedata/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 06:00:58] WARNING root fetch - processPackages [tencentcloud-sdk-python-wav]: Timeout reached during download
+[2024-04-08 06:00:58] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: executing diffoscope
+[2024-04-08 06:00:58] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-wav/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 06:00:58] INFO root fetch - processPackages [gasm]: Remove: archive file [/home/abi/fetcher/tmp/gasm-1.1.7.tar.gz]
+[2024-04-08 06:00:58] INFO root fetch - processPackages [gasm]: Remove: archive file [/home/abi/fetcher/tmp/gasm-1.1.8.tar.gz]
+[2024-04-08 06:00:58] INFO root fetch - main [MainThread]: End processing [gasm]: success
+[2024-04-08 06:00:58] INFO root fetch - processPackages [psrdb]: Remove: archive file [/home/abi/fetcher/tmp/psrdb-3.0.2.tar.gz]
+[2024-04-08 06:00:58] INFO root fetch - processPackages [psrdb]: Remove: archive file [/home/abi/fetcher/tmp/psrdb-3.0.3.tar.gz]
+[2024-04-08 06:00:58] INFO root fetch - main [MainThread]: End processing [psrdb]: success
+[2024-04-08 06:00:58] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz]
+[2024-04-08 06:00:58] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz]
+[2024-04-08 06:00:58] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-weilingwith]: success
+[2024-04-08 06:00:58] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz]
+[2024-04-08 06:00:58] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz]
+[2024-04-08 06:00:58] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wav]: success
+[2024-04-08 06:00:59] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz]
+[2024-04-08 06:00:59] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz]
+[2024-04-08 06:00:59] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
+[2024-04-08 06:00:59] INFO root fetch - main [MainThread]: Store serial: [22662149]
