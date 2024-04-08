@@ -3347,3 +3347,83 @@
 [2024-04-08 04:18:15] INFO root fetch - processPackages [types-pywin32]: Remove: archive file [/home/abi/fetcher/tmp/types-pywin32-306.0.0.8.tar.gz]
 [2024-04-08 04:18:15] INFO root fetch - main [MainThread]: End processing [types-pywin32]: success
 [2024-04-08 04:18:15] INFO root fetch - main [MainThread]: Store serial: [22660877]
+[2024-04-08 04:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660877]
+[2024-04-08 04:20:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-04-08 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicAlgLib
+[2024-04-08 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxrf
+[2024-04-08 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panther
+[2024-04-08 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: partcad
+[2024-04-08 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: partcad-cli
+[2024-04-08 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smaht-submitr
+[2024-04-08 04:20:26] INFO root fetch - processPackages [musicAlgLib]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-08 04:20:26] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b6] Old Version: [0.8.0.1b5]
+[2024-04-08 04:20:26] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240407] Old Version: [1.2.20240406]
+[2024-04-08 04:20:26] INFO root fetch - processPackages [pyxrf]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 04:20:26] INFO root fetch - processPackages [partcad]: New version: [0.5.8] Old Version: [0.5.6]
+[2024-04-08 04:20:26] INFO root fetch - processPackages [partcad-cli]: New version: [0.5.8] Old Version: [0.5.6]
+[2024-04-08 04:20:26] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/84/0a/6743d0c7c8e4eb0770b4d8cab5b59ea5dcf487e03468cc17ef9940ac6ceb/musicAlgLib-1.1.2.tar.gz
+[2024-04-08 04:20:26] INFO root fetch - processPackages [panther]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-04-08 04:20:26] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/f2/48/e4413848a8d504886c77e99416fc2c3ecd8d60774d36ea727addfdd8b7bd/iam_actions-1.2.20240406.tar.gz
+[2024-04-08 04:20:26] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/7b/e0/2fce6debf4d68a018d7ddc523c0528a0ffd4bc745d34dddf4f7ee1445f00/smaht_submitr-0.8.0.1b5.tar.gz
+[2024-04-08 04:20:26] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:20:26] WARNING root fetch - processPackages [iam-actions]: Timeout reached during download
+[2024-04-08 04:20:26] INFO root fetch - processPackages [pyxrf]: Downloading https://files.pythonhosted.org/packages/05/ca/3f471b0f103ccee4c472fed8097a8503fcf2b757207bd1abf3caed0bc71d/pyxrf-1.0.8.tar.gz
+[2024-04-08 04:20:26] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/3e/cb/8f26cffe75a05b8bc1934e50124b54859830101450e8098e2533a96f3b72/panther-4.1.1.tar.gz
+[2024-04-08 04:20:26] INFO root fetch - processPackages [partcad]: Downloading https://files.pythonhosted.org/packages/c6/3e/ab9894d660d45d5f2005cf32052abdc381f700b70cecb6b79ba0676a71d7/partcad-0.5.6.tar.gz
+[2024-04-08 04:20:26] INFO root fetch - processPackages [partcad-cli]: Downloading https://files.pythonhosted.org/packages/4b/c1/3d7f9982d25cca95e10598ae983052a6594e92b6c67c06a477bc13f43e76/partcad-cli-0.5.6.tar.gz
+[2024-04-08 04:20:26] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/ab/b9/d6b9cc2dc519f4c40a0f5b7353a12f927379a59f69337f7f81cc0c0c1b8e/iam_actions-1.2.20240407.tar.gz
+[2024-04-08 04:20:26] WARNING root fetch - processPackages [musicAlgLib]: Timeout reached during download
+[2024-04-08 04:20:26] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/b9/ad/5af7d533a8425c6eddfa8bdd508de9717d8e2ca5d3dfeddc6a36a4e11cc6/smaht_submitr-0.8.0.1b6.tar.gz
+[2024-04-08 04:20:26] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/d6/40/1f7aab500b101e2ff1ae7debbbe3549918725360fdbd93ca7b0fc01d7b69/musicAlgLib-1.1.3.tar.gz
+[2024-04-08 04:20:26] WARNING root fetch - processPackages [partcad-cli]: Timeout reached during download
+[2024-04-08 04:20:26] WARNING root fetch - processPackages [panther]: Timeout reached during download
+[2024-04-08 04:20:26] WARNING root fetch - processPackages [partcad]: Timeout reached during download
+[2024-04-08 04:20:26] WARNING root fetch - processPackages [iam-actions]: Timeout reached during download
+[2024-04-08 04:20:26] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-08 04:20:26] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240406.tar.gz tmp/iam_actions-1.2.20240407.tar.gz --markdown 20240408/i/iam-actions/1.2.20240406-1.2.20240407/diff.md --exclude *.pyd
+[2024-04-08 04:20:26] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:20:26] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-08 04:20:26] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b5.tar.gz tmp/smaht_submitr-0.8.0.1b6.tar.gz --markdown 20240408/s/smaht-submitr/0.8.0.1b5-0.8.0.1b6/diff.md --exclude *.pyd
+[2024-04-08 04:20:27] WARNING root fetch - processPackages [pyxrf]: Timeout reached during download
+[2024-04-08 04:20:27] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/cb/a9/9a35213f934342533094facf9c802629310276f66006e616a87a506351eb/panther-4.1.2.tar.gz
+[2024-04-08 04:20:27] WARNING root fetch - processPackages [musicAlgLib]: Timeout reached during download
+[2024-04-08 04:20:27] INFO root fetch - processPackages [musicAlgLib]: executing diffoscope
+[2024-04-08 04:20:27] INFO root fetch - processPackages [musicAlgLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicAlgLib-1.1.2.tar.gz tmp/musicAlgLib-1.1.3.tar.gz --markdown 20240408/m/musicAlgLib/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2024-04-08 04:20:27] INFO root fetch - processPackages [partcad-cli]: Downloading https://files.pythonhosted.org/packages/fc/da/0409b0611ae7809cbda68b32c5da75951860078381851ebb0a60e1fcbf6d/partcad-cli-0.5.8.tar.gz
+[2024-04-08 04:20:27] INFO root fetch - processPackages [partcad]: Downloading https://files.pythonhosted.org/packages/88/be/f5008156e17086647b954e66271a631a9462573bd4abc69004d5090406dd/partcad-0.5.8.tar.gz
+[2024-04-08 04:20:27] INFO root fetch - processPackages [pyxrf]: Downloading https://files.pythonhosted.org/packages/bb/23/2d7aa3fa196051244e8ba8d12d6f5c973e6b9f7ff439796ffb52658e81bf/pyxrf-1.0.9.tar.gz
+[2024-04-08 04:20:27] WARNING root fetch - processPackages [panther]: Timeout reached during download
+[2024-04-08 04:20:27] INFO root fetch - processPackages [panther]: executing diffoscope
+[2024-04-08 04:20:27] INFO root fetch - processPackages [panther]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther-4.1.1.tar.gz tmp/panther-4.1.2.tar.gz --markdown 20240408/p/panther/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2024-04-08 04:20:27] WARNING root fetch - processPackages [partcad-cli]: Timeout reached during download
+[2024-04-08 04:20:27] INFO root fetch - processPackages [partcad-cli]: executing diffoscope
+[2024-04-08 04:20:27] INFO root fetch - processPackages [partcad-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partcad-cli-0.5.6.tar.gz tmp/partcad-cli-0.5.8.tar.gz --markdown 20240408/p/partcad-cli/0.5.6-0.5.8/diff.md --exclude *.pyd
+[2024-04-08 04:20:27] WARNING root fetch - processPackages [partcad]: Timeout reached during download
+[2024-04-08 04:20:27] INFO root fetch - processPackages [partcad]: executing diffoscope
+[2024-04-08 04:20:27] INFO root fetch - processPackages [partcad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partcad-0.5.6.tar.gz tmp/partcad-0.5.8.tar.gz --markdown 20240408/p/partcad/0.5.6-0.5.8/diff.md --exclude *.pyd
+[2024-04-08 04:20:27] WARNING root fetch - processPackages [pyxrf]: Timeout reached during download
+[2024-04-08 04:20:27] INFO root fetch - processPackages [pyxrf]: executing diffoscope
+[2024-04-08 04:20:27] INFO root fetch - processPackages [pyxrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxrf-1.0.8.tar.gz tmp/pyxrf-1.0.9.tar.gz --markdown 20240408/p/pyxrf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 04:20:27] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b5.tar.gz]
+[2024-04-08 04:20:27] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b6.tar.gz]
+[2024-04-08 04:20:27] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-08 04:20:28] INFO root fetch - processPackages [partcad-cli]: Remove: archive file [/home/abi/fetcher/tmp/partcad-cli-0.5.6.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - processPackages [partcad-cli]: Remove: archive file [/home/abi/fetcher/tmp/partcad-cli-0.5.8.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - main [MainThread]: End processing [partcad-cli]: success
+[2024-04-08 04:20:28] INFO root fetch - processPackages [partcad]: Remove: archive file [/home/abi/fetcher/tmp/partcad-0.5.6.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - processPackages [partcad]: Remove: archive file [/home/abi/fetcher/tmp/partcad-0.5.8.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - main [MainThread]: End processing [partcad]: success
+[2024-04-08 04:20:28] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-4.1.1.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-4.1.2.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - main [MainThread]: End processing [panther]: success
+[2024-04-08 04:20:28] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.1.2.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.1.3.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - main [MainThread]: End processing [musicAlgLib]: success
+[2024-04-08 04:20:28] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240406.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240407.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-08 04:20:28] INFO root fetch - processPackages [pyxrf]: Remove: archive file [/home/abi/fetcher/tmp/pyxrf-1.0.8.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - processPackages [pyxrf]: Remove: archive file [/home/abi/fetcher/tmp/pyxrf-1.0.9.tar.gz]
+[2024-04-08 04:20:28] INFO root fetch - main [MainThread]: End processing [pyxrf]: success
+[2024-04-08 04:20:28] INFO root fetch - main [MainThread]: Store serial: [22660903]
