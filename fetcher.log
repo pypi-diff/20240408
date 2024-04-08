@@ -9787,3 +9787,69 @@
 [2024-04-08 08:06:51] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
 [2024-04-08 08:06:51] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
 [2024-04-08 08:06:51] INFO root fetch - main [MainThread]: Store serial: [22662812]
+[2024-04-08 08:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662812]
+[2024-04-08 08:08:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 08:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: femedu
+[2024-04-08 08:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-signalfx
+[2024-04-08 08:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fossiler
+[2024-04-08 08:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2024-04-08 08:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SightTraining
+[2024-04-08 08:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antsi
+[2024-04-08 08:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yuezhlib
+[2024-04-08 08:08:59] INFO root fetch - processPackages [SightTraining]: New version: [0.1.20] Old Version: [0.1.19]
+[2024-04-08 08:08:59] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1712488848] Old Version: [7.2.0a1711742187]
+[2024-04-08 08:08:59] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/42/8f/9e61f6109dbb20ea1e405fc808629527e01917643b5e2ec2db0caeab2442/SightTraining-0.1.19.tar.gz
+[2024-04-08 08:08:59] INFO root fetch - processPackages [femedu]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 08:08:59] WARNING root fetch - processPackages [antsi]: Skipping, unable to determine old version
+[2024-04-08 08:08:59] INFO root fetch - main [MainThread]: End processing [antsi] error
+[2024-04-08 08:08:59] INFO root fetch - processPackages [yuezhlib]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 08:08:59] INFO root fetch - processPackages [fossiler]: New version: [0.0.4.9] Old Version: [0.0.4.8]
+[2024-04-08 08:08:59] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/89/80/26c9d5a71237bf8b6f004967e9ef08d1eb26cc9bac0937c3d9ff4b22cc68/pulumi_signalfx-7.2.0a1711742187.tar.gz
+[2024-04-08 08:08:59] INFO root fetch - processPackages [xklb]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-08 08:08:59] WARNING root fetch - processPackages [pulumi-signalfx]: Timeout reached during download
+[2024-04-08 08:09:00] INFO root fetch - processPackages [femedu]: Downloading https://files.pythonhosted.org/packages/31/60/e156b208c869ff5d786db6e7acff66cc18d5f64353be37b1b249d6bd226e/femedu-1.0.8.tar.gz
+[2024-04-08 08:09:00] INFO root fetch - processPackages [yuezhlib]: Downloading https://files.pythonhosted.org/packages/24/66/142f2f68f808ecdb6b479b3232a26b3df72afd4e136cbdad0f4e7d90c907/yuezhlib-0.1.0.tar.gz
+[2024-04-08 08:09:00] INFO root fetch - processPackages [fossiler]: Downloading https://files.pythonhosted.org/packages/37/22/69b241bc916260e8a2d182d49e4a20f9de63da319708c8ce7c92f6eaeb47/fossiler-0.0.4.8.tar.gz
+[2024-04-08 08:09:00] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/98/2b/016ffc45cf0a3df1fcfc1603ad11fde3d07f5995f8f6b3f4d062b543781b/xklb-2.5.8.tar.gz
+[2024-04-08 08:09:00] WARNING root fetch - processPackages [yuezhlib]: Timeout reached during download
+[2024-04-08 08:09:00] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/08/e4/81014c65d2345c8f3967951dd0539c76e41240e46257a51f609370754eee/pulumi_signalfx-7.2.0a1712488848.tar.gz
+[2024-04-08 08:09:00] WARNING root fetch - processPackages [femedu]: Skipping package: exceeds size limit 11027545>=10485760
+[2024-04-08 08:09:00] INFO root fetch - main [MainThread]: End processing [femedu] error
+[2024-04-08 08:09:00] WARNING root fetch - processPackages [fossiler]: Timeout reached during download
+[2024-04-08 08:09:00] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-08 08:09:00] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/60/32/c262aebb4f24bb9826dfff3faf5927a49a1d5833aa29f3d737be25362125/SightTraining-0.1.20.tar.gz
+[2024-04-08 08:09:00] INFO root fetch - processPackages [yuezhlib]: Downloading https://files.pythonhosted.org/packages/43/9d/774d8c3d4bdfa5ca1cc2f01280af5f5cc20a9edf7f42e6e88b95bdd833a3/yuezhlib-0.1.1.tar.gz
+[2024-04-08 08:09:00] WARNING root fetch - processPackages [xklb]: Timeout reached during download
+[2024-04-08 08:09:00] INFO root fetch - processPackages [fossiler]: Downloading https://files.pythonhosted.org/packages/50/38/b3e8a7a5979e2a9bcf1f4e10106bbacb9835c05c003268e9a5ba57e60077/fossiler-0.0.4.9.tar.gz
+[2024-04-08 08:09:00] WARNING root fetch - processPackages [pulumi-signalfx]: Timeout reached during download
+[2024-04-08 08:09:00] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-04-08 08:09:00] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1711742187.tar.gz tmp/pulumi_signalfx-7.2.0a1712488848.tar.gz --markdown 20240408/p/pulumi-signalfx/7.2.0a1711742187-7.2.0a1712488848/diff.md --exclude *.pyd
+[2024-04-08 08:09:00] WARNING root fetch - processPackages [yuezhlib]: Timeout reached during download
+[2024-04-08 08:09:00] INFO root fetch - processPackages [yuezhlib]: executing diffoscope
+[2024-04-08 08:09:00] INFO root fetch - processPackages [yuezhlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuezhlib-0.1.0.tar.gz tmp/yuezhlib-0.1.1.tar.gz --markdown 20240408/y/yuezhlib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 08:09:00] WARNING root fetch - processPackages [fossiler]: Timeout reached during download
+[2024-04-08 08:09:00] INFO root fetch - processPackages [fossiler]: executing diffoscope
+[2024-04-08 08:09:00] INFO root fetch - processPackages [fossiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossiler-0.0.4.8.tar.gz tmp/fossiler-0.0.4.9.tar.gz --markdown 20240408/f/fossiler/0.0.4.8-0.0.4.9/diff.md --exclude *.pyd
+[2024-04-08 08:09:00] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/4e/05/9d82a1ff2d9b9c4fb1faeddaad1c5442a4c6d9e76fc8369d59062ab94134/xklb-2.5.9.tar.gz
+[2024-04-08 08:09:00] WARNING root fetch - processPackages [xklb]: Timeout reached during download
+[2024-04-08 08:09:00] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-04-08 08:09:00] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.5.8.tar.gz tmp/xklb-2.5.9.tar.gz --markdown 20240408/x/xklb/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2024-04-08 08:09:01] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-08 08:09:01] INFO root fetch - processPackages [SightTraining]: executing diffoscope
+[2024-04-08 08:09:01] INFO root fetch - processPackages [SightTraining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SightTraining-0.1.19.tar.gz tmp/SightTraining-0.1.20.tar.gz --markdown 20240408/S/SightTraining/0.1.19-0.1.20/diff.md --exclude *.pyd
+[2024-04-08 08:09:01] INFO root fetch - processPackages [yuezhlib]: Remove: archive file [/home/abi/fetcher/tmp/yuezhlib-0.1.0.tar.gz]
+[2024-04-08 08:09:01] INFO root fetch - processPackages [yuezhlib]: Remove: archive file [/home/abi/fetcher/tmp/yuezhlib-0.1.1.tar.gz]
+[2024-04-08 08:09:01] INFO root fetch - main [MainThread]: End processing [yuezhlib]: success
+[2024-04-08 08:09:01] INFO root fetch - processPackages [fossiler]: Remove: archive file [/home/abi/fetcher/tmp/fossiler-0.0.4.8.tar.gz]
+[2024-04-08 08:09:01] INFO root fetch - processPackages [fossiler]: Remove: archive file [/home/abi/fetcher/tmp/fossiler-0.0.4.9.tar.gz]
+[2024-04-08 08:09:01] INFO root fetch - main [MainThread]: End processing [fossiler]: success
+[2024-04-08 08:09:01] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1711742187.tar.gz]
+[2024-04-08 08:09:01] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1712488848.tar.gz]
+[2024-04-08 08:09:01] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-04-08 08:09:02] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.5.8.tar.gz]
+[2024-04-08 08:09:02] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.5.9.tar.gz]
+[2024-04-08 08:09:02] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-04-08 08:09:02] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.19.tar.gz]
+[2024-04-08 08:09:02] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.20.tar.gz]
+[2024-04-08 08:09:02] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
+[2024-04-08 08:09:02] INFO root fetch - main [MainThread]: Store serial: [22662844]
