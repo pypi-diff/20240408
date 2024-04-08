@@ -13403,3 +13403,61 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:29:44] INFO root fetch - processPackages [modelscope-studio]: Remove: archive file [/home/abi/fetcher/tmp/modelscope_studio-0.1.6.tar.gz]
 [2024-04-08 10:29:44] INFO root fetch - main [MainThread]: End processing [modelscope-studio]: success
 [2024-04-08 10:29:44] INFO root fetch - main [MainThread]: Store serial: [22664207]
+[2024-04-08 10:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664207]
+[2024-04-08 10:32:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 10:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neptune-client
+[2024-04-08 10:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-social-oauth
+[2024-04-08 10:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aup-manager
+[2024-04-08 10:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2024-04-08 10:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dune-client
+[2024-04-08 10:32:00] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev5]
+[2024-04-08 10:32:00] INFO root fetch - processPackages [dune-client]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-08 10:32:00] INFO root fetch - processPackages [aup-manager]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-04-08 10:32:00] INFO root fetch - processPackages [flask-social-oauth]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-08 10:32:00] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b3/96/0129ecf7acd75beb007b215a022e654e837a65f90317a00f400f5b66d677/khoj_assistant-1.9.1.dev5.tar.gz
+[2024-04-08 10:32:00] INFO root fetch - processPackages [neptune-client]: New version: [1.9.1] Old Version: [1.9.0rc1]
+[2024-04-08 10:32:00] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-08 10:32:00] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/e5/65/fb086906cf277363e3077945f775a555057c71804ceb5c992a53044a5ef5/neptune_client-1.9.0rc1.tar.gz
+[2024-04-08 10:32:00] INFO root fetch - processPackages [flask-social-oauth]: Downloading https://files.pythonhosted.org/packages/45/93/8de353c965db69c128a1178271d39947909f23294b6a45c461d4a369ac27/flask_social_oauth-1.0.0.tar.gz
+[2024-04-08 10:32:00] INFO root fetch - processPackages [aup-manager]: Downloading https://files.pythonhosted.org/packages/dc/78/69a3b371e964efcc95f18f5c3b9d2504d36a39918d5a5c998eeb1e44b63e/aup_manager-2.0.4.tar.gz
+[2024-04-08 10:32:00] INFO root fetch - processPackages [dune-client]: Downloading https://files.pythonhosted.org/packages/52/e0/34d904266204fe22fd5e0a0963304b0ae0cd8450ace550ae57eb30228a6b/dune_client-1.7.1.tar.gz
+[2024-04-08 10:32:00] WARNING root fetch - processPackages [flask-social-oauth]: Timeout reached during download
+[2024-04-08 10:32:01] WARNING root fetch - processPackages [dune-client]: Timeout reached during download
+[2024-04-08 10:32:01] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-08 10:32:01] WARNING root fetch - processPackages [aup-manager]: Timeout reached during download
+[2024-04-08 10:32:01] WARNING root fetch - processPackages [neptune-client]: Timeout reached during download
+[2024-04-08 10:32:01] INFO root fetch - processPackages [flask-social-oauth]: Downloading https://files.pythonhosted.org/packages/c6/5d/aa99a95bad658f6455268cc8bb5d051909398eb1965e6db7403e9ad35e1b/flask_social_oauth-1.1.0.tar.gz
+[2024-04-08 10:32:01] INFO root fetch - processPackages [dune-client]: Downloading https://files.pythonhosted.org/packages/99/b3/7805be9e715861cc6d96452b0bae617a67d90cb9ff6e194023a30dfe10f6/dune_client-1.7.2.tar.gz
+[2024-04-08 10:32:01] INFO root fetch - processPackages [aup-manager]: Downloading https://files.pythonhosted.org/packages/a3/94/ba38fb2bb9aacced76284a9beb49de9ebde9e38497a9f491bca6276a8a9d/aup_manager-2.0.5.tar.gz
+[2024-04-08 10:32:01] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/b8/5b/f089b2fcb4827a456547df71ceee77f4a51428fe44aad6fcba933ec25a07/neptune_client-1.9.1.tar.gz
+[2024-04-08 10:32:01] WARNING root fetch - processPackages [flask-social-oauth]: Timeout reached during download
+[2024-04-08 10:32:01] INFO root fetch - processPackages [flask-social-oauth]: executing diffoscope
+[2024-04-08 10:32:01] INFO root fetch - processPackages [flask-social-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_social_oauth-1.0.0.tar.gz tmp/flask_social_oauth-1.1.0.tar.gz --markdown 20240408/f/flask-social-oauth/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-08 10:32:01] WARNING root fetch - processPackages [khoj-assistant]: Timeout reached during download
+[2024-04-08 10:32:01] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-08 10:32:01] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev5.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240408/k/khoj-assistant/1.9.1.dev5-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-08 10:32:01] WARNING root fetch - processPackages [aup-manager]: Timeout reached during download
+[2024-04-08 10:32:01] INFO root fetch - processPackages [aup-manager]: executing diffoscope
+[2024-04-08 10:32:01] INFO root fetch - processPackages [aup-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aup_manager-2.0.4.tar.gz tmp/aup_manager-2.0.5.tar.gz --markdown 20240408/a/aup-manager/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2024-04-08 10:32:01] WARNING root fetch - processPackages [dune-client]: Timeout reached during download
+[2024-04-08 10:32:01] INFO root fetch - processPackages [dune-client]: executing diffoscope
+[2024-04-08 10:32:01] INFO root fetch - processPackages [dune-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_client-1.7.1.tar.gz tmp/dune_client-1.7.2.tar.gz --markdown 20240408/d/dune-client/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2024-04-08 10:32:01] WARNING root fetch - processPackages [neptune-client]: Timeout reached during download
+[2024-04-08 10:32:01] INFO root fetch - processPackages [neptune-client]: executing diffoscope
+[2024-04-08 10:32:01] INFO root fetch - processPackages [neptune-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_client-1.9.0rc1.tar.gz tmp/neptune_client-1.9.1.tar.gz --markdown 20240408/n/neptune-client/1.9.0rc1-1.9.1/diff.md --exclude *.pyd
+[2024-04-08 10:32:02] INFO root fetch - processPackages [flask-social-oauth]: Remove: archive file [/home/abi/fetcher/tmp/flask_social_oauth-1.0.0.tar.gz]
+[2024-04-08 10:32:02] INFO root fetch - processPackages [flask-social-oauth]: Remove: archive file [/home/abi/fetcher/tmp/flask_social_oauth-1.1.0.tar.gz]
+[2024-04-08 10:32:02] INFO root fetch - main [MainThread]: End processing [flask-social-oauth]: success
+[2024-04-08 10:32:02] INFO root fetch - processPackages [aup-manager]: Remove: archive file [/home/abi/fetcher/tmp/aup_manager-2.0.4.tar.gz]
+[2024-04-08 10:32:02] INFO root fetch - processPackages [aup-manager]: Remove: archive file [/home/abi/fetcher/tmp/aup_manager-2.0.5.tar.gz]
+[2024-04-08 10:32:02] INFO root fetch - main [MainThread]: End processing [aup-manager]: success
+[2024-04-08 10:32:02] INFO root fetch - processPackages [dune-client]: Remove: archive file [/home/abi/fetcher/tmp/dune_client-1.7.1.tar.gz]
+[2024-04-08 10:32:02] INFO root fetch - processPackages [dune-client]: Remove: archive file [/home/abi/fetcher/tmp/dune_client-1.7.2.tar.gz]
+[2024-04-08 10:32:02] INFO root fetch - main [MainThread]: End processing [dune-client]: success
+[2024-04-08 10:32:02] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev5.tar.gz]
+[2024-04-08 10:32:02] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-08 10:32:02] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-08 10:32:03] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.9.0rc1.tar.gz]
+[2024-04-08 10:32:03] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.9.1.tar.gz]
+[2024-04-08 10:32:03] INFO root fetch - main [MainThread]: End processing [neptune-client]: success
+[2024-04-08 10:32:03] INFO root fetch - main [MainThread]: Store serial: [22664239]
