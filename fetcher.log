@@ -3621,3 +3621,20 @@
 [2024-04-08 04:31:25] INFO root fetch - processPackages [OpsApi]: Remove: archive file [/home/abi/fetcher/tmp/OpsApi-2.0.0.tar.gz]
 [2024-04-08 04:31:25] INFO root fetch - main [MainThread]: End processing [OpsApi]: success
 [2024-04-08 04:31:25] INFO root fetch - main [MainThread]: Store serial: [22660955]
+[2024-04-08 04:33:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660955]
+[2024-04-08 04:33:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 04:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crossword-puzzle
+[2024-04-08 04:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smaht-submitr
+[2024-04-08 04:33:37] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-08 04:33:37] WARNING root fetch - processPackages [crossword-puzzle]: Skipping, unable to determine old version
+[2024-04-08 04:33:37] INFO root fetch - main [MainThread]: End processing [crossword-puzzle] error
+[2024-04-08 04:33:37] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-08 04:33:37] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:33:37] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-08 04:33:38] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:33:38] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-08 04:33:38] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240408/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/diff.md --exclude *.pyd
+[2024-04-08 04:33:38] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-08 04:33:38] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-08 04:33:38] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-08 04:33:38] INFO root fetch - main [MainThread]: Store serial: [22660963]
