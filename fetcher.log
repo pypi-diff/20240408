@@ -19438,3 +19438,17 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:48:39] INFO root fetch - processPackages [labda]: Remove: archive file [/home/abi/fetcher/tmp/labda-0.0.4.tar.gz]
 [2024-04-08 13:48:39] INFO root fetch - main [MainThread]: End processing [labda]: success
 [2024-04-08 13:48:39] INFO root fetch - main [MainThread]: Store serial: [22666456]
+[2024-04-08 13:50:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666456]
+[2024-04-08 13:50:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 13:50:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qodex-cameras
+[2024-04-08 13:50:48] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-08 13:50:48] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/63/a0/6ae803271bb3374fc134b5270400e90679960b4c9435445cb5ee231c85fc/qodex_cameras-2.1.7-py3-none-any.whl
+[2024-04-08 13:50:48] WARNING root fetch - processPackages [qodex-cameras]: Timeout reached during download
+[2024-04-08 13:50:48] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/3e/c0/fe485dc715bf2890ede599d0cfceb93426b210b6779a6e27a0239febcac8/qodex_cameras-2.1.8-py3-none-any.whl
+[2024-04-08 13:50:48] WARNING root fetch - processPackages [qodex-cameras]: Timeout reached during download
+[2024-04-08 13:50:48] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-08 13:50:48] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.1.7-py3-none-any.whl.zip tmp/qodex_cameras-2.1.8-py3-none-any.whl.zip --markdown 20240408/q/qodex-cameras/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2024-04-08 13:50:49] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.7-py3-none-any.whl.zip]
+[2024-04-08 13:50:49] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.8-py3-none-any.whl.zip]
+[2024-04-08 13:50:49] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-08 13:50:49] INFO root fetch - main [MainThread]: Store serial: [22666460]
