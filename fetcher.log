@@ -2035,3 +2035,78 @@
 [2024-04-08 02:36:33] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-04-08 02:36:33] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-04-08 02:36:33] INFO root fetch - main [MainThread]: Store serial: [22660423]
+[2024-04-08 02:38:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660423]
+[2024-04-08 02:38:41] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 02:40:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660423]
+[2024-04-08 02:40:46] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 02:42:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660423]
+[2024-04-08 02:42:53] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 02:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660423]
+[2024-04-08 02:44:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2024-04-08 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastgenerateapi
+[2024-04-08 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-id-python
+[2024-04-08 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2024-04-08 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ast-grep-cli
+[2024-04-08 02:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfds-nightly
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-08 02:44:59] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-08 02:44:59] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-08 02:44:59] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404080044] Old Version: [4.9.4.dev202404070044]
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-08 02:44:59] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/7f/91/a405456acd3b77c270c049a322420d06af1f82de5a3e7eef455613f9c791/fastgenerateapi-0.0.6.tar.gz
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-08 02:44:59] WARNING root fetch - processPackages [cybrid-api-id-python]: Timeout reached during download
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-08 02:44:59] WARNING root fetch - processPackages [fastgenerateapi]: Timeout reached during download
+[2024-04-08 02:44:59] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/d8/dc/4e53f9a34c7bf26364bb7ee174680992bb42d740c8045466301ac4101e72/tfds-nightly-4.9.4.dev202404070044.tar.gz
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-08 02:44:59] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/f7/c2/09d75b706485bc51e9971fffe138396e852d914b4ea1ced1dcbbf9c8890e/ast_grep_cli-0.9.2.tar.gz
+[2024-04-08 02:44:59] WARNING root fetch - processPackages [cybrid-api-organization-python]: Timeout reached during download
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-08 02:44:59] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/83/6d/2cc828965a510fdfcf565bbee0529b755e68f8a9e0de2e06584bd1f6b9fb/fastgenerateapi-0.0.7.tar.gz
+[2024-04-08 02:44:59] WARNING root fetch - processPackages [cybrid-api-id-python]: Timeout reached during download
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240408/c/cybrid-api-id-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-08 02:44:59] WARNING root fetch - processPackages [fastgenerateapi]: Timeout reached during download
+[2024-04-08 02:44:59] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2024-04-08 02:44:59] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.6.tar.gz tmp/fastgenerateapi-0.0.7.tar.gz --markdown 20240408/f/fastgenerateapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-08 02:44:59] WARNING root fetch - processPackages [cybrid-api-bank-python]: Timeout reached during download
+[2024-04-08 02:44:59] WARNING root fetch - processPackages [ast-grep-cli]: Timeout reached during download
+[2024-04-08 02:44:59] WARNING root fetch - processPackages [tfds-nightly]: Timeout reached during download
+[2024-04-08 02:44:59] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-08 02:45:00] WARNING root fetch - processPackages [cybrid-api-organization-python]: Timeout reached during download
+[2024-04-08 02:45:00] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-08 02:45:00] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240408/c/cybrid-api-organization-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-08 02:45:00] WARNING root fetch - processPackages [cybrid-api-bank-python]: Timeout reached during download
+[2024-04-08 02:45:00] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-08 02:45:00] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240408/c/cybrid-api-bank-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-08 02:45:00] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/36/64/22d8435f7a94803e71cdb5ea48a4ca0a26aca8ec34676b09f278a7d0ba98/tfds-nightly-4.9.4.dev202404080044.tar.gz
+[2024-04-08 02:45:00] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/bb/5c/1c5ee896b0968132154badd72079015a1958ff352d47c5f9e74e8ce6d54e/ast_grep_cli-0.9.3.tar.gz
+[2024-04-08 02:45:00] WARNING root fetch - processPackages [ast-grep-cli]: Timeout reached during download
+[2024-04-08 02:45:00] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2024-04-08 02:45:00] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.9.2.tar.gz tmp/ast_grep_cli-0.9.3.tar.gz --markdown 20240408/a/ast-grep-cli/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-08 02:45:00] WARNING root fetch - processPackages [tfds-nightly]: Timeout reached during download
+[2024-04-08 02:45:00] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-08 02:45:00] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404070044.tar.gz tmp/tfds-nightly-4.9.4.dev202404080044.tar.gz --markdown 20240408/t/tfds-nightly/4.9.4.dev202404070044-4.9.4.dev202404080044/diff.md --exclude *.pyd
+[2024-04-08 02:45:00] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.6.tar.gz]
+[2024-04-08 02:45:00] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
+[2024-04-08 02:45:00] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2024-04-08 02:45:00] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-08 02:45:00] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-08 02:45:00] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-08 02:45:00] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-08 02:45:00] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-08 02:45:00] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-08 02:45:01] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.2.tar.gz]
+[2024-04-08 02:45:01] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
+[2024-04-08 02:45:01] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2024-04-08 02:45:02] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-08 02:45:02] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-08 02:45:02] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-08 02:45:09] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404070044.tar.gz]
+[2024-04-08 02:45:09] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404080044.tar.gz]
+[2024-04-08 02:45:09] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-08 02:45:09] INFO root fetch - main [MainThread]: Store serial: [22660447]
