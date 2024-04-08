@@ -2204,3 +2204,17 @@
 [2024-04-08 02:49:48] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-08 02:49:48] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-08 02:49:48] INFO root fetch - main [MainThread]: Store serial: [22660466]
+[2024-04-08 02:51:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660466]
+[2024-04-08 02:51:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 02:51:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minchin.md-it.fancy-tasklists
+[2024-04-08 02:51:57] INFO root fetch - processPackages [minchin.md-it.fancy-tasklists]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-08 02:51:57] INFO root fetch - processPackages [minchin.md-it.fancy-tasklists]: Downloading https://files.pythonhosted.org/packages/1b/28/58dda0429c17e7195813a7e2ebe353b95ecca0f87262fdc84a2631f31556/minchin.md-it.fancy-tasklists-1.0.0.tar.gz
+[2024-04-08 02:51:57] WARNING root fetch - processPackages [minchin.md-it.fancy-tasklists]: Timeout reached during download
+[2024-04-08 02:51:57] INFO root fetch - processPackages [minchin.md-it.fancy-tasklists]: Downloading https://files.pythonhosted.org/packages/82/db/66b931e1f7b74f561a302657739286e880d59937570f18eb75562d1ead09/minchin.md-it.fancy-tasklists-1.1.0.tar.gz
+[2024-04-08 02:51:58] WARNING root fetch - processPackages [minchin.md-it.fancy-tasklists]: Timeout reached during download
+[2024-04-08 02:51:58] INFO root fetch - processPackages [minchin.md-it.fancy-tasklists]: executing diffoscope
+[2024-04-08 02:51:58] INFO root fetch - processPackages [minchin.md-it.fancy-tasklists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minchin.md-it.fancy-tasklists-1.0.0.tar.gz tmp/minchin.md-it.fancy-tasklists-1.1.0.tar.gz --markdown 20240408/m/minchin.md-it.fancy-tasklists/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-08 02:51:58] INFO root fetch - processPackages [minchin.md-it.fancy-tasklists]: Remove: archive file [/home/abi/fetcher/tmp/minchin.md-it.fancy-tasklists-1.0.0.tar.gz]
+[2024-04-08 02:51:58] INFO root fetch - processPackages [minchin.md-it.fancy-tasklists]: Remove: archive file [/home/abi/fetcher/tmp/minchin.md-it.fancy-tasklists-1.1.0.tar.gz]
+[2024-04-08 02:51:58] INFO root fetch - main [MainThread]: End processing [minchin.md-it.fancy-tasklists]: success
+[2024-04-08 02:51:58] INFO root fetch - main [MainThread]: Store serial: [22660468]
