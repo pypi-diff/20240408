@@ -10860,3 +10860,72 @@
 [2024-04-08 08:55:50] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.45.tar.gz]
 [2024-04-08 08:55:50] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-04-08 08:55:50] INFO root fetch - main [MainThread]: Store serial: [22663189]
+[2024-04-08 08:57:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663189]
+[2024-04-08 08:57:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 08:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-04-08 08:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kindle2pdf
+[2024-04-08 08:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES-client
+[2024-04-08 08:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ign8
+[2024-04-08 08:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: media-processing-lib
+[2024-04-08 08:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geodeticengine
+[2024-04-08 08:57:59] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240408022728] Old Version: [3.3.1.dev20240405162709]
+[2024-04-08 08:57:59] INFO root fetch - processPackages [kindle2pdf]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-08 08:57:59] INFO root fetch - processPackages [media-processing-lib]: New version: [0.66] Old Version: [0.65]
+[2024-04-08 08:57:59] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-08 08:57:59] INFO root fetch - processPackages [geodeticengine]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-08 08:57:59] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.19]
+[2024-04-08 08:57:59] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/16/7a/c3a3d04a8f5fb9703705793ada215d2c17762cc427db035d8b192970e35e/localstack-core-3.3.1.dev20240405162709.tar.gz
+[2024-04-08 08:57:59] INFO root fetch - processPackages [kindle2pdf]: Downloading https://files.pythonhosted.org/packages/b7/25/6c6311b61eb0282376d29119c44d042a649a5d9d0528119b2b54ec25dc6f/kindle2pdf-0.1.4.tar.gz
+[2024-04-08 08:57:59] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/81/f4/10f514b77bdacd78414e215290fe3c18085a396e9a94b6790cc34489234c/DLMS_SPODES_client-0.7.0.tar.gz
+[2024-04-08 08:57:59] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/2c/16/4f87332e7c2570888d4dfa48e803db17a563206e389294eb5925ac5a743f/ign8-4.8.19.tar.gz
+[2024-04-08 08:57:59] INFO root fetch - processPackages [media-processing-lib]: Downloading https://files.pythonhosted.org/packages/33/d3/972932bf9e1376cdc9e6e0c9530eb9c6b6f9a848a60c306883662dc38615/media-processing-lib-0.65.tar.gz
+[2024-04-08 08:57:59] INFO root fetch - processPackages [geodeticengine]: Downloading https://files.pythonhosted.org/packages/fe/1e/450e5846761bf96ce53c19c63e3fbe6bfc53b7575d176db40d17a23ff8e6/geodeticengine-1.0.7.tar.gz
+[2024-04-08 08:57:59] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-08 08:57:59] WARNING root fetch - processPackages [media-processing-lib]: Timeout reached during download
+[2024-04-08 08:57:59] WARNING root fetch - processPackages [geodeticengine]: Timeout reached during download
+[2024-04-08 08:57:59] WARNING root fetch - processPackages [DLMS-SPODES-client]: Timeout reached during download
+[2024-04-08 08:57:59] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 08:57:59] WARNING root fetch - processPackages [kindle2pdf]: Timeout reached during download
+[2024-04-08 08:57:59] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7f/60/5c04cdeb744551662089e31158052ff8dd26a8c3567761f31142a1fe6a39/localstack-core-3.3.1.dev20240408022728.tar.gz
+[2024-04-08 08:57:59] INFO root fetch - processPackages [media-processing-lib]: Downloading https://files.pythonhosted.org/packages/e2/77/43f6110450fe5c30d0ba57078f372eb37ca665344fe14e4b8da55223731e/media-processing-lib-0.66.tar.gz
+[2024-04-08 08:57:59] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/f9/36/323a0be75d8e66601c2a120b3f416eb46c72d20d3afb76c4f654b02739c7/DLMS_SPODES_client-0.7.1.tar.gz
+[2024-04-08 08:57:59] INFO root fetch - processPackages [geodeticengine]: Downloading https://files.pythonhosted.org/packages/90/96/9c810beb1c881354ed2487bd11daacf09621acf66d68cefd27dd43808631/geodeticengine-1.0.8.tar.gz
+[2024-04-08 08:57:59] INFO root fetch - processPackages [kindle2pdf]: Downloading https://files.pythonhosted.org/packages/03/72/3467b7ed3e67f5aafc64c076a186a9058460a4729330b6ec771e8f1ece1a/kindle2pdf-0.1.5.tar.gz
+[2024-04-08 08:58:00] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-08 08:58:00] WARNING root fetch - processPackages [kindle2pdf]: Timeout reached during download
+[2024-04-08 08:58:00] INFO root fetch - processPackages [kindle2pdf]: executing diffoscope
+[2024-04-08 08:58:00] INFO root fetch - processPackages [kindle2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kindle2pdf-0.1.4.tar.gz tmp/kindle2pdf-0.1.5.tar.gz --markdown 20240408/k/kindle2pdf/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-08 08:58:00] WARNING root fetch - processPackages [media-processing-lib]: Timeout reached during download
+[2024-04-08 08:58:00] INFO root fetch - processPackages [media-processing-lib]: executing diffoscope
+[2024-04-08 08:58:00] INFO root fetch - processPackages [media-processing-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media-processing-lib-0.65.tar.gz tmp/media-processing-lib-0.66.tar.gz --markdown 20240408/m/media-processing-lib/0.65-0.66/diff.md --exclude *.pyd
+[2024-04-08 08:58:00] WARNING root fetch - processPackages [localstack-core]: Timeout reached during download
+[2024-04-08 08:58:00] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-08 08:58:00] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240405162709.tar.gz tmp/localstack-core-3.3.1.dev20240408022728.tar.gz --markdown 20240408/l/localstack-core/3.3.1.dev20240405162709-3.3.1.dev20240408022728/diff.md --exclude *.pyd
+[2024-04-08 08:58:00] WARNING root fetch - processPackages [geodeticengine]: Timeout reached during download
+[2024-04-08 08:58:00] INFO root fetch - processPackages [geodeticengine]: executing diffoscope
+[2024-04-08 08:58:00] INFO root fetch - processPackages [geodeticengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodeticengine-1.0.7.tar.gz tmp/geodeticengine-1.0.8.tar.gz --markdown 20240408/g/geodeticengine/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-08 08:58:00] WARNING root fetch - processPackages [DLMS-SPODES-client]: Timeout reached during download
+[2024-04-08 08:58:00] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-08 08:58:00] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.0.tar.gz tmp/DLMS_SPODES_client-0.7.1.tar.gz --markdown 20240408/D/DLMS-SPODES-client/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-08 08:58:00] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 08:58:00] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-08 08:58:00] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.19.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240408/i/ign8/4.8.19-4.8.5/diff.md --exclude *.pyd
+[2024-04-08 08:58:01] INFO root fetch - processPackages [kindle2pdf]: Remove: archive file [/home/abi/fetcher/tmp/kindle2pdf-0.1.4.tar.gz]
+[2024-04-08 08:58:01] INFO root fetch - processPackages [kindle2pdf]: Remove: archive file [/home/abi/fetcher/tmp/kindle2pdf-0.1.5.tar.gz]
+[2024-04-08 08:58:01] INFO root fetch - main [MainThread]: End processing [kindle2pdf]: success
+[2024-04-08 08:58:01] INFO root fetch - processPackages [media-processing-lib]: Remove: archive file [/home/abi/fetcher/tmp/media-processing-lib-0.65.tar.gz]
+[2024-04-08 08:58:01] INFO root fetch - processPackages [media-processing-lib]: Remove: archive file [/home/abi/fetcher/tmp/media-processing-lib-0.66.tar.gz]
+[2024-04-08 08:58:01] INFO root fetch - main [MainThread]: End processing [media-processing-lib]: success
+[2024-04-08 08:58:01] INFO root fetch - processPackages [geodeticengine]: Remove: archive file [/home/abi/fetcher/tmp/geodeticengine-1.0.7.tar.gz]
+[2024-04-08 08:58:01] INFO root fetch - processPackages [geodeticengine]: Remove: archive file [/home/abi/fetcher/tmp/geodeticengine-1.0.8.tar.gz]
+[2024-04-08 08:58:01] INFO root fetch - main [MainThread]: End processing [geodeticengine]: success
+[2024-04-08 08:58:01] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.0.tar.gz]
+[2024-04-08 08:58:01] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.1.tar.gz]
+[2024-04-08 08:58:01] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-08 08:58:04] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.19.tar.gz]
+[2024-04-08 08:58:04] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-08 08:58:04] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-08 08:58:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240405162709.tar.gz]
+[2024-04-08 08:58:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408022728.tar.gz]
+[2024-04-08 08:58:04] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-08 08:58:04] INFO root fetch - main [MainThread]: Store serial: [22663205]
