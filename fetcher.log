@@ -7715,3 +7715,31 @@
 [2024-04-08 06:03:22] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz]
 [2024-04-08 06:03:22] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunsou]: success
 [2024-04-08 06:03:22] INFO root fetch - main [MainThread]: Store serial: [22662173]
+[2024-04-08 06:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662173]
+[2024-04-08 06:05:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 06:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agdiff
+[2024-04-08 06:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioesphomeapi
+[2024-04-08 06:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-binary
+[2024-04-08 06:05:41] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-08 06:05:41] WARNING root fetch - processPackages [agdiff]: Skipping, unable to determine old version
+[2024-04-08 06:05:41] INFO root fetch - main [MainThread]: End processing [agdiff] error
+[2024-04-08 06:05:41] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-08 06:05:41] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2024-04-08 06:05:41] WARNING root fetch - processPackages [chromedriver-binary]: Timeout reached during download
+[2024-04-08 06:05:41] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2024-04-08 06:05:41] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-08 06:05:41] WARNING root fetch - processPackages [aioesphomeapi]: Timeout reached during download
+[2024-04-08 06:05:41] WARNING root fetch - processPackages [chromedriver-binary]: Timeout reached during download
+[2024-04-08 06:05:41] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-08 06:05:41] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240408/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2024-04-08 06:05:42] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2024-04-08 06:05:42] WARNING root fetch - processPackages [aioesphomeapi]: Timeout reached during download
+[2024-04-08 06:05:42] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2024-04-08 06:05:42] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20240408/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2024-04-08 06:05:42] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-08 06:05:42] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-08 06:05:42] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-08 06:05:42] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2024-04-08 06:05:42] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2024-04-08 06:05:42] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2024-04-08 06:05:42] INFO root fetch - main [MainThread]: Store serial: [22662192]
