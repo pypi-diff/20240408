@@ -21628,3 +21628,111 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:05:22] INFO root fetch - processPackages [fluoriclogppka]: Remove: archive file [/home/abi/fetcher/tmp/fluoriclogppka-0.2.1.tar.gz]
 [2024-04-08 15:05:22] INFO root fetch - main [MainThread]: End processing [fluoriclogppka]: success
 [2024-04-08 15:05:22] INFO root fetch - main [MainThread]: Store serial: [22667230]
+[2024-04-08 15:07:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667230]
+[2024-04-08 15:07:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ingredient-slicer
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micropype
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: directus-py-sdk
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imax
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotPython
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agentdesk
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DLMS-Firmware-updater
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: psgdemos
+[2024-04-08 15:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bencheval
+[2024-04-08 15:07:31] INFO root fetch - processPackages [ingredient-slicer]: New version: [0.0.85] Old Version: [0.0.84]
+[2024-04-08 15:07:31] INFO root fetch - processPackages [imax]: New version: [0.0.1b8] Old Version: [0.0.1b7]
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [DLMS-Firmware-updater]: Skipping, unable to determine old version
+[2024-04-08 15:07:31] INFO root fetch - processPackages [DLMS-Firmware-updater]: Start processing: arion-library
+[2024-04-08 15:07:31] INFO root fetch - main [MainThread]: End processing [DLMS-Firmware-updater] error
+[2024-04-08 15:07:31] INFO root fetch - processPackages [micropype]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 15:07:31] INFO root fetch - processPackages [arion-library]: New version: [1.1rc30.dev30] Old Version: [1.1rc29.dev29]
+[2024-04-08 15:07:31] INFO root fetch - processPackages [ingredient-slicer]: Downloading https://files.pythonhosted.org/packages/ae/13/7c81776110bffb863ac9452029c820b00c05fe488c3cd222a7ab943c6866/ingredient_slicer-0.0.84.tar.gz
+[2024-04-08 15:07:31] INFO root fetch - processPackages [psgdemos]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-04-08 15:07:31] INFO root fetch - processPackages [agentdesk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 15:07:31] INFO root fetch - processPackages [bencheval]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [directus-py-sdk]: Skipping, unable to determine old version
+[2024-04-08 15:07:31] INFO root fetch - main [MainThread]: End processing [directus-py-sdk] error
+[2024-04-08 15:07:31] INFO root fetch - processPackages [imax]: Downloading https://files.pythonhosted.org/packages/49/27/42a560c451449251f44ba70e426ae27359ed0ce67187fafa414ff7d4604b/imax-0.0.1b7.tar.gz
+[2024-04-08 15:07:31] INFO root fetch - processPackages [spotPython]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-08 15:07:31] INFO root fetch - processPackages [kfish]: New version: [99.0.202404081306] Old Version: [99.0.202404080844]
+[2024-04-08 15:07:31] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/18/21/391c0965bea53cc6a869ac84f3181ba7a14d41f118b266c25c6195514557/arion_library-1.1rc29.dev29.tar.gz
+[2024-04-08 15:07:31] INFO root fetch - processPackages [micropype]: Downloading https://files.pythonhosted.org/packages/92/d4/91caee66ebad8774bb8c8e749bbc9a2dcdba3d0db7faec251a290cee1823/micropype-0.3.0.tar.gz
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [imax]: Timeout reached during download
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [ingredient-slicer]: Timeout reached during download
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 15:07:31] INFO root fetch - processPackages [psgdemos]: Downloading https://files.pythonhosted.org/packages/69/0a/4c0ed64b3afe1cc8e1e4d81c6a9ccc2a5140263fbfc3508d10e8dbdde4f8/psgdemos-5.0.0.tar.gz
+[2024-04-08 15:07:31] INFO root fetch - processPackages [bencheval]: Downloading https://files.pythonhosted.org/packages/76/45/3e285d7554e27925c028fddd8e93721e74c2b425ebd3813953b59134618c/bencheval-1.3.2.tar.gz
+[2024-04-08 15:07:31] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/cf/ca/cd5dfbf2d07fb86e168858977c8668fdff291aaf19cf93c8ae884b0959b1/agentdesk-0.2.8.tar.gz
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [micropype]: Timeout reached during download
+[2024-04-08 15:07:31] INFO root fetch - processPackages [imax]: Downloading https://files.pythonhosted.org/packages/60/1f/044752eb6af10797f48cb3624ace9c2713f60171d1c500ca9fa8806d221d/imax-0.0.1b8.tar.gz
+[2024-04-08 15:07:31] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/fd/fe/609cd4935f51e0fceee7b2f9b170fa1ac0367043719947ad34c5ea8880e6/kfish-99.0.202404080844-py3-none-any.whl
+[2024-04-08 15:07:31] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/aa/01/87762fb27b6d307e4614269c8a41952ca3bec4ec77adfc08459351394a0d/spotPython-0.9.8.tar.gz
+[2024-04-08 15:07:31] INFO root fetch - processPackages [ingredient-slicer]: Downloading https://files.pythonhosted.org/packages/14/ca/639efd8f55ff439cc2b172327f169d27930134618a7f62a6f397c219aefa/ingredient_slicer-0.0.85.tar.gz
+[2024-04-08 15:07:31] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/93/eb/6ccbb6a7fb6096a4d69fd92baf742b26dde5293d439073ea2fc78341116a/arion_library-1.1rc30.dev30.tar.gz
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [imax]: Timeout reached during download
+[2024-04-08 15:07:31] INFO root fetch - processPackages [imax]: executing diffoscope
+[2024-04-08 15:07:31] INFO root fetch - processPackages [imax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imax-0.0.1b7.tar.gz tmp/imax-0.0.1b8.tar.gz --markdown 20240408/i/imax/0.0.1b7-0.0.1b8/diff.md --exclude *.pyd
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-08 15:07:31] INFO root fetch - processPackages [micropype]: Downloading https://files.pythonhosted.org/packages/47/ed/5c78c05a9e6ad9f403c75a9a9188ac3caec9cc5c0f45ead359f58fe2c56f/micropype-0.3.1.tar.gz
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [ingredient-slicer]: Timeout reached during download
+[2024-04-08 15:07:31] INFO root fetch - processPackages [ingredient-slicer]: executing diffoscope
+[2024-04-08 15:07:31] INFO root fetch - processPackages [ingredient-slicer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingredient_slicer-0.0.84.tar.gz tmp/ingredient_slicer-0.0.85.tar.gz --markdown 20240408/i/ingredient-slicer/0.0.84-0.0.85/diff.md --exclude *.pyd
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [agentdesk]: Timeout reached during download
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [psgdemos]: Timeout reached during download
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 15:07:31] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 15:07:31] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc29.dev29.tar.gz tmp/arion_library-1.1rc30.dev30.tar.gz --markdown 20240408/a/arion-library/1.1rc29.dev29-1.1rc30.dev30/diff.md --exclude *.pyd
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [bencheval]: Timeout reached during download
+[2024-04-08 15:07:31] WARNING root fetch - processPackages [micropype]: Timeout reached during download
+[2024-04-08 15:07:31] INFO root fetch - processPackages [micropype]: executing diffoscope
+[2024-04-08 15:07:31] INFO root fetch - processPackages [micropype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropype-0.3.0.tar.gz tmp/micropype-0.3.1.tar.gz --markdown 20240408/m/micropype/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 15:07:31] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/5b/80/bd2831fd7d50918248161b8b39a275f7faf274ad3fe58f60e6cdeac5a9c6/kfish-99.0.202404081306-py3-none-any.whl
+[2024-04-08 15:07:32] INFO root fetch - processPackages [psgdemos]: Downloading https://files.pythonhosted.org/packages/39/99/0e73580f10837f6df49e141eccce9a7c5fa6592c19080ef26921f5729edc/psgdemos-5.1.0.tar.gz
+[2024-04-08 15:07:32] INFO root fetch - processPackages [bencheval]: Downloading https://files.pythonhosted.org/packages/ae/c3/5458d74aeafbe4546a0367ac5ac019ae7a9721c1080007f6ff68a0424c86/bencheval-1.3.3.tar.gz
+[2024-04-08 15:07:32] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/24/26/ad035fd9f7aedb4d5a78e0198ca36d0599d9ed6d9f5cfeeb84e922907596/agentdesk-0.2.9.tar.gz
+[2024-04-08 15:07:32] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-08 15:07:32] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-08 15:07:32] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404080844-py3-none-any.whl.zip tmp/kfish-99.0.202404081306-py3-none-any.whl.zip --markdown 20240408/k/kfish/99.0.202404080844-99.0.202404081306/diff.md --exclude *.pyd
+[2024-04-08 15:07:32] WARNING root fetch - processPackages [psgdemos]: Timeout reached during download
+[2024-04-08 15:07:32] INFO root fetch - processPackages [psgdemos]: executing diffoscope
+[2024-04-08 15:07:32] INFO root fetch - processPackages [psgdemos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgdemos-5.0.0.tar.gz tmp/psgdemos-5.1.0.tar.gz --markdown 20240408/p/psgdemos/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2024-04-08 15:07:32] WARNING root fetch - processPackages [agentdesk]: Timeout reached during download
+[2024-04-08 15:07:32] INFO root fetch - processPackages [agentdesk]: executing diffoscope
+[2024-04-08 15:07:32] INFO root fetch - processPackages [agentdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentdesk-0.2.8.tar.gz tmp/agentdesk-0.2.9.tar.gz --markdown 20240408/a/agentdesk/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 15:07:32] WARNING root fetch - processPackages [bencheval]: Timeout reached during download
+[2024-04-08 15:07:32] INFO root fetch - processPackages [bencheval]: executing diffoscope
+[2024-04-08 15:07:32] INFO root fetch - processPackages [bencheval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencheval-1.3.2.tar.gz tmp/bencheval-1.3.3.tar.gz --markdown 20240408/b/bencheval/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2024-04-08 15:07:32] INFO root fetch - processPackages [imax]: Remove: archive file [/home/abi/fetcher/tmp/imax-0.0.1b7.tar.gz]
+[2024-04-08 15:07:32] INFO root fetch - processPackages [imax]: Remove: archive file [/home/abi/fetcher/tmp/imax-0.0.1b8.tar.gz]
+[2024-04-08 15:07:32] INFO root fetch - main [MainThread]: End processing [imax]: success
+[2024-04-08 15:07:32] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc29.dev29.tar.gz]
+[2024-04-08 15:07:32] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc30.dev30.tar.gz]
+[2024-04-08 15:07:32] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 15:07:32] WARNING root fetch - processPackages [spotPython]: Timeout reached during download
+[2024-04-08 15:07:32] INFO root fetch - processPackages [micropype]: Remove: archive file [/home/abi/fetcher/tmp/micropype-0.3.0.tar.gz]
+[2024-04-08 15:07:32] INFO root fetch - processPackages [micropype]: Remove: archive file [/home/abi/fetcher/tmp/micropype-0.3.1.tar.gz]
+[2024-04-08 15:07:32] INFO root fetch - main [MainThread]: End processing [micropype]: success
+[2024-04-08 15:07:33] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404080844-py3-none-any.whl.zip]
+[2024-04-08 15:07:33] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404081306-py3-none-any.whl.zip]
+[2024-04-08 15:07:33] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-08 15:07:33] INFO root fetch - processPackages [ingredient-slicer]: Remove: archive file [/home/abi/fetcher/tmp/ingredient_slicer-0.0.84.tar.gz]
+[2024-04-08 15:07:33] INFO root fetch - processPackages [ingredient-slicer]: Remove: archive file [/home/abi/fetcher/tmp/ingredient_slicer-0.0.85.tar.gz]
+[2024-04-08 15:07:33] INFO root fetch - main [MainThread]: End processing [ingredient-slicer]: success
+[2024-04-08 15:07:33] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/24/be/283dfbac35854cc80323c97a62b46a4b61ef023695b46910af3abc4b765b/spotPython-0.9.9.tar.gz
+[2024-04-08 15:07:33] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.8.tar.gz]
+[2024-04-08 15:07:33] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
+[2024-04-08 15:07:33] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
+[2024-04-08 15:07:33] INFO root fetch - processPackages [psgdemos]: Remove: archive file [/home/abi/fetcher/tmp/psgdemos-5.0.0.tar.gz]
+[2024-04-08 15:07:33] INFO root fetch - processPackages [psgdemos]: Remove: archive file [/home/abi/fetcher/tmp/psgdemos-5.1.0.tar.gz]
+[2024-04-08 15:07:33] INFO root fetch - main [MainThread]: End processing [psgdemos]: success
+[2024-04-08 15:07:33] INFO root fetch - processPackages [bencheval]: Remove: archive file [/home/abi/fetcher/tmp/bencheval-1.3.2.tar.gz]
+[2024-04-08 15:07:33] INFO root fetch - processPackages [bencheval]: Remove: archive file [/home/abi/fetcher/tmp/bencheval-1.3.3.tar.gz]
+[2024-04-08 15:07:33] INFO root fetch - main [MainThread]: End processing [bencheval]: success
+[2024-04-08 15:07:34] WARNING root fetch - processPackages [spotPython]: Timeout reached during download
+[2024-04-08 15:07:34] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2024-04-08 15:07:34] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.9.8.tar.gz tmp/spotPython-0.9.9.tar.gz --markdown 20240408/s/spotPython/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-08 15:07:35] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.9.8.tar.gz]
+[2024-04-08 15:07:35] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.9.9.tar.gz]
+[2024-04-08 15:07:35] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2024-04-08 15:07:35] INFO root fetch - main [MainThread]: Store serial: [22667262]
