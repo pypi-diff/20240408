@@ -3055,3 +3055,56 @@
 [2024-04-08 04:00:38] WARNING root fetch - processPackages [fsinfo]: Skipping, unable to determine old version
 [2024-04-08 04:00:38] INFO root fetch - main [MainThread]: End processing [fsinfo] error
 [2024-04-08 04:00:38] INFO root fetch - main [MainThread]: Store serial: [22660783]
+[2024-04-08 04:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660783]
+[2024-04-08 04:02:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chesscli
+[2024-04-08 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smaht-submitr
+[2024-04-08 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pluggy-sdk
+[2024-04-08 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fsinfo
+[2024-04-08 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsinfo
+[2024-04-08 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pg-alchemy-kit
+[2024-04-08 04:02:48] INFO root fetch - processPackages [pluggy-sdk]: New version: [1.0.0.post3] Old Version: [1.0.0.post2]
+[2024-04-08 04:02:48] WARNING root fetch - processPackages [fsinfo]: Skipping, unable to determine old version
+[2024-04-08 04:02:48] INFO root fetch - main [MainThread]: End processing [fsinfo] error
+[2024-04-08 04:02:48] WARNING root fetch - processPackages [fsinfo]: Skipping, unable to determine old version
+[2024-04-08 04:02:48] INFO root fetch - main [MainThread]: End processing [fsinfo] error
+[2024-04-08 04:02:48] INFO root fetch - processPackages [pg-alchemy-kit]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-08 04:02:48] INFO root fetch - processPackages [chesscli]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-08 04:02:48] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b4] Old Version: [0.8.0.1b3]
+[2024-04-08 04:02:48] INFO root fetch - processPackages [pluggy-sdk]: Downloading https://files.pythonhosted.org/packages/25/97/e4d132b32d23142f854245f2fca1ed9cfacdd576fb270300d4ad9c714f18/pluggy-sdk-1.0.0.post2.tar.gz
+[2024-04-08 04:02:48] INFO root fetch - processPackages [chesscli]: Downloading https://files.pythonhosted.org/packages/33/57/534e97f857f700b2deb388cf2a1e462ef8937a2b9a12be45f565f805cb68/chesscli-0.2.0.tar.gz
+[2024-04-08 04:02:48] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/c3/85/2eb4ea248819142973d920218e20f77805e532572032cbd850a23d57e9d4/smaht_submitr-0.8.0.1b3.tar.gz
+[2024-04-08 04:02:48] WARNING root fetch - processPackages [pluggy-sdk]: Timeout reached during download
+[2024-04-08 04:02:48] INFO root fetch - processPackages [pg-alchemy-kit]: Downloading https://files.pythonhosted.org/packages/e3/44/8b5585c685cd6183ba60e51597db9b8af7b9645017e425ebd0cd67a4f1ae/pg_alchemy_kit-0.8.2.tar.gz
+[2024-04-08 04:02:48] WARNING root fetch - processPackages [chesscli]: Timeout reached during download
+[2024-04-08 04:02:48] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:02:48] WARNING root fetch - processPackages [pg-alchemy-kit]: Timeout reached during download
+[2024-04-08 04:02:49] INFO root fetch - processPackages [pluggy-sdk]: Downloading https://files.pythonhosted.org/packages/86/99/c8b93052250098efa7863f5de74a959ec82d8898ef37dc5f7207d9dd0e59/pluggy-sdk-1.0.0.post3.tar.gz
+[2024-04-08 04:02:49] INFO root fetch - processPackages [chesscli]: Downloading https://files.pythonhosted.org/packages/51/6f/8807dee5d03a6ffd0030e80c56e4fae570c9729cf65595cb082edc969122/chesscli-0.2.1.tar.gz
+[2024-04-08 04:02:49] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/4f/6f/eaa7d5b3f7e8e01a12e992a9e46f236f41b2edfd551938ffde2d5fe4d135/smaht_submitr-0.8.0.1b4.tar.gz
+[2024-04-08 04:02:49] WARNING root fetch - processPackages [pluggy-sdk]: Timeout reached during download
+[2024-04-08 04:02:49] INFO root fetch - processPackages [pluggy-sdk]: executing diffoscope
+[2024-04-08 04:02:49] INFO root fetch - processPackages [pluggy-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluggy-sdk-1.0.0.post2.tar.gz tmp/pluggy-sdk-1.0.0.post3.tar.gz --markdown 20240408/p/pluggy-sdk/1.0.0.post2-1.0.0.post3/diff.md --exclude *.pyd
+[2024-04-08 04:02:49] INFO root fetch - processPackages [pg-alchemy-kit]: Downloading https://files.pythonhosted.org/packages/65/5c/fd33bad084add7219f801f87d5a28a580474c1164f012b465ee33e7aebc0/pg_alchemy_kit-0.8.3.tar.gz
+[2024-04-08 04:02:49] WARNING root fetch - processPackages [chesscli]: Timeout reached during download
+[2024-04-08 04:02:49] INFO root fetch - processPackages [chesscli]: executing diffoscope
+[2024-04-08 04:02:49] INFO root fetch - processPackages [chesscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chesscli-0.2.0.tar.gz tmp/chesscli-0.2.1.tar.gz --markdown 20240408/c/chesscli/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-08 04:02:49] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-08 04:02:49] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-08 04:02:49] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b3.tar.gz tmp/smaht_submitr-0.8.0.1b4.tar.gz --markdown 20240408/s/smaht-submitr/0.8.0.1b3-0.8.0.1b4/diff.md --exclude *.pyd
+[2024-04-08 04:02:49] WARNING root fetch - processPackages [pg-alchemy-kit]: Timeout reached during download
+[2024-04-08 04:02:49] INFO root fetch - processPackages [pg-alchemy-kit]: executing diffoscope
+[2024-04-08 04:02:49] INFO root fetch - processPackages [pg-alchemy-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_alchemy_kit-0.8.2.tar.gz tmp/pg_alchemy_kit-0.8.3.tar.gz --markdown 20240408/p/pg-alchemy-kit/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-08 04:02:49] INFO root fetch - processPackages [chesscli]: Remove: archive file [/home/abi/fetcher/tmp/chesscli-0.2.0.tar.gz]
+[2024-04-08 04:02:49] INFO root fetch - processPackages [chesscli]: Remove: archive file [/home/abi/fetcher/tmp/chesscli-0.2.1.tar.gz]
+[2024-04-08 04:02:49] INFO root fetch - main [MainThread]: End processing [chesscli]: success
+[2024-04-08 04:02:49] INFO root fetch - processPackages [pg-alchemy-kit]: Remove: archive file [/home/abi/fetcher/tmp/pg_alchemy_kit-0.8.2.tar.gz]
+[2024-04-08 04:02:49] INFO root fetch - processPackages [pg-alchemy-kit]: Remove: archive file [/home/abi/fetcher/tmp/pg_alchemy_kit-0.8.3.tar.gz]
+[2024-04-08 04:02:49] INFO root fetch - main [MainThread]: End processing [pg-alchemy-kit]: success
+[2024-04-08 04:02:49] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b3.tar.gz]
+[2024-04-08 04:02:49] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b4.tar.gz]
+[2024-04-08 04:02:49] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-08 04:02:50] INFO root fetch - processPackages [pluggy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pluggy-sdk-1.0.0.post2.tar.gz]
+[2024-04-08 04:02:50] INFO root fetch - processPackages [pluggy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pluggy-sdk-1.0.0.post3.tar.gz]
+[2024-04-08 04:02:50] INFO root fetch - main [MainThread]: End processing [pluggy-sdk]: success
+[2024-04-08 04:02:50] INFO root fetch - main [MainThread]: Store serial: [22660803]
