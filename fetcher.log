@@ -10929,3 +10929,48 @@
 [2024-04-08 08:58:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240408022728.tar.gz]
 [2024-04-08 08:58:04] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-08 08:58:04] INFO root fetch - main [MainThread]: Store serial: [22663205]
+[2024-04-08 09:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663205]
+[2024-04-08 09:00:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 09:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sae-vis
+[2024-04-08 09:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prodpadlm-client
+[2024-04-08 09:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: B2cNews
+[2024-04-08 09:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orm-alchemist
+[2024-04-08 09:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ign8
+[2024-04-08 09:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-nightly
+[2024-04-08 09:00:13] WARNING root fetch - processPackages [orm-alchemist]: Skipping, unable to determine old version
+[2024-04-08 09:00:13] INFO root fetch - main [MainThread]: End processing [orm-alchemist] error
+[2024-04-08 09:00:13] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240406] Old Version: [1.33.1.dev20240405]
+[2024-04-08 09:00:13] INFO root fetch - processPackages [sae-vis]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-08 09:00:13] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.19]
+[2024-04-08 09:00:13] WARNING root fetch - processPackages [prodpadlm-client]: Skipping, unable to determine old version
+[2024-04-08 09:00:13] INFO root fetch - main [MainThread]: End processing [prodpadlm-client] error
+[2024-04-08 09:00:13] WARNING root fetch - processPackages [B2cNews]: Skipping, unable to determine old version
+[2024-04-08 09:00:13] INFO root fetch - main [MainThread]: End processing [B2cNews] error
+[2024-04-08 09:00:13] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/d3/b6/32377584c78f1d4f5a8cc7321d22dfbfb644b0e6d72a59731f800e091933/streamlit-nightly-1.33.1.dev20240405.tar.gz
+[2024-04-08 09:00:13] INFO root fetch - processPackages [sae-vis]: Downloading https://files.pythonhosted.org/packages/41/60/b7fdf368aed9c8dd61c0db677bd692930cc6ea73b861fd2925fab6460c71/sae-vis-0.2.8.tar.gz
+[2024-04-08 09:00:13] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/2c/16/4f87332e7c2570888d4dfa48e803db17a563206e389294eb5925ac5a743f/ign8-4.8.19.tar.gz
+[2024-04-08 09:00:13] WARNING root fetch - processPackages [sae-vis]: Timeout reached during download
+[2024-04-08 09:00:13] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 09:00:13] INFO root fetch - processPackages [sae-vis]: Downloading https://files.pythonhosted.org/packages/7f/ab/3d421c7c8ad6574d57aec3c2ae9cf540fd37978ef92c9492e7a82839af9d/sae-vis-0.2.9.tar.gz
+[2024-04-08 09:00:14] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-08 09:00:14] WARNING root fetch - processPackages [sae-vis]: Timeout reached during download
+[2024-04-08 09:00:14] INFO root fetch - processPackages [sae-vis]: executing diffoscope
+[2024-04-08 09:00:14] INFO root fetch - processPackages [sae-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sae-vis-0.2.8.tar.gz tmp/sae-vis-0.2.9.tar.gz --markdown 20240408/s/sae-vis/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-08 09:00:14] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 09:00:14] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-08 09:00:14] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.19.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240408/i/ign8/4.8.19-4.8.5/diff.md --exclude *.pyd
+[2024-04-08 09:00:14] WARNING root fetch - processPackages [streamlit-nightly]: Timeout reached during download
+[2024-04-08 09:00:14] INFO root fetch - processPackages [sae-vis]: Remove: archive file [/home/abi/fetcher/tmp/sae-vis-0.2.8.tar.gz]
+[2024-04-08 09:00:14] INFO root fetch - processPackages [sae-vis]: Remove: archive file [/home/abi/fetcher/tmp/sae-vis-0.2.9.tar.gz]
+[2024-04-08 09:00:14] INFO root fetch - main [MainThread]: End processing [sae-vis]: success
+[2024-04-08 09:00:14] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/11/da/57d8797568b3df702266b90a70d823109a699c1f5aa4b56e170e7b2d6a4d/streamlit-nightly-1.33.1.dev20240406.tar.gz
+[2024-04-08 09:00:16] WARNING root fetch - processPackages [streamlit-nightly]: Timeout reached during download
+[2024-04-08 09:00:16] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-08 09:00:16] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.33.1.dev20240405.tar.gz tmp/streamlit-nightly-1.33.1.dev20240406.tar.gz --markdown 20240408/s/streamlit-nightly/1.33.1.dev20240405-1.33.1.dev20240406/diff.md --exclude *.pyd
+[2024-04-08 09:00:17] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.19.tar.gz]
+[2024-04-08 09:00:17] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-08 09:00:17] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-08 09:00:19] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.33.1.dev20240405.tar.gz]
+[2024-04-08 09:00:19] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.33.1.dev20240406.tar.gz]
+[2024-04-08 09:00:19] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-08 09:00:19] INFO root fetch - main [MainThread]: Store serial: [22663227]
