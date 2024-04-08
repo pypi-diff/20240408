@@ -2841,3 +2841,22 @@
 [2024-04-08 03:40:50] INFO root fetch - processPackages [cadcdata]: Remove: archive file [/home/abi/fetcher/tmp/cadcdata-2.5.tar.gz]
 [2024-04-08 03:40:50] INFO root fetch - main [MainThread]: End processing [cadcdata]: success
 [2024-04-08 03:40:50] INFO root fetch - main [MainThread]: Store serial: [22660677]
+[2024-04-08 03:42:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660677]
+[2024-04-08 03:43:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 03:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plover-controller
+[2024-04-08 03:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ailia
+[2024-04-08 03:43:01] INFO root fetch - processPackages [ailia]: New version: [1.3.0.2] Old Version: [1.3.0.1]
+[2024-04-08 03:43:01] INFO root fetch - processPackages [plover-controller]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 03:43:01] INFO root fetch - processPackages [ailia]: Downloading https://files.pythonhosted.org/packages/4b/f4/dbb3c8823091aa7ea1b5119e308a565dbbc885d357937c3626622e026ac9/ailia-1.3.0.1-py3-none-any.whl
+[2024-04-08 03:43:01] WARNING root fetch - processPackages [ailia]: Skipping package: exceeds size limit 47687851>=10485760
+[2024-04-08 03:43:01] INFO root fetch - main [MainThread]: End processing [ailia] error
+[2024-04-08 03:43:01] INFO root fetch - processPackages [plover-controller]: Downloading https://files.pythonhosted.org/packages/19/36/666f16efd874a720b9c583c12a242b048bfd5291d72fcd3c4f1688fc9881/plover-controller-0.0.8.tar.gz
+[2024-04-08 03:43:01] WARNING root fetch - processPackages [plover-controller]: Timeout reached during download
+[2024-04-08 03:43:01] INFO root fetch - processPackages [plover-controller]: Downloading https://files.pythonhosted.org/packages/da/6c/b5bf3a27dbf415e3251bce9786b72b18aa23aa403a40baa81c7e63708853/plover-controller-0.0.9.tar.gz
+[2024-04-08 03:43:01] WARNING root fetch - processPackages [plover-controller]: Timeout reached during download
+[2024-04-08 03:43:01] INFO root fetch - processPackages [plover-controller]: executing diffoscope
+[2024-04-08 03:43:01] INFO root fetch - processPackages [plover-controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover-controller-0.0.8.tar.gz tmp/plover-controller-0.0.9.tar.gz --markdown 20240408/p/plover-controller/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 03:43:02] INFO root fetch - processPackages [plover-controller]: Remove: archive file [/home/abi/fetcher/tmp/plover-controller-0.0.8.tar.gz]
+[2024-04-08 03:43:02] INFO root fetch - processPackages [plover-controller]: Remove: archive file [/home/abi/fetcher/tmp/plover-controller-0.0.9.tar.gz]
+[2024-04-08 03:43:02] INFO root fetch - main [MainThread]: End processing [plover-controller]: success
+[2024-04-08 03:43:02] INFO root fetch - main [MainThread]: Store serial: [22660682]
