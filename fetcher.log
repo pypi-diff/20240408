@@ -15808,3 +15808,50 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:49:22] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.9.tar.gz]
 [2024-04-08 11:49:22] INFO root fetch - main [MainThread]: End processing [deep-utils]: success
 [2024-04-08 11:49:22] INFO root fetch - main [MainThread]: Store serial: [22665236]
+[2024-04-08 11:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665236]
+[2024-04-08 11:51:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nextconsole
+[2024-04-08 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipez
+[2024-04-08 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: youwol
+[2024-04-08 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: axonius-api-client
+[2024-04-08 11:51:32] INFO root fetch - processPackages [nextconsole]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 11:51:32] INFO root fetch - processPackages [pipez]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 11:51:32] INFO root fetch - processPackages [youwol]: New version: [0.1.9rc0] Old Version: [0.1.8rc3]
+[2024-04-08 11:51:32] INFO root fetch - processPackages [axonius-api-client]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-04-08 11:51:32] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/57/41/15f90ae66b484071299d6e1321594b786409a2ff6c044cf2ceb7f0c89a77/pipez-0.0.8.tar.gz
+[2024-04-08 11:51:33] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/66/d0/d357d9c7a2a63bbe635d98cb42cc03149c29723f238a05b3cbb03995a49f/nextconsole-0.0.1-py3-none-any.whl
+[2024-04-08 11:51:33] WARNING root fetch - processPackages [pipez]: Timeout reached during download
+[2024-04-08 11:51:33] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 11:51:33] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/93/c7/0fca78340e91b5868c39d08257122f6ca0fc2e70abc1509cc8c423295034/youwol-0.1.8rc3.tar.gz
+[2024-04-08 11:51:33] INFO root fetch - processPackages [axonius-api-client]: Downloading https://files.pythonhosted.org/packages/da/5a/9dd35850a466fb2906dd9ae5d56240cc6b0910988dda7ede3b15d9554b6a/axonius_api_client-5.0.8-py2.py3-none-any.whl
+[2024-04-08 11:51:33] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a3/7b/b75e90898c1b52cbcd0b17ad4595e5ed0f6d4554e94be045c641282bc131/pipez-0.0.9.tar.gz
+[2024-04-08 11:51:33] WARNING root fetch - processPackages [pipez]: Timeout reached during download
+[2024-04-08 11:51:33] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-08 11:51:33] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.8.tar.gz tmp/pipez-0.0.9.tar.gz --markdown 20240408/p/pipez/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:51:33] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/e1/95/465a9efcbddaacc6923343b41d2e003d0ded05903535a939fe2f55f26b78/nextconsole-0.0.2-py3-none-any.whl
+[2024-04-08 11:51:33] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 11:51:33] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-08 11:51:33] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.1-py3-none-any.whl.zip tmp/nextconsole-0.0.2-py3-none-any.whl.zip --markdown 20240408/n/nextconsole/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 11:51:33] WARNING root fetch - processPackages [youwol]: Timeout reached during download
+[2024-04-08 11:51:33] WARNING root fetch - processPackages [axonius-api-client]: Timeout reached during download
+[2024-04-08 11:51:33] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/d1/0b/3346293495321ca05f54f22bf76428fb93c279cd896a7bb38c3fba2dbc19/youwol-0.1.9rc0.tar.gz
+[2024-04-08 11:51:33] INFO root fetch - processPackages [axonius-api-client]: Downloading https://files.pythonhosted.org/packages/60/5f/1b0aa15870e0e34aa4f04fefdaf809b6f74383fc7dd25907b383895951d4/axonius_api_client-5.0.9-py2.py3-none-any.whl
+[2024-04-08 11:51:33] WARNING root fetch - processPackages [axonius-api-client]: Timeout reached during download
+[2024-04-08 11:51:33] INFO root fetch - processPackages [axonius-api-client]: executing diffoscope
+[2024-04-08 11:51:33] INFO root fetch - processPackages [axonius-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axonius_api_client-5.0.8-py2.py3-none-any.whl.zip tmp/axonius_api_client-5.0.9-py2.py3-none-any.whl.zip --markdown 20240408/a/axonius-api-client/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:51:33] WARNING root fetch - processPackages [youwol]: Timeout reached during download
+[2024-04-08 11:51:33] INFO root fetch - processPackages [youwol]: executing diffoscope
+[2024-04-08 11:51:33] INFO root fetch - processPackages [youwol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youwol-0.1.8rc3.tar.gz tmp/youwol-0.1.9rc0.tar.gz --markdown 20240408/y/youwol/0.1.8rc3-0.1.9rc0/diff.md --exclude *.pyd
+[2024-04-08 11:51:33] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.1-py3-none-any.whl.zip]
+[2024-04-08 11:51:33] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.2-py3-none-any.whl.zip]
+[2024-04-08 11:51:33] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-08 11:51:34] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.8.tar.gz]
+[2024-04-08 11:51:34] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.9.tar.gz]
+[2024-04-08 11:51:34] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-08 11:51:35] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.8rc3.tar.gz]
+[2024-04-08 11:51:35] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc0.tar.gz]
+[2024-04-08 11:51:35] INFO root fetch - main [MainThread]: End processing [youwol]: success
+[2024-04-08 11:51:36] INFO root fetch - processPackages [axonius-api-client]: Remove: archive file [/home/abi/fetcher/tmp/axonius_api_client-5.0.8-py2.py3-none-any.whl.zip]
+[2024-04-08 11:51:36] INFO root fetch - processPackages [axonius-api-client]: Remove: archive file [/home/abi/fetcher/tmp/axonius_api_client-5.0.9-py2.py3-none-any.whl.zip]
+[2024-04-08 11:51:36] INFO root fetch - main [MainThread]: End processing [axonius-api-client]: success
+[2024-04-08 11:51:36] INFO root fetch - main [MainThread]: Store serial: [22665248]
