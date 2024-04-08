@@ -19818,3 +19818,57 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:06:13] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-04-08 14:06:13] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-04-08 14:06:13] INFO root fetch - main [MainThread]: Store serial: [22666612]
+[2024-04-08 14:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666612]
+[2024-04-08 14:08:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optioner
+[2024-04-08 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-espresso
+[2024-04-08 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxu-xrt
+[2024-04-08 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssh-ca-cli
+[2024-04-08 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anacondas
+[2024-04-08 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyxu-finufft
+[2024-04-08 14:08:22] INFO root fetch - processPackages [python-espresso]: New version: [1.7] Old Version: [1.6]
+[2024-04-08 14:08:22] INFO root fetch - processPackages [ssh-ca-cli]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-08 14:08:22] INFO root fetch - processPackages [pyxu-finufft]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-08 14:08:22] WARNING root fetch - processPackages [anacondas]: Skipping, unable to determine old version
+[2024-04-08 14:08:22] INFO root fetch - main [MainThread]: End processing [anacondas] error
+[2024-04-08 14:08:22] INFO root fetch - processPackages [python-espresso]: Downloading https://files.pythonhosted.org/packages/57/d1/5de2c784929d1ae750f8b9591a516e54d81591dc0dea7e41c2f7b24afc80/python-espresso-1.6.tar.gz
+[2024-04-08 14:08:22] INFO root fetch - processPackages [optioner]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-04-08 14:08:22] INFO root fetch - processPackages [pyxu-xrt]: New version: [0.5.1] Old Version: [0.5]
+[2024-04-08 14:08:22] ERROR root fetch - processPackages [ssh-ca-cli]: Unable to fetch info: No such project/version 'ssh-ca-cli' 0.5.0
+[2024-04-08 14:08:22] INFO root fetch - main [MainThread]: End processing [ssh-ca-cli] error
+[2024-04-08 14:08:22] WARNING root fetch - processPackages [python-espresso]: Timeout reached during download
+[2024-04-08 14:08:22] INFO root fetch - processPackages [pyxu-finufft]: Downloading https://files.pythonhosted.org/packages/d5/6d/bd4804cc7e13b73e00cb7a0cb86d894402c8dca3146d3d9b7848ce42d006/pyxu_finufft-1.0-py3-none-any.whl
+[2024-04-08 14:08:22] INFO root fetch - processPackages [pyxu-xrt]: Downloading https://files.pythonhosted.org/packages/d6/c5/cdab605f12f475ac3fc5669dd15869bdda028e6c210c396ff4804636a490/pyxu_xrt-0.5-py3-none-any.whl
+[2024-04-08 14:08:22] INFO root fetch - processPackages [optioner]: Downloading https://files.pythonhosted.org/packages/ab/0a/f676844742ec3a3053b9fd77e163523ad14a6059d5820135291ff43656ac/optioner-1.4.5.tar.gz
+[2024-04-08 14:08:22] INFO root fetch - processPackages [python-espresso]: Downloading https://files.pythonhosted.org/packages/c5/d8/14978bc7e842dff53b29d4b1a1b8ab77b2267fcfc7bbb5c25da95ce32494/python-espresso-1.7.tar.gz
+[2024-04-08 14:08:22] WARNING root fetch - processPackages [pyxu-xrt]: Timeout reached during download
+[2024-04-08 14:08:22] WARNING root fetch - processPackages [optioner]: Timeout reached during download
+[2024-04-08 14:08:22] WARNING root fetch - processPackages [pyxu-finufft]: Timeout reached during download
+[2024-04-08 14:08:22] WARNING root fetch - processPackages [python-espresso]: Timeout reached during download
+[2024-04-08 14:08:22] INFO root fetch - processPackages [python-espresso]: executing diffoscope
+[2024-04-08 14:08:22] INFO root fetch - processPackages [python-espresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-espresso-1.6.tar.gz tmp/python-espresso-1.7.tar.gz --markdown 20240408/p/python-espresso/1.6-1.7/diff.md --exclude *.pyd
+[2024-04-08 14:08:22] INFO root fetch - processPackages [pyxu-xrt]: Downloading https://files.pythonhosted.org/packages/6c/28/d3adc9fdceb067728a136dab8369bcd1f6fc41565e3e6fb6c7a453a0f5f5/pyxu_xrt-0.5.1-py3-none-any.whl
+[2024-04-08 14:08:22] INFO root fetch - processPackages [optioner]: Downloading https://files.pythonhosted.org/packages/20/cf/7b052dabdc88e0723261bf69fb4f659089995179222c42e7af4fd05d55e9/optioner-1.4.6.tar.gz
+[2024-04-08 14:08:22] INFO root fetch - processPackages [pyxu-finufft]: Downloading https://files.pythonhosted.org/packages/e7/c0/4e15a39d63112bdb979097e88546dfc6192fc27c2cd25bac29eaf4b9cb36/pyxu_finufft-1.0.1-py3-none-any.whl
+[2024-04-08 14:08:22] WARNING root fetch - processPackages [pyxu-xrt]: Timeout reached during download
+[2024-04-08 14:08:22] INFO root fetch - processPackages [pyxu-xrt]: executing diffoscope
+[2024-04-08 14:08:22] INFO root fetch - processPackages [pyxu-xrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxu_xrt-0.5-py3-none-any.whl.zip tmp/pyxu_xrt-0.5.1-py3-none-any.whl.zip --markdown 20240408/p/pyxu-xrt/0.5-0.5.1/diff.md --exclude *.pyd
+[2024-04-08 14:08:22] WARNING root fetch - processPackages [optioner]: Timeout reached during download
+[2024-04-08 14:08:22] INFO root fetch - processPackages [optioner]: executing diffoscope
+[2024-04-08 14:08:22] INFO root fetch - processPackages [optioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optioner-1.4.5.tar.gz tmp/optioner-1.4.6.tar.gz --markdown 20240408/o/optioner/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2024-04-08 14:08:23] WARNING root fetch - processPackages [pyxu-finufft]: Timeout reached during download
+[2024-04-08 14:08:23] INFO root fetch - processPackages [pyxu-finufft]: executing diffoscope
+[2024-04-08 14:08:23] INFO root fetch - processPackages [pyxu-finufft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxu_finufft-1.0-py3-none-any.whl.zip tmp/pyxu_finufft-1.0.1-py3-none-any.whl.zip --markdown 20240408/p/pyxu-finufft/1.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 14:08:23] INFO root fetch - processPackages [python-espresso]: Remove: archive file [/home/abi/fetcher/tmp/python-espresso-1.6.tar.gz]
+[2024-04-08 14:08:23] INFO root fetch - processPackages [python-espresso]: Remove: archive file [/home/abi/fetcher/tmp/python-espresso-1.7.tar.gz]
+[2024-04-08 14:08:23] INFO root fetch - main [MainThread]: End processing [python-espresso]: success
+[2024-04-08 14:08:23] INFO root fetch - processPackages [pyxu-xrt]: Remove: archive file [/home/abi/fetcher/tmp/pyxu_xrt-0.5-py3-none-any.whl.zip]
+[2024-04-08 14:08:23] INFO root fetch - processPackages [pyxu-xrt]: Remove: archive file [/home/abi/fetcher/tmp/pyxu_xrt-0.5.1-py3-none-any.whl.zip]
+[2024-04-08 14:08:23] INFO root fetch - main [MainThread]: End processing [pyxu-xrt]: success
+[2024-04-08 14:08:23] INFO root fetch - processPackages [pyxu-finufft]: Remove: archive file [/home/abi/fetcher/tmp/pyxu_finufft-1.0-py3-none-any.whl.zip]
+[2024-04-08 14:08:23] INFO root fetch - processPackages [pyxu-finufft]: Remove: archive file [/home/abi/fetcher/tmp/pyxu_finufft-1.0.1-py3-none-any.whl.zip]
+[2024-04-08 14:08:23] INFO root fetch - main [MainThread]: End processing [pyxu-finufft]: success
+[2024-04-08 14:08:23] INFO root fetch - processPackages [optioner]: Remove: archive file [/home/abi/fetcher/tmp/optioner-1.4.5.tar.gz]
+[2024-04-08 14:08:23] INFO root fetch - processPackages [optioner]: Remove: archive file [/home/abi/fetcher/tmp/optioner-1.4.6.tar.gz]
+[2024-04-08 14:08:23] INFO root fetch - main [MainThread]: End processing [optioner]: success
+[2024-04-08 14:08:23] INFO root fetch - main [MainThread]: Store serial: [22666634]
