@@ -10193,3 +10193,59 @@
 [2024-04-08 08:22:21] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
 [2024-04-08 08:22:21] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
 [2024-04-08 08:22:21] INFO root fetch - main [MainThread]: Store serial: [22662932]
+[2024-04-08 08:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662932]
+[2024-04-08 08:24:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mc-netease-sdk
+[2024-04-08 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaea-operator
+[2024-04-08 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaea-operator
+[2024-04-08 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickfin
+[2024-04-08 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esphome
+[2024-04-08 08:24:29] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.5] Old Version: [1.2.0.4]
+[2024-04-08 08:24:29] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.5] Old Version: [1.2.0.4]
+[2024-04-08 08:24:29] INFO root fetch - processPackages [quickfin]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 08:24:29] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/62/1b/e79c672549e1e72b963ade665d0c2d1c3a984fb3dd3935a3e8971fbd6ea5/gaea_operator-1.2.0.4-py3-none-any.whl
+[2024-04-08 08:24:29] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/62/1b/e79c672549e1e72b963ade665d0c2d1c3a984fb3dd3935a3e8971fbd6ea5/gaea_operator-1.2.0.4-py3-none-any.whl
+[2024-04-08 08:24:29] INFO root fetch - processPackages [mc-netease-sdk]: New version: [2.9.0.44290] Old Version: [2.9.0.44274]
+[2024-04-08 08:24:29] INFO root fetch - processPackages [esphome]: New version: [2024.3.2] Old Version: [2024.3.1]
+[2024-04-08 08:24:29] WARNING root fetch - processPackages [gaea-operator]: Timeout reached during download
+[2024-04-08 08:24:29] WARNING root fetch - processPackages [gaea-operator]: Timeout reached during download
+[2024-04-08 08:24:30] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/58/18/9ec071d9e79468ec8cba17cae9e96600c2e70e6f0749c7829a9a1eaf5f65/quickfin-1.8.0.tar.gz
+[2024-04-08 08:24:30] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/5e/54/d67aaba91461f5e1f5b7e4a6cea28c3d83063d4bd411b4943654f6ba0b97/gaea_operator-1.2.0.5-py3-none-any.whl
+[2024-04-08 08:24:30] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/5e/54/d67aaba91461f5e1f5b7e4a6cea28c3d83063d4bd411b4943654f6ba0b97/gaea_operator-1.2.0.5-py3-none-any.whl
+[2024-04-08 08:24:30] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/ce/bd/ce66c963701930ef65984ffe07a603cf9a40839ee616187f8a9af3b96d24/mc_netease_sdk-2.9.0.44274-py2-none-any.whl
+[2024-04-08 08:24:30] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/52/9c/831923e689a5b652216a8aad491c788c4905a25946a8c8d3e9479f7b6359/esphome-2024.3.1.tar.gz
+[2024-04-08 08:24:30] WARNING root fetch - processPackages [quickfin]: Timeout reached during download
+[2024-04-08 08:24:30] WARNING root fetch - processPackages [gaea-operator]: Timeout reached during download
+[2024-04-08 08:24:30] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-08 08:24:30] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.4-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.5-py3-none-any.whl.zip --markdown 20240408/g/gaea-operator/1.2.0.4-1.2.0.5/diff.md --exclude *.pyd
+[2024-04-08 08:24:30] WARNING root fetch - processPackages [gaea-operator]: Timeout reached during download
+[2024-04-08 08:24:30] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-08 08:24:30] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.4-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.5-py3-none-any.whl.zip --markdown 20240408/g/gaea-operator/1.2.0.4-1.2.0.5/diff.md --exclude *.pyd
+[2024-04-08 08:24:30] WARNING root fetch - processPackages [mc-netease-sdk]: Timeout reached during download
+[2024-04-08 08:24:30] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/f7/81/5611cebce8db0b6121d92bd2ee76f47e49b160d9e5d1bde8f6a81ffd0961/quickfin-1.9.0.tar.gz
+[2024-04-08 08:24:30] WARNING root fetch - processPackages [quickfin]: Timeout reached during download
+[2024-04-08 08:24:30] INFO root fetch - processPackages [quickfin]: executing diffoscope
+[2024-04-08 08:24:30] INFO root fetch - processPackages [quickfin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfin-1.8.0.tar.gz tmp/quickfin-1.9.0.tar.gz --markdown 20240408/q/quickfin/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 08:24:30] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/63/0d/f58f720ee05ea75b4a3c959d9fa6e49e17b844e50741adff621cdf8590a5/mc_netease_sdk-2.9.0.44290-py2-none-any.whl
+[2024-04-08 08:24:30] WARNING root fetch - processPackages [esphome]: Timeout reached during download
+[2024-04-08 08:24:30] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/9b/e5/c09237cf6f2da94181102324fc255dff654414bc3c18e54145bb60d28697/esphome-2024.3.2.tar.gz
+[2024-04-08 08:24:30] WARNING root fetch - processPackages [mc-netease-sdk]: Timeout reached during download
+[2024-04-08 08:24:30] INFO root fetch - processPackages [mc-netease-sdk]: executing diffoscope
+[2024-04-08 08:24:30] INFO root fetch - processPackages [mc-netease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip --markdown 20240408/m/mc-netease-sdk/2.9.0.44274-2.9.0.44290/diff.md --exclude *.pyd
+[2024-04-08 08:24:31] WARNING root fetch - processPackages [esphome]: Timeout reached during download
+[2024-04-08 08:24:31] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-04-08 08:24:31] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.3.1.tar.gz tmp/esphome-2024.3.2.tar.gz --markdown 20240408/e/esphome/2024.3.1-2024.3.2/diff.md --exclude *.pyd
+[2024-04-08 08:24:31] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.8.0.tar.gz]
+[2024-04-08 08:24:31] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.9.0.tar.gz]
+[2024-04-08 08:24:31] INFO root fetch - main [MainThread]: End processing [quickfin]: success
+[2024-04-08 08:24:31] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.4-py3-none-any.whl.zip]
+[2024-04-08 08:24:31] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.5-py3-none-any.whl.zip]
+[2024-04-08 08:24:31] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-08 08:24:31] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-08 08:24:32] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip]
+[2024-04-08 08:24:32] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip]
+[2024-04-08 08:24:32] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
+[2024-04-08 08:24:44] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.3.1.tar.gz]
+[2024-04-08 08:24:44] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.3.2.tar.gz]
+[2024-04-08 08:24:44] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-04-08 08:24:44] INFO root fetch - main [MainThread]: Store serial: [22662944]
