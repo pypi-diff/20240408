@@ -22882,3 +22882,128 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:32:39] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1473-py3-none-any.whl.zip]
 [2024-04-08 15:32:39] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-08 15:32:39] INFO root fetch - main [MainThread]: Store serial: [22667684]
+[2024-04-08 15:34:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667684]
+[2024-04-08 15:34:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: workos
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eldpy
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: so-ml-tools
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gps-building-blocks
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: verbolab
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simplemeasuretime
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-robosapiens
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: illuminat
+[2024-04-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-google-ads
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [simplemeasuretime]: Skipping, unable to determine old version
+[2024-04-08 15:34:48] INFO root fetch - main [MainThread]: End processing [simplemeasuretime] error
+[2024-04-08 15:34:48] INFO root fetch - processPackages [illuminat]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-08 15:34:48] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-08 15:34:48] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-08 15:34:48] INFO root fetch - processPackages [robotframework-robosapiens]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-08 15:34:48] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [verbolab]: Skipping, unable to determine old version
+[2024-04-08 15:34:48] INFO root fetch - main [MainThread]: End processing [verbolab] error
+[2024-04-08 15:34:48] INFO root fetch - processPackages [eldpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 15:34:48] INFO root fetch - processPackages [workos]: New version: [4.3.0] Old Version: [4.2.0]
+[2024-04-08 15:34:48] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-08 15:34:48] INFO root fetch - processPackages [airbyte-source-google-ads]: New version: [3.4.1] Old Version: [3.4.0]
+[2024-04-08 15:34:48] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-08 15:34:48] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/f1/8a/17502e7fa98b7af3e16dc521886d070c4f366e8a6e0a552b1ddadffcc2bd/illuminat-1.1.1.tar.gz
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-08 15:34:48] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/59/0f/2164f8b6c023df08bea84b9c38898ffbd63f47720d36fbd02420c217fbe1/robotframework_robosapiens-1.2.8-py3-none-any.whl
+[2024-04-08 15:34:48] INFO root fetch - processPackages [eldpy]: Downloading https://files.pythonhosted.org/packages/e7/54/17e3519fa44a1f347b2d0c03f1e0b83d2ffdd01bd926bcf8487e3bd9781c/eldpy-0.0.8.tar.gz
+[2024-04-08 15:34:48] INFO root fetch - processPackages [workos]: Downloading https://files.pythonhosted.org/packages/38/b9/af8e3d69487b8ce9af835c2a8b72b2085448f01f05e04fd982327e786196/workos-4.2.0.tar.gz
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46425730>=10485760
+[2024-04-08 15:34:48] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-08 15:34:48] INFO root fetch - processPackages [airbyte-source-google-ads]: Downloading https://files.pythonhosted.org/packages/f1/ab/63f7934ec7dfeba5694286490011492e09f0fd6ec02c4c4ad439f2899416/airbyte_source_google_ads-3.4.0.tar.gz
+[2024-04-08 15:34:48] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-08 15:34:48] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2024-04-08 15:34:48] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20240408/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2024-04-08 15:34:48] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-08 15:34:48] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-08 15:34:48] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240408/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [eldpy]: Timeout reached during download
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [workos]: Timeout reached during download
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [airbyte-source-google-ads]: Timeout reached during download
+[2024-04-08 15:34:48] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-08 15:34:48] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-08 15:34:48] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240408/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-08 15:34:49] ERROR root fetch - processPackages [airbyte-source-google-ads]: Unable to fetch info: No such project/version 'airbyte-source-google-ads' 3.4.1
+[2024-04-08 15:34:49] INFO root fetch - main [MainThread]: End processing [airbyte-source-google-ads] error
+[2024-04-08 15:34:49] INFO root fetch - processPackages [eldpy]: Downloading https://files.pythonhosted.org/packages/1b/0d/5c2b7c44e35dad53481699dfdaef6e31fcdb6a2eaea28f3daf5277a62b01/eldpy-0.0.9.tar.gz
+[2024-04-08 15:34:49] INFO root fetch - processPackages [workos]: Downloading https://files.pythonhosted.org/packages/2c/ad/e6274a75ebabad65d535e369a23f6ae74455607e1e3440486642d6703116/workos-4.3.0.tar.gz
+[2024-04-08 15:34:49] WARNING root fetch - processPackages [robotframework-robosapiens]: Timeout reached during download
+[2024-04-08 15:34:49] WARNING root fetch - processPackages [workos]: Timeout reached during download
+[2024-04-08 15:34:49] INFO root fetch - processPackages [workos]: executing diffoscope
+[2024-04-08 15:34:49] INFO root fetch - processPackages [workos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workos-4.2.0.tar.gz tmp/workos-4.3.0.tar.gz --markdown 20240408/w/workos/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2024-04-08 15:34:49] WARNING root fetch - processPackages [eldpy]: Timeout reached during download
+[2024-04-08 15:34:49] INFO root fetch - processPackages [eldpy]: executing diffoscope
+[2024-04-08 15:34:49] INFO root fetch - processPackages [eldpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eldpy-0.0.8.tar.gz tmp/eldpy-0.0.9.tar.gz --markdown 20240408/e/eldpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 15:34:49] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/ff/54/eb30132f91c8b8ab6cf6fee0e0186647d01de7b0bdb0a4019c4ff075928a/robotframework_robosapiens-1.2.9-py3-none-any.whl
+[2024-04-08 15:34:49] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-08 15:34:49] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-08 15:34:49] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-08 15:34:49] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: time="2024-04-08T15:34:48+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-04-08 15:34:49] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2024-04-08 15:34:49] WARNING root fetch - processPackages [robotframework-robosapiens]: Timeout reached during download
+[2024-04-08 15:34:49] INFO root fetch - processPackages [robotframework-robosapiens]: executing diffoscope
+[2024-04-08 15:34:49] INFO root fetch - processPackages [robotframework-robosapiens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_robosapiens-1.2.8-py3-none-any.whl.zip tmp/robotframework_robosapiens-1.2.9-py3-none-any.whl.zip --markdown 20240408/r/robotframework-robosapiens/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-08 15:34:49] INFO root fetch - processPackages [workos]: Remove: archive file [/home/abi/fetcher/tmp/workos-4.2.0.tar.gz]
+[2024-04-08 15:34:49] INFO root fetch - processPackages [workos]: Remove: archive file [/home/abi/fetcher/tmp/workos-4.3.0.tar.gz]
+[2024-04-08 15:34:49] INFO root fetch - main [MainThread]: End processing [workos]: success
+[2024-04-08 15:34:50] INFO root fetch - processPackages [eldpy]: Remove: archive file [/home/abi/fetcher/tmp/eldpy-0.0.8.tar.gz]
+[2024-04-08 15:34:50] INFO root fetch - processPackages [eldpy]: Remove: archive file [/home/abi/fetcher/tmp/eldpy-0.0.9.tar.gz]
+[2024-04-08 15:34:50] INFO root fetch - main [MainThread]: End processing [eldpy]: success
+[2024-04-08 15:34:50] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-08 15:34:50] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-08 15:34:50] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-08 15:34:50] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.2.8-py3-none-any.whl.zip]
+[2024-04-08 15:34:50] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.2.9-py3-none-any.whl.zip]
+[2024-04-08 15:34:50] INFO root fetch - main [MainThread]: End processing [robotframework-robosapiens]: success
+[2024-04-08 15:34:50] INFO root fetch - main [MainThread]: Store serial: [22667730]
