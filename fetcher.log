@@ -2762,3 +2762,13 @@
 [2024-04-08 03:27:57] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.9.0-py3-none-any.whl.zip]
 [2024-04-08 03:27:57] INFO root fetch - main [MainThread]: End processing [onediff]: success
 [2024-04-08 03:27:57] INFO root fetch - main [MainThread]: Store serial: [22660648]
+[2024-04-08 03:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660648]
+[2024-04-08 03:30:06] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 03:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660649]
+[2024-04-08 03:32:12] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 03:34:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660649]
+[2024-04-08 03:34:18] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 03:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-oboril
+[2024-04-08 03:34:19] WARNING root fetch - processPackages [example-package-oboril]: Skipping, unable to determine old version
+[2024-04-08 03:34:19] INFO root fetch - main [MainThread]: End processing [example-package-oboril] error
+[2024-04-08 03:34:19] INFO root fetch - main [MainThread]: Store serial: [22660654]
