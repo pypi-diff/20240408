@@ -21010,3 +21010,75 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:46:25] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.2.tar.gz]
 [2024-04-08 14:46:25] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-08 14:46:25] INFO root fetch - main [MainThread]: Store serial: [22667021]
+[2024-04-08 14:48:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667021]
+[2024-04-08 14:48:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eon-collective-docs-theme
+[2024-04-08 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-04-08 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arion-library
+[2024-04-08 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localcosmos-server
+[2024-04-08 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-ci
+[2024-04-08 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: infiltra
+[2024-04-08 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: warpzone-sdk
+[2024-04-08 14:48:35] INFO root fetch - processPackages [arion-library]: New version: [1.1rc29.dev29] Old Version: [1.1rc28.dev28]
+[2024-04-08 14:48:35] INFO root fetch - processPackages [hatch-ci]: New version: [0.1.4b76] Old Version: [0.1.4b75]
+[2024-04-08 14:48:35] INFO root fetch - processPackages [localcosmos-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-08 14:48:35] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-08 14:48:35] WARNING root fetch - processPackages [eon-collective-docs-theme]: Skipping, unable to determine old version
+[2024-04-08 14:48:35] INFO root fetch - main [MainThread]: End processing [eon-collective-docs-theme] error
+[2024-04-08 14:48:35] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/00/ea/5f25202672b1e40d41dfdda0ceb64b3aaa7f929e71e3ee044521e4749e55/arion_library-1.1rc28.dev28.tar.gz
+[2024-04-08 14:48:35] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/f1/ed/8fb662b31e649e7980c6c3a6b8c90047f9772f17930b061eb37cd3ccf72b/hatch-ci-0.1.4b75.tar.gz
+[2024-04-08 14:48:35] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/61/00/ab654a56ccee649ce5ffc92e70830470f4b118aba44f5448791ded818adf/localcosmos_server-0.9.3.tar.gz
+[2024-04-08 14:48:35] INFO root fetch - processPackages [infiltra]: New version: [4.0] Old Version: [3.8]
+[2024-04-08 14:48:35] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-08 14:48:35] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 14:48:35] WARNING root fetch - processPackages [hatch-ci]: Timeout reached during download
+[2024-04-08 14:48:35] INFO root fetch - processPackages [warpzone-sdk]: New version: [9.1.9] Old Version: [9.1.8]
+[2024-04-08 14:48:35] INFO root fetch - processPackages [infiltra]: Downloading https://files.pythonhosted.org/packages/86/22/46f4700f462d130508a4917bfa99d1c7d8fda1304baff52a58adeaacff59/infiltra-3.8.tar.gz
+[2024-04-08 14:48:36] WARNING root fetch - processPackages [cg]: Timeout reached during download
+[2024-04-08 14:48:36] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/18/21/391c0965bea53cc6a869ac84f3181ba7a14d41f118b266c25c6195514557/arion_library-1.1rc29.dev29.tar.gz
+[2024-04-08 14:48:36] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/12/1f/50830de9a72906627bdc634ce000d688cf47105d8587a064c228dc56d823/hatch-ci-0.1.4b76.tar.gz
+[2024-04-08 14:48:36] WARNING root fetch - processPackages [localcosmos-server]: Timeout reached during download
+[2024-04-08 14:48:36] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 14:48:36] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 14:48:36] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc28.dev28.tar.gz tmp/arion_library-1.1rc29.dev29.tar.gz --markdown 20240408/a/arion-library/1.1rc28.dev28-1.1rc29.dev29/diff.md --exclude *.pyd
+[2024-04-08 14:48:36] WARNING root fetch - processPackages [hatch-ci]: Timeout reached during download
+[2024-04-08 14:48:36] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2024-04-08 14:48:36] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch-ci-0.1.4b75.tar.gz tmp/hatch-ci-0.1.4b76.tar.gz --markdown 20240408/h/hatch-ci/0.1.4b75-0.1.4b76/diff.md --exclude *.pyd
+[2024-04-08 14:48:36] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/30/c5/2385104102242b4b2796d6fcd2d927d857e92c09234689b6b3f81754a9b8/warpzone_sdk-9.1.8.tar.gz
+[2024-04-08 14:48:36] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/5d/b5/0c97a340dd47c39e15214419963c0d28f5e1c89f1340833bc42fc71f32e2/localcosmos_server-0.9.4.tar.gz
+[2024-04-08 14:48:36] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-08 14:48:36] WARNING root fetch - processPackages [warpzone-sdk]: Timeout reached during download
+[2024-04-08 14:48:36] WARNING root fetch - processPackages [infiltra]: Timeout reached during download
+[2024-04-08 14:48:36] WARNING root fetch - processPackages [cg]: Timeout reached during download
+[2024-04-08 14:48:36] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-08 14:48:36] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240408/c/cg/59.9.0-59.9.1/diff.md --exclude *.pyd
+[2024-04-08 14:48:36] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/41/7d/cb14d7ee4be30f331412fbf42f28b30dca3df8ad102961c612ff2a1dd661/warpzone_sdk-9.1.9.tar.gz
+[2024-04-08 14:48:36] WARNING root fetch - processPackages [localcosmos-server]: Timeout reached during download
+[2024-04-08 14:48:36] INFO root fetch - processPackages [localcosmos-server]: executing diffoscope
+[2024-04-08 14:48:36] INFO root fetch - processPackages [localcosmos-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_server-0.9.3.tar.gz tmp/localcosmos_server-0.9.4.tar.gz --markdown 20240408/l/localcosmos-server/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-08 14:48:36] INFO root fetch - processPackages [infiltra]: Downloading https://files.pythonhosted.org/packages/ea/3f/920970fcf2b146d10d5fd797110311deedeb5744ce2520d6037b469353ec/infiltra-4.0.tar.gz
+[2024-04-08 14:48:37] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc28.dev28.tar.gz]
+[2024-04-08 14:48:37] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc29.dev29.tar.gz]
+[2024-04-08 14:48:37] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 14:48:37] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch-ci-0.1.4b75.tar.gz]
+[2024-04-08 14:48:37] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch-ci-0.1.4b76.tar.gz]
+[2024-04-08 14:48:37] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2024-04-08 14:48:37] WARNING root fetch - processPackages [warpzone-sdk]: Timeout reached during download
+[2024-04-08 14:48:37] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2024-04-08 14:48:37] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-9.1.8.tar.gz tmp/warpzone_sdk-9.1.9.tar.gz --markdown 20240408/w/warpzone-sdk/9.1.8-9.1.9/diff.md --exclude *.pyd
+[2024-04-08 14:48:37] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.8.tar.gz]
+[2024-04-08 14:48:37] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.9.tar.gz]
+[2024-04-08 14:48:37] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2024-04-08 14:48:37] WARNING root fetch - processPackages [infiltra]: Timeout reached during download
+[2024-04-08 14:48:37] INFO root fetch - processPackages [infiltra]: executing diffoscope
+[2024-04-08 14:48:37] INFO root fetch - processPackages [infiltra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infiltra-3.8.tar.gz tmp/infiltra-4.0.tar.gz --markdown 20240408/i/infiltra/3.8-4.0/diff.md --exclude *.pyd
+[2024-04-08 14:48:42] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-08 14:48:42] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-08 14:48:42] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-08 14:48:42] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.3.tar.gz]
+[2024-04-08 14:48:42] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.4.tar.gz]
+[2024-04-08 14:48:42] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
+[2024-04-08 14:49:58] INFO root fetch - processPackages [infiltra]: Remove: archive file [/home/abi/fetcher/tmp/infiltra-3.8.tar.gz]
+[2024-04-08 14:49:58] INFO root fetch - processPackages [infiltra]: Remove: archive file [/home/abi/fetcher/tmp/infiltra-4.0.tar.gz]
+[2024-04-08 14:49:58] INFO root fetch - main [MainThread]: End processing [infiltra]: success
+[2024-04-08 14:49:58] INFO root fetch - main [MainThread]: Store serial: [22667041]
