@@ -15125,3 +15125,75 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:25:20] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-04-08 11:25:20] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-04-08 11:25:20] INFO root fetch - main [MainThread]: Store serial: [22664949]
+[2024-04-08 11:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664949]
+[2024-04-08 11:27:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 11:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glif-client
+[2024-04-08 11:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy_kite_methods
+[2024-04-08 11:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edx-enterprise
+[2024-04-08 11:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xfem
+[2024-04-08 11:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpuhunt
+[2024-04-08 11:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logger-36
+[2024-04-08 11:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowdapt_sdk
+[2024-04-08 11:27:29] WARNING root fetch - processPackages [glif-client]: Skipping, unable to determine old version
+[2024-04-08 11:27:29] INFO root fetch - main [MainThread]: End processing [glif-client] error
+[2024-04-08 11:27:29] INFO root fetch - processPackages [easy_kite_methods]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 11:27:29] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post65.dev0]
+[2024-04-08 11:27:29] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/05/1e/ec270a7cf4ba57f90472c77677a3bbb2ac5667dfdb83d83fcba3aae6b608/easy_kite_methods-0.0.2.tar.gz
+[2024-04-08 11:27:29] INFO root fetch - processPackages [flowdapt_sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-08 11:27:29] INFO root fetch - processPackages [gpuhunt]: New version: [0.0.9rc2] Old Version: [0.0.9rc1]
+[2024-04-08 11:27:29] INFO root fetch - processPackages [logger-36]: New version: [2024.8] Old Version: [2024.7]
+[2024-04-08 11:27:29] INFO root fetch - processPackages [edx-enterprise]: New version: [4.9.5] Old Version: [4.9.2]
+[2024-04-08 11:27:29] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/15/11/0fc80d98bede8e742994e05e161d11cc5577535b26afc630d8b0f771ca8a/xfem-2.1.2303.post65.dev0.tar.gz
+[2024-04-08 11:27:29] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-08 11:27:29] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 11:27:30] INFO root fetch - processPackages [logger-36]: Downloading https://files.pythonhosted.org/packages/9f/75/e52a8d98afb50113cbe136b0c19453a59c4d701a95f97c3f1678e939b098/logger-36-2024.7.tar.gz
+[2024-04-08 11:27:30] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2024-04-08 11:27:30] INFO root fetch - processPackages [gpuhunt]: Downloading https://files.pythonhosted.org/packages/f8/3e/d9c60150f9dce6dbc30f10220530c18fbfc3164d1e812438feba25e8814d/gpuhunt-0.0.9rc1.tar.gz
+[2024-04-08 11:27:30] INFO root fetch - processPackages [flowdapt_sdk]: Downloading https://files.pythonhosted.org/packages/de/ef/bdac13b3b443be32af0b90aba714a392e6f1b0b8677d785cf33a8b0e85fa/flowdapt_sdk-0.1.5-py3-none-any.whl
+[2024-04-08 11:27:30] INFO root fetch - processPackages [easy_kite_methods]: Downloading https://files.pythonhosted.org/packages/6f/42/2139b93ba7c9bd7996065339c7d44f51dc4250ade99b38eb4e6416568c7b/easy_kite_methods-0.0.3.tar.gz
+[2024-04-08 11:27:30] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/e4/b3/dc021f2c163a19997e4167718a40d80668c3f4a6aa155975e4fbc7d84bc6/edx-enterprise-4.9.2.tar.gz
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [logger-36]: Timeout reached during download
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [flowdapt_sdk]: Timeout reached during download
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 11:27:30] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2024-04-08 11:27:30] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post65.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20240408/x/xfem/2.1.2303.post65.dev0-2.1.2303.post8.dev0/diff.md --exclude *.pyd
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [easy_kite_methods]: Timeout reached during download
+[2024-04-08 11:27:30] INFO root fetch - processPackages [easy_kite_methods]: executing diffoscope
+[2024-04-08 11:27:30] INFO root fetch - processPackages [easy_kite_methods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_kite_methods-0.0.2.tar.gz tmp/easy_kite_methods-0.0.3.tar.gz --markdown 20240408/e/easy_kite_methods/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [gpuhunt]: Timeout reached during download
+[2024-04-08 11:27:30] INFO root fetch - processPackages [logger-36]: Downloading https://files.pythonhosted.org/packages/be/ac/d04c6d3018760c0dc2cb021f06007938f73e60b86161086e27f03442f592/logger-36-2024.8.tar.gz
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [edx-enterprise]: Timeout reached during download
+[2024-04-08 11:27:30] INFO root fetch - processPackages [flowdapt_sdk]: Downloading https://files.pythonhosted.org/packages/fc/26/1f6aba64b7c03fc4f41352790c5d8489e35a157dd7858d650aafd21ea473/flowdapt_sdk-0.1.6-py3-none-any.whl
+[2024-04-08 11:27:30] INFO root fetch - processPackages [gpuhunt]: Downloading https://files.pythonhosted.org/packages/34/16/55e82735631251920ca0a3d4bd3ea7f498433980fe10d7f36631170fde18/gpuhunt-0.0.9rc2.tar.gz
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [logger-36]: Timeout reached during download
+[2024-04-08 11:27:30] INFO root fetch - processPackages [logger-36]: executing diffoscope
+[2024-04-08 11:27:30] INFO root fetch - processPackages [logger-36]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-36-2024.7.tar.gz tmp/logger-36-2024.8.tar.gz --markdown 20240408/l/logger-36/2024.7-2024.8/diff.md --exclude *.pyd
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [gpuhunt]: Timeout reached during download
+[2024-04-08 11:27:30] INFO root fetch - processPackages [gpuhunt]: executing diffoscope
+[2024-04-08 11:27:30] INFO root fetch - processPackages [gpuhunt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpuhunt-0.0.9rc1.tar.gz tmp/gpuhunt-0.0.9rc2.tar.gz --markdown 20240408/g/gpuhunt/0.0.9rc1-0.0.9rc2/diff.md --exclude *.pyd
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [flowdapt_sdk]: Timeout reached during download
+[2024-04-08 11:27:30] INFO root fetch - processPackages [flowdapt_sdk]: executing diffoscope
+[2024-04-08 11:27:30] INFO root fetch - processPackages [flowdapt_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowdapt_sdk-0.1.5-py3-none-any.whl.zip tmp/flowdapt_sdk-0.1.6-py3-none-any.whl.zip --markdown 20240408/f/flowdapt_sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-08 11:27:30] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/38/83/c01344f1866c05fe5671721941192ad2a1ab055d72d2e575ce08b970d4ef/edx-enterprise-4.9.5.tar.gz
+[2024-04-08 11:27:30] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.2.tar.gz]
+[2024-04-08 11:27:30] INFO root fetch - processPackages [easy_kite_methods]: Remove: archive file [/home/abi/fetcher/tmp/easy_kite_methods-0.0.3.tar.gz]
+[2024-04-08 11:27:30] INFO root fetch - main [MainThread]: End processing [easy_kite_methods]: success
+[2024-04-08 11:27:30] WARNING root fetch - processPackages [edx-enterprise]: Timeout reached during download
+[2024-04-08 11:27:30] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2024-04-08 11:27:30] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.9.2.tar.gz tmp/edx-enterprise-4.9.5.tar.gz --markdown 20240408/e/edx-enterprise/4.9.2-4.9.5/diff.md --exclude *.pyd
+[2024-04-08 11:27:31] INFO root fetch - processPackages [gpuhunt]: Remove: archive file [/home/abi/fetcher/tmp/gpuhunt-0.0.9rc1.tar.gz]
+[2024-04-08 11:27:31] INFO root fetch - processPackages [gpuhunt]: Remove: archive file [/home/abi/fetcher/tmp/gpuhunt-0.0.9rc2.tar.gz]
+[2024-04-08 11:27:31] INFO root fetch - main [MainThread]: End processing [gpuhunt]: success
+[2024-04-08 11:27:31] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post65.dev0.tar.gz]
+[2024-04-08 11:27:31] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2024-04-08 11:27:31] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2024-04-08 11:27:31] INFO root fetch - processPackages [flowdapt_sdk]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt_sdk-0.1.5-py3-none-any.whl.zip]
+[2024-04-08 11:27:31] INFO root fetch - processPackages [flowdapt_sdk]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt_sdk-0.1.6-py3-none-any.whl.zip]
+[2024-04-08 11:27:31] INFO root fetch - main [MainThread]: End processing [flowdapt_sdk]: success
+[2024-04-08 11:27:31] INFO root fetch - processPackages [logger-36]: Remove: archive file [/home/abi/fetcher/tmp/logger-36-2024.7.tar.gz]
+[2024-04-08 11:27:31] INFO root fetch - processPackages [logger-36]: Remove: archive file [/home/abi/fetcher/tmp/logger-36-2024.8.tar.gz]
+[2024-04-08 11:27:31] INFO root fetch - main [MainThread]: End processing [logger-36]: success
+[2024-04-08 11:27:33] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.2.tar.gz]
+[2024-04-08 11:27:33] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
+[2024-04-08 11:27:33] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2024-04-08 11:27:33] INFO root fetch - main [MainThread]: Store serial: [22664972]
