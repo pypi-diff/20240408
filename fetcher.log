@@ -18572,3 +18572,105 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:16:37] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-04-08 13:16:37] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-04-08 13:16:37] INFO root fetch - main [MainThread]: Store serial: [22666166]
+[2024-04-08 13:18:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666166]
+[2024-04-08 13:18:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volcano-base
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: premier
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mergoo
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Dramatist
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Anonymizer-ticket
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ytph
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-core-xe
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: original-metaplex-python
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mat3ra-esse
+[2024-04-08 13:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: donetools
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [mergoo]: Skipping, unable to determine old version
+[2024-04-08 13:18:46] INFO root fetch - processPackages [mergoo]: Start processing: brewtils
+[2024-04-08 13:18:46] INFO root fetch - main [MainThread]: End processing [mergoo] error
+[2024-04-08 13:18:46] INFO root fetch - processPackages [mat3ra-esse]: New version: [2024.4.8.post2] Old Version: [2024.4.8.post1]
+[2024-04-08 13:18:46] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240408] Old Version: [2.5.0b20240407]
+[2024-04-08 13:18:46] INFO root fetch - processPackages [original-metaplex-python]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-04-08 13:18:46] INFO root fetch - processPackages [donetools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 13:18:46] INFO root fetch - processPackages [premier]: New version: [0.3.0] Old Version: [0.1.0]
+[2024-04-08 13:18:46] INFO root fetch - processPackages [Dramatist]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [Anonymizer-ticket]: Skipping, unable to determine old version
+[2024-04-08 13:18:46] INFO root fetch - main [MainThread]: End processing [Anonymizer-ticket] error
+[2024-04-08 13:18:46] INFO root fetch - processPackages [ytph]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 13:18:46] INFO root fetch - processPackages [volcano-base]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-04-08 13:18:46] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/90/51/31eaeb3779b8b32091086c641e1178fe68684350db7db2445023e4b182f9/mat3ra-esse-2024.4.8.post1.tar.gz
+[2024-04-08 13:18:46] INFO root fetch - processPackages [brewtils]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-08 13:18:46] INFO root fetch - processPackages [ytph]: Downloading https://files.pythonhosted.org/packages/ea/8f/bdbc3cc571070e353f2a788e2c475d3059b44e4aae1fbbc64839461da41e/ytph-0.0.8.tar.gz
+[2024-04-08 13:18:46] INFO root fetch - processPackages [original-metaplex-python]: Downloading https://files.pythonhosted.org/packages/a1/c7/8c2b2aba6526c677fe2faf6eba399074a9a9534c23f1045490d8ef465711/original_metaplex_python-0.0.1a1.tar.gz
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 13:18:46] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/84/03/e1bf5e772c3d8d155baafdede7c3b57674762393a5a62b817690b90b4ad7/bigdl_core_xe-2.5.0b20240407-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-08 13:18:46] INFO root fetch - processPackages [premier]: Downloading https://files.pythonhosted.org/packages/ad/6e/42b2f49143387b48b3aa57bad5087ea68033b5c7b8a201a6ecd06e766039/premier-0.1.0.tar.gz
+[2024-04-08 13:18:46] INFO root fetch - processPackages [volcano-base]: Downloading https://files.pythonhosted.org/packages/2a/86/f0d332a07ec1be91029e96cb72b549ba47708161373d0d4f6ea3ebe6fcef/volcano_base-1.8.3.tar.gz
+[2024-04-08 13:18:46] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/fd/76/97b5bf306acfb00533ede8ac03427b7f824ac2a1df58174797d60405bc95/donetools-0.0.1.tar.gz
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 95050174>=10485760
+[2024-04-08 13:18:46] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-08 13:18:46] INFO root fetch - processPackages [Dramatist]: Downloading https://files.pythonhosted.org/packages/ed/24/561bf969b81d54a245b5c10f0946ecce6ff33ddc9b6c7dd388d62e0d9d21/Dramatist-0.0.5.tar.gz
+[2024-04-08 13:18:46] INFO root fetch - processPackages [brewtils]: Downloading https://files.pythonhosted.org/packages/0a/3c/ede786dbe3f921c22f7d6752d811cb76904f2b448c602d76c47ad0939032/brewtils-3.8.0.tar.gz
+[2024-04-08 13:18:46] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/13/a1/ee5f8e56502d64f0ed389da6a8fa802f0cf655142952a1d2b5ad01b55ff9/mat3ra-esse-2024.4.8.post2.tar.gz
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [ytph]: Timeout reached during download
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [original-metaplex-python]: Timeout reached during download
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [brewtils]: Timeout reached during download
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [premier]: Timeout reached during download
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [volcano-base]: Timeout reached during download
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [donetools]: Timeout reached during download
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [mat3ra-esse]: Timeout reached during download
+[2024-04-08 13:18:46] WARNING root fetch - processPackages [Dramatist]: Timeout reached during download
+[2024-04-08 13:18:46] INFO root fetch - processPackages [mat3ra-esse]: executing diffoscope
+[2024-04-08 13:18:46] INFO root fetch - processPackages [mat3ra-esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-esse-2024.4.8.post1.tar.gz tmp/mat3ra-esse-2024.4.8.post2.tar.gz --markdown 20240408/m/mat3ra-esse/2024.4.8.post1-2024.4.8.post2/diff.md --exclude *.pyd
+[2024-04-08 13:18:46] INFO root fetch - processPackages [ytph]: Downloading https://files.pythonhosted.org/packages/d5/ae/cc07572dff640bc23151053e633fb55e5275c96896aec659dfe05694dd2c/ytph-0.0.9.tar.gz
+[2024-04-08 13:18:46] INFO root fetch - processPackages [original-metaplex-python]: Downloading https://files.pythonhosted.org/packages/be/78/3e2b893c4dc308d52567af91797453acd9543014482bc86c36017d0fe66e/original_metaplex_python-0.0.1a2.tar.gz
+[2024-04-08 13:18:46] INFO root fetch - processPackages [premier]: Downloading https://files.pythonhosted.org/packages/fd/ec/0f829db158abff0c57a63d5ef6c43d081e5ae2a675b1aa900e289eb79b76/premier-0.3.0.tar.gz
+[2024-04-08 13:18:47] INFO root fetch - processPackages [volcano-base]: Downloading https://files.pythonhosted.org/packages/88/3b/670dac2b1b03f22c67f47c87eada1499e79d3e3ec4e226a52b923f6f0b4a/volcano_base-1.8.4.tar.gz
+[2024-04-08 13:18:47] INFO root fetch - processPackages [brewtils]: Downloading https://files.pythonhosted.org/packages/b5/0d/84f972a639001e3f71be5b6fb8a77e7b661435e45f0e0468079119215255/brewtils-3.9.0.tar.gz
+[2024-04-08 13:18:47] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/77/ca/6d7996cb5367c2b3ccb35f508116c15cdd5d47740bd380c9e3ee589d5ff2/donetools-0.0.2.tar.gz
+[2024-04-08 13:18:47] INFO root fetch - processPackages [Dramatist]: Downloading https://files.pythonhosted.org/packages/3d/1c/0cb821e5cb443d3e001b316301a914c40e2c2bd2c440d71e9ed4a077f29a/Dramatist-0.0.6.tar.gz
+[2024-04-08 13:18:47] WARNING root fetch - processPackages [original-metaplex-python]: Timeout reached during download
+[2024-04-08 13:18:47] INFO root fetch - processPackages [original-metaplex-python]: executing diffoscope
+[2024-04-08 13:18:47] INFO root fetch - processPackages [original-metaplex-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/original_metaplex_python-0.0.1a1.tar.gz tmp/original_metaplex_python-0.0.1a2.tar.gz --markdown 20240408/o/original-metaplex-python/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2024-04-08 13:18:47] WARNING root fetch - processPackages [premier]: Timeout reached during download
+[2024-04-08 13:18:47] INFO root fetch - processPackages [premier]: executing diffoscope
+[2024-04-08 13:18:47] INFO root fetch - processPackages [premier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/premier-0.1.0.tar.gz tmp/premier-0.3.0.tar.gz --markdown 20240408/p/premier/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-08 13:18:47] WARNING root fetch - processPackages [brewtils]: Timeout reached during download
+[2024-04-08 13:18:47] INFO root fetch - processPackages [brewtils]: executing diffoscope
+[2024-04-08 13:18:47] INFO root fetch - processPackages [brewtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brewtils-3.8.0.tar.gz tmp/brewtils-3.9.0.tar.gz --markdown 20240408/b/brewtils/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2024-04-08 13:18:47] WARNING root fetch - processPackages [Dramatist]: Timeout reached during download
+[2024-04-08 13:18:47] INFO root fetch - processPackages [Dramatist]: executing diffoscope
+[2024-04-08 13:18:47] INFO root fetch - processPackages [Dramatist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dramatist-0.0.5.tar.gz tmp/Dramatist-0.0.6.tar.gz --markdown 20240408/D/Dramatist/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 13:18:47] WARNING root fetch - processPackages [volcano-base]: Timeout reached during download
+[2024-04-08 13:18:47] INFO root fetch - processPackages [volcano-base]: executing diffoscope
+[2024-04-08 13:18:47] INFO root fetch - processPackages [volcano-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcano_base-1.8.3.tar.gz tmp/volcano_base-1.8.4.tar.gz --markdown 20240408/v/volcano-base/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2024-04-08 13:18:47] WARNING root fetch - processPackages [donetools]: Timeout reached during download
+[2024-04-08 13:18:47] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-08 13:18:47] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.1.tar.gz tmp/donetools-0.0.2.tar.gz --markdown 20240408/d/donetools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 13:18:48] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.1.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.2.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-08 13:18:48] INFO root fetch - processPackages [Dramatist]: Remove: archive file [/home/abi/fetcher/tmp/Dramatist-0.0.5.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - processPackages [Dramatist]: Remove: archive file [/home/abi/fetcher/tmp/Dramatist-0.0.6.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - main [MainThread]: End processing [Dramatist]: success
+[2024-04-08 13:18:48] INFO root fetch - processPackages [premier]: Remove: archive file [/home/abi/fetcher/tmp/premier-0.1.0.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - processPackages [premier]: Remove: archive file [/home/abi/fetcher/tmp/premier-0.3.0.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - main [MainThread]: End processing [premier]: success
+[2024-04-08 13:18:48] INFO root fetch - processPackages [brewtils]: Remove: archive file [/home/abi/fetcher/tmp/brewtils-3.8.0.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - processPackages [brewtils]: Remove: archive file [/home/abi/fetcher/tmp/brewtils-3.9.0.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - main [MainThread]: End processing [brewtils]: success
+[2024-04-08 13:18:48] INFO root fetch - processPackages [volcano-base]: Remove: archive file [/home/abi/fetcher/tmp/volcano_base-1.8.3.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - processPackages [volcano-base]: Remove: archive file [/home/abi/fetcher/tmp/volcano_base-1.8.4.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - main [MainThread]: End processing [volcano-base]: success
+[2024-04-08 13:18:48] WARNING root fetch - processPackages [ytph]: Timeout reached during download
+[2024-04-08 13:18:48] INFO root fetch - processPackages [ytph]: executing diffoscope
+[2024-04-08 13:18:48] INFO root fetch - processPackages [ytph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytph-0.0.8.tar.gz tmp/ytph-0.0.9.tar.gz --markdown 20240408/y/ytph/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 13:18:48] INFO root fetch - processPackages [original-metaplex-python]: Remove: archive file [/home/abi/fetcher/tmp/original_metaplex_python-0.0.1a1.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - processPackages [original-metaplex-python]: Remove: archive file [/home/abi/fetcher/tmp/original_metaplex_python-0.0.1a2.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - main [MainThread]: End processing [original-metaplex-python]: success
+[2024-04-08 13:18:48] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.8.post1.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.8.post2.tar.gz]
+[2024-04-08 13:18:48] INFO root fetch - main [MainThread]: End processing [mat3ra-esse]: success
+[2024-04-08 13:18:49] INFO root fetch - processPackages [ytph]: Remove: archive file [/home/abi/fetcher/tmp/ytph-0.0.8.tar.gz]
+[2024-04-08 13:18:49] INFO root fetch - processPackages [ytph]: Remove: archive file [/home/abi/fetcher/tmp/ytph-0.0.9.tar.gz]
+[2024-04-08 13:18:49] INFO root fetch - main [MainThread]: End processing [ytph]: success
+[2024-04-08 13:18:49] INFO root fetch - main [MainThread]: Store serial: [22666199]
