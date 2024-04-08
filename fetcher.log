@@ -3920,3 +3920,130 @@
 [2024-04-08 04:50:29] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
 [2024-04-08 04:50:29] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2024-04-08 04:50:29] INFO root fetch - main [MainThread]: Store serial: [22661066]
+[2024-04-08 04:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661066]
+[2024-04-08 04:52:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-plugin-commands
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waylake-utils
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-aa
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-aai
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-acp
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-advisor
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chesscli
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: numeratorpy
+[2024-04-08 04:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudimg
+[2024-04-08 04:52:40] INFO root fetch - processPackages [waylake-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 04:52:40] INFO root fetch - processPackages [poetry-plugin-commands]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 04:52:40] INFO root fetch - processPackages [chesscli]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-04-08 04:52:40] WARNING root fetch - processPackages [numeratorpy]: Skipping, unable to determine old version
+[2024-04-08 04:52:40] INFO root fetch - processPackages [numeratorpy]: Start processing: tencentcloud-sdk-python-af
+[2024-04-08 04:52:40] INFO root fetch - main [MainThread]: End processing [numeratorpy] error
+[2024-04-08 04:52:40] INFO root fetch - processPackages [waylake-utils]: Downloading https://files.pythonhosted.org/packages/7f/6c/5995584ad26bab0feea188c22dbb0a5c643411b3922c8e7b30a24931ac26/waylake_utils-0.1.8.tar.gz
+[2024-04-08 04:52:40] INFO root fetch - processPackages [poetry-plugin-commands]: Downloading https://files.pythonhosted.org/packages/56/d9/dff3b6645e4977e0c7b14b865988df52eb7c63e659e70f7cb90033e31bdf/poetry_plugin_commands-0.0.2.tar.gz
+[2024-04-08 04:52:40] INFO root fetch - processPackages [cloudimg]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-08 04:52:40] INFO root fetch - processPackages [chesscli]: Downloading https://files.pythonhosted.org/packages/e3/09/1e0bdfd71d4af68ba1701faeb9cae03ac4e4a38897c182ea97682abb7cd3/chesscli-0.2.2.tar.gz
+[2024-04-08 04:52:40] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:52:40] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:52:40] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:52:40] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:52:40] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:52:40] WARNING root fetch - processPackages [waylake-utils]: Timeout reached during download
+[2024-04-08 04:52:40] WARNING root fetch - processPackages [poetry-plugin-commands]: Timeout reached during download
+[2024-04-08 04:52:40] WARNING root fetch - processPackages [chesscli]: Timeout reached during download
+[2024-04-08 04:52:40] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 04:52:40] INFO root fetch - processPackages [cloudimg]: Downloading https://files.pythonhosted.org/packages/5a/a6/43f02623842494c658c1c954fd4d0c0395edcb095b6e8373ac7e94c507f8/cloudimg-1.8.0.tar.gz
+[2024-04-08 04:52:40] INFO root fetch - processPackages [waylake-utils]: Downloading https://files.pythonhosted.org/packages/02/63/26996bcc2b88e60a222b3061c796b7d29c6e5af532d66439bcf4f99a40c0/waylake_utils-0.1.9.tar.gz
+[2024-04-08 04:52:40] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/d9/da/d6c3e80c69119d355325a9658fcf1603a84db706d3ea862cee488eecd718/tencentcloud-sdk-python-acp-3.0.998.tar.gz
+[2024-04-08 04:52:40] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/0e/49/d3deea1dbe9eed3d486f850eab70b665bc903e06042c7b39c19585e01b6a/tencentcloud-sdk-python-3.0.998.tar.gz
+[2024-04-08 04:52:40] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/a2/4c/3c7c6150a011e32b81b38a92f8897a5c6ee494b584fd6090858e85489c02/tencentcloud-sdk-python-aa-3.0.998.tar.gz
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/64/9b/cafb1e8bbf3f513628efd435d89fdcf1fe80a0bd888b32c50acffdd5b277/tencentcloud-sdk-python-aai-3.0.998.tar.gz
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/32/cd/310dfc1b231f91094eb0b66ffda3518b9dbf6487688b2fc420db4ddd4fc0/tencentcloud-sdk-python-af-3.0.998.tar.gz
+[2024-04-08 04:52:41] INFO root fetch - processPackages [poetry-plugin-commands]: Downloading https://files.pythonhosted.org/packages/27/7c/81f3fa2f2ad6f9c6c95395ed7a06dfc059a54445cae18bc38f85d68308a0/poetry_plugin_commands-0.0.3.tar.gz
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [cloudimg]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [chesscli]: Downloading https://files.pythonhosted.org/packages/cb/67/54cd5d83fa1e3912d10f26e9b5470d43f7b2bfefbc4a216ef9cabe9918c9/chesscli-0.2.4.tar.gz
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [waylake-utils]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [waylake-utils]: executing diffoscope
+[2024-04-08 04:52:41] INFO root fetch - processPackages [waylake-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylake_utils-0.1.8.tar.gz tmp/waylake_utils-0.1.9.tar.gz --markdown 20240408/w/waylake-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/99/fd/89c30befef9f12ad92625fd8181dc608e8da914c10981b6de726e95411d1/tencentcloud-sdk-python-advisor-3.0.998.tar.gz
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-acp]: Timeout reached during download
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [poetry-plugin-commands]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [poetry-plugin-commands]: executing diffoscope
+[2024-04-08 04:52:41] INFO root fetch - processPackages [poetry-plugin-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_commands-0.0.2.tar.gz tmp/poetry_plugin_commands-0.0.3.tar.gz --markdown 20240408/p/poetry-plugin-commands/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [chesscli]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [chesscli]: executing diffoscope
+[2024-04-08 04:52:41] INFO root fetch - processPackages [chesscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chesscli-0.2.2.tar.gz tmp/chesscli-0.2.4.tar.gz --markdown 20240408/c/chesscli/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-aai]: Timeout reached during download
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-af]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [cloudimg]: Downloading https://files.pythonhosted.org/packages/8b/12/0940a391434f75575e3c988cb93b06ee9ab9901ebaaacd003a1b416d145e/cloudimg-1.9.0.tar.gz
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-advisor]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/bf/47/f0af650651378b58199eb8911b24039f4e9ab6aac0574141aeb1f7de1b73/tencentcloud-sdk-python-acp-3.0.999.tar.gz
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/c3/af/0edc99ca0ec65ae386d0bbdffe9147c9d3d488acec8ed620c99082453f8f/tencentcloud-sdk-python-aai-3.0.999.tar.gz
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/60/87/c3400c845a32edea1a82597849385ca49c7a5b2913971888ed1f05e8e32f/tencentcloud-sdk-python-af-3.0.999.tar.gz
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [cloudimg]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [cloudimg]: executing diffoscope
+[2024-04-08 04:52:41] INFO root fetch - processPackages [cloudimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudimg-1.8.0.tar.gz tmp/cloudimg-1.9.0.tar.gz --markdown 20240408/c/cloudimg/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/71/fa/79e79aea4e2b7227439b7553c3d43a4ba081ba3c2c74ca7a6f0557769c00/tencentcloud-sdk-python-advisor-3.0.999.tar.gz
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-aa]: Timeout reached during download
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-acp]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: executing diffoscope
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-acp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-acp-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-acp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-aai]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: executing diffoscope
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aai-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aai-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-aai/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-af]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: executing diffoscope
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-af-3.0.998.tar.gz tmp/tencentcloud-sdk-python-af-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-af/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:52:41] INFO root fetch - processPackages [poetry-plugin-commands]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_commands-0.0.2.tar.gz]
+[2024-04-08 04:52:41] INFO root fetch - processPackages [poetry-plugin-commands]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_commands-0.0.3.tar.gz]
+[2024-04-08 04:52:41] INFO root fetch - processPackages [poetry-plugin-commands]: Start processing: hcli-hc
+[2024-04-08 04:52:41] INFO root fetch - main [MainThread]: End processing [poetry-plugin-commands]: success
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-advisor]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: executing diffoscope
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-advisor-3.0.998.tar.gz tmp/tencentcloud-sdk-python-advisor-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-advisor/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/4c/d6/5bd523bd521bb045390dcbe68344c43369604ab7a14166596994e4a2a42f/tencentcloud-sdk-python-aa-3.0.999.tar.gz
+[2024-04-08 04:52:41] INFO root fetch - processPackages [waylake-utils]: Remove: archive file [/home/abi/fetcher/tmp/waylake_utils-0.1.8.tar.gz]
+[2024-04-08 04:52:41] INFO root fetch - processPackages [waylake-utils]: Remove: archive file [/home/abi/fetcher/tmp/waylake_utils-0.1.9.tar.gz]
+[2024-04-08 04:52:41] INFO root fetch - main [MainThread]: End processing [waylake-utils]: success
+[2024-04-08 04:52:41] INFO root fetch - processPackages [hcli-hc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 04:52:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-aa]: Timeout reached during download
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: executing diffoscope
+[2024-04-08 04:52:41] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-aa/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:52:41] INFO root fetch - processPackages [chesscli]: Remove: archive file [/home/abi/fetcher/tmp/chesscli-0.2.2.tar.gz]
+[2024-04-08 04:52:41] INFO root fetch - processPackages [chesscli]: Remove: archive file [/home/abi/fetcher/tmp/chesscli-0.2.4.tar.gz]
+[2024-04-08 04:52:41] INFO root fetch - main [MainThread]: End processing [chesscli]: success
+[2024-04-08 04:52:42] INFO root fetch - processPackages [hcli-hc]: Downloading https://files.pythonhosted.org/packages/7c/18/f0d75497a91a3abf41d64be10081cc17c982e9fb96dd7f1475028691f9bb/hcli_hc-0.1.8.tar.gz
+[2024-04-08 04:52:42] WARNING root fetch - processPackages [hcli-hc]: Timeout reached during download
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.998.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.999.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-acp]: success
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.998.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.999.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-af]: success
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.998.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.999.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-advisor]: success
+[2024-04-08 04:52:42] INFO root fetch - processPackages [hcli-hc]: Downloading https://files.pythonhosted.org/packages/9e/06/98a53c6f2ace94949ac55f0fcd9c11a8c0ecc87b42008e583a7b568f8d2f/hcli_hc-0.1.9.tar.gz
+[2024-04-08 04:52:42] INFO root fetch - processPackages [cloudimg]: Remove: archive file [/home/abi/fetcher/tmp/cloudimg-1.8.0.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - processPackages [cloudimg]: Remove: archive file [/home/abi/fetcher/tmp/cloudimg-1.9.0.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - main [MainThread]: End processing [cloudimg]: success
+[2024-04-08 04:52:42] WARNING root fetch - processPackages [hcli-hc]: Timeout reached during download
+[2024-04-08 04:52:42] INFO root fetch - processPackages [hcli-hc]: executing diffoscope
+[2024-04-08 04:52:42] INFO root fetch - processPackages [hcli-hc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_hc-0.1.8.tar.gz tmp/hcli_hc-0.1.9.tar.gz --markdown 20240408/h/hcli-hc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aa]: success
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.998.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.999.tar.gz]
+[2024-04-08 04:52:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aai]: success
+[2024-04-08 04:52:42] WARNING root fetch - processPackages [tencentcloud-sdk-python]: Timeout reached during download
+[2024-04-08 04:52:43] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/72/eb/b7f20f227c30beeb1298a5013dbd98cf616d9c321398cf216c1b15940a8b/tencentcloud-sdk-python-3.0.999.tar.gz
+[2024-04-08 04:52:43] INFO root fetch - processPackages [hcli-hc]: Remove: archive file [/home/abi/fetcher/tmp/hcli_hc-0.1.8.tar.gz]
+[2024-04-08 04:52:43] INFO root fetch - processPackages [hcli-hc]: Remove: archive file [/home/abi/fetcher/tmp/hcli_hc-0.1.9.tar.gz]
+[2024-04-08 04:52:43] INFO root fetch - main [MainThread]: End processing [hcli-hc]: success
+[2024-04-08 04:52:46] WARNING root fetch - processPackages [tencentcloud-sdk-python]: Timeout reached during download
+[2024-04-08 04:52:46] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2024-04-08 04:52:46] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.998.tar.gz tmp/tencentcloud-sdk-python-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 04:52:57] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.998.tar.gz]
+[2024-04-08 04:52:57] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
+[2024-04-08 04:52:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2024-04-08 04:52:57] INFO root fetch - main [MainThread]: Store serial: [22661102]
