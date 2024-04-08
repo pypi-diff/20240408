@@ -16860,3 +16860,116 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:18:23] INFO root fetch - processPackages [alcedo]: Remove: archive file [/home/abi/fetcher/tmp/alcedo-0.1.7.tar.gz]
 [2024-04-08 12:18:23] INFO root fetch - main [MainThread]: End processing [alcedo]: success
 [2024-04-08 12:18:23] INFO root fetch - main [MainThread]: Store serial: [22665553]
+[2024-04-08 12:20:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665553]
+[2024-04-08 12:20:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywxdump
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unesco-reader
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lcax
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tablite
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tvb-gdist
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: richie
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: femagtools
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datateam-moss
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: semantic-router
+[2024-04-08 12:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-import-export
+[2024-04-08 12:20:32] INFO root fetch - processPackages [semantic-router]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [datateam-moss]: New version: [0.0.72] Old Version: [0.0.71]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [django-import-export]: New version: [4.0.0rc1] Old Version: [4.0.0rc0]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [pywxdump]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [unesco-reader]: New version: [1.0.0] Old Version: [0.3.1]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [lcax]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [tvb-gdist]: New version: [2.2.1] Old Version: [2.2]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [tablite]: New version: [2023.9.8] Old Version: [2023.9.7]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [femagtools]: New version: [1.6.6.dev0] Old Version: [1.6.5]
+[2024-04-08 12:20:32] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/69/f5/24f7ed2376beeca68004c749ee072334bcdbcd70becd7e5549ea5773efae/semantic_router-0.0.8.tar.gz
+[2024-04-08 12:20:32] INFO root fetch - processPackages [datateam-moss]: Downloading https://files.pythonhosted.org/packages/40/9c/472600108bb349e4043e545a5e3d074b4b9769e7b009e2deab8a68443ea7/datateam_moss-0.0.71.tar.gz
+[2024-04-08 12:20:32] INFO root fetch - processPackages [unesco-reader]: Downloading https://files.pythonhosted.org/packages/92/39/de83c8c86b312f9ae6ab84f2d974ef86bd051d157cbf99144e1b0006fe72/unesco_reader-0.3.1.tar.gz
+[2024-04-08 12:20:32] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-04-08 12:20:32] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/63/b2/58277a7cbb2595a1047768b10f64d2ac3166c3c18c35c64e017fc705533a/pywxdump-2.4.8.tar.gz
+[2024-04-08 12:20:32] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/bd/fd/21542838463a15a120325fbab189815f03d01d35b5d634d270655f6fc9cd/lcax-1.6.0.tar.gz
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [datateam-moss]: Timeout reached during download
+[2024-04-08 12:20:32] INFO root fetch - processPackages [django-import-export]: Downloading https://files.pythonhosted.org/packages/a1/c5/50e27466d082630571a35594ae6a4a178d17eb9ed6f107c12a72dd3a578d/django-import-export-4.0.0rc0.tar.gz
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [unesco-reader]: Timeout reached during download
+[2024-04-08 12:20:32] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/69/1a/7380abcd1131d63fbfc3f716566dd75131728fab496d42a2a313fe6ba840/tablite-2023.9.7-py3-none-any.whl
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [semantic-router]: Timeout reached during download
+[2024-04-08 12:20:32] INFO root fetch - processPackages [tvb-gdist]: Downloading https://files.pythonhosted.org/packages/cc/88/2f8a76fa17af255a5461a7641bbf87b3883fc7c4e7c8a75b6419114419fa/tvb-gdist-2.2.tar.gz
+[2024-04-08 12:20:32] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/8e/0c/825ce4db85b3f7dc107a94b84b168dcc4d7d641e5a9b2bee40113a1d8d08/femagtools-1.6.5.tar.gz
+[2024-04-08 12:20:32] INFO root fetch - processPackages [unesco-reader]: Downloading https://files.pythonhosted.org/packages/2c/c7/fac55dac2b441aaa7c966eb5bdb93a9e53d3cac77188735c443e6c5235e6/unesco_reader-1.0.0.tar.gz
+[2024-04-08 12:20:32] INFO root fetch - processPackages [datateam-moss]: Downloading https://files.pythonhosted.org/packages/ca/13/4f1729adca2e99fcfeeaf830e74dc0d24f1aa409c52ec5fbaaaeaea83472/datateam_moss-0.0.72.tar.gz
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [richie]: Timeout reached during download
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [django-import-export]: Timeout reached during download
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [unesco-reader]: Timeout reached during download
+[2024-04-08 12:20:32] INFO root fetch - processPackages [unesco-reader]: executing diffoscope
+[2024-04-08 12:20:32] INFO root fetch - processPackages [unesco-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unesco_reader-0.3.1.tar.gz tmp/unesco_reader-1.0.0.tar.gz --markdown 20240408/u/unesco-reader/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [lcax]: Timeout reached during download
+[2024-04-08 12:20:32] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/c6/e8/868f59ad8c7643feea9a25db402d4e84236189e1a9d89a4c840838be947f/semantic_router-0.0.9.tar.gz
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [datateam-moss]: Timeout reached during download
+[2024-04-08 12:20:32] INFO root fetch - processPackages [datateam-moss]: executing diffoscope
+[2024-04-08 12:20:32] INFO root fetch - processPackages [datateam-moss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datateam_moss-0.0.71.tar.gz tmp/datateam_moss-0.0.72.tar.gz --markdown 20240408/d/datateam-moss/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [tablite]: Timeout reached during download
+[2024-04-08 12:20:32] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [tvb-gdist]: Timeout reached during download
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [femagtools]: Timeout reached during download
+[2024-04-08 12:20:32] WARNING root fetch - processPackages [semantic-router]: Timeout reached during download
+[2024-04-08 12:20:32] INFO root fetch - processPackages [semantic-router]: executing diffoscope
+[2024-04-08 12:20:32] INFO root fetch - processPackages [semantic-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_router-0.0.8.tar.gz tmp/semantic_router-0.0.9.tar.gz --markdown 20240408/s/semantic-router/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 12:20:32] INFO root fetch - processPackages [django-import-export]: Downloading https://files.pythonhosted.org/packages/ef/43/8c3c3a770d03e039c2dca323857551c52a2d1de896d61e245073fc5024e4/django-import-export-4.0.0rc1.tar.gz
+[2024-04-08 12:20:32] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/3b/04/6fc3b06b5158381f2504e1ff80caf3bd4d861b49c3fa3a414a97ee692cc0/lcax-1.7.0.tar.gz
+[2024-04-08 12:20:33] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/b8/4a/752f66fecda7a2172d5056375800c9d050a5bc79c8c17e507a15a09c09ed/tablite-2023.9.8-py3-none-any.whl
+[2024-04-08 12:20:33] INFO root fetch - processPackages [tvb-gdist]: Downloading https://files.pythonhosted.org/packages/67/30/d72ea7603512e7ae9043692f68ee1898e62da2dd068e7e8871158fbdb466/tvb-gdist-2.2.1.tar.gz
+[2024-04-08 12:20:33] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/b4/82/f513048f750ec28047f16ec88aad581a0fe8bf65d1fa0d3b781f904e4739/femagtools-1.6.6.dev0.tar.gz
+[2024-04-08 12:20:33] WARNING root fetch - processPackages [richie]: Timeout reached during download
+[2024-04-08 12:20:33] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-04-08 12:20:33] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240408/r/richie/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-08 12:20:33] WARNING root fetch - processPackages [django-import-export]: Timeout reached during download
+[2024-04-08 12:20:33] INFO root fetch - processPackages [django-import-export]: executing diffoscope
+[2024-04-08 12:20:33] INFO root fetch - processPackages [django-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-import-export-4.0.0rc0.tar.gz tmp/django-import-export-4.0.0rc1.tar.gz --markdown 20240408/d/django-import-export/4.0.0rc0-4.0.0rc1/diff.md --exclude *.pyd
+[2024-04-08 12:20:33] WARNING root fetch - processPackages [lcax]: Timeout reached during download
+[2024-04-08 12:20:33] INFO root fetch - processPackages [lcax]: executing diffoscope
+[2024-04-08 12:20:33] INFO root fetch - processPackages [lcax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcax-1.6.0.tar.gz tmp/lcax-1.7.0.tar.gz --markdown 20240408/l/lcax/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2024-04-08 12:20:33] WARNING root fetch - processPackages [tvb-gdist]: Timeout reached during download
+[2024-04-08 12:20:33] WARNING root fetch - processPackages [femagtools]: Timeout reached during download
+[2024-04-08 12:20:33] INFO root fetch - processPackages [femagtools]: executing diffoscope
+[2024-04-08 12:20:33] INFO root fetch - processPackages [tvb-gdist]: executing diffoscope
+[2024-04-08 12:20:33] INFO root fetch - processPackages [femagtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femagtools-1.6.5.tar.gz tmp/femagtools-1.6.6.dev0.tar.gz --markdown 20240408/f/femagtools/1.6.5-1.6.6.dev0/diff.md --exclude *.pyd
+[2024-04-08 12:20:33] INFO root fetch - processPackages [tvb-gdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvb-gdist-2.2.tar.gz tmp/tvb-gdist-2.2.1.tar.gz --markdown 20240408/t/tvb-gdist/2.2-2.2.1/diff.md --exclude *.pyd
+[2024-04-08 12:20:33] WARNING root fetch - processPackages [tablite]: Timeout reached during download
+[2024-04-08 12:20:33] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2024-04-08 12:20:33] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.9.7-py3-none-any.whl.zip tmp/tablite-2023.9.8-py3-none-any.whl.zip --markdown 20240408/t/tablite/2023.9.7-2023.9.8/diff.md --exclude *.pyd
+[2024-04-08 12:20:33] WARNING root fetch - processPackages [pywxdump]: Timeout reached during download
+[2024-04-08 12:20:33] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/20/eb/f88954c1da7353adc7b3750be18e73710028e708fe62e2c81059d922eac9/pywxdump-2.4.9.tar.gz
+[2024-04-08 12:20:33] INFO root fetch - processPackages [unesco-reader]: Remove: archive file [/home/abi/fetcher/tmp/unesco_reader-0.3.1.tar.gz]
+[2024-04-08 12:20:33] INFO root fetch - processPackages [unesco-reader]: Remove: archive file [/home/abi/fetcher/tmp/unesco_reader-1.0.0.tar.gz]
+[2024-04-08 12:20:33] INFO root fetch - main [MainThread]: End processing [unesco-reader]: success
+[2024-04-08 12:20:33] INFO root fetch - processPackages [datateam-moss]: Remove: archive file [/home/abi/fetcher/tmp/datateam_moss-0.0.71.tar.gz]
+[2024-04-08 12:20:33] INFO root fetch - processPackages [datateam-moss]: Remove: archive file [/home/abi/fetcher/tmp/datateam_moss-0.0.72.tar.gz]
+[2024-04-08 12:20:33] INFO root fetch - main [MainThread]: End processing [datateam-moss]: success
+[2024-04-08 12:20:34] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.8.tar.gz]
+[2024-04-08 12:20:34] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.9.tar.gz]
+[2024-04-08 12:20:34] INFO root fetch - main [MainThread]: End processing [semantic-router]: success
+[2024-04-08 12:20:34] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.7-py3-none-any.whl.zip]
+[2024-04-08 12:20:34] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.8-py3-none-any.whl.zip]
+[2024-04-08 12:20:34] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2024-04-08 12:20:34] INFO root fetch - processPackages [tvb-gdist]: Remove: archive file [/home/abi/fetcher/tmp/tvb-gdist-2.2.tar.gz]
+[2024-04-08 12:20:34] INFO root fetch - processPackages [tvb-gdist]: Remove: archive file [/home/abi/fetcher/tmp/tvb-gdist-2.2.1.tar.gz]
+[2024-04-08 12:20:34] INFO root fetch - main [MainThread]: End processing [tvb-gdist]: success
+[2024-04-08 12:20:35] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-1.6.0.tar.gz]
+[2024-04-08 12:20:35] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-1.7.0.tar.gz]
+[2024-04-08 12:20:35] INFO root fetch - main [MainThread]: End processing [lcax]: success
+[2024-04-08 12:20:35] WARNING root fetch - processPackages [pywxdump]: Timeout reached during download
+[2024-04-08 12:20:35] INFO root fetch - processPackages [pywxdump]: executing diffoscope
+[2024-04-08 12:20:35] INFO root fetch - processPackages [pywxdump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdump-2.4.8.tar.gz tmp/pywxdump-2.4.9.tar.gz --markdown 20240408/p/pywxdump/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2024-04-08 12:20:35] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.6.5.tar.gz]
+[2024-04-08 12:20:35] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.6.6.dev0.tar.gz]
+[2024-04-08 12:20:35] INFO root fetch - main [MainThread]: End processing [femagtools]: success
+[2024-04-08 12:20:35] INFO root fetch - processPackages [django-import-export]: Remove: archive file [/home/abi/fetcher/tmp/django-import-export-4.0.0rc0.tar.gz]
+[2024-04-08 12:20:35] INFO root fetch - processPackages [django-import-export]: Remove: archive file [/home/abi/fetcher/tmp/django-import-export-4.0.0rc1.tar.gz]
+[2024-04-08 12:20:35] INFO root fetch - main [MainThread]: End processing [django-import-export]: success
+[2024-04-08 12:20:36] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-2.4.8.tar.gz]
+[2024-04-08 12:20:36] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-2.4.9.tar.gz]
+[2024-04-08 12:20:36] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
+[2024-04-08 12:22:48] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-04-08 12:22:48] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-04-08 12:22:48] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-04-08 12:22:48] INFO root fetch - main [MainThread]: Store serial: [22665600]
