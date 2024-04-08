@@ -12232,3 +12232,64 @@
 [2024-04-08 09:51:43] INFO root fetch - processPackages [expressmoney]: Remove: archive file [/home/abi/fetcher/tmp/expressmoney-9.9.1.tar.gz]
 [2024-04-08 09:51:43] INFO root fetch - main [MainThread]: End processing [expressmoney]: success
 [2024-04-08 09:51:43] INFO root fetch - main [MainThread]: Store serial: [22663671]
+[2024-04-08 09:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663671]
+[2024-04-08 09:53:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 09:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magpylib-material-response
+[2024-04-08 09:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-check
+[2024-04-08 09:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mr-recv-coil-match-networks
+[2024-04-08 09:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataskillhub
+[2024-04-08 09:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiopioneer
+[2024-04-08 09:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unesco-reader
+[2024-04-08 09:53:54] INFO root fetch - processPackages [dataskillhub]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-08 09:53:54] INFO root fetch - processPackages [magpylib-material-response]: New version: [0.2.1a0] Old Version: [0.2.0a0]
+[2024-04-08 09:53:54] INFO root fetch - processPackages [discord-check]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-08 09:53:54] INFO root fetch - processPackages [aiopioneer]: New version: [0.6.0b1] Old Version: [0.6.0a7]
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [mr-recv-coil-match-networks]: Skipping, unable to determine old version
+[2024-04-08 09:53:54] INFO root fetch - processPackages [unesco-reader]: New version: [1.0.0] Old Version: [0.3.1]
+[2024-04-08 09:53:54] INFO root fetch - main [MainThread]: End processing [mr-recv-coil-match-networks] error
+[2024-04-08 09:53:54] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/24/b2/62b688f6ce2bc39bf36ce4efba000ff33eed7a592a62bdecedda1e2288c2/dataskillhub-1.6.3-py3-none-any.whl
+[2024-04-08 09:53:54] INFO root fetch - processPackages [magpylib-material-response]: Downloading https://files.pythonhosted.org/packages/d7/78/50e4674793f966de68e2824d61d7c4094bb4453b97126792b0d6526ac16e/magpylib-material-response-0.2.0a0.tar.gz
+[2024-04-08 09:53:54] INFO root fetch - processPackages [unesco-reader]: Downloading https://files.pythonhosted.org/packages/92/39/de83c8c86b312f9ae6ab84f2d974ef86bd051d157cbf99144e1b0006fe72/unesco_reader-0.3.1.tar.gz
+[2024-04-08 09:53:54] INFO root fetch - processPackages [aiopioneer]: Downloading https://files.pythonhosted.org/packages/40/6c/93740025c46f80bd601f751dab95d5e957ef678c54096b7a2bc04b0f3c1d/aiopioneer-0.6.0a7.tar.gz
+[2024-04-08 09:53:54] INFO root fetch - processPackages [discord-check]: Downloading https://files.pythonhosted.org/packages/74/9a/4fae47dfcca0378b8a1179947838a5c603dd98efb62ccd9a598cd1315201/discord_check-1.0.2.tar.gz
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [magpylib-material-response]: Timeout reached during download
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [discord-check]: Timeout reached during download
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [unesco-reader]: Timeout reached during download
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [aiopioneer]: Timeout reached during download
+[2024-04-08 09:53:54] INFO root fetch - processPackages [magpylib-material-response]: Downloading https://files.pythonhosted.org/packages/1d/2a/6a6bc23cba7bd6e75d4597e0b2ee3f4e8560e69a4f20d462822181b35404/magpylib-material-response-0.2.1a0.tar.gz
+[2024-04-08 09:53:54] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/eb/9f/82545f9e0af797bbbf794a577769903652dec19e8bdf4028b5b294db8c49/dataskillhub-1.6.4-py3-none-any.whl
+[2024-04-08 09:53:54] INFO root fetch - processPackages [discord-check]: Downloading https://files.pythonhosted.org/packages/65/d5/ddb4a8e84f732a96962b254ac1967952bcd8c3fe94c93123b6d2f9f91eec/discord_check-1.0.3.tar.gz
+[2024-04-08 09:53:54] INFO root fetch - processPackages [unesco-reader]: Downloading https://files.pythonhosted.org/packages/2c/c7/fac55dac2b441aaa7c966eb5bdb93a9e53d3cac77188735c443e6c5235e6/unesco_reader-1.0.0.tar.gz
+[2024-04-08 09:53:54] INFO root fetch - processPackages [aiopioneer]: Downloading https://files.pythonhosted.org/packages/22/9c/57889931bb7ec5b2b9295cca252664a7c415a68f959015b0334467900eeb/aiopioneer-0.6.0b1.tar.gz
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [magpylib-material-response]: Timeout reached during download
+[2024-04-08 09:53:54] INFO root fetch - processPackages [magpylib-material-response]: executing diffoscope
+[2024-04-08 09:53:54] INFO root fetch - processPackages [magpylib-material-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magpylib-material-response-0.2.0a0.tar.gz tmp/magpylib-material-response-0.2.1a0.tar.gz --markdown 20240408/m/magpylib-material-response/0.2.0a0-0.2.1a0/diff.md --exclude *.pyd
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [discord-check]: Timeout reached during download
+[2024-04-08 09:53:54] INFO root fetch - processPackages [discord-check]: executing diffoscope
+[2024-04-08 09:53:54] INFO root fetch - processPackages [discord-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_check-1.0.2.tar.gz tmp/discord_check-1.0.3.tar.gz --markdown 20240408/d/discord-check/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-08 09:53:54] INFO root fetch - processPackages [dataskillhub]: executing diffoscope
+[2024-04-08 09:53:54] INFO root fetch - processPackages [dataskillhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskillhub-1.6.3-py3-none-any.whl.zip tmp/dataskillhub-1.6.4-py3-none-any.whl.zip --markdown 20240408/d/dataskillhub/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [unesco-reader]: Timeout reached during download
+[2024-04-08 09:53:54] INFO root fetch - processPackages [unesco-reader]: executing diffoscope
+[2024-04-08 09:53:54] INFO root fetch - processPackages [unesco-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unesco_reader-0.3.1.tar.gz tmp/unesco_reader-1.0.0.tar.gz --markdown 20240408/u/unesco-reader/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 09:53:54] WARNING root fetch - processPackages [aiopioneer]: Timeout reached during download
+[2024-04-08 09:53:54] INFO root fetch - processPackages [aiopioneer]: executing diffoscope
+[2024-04-08 09:53:54] INFO root fetch - processPackages [aiopioneer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopioneer-0.6.0a7.tar.gz tmp/aiopioneer-0.6.0b1.tar.gz --markdown 20240408/a/aiopioneer/0.6.0a7-0.6.0b1/diff.md --exclude *.pyd
+[2024-04-08 09:53:55] INFO root fetch - processPackages [magpylib-material-response]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-material-response-0.2.0a0.tar.gz]
+[2024-04-08 09:53:55] INFO root fetch - processPackages [magpylib-material-response]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-material-response-0.2.1a0.tar.gz]
+[2024-04-08 09:53:55] INFO root fetch - main [MainThread]: End processing [magpylib-material-response]: success
+[2024-04-08 09:53:55] INFO root fetch - processPackages [discord-check]: Remove: archive file [/home/abi/fetcher/tmp/discord_check-1.0.2.tar.gz]
+[2024-04-08 09:53:55] INFO root fetch - processPackages [discord-check]: Remove: archive file [/home/abi/fetcher/tmp/discord_check-1.0.3.tar.gz]
+[2024-04-08 09:53:55] INFO root fetch - main [MainThread]: End processing [discord-check]: success
+[2024-04-08 09:53:55] INFO root fetch - processPackages [unesco-reader]: Remove: archive file [/home/abi/fetcher/tmp/unesco_reader-0.3.1.tar.gz]
+[2024-04-08 09:53:55] INFO root fetch - processPackages [unesco-reader]: Remove: archive file [/home/abi/fetcher/tmp/unesco_reader-1.0.0.tar.gz]
+[2024-04-08 09:53:55] INFO root fetch - main [MainThread]: End processing [unesco-reader]: success
+[2024-04-08 09:53:55] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.3-py3-none-any.whl.zip]
+[2024-04-08 09:53:55] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.4-py3-none-any.whl.zip]
+[2024-04-08 09:53:55] INFO root fetch - main [MainThread]: End processing [dataskillhub]: success
+[2024-04-08 09:53:55] INFO root fetch - processPackages [aiopioneer]: Remove: archive file [/home/abi/fetcher/tmp/aiopioneer-0.6.0a7.tar.gz]
+[2024-04-08 09:53:55] INFO root fetch - processPackages [aiopioneer]: Remove: archive file [/home/abi/fetcher/tmp/aiopioneer-0.6.0b1.tar.gz]
+[2024-04-08 09:53:55] INFO root fetch - main [MainThread]: End processing [aiopioneer]: success
+[2024-04-08 09:53:55] INFO root fetch - main [MainThread]: Store serial: [22663691]
