@@ -22270,3 +22270,179 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:19:04] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.5.tar.gz]
 [2024-04-08 15:19:04] INFO root fetch - main [MainThread]: End processing [ridepy]: success
 [2024-04-08 15:19:04] INFO root fetch - main [MainThread]: Store serial: [22667454]
+[2024-04-08 15:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667454]
+[2024-04-08 15:21:15] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: illuminat
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextconsole
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccs-digitalmarketplace-test-utils
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxonloader
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: krules-companion-client
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: so-ml-tools
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neobridge
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arion-library
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: donetools
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-snowflake
+[2024-04-08 15:21:15] INFO root fetch - processPackages [illuminat]: New version: [1.1] Old Version: [0.0.9]
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [neobridge]: Skipping, unable to determine old version
+[2024-04-08 15:21:15] INFO root fetch - processPackages [neobridge]: Start processing: speedtab
+[2024-04-08 15:21:15] INFO root fetch - main [MainThread]: End processing [neobridge] error
+[2024-04-08 15:21:15] INFO root fetch - processPackages [nextconsole]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [donetools]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [arion-library]: New version: [1.1rc30.dev30] Old Version: [1.1rc29.dev29]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [krules-companion-client]: New version: [0.9rc3] Old Version: [0.9rc2]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [speedtab]: New version: [0.2.1.4] Old Version: [0.2.1.3]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: New version: [4.4.0] Old Version: [4.3.2]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/88/5d/7389854d7149538c8a7423dece5da56c12c01fb79bf4e4214553420262f3/donetools-0.0.3.tar.gz
+[2024-04-08 15:21:15] INFO root fetch - processPackages [jaxonloader]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [django-snowflake]: New version: [5.0.3] Old Version: [5.0.2]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/10/60/de1fc3ec070b024ef2b0a2b76a38755175df4b81626b7f8fe732f7ee44d4/illuminat-0.0.9.tar.gz
+[2024-04-08 15:21:15] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/e1/95/465a9efcbddaacc6923343b41d2e003d0ded05903535a939fe2f55f26b78/nextconsole-0.0.2-py3-none-any.whl
+[2024-04-08 15:21:15] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-08 15:21:15] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/18/21/391c0965bea53cc6a869ac84f3181ba7a14d41f118b266c25c6195514557/arion_library-1.1rc29.dev29.tar.gz
+[2024-04-08 15:21:15] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/5f/fe/e82d484b3795538236c2b139b649c877e275ff4484d84c2e85036d977973/speedtab-0.2.1.3.tar.gz
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46425698>=10485760
+[2024-04-08 15:21:15] INFO root fetch - processPackages [illuminat]: Start processing: mentat-ng
+[2024-04-08 15:21:15] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 15:21:15] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Downloading https://files.pythonhosted.org/packages/92/58/3cf60203475bcd9fea393b57e777946d335f904acecdfd5bf03e3e8515e5/ccs-digitalmarketplace-test-utils-4.3.2.tar.gz
+[2024-04-08 15:21:15] INFO root fetch - processPackages [krules-companion-client]: Downloading https://files.pythonhosted.org/packages/33/82/f57ec053ac9137619bdefe9c68d061f806e88a7130f8c304f6f14493b9fe/krules_companion_client-0.9rc2.tar.gz
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [donetools]: Timeout reached during download
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 15:21:15] INFO root fetch - processPackages [jaxonloader]: Downloading https://files.pythonhosted.org/packages/2c/f5/948de1e4abbb39e1b546e12ac96513c8c6c291a6e285ae13f11217d0ca6a/jaxonloader-0.3.4.tar.gz
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 15:21:15] INFO root fetch - processPackages [mentat-ng]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-08 15:21:15] INFO root fetch - processPackages [django-snowflake]: Downloading https://files.pythonhosted.org/packages/f2/b0/488cff57e63e3ca0ecf734ad2392ffa46526d6986beba16027495de68628/django-snowflake-5.0.2.tar.gz
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [speedtab]: Timeout reached during download
+[2024-04-08 15:21:15] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Timeout reached during download
+[2024-04-08 15:21:15] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/7c/06/d46eb6e212923f7a833cf799dc28930ef702ec1454979160c1fb250febc2/donetools-0.0.4.tar.gz
+[2024-04-08 15:21:15] INFO root fetch - processPackages [nextconsole]: Downloading https://files.pythonhosted.org/packages/e7/91/69571a9871748e05e5716c9fb29b5c2ae6e6c5621ead77b2b859ce850bf6/nextconsole-0.0.3-py3-none-any.whl
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [krules-companion-client]: Timeout reached during download
+[2024-04-08 15:21:15] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/93/eb/6ccbb6a7fb6096a4d69fd92baf742b26dde5293d439073ea2fc78341116a/arion_library-1.1rc30.dev30.tar.gz
+[2024-04-08 15:21:15] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/7f/e9/6e49cb77129b0510870dfd0ef67159ab0502685f7aa56305c1066526bd57/speedtab-0.2.1.4.tar.gz
+[2024-04-08 15:21:15] WARNING root fetch - processPackages [jaxonloader]: Timeout reached during download
+[2024-04-08 15:21:16] INFO root fetch - processPackages [mentat-ng]: Downloading https://files.pythonhosted.org/packages/7f/98/47190a94f08ddc349ab98678e4e9411c654d452a30d76dd389378c6fb3da/mentat-ng-2.9.0.tar.gz
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [donetools]: Timeout reached during download
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-08 15:21:16] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-08 15:21:16] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.3.tar.gz tmp/donetools-0.0.4.tar.gz --markdown 20240408/d/donetools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 15:21:16] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-08 15:21:16] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240408/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [nextconsole]: Timeout reached during download
+[2024-04-08 15:21:16] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-08 15:21:16] INFO root fetch - processPackages [nextconsole]: executing diffoscope
+[2024-04-08 15:21:16] INFO root fetch - processPackages [nextconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextconsole-0.0.2-py3-none-any.whl.zip tmp/nextconsole-0.0.3-py3-none-any.whl.zip --markdown 20240408/n/nextconsole/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 15:21:16] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc29.dev29.tar.gz tmp/arion_library-1.1rc30.dev30.tar.gz --markdown 20240408/a/arion-library/1.1rc29.dev29-1.1rc30.dev30/diff.md --exclude *.pyd
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [django-snowflake]: Timeout reached during download
+[2024-04-08 15:21:16] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Downloading https://files.pythonhosted.org/packages/69/69/b5198fa79803f2d75e11defad3137a68a77a0d225eb1a07c2e06a66688ee/ccs-digitalmarketplace-test-utils-4.4.0.tar.gz
+[2024-04-08 15:21:16] INFO root fetch - processPackages [krules-companion-client]: Downloading https://files.pythonhosted.org/packages/d7/20/2686ea1e553cd4c470e37700a441f6885c2ca7dd3e2ae9b3c3bda740ada0/krules_companion_client-0.9rc3.tar.gz
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [mentat-ng]: Skipping package: exceeds size limit 17891705>=10485760
+[2024-04-08 15:21:16] INFO root fetch - processPackages [mentat-ng]: Start processing: rxml
+[2024-04-08 15:21:16] INFO root fetch - main [MainThread]: End processing [mentat-ng] error
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [speedtab]: Timeout reached during download
+[2024-04-08 15:21:16] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2024-04-08 15:21:16] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.2.1.3.tar.gz tmp/speedtab-0.2.1.4.tar.gz --markdown 20240408/s/speedtab/0.2.1.3-0.2.1.4/diff.md --exclude *.pyd
+[2024-04-08 15:21:16] INFO root fetch - processPackages [jaxonloader]: Downloading https://files.pythonhosted.org/packages/ce/f2/741b5eeb0c1b22c7d34706a1e05da22d08c5709676c52f1033e76f106288/jaxonloader-0.3.5.tar.gz
+[2024-04-08 15:21:16] INFO root fetch - processPackages [django-snowflake]: Downloading https://files.pythonhosted.org/packages/10/50/5ff38ec332d31033fd07873ea148bfc4b8cbb4232f37cd0b2e886a37f6a7/django-snowflake-5.0.3.tar.gz
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [krules-companion-client]: Timeout reached during download
+[2024-04-08 15:21:16] INFO root fetch - processPackages [krules-companion-client]: executing diffoscope
+[2024-04-08 15:21:16] INFO root fetch - processPackages [krules-companion-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krules_companion_client-0.9rc2.tar.gz tmp/krules_companion_client-0.9rc3.tar.gz --markdown 20240408/k/krules-companion-client/0.9rc2-0.9rc3/diff.md --exclude *.pyd
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Timeout reached during download
+[2024-04-08 15:21:16] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: executing diffoscope
+[2024-04-08 15:21:16] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-test-utils-4.3.2.tar.gz tmp/ccs-digitalmarketplace-test-utils-4.4.0.tar.gz --markdown 20240408/c/ccs-digitalmarketplace-test-utils/4.3.2-4.4.0/diff.md --exclude *.pyd
+[2024-04-08 15:21:16] INFO root fetch - processPackages [rxml]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [jaxonloader]: Timeout reached during download
+[2024-04-08 15:21:16] INFO root fetch - processPackages [jaxonloader]: executing diffoscope
+[2024-04-08 15:21:16] INFO root fetch - processPackages [jaxonloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxonloader-0.3.4.tar.gz tmp/jaxonloader-0.3.5.tar.gz --markdown 20240408/j/jaxonloader/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [django-snowflake]: Timeout reached during download
+[2024-04-08 15:21:16] INFO root fetch - processPackages [django-snowflake]: executing diffoscope
+[2024-04-08 15:21:16] INFO root fetch - processPackages [django-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-snowflake-5.0.2.tar.gz tmp/django-snowflake-5.0.3.tar.gz --markdown 20240408/d/django-snowflake/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2024-04-08 15:21:16] INFO root fetch - processPackages [rxml]: Downloading https://files.pythonhosted.org/packages/49/95/522fb4248daffe25316c54544a547521c8e640f579e85df4889ebc4c991f/rxml-1.0.1.tar.gz
+[2024-04-08 15:21:16] WARNING root fetch - processPackages [rxml]: Timeout reached during download
+[2024-04-08 15:21:17] INFO root fetch - processPackages [rxml]: Downloading https://files.pythonhosted.org/packages/9a/c5/681c73fa7b5c6b9285b556f181fd42370aac6f7ebc516ccce5ca69e4fd33/rxml-1.1.0-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-04-08 15:21:17] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.3.tar.gz]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.4.tar.gz]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [donetools]: Start processing: cff2toml
+[2024-04-08 15:21:17] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-08 15:21:17] WARNING root fetch - processPackages [rxml]: Timeout reached during download
+[2024-04-08 15:21:17] INFO root fetch - processPackages [rxml]: executing diffoscope
+[2024-04-08 15:21:17] INFO root fetch - processPackages [rxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxml-1.0.1.tar.gz tmp/rxml-1.1.0-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240408/r/rxml/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2024-04-08 15:21:17] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.2-py3-none-any.whl.zip]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [nextconsole]: Remove: archive file [/home/abi/fetcher/tmp/nextconsole-0.0.3-py3-none-any.whl.zip]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [nextconsole]: Start processing: mlscat
+[2024-04-08 15:21:17] INFO root fetch - main [MainThread]: End processing [nextconsole]: success
+[2024-04-08 15:21:17] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [so-ml-tools]: Start processing: logging-strict
+[2024-04-08 15:21:17] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-08 15:21:17] INFO root fetch - processPackages [mlscat]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [cff2toml]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [logging-strict]: New version: [1.2.30] Old Version: [1.2.29]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc29.dev29.tar.gz]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc30.dev30.tar.gz]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [arion-library]: Start processing: hellopkgismail
+[2024-04-08 15:21:17] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-08 15:21:17] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.3.tar.gz]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.4.tar.gz]
+[2024-04-08 15:21:17] INFO root fetch - processPackages [speedtab]: Start processing: simple-measuretime
+[2024-04-08 15:21:17] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2024-04-08 15:21:18] WARNING root fetch - processPackages [simple-measuretime]: Skipping, unable to determine old version
+[2024-04-08 15:21:18] INFO root fetch - processPackages [simple-measuretime]: Start processing: GEMDAT
+[2024-04-08 15:21:18] INFO root fetch - main [MainThread]: End processing [simple-measuretime] error
+[2024-04-08 15:21:18] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/4d/14/b851818e582c056cec4aa3dadaf349489c0bad54b94a65f17330743f8697/MLSCAT-0.0.1.tar.gz
+[2024-04-08 15:21:18] INFO root fetch - processPackages [cff2toml]: Downloading https://files.pythonhosted.org/packages/2d/fe/9137f431727b5ba9750d7ae762a3ab2f1579216cd8bd5ba73d50fe3ffda8/cff2toml-3.0.0.tar.gz
+[2024-04-08 15:21:18] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/cf/5f/47ab0d9d996ee68f4d1ae17bdfa6a41e4b6b1222800b74cc75cbebeac1e7/logging-strict-1.2.29.tar.gz
+[2024-04-08 15:21:18] INFO root fetch - processPackages [krules-companion-client]: Remove: archive file [/home/abi/fetcher/tmp/krules_companion_client-0.9rc2.tar.gz]
+[2024-04-08 15:21:18] INFO root fetch - processPackages [krules-companion-client]: Remove: archive file [/home/abi/fetcher/tmp/krules_companion_client-0.9rc3.tar.gz]
+[2024-04-08 15:21:18] INFO root fetch - main [MainThread]: End processing [krules-companion-client]: success
+[2024-04-08 15:21:18] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-test-utils-4.3.2.tar.gz]
+[2024-04-08 15:21:18] INFO root fetch - processPackages [ccs-digitalmarketplace-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-test-utils-4.4.0.tar.gz]
+[2024-04-08 15:21:18] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-test-utils]: success
+[2024-04-08 15:21:18] INFO root fetch - processPackages [jaxonloader]: Remove: archive file [/home/abi/fetcher/tmp/jaxonloader-0.3.4.tar.gz]
+[2024-04-08 15:21:18] INFO root fetch - processPackages [jaxonloader]: Remove: archive file [/home/abi/fetcher/tmp/jaxonloader-0.3.5.tar.gz]
+[2024-04-08 15:21:18] INFO root fetch - main [MainThread]: End processing [jaxonloader]: success
+[2024-04-08 15:21:18] WARNING root fetch - processPackages [hellopkgismail]: Skipping, unable to determine old version
+[2024-04-08 15:21:18] INFO root fetch - main [MainThread]: End processing [hellopkgismail] error
+[2024-04-08 15:21:18] INFO root fetch - processPackages [GEMDAT]: New version: [1.2.1] Old Version: [1.1.0]
+[2024-04-08 15:21:18] WARNING root fetch - processPackages [mlscat]: Timeout reached during download
+[2024-04-08 15:21:18] INFO root fetch - processPackages [django-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/django-snowflake-5.0.2.tar.gz]
+[2024-04-08 15:21:18] INFO root fetch - processPackages [django-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/django-snowflake-5.0.3.tar.gz]
+[2024-04-08 15:21:18] WARNING root fetch - processPackages [cff2toml]: Timeout reached during download
+[2024-04-08 15:21:18] INFO root fetch - main [MainThread]: End processing [django-snowflake]: success
+[2024-04-08 15:21:18] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/ce/2b/4ea4a75eabf1a6d44f98b88adf9f34c0ce55e7b75184e20970e9c93f9999/mlscat-0.0.2.tar.gz
+[2024-04-08 15:21:18] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-08 15:21:18] INFO root fetch - processPackages [cff2toml]: Downloading https://files.pythonhosted.org/packages/cb/4b/0fa9819d92769796d07b31f12062d302a6a23ad351e5754dfe4a1f7e160c/cff2toml-3.1.0.tar.gz
+[2024-04-08 15:21:18] WARNING root fetch - processPackages [mlscat]: Timeout reached during download
+[2024-04-08 15:21:18] INFO root fetch - processPackages [mlscat]: executing diffoscope
+[2024-04-08 15:21:18] INFO root fetch - processPackages [mlscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLSCAT-0.0.1.tar.gz tmp/mlscat-0.0.2.tar.gz --markdown 20240408/m/mlscat/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-08 15:21:18] INFO root fetch - processPackages [GEMDAT]: Downloading https://files.pythonhosted.org/packages/34/69/c1b168a004b89f9e7c60a1372c46c93ad01e46a996fefe04a63b444199a3/GEMDAT-1.1.0.tar.gz
+[2024-04-08 15:21:18] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/62/0e/41e92ea74e5bb7065b24675aaa9985f54de105d48dbf1846d6ea9b76e36f/logging-strict-1.2.30.tar.gz
+[2024-04-08 15:21:18] WARNING root fetch - processPackages [cff2toml]: Timeout reached during download
+[2024-04-08 15:21:18] INFO root fetch - processPackages [cff2toml]: executing diffoscope
+[2024-04-08 15:21:18] INFO root fetch - processPackages [cff2toml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cff2toml-3.0.0.tar.gz tmp/cff2toml-3.1.0.tar.gz --markdown 20240408/c/cff2toml/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2024-04-08 15:21:18] WARNING root fetch - processPackages [GEMDAT]: Timeout reached during download
+[2024-04-08 15:21:18] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-08 15:21:18] INFO root fetch - processPackages [logging-strict]: executing diffoscope
+[2024-04-08 15:21:18] INFO root fetch - processPackages [logging-strict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-strict-1.2.29.tar.gz tmp/logging-strict-1.2.30.tar.gz --markdown 20240408/l/logging-strict/1.2.29-1.2.30/diff.md --exclude *.pyd
+[2024-04-08 15:21:18] INFO root fetch - processPackages [rxml]: Remove: archive file [/home/abi/fetcher/tmp/rxml-1.0.1.tar.gz]
+[2024-04-08 15:21:18] INFO root fetch - processPackages [rxml]: Remove: archive file [/home/abi/fetcher/tmp/rxml-1.1.0-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-04-08 15:21:18] INFO root fetch - main [MainThread]: End processing [rxml]: success
+[2024-04-08 15:21:18] INFO root fetch - processPackages [GEMDAT]: Downloading https://files.pythonhosted.org/packages/8e/87/4587d40500e52ab77c91e167c7145240fafef78ad739103ac004701d7802/GEMDAT-1.2.1.tar.gz
+[2024-04-08 15:21:19] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/MLSCAT-0.0.1.tar.gz]
+[2024-04-08 15:21:19] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.2.tar.gz]
+[2024-04-08 15:21:19] INFO root fetch - main [MainThread]: End processing [mlscat]: success
+[2024-04-08 15:21:19] WARNING root fetch - processPackages [GEMDAT]: Timeout reached during download
+[2024-04-08 15:21:19] INFO root fetch - processPackages [GEMDAT]: executing diffoscope
+[2024-04-08 15:21:19] INFO root fetch - processPackages [GEMDAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GEMDAT-1.1.0.tar.gz tmp/GEMDAT-1.2.1.tar.gz --markdown 20240408/G/GEMDAT/1.1.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-08 15:21:19] INFO root fetch - processPackages [cff2toml]: Remove: archive file [/home/abi/fetcher/tmp/cff2toml-3.0.0.tar.gz]
+[2024-04-08 15:21:19] INFO root fetch - processPackages [cff2toml]: Remove: archive file [/home/abi/fetcher/tmp/cff2toml-3.1.0.tar.gz]
+[2024-04-08 15:21:19] INFO root fetch - main [MainThread]: End processing [cff2toml]: success
+[2024-04-08 15:21:20] INFO root fetch - processPackages [GEMDAT]: Remove: archive file [/home/abi/fetcher/tmp/GEMDAT-1.1.0.tar.gz]
+[2024-04-08 15:21:20] INFO root fetch - processPackages [GEMDAT]: Remove: archive file [/home/abi/fetcher/tmp/GEMDAT-1.2.1.tar.gz]
+[2024-04-08 15:21:20] INFO root fetch - main [MainThread]: End processing [GEMDAT]: success
+[2024-04-08 15:21:20] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.29.tar.gz]
+[2024-04-08 15:21:20] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.30.tar.gz]
+[2024-04-08 15:21:20] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
+[2024-04-08 15:21:20] INFO root fetch - main [MainThread]: Store serial: [22667539]
