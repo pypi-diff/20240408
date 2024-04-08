@@ -21192,3 +21192,33 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:52:10] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.9.tar.gz]
 [2024-04-08 14:52:10] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
 [2024-04-08 14:52:10] INFO root fetch - main [MainThread]: Store serial: [22667083]
+[2024-04-08 14:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667083]
+[2024-04-08 14:54:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 14:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decentriq-platform
+[2024-04-08 14:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluecellulab
+[2024-04-08 14:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smol_k8s_lab
+[2024-04-08 14:54:19] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-04-08 14:54:19] INFO root fetch - processPackages [bluecellulab]: New version: [2.5.3] Old Version: [2.5.0]
+[2024-04-08 14:54:19] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-04-08 14:54:19] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/be/e9/f08030fd73bc4d4c39999f5733b69d86d8876576ca80af038f428d45f9a2/bluecellulab-2.5.0.tar.gz
+[2024-04-08 14:54:19] INFO root fetch - processPackages [smol_k8s_lab]: New version: [4.0.0] Old Version: [3.7.1]
+[2024-04-08 14:54:19] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16241124>=10485760
+[2024-04-08 14:54:19] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-04-08 14:54:19] WARNING root fetch - processPackages [decentriq-platform]: Timeout reached during download
+[2024-04-08 14:54:19] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/f3/f5/79b3e1d6478d435db64c6adf051b3839b579f1fa918e9ec6f732690101c8/smol_k8s_lab-3.7.1.tar.gz
+[2024-04-08 14:54:20] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-04-08 14:54:20] WARNING root fetch - processPackages [decentriq-platform]: Timeout reached during download
+[2024-04-08 14:54:20] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-04-08 14:54:20] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240408/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 14:54:20] WARNING root fetch - processPackages [smol_k8s_lab]: Timeout reached during download
+[2024-04-08 14:54:20] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/50/bc/ef2c26425eec2a3e61b1c0be70053d8091dce06cac6794fabd3f8b343a56/smol_k8s_lab-4.0.0.tar.gz
+[2024-04-08 14:54:20] WARNING root fetch - processPackages [smol_k8s_lab]: Timeout reached during download
+[2024-04-08 14:54:20] INFO root fetch - processPackages [smol_k8s_lab]: executing diffoscope
+[2024-04-08 14:54:20] INFO root fetch - processPackages [smol_k8s_lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-3.7.1.tar.gz tmp/smol_k8s_lab-4.0.0.tar.gz --markdown 20240408/s/smol_k8s_lab/3.7.1-4.0.0/diff.md --exclude *.pyd
+[2024-04-08 14:54:20] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-04-08 14:54:20] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-04-08 14:54:20] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-04-08 14:54:21] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-3.7.1.tar.gz]
+[2024-04-08 14:54:21] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-4.0.0.tar.gz]
+[2024-04-08 14:54:21] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
+[2024-04-08 14:54:21] INFO root fetch - main [MainThread]: Store serial: [22667093]
