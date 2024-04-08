@@ -21736,3 +21736,72 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:07:35] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.9.9.tar.gz]
 [2024-04-08 15:07:35] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2024-04-08 15:07:35] INFO root fetch - main [MainThread]: Store serial: [22667262]
+[2024-04-08 15:09:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667262]
+[2024-04-08 15:09:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rfstools
+[2024-04-08 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotGUI
+[2024-04-08 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES-client
+[2024-04-08 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-beam
+[2024-04-08 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MinecraftMotionTools
+[2024-04-08 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slither-analyzer
+[2024-04-08 15:09:45] INFO root fetch - processPackages [MinecraftMotionTools]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-04-08 15:09:45] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-08 15:09:45] INFO root fetch - processPackages [rfstools]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-08 15:09:45] INFO root fetch - processPackages [spotGUI]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-04-08 15:09:45] INFO root fetch - processPackages [slither-analyzer]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-08 15:09:45] INFO root fetch - processPackages [MinecraftMotionTools]: Downloading https://files.pythonhosted.org/packages/33/7c/aaafc78d2b01812f72d63c282e6f89c408ae94cf0f089dc9c48501f65b6d/MinecraftMotionTools-1.8.2.tar.gz
+[2024-04-08 15:09:45] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/81/f4/10f514b77bdacd78414e215290fe3c18085a396e9a94b6790cc34489234c/DLMS_SPODES_client-0.7.0.tar.gz
+[2024-04-08 15:09:45] INFO root fetch - processPackages [spotGUI]: Downloading https://files.pythonhosted.org/packages/82/6f/1f43ef8d61d29091e2cf123fccf53471f228f8f6dc1e7d0b75b11f31856e/spotGUI-0.4.9-py3-none-any.whl
+[2024-04-08 15:09:45] WARNING root fetch - processPackages [MinecraftMotionTools]: Timeout reached during download
+[2024-04-08 15:09:45] WARNING root fetch - processPackages [DLMS-SPODES-client]: Timeout reached during download
+[2024-04-08 15:09:45] INFO root fetch - processPackages [slither-analyzer]: Downloading https://files.pythonhosted.org/packages/d9/6d/42920046529b56cfb8bae1e221dd44bde25901c8c4240949cfd642d870d3/slither-analyzer-0.9.5.tar.gz
+[2024-04-08 15:09:45] INFO root fetch - processPackages [rfstools]: Downloading https://files.pythonhosted.org/packages/4b/05/6b5d09cb690a4014e6df3c2500e4bddb21695139e951ff928d6c9b1ff1a6/rfstools-1.8.1.tar.gz
+[2024-04-08 15:09:46] INFO root fetch - processPackages [MinecraftMotionTools]: Downloading https://files.pythonhosted.org/packages/2a/da/7029498f03d9c53a0211e4159aa0b25b31cd36eed11f2bd1e1bebceaa702/MinecraftMotionTools-1.8.3.tar.gz
+[2024-04-08 15:09:46] WARNING root fetch - processPackages [rfstools]: Timeout reached during download
+[2024-04-08 15:09:46] WARNING root fetch - processPackages [spotGUI]: Timeout reached during download
+[2024-04-08 15:09:46] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/f9/36/323a0be75d8e66601c2a120b3f416eb46c72d20d3afb76c4f654b02739c7/DLMS_SPODES_client-0.7.1.tar.gz
+[2024-04-08 15:09:46] WARNING root fetch - processPackages [MinecraftMotionTools]: Timeout reached during download
+[2024-04-08 15:09:46] INFO root fetch - processPackages [MinecraftMotionTools]: executing diffoscope
+[2024-04-08 15:09:46] INFO root fetch - processPackages [MinecraftMotionTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MinecraftMotionTools-1.8.2.tar.gz tmp/MinecraftMotionTools-1.8.3.tar.gz --markdown 20240408/M/MinecraftMotionTools/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2024-04-08 15:09:46] WARNING root fetch - processPackages [DLMS-SPODES-client]: Timeout reached during download
+[2024-04-08 15:09:46] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-08 15:09:46] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.0.tar.gz tmp/DLMS_SPODES_client-0.7.1.tar.gz --markdown 20240408/D/DLMS-SPODES-client/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-08 15:09:46] INFO root fetch - processPackages [apache-beam]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-08 15:09:46] INFO root fetch - processPackages [rfstools]: Downloading https://files.pythonhosted.org/packages/fc/b6/e302f788bc0204149a35fd3486165adc88d8ab0026878c96575110f441fb/rfstools-1.8.2.tar.gz
+[2024-04-08 15:09:46] INFO root fetch - processPackages [spotGUI]: Downloading https://files.pythonhosted.org/packages/c7/35/ac13a421819ac5f0bd666bd00ede98d4998ac108e6e73769e220b2248a4a/spotGUI-0.5.0.tar.gz
+[2024-04-08 15:09:46] WARNING root fetch - processPackages [slither-analyzer]: Timeout reached during download
+[2024-04-08 15:09:46] WARNING root fetch - processPackages [rfstools]: Timeout reached during download
+[2024-04-08 15:09:46] INFO root fetch - processPackages [rfstools]: executing diffoscope
+[2024-04-08 15:09:46] INFO root fetch - processPackages [rfstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfstools-1.8.1.tar.gz tmp/rfstools-1.8.2.tar.gz --markdown 20240408/r/rfstools/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2024-04-08 15:09:46] INFO root fetch - processPackages [apache-beam]: Downloading https://files.pythonhosted.org/packages/81/ea/11cec69a659af024f7f37e928ff533ad5e30b7a519d9982e2bb5b81fcb52/apache-beam-2.8.0.zip
+[2024-04-08 15:09:46] INFO root fetch - processPackages [slither-analyzer]: Downloading https://files.pythonhosted.org/packages/d9/18/4af93281e1e7ae22fb2bdc3a3da36397781b8b99611fa54379f5a6d1631d/slither-analyzer-0.9.6.tar.gz
+[2024-04-08 15:09:46] WARNING root fetch - processPackages [spotGUI]: Timeout reached during download
+[2024-04-08 15:09:46] INFO root fetch - processPackages [spotGUI]: executing diffoscope
+[2024-04-08 15:09:46] INFO root fetch - processPackages [spotGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotGUI-0.4.9-py3-none-any.whl.zip tmp/spotGUI-0.5.0.tar.gz --markdown 20240408/s/spotGUI/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2024-04-08 15:09:46] WARNING root fetch - processPackages [slither-analyzer]: Timeout reached during download
+[2024-04-08 15:09:46] INFO root fetch - processPackages [slither-analyzer]: executing diffoscope
+[2024-04-08 15:09:46] INFO root fetch - processPackages [slither-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slither-analyzer-0.9.5.tar.gz tmp/slither-analyzer-0.9.6.tar.gz --markdown 20240408/s/slither-analyzer/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-08 15:09:47] INFO root fetch - processPackages [MinecraftMotionTools]: Remove: archive file [/home/abi/fetcher/tmp/MinecraftMotionTools-1.8.2.tar.gz]
+[2024-04-08 15:09:47] INFO root fetch - processPackages [MinecraftMotionTools]: Remove: archive file [/home/abi/fetcher/tmp/MinecraftMotionTools-1.8.3.tar.gz]
+[2024-04-08 15:09:47] INFO root fetch - main [MainThread]: End processing [MinecraftMotionTools]: success
+[2024-04-08 15:09:47] WARNING root fetch - processPackages [apache-beam]: Timeout reached during download
+[2024-04-08 15:09:47] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.0.tar.gz]
+[2024-04-08 15:09:47] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.1.tar.gz]
+[2024-04-08 15:09:47] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-08 15:09:47] INFO root fetch - processPackages [rfstools]: Remove: archive file [/home/abi/fetcher/tmp/rfstools-1.8.1.tar.gz]
+[2024-04-08 15:09:47] INFO root fetch - processPackages [rfstools]: Remove: archive file [/home/abi/fetcher/tmp/rfstools-1.8.2.tar.gz]
+[2024-04-08 15:09:47] INFO root fetch - main [MainThread]: End processing [rfstools]: success
+[2024-04-08 15:09:47] INFO root fetch - processPackages [apache-beam]: Downloading https://files.pythonhosted.org/packages/02/8f/a9cd498e0e576c8537e65c4e3aacbffe4b3dc9a189287cd8a91c93784308/apache-beam-2.9.0.zip
+[2024-04-08 15:09:48] WARNING root fetch - processPackages [apache-beam]: Timeout reached during download
+[2024-04-08 15:09:48] INFO root fetch - processPackages [apache-beam]: executing diffoscope
+[2024-04-08 15:09:48] INFO root fetch - processPackages [apache-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-beam-2.8.0.zip tmp/apache-beam-2.9.0.zip --markdown 20240408/a/apache-beam/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-08 15:09:49] INFO root fetch - processPackages [slither-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/slither-analyzer-0.9.5.tar.gz]
+[2024-04-08 15:09:49] INFO root fetch - processPackages [slither-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/slither-analyzer-0.9.6.tar.gz]
+[2024-04-08 15:09:49] INFO root fetch - main [MainThread]: End processing [slither-analyzer]: success
+[2024-04-08 15:09:52] INFO root fetch - processPackages [apache-beam]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-2.8.0.zip]
+[2024-04-08 15:09:52] INFO root fetch - processPackages [apache-beam]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-2.9.0.zip]
+[2024-04-08 15:09:52] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
+[2024-04-08 15:09:53] INFO root fetch - processPackages [spotGUI]: Remove: archive file [/home/abi/fetcher/tmp/spotGUI-0.4.9-py3-none-any.whl.zip]
+[2024-04-08 15:09:53] INFO root fetch - processPackages [spotGUI]: Remove: archive file [/home/abi/fetcher/tmp/spotGUI-0.5.0.tar.gz]
+[2024-04-08 15:09:53] INFO root fetch - main [MainThread]: End processing [spotGUI]: success
+[2024-04-08 15:09:53] INFO root fetch - main [MainThread]: Store serial: [22667292]
