@@ -17959,3 +17959,44 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:56:37] INFO root fetch - processPackages [fondant]: Remove: archive file [/home/abi/fetcher/tmp/fondant-1.0.0.tar.gz]
 [2024-04-08 12:56:37] INFO root fetch - main [MainThread]: End processing [fondant]: success
 [2024-04-08 12:56:37] INFO root fetch - main [MainThread]: Store serial: [22665934]
+[2024-04-08 12:58:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665934]
+[2024-04-08 12:58:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 12:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imagedata
+[2024-04-08 12:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ign8
+[2024-04-08 12:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sumo2
+[2024-04-08 12:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boutpp-nightly
+[2024-04-08 12:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MultiGATE
+[2024-04-08 12:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text-unicoder
+[2024-04-08 12:58:45] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.2.0.dev7] Old Version: [5.2.0.dev69]
+[2024-04-08 12:58:45] WARNING root fetch - processPackages [sumo2]: Skipping, unable to determine old version
+[2024-04-08 12:58:45] INFO root fetch - main [MainThread]: End processing [sumo2] error
+[2024-04-08 12:58:45] INFO root fetch - processPackages [MultiGATE]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-08 12:58:45] INFO root fetch - processPackages [imagedata]: New version: [3.5.1rc2] Old Version: [3.5.1rc1]
+[2024-04-08 12:58:45] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.33]
+[2024-04-08 12:58:46] ERROR root fetch - processPackages [text-unicoder]: Unable to get metadata: No such project 'text-unicoder'
+[2024-04-08 12:58:46] INFO root fetch - main [MainThread]: End processing [text-unicoder] error
+[2024-04-08 12:58:46] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/b6/ea/2a162abd76e6ed4b274a9ee1770ffc189035f95b7523a3da63c33a57d157/boutpp-nightly-v5.2.0.dev69.tar.gz
+[2024-04-08 12:58:46] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/c9/cc/2e988014878535ac1541e3cbf92d2d1bce4fcb37d3e5c2c085a76f8a24f9/MultiGATE-0.0.3.tar.gz
+[2024-04-08 12:58:46] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 17920509>=10485760
+[2024-04-08 12:58:46] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2024-04-08 12:58:46] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/4b/d5/9240767ef4f7de7b6e2a6dd7400d051229020726d119ce3c8b3040cdcd7a/ign8-4.8.33.tar.gz
+[2024-04-08 12:58:46] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-08 12:58:46] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/75/c2/507aed43a6bd6bb7d91d5d5086fdd5fc61def280b621967f57001ff1dcb3/imagedata-3.5.1rc1.tar.gz
+[2024-04-08 12:58:46] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27631625>=10485760
+[2024-04-08 12:58:46] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-04-08 12:58:46] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:58:46] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/e2/84/2372204ef1a619e125e55774c66e769e14a17276ef085cca4099fdbf0fee/MultiGATE-0.0.4.tar.gz
+[2024-04-08 12:58:46] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-08 12:58:46] WARNING root fetch - processPackages [MultiGATE]: Timeout reached during download
+[2024-04-08 12:58:46] INFO root fetch - processPackages [MultiGATE]: executing diffoscope
+[2024-04-08 12:58:46] INFO root fetch - processPackages [MultiGATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiGATE-0.0.3.tar.gz tmp/MultiGATE-0.0.4.tar.gz --markdown 20240408/M/MultiGATE/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-08 12:58:46] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:58:46] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-08 12:58:46] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.33.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240408/i/ign8/4.8.33-4.8.5/diff.md --exclude *.pyd
+[2024-04-08 12:58:47] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.3.tar.gz]
+[2024-04-08 12:58:47] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.4.tar.gz]
+[2024-04-08 12:58:47] INFO root fetch - main [MainThread]: End processing [MultiGATE]: success
+[2024-04-08 12:58:49] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.33.tar.gz]
+[2024-04-08 12:58:49] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-08 12:58:49] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-08 12:58:49] INFO root fetch - main [MainThread]: Store serial: [22665952]
