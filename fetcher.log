@@ -3655,3 +3655,72 @@
 [2024-04-08 04:35:50] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.3.tar.gz]
 [2024-04-08 04:35:50] INFO root fetch - main [MainThread]: End processing [lambkid]: success
 [2024-04-08 04:35:50] INFO root fetch - main [MainThread]: Store serial: [22660971]
+[2024-04-08 04:37:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660971]
+[2024-04-08 04:38:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PygameToolsBox
+[2024-04-08 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybts
+[2024-04-08 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lineagex
+[2024-04-08 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chesscli
+[2024-04-08 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trace-attributes
+[2024-04-08 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-financial-report
+[2024-04-08 04:38:00] INFO root fetch - processPackages [chesscli]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-08 04:38:00] INFO root fetch - processPackages [PygameToolsBox]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-08 04:38:00] INFO root fetch - processPackages [lineagex]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 04:38:00] INFO root fetch - processPackages [chesscli]: Downloading https://files.pythonhosted.org/packages/51/6f/8807dee5d03a6ffd0030e80c56e4fae570c9729cf65595cb082edc969122/chesscli-0.2.1.tar.gz
+[2024-04-08 04:38:00] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [16.0.1.5.4.3] Old Version: [16.0.1.5.4.2]
+[2024-04-08 04:38:00] INFO root fetch - processPackages [pybts]: New version: [1.3.3] Old Version: [1.3.1]
+[2024-04-08 04:38:00] INFO root fetch - processPackages [trace-attributes]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-08 04:38:00] INFO root fetch - processPackages [PygameToolsBox]: Downloading https://files.pythonhosted.org/packages/40/a7/99ce8bd6d0d52d9c207d9172135db063886060128def48c742f15429e937/PygameToolsBox-1.1.3.tar.gz
+[2024-04-08 04:38:00] INFO root fetch - processPackages [lineagex]: Downloading https://files.pythonhosted.org/packages/88/85/7e0ff755a7c52459c314b3cb9341c1f37a0416c369381dcfe8ff6124fab5/lineagex-0.0.8.tar.gz
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [chesscli]: Timeout reached during download
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [PygameToolsBox]: Timeout reached during download
+[2024-04-08 04:38:01] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/20/41/e1671fde99220efda960bdc03a5a9ff4733c65ad5943bea26bcb192adf77/pybts-1.3.1.tar.gz
+[2024-04-08 04:38:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/7f/74/a9425f9d56ffb9b34d4cdd2c73d2acaed76977f32841b6a95f1b68bd3e7f/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl
+[2024-04-08 04:38:01] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/1e/90/74b7e4574ffcc661df330fae415d85a9beb6bbc7cda3796494b4405d6070/trace-attributes-1.0.8.tar.gz
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [lineagex]: Timeout reached during download
+[2024-04-08 04:38:01] INFO root fetch - processPackages [PygameToolsBox]: Downloading https://files.pythonhosted.org/packages/20/70/7c2a6da5cf30ec1356edd7e18243f3e3d32514dc65c3137fb7e0ccd06727/PygameToolsBox-1.1.4.tar.gz
+[2024-04-08 04:38:01] INFO root fetch - processPackages [lineagex]: Downloading https://files.pythonhosted.org/packages/c4/8d/4935610bc014abaef16e58ad6370420a9600a1c2d06ec51384b444af14b1/lineagex-0.0.9.tar.gz
+[2024-04-08 04:38:01] INFO root fetch - processPackages [chesscli]: Downloading https://files.pythonhosted.org/packages/e3/09/1e0bdfd71d4af68ba1701faeb9cae03ac4e4a38897c182ea97682abb7cd3/chesscli-0.2.2.tar.gz
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [odoo-addon-account-financial-report]: Timeout reached during download
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [trace-attributes]: Timeout reached during download
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [chesscli]: Timeout reached during download
+[2024-04-08 04:38:01] INFO root fetch - processPackages [chesscli]: executing diffoscope
+[2024-04-08 04:38:01] INFO root fetch - processPackages [chesscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chesscli-0.2.1.tar.gz tmp/chesscli-0.2.2.tar.gz --markdown 20240408/c/chesscli/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [PygameToolsBox]: Timeout reached during download
+[2024-04-08 04:38:01] INFO root fetch - processPackages [PygameToolsBox]: executing diffoscope
+[2024-04-08 04:38:01] INFO root fetch - processPackages [PygameToolsBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PygameToolsBox-1.1.3.tar.gz tmp/PygameToolsBox-1.1.4.tar.gz --markdown 20240408/P/PygameToolsBox/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [lineagex]: Timeout reached during download
+[2024-04-08 04:38:01] INFO root fetch - processPackages [lineagex]: executing diffoscope
+[2024-04-08 04:38:01] INFO root fetch - processPackages [lineagex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineagex-0.0.8.tar.gz tmp/lineagex-0.0.9.tar.gz --markdown 20240408/l/lineagex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [pybts]: Timeout reached during download
+[2024-04-08 04:38:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/f7/d4/669bc12d86b3ab06c2bc815d94f5d0e2d740b7f070d0beb0a444d54fb807/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl
+[2024-04-08 04:38:01] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/9f/67/9cb8e2c92791a6e07f7ac6e1651f1abcc16a82196a21da9eb5e10f1bd0dd/trace-attributes-1.0.9.tar.gz
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [odoo-addon-account-financial-report]: Timeout reached during download
+[2024-04-08 04:38:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-08 04:38:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-account-financial-report/16.0.1.5.4.2-16.0.1.5.4.3/diff.md --exclude *.pyd
+[2024-04-08 04:38:01] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/cb/21/329a1925005e09442f23abf63456cd1a5c349adc1ac0f4dae7a221a94100/pybts-1.3.3.tar.gz
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [trace-attributes]: Timeout reached during download
+[2024-04-08 04:38:01] INFO root fetch - processPackages [trace-attributes]: executing diffoscope
+[2024-04-08 04:38:01] INFO root fetch - processPackages [trace-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trace-attributes-1.0.8.tar.gz tmp/trace-attributes-1.0.9.tar.gz --markdown 20240408/t/trace-attributes/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-08 04:38:01] WARNING root fetch - processPackages [pybts]: Timeout reached during download
+[2024-04-08 04:38:01] INFO root fetch - processPackages [pybts]: executing diffoscope
+[2024-04-08 04:38:01] INFO root fetch - processPackages [pybts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybts-1.3.1.tar.gz tmp/pybts-1.3.3.tar.gz --markdown 20240408/p/pybts/1.3.1-1.3.3/diff.md --exclude *.pyd
+[2024-04-08 04:38:02] INFO root fetch - processPackages [chesscli]: Remove: archive file [/home/abi/fetcher/tmp/chesscli-0.2.1.tar.gz]
+[2024-04-08 04:38:02] INFO root fetch - processPackages [chesscli]: Remove: archive file [/home/abi/fetcher/tmp/chesscli-0.2.2.tar.gz]
+[2024-04-08 04:38:02] INFO root fetch - main [MainThread]: End processing [chesscli]: success
+[2024-04-08 04:38:02] INFO root fetch - processPackages [PygameToolsBox]: Remove: archive file [/home/abi/fetcher/tmp/PygameToolsBox-1.1.3.tar.gz]
+[2024-04-08 04:38:02] INFO root fetch - processPackages [PygameToolsBox]: Remove: archive file [/home/abi/fetcher/tmp/PygameToolsBox-1.1.4.tar.gz]
+[2024-04-08 04:38:02] INFO root fetch - main [MainThread]: End processing [PygameToolsBox]: success
+[2024-04-08 04:38:02] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.8.tar.gz]
+[2024-04-08 04:38:02] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.9.tar.gz]
+[2024-04-08 04:38:02] INFO root fetch - main [MainThread]: End processing [trace-attributes]: success
+[2024-04-08 04:38:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl.zip]
+[2024-04-08 04:38:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl.zip]
+[2024-04-08 04:38:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-08 04:38:02] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.3.1.tar.gz]
+[2024-04-08 04:38:02] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.3.3.tar.gz]
+[2024-04-08 04:38:02] INFO root fetch - main [MainThread]: End processing [pybts]: success
+[2024-04-08 04:38:03] INFO root fetch - processPackages [lineagex]: Remove: archive file [/home/abi/fetcher/tmp/lineagex-0.0.8.tar.gz]
+[2024-04-08 04:38:03] INFO root fetch - processPackages [lineagex]: Remove: archive file [/home/abi/fetcher/tmp/lineagex-0.0.9.tar.gz]
+[2024-04-08 04:38:03] INFO root fetch - main [MainThread]: End processing [lineagex]: success
+[2024-04-08 04:38:03] INFO root fetch - main [MainThread]: Store serial: [22660988]
