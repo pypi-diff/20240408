@@ -21438,3 +21438,77 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:58:46] INFO root fetch - processPackages [django-quotes]: Remove: archive file [/home/abi/fetcher/tmp/django_quotes-0.4.0.tar.gz]
 [2024-04-08 14:58:46] INFO root fetch - main [MainThread]: End processing [django-quotes]: success
 [2024-04-08 14:58:46] INFO root fetch - main [MainThread]: Store serial: [22667161]
+[2024-04-08 15:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667161]
+[2024-04-08 15:00:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: design.plone.contenttypes
+[2024-04-08 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tonpy-dev
+[2024-04-08 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: efel
+[2024-04-08 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kopf
+[2024-04-08 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solmate-sdk
+[2024-04-08 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: compteur
+[2024-04-08 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dongraphio
+[2024-04-08 15:00:55] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.2.2] Old Version: [6.2.1]
+[2024-04-08 15:00:55] INFO root fetch - processPackages [tonpy-dev]: New version: [0.0.0.4.1a1] Old Version: [0.0.0.4.0rc1]
+[2024-04-08 15:00:55] INFO root fetch - processPackages [compteur]: New version: [1.1] Old Version: [1.0]
+[2024-04-08 15:00:55] INFO root fetch - processPackages [solmate-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 15:00:55] INFO root fetch - processPackages [kopf]: New version: [1.37.2] Old Version: [1.37.1]
+[2024-04-08 15:00:55] INFO root fetch - processPackages [efel]: New version: [5.6.5] Old Version: [5.6.4]
+[2024-04-08 15:00:55] INFO root fetch - processPackages [dongraphio]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-08 15:00:55] INFO root fetch - processPackages [kopf]: Downloading https://files.pythonhosted.org/packages/80/f1/6b132164de2cae56761ea84f7947f0f5fdcd0db2168adec811052131947d/kopf-1.37.1.tar.gz
+[2024-04-08 15:00:55] INFO root fetch - processPackages [tonpy-dev]: Downloading https://files.pythonhosted.org/packages/6e/07/511f6936f0c5626d6129985b08c47e1da80b2764e8a5db070b83088fcac8/tonpy_dev-0.0.0.4.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-08 15:00:55] INFO root fetch - processPackages [solmate-sdk]: Downloading https://files.pythonhosted.org/packages/f5/d2/5a6ff39813eaa1e66d5d57795b94b65c507fd1e33bc4e591dcb4e3f4f46c/solmate_sdk-0.1.8.tar.gz
+[2024-04-08 15:00:55] INFO root fetch - processPackages [compteur]: Downloading https://files.pythonhosted.org/packages/25/35/cca3d60ec5d512bb32115d6e8310df4a0d91b2774b9bacc56a71f7a00647/compteur-1.0.tar.gz
+[2024-04-08 15:00:55] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/31/87/4008a52fa76330127f575804dd0818b8a916c9bb24f62b9f11ff4298379f/design.plone.contenttypes-6.2.1.tar.gz
+[2024-04-08 15:00:55] INFO root fetch - processPackages [dongraphio]: Downloading https://files.pythonhosted.org/packages/07/e7/ec70203dcab329f2779819e15375e235ab88061afeaa26489adeb6429380/dongraphio-0.3.1.tar.gz
+[2024-04-08 15:00:55] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/42/16/5133208e28b0af6a5a6d6e94d2d7333f339ef4a41286ef9628e07a186ae4/efel-5.6.4.tar.gz
+[2024-04-08 15:00:55] WARNING root fetch - processPackages [solmate-sdk]: Timeout reached during download
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [tonpy-dev]: Skipping package: exceeds size limit 10969212>=10485760
+[2024-04-08 15:00:56] INFO root fetch - main [MainThread]: End processing [tonpy-dev] error
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [efel]: Timeout reached during download
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [compteur]: Timeout reached during download
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [dongraphio]: Timeout reached during download
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [design.plone.contenttypes]: Timeout reached during download
+[2024-04-08 15:00:56] INFO root fetch - processPackages [solmate-sdk]: Downloading https://files.pythonhosted.org/packages/38/e1/bc4f86cf4cde2f885e39a28333279c2bde528e1cff2fe9f76c928b088a2f/solmate_sdk-0.1.9.tar.gz
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [kopf]: Timeout reached during download
+[2024-04-08 15:00:56] INFO root fetch - processPackages [compteur]: Downloading https://files.pythonhosted.org/packages/b0/36/302ce7c4debdd5715e6922d4d9834e5f23040801046c374a3918ffbb5094/compteur-1.1.tar.gz
+[2024-04-08 15:00:56] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/1e/bc/d454ebb2e6c8118055ee9e28c2ded5384656250f46dc3674a6c64d53e894/efel-5.6.5.tar.gz
+[2024-04-08 15:00:56] INFO root fetch - processPackages [dongraphio]: Downloading https://files.pythonhosted.org/packages/61/e9/368d96a5ce540f2c2438f2378561ffb2cf6e47adeace99585a53014e4c4e/dongraphio-0.3.2.tar.gz
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [solmate-sdk]: Timeout reached during download
+[2024-04-08 15:00:56] INFO root fetch - processPackages [solmate-sdk]: executing diffoscope
+[2024-04-08 15:00:56] INFO root fetch - processPackages [solmate-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solmate_sdk-0.1.8.tar.gz tmp/solmate_sdk-0.1.9.tar.gz --markdown 20240408/s/solmate-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [compteur]: Timeout reached during download
+[2024-04-08 15:00:56] INFO root fetch - processPackages [compteur]: executing diffoscope
+[2024-04-08 15:00:56] INFO root fetch - processPackages [compteur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compteur-1.0.tar.gz tmp/compteur-1.1.tar.gz --markdown 20240408/c/compteur/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-08 15:00:56] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/b7/61/e342e9c3a0627bb3b27e538437a296ba6764aed1e50c6d1cc4d597cde127/design.plone.contenttypes-6.2.2.tar.gz
+[2024-04-08 15:00:56] INFO root fetch - processPackages [kopf]: Downloading https://files.pythonhosted.org/packages/c2/bb/b8149affd251715f1910b1f617019628bc02eafe7c9914333a20a5f69205/kopf-1.37.2.tar.gz
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [efel]: Timeout reached during download
+[2024-04-08 15:00:56] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-04-08 15:00:56] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.4.tar.gz tmp/efel-5.6.5.tar.gz --markdown 20240408/e/efel/5.6.4-5.6.5/diff.md --exclude *.pyd
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [dongraphio]: Timeout reached during download
+[2024-04-08 15:00:56] INFO root fetch - processPackages [dongraphio]: executing diffoscope
+[2024-04-08 15:00:56] INFO root fetch - processPackages [dongraphio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongraphio-0.3.1.tar.gz tmp/dongraphio-0.3.2.tar.gz --markdown 20240408/d/dongraphio/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [kopf]: Timeout reached during download
+[2024-04-08 15:00:56] INFO root fetch - processPackages [kopf]: executing diffoscope
+[2024-04-08 15:00:56] INFO root fetch - processPackages [kopf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kopf-1.37.1.tar.gz tmp/kopf-1.37.2.tar.gz --markdown 20240408/k/kopf/1.37.1-1.37.2/diff.md --exclude *.pyd
+[2024-04-08 15:00:56] WARNING root fetch - processPackages [design.plone.contenttypes]: Timeout reached during download
+[2024-04-08 15:00:56] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2024-04-08 15:00:56] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.2.1.tar.gz tmp/design.plone.contenttypes-6.2.2.tar.gz --markdown 20240408/d/design.plone.contenttypes/6.2.1-6.2.2/diff.md --exclude *.pyd
+[2024-04-08 15:00:57] INFO root fetch - processPackages [solmate-sdk]: Remove: archive file [/home/abi/fetcher/tmp/solmate_sdk-0.1.8.tar.gz]
+[2024-04-08 15:00:57] INFO root fetch - processPackages [solmate-sdk]: Remove: archive file [/home/abi/fetcher/tmp/solmate_sdk-0.1.9.tar.gz]
+[2024-04-08 15:00:57] INFO root fetch - main [MainThread]: End processing [solmate-sdk]: success
+[2024-04-08 15:00:57] INFO root fetch - processPackages [compteur]: Remove: archive file [/home/abi/fetcher/tmp/compteur-1.0.tar.gz]
+[2024-04-08 15:00:57] INFO root fetch - processPackages [compteur]: Remove: archive file [/home/abi/fetcher/tmp/compteur-1.1.tar.gz]
+[2024-04-08 15:00:57] INFO root fetch - main [MainThread]: End processing [compteur]: success
+[2024-04-08 15:00:57] INFO root fetch - processPackages [dongraphio]: Remove: archive file [/home/abi/fetcher/tmp/dongraphio-0.3.1.tar.gz]
+[2024-04-08 15:00:57] INFO root fetch - processPackages [dongraphio]: Remove: archive file [/home/abi/fetcher/tmp/dongraphio-0.3.2.tar.gz]
+[2024-04-08 15:00:57] INFO root fetch - main [MainThread]: End processing [dongraphio]: success
+[2024-04-08 15:00:57] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.4.tar.gz]
+[2024-04-08 15:00:57] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.5.tar.gz]
+[2024-04-08 15:00:57] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-04-08 15:00:58] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.2.1.tar.gz]
+[2024-04-08 15:00:58] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.2.2.tar.gz]
+[2024-04-08 15:00:58] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2024-04-08 15:00:58] INFO root fetch - processPackages [kopf]: Remove: archive file [/home/abi/fetcher/tmp/kopf-1.37.1.tar.gz]
+[2024-04-08 15:00:58] INFO root fetch - processPackages [kopf]: Remove: archive file [/home/abi/fetcher/tmp/kopf-1.37.2.tar.gz]
+[2024-04-08 15:00:58] INFO root fetch - main [MainThread]: End processing [kopf]: success
+[2024-04-08 15:00:58] INFO root fetch - main [MainThread]: Store serial: [22667194]
