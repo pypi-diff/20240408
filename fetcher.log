@@ -12956,3 +12956,185 @@
 [2024-04-08 10:17:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-08 10:17:11] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-08 10:17:11] INFO root fetch - main [MainThread]: Store serial: [22664043]
+[2024-04-08 10:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664043]
+[2024-04-08 10:19:21] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdoclust
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wah
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morphdb-utils
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-toothfairy-annotator
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: productor
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swarmauri
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarmauri
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swarmauri
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarmauri
+[2024-04-08 10:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swarmauri
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:21] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:21] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [sdoclust]: Skipping, unable to determine old version
+[2024-04-08 10:19:21] INFO root fetch - processPackages [sdoclust]: Start processing: swarmauri
+[2024-04-08 10:19:21] INFO root fetch - main [MainThread]: End processing [sdoclust] error
+[2024-04-08 10:19:21] INFO root fetch - processPackages [productor]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-08 10:19:21] INFO root fetch - processPackages [napari-toothfairy-annotator]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/2c/52/ddeb66163abefffd8dd738716ecfd4d43b1b5f85f4989f9e9e93917cd71a/swarmauri-0.1.8-py3-none-any.whl
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/2c/52/ddeb66163abefffd8dd738716ecfd4d43b1b5f85f4989f9e9e93917cd71a/swarmauri-0.1.8-py3-none-any.whl
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/2c/52/ddeb66163abefffd8dd738716ecfd4d43b1b5f85f4989f9e9e93917cd71a/swarmauri-0.1.8-py3-none-any.whl
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/2c/52/ddeb66163abefffd8dd738716ecfd4d43b1b5f85f4989f9e9e93917cd71a/swarmauri-0.1.8-py3-none-any.whl
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/2c/52/ddeb66163abefffd8dd738716ecfd4d43b1b5f85f4989f9e9e93917cd71a/swarmauri-0.1.8-py3-none-any.whl
+[2024-04-08 10:19:21] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/2c/52/ddeb66163abefffd8dd738716ecfd4d43b1b5f85f4989f9e9e93917cd71a/swarmauri-0.1.8-py3-none-any.whl
+[2024-04-08 10:19:21] INFO root fetch - processPackages [productor]: Downloading https://files.pythonhosted.org/packages/3c/25/fc65ae169b477c332229dcbdaf18bcfc59eb6685a2c873416960068448f2/productor-0.1.0.tar.gz
+[2024-04-08 10:19:21] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-04-08 10:19:21] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-04-08 10:19:21] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/ba/ee/e6168aaae8ef9359defff4b31522162765b34ba61d13d094398271904a43/napari-toothfairy-annotator-0.0.6.tar.gz
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [productor]: Timeout reached during download
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [morphdb-utils]: Timeout reached during download
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [napari-toothfairy-annotator]: Timeout reached during download
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:21] INFO root fetch - processPackages [productor]: Downloading https://files.pythonhosted.org/packages/6d/41/aa2b61f2d6a12d5216ebea3373331c401b1a7f3f12219d86e4d45480e3d5/productor-0.1.1.tar.gz
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:21] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [productor]: Timeout reached during download
+[2024-04-08 10:19:22] INFO root fetch - processPackages [productor]: executing diffoscope
+[2024-04-08 10:19:22] INFO root fetch - processPackages [productor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/productor-0.1.0.tar.gz tmp/productor-0.1.1.tar.gz --markdown 20240408/p/productor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-08 10:19:22] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/60/32/8d521fb5a94ecc4342cb2ed8d2e5db23392cc3ee04fd0ce0ad099ba9f37c/napari-toothfairy-annotator-0.0.7.tar.gz
+[2024-04-08 10:19:22] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/34/47/9ee9af63244597d3498834d48dc10e427e47c36dc8843e22562d38fde1e4/swarmauri-0.1.9-py3-none-any.whl
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/34/47/9ee9af63244597d3498834d48dc10e427e47c36dc8843e22562d38fde1e4/swarmauri-0.1.9-py3-none-any.whl
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/34/47/9ee9af63244597d3498834d48dc10e427e47c36dc8843e22562d38fde1e4/swarmauri-0.1.9-py3-none-any.whl
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/34/47/9ee9af63244597d3498834d48dc10e427e47c36dc8843e22562d38fde1e4/swarmauri-0.1.9-py3-none-any.whl
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/34/47/9ee9af63244597d3498834d48dc10e427e47c36dc8843e22562d38fde1e4/swarmauri-0.1.9-py3-none-any.whl
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/34/47/9ee9af63244597d3498834d48dc10e427e47c36dc8843e22562d38fde1e4/swarmauri-0.1.9-py3-none-any.whl
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [wah]: Timeout reached during download
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [napari-toothfairy-annotator]: Timeout reached during download
+[2024-04-08 10:19:22] INFO root fetch - processPackages [napari-toothfairy-annotator]: executing diffoscope
+[2024-04-08 10:19:22] INFO root fetch - processPackages [napari-toothfairy-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-toothfairy-annotator-0.0.6.tar.gz tmp/napari-toothfairy-annotator-0.0.7.tar.gz --markdown 20240408/n/napari-toothfairy-annotator/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-08 10:19:22] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:22] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:22] WARNING root fetch - processPackages [wah]: Timeout reached during download
+[2024-04-08 10:19:22] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-04-08 10:19:22] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240408/w/wah/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:23] INFO root fetch - processPackages [productor]: Remove: archive file [/home/abi/fetcher/tmp/productor-0.1.0.tar.gz]
+[2024-04-08 10:19:23] INFO root fetch - processPackages [productor]: Remove: archive file [/home/abi/fetcher/tmp/productor-0.1.1.tar.gz]
+[2024-04-08 10:19:23] INFO root fetch - processPackages [productor]: Start processing: swarmauri
+[2024-04-08 10:19:23] INFO root fetch - main [MainThread]: End processing [productor]: success
+[2024-04-08 10:19:23] WARNING root fetch - processPackages [morphdb-utils]: Timeout reached during download
+[2024-04-08 10:19:23] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-04-08 10:19:23] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240408/m/morphdb-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:23] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:23] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:23] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:23] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.6.tar.gz]
+[2024-04-08 10:19:23] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.7.tar.gz]
+[2024-04-08 10:19:23] INFO root fetch - processPackages [napari-toothfairy-annotator]: Start processing: swarmauri
+[2024-04-08 10:19:23] INFO root fetch - main [MainThread]: End processing [napari-toothfairy-annotator]: success
+[2024-04-08 10:19:23] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:24] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:24] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:24] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-04-08 10:19:24] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-04-08 10:19:24] INFO root fetch - processPackages [wah]: Start processing: swarmauri
+[2024-04-08 10:19:24] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-04-08 10:19:24] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:24] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-04-08 10:19:24] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-04-08 10:19:24] INFO root fetch - processPackages [morphdb-utils]: Start processing: swarmauri
+[2024-04-08 10:19:24] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-04-08 10:19:24] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:24] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:24] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:24] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:24] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:25] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8-py3-none-any.whl.zip]
+[2024-04-08 10:19:25] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9-py3-none-any.whl.zip]
+[2024-04-08 10:19:25] INFO root fetch - processPackages [swarmauri]: Start processing: swarmauri
+[2024-04-08 10:19:25] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 10:19:25] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 10:19:25] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 10:19:26] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/2c/52/ddeb66163abefffd8dd738716ecfd4d43b1b5f85f4989f9e9e93917cd71a/swarmauri-0.1.8-py3-none-any.whl
+[2024-04-08 10:19:26] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 10:19:26] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 10:19:26] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:26] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8-py3-none-any.whl.zip]
+[2024-04-08 10:19:26] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 10:19:26] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 10:19:26] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/34/47/9ee9af63244597d3498834d48dc10e427e47c36dc8843e22562d38fde1e4/swarmauri-0.1.9-py3-none-any.whl
+[2024-04-08 10:19:26] ERROR root fetch - processPackages [swarmauri]: Diffoscope failed: time="2024-04-08T10:19:24+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
+
+[2024-04-08 10:19:26] INFO root fetch - main [MainThread]: End processing [swarmauri] error
+[2024-04-08 10:19:26] ERROR root fetch - processPackages [swarmauri]: Diffoscope failed: time="2024-04-08T10:19:25+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
+
+[2024-04-08 10:19:26] INFO root fetch - main [MainThread]: End processing [swarmauri] error
+[2024-04-08 10:19:26] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 10:19:26] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 10:19:26] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8-py3-none-any.whl.zip tmp/swarmauri-0.1.9-py3-none-any.whl.zip --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 10:19:27] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9-py3-none-any.whl.zip]
+[2024-04-08 10:19:27] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 10:19:27] ERROR root fetch - processPackages [swarmauri]: Diffoscope failed: time="2024-04-08T10:19:26+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/swarmauri-0.1.8-py3-none-any.whl.zip: No such file or directory
+
+[2024-04-08 10:19:27] INFO root fetch - main [MainThread]: End processing [swarmauri] error
+[2024-04-08 10:19:27] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 10:19:27] INFO root fetch - main [MainThread]: Store serial: [22664088]
