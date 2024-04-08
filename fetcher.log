@@ -20359,3 +20359,72 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:23:58] INFO root fetch - processPackages [hyperglot]: Remove: archive file [/home/abi/fetcher/tmp/hyperglot-0.6.3.tar.gz]
 [2024-04-08 14:23:58] INFO root fetch - main [MainThread]: End processing [hyperglot]: success
 [2024-04-08 14:23:58] INFO root fetch - main [MainThread]: Store serial: [22666814]
+[2024-04-08 14:26:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666814]
+[2024-04-08 14:26:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 14:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: STEAM-materials
+[2024-04-08 14:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskcluster
+[2024-04-08 14:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-cdktf-resolver
+[2024-04-08 14:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: db-analytics-tools
+[2024-04-08 14:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xi-mzidentml-converter
+[2024-04-08 14:26:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imagedata-format-biff
+[2024-04-08 14:26:08] INFO root fetch - processPackages [db-analytics-tools]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-04-08 14:26:08] INFO root fetch - processPackages [STEAM-materials]: New version: [2024.4.1] Old Version: [2024.2.3]
+[2024-04-08 14:26:08] INFO root fetch - processPackages [xi-mzidentml-converter]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-08 14:26:08] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 14:26:08] INFO root fetch - processPackages [taskcluster]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-08 14:26:08] INFO root fetch - processPackages [imagedata-format-biff]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-04-08 14:26:08] INFO root fetch - processPackages [db-analytics-tools]: Downloading https://files.pythonhosted.org/packages/69/02/69c6da03385784baf4c4dac46575f8c007fb3cfec8a6bea15af63da2eb1f/db_analytics_tools-0.1.4.8.tar.gz
+[2024-04-08 14:26:08] INFO root fetch - processPackages [STEAM-materials]: Downloading https://files.pythonhosted.org/packages/a6/2f/8672848fa1e26e28a8bb660af279b706eaa4a49da54a5cbdbeee52cc60c6/STEAM_materials-2024.2.3.tar.gz
+[2024-04-08 14:26:08] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/28/0a/9480b05778a6b1f45e2cf7247a442ed3c572b2532795d1844f8963cf7f68/xi-mzidentml-converter-0.1.7.tar.gz
+[2024-04-08 14:26:08] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/d0/7b/6e241c141aee876e6231c607ad885acbb3d93f3e8d6215bf20ad4718a568/cdk8s-cdktf-resolver-0.0.8.tar.gz
+[2024-04-08 14:26:08] INFO root fetch - processPackages [taskcluster]: Downloading https://files.pythonhosted.org/packages/47/75/ffba5fae55fde34812e5912ddb8c29a676c663053222da69083ad3e32af3/taskcluster-7.0.0.tar.gz
+[2024-04-08 14:26:08] WARNING root fetch - processPackages [db-analytics-tools]: Timeout reached during download
+[2024-04-08 14:26:08] INFO root fetch - processPackages [imagedata-format-biff]: Downloading https://files.pythonhosted.org/packages/68/fb/e2377ba3641591bf531d6ba3b02acf524ce1150e6e25f0f78f185d8ab679/imagedata_format_biff-0.0.6.tar.gz
+[2024-04-08 14:26:08] WARNING root fetch - processPackages [cdk8s-cdktf-resolver]: Timeout reached during download
+[2024-04-08 14:26:08] WARNING root fetch - processPackages [taskcluster]: Timeout reached during download
+[2024-04-08 14:26:08] WARNING root fetch - processPackages [imagedata-format-biff]: Timeout reached during download
+[2024-04-08 14:26:08] INFO root fetch - processPackages [db-analytics-tools]: Downloading https://files.pythonhosted.org/packages/6d/dc/c29989172cd8a4b8957d11a9a47e535ccc0c7a477a28748eb06cfae4b91b/db_analytics_tools-0.1.4.9.tar.gz
+[2024-04-08 14:26:08] WARNING root fetch - processPackages [db-analytics-tools]: Timeout reached during download
+[2024-04-08 14:26:08] INFO root fetch - processPackages [db-analytics-tools]: executing diffoscope
+[2024-04-08 14:26:08] INFO root fetch - processPackages [db-analytics-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db_analytics_tools-0.1.4.8.tar.gz tmp/db_analytics_tools-0.1.4.9.tar.gz --markdown 20240408/d/db-analytics-tools/0.1.4.8-0.1.4.9/diff.md --exclude *.pyd
+[2024-04-08 14:26:08] WARNING root fetch - processPackages [xi-mzidentml-converter]: Timeout reached during download
+[2024-04-08 14:26:08] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/17/4d/78b8350a2cb674183d85f673cae768cba8891cc6c1031b4c61aa54af2f42/cdk8s-cdktf-resolver-0.0.9.tar.gz
+[2024-04-08 14:26:08] INFO root fetch - processPackages [taskcluster]: Downloading https://files.pythonhosted.org/packages/c6/a9/2a20af412902aed28c5add3b8592c17665d4649886c0edcf7abca4dcc44c/taskcluster-7.0.1.tar.gz
+[2024-04-08 14:26:08] INFO root fetch - processPackages [imagedata-format-biff]: Downloading https://files.pythonhosted.org/packages/6b/48/590c17971b99e857f9de37a692e86f0fc1fafe4f43ed5b48684d2d56d9a8/imagedata_format_biff-0.0.8.tar.gz
+[2024-04-08 14:26:09] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/e0/43/70d669ba87d1a4353f3f88e7c0ca551d5b27b3085e7c3b20adde029eceef/xi-mzidentml-converter-0.1.9.tar.gz
+[2024-04-08 14:26:09] WARNING root fetch - processPackages [cdk8s-cdktf-resolver]: Timeout reached during download
+[2024-04-08 14:26:09] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: executing diffoscope
+[2024-04-08 14:26:09] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz --markdown 20240408/c/cdk8s-cdktf-resolver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 14:26:09] WARNING root fetch - processPackages [taskcluster]: Timeout reached during download
+[2024-04-08 14:26:09] INFO root fetch - processPackages [taskcluster]: executing diffoscope
+[2024-04-08 14:26:09] INFO root fetch - processPackages [taskcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskcluster-7.0.0.tar.gz tmp/taskcluster-7.0.1.tar.gz --markdown 20240408/t/taskcluster/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2024-04-08 14:26:09] WARNING root fetch - processPackages [imagedata-format-biff]: Timeout reached during download
+[2024-04-08 14:26:09] INFO root fetch - processPackages [imagedata-format-biff]: executing diffoscope
+[2024-04-08 14:26:09] INFO root fetch - processPackages [imagedata-format-biff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagedata_format_biff-0.0.6.tar.gz tmp/imagedata_format_biff-0.0.8.tar.gz --markdown 20240408/i/imagedata-format-biff/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2024-04-08 14:26:09] INFO root fetch - processPackages [db-analytics-tools]: Remove: archive file [/home/abi/fetcher/tmp/db_analytics_tools-0.1.4.8.tar.gz]
+[2024-04-08 14:26:09] INFO root fetch - processPackages [db-analytics-tools]: Remove: archive file [/home/abi/fetcher/tmp/db_analytics_tools-0.1.4.9.tar.gz]
+[2024-04-08 14:26:09] INFO root fetch - main [MainThread]: End processing [db-analytics-tools]: success
+[2024-04-08 14:26:09] WARNING root fetch - processPackages [STEAM-materials]: Timeout reached during download
+[2024-04-08 14:26:09] WARNING root fetch - processPackages [xi-mzidentml-converter]: Timeout reached during download
+[2024-04-08 14:26:09] INFO root fetch - processPackages [xi-mzidentml-converter]: executing diffoscope
+[2024-04-08 14:26:09] INFO root fetch - processPackages [xi-mzidentml-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xi-mzidentml-converter-0.1.7.tar.gz tmp/xi-mzidentml-converter-0.1.9.tar.gz --markdown 20240408/x/xi-mzidentml-converter/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 14:26:09] INFO root fetch - processPackages [STEAM-materials]: Downloading https://files.pythonhosted.org/packages/a2/69/43bfa51243d3eee7c52a42649bdf10c9f424a13f4af02fb7ce41a931d72e/STEAM_materials-2024.4.1.tar.gz
+[2024-04-08 14:26:09] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz]
+[2024-04-08 14:26:09] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz]
+[2024-04-08 14:26:09] INFO root fetch - main [MainThread]: End processing [cdk8s-cdktf-resolver]: success
+[2024-04-08 14:26:10] INFO root fetch - processPackages [taskcluster]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-7.0.0.tar.gz]
+[2024-04-08 14:26:10] INFO root fetch - processPackages [taskcluster]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-7.0.1.tar.gz]
+[2024-04-08 14:26:10] INFO root fetch - main [MainThread]: End processing [taskcluster]: success
+[2024-04-08 14:26:10] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.7.tar.gz]
+[2024-04-08 14:26:10] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.9.tar.gz]
+[2024-04-08 14:26:10] INFO root fetch - main [MainThread]: End processing [xi-mzidentml-converter]: success
+[2024-04-08 14:26:10] INFO root fetch - processPackages [imagedata-format-biff]: Remove: archive file [/home/abi/fetcher/tmp/imagedata_format_biff-0.0.6.tar.gz]
+[2024-04-08 14:26:10] INFO root fetch - processPackages [imagedata-format-biff]: Remove: archive file [/home/abi/fetcher/tmp/imagedata_format_biff-0.0.8.tar.gz]
+[2024-04-08 14:26:10] INFO root fetch - main [MainThread]: End processing [imagedata-format-biff]: success
+[2024-04-08 14:26:11] WARNING root fetch - processPackages [STEAM-materials]: Timeout reached during download
+[2024-04-08 14:26:11] INFO root fetch - processPackages [STEAM-materials]: executing diffoscope
+[2024-04-08 14:26:11] INFO root fetch - processPackages [STEAM-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STEAM_materials-2024.2.3.tar.gz tmp/STEAM_materials-2024.4.1.tar.gz --markdown 20240408/S/STEAM-materials/2024.2.3-2024.4.1/diff.md --exclude *.pyd
+[2024-04-08 14:27:10] INFO root fetch - processPackages [STEAM-materials]: Remove: archive file [/home/abi/fetcher/tmp/STEAM_materials-2024.2.3.tar.gz]
+[2024-04-08 14:27:10] INFO root fetch - processPackages [STEAM-materials]: Remove: archive file [/home/abi/fetcher/tmp/STEAM_materials-2024.4.1.tar.gz]
+[2024-04-08 14:27:10] INFO root fetch - main [MainThread]: End processing [STEAM-materials]: success
+[2024-04-08 14:27:10] INFO root fetch - main [MainThread]: Store serial: [22666834]
