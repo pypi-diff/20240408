@@ -19165,3 +19165,72 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:37:43] INFO root fetch - processPackages [blackjax-nightly]: Remove: archive file [/home/abi/fetcher/tmp/blackjax-nightly-1.1.1.post7.tar.gz]
 [2024-04-08 13:37:43] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
 [2024-04-08 13:37:43] INFO root fetch - main [MainThread]: Store serial: [22666362]
+[2024-04-08 13:39:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666362]
+[2024-04-08 13:39:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 13:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mat3ra-made
+[2024-04-08 13:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verifit
+[2024-04-08 13:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hahomematic
+[2024-04-08 13:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prosperity2submit
+[2024-04-08 13:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databarge
+[2024-04-08 13:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-odisi
+[2024-04-08 13:39:53] INFO root fetch - processPackages [prosperity2submit]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-08 13:39:53] INFO root fetch - processPackages [verifit]: New version: [4.3.0] Old Version: [4.2.2]
+[2024-04-08 13:39:54] INFO root fetch - processPackages [mat3ra-made]: New version: [2024.4.8.post0] Old Version: [2024.3.30.post0]
+[2024-04-08 13:39:54] INFO root fetch - processPackages [python-odisi]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-08 13:39:54] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/95/60/9921b4f3c44a3c819f6a516b9093fcdb989326f232b2d8b2c312cf0b6bd0/verifit-4.2.2.tar.gz
+[2024-04-08 13:39:54] INFO root fetch - processPackages [databarge]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-08 13:39:54] INFO root fetch - processPackages [hahomematic]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-08 13:39:54] INFO root fetch - processPackages [prosperity2submit]: Downloading https://files.pythonhosted.org/packages/2f/03/88dac950868a8e8b967c96a56b3a89f6d627f806ef5397051a784d9a09be/prosperity2submit-0.2.0.tar.gz
+[2024-04-08 13:39:54] INFO root fetch - processPackages [mat3ra-made]: Downloading https://files.pythonhosted.org/packages/3c/b8/95198afe218bf2ec77e4cb93b142c7a1308289a242edd903cc7a50648a25/mat3ra-made-2024.3.30.post0.tar.gz
+[2024-04-08 13:39:54] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/5b/cc/7df8e507b13a78243e761c64fe38b6f85aa4fbd0730c2ff795054b209f3d/hahomematic-2024.4.1.tar.gz
+[2024-04-08 13:39:54] INFO root fetch - processPackages [python-odisi]: Downloading https://files.pythonhosted.org/packages/65/5a/f78dcd2201693cce297ac59d52471221e9fed1f1d065525889daa4558847/python_odisi-0.3.0.tar.gz
+[2024-04-08 13:39:54] INFO root fetch - processPackages [verifit]: Downloading https://files.pythonhosted.org/packages/f5/63/92ff69f79716f890580e3ab2b8e74827e8c343c2f36e2f2b9c71c6f0dbf9/verifit-4.3.0.tar.gz
+[2024-04-08 13:39:54] INFO root fetch - processPackages [databarge]: Downloading https://files.pythonhosted.org/packages/3d/2a/bd771e9fe25055b016718825cf79fdaa01a1fe0d520e1b71d282ce932af4/databarge-2.0.2.tar.gz
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [prosperity2submit]: Timeout reached during download
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [hahomematic]: Timeout reached during download
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [verifit]: Timeout reached during download
+[2024-04-08 13:39:54] INFO root fetch - processPackages [verifit]: executing diffoscope
+[2024-04-08 13:39:54] INFO root fetch - processPackages [verifit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verifit-4.2.2.tar.gz tmp/verifit-4.3.0.tar.gz --markdown 20240408/v/verifit/4.2.2-4.3.0/diff.md --exclude *.pyd
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [mat3ra-made]: Timeout reached during download
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [python-odisi]: Timeout reached during download
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [databarge]: Timeout reached during download
+[2024-04-08 13:39:54] INFO root fetch - processPackages [prosperity2submit]: Downloading https://files.pythonhosted.org/packages/58/e8/67e6e94aaca24e2b103628983454444f33efa16080fa1854276533b6474b/prosperity2submit-0.2.1.tar.gz
+[2024-04-08 13:39:54] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/47/d6/56c780b1a3f3072598abebf2cb653aaccc463044f581af5cd8f641929558/hahomematic-2024.4.2.tar.gz
+[2024-04-08 13:39:54] INFO root fetch - processPackages [mat3ra-made]: Downloading https://files.pythonhosted.org/packages/c4/2a/e2c0e45791cbb594aa63fb573de31b6922ba66ee7fac2ddb99f5a9546cf1/mat3ra-made-2024.4.8.post0.tar.gz
+[2024-04-08 13:39:54] INFO root fetch - processPackages [python-odisi]: Downloading https://files.pythonhosted.org/packages/7f/87/ba2edfa736b52ff4573685e414ea2106db91993a2e1bcffef125afe6a68c/python_odisi-0.4.0.tar.gz
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [prosperity2submit]: Timeout reached during download
+[2024-04-08 13:39:54] INFO root fetch - processPackages [prosperity2submit]: executing diffoscope
+[2024-04-08 13:39:54] INFO root fetch - processPackages [prosperity2submit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2submit-0.2.0.tar.gz tmp/prosperity2submit-0.2.1.tar.gz --markdown 20240408/p/prosperity2submit/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-08 13:39:54] INFO root fetch - processPackages [databarge]: Downloading https://files.pythonhosted.org/packages/9f/74/c778b141d8ba51d238513150e2606fe03c798f281ffbfd0c918b8d9edeac/databarge-2.0.3.tar.gz
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [hahomematic]: Timeout reached during download
+[2024-04-08 13:39:54] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-04-08 13:39:54] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.4.1.tar.gz tmp/hahomematic-2024.4.2.tar.gz --markdown 20240408/h/hahomematic/2024.4.1-2024.4.2/diff.md --exclude *.pyd
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [mat3ra-made]: Timeout reached during download
+[2024-04-08 13:39:54] INFO root fetch - processPackages [mat3ra-made]: executing diffoscope
+[2024-04-08 13:39:54] INFO root fetch - processPackages [mat3ra-made]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-made-2024.3.30.post0.tar.gz tmp/mat3ra-made-2024.4.8.post0.tar.gz --markdown 20240408/m/mat3ra-made/2024.3.30.post0-2024.4.8.post0/diff.md --exclude *.pyd
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [python-odisi]: Timeout reached during download
+[2024-04-08 13:39:54] INFO root fetch - processPackages [python-odisi]: executing diffoscope
+[2024-04-08 13:39:54] INFO root fetch - processPackages [python-odisi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_odisi-0.3.0.tar.gz tmp/python_odisi-0.4.0.tar.gz --markdown 20240408/p/python-odisi/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-08 13:39:54] WARNING root fetch - processPackages [databarge]: Timeout reached during download
+[2024-04-08 13:39:54] INFO root fetch - processPackages [databarge]: executing diffoscope
+[2024-04-08 13:39:54] INFO root fetch - processPackages [databarge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databarge-2.0.2.tar.gz tmp/databarge-2.0.3.tar.gz --markdown 20240408/d/databarge/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-08 13:39:55] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-4.2.2.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - processPackages [verifit]: Remove: archive file [/home/abi/fetcher/tmp/verifit-4.3.0.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - main [MainThread]: End processing [verifit]: success
+[2024-04-08 13:39:55] INFO root fetch - processPackages [prosperity2submit]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2submit-0.2.0.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - processPackages [prosperity2submit]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2submit-0.2.1.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - main [MainThread]: End processing [prosperity2submit]: success
+[2024-04-08 13:39:55] INFO root fetch - processPackages [databarge]: Remove: archive file [/home/abi/fetcher/tmp/databarge-2.0.2.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - processPackages [databarge]: Remove: archive file [/home/abi/fetcher/tmp/databarge-2.0.3.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - main [MainThread]: End processing [databarge]: success
+[2024-04-08 13:39:55] INFO root fetch - processPackages [python-odisi]: Remove: archive file [/home/abi/fetcher/tmp/python_odisi-0.3.0.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - processPackages [python-odisi]: Remove: archive file [/home/abi/fetcher/tmp/python_odisi-0.4.0.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - main [MainThread]: End processing [python-odisi]: success
+[2024-04-08 13:39:55] INFO root fetch - processPackages [mat3ra-made]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-made-2024.3.30.post0.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - processPackages [mat3ra-made]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-made-2024.4.8.post0.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - main [MainThread]: End processing [mat3ra-made]: success
+[2024-04-08 13:39:55] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.1.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.2.tar.gz]
+[2024-04-08 13:39:55] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-04-08 13:39:55] INFO root fetch - main [MainThread]: Store serial: [22666382]
