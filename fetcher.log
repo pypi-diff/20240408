@@ -22802,3 +22802,83 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:30:14] INFO root fetch - processPackages [robocorp-log]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_log-2.9.2.tar.gz]
 [2024-04-08 15:30:14] INFO root fetch - main [MainThread]: End processing [robocorp-log]: success
 [2024-04-08 15:30:14] INFO root fetch - main [MainThread]: Store serial: [22667658]
+[2024-04-08 15:32:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667658]
+[2024-04-08 15:32:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 15:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twikit
+[2024-04-08 15:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssb-datadoc
+[2024-04-08 15:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-espresso
+[2024-04-08 15:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SightTraining
+[2024-04-08 15:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robocorp-windows
+[2024-04-08 15:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: byzerllm
+[2024-04-08 15:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-admin-assets
+[2024-04-08 15:32:24] INFO root fetch - processPackages [python-espresso]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-08 15:32:24] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1473] Old Version: [1.0.0.post1472]
+[2024-04-08 15:32:24] INFO root fetch - processPackages [SightTraining]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-04-08 15:32:24] INFO root fetch - processPackages [python-espresso]: Downloading https://files.pythonhosted.org/packages/7c/bb/5ad43da7f4b7048d15e2b769cf6ac2fae7290fc5364563d2ec541e2f2c90/python-espresso-1.8.1.tar.gz
+[2024-04-08 15:32:24] INFO root fetch - processPackages [robocorp-windows]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-08 15:32:24] INFO root fetch - processPackages [twikit]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-08 15:32:24] INFO root fetch - processPackages [ssb-datadoc]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-08 15:32:24] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/3d/95/4a74ea941dc18c69a159d24fb6e3677768706d7547aab8a0c993e2906daa/SightTraining-0.1.21.tar.gz
+[2024-04-08 15:32:24] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 15:32:24] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/69/5f/0d2f615c690ca0e944d2e0335928dff4dd31de21a7e2ee84a32be6538c01/nucliadb_admin_assets-1.0.0.post1472-py3-none-any.whl
+[2024-04-08 15:32:24] WARNING root fetch - processPackages [python-espresso]: Timeout reached during download
+[2024-04-08 15:32:24] INFO root fetch - processPackages [ssb-datadoc]: Downloading https://files.pythonhosted.org/packages/93/eb/72972eac48f29ff328b338ca2eac5e8dad0e83c487846489dea49edd54fa/ssb_datadoc-0.8.3.tar.gz
+[2024-04-08 15:32:24] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-08 15:32:24] INFO root fetch - processPackages [robocorp-windows]: Downloading https://files.pythonhosted.org/packages/f0/28/b701e33b3708dfffe3da27b5d9cd5f043f3f2ac091ff4bdd95038de612c9/robocorp_windows-1.0.2.tar.gz
+[2024-04-08 15:32:24] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/17/e4/575dd03d92750c244f5802c8dad9c07dc63adaa2b2656d8bc175571510ac/twikit-1.4.4.tar.gz
+[2024-04-08 15:32:24] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-08 15:32:24] INFO root fetch - processPackages [python-espresso]: Downloading https://files.pythonhosted.org/packages/dd/ce/5df022653c508c2e460348037958294e2450cc41fc06066472589ac0db42/python-espresso-1.8.2.tar.gz
+[2024-04-08 15:32:24] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-08 15:32:24] WARNING root fetch - processPackages [robocorp-windows]: Timeout reached during download
+[2024-04-08 15:32:24] WARNING root fetch - processPackages [twikit]: Timeout reached during download
+[2024-04-08 15:32:24] WARNING root fetch - processPackages [python-espresso]: Timeout reached during download
+[2024-04-08 15:32:24] INFO root fetch - processPackages [python-espresso]: executing diffoscope
+[2024-04-08 15:32:24] INFO root fetch - processPackages [python-espresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-espresso-1.8.1.tar.gz tmp/python-espresso-1.8.2.tar.gz --markdown 20240408/p/python-espresso/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2024-04-08 15:32:24] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/ea/aa/1fcfc9bcca19c4622eb314b362f6829e37fa1edb0157eefaf67807773668/nucliadb_admin_assets-1.0.0.post1473-py3-none-any.whl
+[2024-04-08 15:32:24] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/d2/3a/d9abb88d205a8c33c055ab5fc7a465a7470faf2c23d9d0a74194f9dda5ff/SightTraining-0.1.22.tar.gz
+[2024-04-08 15:32:24] WARNING root fetch - processPackages [ssb-datadoc]: Timeout reached during download
+[2024-04-08 15:32:24] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/94/0d/7a8f53a51e2f16e7af1f5b2260ee8c9aa434e822675565cfba0b4c1bb83e/twikit-1.4.5.tar.gz
+[2024-04-08 15:32:24] INFO root fetch - processPackages [robocorp-windows]: Downloading https://files.pythonhosted.org/packages/36/6b/44d12298f045c9e36a33aed32b0f53c62a63c8c26fc5c7c088a4a502a12f/robocorp_windows-1.0.3.tar.gz
+[2024-04-08 15:32:24] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-08 15:32:24] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-08 15:32:24] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1472-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1473-py3-none-any.whl.zip --markdown 20240408/n/nucliadb-admin-assets/1.0.0.post1472-1.0.0.post1473/diff.md --exclude *.pyd
+[2024-04-08 15:32:25] WARNING root fetch - processPackages [twikit]: Timeout reached during download
+[2024-04-08 15:32:25] INFO root fetch - processPackages [ssb-datadoc]: Downloading https://files.pythonhosted.org/packages/2c/f2/3b818466cf20d322ce14c520f660d1fe8ff56b732b6fcf6255936523fe1d/ssb_datadoc-0.9.0.tar.gz
+[2024-04-08 15:32:25] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-04-08 15:32:25] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.4.4.tar.gz tmp/twikit-1.4.5.tar.gz --markdown 20240408/t/twikit/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2024-04-08 15:32:25] WARNING root fetch - processPackages [robocorp-windows]: Timeout reached during download
+[2024-04-08 15:32:25] INFO root fetch - processPackages [robocorp-windows]: executing diffoscope
+[2024-04-08 15:32:25] INFO root fetch - processPackages [robocorp-windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_windows-1.0.2.tar.gz tmp/robocorp_windows-1.0.3.tar.gz --markdown 20240408/r/robocorp-windows/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-08 15:32:25] WARNING root fetch - processPackages [byzerllm]: Timeout reached during download
+[2024-04-08 15:32:25] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-08 15:32:25] INFO root fetch - processPackages [SightTraining]: executing diffoscope
+[2024-04-08 15:32:25] INFO root fetch - processPackages [SightTraining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SightTraining-0.1.21.tar.gz tmp/SightTraining-0.1.22.tar.gz --markdown 20240408/S/SightTraining/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2024-04-08 15:32:25] WARNING root fetch - processPackages [ssb-datadoc]: Timeout reached during download
+[2024-04-08 15:32:25] INFO root fetch - processPackages [ssb-datadoc]: executing diffoscope
+[2024-04-08 15:32:25] INFO root fetch - processPackages [ssb-datadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_datadoc-0.8.3.tar.gz tmp/ssb_datadoc-0.9.0.tar.gz --markdown 20240408/s/ssb-datadoc/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 15:32:25] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-08 15:32:25] INFO root fetch - processPackages [python-espresso]: Remove: archive file [/home/abi/fetcher/tmp/python-espresso-1.8.1.tar.gz]
+[2024-04-08 15:32:25] INFO root fetch - processPackages [python-espresso]: Remove: archive file [/home/abi/fetcher/tmp/python-espresso-1.8.2.tar.gz]
+[2024-04-08 15:32:25] INFO root fetch - main [MainThread]: End processing [python-espresso]: success
+[2024-04-08 15:32:25] WARNING root fetch - processPackages [byzerllm]: Timeout reached during download
+[2024-04-08 15:32:25] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-08 15:32:25] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240408/b/byzerllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 15:32:25] INFO root fetch - processPackages [robocorp-windows]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_windows-1.0.2.tar.gz]
+[2024-04-08 15:32:25] INFO root fetch - processPackages [robocorp-windows]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_windows-1.0.3.tar.gz]
+[2024-04-08 15:32:25] INFO root fetch - main [MainThread]: End processing [robocorp-windows]: success
+[2024-04-08 15:32:25] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.4.4.tar.gz]
+[2024-04-08 15:32:25] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.4.5.tar.gz]
+[2024-04-08 15:32:25] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-04-08 15:32:26] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.21.tar.gz]
+[2024-04-08 15:32:26] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.22.tar.gz]
+[2024-04-08 15:32:26] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
+[2024-04-08 15:32:26] INFO root fetch - processPackages [ssb-datadoc]: Remove: archive file [/home/abi/fetcher/tmp/ssb_datadoc-0.8.3.tar.gz]
+[2024-04-08 15:32:26] INFO root fetch - processPackages [ssb-datadoc]: Remove: archive file [/home/abi/fetcher/tmp/ssb_datadoc-0.9.0.tar.gz]
+[2024-04-08 15:32:26] INFO root fetch - main [MainThread]: End processing [ssb-datadoc]: success
+[2024-04-08 15:32:27] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-08 15:32:27] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-08 15:32:27] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-08 15:32:39] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1472-py3-none-any.whl.zip]
+[2024-04-08 15:32:39] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1473-py3-none-any.whl.zip]
+[2024-04-08 15:32:39] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-08 15:32:39] INFO root fetch - main [MainThread]: Store serial: [22667684]
