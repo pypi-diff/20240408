@@ -1657,3 +1657,42 @@
 [2024-04-08 02:10:28] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404070011.tar.gz]
 [2024-04-08 02:10:28] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-08 02:10:28] INFO root fetch - main [MainThread]: Store serial: [22660242]
+[2024-04-08 02:12:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660242]
+[2024-04-08 02:12:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advcalc
+[2024-04-08 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-quantizers-nightly
+[2024-04-08 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voyageai
+[2024-04-08 02:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bsdd
+[2024-04-08 02:12:37] INFO root fetch - processPackages [advcalc]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-08 02:12:37] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/99/5d/cf250caab7b65cad987ec9ca67e7b7ef00f4c5cf549f77e1f7cedc24b6b6/advcalc-0.1.4.tar.gz
+[2024-04-08 02:12:37] WARNING root fetch - processPackages [bsdd]: Skipping, unable to determine old version
+[2024-04-08 02:12:37] INFO root fetch - main [MainThread]: End processing [bsdd] error
+[2024-04-08 02:12:37] INFO root fetch - processPackages [voyageai]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-08 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.4.0.20240408.post1047] Old Version: [1.4.0.20240407.post1216]
+[2024-04-08 02:12:37] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-08 02:12:37] INFO root fetch - processPackages [voyageai]: Downloading https://files.pythonhosted.org/packages/c2/91/5472e8a7174b7d1551439890d36987fda18bf3a97009f0d8257020b8f2ba/voyageai-0.2.1.tar.gz
+[2024-04-08 02:12:37] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/7c/96/0fc9864472f6b44af9bf38e6ae04e98cf1a58fa7a7c77e06444c2c720bce/mct-quantizers-nightly-1.4.0.20240407.post1216.tar.gz
+[2024-04-08 02:12:37] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/cc/b5/bfecb7b8f25b4ada48a9efad6764ff69186e5cbf68de3660a0d844067ecb/advcalc-0.1.5.tar.gz
+[2024-04-08 02:12:37] WARNING root fetch - processPackages [voyageai]: Timeout reached during download
+[2024-04-08 02:12:38] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-08 02:12:38] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-08 02:12:38] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.1.4.tar.gz tmp/advcalc-0.1.5.tar.gz --markdown 20240408/a/advcalc/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-08 02:12:38] WARNING root fetch - processPackages [mct-quantizers-nightly]: Timeout reached during download
+[2024-04-08 02:12:38] INFO root fetch - processPackages [voyageai]: Downloading https://files.pythonhosted.org/packages/e1/11/ebb6db39db4f8b3a874451cd65c39c55159db25e73e57dc6203f9447dc43/voyageai-0.2.2.tar.gz
+[2024-04-08 02:12:38] WARNING root fetch - processPackages [voyageai]: Timeout reached during download
+[2024-04-08 02:12:38] INFO root fetch - processPackages [voyageai]: executing diffoscope
+[2024-04-08 02:12:38] INFO root fetch - processPackages [voyageai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voyageai-0.2.1.tar.gz tmp/voyageai-0.2.2.tar.gz --markdown 20240408/v/voyageai/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-08 02:12:38] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/f3/d7/89a856fa1a64601d0cc3b701234fbfc65b0fdffd5665ade88e91759caa62/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz
+[2024-04-08 02:12:38] WARNING root fetch - processPackages [mct-quantizers-nightly]: Timeout reached during download
+[2024-04-08 02:12:38] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-08 02:12:38] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.4.0.20240407.post1216.tar.gz tmp/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz --markdown 20240408/m/mct-quantizers-nightly/1.4.0.20240407.post1216-1.4.0.20240408.post1047/diff.md --exclude *.pyd
+[2024-04-08 02:12:38] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.4.tar.gz]
+[2024-04-08 02:12:38] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.5.tar.gz]
+[2024-04-08 02:12:38] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-08 02:12:38] INFO root fetch - processPackages [voyageai]: Remove: archive file [/home/abi/fetcher/tmp/voyageai-0.2.1.tar.gz]
+[2024-04-08 02:12:38] INFO root fetch - processPackages [voyageai]: Remove: archive file [/home/abi/fetcher/tmp/voyageai-0.2.2.tar.gz]
+[2024-04-08 02:12:38] INFO root fetch - main [MainThread]: End processing [voyageai]: success
+[2024-04-08 02:12:39] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240407.post1216.tar.gz]
+[2024-04-08 02:12:39] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240408.post1047.tar.gz]
+[2024-04-08 02:12:39] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-08 02:12:39] INFO root fetch - main [MainThread]: Store serial: [22660256]
