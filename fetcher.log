@@ -22600,3 +22600,97 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 15:25:45] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.1.tar.gz]
 [2024-04-08 15:25:45] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
 [2024-04-08 15:25:45] INFO root fetch - main [MainThread]: Store serial: [22667585]
+[2024-04-08 15:27:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667585]
+[2024-04-08 15:27:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omaslib
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: illuminat
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synch2jira
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decentriq-platform
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iris-pex-embedded-python
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandare
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netpywork
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napari-threedee
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simplemeasuretime
+[2024-04-08 15:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ctao-dpps-cosmic-ray-spectra
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [netpywork]: Skipping, unable to determine old version
+[2024-04-08 15:27:54] INFO root fetch - processPackages [netpywork]: Start processing: dash-express-components
+[2024-04-08 15:27:54] INFO root fetch - main [MainThread]: End processing [netpywork] error
+[2024-04-08 15:27:54] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-08 15:27:54] INFO root fetch - processPackages [illuminat]: New version: [1.1.1] Old Version: [1.1]
+[2024-04-08 15:27:54] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-04-08 15:27:54] INFO root fetch - processPackages [pandare]: New version: [1.8.22.dev12] Old Version: [1.8.21.dev1]
+[2024-04-08 15:27:54] INFO root fetch - processPackages [napari-threedee]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [simplemeasuretime]: Skipping, unable to determine old version
+[2024-04-08 15:27:54] INFO root fetch - main [MainThread]: End processing [simplemeasuretime] error
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [ctao-dpps-cosmic-ray-spectra]: Skipping, unable to determine old version
+[2024-04-08 15:27:54] INFO root fetch - main [MainThread]: End processing [ctao-dpps-cosmic-ray-spectra] error
+[2024-04-08 15:27:54] INFO root fetch - processPackages [omaslib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 15:27:54] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-08 15:27:54] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-08 15:27:54] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-04-08 15:27:54] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.91] Old Version: [0.0.90]
+[2024-04-08 15:27:54] INFO root fetch - processPackages [pandare]: Downloading https://files.pythonhosted.org/packages/bf/f9/f179b35c38637101bf0487868d7b40b5f3c26a6a765457f6945ec39a15fe/pandare-1.8.21.dev1-py3-none-any.whl
+[2024-04-08 15:27:54] INFO root fetch - processPackages [illuminat]: Downloading https://files.pythonhosted.org/packages/8b/10/19d419b1d7c5efaa05a50d7372c2cd2de08ade21ba8cd15a7a157aaef49b/illuminat-1.1-py3-none-any.whl
+[2024-04-08 15:27:54] INFO root fetch - processPackages [omaslib]: Downloading https://files.pythonhosted.org/packages/05/06/738db6fadc8e88517e586a3896c341104d5ce27f780914d11579da69b7a7/omaslib-0.1.8.tar.gz
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [synch2jira]: Timeout reached during download
+[2024-04-08 15:27:54] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/3b/70/4e892251e0c8510fee507d7cbc0832629ed70e29e75ca555e1f782195d87/napari-threedee-0.0.8.tar.gz
+[2024-04-08 15:27:54] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/0a/1e/871a26044c71126b987a44b3ec89c4b39caccaf6ac0bb646f27aba683927/iris_pex_embedded_python-2.3.8.tar.gz
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [decentriq-platform]: Timeout reached during download
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [illuminat]: Skipping package: exceeds size limit 46796679>=10485760
+[2024-04-08 15:27:54] INFO root fetch - main [MainThread]: End processing [illuminat] error
+[2024-04-08 15:27:54] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/3e/6c/efbec6a506c26de6f8e3a2019d01f101385a7e4f48a95ea76084ded8edac/dash_express_components-0.0.90.tar.gz
+[2024-04-08 15:27:54] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-08 15:27:54] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [omaslib]: Timeout reached during download
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [napari-threedee]: Timeout reached during download
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [iris-pex-embedded-python]: Timeout reached during download
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [pandare]: Timeout reached during download
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [synch2jira]: Timeout reached during download
+[2024-04-08 15:27:54] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-08 15:27:54] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240408/s/synch2jira/0.0.90-0.0.92/diff.md --exclude *.pyd
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [decentriq-platform]: Timeout reached during download
+[2024-04-08 15:27:54] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-04-08 15:27:54] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240408/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 15:27:54] WARNING root fetch - processPackages [dash-express-components]: Timeout reached during download
+[2024-04-08 15:27:54] INFO root fetch - processPackages [omaslib]: Downloading https://files.pythonhosted.org/packages/65/06/18313d4c7928d792ab1ad8bcfcc450ca0319a9fd0308af6704047ec9ff82/omaslib-0.1.9.tar.gz
+[2024-04-08 15:27:55] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/81/1f/82e3d9c32140273bc57be3c479e8e5ee885204a3dca7be7d2476b777ac72/napari-threedee-0.0.9.tar.gz
+[2024-04-08 15:27:55] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/1f/d9/ca808faae976325522f21347afcfc5843a9cac222c09edb7a58702c2c50b/iris_pex_embedded_python-2.3.9.tar.gz
+[2024-04-08 15:27:55] INFO root fetch - processPackages [pandare]: Downloading https://files.pythonhosted.org/packages/08/51/56ec4a71744e1a2bbd75269e62c81c679aad75bc4c405768cb8150275b32/pandare-1.8.22.dev12-py3-none-any.whl
+[2024-04-08 15:27:55] WARNING root fetch - processPackages [omaslib]: Timeout reached during download
+[2024-04-08 15:27:55] INFO root fetch - processPackages [omaslib]: executing diffoscope
+[2024-04-08 15:27:55] INFO root fetch - processPackages [omaslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omaslib-0.1.8.tar.gz tmp/omaslib-0.1.9.tar.gz --markdown 20240408/o/omaslib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 15:27:55] WARNING root fetch - processPackages [napari-threedee]: Timeout reached during download
+[2024-04-08 15:27:55] INFO root fetch - processPackages [napari-threedee]: executing diffoscope
+[2024-04-08 15:27:55] INFO root fetch - processPackages [napari-threedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-threedee-0.0.8.tar.gz tmp/napari-threedee-0.0.9.tar.gz --markdown 20240408/n/napari-threedee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 15:27:55] WARNING root fetch - processPackages [iris-pex-embedded-python]: Timeout reached during download
+[2024-04-08 15:27:55] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2024-04-08 15:27:55] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/c8/76/729300818fde08d0ec74ad944834453cfead5f9a597862cce365e5ea26b2/dash_express_components-0.0.91.tar.gz
+[2024-04-08 15:27:55] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.3.8.tar.gz tmp/iris_pex_embedded_python-2.3.9.tar.gz --markdown 20240408/i/iris-pex-embedded-python/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2024-04-08 15:27:55] WARNING root fetch - processPackages [pandare]: Timeout reached during download
+[2024-04-08 15:27:55] INFO root fetch - processPackages [pandare]: executing diffoscope
+[2024-04-08 15:27:55] INFO root fetch - processPackages [pandare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandare-1.8.21.dev1-py3-none-any.whl.zip tmp/pandare-1.8.22.dev12-py3-none-any.whl.zip --markdown 20240408/p/pandare/1.8.21.dev1-1.8.22.dev12/diff.md --exclude *.pyd
+[2024-04-08 15:27:55] WARNING root fetch - processPackages [dash-express-components]: Timeout reached during download
+[2024-04-08 15:27:55] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2024-04-08 15:27:55] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.90.tar.gz tmp/dash_express_components-0.0.91.tar.gz --markdown 20240408/d/dash-express-components/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2024-04-08 15:27:55] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-08 15:27:55] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-08 15:27:55] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-08 15:27:55] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-04-08 15:27:55] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-04-08 15:27:55] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-04-08 15:27:56] INFO root fetch - processPackages [napari-threedee]: Remove: archive file [/home/abi/fetcher/tmp/napari-threedee-0.0.8.tar.gz]
+[2024-04-08 15:27:56] INFO root fetch - processPackages [napari-threedee]: Remove: archive file [/home/abi/fetcher/tmp/napari-threedee-0.0.9.tar.gz]
+[2024-04-08 15:27:56] INFO root fetch - main [MainThread]: End processing [napari-threedee]: success
+[2024-04-08 15:27:56] INFO root fetch - processPackages [iris-pex-embedded-python]: Remove: archive file [/home/abi/fetcher/tmp/iris_pex_embedded_python-2.3.8.tar.gz]
+[2024-04-08 15:27:56] INFO root fetch - processPackages [iris-pex-embedded-python]: Remove: archive file [/home/abi/fetcher/tmp/iris_pex_embedded_python-2.3.9.tar.gz]
+[2024-04-08 15:27:56] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2024-04-08 15:27:56] INFO root fetch - processPackages [pandare]: Remove: archive file [/home/abi/fetcher/tmp/pandare-1.8.21.dev1-py3-none-any.whl.zip]
+[2024-04-08 15:27:56] INFO root fetch - processPackages [pandare]: Remove: archive file [/home/abi/fetcher/tmp/pandare-1.8.22.dev12-py3-none-any.whl.zip]
+[2024-04-08 15:27:56] INFO root fetch - main [MainThread]: End processing [pandare]: success
+[2024-04-08 15:27:56] INFO root fetch - processPackages [omaslib]: Remove: archive file [/home/abi/fetcher/tmp/omaslib-0.1.8.tar.gz]
+[2024-04-08 15:27:56] INFO root fetch - processPackages [omaslib]: Remove: archive file [/home/abi/fetcher/tmp/omaslib-0.1.9.tar.gz]
+[2024-04-08 15:27:56] INFO root fetch - main [MainThread]: End processing [omaslib]: success
+[2024-04-08 15:28:01] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.90.tar.gz]
+[2024-04-08 15:28:01] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.91.tar.gz]
+[2024-04-08 15:28:01] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2024-04-08 15:28:01] INFO root fetch - main [MainThread]: Store serial: [22667622]
