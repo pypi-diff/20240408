@@ -9177,3 +9177,41 @@
 [2024-04-08 07:28:50] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc1.tar.gz]
 [2024-04-08 07:28:50] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-04-08 07:28:50] INFO root fetch - main [MainThread]: Store serial: [22662592]
+[2024-04-08 07:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662592]
+[2024-04-08 07:31:10] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 07:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662592]
+[2024-04-08 07:33:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 07:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: defog
+[2024-04-08 07:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CCMetagen
+[2024-04-08 07:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zepben.protobuf
+[2024-04-08 07:33:17] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2024-04-08 07:33:17] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2024-04-08 07:33:17] INFO root fetch - processPackages [CCMetagen]: New version: [1.5.0] Old Version: [1.4.2]
+[2024-04-08 07:33:17] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-08 07:33:17] WARNING root fetch - processPackages [zepben.protobuf]: Timeout reached during download
+[2024-04-08 07:33:17] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2024-04-08 07:33:17] INFO root fetch - processPackages [CCMetagen]: Downloading https://files.pythonhosted.org/packages/2a/8c/d3583b7cd712b3950a7acfa8b7328fe7faac9187ba96dbef73130d7046f6/CCMetagen-1.4.2.tar.gz
+[2024-04-08 07:33:17] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2024-04-08 07:33:17] WARNING root fetch - processPackages [zepben.protobuf]: Timeout reached during download
+[2024-04-08 07:33:17] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2024-04-08 07:33:17] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20240408/z/zepben.protobuf/0.9.0b2-0.9.0b3/diff.md --exclude *.pyd
+[2024-04-08 07:33:17] WARNING root fetch - processPackages [defog]: Timeout reached during download
+[2024-04-08 07:33:17] WARNING root fetch - processPackages [CCMetagen]: Timeout reached during download
+[2024-04-08 07:33:17] INFO root fetch - processPackages [CCMetagen]: Downloading https://files.pythonhosted.org/packages/1d/cf/0eca947dc02c3646bbefe77097226cb034f3c255ff056a6361bbb7dcd96c/CCMetagen-1.5.0.tar.gz
+[2024-04-08 07:33:17] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2024-04-08 07:33:18] WARNING root fetch - processPackages [CCMetagen]: Timeout reached during download
+[2024-04-08 07:33:18] INFO root fetch - processPackages [CCMetagen]: executing diffoscope
+[2024-04-08 07:33:18] INFO root fetch - processPackages [CCMetagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CCMetagen-1.4.2.tar.gz tmp/CCMetagen-1.5.0.tar.gz --markdown 20240408/C/CCMetagen/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2024-04-08 07:33:18] WARNING root fetch - processPackages [defog]: Timeout reached during download
+[2024-04-08 07:33:18] INFO root fetch - processPackages [defog]: executing diffoscope
+[2024-04-08 07:33:18] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20240408/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-08 07:33:18] INFO root fetch - processPackages [CCMetagen]: Remove: archive file [/home/abi/fetcher/tmp/CCMetagen-1.4.2.tar.gz]
+[2024-04-08 07:33:18] INFO root fetch - processPackages [CCMetagen]: Remove: archive file [/home/abi/fetcher/tmp/CCMetagen-1.5.0.tar.gz]
+[2024-04-08 07:33:18] INFO root fetch - main [MainThread]: End processing [CCMetagen]: success
+[2024-04-08 07:33:18] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2024-04-08 07:33:18] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2024-04-08 07:33:18] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2024-04-08 07:33:18] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip]
+[2024-04-08 07:33:18] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
+[2024-04-08 07:33:18] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2024-04-08 07:33:18] INFO root fetch - main [MainThread]: Store serial: [22662620]
