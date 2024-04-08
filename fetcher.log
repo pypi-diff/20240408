@@ -8924,3 +8924,61 @@
 [2024-04-08 07:12:16] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.9.2.tar.gz]
 [2024-04-08 07:12:16] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
 [2024-04-08 07:12:16] INFO root fetch - main [MainThread]: Store serial: [22662508]
+[2024-04-08 07:14:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662508]
+[2024-04-08 07:14:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyflyby
+[2024-04-08 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-restful-rsp
+[2024-04-08 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycommons
+[2024-04-08 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-project-timeline
+[2024-04-08 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: koordinates
+[2024-04-08 07:14:38] INFO root fetch - processPackages [fastapi-restful-rsp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 07:14:38] INFO root fetch - processPackages [odoo-addon-project-timeline]: New version: [16.0.1.4.1.3] Old Version: [16.0.1.4.1.2]
+[2024-04-08 07:14:38] INFO root fetch - processPackages [pyflyby]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-08 07:14:38] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 07:14:38] INFO root fetch - processPackages [koordinates]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-08 07:14:38] INFO root fetch - processPackages [fastapi-restful-rsp]: Downloading https://files.pythonhosted.org/packages/5c/67/49d812a3ce42e233efbf2c2b186f92904b3815d5169695a092db095bf478/fastapi_restful_rsp-0.1.8.tar.gz
+[2024-04-08 07:14:38] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/aa/c1/79da342533ee1d485b83f2600daf44df700a0cc3798ecd27b204004e4022/odoo_addon_project_timeline-16.0.1.4.1.2-py3-none-any.whl
+[2024-04-08 07:14:38] INFO root fetch - processPackages [pyflyby]: Downloading https://files.pythonhosted.org/packages/fd/e1/e7d12d56f2036ff5b0120b66c8f913b1c89f0c0edbe3461e299b61ad33c7/pyflyby-1.9.2.tar.gz
+[2024-04-08 07:14:38] INFO root fetch - processPackages [koordinates]: Downloading https://files.pythonhosted.org/packages/f7/ae/3236871d39067e8d9c1a3d2970ce2f75feed9238b51ae9320e2229b489e6/koordinates-0.7.0.tar.gz
+[2024-04-08 07:14:38] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-08 07:14:38] WARNING root fetch - processPackages [fastapi-restful-rsp]: Timeout reached during download
+[2024-04-08 07:14:39] WARNING root fetch - processPackages [odoo-addon-project-timeline]: Timeout reached during download
+[2024-04-08 07:14:39] WARNING root fetch - processPackages [pycommons]: Timeout reached during download
+[2024-04-08 07:14:39] WARNING root fetch - processPackages [koordinates]: Timeout reached during download
+[2024-04-08 07:14:39] INFO root fetch - processPackages [fastapi-restful-rsp]: Downloading https://files.pythonhosted.org/packages/a3/78/294a9a4f5b00529fe25407f64c016bf02b136df7bdab0af823c40b3d54a9/fastapi_restful_rsp-0.1.9.tar.gz
+[2024-04-08 07:14:39] WARNING root fetch - processPackages [pyflyby]: Timeout reached during download
+[2024-04-08 07:14:39] WARNING root fetch - processPackages [fastapi-restful-rsp]: Timeout reached during download
+[2024-04-08 07:14:39] INFO root fetch - processPackages [fastapi-restful-rsp]: executing diffoscope
+[2024-04-08 07:14:39] INFO root fetch - processPackages [fastapi-restful-rsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_restful_rsp-0.1.8.tar.gz tmp/fastapi_restful_rsp-0.1.9.tar.gz --markdown 20240408/f/fastapi-restful-rsp/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 07:14:39] INFO root fetch - processPackages [odoo-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/a6/8a/3bb47b14f918ed6233ea58dc77cd804034732c4fcd27ce0d56df8a3b0b56/odoo_addon_project_timeline-16.0.1.4.1.3-py3-none-any.whl
+[2024-04-08 07:14:39] INFO root fetch - processPackages [koordinates]: Downloading https://files.pythonhosted.org/packages/e8/21/27f73a936bf4222576ddecbed195269ac84702261a11b7336cf3e29e7c0d/koordinates-0.7.1.tar.gz
+[2024-04-08 07:14:39] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-08 07:14:39] INFO root fetch - processPackages [pyflyby]: Downloading https://files.pythonhosted.org/packages/a8/c1/6401868865f3e5daa8af24b8b308aa6ccb78167c5218a7ad5f3844a7ca8f/pyflyby-1.9.3.tar.gz
+[2024-04-08 07:14:39] WARNING root fetch - processPackages [koordinates]: Timeout reached during download
+[2024-04-08 07:14:39] INFO root fetch - processPackages [koordinates]: executing diffoscope
+[2024-04-08 07:14:39] INFO root fetch - processPackages [koordinates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koordinates-0.7.0.tar.gz tmp/koordinates-0.7.1.tar.gz --markdown 20240408/k/koordinates/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-08 07:14:39] WARNING root fetch - processPackages [odoo-addon-project-timeline]: Timeout reached during download
+[2024-04-08 07:14:39] INFO root fetch - processPackages [odoo-addon-project-timeline]: executing diffoscope
+[2024-04-08 07:14:39] INFO root fetch - processPackages [odoo-addon-project-timeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_timeline-16.0.1.4.1.2-py3-none-any.whl.zip tmp/odoo_addon_project_timeline-16.0.1.4.1.3-py3-none-any.whl.zip --markdown 20240408/o/odoo-addon-project-timeline/16.0.1.4.1.2-16.0.1.4.1.3/diff.md --exclude *.pyd
+[2024-04-08 07:14:39] WARNING root fetch - processPackages [pycommons]: Timeout reached during download
+[2024-04-08 07:14:39] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-08 07:14:39] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240408/p/pycommons/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 07:14:39] WARNING root fetch - processPackages [pyflyby]: Timeout reached during download
+[2024-04-08 07:14:39] INFO root fetch - processPackages [pyflyby]: executing diffoscope
+[2024-04-08 07:14:39] INFO root fetch - processPackages [pyflyby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflyby-1.9.2.tar.gz tmp/pyflyby-1.9.3.tar.gz --markdown 20240408/p/pyflyby/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2024-04-08 07:14:39] INFO root fetch - processPackages [fastapi-restful-rsp]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_restful_rsp-0.1.8.tar.gz]
+[2024-04-08 07:14:39] INFO root fetch - processPackages [fastapi-restful-rsp]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_restful_rsp-0.1.9.tar.gz]
+[2024-04-08 07:14:39] INFO root fetch - main [MainThread]: End processing [fastapi-restful-rsp]: success
+[2024-04-08 07:14:40] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.4.1.2-py3-none-any.whl.zip]
+[2024-04-08 07:14:40] INFO root fetch - processPackages [odoo-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_timeline-16.0.1.4.1.3-py3-none-any.whl.zip]
+[2024-04-08 07:14:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timeline]: success
+[2024-04-08 07:14:40] INFO root fetch - processPackages [koordinates]: Remove: archive file [/home/abi/fetcher/tmp/koordinates-0.7.0.tar.gz]
+[2024-04-08 07:14:40] INFO root fetch - processPackages [koordinates]: Remove: archive file [/home/abi/fetcher/tmp/koordinates-0.7.1.tar.gz]
+[2024-04-08 07:14:40] INFO root fetch - main [MainThread]: End processing [koordinates]: success
+[2024-04-08 07:14:40] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-08 07:14:40] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-08 07:14:40] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-08 07:14:40] INFO root fetch - processPackages [pyflyby]: Remove: archive file [/home/abi/fetcher/tmp/pyflyby-1.9.2.tar.gz]
+[2024-04-08 07:14:40] INFO root fetch - processPackages [pyflyby]: Remove: archive file [/home/abi/fetcher/tmp/pyflyby-1.9.3.tar.gz]
+[2024-04-08 07:14:40] INFO root fetch - main [MainThread]: End processing [pyflyby]: success
+[2024-04-08 07:14:40] INFO root fetch - main [MainThread]: Store serial: [22662529]
