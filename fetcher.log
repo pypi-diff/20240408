@@ -17464,3 +17464,78 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:40:39] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
 [2024-04-08 12:40:39] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-08 12:40:39] INFO root fetch - main [MainThread]: Store serial: [22665776]
+[2024-04-08 12:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665776]
+[2024-04-08 12:42:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 12:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skypilot-nightly
+[2024-04-08 12:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-04-08 12:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdksio-apimatic-sdk
+[2024-04-08 12:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datateam-moss
+[2024-04-08 12:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: literalai
+[2024-04-08 12:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aily-sdk
+[2024-04-08 12:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ign8
+[2024-04-08 12:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-Admin-reboot
+[2024-04-08 12:42:48] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 12:42:48] INFO root fetch - processPackages [literalai]: New version: [0.0.500] Old Version: [0.0.401]
+[2024-04-08 12:42:48] INFO root fetch - processPackages [datateam-moss]: New version: [0.0.73] Old Version: [0.0.72]
+[2024-04-08 12:42:48] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240407] Old Version: [1.0.0.dev20240406]
+[2024-04-08 12:42:48] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.30]
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [Flask-Admin-reboot]: Skipping, unable to determine old version
+[2024-04-08 12:42:48] INFO root fetch - main [MainThread]: End processing [Flask-Admin-reboot] error
+[2024-04-08 12:42:48] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-08 12:42:48] INFO root fetch - processPackages [aily-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [sdksio-apimatic-sdk]: Skipping, unable to determine old version
+[2024-04-08 12:42:48] INFO root fetch - main [MainThread]: End processing [sdksio-apimatic-sdk] error
+[2024-04-08 12:42:48] INFO root fetch - processPackages [datateam-moss]: Downloading https://files.pythonhosted.org/packages/ca/13/4f1729adca2e99fcfeeaf830e74dc0d24f1aa409c52ec5fbaaaeaea83472/datateam_moss-0.0.72.tar.gz
+[2024-04-08 12:42:48] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/af/af/509914982ec6e630c94e10290da528c0a3260e53543a4de7365b0fbc4d2e/skypilot-nightly-1.0.0.dev20240406.tar.gz
+[2024-04-08 12:42:48] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/91/72/77912e1792568c7b0da76630a55c5423bc331373026f66cf7f1da5a64580/literalai-0.0.401.tar.gz
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [datateam-moss]: Timeout reached during download
+[2024-04-08 12:42:48] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/3b/c2/89ff60c736f7197f9fe5b20b66782121e76589a18f54e69ad37f7f940450/ign8-4.8.30.tar.gz
+[2024-04-08 12:42:48] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/3a/9c/7370a51727952e3bb2421ad16f506a532c93a2a26a36e473d6909d897f7a/aily_sdk-0.8.0.tar.gz
+[2024-04-08 12:42:48] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [literalai]: Timeout reached during download
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [aily-sdk]: Timeout reached during download
+[2024-04-08 12:42:48] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/a0/05/e83792830ade76faaf19ed136e66d037b65efc7daca3d65126f9f2c0cb83/literalai-0.0.500.tar.gz
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:42:48] INFO root fetch - processPackages [datateam-moss]: Downloading https://files.pythonhosted.org/packages/e1/a6/98f3b68c7bc690ffde4826b1b7950848bf33f80b64615142906d41b8ac00/datateam_moss-0.0.73.tar.gz
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [swarmauri]: Timeout reached during download
+[2024-04-08 12:42:48] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-08 12:42:48] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240408/s/swarmauri/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [skypilot-nightly]: Timeout reached during download
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [literalai]: Timeout reached during download
+[2024-04-08 12:42:48] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-04-08 12:42:48] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.401.tar.gz tmp/literalai-0.0.500.tar.gz --markdown 20240408/l/literalai/0.0.401-0.0.500/diff.md --exclude *.pyd
+[2024-04-08 12:42:48] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [datateam-moss]: Timeout reached during download
+[2024-04-08 12:42:48] INFO root fetch - processPackages [datateam-moss]: executing diffoscope
+[2024-04-08 12:42:48] INFO root fetch - processPackages [datateam-moss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datateam_moss-0.0.72.tar.gz tmp/datateam_moss-0.0.73.tar.gz --markdown 20240408/d/datateam-moss/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2024-04-08 12:42:48] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/08/a5/02998881950b9af6457fa27bef1feb81834a40abb70ef2b9a1b61a067920/aily_sdk-0.9.0.tar.gz
+[2024-04-08 12:42:48] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/5a/b6/fb1124c32c823d203124ee042ae8fe16b040089d05114d2247f7b6f040a9/skypilot-nightly-1.0.0.dev20240407.tar.gz
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [aily-sdk]: Timeout reached during download
+[2024-04-08 12:42:48] INFO root fetch - processPackages [aily-sdk]: executing diffoscope
+[2024-04-08 12:42:48] INFO root fetch - processPackages [aily-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_sdk-0.8.0.tar.gz tmp/aily_sdk-0.9.0.tar.gz --markdown 20240408/a/aily-sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:42:48] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-08 12:42:48] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.30.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240408/i/ign8/4.8.30-4.8.5/diff.md --exclude *.pyd
+[2024-04-08 12:42:48] WARNING root fetch - processPackages [skypilot-nightly]: Timeout reached during download
+[2024-04-08 12:42:48] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-08 12:42:48] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20240406.tar.gz tmp/skypilot-nightly-1.0.0.dev20240407.tar.gz --markdown 20240408/s/skypilot-nightly/1.0.0.dev20240406-1.0.0.dev20240407/diff.md --exclude *.pyd
+[2024-04-08 12:42:49] INFO root fetch - processPackages [datateam-moss]: Remove: archive file [/home/abi/fetcher/tmp/datateam_moss-0.0.72.tar.gz]
+[2024-04-08 12:42:49] INFO root fetch - processPackages [datateam-moss]: Remove: archive file [/home/abi/fetcher/tmp/datateam_moss-0.0.73.tar.gz]
+[2024-04-08 12:42:49] INFO root fetch - main [MainThread]: End processing [datateam-moss]: success
+[2024-04-08 12:42:49] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.401.tar.gz]
+[2024-04-08 12:42:49] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.500.tar.gz]
+[2024-04-08 12:42:49] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-04-08 12:42:49] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.8.0.tar.gz]
+[2024-04-08 12:42:49] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.9.0.tar.gz]
+[2024-04-08 12:42:49] INFO root fetch - main [MainThread]: End processing [aily-sdk]: success
+[2024-04-08 12:42:49] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-08 12:42:49] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-08 12:42:49] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-08 12:42:50] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240406.tar.gz]
+[2024-04-08 12:42:50] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240407.tar.gz]
+[2024-04-08 12:42:50] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-08 12:42:52] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.30.tar.gz]
+[2024-04-08 12:42:52] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-08 12:42:52] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-08 12:42:52] INFO root fetch - main [MainThread]: Store serial: [22665802]
