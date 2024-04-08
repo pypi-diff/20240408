@@ -25558,3 +25558,140 @@ EOFError: EOF read where object expected
 [2024-04-08 16:24:56] ERROR root fetch - processPackages [h2o-pysparkling-scoring-2.3]: Timeout during execution of pkgdiff
 [2024-04-08 16:24:56] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-2.3] error
 [2024-04-08 16:24:56] INFO root fetch - main [MainThread]: Store serial: [22668684]
+[2024-04-08 16:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22668684]
+[2024-04-08 16:27:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h2o-pysparkling-2.4
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AssemblyLinePython
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: h2o-pysparkling-scoring-2.4
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellrank
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kucoin-futures-lib
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmdsclient
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clirm
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: R3XA
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cliche
+[2024-04-08 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openai-cost-logger
+[2024-04-08 16:27:05] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: New version: [3.46.0.1.post1] Old Version: [3.44.0.3.post1]
+[2024-04-08 16:27:05] WARNING root fetch - processPackages [kucoin-futures-lib]: Skipping, unable to determine old version
+[2024-04-08 16:27:05] INFO root fetch - processPackages [kucoin-futures-lib]: Start processing: Ciw
+[2024-04-08 16:27:05] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib] error
+[2024-04-08 16:27:05] WARNING root fetch - processPackages [clirm]: Skipping, unable to determine old version
+[2024-04-08 16:27:05] INFO root fetch - processPackages [clirm]: Start processing: fandango
+[2024-04-08 16:27:05] INFO root fetch - main [MainThread]: End processing [clirm] error
+[2024-04-08 16:27:05] INFO root fetch - processPackages [tmdsclient]: New version: [0.1.20] Old Version: [0.1.19]
+[2024-04-08 16:27:05] WARNING root fetch - processPackages [AssemblyLinePython]: Skipping, unable to determine old version
+[2024-04-08 16:27:05] INFO root fetch - processPackages [AssemblyLinePython]: Start processing: parea-ai
+[2024-04-08 16:27:05] INFO root fetch - main [MainThread]: End processing [AssemblyLinePython] error
+[2024-04-08 16:27:05] ERROR root fetch - processPackages [R3XA]: Unable to get metadata: No such project 'R3XA'
+[2024-04-08 16:27:05] INFO root fetch - processPackages [R3XA]: Start processing: simbench
+[2024-04-08 16:27:05] INFO root fetch - main [MainThread]: End processing [R3XA] error
+[2024-04-08 16:27:05] INFO root fetch - processPackages [openai-cost-logger]: New version: [0.5.0] Old Version: [0.0.0]
+[2024-04-08 16:27:05] INFO root fetch - processPackages [h2o-pysparkling-2.4]: New version: [3.46.0.1.post1] Old Version: [3.44.0.3.post1]
+[2024-04-08 16:27:05] INFO root fetch - processPackages [cellrank]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-08 16:27:05] INFO root fetch - processPackages [cliche]: New version: [0.9.81] Old Version: [0.9.80]
+[2024-04-08 16:27:05] INFO root fetch - processPackages [Ciw]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-04-08 16:27:05] INFO root fetch - processPackages [simbench]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-08 16:27:06] INFO root fetch - processPackages [fandango]: New version: [15.8.0] Old Version: [15.7.4]
+[2024-04-08 16:27:06] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Downloading https://files.pythonhosted.org/packages/a7/9d/6fcb7a0619c23b3c8748ed05bcb1def550047efee6891be22f620ee76eb1/h2o_pysparkling_scoring_2.4-3.44.0.3.post1.tar.gz
+[2024-04-08 16:27:06] INFO root fetch - processPackages [parea-ai]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-08 16:27:06] INFO root fetch - processPackages [tmdsclient]: Downloading https://files.pythonhosted.org/packages/45/97/1c97dbdf088365166d20c90eafade476db21e262026a2b67377d902fc731/tmdsclient-0.1.19.tar.gz
+[2024-04-08 16:27:06] INFO root fetch - processPackages [h2o-pysparkling-2.4]: Downloading https://files.pythonhosted.org/packages/86/30/0ae421e9eb4f52b1564dfbea62abb0adcb12f122ff7ff4c33021251eda2b/h2o_pysparkling_2.4-3.44.0.3.post1.tar.gz
+[2024-04-08 16:27:06] INFO root fetch - processPackages [cellrank]: Downloading https://files.pythonhosted.org/packages/b5/8c/32bc41df5f590a46a5b4456db3893b6c934c6e58a0af71a21cfa07d75dec/cellrank-2.0.3.tar.gz
+[2024-04-08 16:27:06] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/db/75/2b0dbda17cf08774a3de6d6f72348c28d2fac5b6108dbd6667e4514172bf/openai_cost_logger-0.0.0.tar.gz
+[2024-04-08 16:27:06] INFO root fetch - processPackages [simbench]: Downloading https://files.pythonhosted.org/packages/a4/67/dd5874fd8fe605487830eafcbd94925e5024fa92a42a5e86995acd2cfa0d/simbench-1.3.0.zip
+[2024-04-08 16:27:06] INFO root fetch - processPackages [cliche]: Downloading https://files.pythonhosted.org/packages/45/f5/f417997a8b20f3ec603bf23945b9eb0771dda15fbb97b42ef9557f6ee3af/cliche-0.9.80.tar.gz
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [h2o-pysparkling-2.4]: Skipping package: exceeds size limit 224450488>=10485760
+[2024-04-08 16:27:06] INFO root fetch - processPackages [h2o-pysparkling-2.4]: Start processing: vidstreammmjka
+[2024-04-08 16:27:06] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-2.4] error
+[2024-04-08 16:27:06] INFO root fetch - processPackages [Ciw]: Downloading https://files.pythonhosted.org/packages/4f/6a/7a4ff3b62be886f3c2a88a198e46913aaa6b7037c6f01dd75b393d8297c2/Ciw-3.1.1.tar.gz
+[2024-04-08 16:27:06] INFO root fetch - processPackages [fandango]: Downloading https://files.pythonhosted.org/packages/27/44/c868d9c1e1d5105b97618d9ffc11a690c985c4ac3359c864d22095db7b72/fandango-15.7.4.tar.gz
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [tmdsclient]: Timeout reached during download
+[2024-04-08 16:27:06] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/cd/80/fcef2226405a0fb8e3a9a7fbda2b47a712f63d9294eac7e3fc336bbf5b0f/parea_ai-0.2.98.tar.gz
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [simbench]: Skipping package: exceeds size limit 91022174>=10485760
+[2024-04-08 16:27:06] INFO root fetch - processPackages [simbench]: Start processing: moonstreamdb-v3
+[2024-04-08 16:27:06] INFO root fetch - main [MainThread]: End processing [simbench] error
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 16:27:06] INFO root fetch - processPackages [vidstreammmjka]: New version: [1.2] Old Version: [1.1]
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [cliche]: Timeout reached during download
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [moonstreamdb-v3]: Skipping, unable to determine old version
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [cellrank]: Timeout reached during download
+[2024-04-08 16:27:06] INFO root fetch - processPackages [moonstreamdb-v3]: Start processing: dve-lumipy-preview
+[2024-04-08 16:27:06] INFO root fetch - main [MainThread]: End processing [moonstreamdb-v3] error
+[2024-04-08 16:27:06] INFO root fetch - processPackages [tmdsclient]: Downloading https://files.pythonhosted.org/packages/f7/2f/7ca3841f6240f177bfa12f6b1dd0a7a69034516cb620a56cf7bf565ad51d/tmdsclient-0.1.20.tar.gz
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [fandango]: Timeout reached during download
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [Ciw]: Timeout reached during download
+[2024-04-08 16:27:06] INFO root fetch - processPackages [openai-cost-logger]: Downloading https://files.pythonhosted.org/packages/0c/44/9a8c5b1edb2e626f02d66b252620deabb7af3fdf076125d79c79ec01223e/openai_cost_logger-0.5.0.tar.gz
+[2024-04-08 16:27:06] INFO root fetch - processPackages [vidstreammmjka]: Downloading https://files.pythonhosted.org/packages/d7/4a/b390a1bc3c38d1fd768f3e003e92dbd2207cd85d9cd89c715c70da45cc2e/vidstreammmjka-1.1.tar.gz
+[2024-04-08 16:27:06] INFO root fetch - processPackages [cliche]: Downloading https://files.pythonhosted.org/packages/c0/f8/eebaa6d5a0e2e92607dafe86655975a150011ceaf39a6b591739987314dd/cliche-0.9.81.tar.gz
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [parea-ai]: Timeout reached during download
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [tmdsclient]: Timeout reached during download
+[2024-04-08 16:27:06] INFO root fetch - processPackages [tmdsclient]: executing diffoscope
+[2024-04-08 16:27:06] INFO root fetch - processPackages [tmdsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmdsclient-0.1.19.tar.gz tmp/tmdsclient-0.1.20.tar.gz --markdown 20240408/t/tmdsclient/0.1.19-0.1.20/diff.md --exclude *.pyd
+[2024-04-08 16:27:06] INFO root fetch - processPackages [Ciw]: Downloading https://files.pythonhosted.org/packages/7d/c1/abdfd091452274a48dc2c1c843911feaf336e5c5e72e00848248bb5da5ff/Ciw-3.1.2.tar.gz
+[2024-04-08 16:27:06] WARNING root fetch - processPackages [openai-cost-logger]: Timeout reached during download
+[2024-04-08 16:27:06] INFO root fetch - processPackages [openai-cost-logger]: executing diffoscope
+[2024-04-08 16:27:06] INFO root fetch - processPackages [openai-cost-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_cost_logger-0.0.0.tar.gz tmp/openai_cost_logger-0.5.0.tar.gz --markdown 20240408/o/openai-cost-logger/0.0.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-08 16:27:06] INFO root fetch - processPackages [cellrank]: Downloading https://files.pythonhosted.org/packages/97/68/94eacdef22373a7f1053b346ccd6daaa836777491f64b1c29bb613e4fc74/cellrank-2.0.4.tar.gz
+[2024-04-08 16:27:06] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.997] Old Version: [0.1.991]
+[2024-04-08 16:27:06] INFO root fetch - processPackages [fandango]: Downloading https://files.pythonhosted.org/packages/fa/93/cefc02d597edeaffc291d10e83119d82ba326edadaa20f7b64bcbc97f1ed/fandango-15.8.0.tar.gz
+[2024-04-08 16:27:07] WARNING root fetch - processPackages [vidstreammmjka]: Timeout reached during download
+[2024-04-08 16:27:07] WARNING root fetch - processPackages [cliche]: Timeout reached during download
+[2024-04-08 16:27:07] INFO root fetch - processPackages [cliche]: executing diffoscope
+[2024-04-08 16:27:07] INFO root fetch - processPackages [cliche]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliche-0.9.80.tar.gz tmp/cliche-0.9.81.tar.gz --markdown 20240408/c/cliche/0.9.80-0.9.81/diff.md --exclude *.pyd
+[2024-04-08 16:27:07] WARNING root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Timeout reached during download
+[2024-04-08 16:27:07] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/9d/1c/c389e28a1a12c54ff1c8111a2f00058e77ba07333943eb06d3592659a691/parea_ai-0.2.99.tar.gz
+[2024-04-08 16:27:07] WARNING root fetch - processPackages [fandango]: Timeout reached during download
+[2024-04-08 16:27:07] INFO root fetch - processPackages [fandango]: executing diffoscope
+[2024-04-08 16:27:07] INFO root fetch - processPackages [fandango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fandango-15.7.4.tar.gz tmp/fandango-15.8.0.tar.gz --markdown 20240408/f/fandango/15.7.4-15.8.0/diff.md --exclude *.pyd
+[2024-04-08 16:27:07] WARNING root fetch - processPackages [Ciw]: Timeout reached during download
+[2024-04-08 16:27:07] INFO root fetch - processPackages [Ciw]: executing diffoscope
+[2024-04-08 16:27:07] INFO root fetch - processPackages [Ciw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ciw-3.1.1.tar.gz tmp/Ciw-3.1.2.tar.gz --markdown 20240408/C/Ciw/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2024-04-08 16:27:07] INFO root fetch - processPackages [vidstreammmjka]: Downloading https://files.pythonhosted.org/packages/32/09/273fffdd14d2f992e250ca115e4524103338677b417dc302f92f8e36a20a/vidstreammmjka-1.2.tar.gz
+[2024-04-08 16:27:07] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/d8/f9/9bc5c5506192303d5e6d9c44bea6d148cfedd4d1d8eca48445106c6b7bf9/dve_lumipy_preview-0.1.991-py3-none-any.whl
+[2024-04-08 16:27:07] WARNING root fetch - processPackages [cellrank]: Timeout reached during download
+[2024-04-08 16:27:07] INFO root fetch - processPackages [cellrank]: executing diffoscope
+[2024-04-08 16:27:07] INFO root fetch - processPackages [cellrank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellrank-2.0.3.tar.gz tmp/cellrank-2.0.4.tar.gz --markdown 20240408/c/cellrank/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2024-04-08 16:27:07] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Downloading https://files.pythonhosted.org/packages/c0/4b/cc921b1c1600b53ad24ce998c573c2731f93f5e0f2a9a90358a77889acea/h2o_pysparkling_scoring_2.4-3.46.0.1.post1.tar.gz
+[2024-04-08 16:27:07] WARNING root fetch - processPackages [vidstreammmjka]: Timeout reached during download
+[2024-04-08 16:27:07] INFO root fetch - processPackages [vidstreammmjka]: executing diffoscope
+[2024-04-08 16:27:07] INFO root fetch - processPackages [vidstreammmjka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidstreammmjka-1.1.tar.gz tmp/vidstreammmjka-1.2.tar.gz --markdown 20240408/v/vidstreammmjka/1.1-1.2/diff.md --exclude *.pyd
+[2024-04-08 16:27:07] WARNING root fetch - processPackages [dve-lumipy-preview]: Timeout reached during download
+[2024-04-08 16:27:07] WARNING root fetch - processPackages [parea-ai]: Timeout reached during download
+[2024-04-08 16:27:07] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2024-04-08 16:27:07] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.2.98.tar.gz tmp/parea_ai-0.2.99.tar.gz --markdown 20240408/p/parea-ai/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-08 16:27:07] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/aa/be/884289a91b3c7f9dfbec6b7a1e9deb2e4674fd72a739284284b48143ccf0/dve_lumipy_preview-0.1.997-py3-none-any.whl
+[2024-04-08 16:27:08] INFO root fetch - processPackages [tmdsclient]: Remove: archive file [/home/abi/fetcher/tmp/tmdsclient-0.1.19.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - processPackages [tmdsclient]: Remove: archive file [/home/abi/fetcher/tmp/tmdsclient-0.1.20.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - main [MainThread]: End processing [tmdsclient]: success
+[2024-04-08 16:27:08] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai_cost_logger-0.0.0.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - processPackages [openai-cost-logger]: Remove: archive file [/home/abi/fetcher/tmp/openai_cost_logger-0.5.0.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - main [MainThread]: End processing [openai-cost-logger]: success
+[2024-04-08 16:27:08] WARNING root fetch - processPackages [dve-lumipy-preview]: Timeout reached during download
+[2024-04-08 16:27:08] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2024-04-08 16:27:08] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.991-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.997-py3-none-any.whl.zip --markdown 20240408/d/dve-lumipy-preview/0.1.991-0.1.997/diff.md --exclude *.pyd
+[2024-04-08 16:27:08] INFO root fetch - processPackages [cliche]: Remove: archive file [/home/abi/fetcher/tmp/cliche-0.9.80.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - processPackages [cliche]: Remove: archive file [/home/abi/fetcher/tmp/cliche-0.9.81.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - main [MainThread]: End processing [cliche]: success
+[2024-04-08 16:27:08] INFO root fetch - processPackages [vidstreammmjka]: Remove: archive file [/home/abi/fetcher/tmp/vidstreammmjka-1.1.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - processPackages [vidstreammmjka]: Remove: archive file [/home/abi/fetcher/tmp/vidstreammmjka-1.2.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - main [MainThread]: End processing [vidstreammmjka]: success
+[2024-04-08 16:27:08] INFO root fetch - processPackages [cellrank]: Remove: archive file [/home/abi/fetcher/tmp/cellrank-2.0.3.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - processPackages [cellrank]: Remove: archive file [/home/abi/fetcher/tmp/cellrank-2.0.4.tar.gz]
+[2024-04-08 16:27:08] INFO root fetch - main [MainThread]: End processing [cellrank]: success
+[2024-04-08 16:27:09] INFO root fetch - processPackages [fandango]: Remove: archive file [/home/abi/fetcher/tmp/fandango-15.7.4.tar.gz]
+[2024-04-08 16:27:09] INFO root fetch - processPackages [fandango]: Remove: archive file [/home/abi/fetcher/tmp/fandango-15.8.0.tar.gz]
+[2024-04-08 16:27:09] INFO root fetch - main [MainThread]: End processing [fandango]: success
+[2024-04-08 16:27:09] INFO root fetch - processPackages [Ciw]: Remove: archive file [/home/abi/fetcher/tmp/Ciw-3.1.1.tar.gz]
+[2024-04-08 16:27:09] INFO root fetch - processPackages [Ciw]: Remove: archive file [/home/abi/fetcher/tmp/Ciw-3.1.2.tar.gz]
+[2024-04-08 16:27:09] INFO root fetch - main [MainThread]: End processing [Ciw]: success
+[2024-04-08 16:27:09] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.98.tar.gz]
+[2024-04-08 16:27:09] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
+[2024-04-08 16:27:09] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2024-04-08 16:27:09] WARNING root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Timeout reached during download
+[2024-04-08 16:27:09] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: executing diffoscope
+[2024-04-08 16:27:09] INFO root fetch - processPackages [h2o-pysparkling-scoring-2.4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_2.4-3.44.0.3.post1.tar.gz tmp/h2o_pysparkling_scoring_2.4-3.46.0.1.post1.tar.gz --markdown 20240408/h/h2o-pysparkling-scoring-2.4/3.44.0.3.post1-3.46.0.1.post1/diff.md --exclude *.pyd
+[2024-04-08 16:27:10] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.991-py3-none-any.whl.zip]
+[2024-04-08 16:27:10] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.997-py3-none-any.whl.zip]
+[2024-04-08 16:27:10] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2024-04-08 16:30:09] ERROR root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Timeout during execution of pkgdiff
+[2024-04-08 16:30:09] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-2.4] error
+[2024-04-08 16:30:09] INFO root fetch - main [MainThread]: Store serial: [22668736]
