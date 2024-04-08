@@ -21222,3 +21222,144 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:54:21] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-4.0.0.tar.gz]
 [2024-04-08 14:54:21] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
 [2024-04-08 14:54:21] INFO root fetch - main [MainThread]: Store serial: [22667093]
+[2024-04-08 14:56:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22667093]
+[2024-04-08 14:56:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meldrx-fhir-client
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kafka-broker
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nablachem
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-organization-python
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: andriatina-authenticator-0
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viur-shop
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-bank-python
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client-v2
+[2024-04-08 14:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reptor
+[2024-04-08 14:56:30] INFO root fetch - processPackages [nablachem]: New version: [24.6] Old Version: [24.5]
+[2024-04-08 14:56:30] INFO root fetch - processPackages [viur-shop]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-04-08 14:56:30] WARNING root fetch - processPackages [andriatina-authenticator-0]: Skipping, unable to determine old version
+[2024-04-08 14:56:30] INFO root fetch - processPackages [andriatina-authenticator-0]: Start processing: DLMS-Firmware-updater
+[2024-04-08 14:56:30] INFO root fetch - main [MainThread]: End processing [andriatina-authenticator-0] error
+[2024-04-08 14:56:30] INFO root fetch - processPackages [meldrx-fhir-client]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-04-08 14:56:30] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-08 14:56:30] INFO root fetch - processPackages [nablachem]: Downloading https://files.pythonhosted.org/packages/d6/c4/55b31861cf771297a2f95fdac2bcbd6d2029d1c60d8e50e8064ea6174a11/nablachem-24.5.tar.gz
+[2024-04-08 14:56:30] INFO root fetch - processPackages [kafka-broker]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-04-08 14:56:30] INFO root fetch - processPackages [reptor]: New version: [0.9] Old Version: [0.8]
+[2024-04-08 14:56:30] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-08 14:56:30] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-08 14:56:30] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-08 14:56:30] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-08 14:56:30] WARNING root fetch - processPackages [DLMS-Firmware-updater]: Skipping, unable to determine old version
+[2024-04-08 14:56:30] INFO root fetch - processPackages [DLMS-Firmware-updater]: Start processing: gando
+[2024-04-08 14:56:30] INFO root fetch - main [MainThread]: End processing [DLMS-Firmware-updater] error
+[2024-04-08 14:56:31] INFO root fetch - processPackages [viur-shop]: Downloading https://files.pythonhosted.org/packages/b7/22/0a336ca7e17d8a4b25870f11bb0111e2138fb57d311ef24bb712dd50daa3/viur-shop-0.1.0.dev8.tar.gz
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [nablachem]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [meldrx-fhir-client]: Downloading https://files.pythonhosted.org/packages/ed/ba/43a7cd2ea4b28e3fd057c5e5070beb2dc0afc55f52dcf69f804b9bfcf8af/meldrx_fhir_client-0.0.6.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [gando]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-08 14:56:31] INFO root fetch - processPackages [nablachem]: Downloading https://files.pythonhosted.org/packages/17/95/825832c375cf82ab949068e9d218f00313cd9de378c999c76a3295396e8b/nablachem-24.6.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/81/33/455731c9a672df1383a73d0c4c14e86bc2a6bc1abb6c9d96412b59c7d728/kafka-broker-0.3.9.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [reptor]: Downloading https://files.pythonhosted.org/packages/b0/dd/2420573be08f8438dcbd83a9d09acfd3565cd884567ccb1e5e914db7e9ee/reptor-0.8.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [meldrx-fhir-client]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [cybrid-api-organization-python]: Timeout reached during download
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [viur-shop]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/5f/ad/9ce3a6ba3c5faf8984d231b1d4e350dc99ef5decdc96e34bfe1ccc8ba490/gando-0.9.7.tar.gz
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [nablachem]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [nablachem]: executing diffoscope
+[2024-04-08 14:56:31] INFO root fetch - processPackages [nablachem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nablachem-24.5.tar.gz tmp/nablachem-24.6.tar.gz --markdown 20240408/n/nablachem/24.5-24.6/diff.md --exclude *.pyd
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [stigg-api-client]: Timeout reached during download
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [reptor]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [meldrx-fhir-client]: Downloading https://files.pythonhosted.org/packages/7d/7a/eb2b4c814206d68d9ad68a6559707156992dbf3688014d53bfa4647c229d/meldrx_fhir_client-0.0.8.tar.gz
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [stigg-api-client-v2]: Timeout reached during download
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [cybrid-api-bank-python]: Timeout reached during download
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [gando]: Timeout reached during download
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [cybrid-api-organization-python]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [viur-shop]: Downloading https://files.pythonhosted.org/packages/d7/b3/8068e4b3479a25eb057744e35ba57e551aee03a133cfb2f2b93de1987f0f/viur-shop-0.1.0.dev9.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-08 14:56:31] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240408/c/cybrid-api-organization-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-08 14:56:31] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/93/be/5a03c721e9ae49dfee61d5740237ce479b928a0b40735f5e3b9292c26494/kafka-broker-0.4.0.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [meldrx-fhir-client]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [meldrx-fhir-client]: executing diffoscope
+[2024-04-08 14:56:31] INFO root fetch - processPackages [meldrx-fhir-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meldrx_fhir_client-0.0.6.tar.gz tmp/meldrx_fhir_client-0.0.8.tar.gz --markdown 20240408/m/meldrx-fhir-client/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2024-04-08 14:56:31] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [reptor]: Downloading https://files.pythonhosted.org/packages/c7/65/f1686cc6fdd1205203aaded033c6dfb9117dca3b72e9e9ab2b41aa2b99b7/reptor-0.9.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-08 14:56:31] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/55/b4/3eacdbfcda93734a9bbee501af687c86bfb442a8f0f000f752e95377527e/gando-0.9.8.tar.gz
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [kafka-broker]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-08 14:56:31] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.3.9.tar.gz tmp/kafka-broker-0.4.0.tar.gz --markdown 20240408/k/kafka-broker/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [cybrid-api-bank-python]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-08 14:56:31] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240408/c/cybrid-api-bank-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [stigg-api-client]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [viur-shop]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240408/s/stigg-api-client/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-08 14:56:31] INFO root fetch - processPackages [viur-shop]: executing diffoscope
+[2024-04-08 14:56:31] INFO root fetch - processPackages [viur-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur-shop-0.1.0.dev8.tar.gz tmp/viur-shop-0.1.0.dev9.tar.gz --markdown 20240408/v/viur-shop/0.1.0.dev8-0.1.0.dev9/diff.md --exclude *.pyd
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [reptor]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [reptor]: executing diffoscope
+[2024-04-08 14:56:31] INFO root fetch - processPackages [reptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reptor-0.8.tar.gz tmp/reptor-0.9.tar.gz --markdown 20240408/r/reptor/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-08 14:56:31] WARNING root fetch - processPackages [stigg-api-client-v2]: Timeout reached during download
+[2024-04-08 14:56:31] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-08 14:56:31] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240408/s/stigg-api-client-v2/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-08 14:56:32] WARNING root fetch - processPackages [gando]: Timeout reached during download
+[2024-04-08 14:56:32] INFO root fetch - processPackages [gando]: executing diffoscope
+[2024-04-08 14:56:32] INFO root fetch - processPackages [gando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gando-0.9.7.tar.gz tmp/gando-0.9.8.tar.gz --markdown 20240408/g/gando/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-08 14:56:32] INFO root fetch - processPackages [nablachem]: Remove: archive file [/home/abi/fetcher/tmp/nablachem-24.5.tar.gz]
+[2024-04-08 14:56:32] INFO root fetch - processPackages [nablachem]: Remove: archive file [/home/abi/fetcher/tmp/nablachem-24.6.tar.gz]
+[2024-04-08 14:56:32] INFO root fetch - processPackages [nablachem]: Start processing: kimchima
+[2024-04-08 14:56:32] INFO root fetch - main [MainThread]: End processing [nablachem]: success
+[2024-04-08 14:56:32] INFO root fetch - processPackages [kimchima]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 14:56:32] INFO root fetch - processPackages [meldrx-fhir-client]: Remove: archive file [/home/abi/fetcher/tmp/meldrx_fhir_client-0.0.6.tar.gz]
+[2024-04-08 14:56:32] INFO root fetch - processPackages [meldrx-fhir-client]: Remove: archive file [/home/abi/fetcher/tmp/meldrx_fhir_client-0.0.8.tar.gz]
+[2024-04-08 14:56:32] INFO root fetch - processPackages [meldrx-fhir-client]: Start processing: weasyform
+[2024-04-08 14:56:32] INFO root fetch - main [MainThread]: End processing [meldrx-fhir-client]: success
+[2024-04-08 14:56:32] INFO root fetch - processPackages [kimchima]: Downloading https://files.pythonhosted.org/packages/2d/6b/5fdff112b270b8c4c0025954835201282f7b3176305165920a098d53d1a0/kimchima-0.3.0.tar.gz
+[2024-04-08 14:56:32] INFO root fetch - processPackages [weasyform]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 14:56:32] WARNING root fetch - processPackages [kimchima]: Timeout reached during download
+[2024-04-08 14:56:33] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.3.9.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.4.0.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-08 14:56:33] INFO root fetch - processPackages [kimchima]: Downloading https://files.pythonhosted.org/packages/27/5d/fe573a1cd0683f30b0c8afc56f252ac2d64e2b3bbc2d3a8a92325df40486/kimchima-0.3.1.tar.gz
+[2024-04-08 14:56:33] INFO root fetch - processPackages [weasyform]: Downloading https://files.pythonhosted.org/packages/fa/6e/4b6dcf11a5f954c6fc7671086821b5fb4646c351dd73a075831b34aba50a/weasyform-0.0.8.tar.gz
+[2024-04-08 14:56:33] INFO root fetch - processPackages [viur-shop]: Remove: archive file [/home/abi/fetcher/tmp/viur-shop-0.1.0.dev8.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - processPackages [viur-shop]: Remove: archive file [/home/abi/fetcher/tmp/viur-shop-0.1.0.dev9.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - main [MainThread]: End processing [viur-shop]: success
+[2024-04-08 14:56:33] WARNING root fetch - processPackages [weasyform]: Timeout reached during download
+[2024-04-08 14:56:33] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.7.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.8.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - main [MainThread]: End processing [gando]: success
+[2024-04-08 14:56:33] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-08 14:56:33] WARNING root fetch - processPackages [kimchima]: Timeout reached during download
+[2024-04-08 14:56:33] INFO root fetch - processPackages [kimchima]: executing diffoscope
+[2024-04-08 14:56:33] INFO root fetch - processPackages [kimchima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimchima-0.3.0.tar.gz tmp/kimchima-0.3.1.tar.gz --markdown 20240408/k/kimchima/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 14:56:33] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-08 14:56:33] INFO root fetch - processPackages [weasyform]: Downloading https://files.pythonhosted.org/packages/d3/e6/9c78e147babff9b8bf847eada7afd4495a77308de1fe3727147beae24acb/weasyform-0.0.9.tar.gz
+[2024-04-08 14:56:33] INFO root fetch - processPackages [reptor]: Remove: archive file [/home/abi/fetcher/tmp/reptor-0.8.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - processPackages [reptor]: Remove: archive file [/home/abi/fetcher/tmp/reptor-0.9.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - main [MainThread]: End processing [reptor]: success
+[2024-04-08 14:56:33] WARNING root fetch - processPackages [weasyform]: Timeout reached during download
+[2024-04-08 14:56:33] INFO root fetch - processPackages [weasyform]: executing diffoscope
+[2024-04-08 14:56:33] INFO root fetch - processPackages [weasyform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weasyform-0.0.8.tar.gz tmp/weasyform-0.0.9.tar.gz --markdown 20240408/w/weasyform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 14:56:33] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-08 14:56:33] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-08 14:56:34] INFO root fetch - processPackages [kimchima]: Remove: archive file [/home/abi/fetcher/tmp/kimchima-0.3.0.tar.gz]
+[2024-04-08 14:56:34] INFO root fetch - processPackages [kimchima]: Remove: archive file [/home/abi/fetcher/tmp/kimchima-0.3.1.tar.gz]
+[2024-04-08 14:56:34] INFO root fetch - main [MainThread]: End processing [kimchima]: success
+[2024-04-08 14:56:34] INFO root fetch - processPackages [weasyform]: Remove: archive file [/home/abi/fetcher/tmp/weasyform-0.0.8.tar.gz]
+[2024-04-08 14:56:34] INFO root fetch - processPackages [weasyform]: Remove: archive file [/home/abi/fetcher/tmp/weasyform-0.0.9.tar.gz]
+[2024-04-08 14:56:34] INFO root fetch - main [MainThread]: End processing [weasyform]: success
+[2024-04-08 14:56:35] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-08 14:56:35] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-08 14:56:35] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-08 14:56:35] INFO root fetch - main [MainThread]: Store serial: [22667138]
