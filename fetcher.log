@@ -8693,3 +8693,31 @@
 [2024-04-08 06:53:21] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-2.1.0.tar.gz]
 [2024-04-08 06:53:21] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
 [2024-04-08 06:53:21] INFO root fetch - main [MainThread]: Store serial: [22662434]
+[2024-04-08 06:55:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662434]
+[2024-04-08 06:55:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panpipelines
+[2024-04-08 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CellSNAP
+[2024-04-08 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MyLLM
+[2024-04-08 06:55:41] WARNING root fetch - processPackages [CellSNAP]: Skipping, unable to determine old version
+[2024-04-08 06:55:41] INFO root fetch - main [MainThread]: End processing [CellSNAP] error
+[2024-04-08 06:55:41] INFO root fetch - processPackages [MyLLM]: New version: [4.8.1] Old Version: [4.8.0]
+[2024-04-08 06:55:41] INFO root fetch - processPackages [panpipelines]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-08 06:55:41] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/35/68/7139f22e6048fbd5b6eaf2a27f12716c3c32c7cfd0068d431d8a4f6a90c0/myllm-4.8.0.tar.gz
+[2024-04-08 06:55:41] WARNING root fetch - processPackages [MyLLM]: Timeout reached during download
+[2024-04-08 06:55:41] INFO root fetch - processPackages [panpipelines]: Downloading https://files.pythonhosted.org/packages/b4/3b/193710fba6e585687cd642ddc947cff67c61adb0808aebbe844a20fd9a75/panpipelines-0.9.7.tar.gz
+[2024-04-08 06:55:41] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/74/90/df684483bf194430f474720db062390e0bd538457052b2de49e77b09612a/myllm-4.8.1.tar.gz
+[2024-04-08 06:55:41] WARNING root fetch - processPackages [MyLLM]: Timeout reached during download
+[2024-04-08 06:55:41] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-08 06:55:41] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.0.tar.gz tmp/myllm-4.8.1.tar.gz --markdown 20240408/M/MyLLM/4.8.0-4.8.1/diff.md --exclude *.pyd
+[2024-04-08 06:55:42] WARNING root fetch - processPackages [panpipelines]: Timeout reached during download
+[2024-04-08 06:55:42] INFO root fetch - processPackages [panpipelines]: Downloading https://files.pythonhosted.org/packages/5c/93/d754f6ef8732e5727ce0977690132007726530c145f8a515e0dc67556f7f/panpipelines-0.9.8.tar.gz
+[2024-04-08 06:55:42] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.0.tar.gz]
+[2024-04-08 06:55:42] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.1.tar.gz]
+[2024-04-08 06:55:42] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-08 06:55:42] WARNING root fetch - processPackages [panpipelines]: Timeout reached during download
+[2024-04-08 06:55:42] INFO root fetch - processPackages [panpipelines]: executing diffoscope
+[2024-04-08 06:55:42] INFO root fetch - processPackages [panpipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panpipelines-0.9.7.tar.gz tmp/panpipelines-0.9.8.tar.gz --markdown 20240408/p/panpipelines/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-08 06:55:43] INFO root fetch - processPackages [panpipelines]: Remove: archive file [/home/abi/fetcher/tmp/panpipelines-0.9.7.tar.gz]
+[2024-04-08 06:55:43] INFO root fetch - processPackages [panpipelines]: Remove: archive file [/home/abi/fetcher/tmp/panpipelines-0.9.8.tar.gz]
+[2024-04-08 06:55:43] INFO root fetch - main [MainThread]: End processing [panpipelines]: success
+[2024-04-08 06:55:43] INFO root fetch - main [MainThread]: Store serial: [22662445]
