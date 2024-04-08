@@ -2786,3 +2786,17 @@
 [2024-04-08 03:36:28] INFO root fetch - processPackages [poetry-plugin-commands]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_commands-0.0.2.tar.gz]
 [2024-04-08 03:36:28] INFO root fetch - main [MainThread]: End processing [poetry-plugin-commands]: success
 [2024-04-08 03:36:28] INFO root fetch - main [MainThread]: Store serial: [22660662]
+[2024-04-08 03:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660662]
+[2024-04-08 03:38:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 03:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logger-local
+[2024-04-08 03:38:38] INFO root fetch - processPackages [logger-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-08 03:38:39] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/95/83/cbbeaca04ecc0f2c8811769437b1979bde80cd488f848e324e92d8440499/logger-local-0.0.98.tar.gz
+[2024-04-08 03:38:39] WARNING root fetch - processPackages [logger-local]: Timeout reached during download
+[2024-04-08 03:38:39] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/32/72/d6d6521aa3b74d3c30af8cdee32bb3e7a6008c5629d957853e9e7a3c01b4/logger-local-0.0.99.tar.gz
+[2024-04-08 03:38:39] WARNING root fetch - processPackages [logger-local]: Timeout reached during download
+[2024-04-08 03:38:39] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2024-04-08 03:38:39] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.98.tar.gz tmp/logger-local-0.0.99.tar.gz --markdown 20240408/l/logger-local/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-08 03:38:40] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.98.tar.gz]
+[2024-04-08 03:38:40] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.99.tar.gz]
+[2024-04-08 03:38:40] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2024-04-08 03:38:40] INFO root fetch - main [MainThread]: Store serial: [22660665]
