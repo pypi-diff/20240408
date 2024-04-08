@@ -1902,3 +1902,31 @@
 [2024-04-08 02:27:48] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.9.tar.gz]
 [2024-04-08 02:27:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
 [2024-04-08 02:27:48] INFO root fetch - main [MainThread]: Store serial: [22660349]
+[2024-04-08 02:29:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660349]
+[2024-04-08 02:29:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 02:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crowbar-package-manager
+[2024-04-08 02:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jefferson-street-composer
+[2024-04-08 02:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jefferson-street-singer-ingest
+[2024-04-08 02:29:57] WARNING root fetch - processPackages [crowbar-package-manager]: Skipping, unable to determine old version
+[2024-04-08 02:29:57] INFO root fetch - main [MainThread]: End processing [crowbar-package-manager] error
+[2024-04-08 02:29:57] INFO root fetch - processPackages [jefferson-street-composer]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-04-08 02:29:57] INFO root fetch - processPackages [jefferson-street-singer-ingest]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-08 02:29:57] INFO root fetch - processPackages [jefferson-street-composer]: Downloading https://files.pythonhosted.org/packages/7f/e2/329f27e937438e9102daa7949632857bad0cf648d5b5325a2b0a6bcef081/jefferson_street_composer-1.5.1.tar.gz
+[2024-04-08 02:29:57] INFO root fetch - processPackages [jefferson-street-singer-ingest]: Downloading https://files.pythonhosted.org/packages/4a/8f/81ecdd73518cebb3e83d0b5bffb537a1e5a8136c5bc9b6d3cbf6e8770dc3/jefferson-street-singer-ingest-2.9.0.tar.gz
+[2024-04-08 02:29:57] WARNING root fetch - processPackages [jefferson-street-composer]: Timeout reached during download
+[2024-04-08 02:29:57] WARNING root fetch - processPackages [jefferson-street-singer-ingest]: Timeout reached during download
+[2024-04-08 02:29:57] INFO root fetch - processPackages [jefferson-street-composer]: Downloading https://files.pythonhosted.org/packages/bc/88/ebd1d0fa34ca642f92cbac4c4e3c84ba8f979d00876a5f6cb0b018e03b7a/jefferson-street-composer-1.6.0.tar.gz
+[2024-04-08 02:29:57] INFO root fetch - processPackages [jefferson-street-singer-ingest]: Downloading https://files.pythonhosted.org/packages/9a/0d/9fd59f9d445519bba6d9e402d25bcddbc72d5560d80a77a12d9b91a98ed5/jefferson-street-singer-ingest-2.9.1.tar.gz
+[2024-04-08 02:29:57] WARNING root fetch - processPackages [jefferson-street-composer]: Timeout reached during download
+[2024-04-08 02:29:57] INFO root fetch - processPackages [jefferson-street-composer]: executing diffoscope
+[2024-04-08 02:29:57] INFO root fetch - processPackages [jefferson-street-composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jefferson_street_composer-1.5.1.tar.gz tmp/jefferson-street-composer-1.6.0.tar.gz --markdown 20240408/j/jefferson-street-composer/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2024-04-08 02:29:58] WARNING root fetch - processPackages [jefferson-street-singer-ingest]: Timeout reached during download
+[2024-04-08 02:29:58] INFO root fetch - processPackages [jefferson-street-singer-ingest]: executing diffoscope
+[2024-04-08 02:29:58] INFO root fetch - processPackages [jefferson-street-singer-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jefferson-street-singer-ingest-2.9.0.tar.gz tmp/jefferson-street-singer-ingest-2.9.1.tar.gz --markdown 20240408/j/jefferson-street-singer-ingest/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-08 02:29:58] INFO root fetch - processPackages [jefferson-street-composer]: Remove: archive file [/home/abi/fetcher/tmp/jefferson_street_composer-1.5.1.tar.gz]
+[2024-04-08 02:29:58] INFO root fetch - processPackages [jefferson-street-composer]: Remove: archive file [/home/abi/fetcher/tmp/jefferson-street-composer-1.6.0.tar.gz]
+[2024-04-08 02:29:58] INFO root fetch - main [MainThread]: End processing [jefferson-street-composer]: success
+[2024-04-08 02:29:58] INFO root fetch - processPackages [jefferson-street-singer-ingest]: Remove: archive file [/home/abi/fetcher/tmp/jefferson-street-singer-ingest-2.9.0.tar.gz]
+[2024-04-08 02:29:58] INFO root fetch - processPackages [jefferson-street-singer-ingest]: Remove: archive file [/home/abi/fetcher/tmp/jefferson-street-singer-ingest-2.9.1.tar.gz]
+[2024-04-08 02:29:58] INFO root fetch - main [MainThread]: End processing [jefferson-street-singer-ingest]: success
+[2024-04-08 02:29:58] INFO root fetch - main [MainThread]: Store serial: [22660358]
