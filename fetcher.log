@@ -1886,3 +1886,19 @@
 [2024-04-08 02:23:33] INFO root fetch - processPackages [dbhydra]: Remove: archive file [/home/abi/fetcher/tmp/dbhydra-2.2.1.tar.gz]
 [2024-04-08 02:23:33] INFO root fetch - main [MainThread]: End processing [dbhydra]: success
 [2024-04-08 02:23:33] INFO root fetch - main [MainThread]: Store serial: [22660336]
+[2024-04-08 02:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660336]
+[2024-04-08 02:25:41] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-08 02:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660346]
+[2024-04-08 02:27:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 02:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdk8s
+[2024-04-08 02:27:47] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-08 02:27:47] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/99/a9/22344888a8fca72d2966fa4f98932af4bdd98bcac60e5d091a8e0b304cce/cdktf-cdk8s-0.9.8.tar.gz
+[2024-04-08 02:27:47] WARNING root fetch - processPackages [cdktf-cdk8s]: Timeout reached during download
+[2024-04-08 02:27:47] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/20/45/51fb70e05adcb2ecf1886baf859815ec9ba32caaa0a97ffb3e4c544d7025/cdktf-cdk8s-0.9.9.tar.gz
+[2024-04-08 02:27:47] WARNING root fetch - processPackages [cdktf-cdk8s]: Timeout reached during download
+[2024-04-08 02:27:47] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2024-04-08 02:27:47] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.9.8.tar.gz tmp/cdktf-cdk8s-0.9.9.tar.gz --markdown 20240408/c/cdktf-cdk8s/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-08 02:27:48] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.8.tar.gz]
+[2024-04-08 02:27:48] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.9.tar.gz]
+[2024-04-08 02:27:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2024-04-08 02:27:48] INFO root fetch - main [MainThread]: Store serial: [22660349]
