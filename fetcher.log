@@ -7840,3 +7840,28 @@
 [2024-04-08 06:12:44] INFO root fetch - processPackages [pytoughreact]: Remove: archive file [/home/abi/fetcher/tmp/pytoughreact-1.0.4.tar.gz]
 [2024-04-08 06:12:44] INFO root fetch - main [MainThread]: End processing [pytoughreact]: success
 [2024-04-08 06:12:44] INFO root fetch - main [MainThread]: Store serial: [22662215]
+[2024-04-08 06:14:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662215]
+[2024-04-08 06:15:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 06:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tldrwl
+[2024-04-08 06:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mystring
+[2024-04-08 06:15:02] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-08 06:15:02] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-08 06:15:02] INFO root fetch - processPackages [tldrwl]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-04-08 06:15:02] WARNING root fetch - processPackages [mystring]: Timeout reached during download
+[2024-04-08 06:15:02] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-08 06:15:02] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/58/87/f0d7f8fa7106aea0dcbb0370634e45b4cffb8379421b75e7f8ec362c6e18/tldrwl-1.1.1.tar.gz
+[2024-04-08 06:15:02] WARNING root fetch - processPackages [mystring]: Timeout reached during download
+[2024-04-08 06:15:02] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-08 06:15:02] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240408/m/mystring/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-08 06:15:02] WARNING root fetch - processPackages [tldrwl]: Timeout reached during download
+[2024-04-08 06:15:03] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/2c/4f/ae59d2ea0514fd2ebef1d5960bafeccf634ed4f9cd4c7cd90bcc996d7107/tldrwl-2.0.0.tar.gz
+[2024-04-08 06:15:03] WARNING root fetch - processPackages [tldrwl]: Timeout reached during download
+[2024-04-08 06:15:03] INFO root fetch - processPackages [tldrwl]: executing diffoscope
+[2024-04-08 06:15:03] INFO root fetch - processPackages [tldrwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldrwl-1.1.1.tar.gz tmp/tldrwl-2.0.0.tar.gz --markdown 20240408/t/tldrwl/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2024-04-08 06:15:03] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-08 06:15:03] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-08 06:15:03] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-08 06:15:03] INFO root fetch - processPackages [tldrwl]: Remove: archive file [/home/abi/fetcher/tmp/tldrwl-1.1.1.tar.gz]
+[2024-04-08 06:15:03] INFO root fetch - processPackages [tldrwl]: Remove: archive file [/home/abi/fetcher/tmp/tldrwl-2.0.0.tar.gz]
+[2024-04-08 06:15:03] INFO root fetch - main [MainThread]: End processing [tldrwl]: success
+[2024-04-08 06:15:03] INFO root fetch - main [MainThread]: Store serial: [22662220]
