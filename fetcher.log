@@ -17243,3 +17243,130 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:33:56] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-08 12:33:56] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-08 12:33:56] INFO root fetch - main [MainThread]: Store serial: [22665716]
+[2024-04-08 12:36:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665716]
+[2024-04-08 12:36:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjected
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hybrid-model-for-russian-sentiment-analysis
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyconverters-whisperx
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu121
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apptrackr
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentelemetry_wrapper
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QPrimaryFlightDisplay
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nablachem
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvfuser-cu118
+[2024-04-08 12:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-cnrail
+[2024-04-08 12:36:06] INFO root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-08 12:36:06] INFO root fetch - processPackages [apptrackr]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [QPrimaryFlightDisplay]: Skipping, unable to determine old version
+[2024-04-08 12:36:06] INFO root fetch - processPackages [QPrimaryFlightDisplay]: Start processing: cxapit
+[2024-04-08 12:36:06] INFO root fetch - main [MainThread]: End processing [QPrimaryFlightDisplay] error
+[2024-04-08 12:36:06] INFO root fetch - processPackages [pyconverters-whisperx]: New version: [0.5.8] Old Version: [0.5.6]
+[2024-04-08 12:36:06] INFO root fetch - processPackages [cxapit]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nablachem]: New version: [24.6] Old Version: [24.5]
+[2024-04-08 12:36:06] INFO root fetch - processPackages [pinjected]: New version: [0.2.27] Old Version: [0.2.26]
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.0.dev20240408] Old Version: [0.2.0.dev20240407]
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nonebot-plugin-cnrail]: New version: [0.2.2.dev1] Old Version: [0.2.2]
+[2024-04-08 12:36:06] INFO root fetch - processPackages [apptrackr]: Downloading https://files.pythonhosted.org/packages/31/97/1dd3c37b4f63f35286e3837789de1c59d223d150b3e7cdbade531e6a9fd1/apptrackr-0.1.8.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.0.dev20240408] Old Version: [0.2.0.dev20240407]
+[2024-04-08 12:36:06] INFO root fetch - processPackages [opentelemetry_wrapper]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-08 12:36:06] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/f4/fe/48db6da0d340bde88c487ce2139a98bf8e9dee84ab1c79ae3b469ff49f22/pyconverters_whisperx-0.5.6.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nablachem]: Downloading https://files.pythonhosted.org/packages/d6/c4/55b31861cf771297a2f95fdac2bcbd6d2029d1c60d8e50e8064ea6174a11/nablachem-24.5.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: Downloading https://files.pythonhosted.org/packages/0a/92/5f16f6ae0c0018c8018e86047d582c991f7192607201478e9fcc1d64b1b7/hybrid_model_for_russian_sentiment_analysis-1.0.0-py3-none-any.whl
+[2024-04-08 12:36:06] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/78/f2/3739238cc4139126322eb243993b6f1d4c5015b1d214ae0e556a47e47e59/pinjected-0.2.26.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/8c/b3/194c9b4eb5fc5a0e322cceffb678445dfe8142c17f95514a0fee616d4b7c/cxapit-1.0.1.tar.gz
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [apptrackr]: Timeout reached during download
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nonebot-plugin-cnrail]: Downloading https://files.pythonhosted.org/packages/4c/e4/8a25a777e1f32a7d16981f74b496170028894c827aad8931fd4f29f6a98a/nonebot_plugin_cnrail-0.2.2.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/37/6c/c4be4da4c21863482c05879f2831cbaeeff261f564f7a62ce1e4ef0e15d1/nvfuser_cu121-0.2.0.dev20240407.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/27/83/b0588c2396495bb3f8fdd30fde978ed79089e34e6634cc8e8f3d5ed0d839/opentelemetry_wrapper-0.1.7.tar.gz
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [nablachem]: Timeout reached during download
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: Timeout reached during download
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/a7/b9/8cb871cae552578ca5bb14991ba6abbb9918fae7983dcc864f84f96fab6d/nvfuser_cu118-0.2.0.dev20240407.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [apptrackr]: Downloading https://files.pythonhosted.org/packages/b4/0f/859814a9ebf1ef1586a2984815afce74e43127700ac3480f99f58ffa046c/apptrackr-0.1.9.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/dc/ec/ff501478fb84c38f5095967373e4a5aa5005334b81530a2f0c93bc2328dc/pyconverters_whisperx-0.5.8.tar.gz
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [nvfuser-cu121]: Timeout reached during download
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [pinjected]: Timeout reached during download
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [nvfuser-cu118]: Timeout reached during download
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [nonebot-plugin-cnrail]: Timeout reached during download
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [apptrackr]: Timeout reached during download
+[2024-04-08 12:36:06] INFO root fetch - processPackages [apptrackr]: executing diffoscope
+[2024-04-08 12:36:06] INFO root fetch - processPackages [apptrackr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apptrackr-0.1.8.tar.gz tmp/apptrackr-0.1.9.tar.gz --markdown 20240408/a/apptrackr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [opentelemetry_wrapper]: Timeout reached during download
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nablachem]: Downloading https://files.pythonhosted.org/packages/17/95/825832c375cf82ab949068e9d218f00313cd9de378c999c76a3295396e8b/nablachem-24.6.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: Downloading https://files.pythonhosted.org/packages/fe/78/492371974a61ccb34fa34553a991f3e0e8d58ca0df31a7015261ce7e5a56/hybrid_model_for_russian_sentiment_analysis-1.0.1-py3-none-any.whl
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 12:36:06] INFO root fetch - processPackages [pyconverters-whisperx]: executing diffoscope
+[2024-04-08 12:36:06] INFO root fetch - processPackages [pyconverters-whisperx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconverters_whisperx-0.5.6.tar.gz tmp/pyconverters_whisperx-0.5.8.tar.gz --markdown 20240408/p/pyconverters-whisperx/0.5.6-0.5.8/diff.md --exclude *.pyd
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/ee/ab/b759eaf675799ef277f22d14c8390ddc3fdf462522ec46ff04a95eae6323/nvfuser_cu121-0.2.0.dev20240408.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [cxapit]: Downloading https://files.pythonhosted.org/packages/4f/1a/5c086040945c53c41d0b4d3f8d693e67a71eaea6c49a6131085c2c7e758e/cxapit-1.0.2.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/9a/f6/b6d3eeddde1a34b92dfda3e77cd8d43eb9f698892b121b7d26f63c44abfc/pinjected-0.2.27.tar.gz
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [nablachem]: Timeout reached during download
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nablachem]: executing diffoscope
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nablachem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nablachem-24.5.tar.gz tmp/nablachem-24.6.tar.gz --markdown 20240408/n/nablachem/24.5-24.6/diff.md --exclude *.pyd
+[2024-04-08 12:36:06] WARNING root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: Timeout reached during download
+[2024-04-08 12:36:06] INFO root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: executing diffoscope
+[2024-04-08 12:36:06] INFO root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hybrid_model_for_russian_sentiment_analysis-1.0.0-py3-none-any.whl.zip tmp/hybrid_model_for_russian_sentiment_analysis-1.0.1-py3-none-any.whl.zip --markdown 20240408/h/hybrid-model-for-russian-sentiment-analysis/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/1e/c1/0bffd623da74ade7140010748dba9be73eb43dce5f9f65cec44525fbdf4e/nvfuser_cu118-0.2.0.dev20240408.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/67/47/b25363c3514656a1f2a3e2d8c2cfa5afcf6bfa4deb213d3d91e82021d38a/opentelemetry_wrapper-0.1.8.tar.gz
+[2024-04-08 12:36:06] INFO root fetch - processPackages [nonebot-plugin-cnrail]: Downloading https://files.pythonhosted.org/packages/d8/04/7426f573e9e06a850b2c0e32d1d9c9fc34568813870577342f03fea1852d/nonebot_plugin_cnrail-0.2.2.dev1.tar.gz
+[2024-04-08 12:36:07] WARNING root fetch - processPackages [nvfuser-cu121]: Timeout reached during download
+[2024-04-08 12:36:07] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-04-08 12:36:07] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.0.dev20240407.tar.gz tmp/nvfuser_cu121-0.2.0.dev20240408.tar.gz --markdown 20240408/n/nvfuser-cu121/0.2.0.dev20240407-0.2.0.dev20240408/diff.md --exclude *.pyd
+[2024-04-08 12:36:07] WARNING root fetch - processPackages [cxapit]: Timeout reached during download
+[2024-04-08 12:36:07] INFO root fetch - processPackages [cxapit]: executing diffoscope
+[2024-04-08 12:36:07] INFO root fetch - processPackages [cxapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxapit-1.0.1.tar.gz tmp/cxapit-1.0.2.tar.gz --markdown 20240408/c/cxapit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-08 12:36:07] WARNING root fetch - processPackages [pinjected]: Timeout reached during download
+[2024-04-08 12:36:07] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-08 12:36:07] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.26.tar.gz tmp/pinjected-0.2.27.tar.gz --markdown 20240408/p/pinjected/0.2.26-0.2.27/diff.md --exclude *.pyd
+[2024-04-08 12:36:07] WARNING root fetch - processPackages [nvfuser-cu118]: Timeout reached during download
+[2024-04-08 12:36:07] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-04-08 12:36:07] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.0.dev20240407.tar.gz tmp/nvfuser_cu118-0.2.0.dev20240408.tar.gz --markdown 20240408/n/nvfuser-cu118/0.2.0.dev20240407-0.2.0.dev20240408/diff.md --exclude *.pyd
+[2024-04-08 12:36:07] WARNING root fetch - processPackages [opentelemetry_wrapper]: Timeout reached during download
+[2024-04-08 12:36:07] INFO root fetch - processPackages [opentelemetry_wrapper]: executing diffoscope
+[2024-04-08 12:36:07] INFO root fetch - processPackages [opentelemetry_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_wrapper-0.1.7.tar.gz tmp/opentelemetry_wrapper-0.1.8.tar.gz --markdown 20240408/o/opentelemetry_wrapper/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-08 12:36:07] WARNING root fetch - processPackages [nonebot-plugin-cnrail]: Timeout reached during download
+[2024-04-08 12:36:07] INFO root fetch - processPackages [nonebot-plugin-cnrail]: executing diffoscope
+[2024-04-08 12:36:07] INFO root fetch - processPackages [nonebot-plugin-cnrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cnrail-0.2.2.tar.gz tmp/nonebot_plugin_cnrail-0.2.2.dev1.tar.gz --markdown 20240408/n/nonebot-plugin-cnrail/0.2.2-0.2.2.dev1/diff.md --exclude *.pyd
+[2024-04-08 12:36:08] INFO root fetch - processPackages [apptrackr]: Remove: archive file [/home/abi/fetcher/tmp/apptrackr-0.1.8.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [apptrackr]: Remove: archive file [/home/abi/fetcher/tmp/apptrackr-0.1.9.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [apptrackr]: Start processing: ign8
+[2024-04-08 12:36:08] INFO root fetch - main [MainThread]: End processing [apptrackr]: success
+[2024-04-08 12:36:08] INFO root fetch - processPackages [ign8]: New version: [4.8.5] Old Version: [4.8.27]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [pyconverters-whisperx]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_whisperx-0.5.6.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [pyconverters-whisperx]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_whisperx-0.5.8.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - main [MainThread]: End processing [pyconverters-whisperx]: success
+[2024-04-08 12:36:08] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/b1/1e/963b0bc252eb0bf8b4dd86215cb2b506008e8546c77da0ede302c6dbed68/ign8-4.8.27.tar.gz
+[2024-04-08 12:36:08] INFO root fetch - processPackages [nablachem]: Remove: archive file [/home/abi/fetcher/tmp/nablachem-24.5.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [nablachem]: Remove: archive file [/home/abi/fetcher/tmp/nablachem-24.6.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - main [MainThread]: End processing [nablachem]: success
+[2024-04-08 12:36:08] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.0.dev20240407.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.0.dev20240408.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-04-08 12:36:08] INFO root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: Remove: archive file [/home/abi/fetcher/tmp/hybrid_model_for_russian_sentiment_analysis-1.0.0-py3-none-any.whl.zip]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [hybrid-model-for-russian-sentiment-analysis]: Remove: archive file [/home/abi/fetcher/tmp/hybrid_model_for_russian_sentiment_analysis-1.0.1-py3-none-any.whl.zip]
+[2024-04-08 12:36:08] INFO root fetch - main [MainThread]: End processing [hybrid-model-for-russian-sentiment-analysis]: success
+[2024-04-08 12:36:08] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.0.dev20240407.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.0.dev20240408.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-04-08 12:36:08] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:36:08] INFO root fetch - processPackages [nonebot-plugin-cnrail]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cnrail-0.2.2.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [nonebot-plugin-cnrail]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cnrail-0.2.2.dev1.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cnrail]: success
+[2024-04-08 12:36:08] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.7.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.8.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
+[2024-04-08 12:36:08] INFO root fetch - processPackages [ign8]: Downloading https://files.pythonhosted.org/packages/53/c5/eb3ad023709d77222a1546cf365786bce1a60e13e33be3c18d5e24ca2eaf/ign8-4.8.5.tar.gz
+[2024-04-08 12:36:08] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.26.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.27.tar.gz]
+[2024-04-08 12:36:08] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-08 12:36:08] WARNING root fetch - processPackages [ign8]: Timeout reached during download
+[2024-04-08 12:36:08] INFO root fetch - processPackages [ign8]: executing diffoscope
+[2024-04-08 12:36:08] INFO root fetch - processPackages [ign8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign8-4.8.27.tar.gz tmp/ign8-4.8.5.tar.gz --markdown 20240408/i/ign8/4.8.27-4.8.5/diff.md --exclude *.pyd
+[2024-04-08 12:36:09] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.1.tar.gz]
+[2024-04-08 12:36:09] INFO root fetch - processPackages [cxapit]: Remove: archive file [/home/abi/fetcher/tmp/cxapit-1.0.2.tar.gz]
+[2024-04-08 12:36:09] INFO root fetch - main [MainThread]: End processing [cxapit]: success
+[2024-04-08 12:36:12] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.27.tar.gz]
+[2024-04-08 12:36:12] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.8.5.tar.gz]
+[2024-04-08 12:36:12] INFO root fetch - main [MainThread]: End processing [ign8]: success
+[2024-04-08 12:36:12] INFO root fetch - main [MainThread]: Store serial: [22665747]
