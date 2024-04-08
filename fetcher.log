@@ -2421,3 +2421,17 @@
 [2024-04-08 03:07:13] INFO root fetch - processPackages [pyway]: Remove: archive file [/home/abi/fetcher/tmp/pyway-0.3.9.tar.gz]
 [2024-04-08 03:07:13] INFO root fetch - main [MainThread]: End processing [pyway]: success
 [2024-04-08 03:07:13] INFO root fetch - main [MainThread]: Store serial: [22660526]
+[2024-04-08 03:09:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660526]
+[2024-04-08 03:09:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 03:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbase2
+[2024-04-08 03:09:21] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.70]
+[2024-04-08 03:09:21] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/b5/bc/b97682452caf31cf8260d3bc43863ab2184ef71a53cea09520a6a9838cd2/modelbase2-0.1.70.tar.gz
+[2024-04-08 03:09:22] WARNING root fetch - processPackages [modelbase2]: Timeout reached during download
+[2024-04-08 03:09:22] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2024-04-08 03:09:22] WARNING root fetch - processPackages [modelbase2]: Timeout reached during download
+[2024-04-08 03:09:22] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2024-04-08 03:09:22] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.70.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20240408/m/modelbase2/0.1.70-0.1.8/diff.md --exclude *.pyd
+[2024-04-08 03:09:23] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.70.tar.gz]
+[2024-04-08 03:09:23] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.8.tar.gz]
+[2024-04-08 03:09:23] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2024-04-08 03:09:23] INFO root fetch - main [MainThread]: Store serial: [22660529]
