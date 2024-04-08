@@ -10154,3 +10154,42 @@
 [2024-04-08 08:20:10] INFO root fetch - processPackages [y-tal]: Remove: archive file [/home/abi/fetcher/tmp/y-tal-0.9.3.tar.gz]
 [2024-04-08 08:20:10] INFO root fetch - main [MainThread]: End processing [y-tal]: success
 [2024-04-08 08:20:10] INFO root fetch - main [MainThread]: Store serial: [22662918]
+[2024-04-08 08:22:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662918]
+[2024-04-08 08:22:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-polylith-plugin
+[2024-04-08 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy_kite_methods
+[2024-04-08 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polylith-cli
+[2024-04-08 08:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2024-04-08 08:22:19] INFO root fetch - processPackages [poetry-polylith-plugin]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-08 08:22:19] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/49/29/a828c35757bf7535ba7a9b6395c25166501b045b4b233d801fa6896b0e31/poetry_polylith_plugin-1.8.3.tar.gz
+[2024-04-08 08:22:19] INFO root fetch - processPackages [polylith-cli]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-04-08 08:22:19] WARNING root fetch - processPackages [easy_kite_methods]: Skipping, unable to determine old version
+[2024-04-08 08:22:19] INFO root fetch - main [MainThread]: End processing [easy_kite_methods] error
+[2024-04-08 08:22:19] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-08 08:22:19] WARNING root fetch - processPackages [poetry-polylith-plugin]: Timeout reached during download
+[2024-04-08 08:22:19] INFO root fetch - processPackages [polylith-cli]: Downloading https://files.pythonhosted.org/packages/ea/52/efeefec05577e3f907cb717f438cf1036e50e5e4f5fdee18b7fe9e431251/polylith_cli-1.4.1.tar.gz
+[2024-04-08 08:22:19] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/de/fb/c9f8f5b2f80b91fb096f4de78316ccfa166654868df2adb403f80746fe2f/poetry_polylith_plugin-1.9.0.tar.gz
+[2024-04-08 08:22:19] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-04-08 08:22:19] WARNING root fetch - processPackages [poetry-polylith-plugin]: Timeout reached during download
+[2024-04-08 08:22:19] INFO root fetch - processPackages [poetry-polylith-plugin]: executing diffoscope
+[2024-04-08 08:22:19] INFO root fetch - processPackages [poetry-polylith-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_polylith_plugin-1.8.3.tar.gz tmp/poetry_polylith_plugin-1.9.0.tar.gz --markdown 20240408/p/poetry-polylith-plugin/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2024-04-08 08:22:19] WARNING root fetch - processPackages [polylith-cli]: Timeout reached during download
+[2024-04-08 08:22:20] WARNING root fetch - processPackages [bridgecrew]: Timeout reached during download
+[2024-04-08 08:22:20] INFO root fetch - processPackages [polylith-cli]: Downloading https://files.pythonhosted.org/packages/93/a8/289bf8123380e8d8a6341e2c164d8b58fe3699c3309f93455fed4cabffe7/polylith_cli-1.5.0.tar.gz
+[2024-04-08 08:22:20] WARNING root fetch - processPackages [polylith-cli]: Timeout reached during download
+[2024-04-08 08:22:20] INFO root fetch - processPackages [polylith-cli]: executing diffoscope
+[2024-04-08 08:22:20] INFO root fetch - processPackages [polylith-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polylith_cli-1.4.1.tar.gz tmp/polylith_cli-1.5.0.tar.gz --markdown 20240408/p/polylith-cli/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2024-04-08 08:22:20] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-04-08 08:22:20] WARNING root fetch - processPackages [bridgecrew]: Timeout reached during download
+[2024-04-08 08:22:20] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-04-08 08:22:20] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240408/b/bridgecrew/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2024-04-08 08:22:20] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.8.3.tar.gz]
+[2024-04-08 08:22:20] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.9.0.tar.gz]
+[2024-04-08 08:22:20] INFO root fetch - main [MainThread]: End processing [poetry-polylith-plugin]: success
+[2024-04-08 08:22:20] INFO root fetch - processPackages [polylith-cli]: Remove: archive file [/home/abi/fetcher/tmp/polylith_cli-1.4.1.tar.gz]
+[2024-04-08 08:22:20] INFO root fetch - processPackages [polylith-cli]: Remove: archive file [/home/abi/fetcher/tmp/polylith_cli-1.5.0.tar.gz]
+[2024-04-08 08:22:20] INFO root fetch - main [MainThread]: End processing [polylith-cli]: success
+[2024-04-08 08:22:21] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-04-08 08:22:21] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-04-08 08:22:21] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-04-08 08:22:21] INFO root fetch - main [MainThread]: Store serial: [22662932]
