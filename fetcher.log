@@ -6651,3 +6651,114 @@
 [2024-04-08 05:33:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ssl]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ssl-3.0.999.tar.gz]
 [2024-04-08 05:33:38] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssl]: success
 [2024-04-08 05:33:38] INFO root fetch - main [MainThread]: Store serial: [22661864]
+[2024-04-08 05:35:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661864]
+[2024-04-08 05:35:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-sslpod
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-ssm
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-sts
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrfuniverse-test
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-svp
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slurm-gui
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-taf
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: galileo-core
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-tag
+[2024-04-08 05:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-tan
+[2024-04-08 05:35:51] INFO root fetch - processPackages [galileo-core]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-08 05:35:51] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/f7/48/c9b727a7beaae7f770648f51b2373f4e00a7f78cba5706786ce6133b07da/galileo_core-0.8.0.tar.gz
+[2024-04-08 05:35:51] WARNING root fetch - processPackages [slurm-gui]: Skipping, unable to determine old version
+[2024-04-08 05:35:51] INFO root fetch - processPackages [slurm-gui]: Start processing: cxapit
+[2024-04-08 05:35:51] INFO root fetch - main [MainThread]: End processing [slurm-gui] error
+[2024-04-08 05:35:51] WARNING root fetch - processPackages [pyrfuniverse-test]: Skipping, unable to determine old version
+[2024-04-08 05:35:51] INFO root fetch - processPackages [pyrfuniverse-test]: Start processing: tencentcloud-sdk-python-tav
+[2024-04-08 05:35:51] INFO root fetch - main [MainThread]: End processing [pyrfuniverse-test] error
+[2024-04-08 05:35:51] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:35:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:35:51] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:35:51] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:35:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:35:51] WARNING root fetch - processPackages [cxapit]: Skipping, unable to determine old version
+[2024-04-08 05:35:51] INFO root fetch - main [MainThread]: End processing [cxapit] error
+[2024-04-08 05:35:51] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:35:51] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 05:35:51] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: New version: [3.0.1124] Old Version: [3.0.1123]
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: Downloading https://files.pythonhosted.org/packages/90/77/b35e345f60297b3ad4defa32eeb194be090b162d9a69ea070f9a05cb02a4/tencentcloud-sdk-python-sts-3.0.998.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Downloading https://files.pythonhosted.org/packages/48/68/7b0a4f5c6be6b795f71ed4953b785084c842dd66b1ca54964580aeaecd1a/tencentcloud-sdk-python-tan-3.0.998.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: Downloading https://files.pythonhosted.org/packages/99/9f/2d2dfaf50865c52c91e23008bd054315723abe573a123926dc4671a87d4b/tencentcloud-sdk-python-ssm-3.0.998.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Downloading https://files.pythonhosted.org/packages/b5/01/08c33dcfc1938a83ce0d5bd063a7ef3ad36d68419ee5f6631a6eef0caaa4/tencentcloud-sdk-python-taf-3.0.998.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/29/86/bc025d6e5c5acac1e46676e8598c5aea59c56d5c0936bfe9b5264abbab9a/tencentcloud-sdk-python-tag-3.0.998.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: Downloading https://files.pythonhosted.org/packages/d0/f1/172c05c34c820f6dc815123a21605a2d427f0e5fb7e248e1b4debcd7fe40/tencentcloud-sdk-python-sslpod-3.0.998.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/dd/b1/4561d2843a763ee883e2911b97063ee27f430f395be6192bdb6c3b5a946f/galileo_core-0.8.1.tar.gz
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-sts]: Timeout reached during download
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: Downloading https://files.pythonhosted.org/packages/b3/81/a82f0e603189b2871c3345cff5b14c5098a2a4380fd55240fc2066fec935/tencentcloud-sdk-python-svp-3.0.1123.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-taf]: Timeout reached during download
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-tan]: Timeout reached during download
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 05:35:52] INFO root fetch - processPackages [galileo-core]: executing diffoscope
+[2024-04-08 05:35:52] INFO root fetch - processPackages [galileo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_core-0.8.0.tar.gz tmp/galileo_core-0.8.1.tar.gz --markdown 20240408/g/galileo-core/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-ssm]: Timeout reached during download
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-tag]: Timeout reached during download
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-sslpod]: Timeout reached during download
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-svp]: Timeout reached during download
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: Downloading https://files.pythonhosted.org/packages/7b/4f/b28fc36ce86cbd7df1f96a0af7dd2d7d782d74719555f77eae9c059f2041/tencentcloud-sdk-python-sts-3.0.999.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/9b/34/de50dfc88ceeb07111350b897df1a05300d50556c5113a6983134045a76f/tencentcloud-sdk-python-tav-3.0.998.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Downloading https://files.pythonhosted.org/packages/f4/16/497d23897bdb0599381cb152e1dea16b05208ee4841f36ccb062e26590e8/tencentcloud-sdk-python-taf-3.0.999.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Downloading https://files.pythonhosted.org/packages/e2/bd/c533bdd6a2fef16b01bfe9399cc6b7c9316a33bb7b3c6b1a16e3c0b8b24a/tencentcloud-sdk-python-tan-3.0.999.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: Downloading https://files.pythonhosted.org/packages/44/51/21fb3551db569cf79fe1197a77d4ce512670af101ae7b984b6cb42a98249/tencentcloud-sdk-python-svp-3.0.1124.tar.gz
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/26/0d/6cbab21bb92bb010935632e7faab0ec6641e13a2f6ed7421bcb7a0c87b4c/tencentcloud-sdk-python-tag-3.0.999.tar.gz
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-sts]: Timeout reached during download
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: executing diffoscope
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-sts-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-sts/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: Downloading https://files.pythonhosted.org/packages/e0/5a/d2e28542a4e0ccf099fd3db1f92ee937272453646881b1531fda08ae878f/tencentcloud-sdk-python-sslpod-3.0.999.tar.gz
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-tav]: Timeout reached during download
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-taf]: Timeout reached during download
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-svp]: Timeout reached during download
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: executing diffoscope
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-taf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-taf-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-taf/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: executing diffoscope
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-svp-3.0.1123.tar.gz tmp/tencentcloud-sdk-python-svp-3.0.1124.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-svp/3.0.1123-3.0.1124/diff.md --exclude *.pyd
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: Downloading https://files.pythonhosted.org/packages/4e/62/c809faf9534dc8321c07d2ab49e64d29759eb68786f815a986d7284c72c0/tencentcloud-sdk-python-ssm-3.0.999.tar.gz
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-tag]: Timeout reached during download
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: executing diffoscope
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tag/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:35:52] WARNING root fetch - processPackages [tencentcloud-sdk-python-sslpod]: Timeout reached during download
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: executing diffoscope
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sslpod-3.0.998.tar.gz tmp/tencentcloud-sdk-python-sslpod-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-sslpod/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:35:52] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.8.0.tar.gz]
+[2024-04-08 05:35:52] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.8.1.tar.gz]
+[2024-04-08 05:35:52] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
+[2024-04-08 05:35:52] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/a8/05/e40eae77c8e9818894b67981ee6c9847b1a6fe1dd5ed93f0f292de0aaae7/tencentcloud-sdk-python-tav-3.0.999.tar.gz
+[2024-04-08 05:35:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-ssm]: Timeout reached during download
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: executing diffoscope
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ssm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ssm-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-ssm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:35:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tav]: Timeout reached during download
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: executing diffoscope
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tav/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sts-3.0.998.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sts-3.0.999.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sts]: success
+[2024-04-08 05:35:53] WARNING root fetch - processPackages [tencentcloud-sdk-python-tan]: Timeout reached during download
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: executing diffoscope
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tan-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tan-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-tan/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tag]: success
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-svp-3.0.1123.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-svp-3.0.1124.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-svp]: success
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sslpod-3.0.998.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sslpod-3.0.999.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sslpod]: success
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ssm-3.0.998.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ssm-3.0.999.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssm]: success
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-taf-3.0.998.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-taf-3.0.999.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-taf]: success
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz]
+[2024-04-08 05:35:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tav]: success
+[2024-04-08 05:35:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tan-3.0.998.tar.gz]
+[2024-04-08 05:35:54] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tan-3.0.999.tar.gz]
+[2024-04-08 05:35:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tan]: success
+[2024-04-08 05:35:54] INFO root fetch - main [MainThread]: Store serial: [22661909]
