@@ -1,4 +1,4 @@
-# Comparing `tmp/polars_ts-0.0.1.tar.gz` & `tmp/polars_ts-0.0.2-cp38-abi3-macosx_11_0_arm64.whl.zip`
+# Comparing `tmp/polars_ts-0.0.1.tar.gz` & `tmp/polars_ts-0.0.2.tar.gz`
 
 ## filetype from file(1)
 
