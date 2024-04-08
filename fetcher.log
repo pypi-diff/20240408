@@ -3108,3 +3108,17 @@
 [2024-04-08 04:02:50] INFO root fetch - processPackages [pluggy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pluggy-sdk-1.0.0.post3.tar.gz]
 [2024-04-08 04:02:50] INFO root fetch - main [MainThread]: End processing [pluggy-sdk]: success
 [2024-04-08 04:02:50] INFO root fetch - main [MainThread]: Store serial: [22660803]
+[2024-04-08 04:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660803]
+[2024-04-08 04:04:59] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 04:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chesscli
+[2024-04-08 04:04:59] INFO root fetch - processPackages [chesscli]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-08 04:04:59] INFO root fetch - processPackages [chesscli]: Downloading https://files.pythonhosted.org/packages/33/57/534e97f857f700b2deb388cf2a1e462ef8937a2b9a12be45f565f805cb68/chesscli-0.2.0.tar.gz
+[2024-04-08 04:04:59] WARNING root fetch - processPackages [chesscli]: Timeout reached during download
+[2024-04-08 04:04:59] INFO root fetch - processPackages [chesscli]: Downloading https://files.pythonhosted.org/packages/51/6f/8807dee5d03a6ffd0030e80c56e4fae570c9729cf65595cb082edc969122/chesscli-0.2.1.tar.gz
+[2024-04-08 04:05:00] WARNING root fetch - processPackages [chesscli]: Timeout reached during download
+[2024-04-08 04:05:00] INFO root fetch - processPackages [chesscli]: executing diffoscope
+[2024-04-08 04:05:00] INFO root fetch - processPackages [chesscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chesscli-0.2.0.tar.gz tmp/chesscli-0.2.1.tar.gz --markdown 20240408/c/chesscli/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-08 04:05:00] INFO root fetch - processPackages [chesscli]: Remove: archive file [/home/abi/fetcher/tmp/chesscli-0.2.0.tar.gz]
+[2024-04-08 04:05:00] INFO root fetch - processPackages [chesscli]: Remove: archive file [/home/abi/fetcher/tmp/chesscli-0.2.1.tar.gz]
+[2024-04-08 04:05:00] INFO root fetch - main [MainThread]: End processing [chesscli]: success
+[2024-04-08 04:05:00] INFO root fetch - main [MainThread]: Store serial: [22660806]
