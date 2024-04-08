@@ -20278,3 +20278,84 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 14:21:46] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.5.0.dev0.tar.gz]
 [2024-04-08 14:21:46] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
 [2024-04-08 14:21:46] INFO root fetch - main [MainThread]: Store serial: [22666787]
+[2024-04-08 14:23:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666787]
+[2024-04-08 14:23:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 14:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: original-metaplex-python
+[2024-04-08 14:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testsolar-testtool-sdk
+[2024-04-08 14:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s
+[2024-04-08 14:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manipulation
+[2024-04-08 14:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m3-gar-client
+[2024-04-08 14:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ip-check
+[2024-04-08 14:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2024-04-08 14:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyperglot
+[2024-04-08 14:23:55] WARNING root fetch - processPackages [testsolar-testtool-sdk]: Skipping, unable to determine old version
+[2024-04-08 14:23:55] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk] error
+[2024-04-08 14:23:55] INFO root fetch - processPackages [original-metaplex-python]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-04-08 14:23:55] INFO root fetch - processPackages [original-metaplex-python]: Downloading https://files.pythonhosted.org/packages/a1/c7/8c2b2aba6526c677fe2faf6eba399074a9a9534c23f1045490d8ef465711/original_metaplex_python-0.0.1a1.tar.gz
+[2024-04-08 14:23:55] INFO root fetch - processPackages [manipulation]: New version: [2024.4.8] Old Version: [2024.3.28]
+[2024-04-08 14:23:55] INFO root fetch - processPackages [m3-gar-client]: New version: [1.2.0] Old Version: [1.1.3]
+[2024-04-08 14:23:55] INFO root fetch - processPackages [hyperglot]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-08 14:23:55] INFO root fetch - processPackages [ip-check]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-08 14:23:55] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-08 14:23:55] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-08 14:23:55] WARNING root fetch - processPackages [original-metaplex-python]: Timeout reached during download
+[2024-04-08 14:23:56] INFO root fetch - processPackages [original-metaplex-python]: Downloading https://files.pythonhosted.org/packages/be/78/3e2b893c4dc308d52567af91797453acd9543014482bc86c36017d0fe66e/original_metaplex_python-0.0.1a2.tar.gz
+[2024-04-08 14:23:56] INFO root fetch - processPackages [manipulation]: Downloading https://files.pythonhosted.org/packages/8d/bb/2d52789fac08c11bff33bfc215227ab20f1c81af73f2f38b5ff356ad9cc5/manipulation-2024.3.28.tar.gz
+[2024-04-08 14:23:56] INFO root fetch - processPackages [hyperglot]: Downloading https://files.pythonhosted.org/packages/61/ba/21de9ff3a21d31863ac1d0fd5a55d95f32e493a99177b9eabca31f6ac79f/hyperglot-0.6.2.tar.gz
+[2024-04-08 14:23:56] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/d1/6f/2492a98e6a0253e2a22b357102dd1634a1f21a7df2e0482d5e93018dae3a/m3-gar-client-1.1.3.tar.gz
+[2024-04-08 14:23:56] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/2e/67/b2bd012e6eb6f27aab991bd2b8d638620d94a9e7022b90858e08bccda328/ip_check-1.5.1-py3-none-any.whl
+[2024-04-08 14:23:56] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-08 14:23:56] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [original-metaplex-python]: Timeout reached during download
+[2024-04-08 14:23:56] INFO root fetch - processPackages [original-metaplex-python]: executing diffoscope
+[2024-04-08 14:23:56] INFO root fetch - processPackages [original-metaplex-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/original_metaplex_python-0.0.1a1.tar.gz tmp/original_metaplex_python-0.0.1a2.tar.gz --markdown 20240408/o/original-metaplex-python/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [hyperglot]: Timeout reached during download
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [ip-check]: Timeout reached during download
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [m3-gar-client]: Timeout reached during download
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [manipulation]: Timeout reached during download
+[2024-04-08 14:23:56] INFO root fetch - processPackages [hyperglot]: Downloading https://files.pythonhosted.org/packages/89/20/e63fb1b6652bcd724a1fad9df5577b96a620f16fae3926720b4b34db5141/hyperglot-0.6.3.tar.gz
+[2024-04-08 14:23:56] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/ff/3f/89f02c6d52338495bccd2c8ff6d3a68fb24bd0eb083cdd95ef2108ec7c9b/ip_check-1.5.2-py3-none-any.whl
+[2024-04-08 14:23:56] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-08 14:23:56] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/91/af/419a5fb34bd21b72fa222d89a37b0160171243069bb750685b7dca3efc61/m3-gar-client-1.2.0.tar.gz
+[2024-04-08 14:23:56] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-08 14:23:56] INFO root fetch - processPackages [manipulation]: Downloading https://files.pythonhosted.org/packages/21/dc/f24864a08263443a9df6b99d17da44cb862870f79a536935b1bb4edaa312/manipulation-2024.4.8.tar.gz
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [ip-check]: Timeout reached during download
+[2024-04-08 14:23:56] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-04-08 14:23:56] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.5.1-py3-none-any.whl.zip tmp/ip_check-1.5.2-py3-none-any.whl.zip --markdown 20240408/i/ip-check/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [m3-gar-client]: Timeout reached during download
+[2024-04-08 14:23:56] INFO root fetch - processPackages [m3-gar-client]: executing diffoscope
+[2024-04-08 14:23:56] INFO root fetch - processPackages [m3-gar-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-gar-client-1.1.3.tar.gz tmp/m3-gar-client-1.2.0.tar.gz --markdown 20240408/m/m3-gar-client/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [hyperglot]: Timeout reached during download
+[2024-04-08 14:23:56] INFO root fetch - processPackages [hyperglot]: executing diffoscope
+[2024-04-08 14:23:56] INFO root fetch - processPackages [hyperglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperglot-0.6.2.tar.gz tmp/hyperglot-0.6.3.tar.gz --markdown 20240408/h/hyperglot/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-08 14:23:56] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-08 14:23:56] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240408/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [cdk8s]: Timeout reached during download
+[2024-04-08 14:23:56] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-08 14:23:56] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240408/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-08 14:23:56] WARNING root fetch - processPackages [manipulation]: Timeout reached during download
+[2024-04-08 14:23:56] INFO root fetch - processPackages [manipulation]: executing diffoscope
+[2024-04-08 14:23:56] INFO root fetch - processPackages [manipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manipulation-2024.3.28.tar.gz tmp/manipulation-2024.4.8.tar.gz --markdown 20240408/m/manipulation/2024.3.28-2024.4.8/diff.md --exclude *.pyd
+[2024-04-08 14:23:57] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.1-py3-none-any.whl.zip]
+[2024-04-08 14:23:57] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.2-py3-none-any.whl.zip]
+[2024-04-08 14:23:57] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-04-08 14:23:57] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-08 14:23:57] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-08 14:23:57] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-08 14:23:57] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-1.1.3.tar.gz]
+[2024-04-08 14:23:57] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-1.2.0.tar.gz]
+[2024-04-08 14:23:57] INFO root fetch - main [MainThread]: End processing [m3-gar-client]: success
+[2024-04-08 14:23:57] INFO root fetch - processPackages [original-metaplex-python]: Remove: archive file [/home/abi/fetcher/tmp/original_metaplex_python-0.0.1a1.tar.gz]
+[2024-04-08 14:23:57] INFO root fetch - processPackages [original-metaplex-python]: Remove: archive file [/home/abi/fetcher/tmp/original_metaplex_python-0.0.1a2.tar.gz]
+[2024-04-08 14:23:57] INFO root fetch - main [MainThread]: End processing [original-metaplex-python]: success
+[2024-04-08 14:23:57] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-08 14:23:58] INFO root fetch - processPackages [manipulation]: Remove: archive file [/home/abi/fetcher/tmp/manipulation-2024.3.28.tar.gz]
+[2024-04-08 14:23:58] INFO root fetch - processPackages [manipulation]: Remove: archive file [/home/abi/fetcher/tmp/manipulation-2024.4.8.tar.gz]
+[2024-04-08 14:23:58] INFO root fetch - main [MainThread]: End processing [manipulation]: success
+[2024-04-08 14:23:58] INFO root fetch - processPackages [hyperglot]: Remove: archive file [/home/abi/fetcher/tmp/hyperglot-0.6.2.tar.gz]
+[2024-04-08 14:23:58] INFO root fetch - processPackages [hyperglot]: Remove: archive file [/home/abi/fetcher/tmp/hyperglot-0.6.3.tar.gz]
+[2024-04-08 14:23:58] INFO root fetch - main [MainThread]: End processing [hyperglot]: success
+[2024-04-08 14:23:58] INFO root fetch - main [MainThread]: Store serial: [22666814]
