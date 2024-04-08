@@ -9310,3 +9310,17 @@
 [2024-04-08 07:38:05] INFO root fetch - processPackages [dmjone]: Remove: archive file [/home/abi/fetcher/tmp/dmjone-0.1.9.9.tar.gz]
 [2024-04-08 07:38:05] INFO root fetch - main [MainThread]: End processing [dmjone]: success
 [2024-04-08 07:38:05] INFO root fetch - main [MainThread]: Store serial: [22662658]
+[2024-04-08 07:40:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662658]
+[2024-04-08 07:40:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 07:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apptrackr
+[2024-04-08 07:40:25] INFO root fetch - processPackages [apptrackr]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-08 07:40:25] INFO root fetch - processPackages [apptrackr]: Downloading https://files.pythonhosted.org/packages/31/97/1dd3c37b4f63f35286e3837789de1c59d223d150b3e7cdbade531e6a9fd1/apptrackr-0.1.8.tar.gz
+[2024-04-08 07:40:25] WARNING root fetch - processPackages [apptrackr]: Timeout reached during download
+[2024-04-08 07:40:25] INFO root fetch - processPackages [apptrackr]: Downloading https://files.pythonhosted.org/packages/b4/0f/859814a9ebf1ef1586a2984815afce74e43127700ac3480f99f58ffa046c/apptrackr-0.1.9.tar.gz
+[2024-04-08 07:40:26] WARNING root fetch - processPackages [apptrackr]: Timeout reached during download
+[2024-04-08 07:40:26] INFO root fetch - processPackages [apptrackr]: executing diffoscope
+[2024-04-08 07:40:26] INFO root fetch - processPackages [apptrackr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apptrackr-0.1.8.tar.gz tmp/apptrackr-0.1.9.tar.gz --markdown 20240408/a/apptrackr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-08 07:40:26] INFO root fetch - processPackages [apptrackr]: Remove: archive file [/home/abi/fetcher/tmp/apptrackr-0.1.8.tar.gz]
+[2024-04-08 07:40:26] INFO root fetch - processPackages [apptrackr]: Remove: archive file [/home/abi/fetcher/tmp/apptrackr-0.1.9.tar.gz]
+[2024-04-08 07:40:26] INFO root fetch - main [MainThread]: End processing [apptrackr]: success
+[2024-04-08 07:40:26] INFO root fetch - main [MainThread]: Store serial: [22662662]
