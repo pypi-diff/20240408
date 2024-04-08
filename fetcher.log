@@ -6193,3 +6193,64 @@
 [2024-04-08 05:26:47] INFO root fetch - processPackages [sleap]: Remove: archive file [/home/abi/fetcher/tmp/sleap-1.4.0-py3-none-any.whl.zip]
 [2024-04-08 05:26:47] INFO root fetch - main [MainThread]: End processing [sleap]: success
 [2024-04-08 05:26:47] INFO root fetch - main [MainThread]: Store serial: [22661733]
+[2024-04-08 05:28:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22661733]
+[2024-04-08 05:29:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 05:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyz020403
+[2024-04-08 05:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-mvj
+[2024-04-08 05:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-nlp
+[2024-04-08 05:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-npp
+[2024-04-08 05:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxapit
+[2024-04-08 05:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-oceanus
+[2024-04-08 05:29:00] INFO root fetch - processPackages [cyz020403]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 05:29:00] INFO root fetch - processPackages [cyz020403]: Downloading https://files.pythonhosted.org/packages/e3/96/4d649e6bd59cc779f900978280e5486dff6e47c6c8a8716c3c6f9edb8d84/cyz020403-0.0.2.tar.gz
+[2024-04-08 05:29:00] WARNING root fetch - processPackages [cxapit]: Skipping, unable to determine old version
+[2024-04-08 05:29:00] INFO root fetch - main [MainThread]: End processing [cxapit] error
+[2024-04-08 05:29:00] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:29:00] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:29:00] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:29:00] WARNING root fetch - processPackages [cyz020403]: Timeout reached during download
+[2024-04-08 05:29:00] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-08 05:29:00] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/3c/cd/a545700530aee9bc5907dadac4cb46848ff8f7aa74caba6eb8345a882808/tencentcloud-sdk-python-mvj-3.0.998.tar.gz
+[2024-04-08 05:29:01] INFO root fetch - processPackages [cyz020403]: Downloading https://files.pythonhosted.org/packages/14/e6/95c10dcafaed164b1cf3a6395860cc116c64430782f247a421f278b22d4b/cyz020403-0.0.3.tar.gz
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Downloading https://files.pythonhosted.org/packages/35/2f/7be07bdedcbc4f997d328b54b723bc0a6f9d2f1289c977708e6d31c8b552/tencentcloud-sdk-python-npp-3.0.998.tar.gz
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Downloading https://files.pythonhosted.org/packages/06/89/e81ea8c1b030a87b88b4b1ea62d562060a99c318781f50739beea7813fcf/tencentcloud-sdk-python-oceanus-3.0.998.tar.gz
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Downloading https://files.pythonhosted.org/packages/13/73/955b082c96439789648018c8f3a7feb31a31b64081a7f03929a045e38fdb/tencentcloud-sdk-python-nlp-3.0.998.tar.gz
+[2024-04-08 05:29:01] WARNING root fetch - processPackages [cyz020403]: Timeout reached during download
+[2024-04-08 05:29:01] INFO root fetch - processPackages [cyz020403]: executing diffoscope
+[2024-04-08 05:29:01] INFO root fetch - processPackages [cyz020403]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyz020403-0.0.2.tar.gz tmp/cyz020403-0.0.3.tar.gz --markdown 20240408/c/cyz020403/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 05:29:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-mvj]: Timeout reached during download
+[2024-04-08 05:29:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Timeout reached during download
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/83/20/c591399e8d1e7051d1881a38515f56f6cccf1995e68c7a59e55c0d18456e/tencentcloud-sdk-python-mvj-3.0.999.tar.gz
+[2024-04-08 05:29:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-npp]: Timeout reached during download
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Downloading https://files.pythonhosted.org/packages/2c/0d/a97d27e823345bd269a67b08a511ad7ef6607826c04e8faf694ee9ff1900/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz
+[2024-04-08 05:29:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-nlp]: Timeout reached during download
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Downloading https://files.pythonhosted.org/packages/94/b9/7eecc3778b75dd2522b621c795d78a5625277df65226ba45c67361956990/tencentcloud-sdk-python-npp-3.0.999.tar.gz
+[2024-04-08 05:29:01] INFO root fetch - processPackages [cyz020403]: Remove: archive file [/home/abi/fetcher/tmp/cyz020403-0.0.2.tar.gz]
+[2024-04-08 05:29:01] INFO root fetch - processPackages [cyz020403]: Remove: archive file [/home/abi/fetcher/tmp/cyz020403-0.0.3.tar.gz]
+[2024-04-08 05:29:01] INFO root fetch - main [MainThread]: End processing [cyz020403]: success
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Downloading https://files.pythonhosted.org/packages/e3/3e/ccf98b9b557bd05fb013714b3672879029ce3496b939428a14d509bc0f39/tencentcloud-sdk-python-nlp-3.0.999.tar.gz
+[2024-04-08 05:29:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Timeout reached during download
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: executing diffoscope
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-oceanus-3.0.998.tar.gz tmp/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-oceanus/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:29:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-mvj]: Timeout reached during download
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: executing diffoscope
+[2024-04-08 05:29:01] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mvj-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mvj-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-mvj/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:29:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-npp]: Timeout reached during download
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: executing diffoscope
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-npp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-npp-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-npp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:29:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-nlp]: Timeout reached during download
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: executing diffoscope
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-nlp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-nlp-3.0.999.tar.gz --markdown 20240408/t/tencentcloud-sdk-python-nlp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-oceanus-3.0.998.tar.gz]
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz]
+[2024-04-08 05:29:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-oceanus]: success
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-npp-3.0.998.tar.gz]
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-npp-3.0.999.tar.gz]
+[2024-04-08 05:29:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-npp]: success
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mvj-3.0.998.tar.gz]
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mvj-3.0.999.tar.gz]
+[2024-04-08 05:29:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mvj]: success
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-nlp-3.0.998.tar.gz]
+[2024-04-08 05:29:02] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-nlp-3.0.999.tar.gz]
+[2024-04-08 05:29:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-nlp]: success
+[2024-04-08 05:29:02] INFO root fetch - main [MainThread]: Store serial: [22661753]
