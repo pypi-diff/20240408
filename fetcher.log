@@ -8721,3 +8721,39 @@
 [2024-04-08 06:55:43] INFO root fetch - processPackages [panpipelines]: Remove: archive file [/home/abi/fetcher/tmp/panpipelines-0.9.8.tar.gz]
 [2024-04-08 06:55:43] INFO root fetch - main [MainThread]: End processing [panpipelines]: success
 [2024-04-08 06:55:43] INFO root fetch - main [MainThread]: Store serial: [22662445]
+[2024-04-08 06:58:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662445]
+[2024-04-08 06:58:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 06:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cefi
+[2024-04-08 06:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valmi-connector-lib
+[2024-04-08 06:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galileo-core
+[2024-04-08 06:58:04] INFO root fetch - processPackages [galileo-core]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-08 06:58:04] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-08 06:58:04] INFO root fetch - processPackages [cefi]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-04-08 06:58:04] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/3e/44/654cb6ab6728f96855b72de198027616a85e11b4c85ad50b964227e63856/galileo_core-0.9.0.tar.gz
+[2024-04-08 06:58:04] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-08 06:58:05] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 06:58:05] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-08 06:58:05] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/9f/6f/b7eee3b4879d098e2a52f34c083c22464a458de6a14ec1108b2340d66a6a/cefi-4.4.8.tar.gz
+[2024-04-08 06:58:05] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-08 06:58:05] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/b1/b9/51891d88d90782e62bb2d925081177b5f4f6e8319942bb048a085c09cb16/galileo_core-0.9.1.tar.gz
+[2024-04-08 06:58:05] WARNING root fetch - processPackages [valmi-connector-lib]: Timeout reached during download
+[2024-04-08 06:58:05] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-08 06:58:05] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240408/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-08 06:58:05] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 06:58:05] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-08 06:58:05] INFO root fetch - processPackages [galileo-core]: executing diffoscope
+[2024-04-08 06:58:05] INFO root fetch - processPackages [galileo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_core-0.9.0.tar.gz tmp/galileo_core-0.9.1.tar.gz --markdown 20240408/g/galileo-core/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-08 06:58:05] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/24/cb/bae47dd044182bcf7ae8adf3c1fccca44fa81eb4a9ecf576af925856d106/cefi-4.4.9.tar.gz
+[2024-04-08 06:58:05] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 06:58:05] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-08 06:58:05] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.4.8.tar.gz tmp/cefi-4.4.9.tar.gz --markdown 20240408/c/cefi/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2024-04-08 06:58:05] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-08 06:58:05] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-08 06:58:05] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-08 06:58:06] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.9.0.tar.gz]
+[2024-04-08 06:58:06] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.9.1.tar.gz]
+[2024-04-08 06:58:06] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
+[2024-04-08 06:58:06] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.8.tar.gz]
+[2024-04-08 06:58:06] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.9.tar.gz]
+[2024-04-08 06:58:06] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-08 06:58:06] INFO root fetch - main [MainThread]: Store serial: [22662454]
