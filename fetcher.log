@@ -3046,3 +3046,12 @@
 [2024-04-08 03:58:29] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.9.tar.gz]
 [2024-04-08 03:58:29] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2024-04-08 03:58:29] INFO root fetch - main [MainThread]: Store serial: [22660768]
+[2024-04-08 04:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660768]
+[2024-04-08 04:00:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 04:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fsinfo
+[2024-04-08 04:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CHProxy
+[2024-04-08 04:00:38] WARNING root fetch - processPackages [CHProxy]: Skipping, unable to determine old version
+[2024-04-08 04:00:38] INFO root fetch - main [MainThread]: End processing [CHProxy] error
+[2024-04-08 04:00:38] WARNING root fetch - processPackages [fsinfo]: Skipping, unable to determine old version
+[2024-04-08 04:00:38] INFO root fetch - main [MainThread]: End processing [fsinfo] error
+[2024-04-08 04:00:38] INFO root fetch - main [MainThread]: Store serial: [22660783]
