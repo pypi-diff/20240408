@@ -15684,3 +15684,50 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:44:55] INFO root fetch - processPackages [instagram-location-search]: Remove: archive file [/home/abi/fetcher/tmp/instagram-location-search-1.5.1.tar.gz]
 [2024-04-08 11:44:55] INFO root fetch - main [MainThread]: End processing [instagram-location-search]: success
 [2024-04-08 11:44:55] INFO root fetch - main [MainThread]: Store serial: [22665199]
+[2024-04-08 11:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665199]
+[2024-04-08 11:47:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-04-08 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SightTraining
+[2024-04-08 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xfem
+[2024-04-08 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: motsmeles
+[2024-04-08 11:47:06] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post68.dev0]
+[2024-04-08 11:47:06] INFO root fetch - processPackages [motsmeles]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-08 11:47:06] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.37.0.dev20240405] Old Version: [1.37.0.dev20240322]
+[2024-04-08 11:47:06] INFO root fetch - processPackages [SightTraining]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-04-08 11:47:06] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/37/df/1830fe6a63008b53f596903fb87e60a1bb37c1387db86c51463b277d1b5d/xfem-2.1.2303.post68.dev0.tar.gz
+[2024-04-08 11:47:06] INFO root fetch - processPackages [motsmeles]: Downloading https://files.pythonhosted.org/packages/5b/e4/1d7e7479189ed14d4bfc27df9589b24fc32d2bd46cf4cf4daf9c097a4538/motsmeles-1.0.0.tar.gz
+[2024-04-08 11:47:06] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/f2/79/3aefed41a8ac7b5007c028c020c8491722960a85fc31dc15411af2258f65/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240322.tar.gz
+[2024-04-08 11:47:06] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/3d/95/4a74ea941dc18c69a159d24fb6e3677768706d7547aab8a0c993e2906daa/SightTraining-0.1.21.tar.gz
+[2024-04-08 11:47:06] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 11:47:06] WARNING root fetch - processPackages [motsmeles]: Timeout reached during download
+[2024-04-08 11:47:06] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2024-04-08 11:47:06] WARNING root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Timeout reached during download
+[2024-04-08 11:47:06] INFO root fetch - processPackages [motsmeles]: Downloading https://files.pythonhosted.org/packages/86/71/4257297fe429858d75d6d64044465d73d52975ece01b49c6013fafdcea7a/motsmeles-2.0.0.tar.gz
+[2024-04-08 11:47:06] WARNING root fetch - processPackages [xfem]: Timeout reached during download
+[2024-04-08 11:47:06] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2024-04-08 11:47:06] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post68.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20240408/x/xfem/2.1.2303.post68.dev0-2.1.2303.post8.dev0/diff.md --exclude *.pyd
+[2024-04-08 11:47:06] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/7b/56/51a4ca05c5763920099907064741637df9dddec64927363cc4a9e4f6305a/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240405.tar.gz
+[2024-04-08 11:47:06] WARNING root fetch - processPackages [motsmeles]: Timeout reached during download
+[2024-04-08 11:47:06] INFO root fetch - processPackages [motsmeles]: executing diffoscope
+[2024-04-08 11:47:06] INFO root fetch - processPackages [motsmeles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motsmeles-1.0.0.tar.gz tmp/motsmeles-2.0.0.tar.gz --markdown 20240408/m/motsmeles/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2024-04-08 11:47:06] WARNING root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Timeout reached during download
+[2024-04-08 11:47:06] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-04-08 11:47:06] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240322.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240405.tar.gz --markdown 20240408/n/nvidia-dali-tf-plugin-nightly-cuda120/1.37.0.dev20240322-1.37.0.dev20240405/diff.md --exclude *.pyd
+[2024-04-08 11:47:07] INFO root fetch - processPackages [motsmeles]: Remove: archive file [/home/abi/fetcher/tmp/motsmeles-1.0.0.tar.gz]
+[2024-04-08 11:47:07] INFO root fetch - processPackages [motsmeles]: Remove: archive file [/home/abi/fetcher/tmp/motsmeles-2.0.0.tar.gz]
+[2024-04-08 11:47:07] INFO root fetch - main [MainThread]: End processing [motsmeles]: success
+[2024-04-08 11:47:07] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240322.tar.gz]
+[2024-04-08 11:47:07] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.37.0.dev20240405.tar.gz]
+[2024-04-08 11:47:07] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-04-08 11:47:07] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-08 11:47:07] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/d2/3a/d9abb88d205a8c33c055ab5fc7a465a7470faf2c23d9d0a74194f9dda5ff/SightTraining-0.1.22.tar.gz
+[2024-04-08 11:47:07] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post68.dev0.tar.gz]
+[2024-04-08 11:47:07] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2024-04-08 11:47:07] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2024-04-08 11:47:08] WARNING root fetch - processPackages [SightTraining]: Timeout reached during download
+[2024-04-08 11:47:08] INFO root fetch - processPackages [SightTraining]: executing diffoscope
+[2024-04-08 11:47:08] INFO root fetch - processPackages [SightTraining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SightTraining-0.1.21.tar.gz tmp/SightTraining-0.1.22.tar.gz --markdown 20240408/S/SightTraining/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2024-04-08 11:47:09] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.21.tar.gz]
+[2024-04-08 11:47:09] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.22.tar.gz]
+[2024-04-08 11:47:09] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
+[2024-04-08 11:47:09] INFO root fetch - main [MainThread]: Store serial: [22665213]
