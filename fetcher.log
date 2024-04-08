@@ -13508,3 +13508,55 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 10:34:13] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
 [2024-04-08 10:34:13] INFO root fetch - main [MainThread]: End processing [core-pro]: success
 [2024-04-08 10:34:13] INFO root fetch - main [MainThread]: Store serial: [22664262]
+[2024-04-08 10:36:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664262]
+[2024-04-08 10:36:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-08 10:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rp
+[2024-04-08 10:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finmodels
+[2024-04-08 10:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotivelabs-cli
+[2024-04-08 10:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whiffle-client
+[2024-04-08 10:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-social-oauth
+[2024-04-08 10:36:22] INFO root fetch - processPackages [flask-social-oauth]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-08 10:36:22] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-08 10:36:22] INFO root fetch - processPackages [finmodels]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-08 10:36:22] INFO root fetch - processPackages [whiffle-client]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 10:36:22] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 10:36:22] INFO root fetch - processPackages [flask-social-oauth]: Downloading https://files.pythonhosted.org/packages/45/93/8de353c965db69c128a1178271d39947909f23294b6a45c461d4a369ac27/flask_social_oauth-1.0.0.tar.gz
+[2024-04-08 10:36:22] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-08 10:36:22] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-08 10:36:22] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-08 10:36:22] WARNING root fetch - processPackages [flask-social-oauth]: Timeout reached during download
+[2024-04-08 10:36:22] INFO root fetch - processPackages [finmodels]: Downloading https://files.pythonhosted.org/packages/5a/4b/36ab2aca1293893402f9ed75d31f8d2ccb33f190d58bd1c8a4b37e42c41a/finmodels-2.0.3.tar.gz
+[2024-04-08 10:36:23] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/bd/8e/854ba7150469f8832c6b709348308771aec598711bc5c6e124c9d741ebdc/whiffle_client-0.3.0.tar.gz
+[2024-04-08 10:36:23] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/3b/fd/79e7ba716a05f515a6a688ad2370dff4d07c2222729e76ae6c60674682da/remotivelabs_cli-0.0.8.tar.gz
+[2024-04-08 10:36:23] INFO root fetch - processPackages [flask-social-oauth]: Downloading https://files.pythonhosted.org/packages/c6/5d/aa99a95bad658f6455268cc8bb5d051909398eb1965e6db7403e9ad35e1b/flask_social_oauth-1.1.0.tar.gz
+[2024-04-08 10:36:23] WARNING root fetch - processPackages [remotivelabs-cli]: Timeout reached during download
+[2024-04-08 10:36:23] WARNING root fetch - processPackages [finmodels]: Timeout reached during download
+[2024-04-08 10:36:23] WARNING root fetch - processPackages [flask-social-oauth]: Timeout reached during download
+[2024-04-08 10:36:23] INFO root fetch - processPackages [flask-social-oauth]: executing diffoscope
+[2024-04-08 10:36:23] INFO root fetch - processPackages [flask-social-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_social_oauth-1.0.0.tar.gz tmp/flask_social_oauth-1.1.0.tar.gz --markdown 20240408/f/flask-social-oauth/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-08 10:36:23] WARNING root fetch - processPackages [whiffle-client]: Timeout reached during download
+[2024-04-08 10:36:23] INFO root fetch - processPackages [finmodels]: Downloading https://files.pythonhosted.org/packages/76/13/0948afbcaf979c1671920bb222121e6806efab8dc4d6c38bafdba50a9434/finmodels-2.0.4.tar.gz
+[2024-04-08 10:36:23] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/0c/3e/84ff7ca9531958216971482f3794fba3c060ca8d5817d6d05e8b1fefdfa4/remotivelabs_cli-0.0.9.tar.gz
+[2024-04-08 10:36:23] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/da/e3/5c1a94a379809892c46ca689fa9ae6b6f472835795d4501f3e0a9e904f38/whiffle_client-0.3.1.tar.gz
+[2024-04-08 10:36:23] WARNING root fetch - processPackages [finmodels]: Timeout reached during download
+[2024-04-08 10:36:23] INFO root fetch - processPackages [finmodels]: executing diffoscope
+[2024-04-08 10:36:23] INFO root fetch - processPackages [finmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finmodels-2.0.3.tar.gz tmp/finmodels-2.0.4.tar.gz --markdown 20240408/f/finmodels/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2024-04-08 10:36:23] WARNING root fetch - processPackages [remotivelabs-cli]: Timeout reached during download
+[2024-04-08 10:36:23] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2024-04-08 10:36:23] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.8.tar.gz tmp/remotivelabs_cli-0.0.9.tar.gz --markdown 20240408/r/remotivelabs-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 10:36:23] WARNING root fetch - processPackages [whiffle-client]: Timeout reached during download
+[2024-04-08 10:36:23] INFO root fetch - processPackages [whiffle-client]: executing diffoscope
+[2024-04-08 10:36:23] INFO root fetch - processPackages [whiffle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whiffle_client-0.3.0.tar.gz tmp/whiffle_client-0.3.1.tar.gz --markdown 20240408/w/whiffle-client/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 10:36:23] INFO root fetch - processPackages [flask-social-oauth]: Remove: archive file [/home/abi/fetcher/tmp/flask_social_oauth-1.0.0.tar.gz]
+[2024-04-08 10:36:23] INFO root fetch - processPackages [flask-social-oauth]: Remove: archive file [/home/abi/fetcher/tmp/flask_social_oauth-1.1.0.tar.gz]
+[2024-04-08 10:36:23] INFO root fetch - main [MainThread]: End processing [flask-social-oauth]: success
+[2024-04-08 10:36:24] INFO root fetch - processPackages [finmodels]: Remove: archive file [/home/abi/fetcher/tmp/finmodels-2.0.3.tar.gz]
+[2024-04-08 10:36:24] INFO root fetch - processPackages [finmodels]: Remove: archive file [/home/abi/fetcher/tmp/finmodels-2.0.4.tar.gz]
+[2024-04-08 10:36:24] INFO root fetch - main [MainThread]: End processing [finmodels]: success
+[2024-04-08 10:36:24] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.8.tar.gz]
+[2024-04-08 10:36:24] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.9.tar.gz]
+[2024-04-08 10:36:24] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2024-04-08 10:36:24] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.3.0.tar.gz]
+[2024-04-08 10:36:24] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.3.1.tar.gz]
+[2024-04-08 10:36:24] INFO root fetch - main [MainThread]: End processing [whiffle-client]: success
+[2024-04-08 10:36:24] INFO root fetch - main [MainThread]: Store serial: [22664286]
