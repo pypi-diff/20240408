@@ -12071,3 +12071,42 @@
 [2024-04-08 09:42:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.5.3.tar.gz]
 [2024-04-08 09:42:59] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-08 09:42:59] INFO root fetch - main [MainThread]: Store serial: [22663580]
+[2024-04-08 09:45:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22663580]
+[2024-04-08 09:45:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-08 09:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fructose
+[2024-04-08 09:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mavlinkHandler
+[2024-04-08 09:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slurm-gui
+[2024-04-08 09:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mailnhl
+[2024-04-08 09:45:09] INFO root fetch - processPackages [slurm-gui]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-08 09:45:09] INFO root fetch - processPackages [mavlinkHandler]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-08 09:45:09] WARNING root fetch - processPackages [mailnhl]: Skipping, unable to determine old version
+[2024-04-08 09:45:09] INFO root fetch - main [MainThread]: End processing [mailnhl] error
+[2024-04-08 09:45:09] INFO root fetch - processPackages [fructose]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 09:45:09] INFO root fetch - processPackages [slurm-gui]: Downloading https://files.pythonhosted.org/packages/4f/0d/810977faefd04e1693f1520e099ac2fe472bf064126c0e077ffb2ad1410c/slurm-gui-0.2.3.tar.gz
+[2024-04-08 09:45:10] INFO root fetch - processPackages [mavlinkHandler]: Downloading https://files.pythonhosted.org/packages/e8/86/30d871b7989e3412c95ad8bc322ae044da706d7abc726da521666f9dd1c4/mavlinkHandler-0.0.4.tar.gz
+[2024-04-08 09:45:10] WARNING root fetch - processPackages [mavlinkHandler]: Timeout reached during download
+[2024-04-08 09:45:10] WARNING root fetch - processPackages [slurm-gui]: Timeout reached during download
+[2024-04-08 09:45:10] INFO root fetch - processPackages [fructose]: Downloading https://files.pythonhosted.org/packages/30/35/2f9ec4357f956a5bfbccd7cfab208f5079311a6fc0b6d2011c0bd0b69944/fructose-0.0.8.tar.gz
+[2024-04-08 09:45:10] INFO root fetch - processPackages [mavlinkHandler]: Downloading https://files.pythonhosted.org/packages/97/03/6af7e4778f12487ebe52d0d34d7285aafd83b7e3e9787a7a74df93685223/mavlinkHandler-0.0.5.tar.gz
+[2024-04-08 09:45:10] INFO root fetch - processPackages [slurm-gui]: Downloading https://files.pythonhosted.org/packages/17/ec/5cfcaee92d52d775df09ec7539b3c38fc153526084f8008e904df8c19ecb/slurm-gui-0.2.4.tar.gz
+[2024-04-08 09:45:10] WARNING root fetch - processPackages [fructose]: Timeout reached during download
+[2024-04-08 09:45:10] WARNING root fetch - processPackages [mavlinkHandler]: Timeout reached during download
+[2024-04-08 09:45:10] INFO root fetch - processPackages [mavlinkHandler]: executing diffoscope
+[2024-04-08 09:45:10] INFO root fetch - processPackages [mavlinkHandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavlinkHandler-0.0.4.tar.gz tmp/mavlinkHandler-0.0.5.tar.gz --markdown 20240408/m/mavlinkHandler/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-08 09:45:10] WARNING root fetch - processPackages [slurm-gui]: Timeout reached during download
+[2024-04-08 09:45:10] INFO root fetch - processPackages [slurm-gui]: executing diffoscope
+[2024-04-08 09:45:10] INFO root fetch - processPackages [slurm-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurm-gui-0.2.3.tar.gz tmp/slurm-gui-0.2.4.tar.gz --markdown 20240408/s/slurm-gui/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-08 09:45:10] INFO root fetch - processPackages [fructose]: Downloading https://files.pythonhosted.org/packages/e7/ac/6ddbb1c91de68202002e125cec37ae80f1d644bdc02cc664ee5fb1635f10/fructose-0.0.9.tar.gz
+[2024-04-08 09:45:10] WARNING root fetch - processPackages [fructose]: Timeout reached during download
+[2024-04-08 09:45:10] INFO root fetch - processPackages [fructose]: executing diffoscope
+[2024-04-08 09:45:10] INFO root fetch - processPackages [fructose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fructose-0.0.8.tar.gz tmp/fructose-0.0.9.tar.gz --markdown 20240408/f/fructose/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 09:45:11] INFO root fetch - processPackages [mavlinkHandler]: Remove: archive file [/home/abi/fetcher/tmp/mavlinkHandler-0.0.4.tar.gz]
+[2024-04-08 09:45:11] INFO root fetch - processPackages [mavlinkHandler]: Remove: archive file [/home/abi/fetcher/tmp/mavlinkHandler-0.0.5.tar.gz]
+[2024-04-08 09:45:11] INFO root fetch - main [MainThread]: End processing [mavlinkHandler]: success
+[2024-04-08 09:45:11] INFO root fetch - processPackages [slurm-gui]: Remove: archive file [/home/abi/fetcher/tmp/slurm-gui-0.2.3.tar.gz]
+[2024-04-08 09:45:11] INFO root fetch - processPackages [slurm-gui]: Remove: archive file [/home/abi/fetcher/tmp/slurm-gui-0.2.4.tar.gz]
+[2024-04-08 09:45:11] INFO root fetch - main [MainThread]: End processing [slurm-gui]: success
+[2024-04-08 09:45:11] INFO root fetch - processPackages [fructose]: Remove: archive file [/home/abi/fetcher/tmp/fructose-0.0.8.tar.gz]
+[2024-04-08 09:45:11] INFO root fetch - processPackages [fructose]: Remove: archive file [/home/abi/fetcher/tmp/fructose-0.0.9.tar.gz]
+[2024-04-08 09:45:11] INFO root fetch - main [MainThread]: End processing [fructose]: success
+[2024-04-08 09:45:11] INFO root fetch - main [MainThread]: Store serial: [22663593]
