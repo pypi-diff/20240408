@@ -17093,3 +17093,66 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 12:27:14] INFO root fetch - processPackages [avtomat-aws]: Remove: archive file [/home/abi/fetcher/tmp/avtomat_aws-0.1.4.tar.gz]
 [2024-04-08 12:27:14] INFO root fetch - main [MainThread]: End processing [avtomat-aws]: success
 [2024-04-08 12:27:14] INFO root fetch - main [MainThread]: Store serial: [22665662]
+[2024-04-08 12:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22665662]
+[2024-04-08 12:29:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-08 12:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: speculos
+[2024-04-08 12:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dom-toml
+[2024-04-08 12:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cjunct
+[2024-04-08 12:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dir-content-diff
+[2024-04-08 12:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wwpdb.utils.nmr
+[2024-04-08 12:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpx-vis
+[2024-04-08 12:29:24] INFO root fetch - processPackages [cjunct]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-04-08 12:29:24] INFO root fetch - processPackages [gpx-vis]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-08 12:29:24] INFO root fetch - processPackages [cjunct]: Downloading https://files.pythonhosted.org/packages/45/2b/17b4f182d1a7cea16d65b22c3cdeb14e27c1820423fc6b69b7abb36e6cb8/cjunct-1.6.0.tar.gz
+[2024-04-08 12:29:24] INFO root fetch - processPackages [dir-content-diff]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-08 12:29:24] INFO root fetch - processPackages [wwpdb.utils.nmr]: New version: [0.34] Old Version: [0.33]
+[2024-04-08 12:29:24] INFO root fetch - processPackages [speculos]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-08 12:29:24] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/58/67/37f758ef9e92087c384f6b877342bfe43f7854cb1cd798b71dc6c8508833/gpx_vis-0.3.0.tar.gz
+[2024-04-08 12:29:24] INFO root fetch - processPackages [dom-toml]: New version: [1.0.0] Old Version: [0.6.1]
+[2024-04-08 12:29:24] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-08 12:29:24] WARNING root fetch - processPackages [cjunct]: Timeout reached during download
+[2024-04-08 12:29:24] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/d6/6e/bc7ffa5f3ee47698e91971621c333bdac01c5ca4608c9179e5df3768bbec/speculos-0.8.2.tar.gz
+[2024-04-08 12:29:24] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/cb/30/bf9c149aa35d0f64815d64ca1c07695eeacea206f7d58f4b96e127f7e2ad/wwpdb.utils.nmr-0.33.tar.gz
+[2024-04-08 12:29:24] INFO root fetch - processPackages [dir-content-diff]: Downloading https://files.pythonhosted.org/packages/88/82/b2b423569579d2cde5437784f74b6a35f8662967611d7508fbe83db27374/dir-content-diff-1.7.0.tar.gz
+[2024-04-08 12:29:24] INFO root fetch - processPackages [dom-toml]: Downloading https://files.pythonhosted.org/packages/c1/9f/dcec983da6132c6cb024980d469d2f58527020b68b36b7bada44e5b2b563/dom_toml-0.6.1.tar.gz
+[2024-04-08 12:29:24] INFO root fetch - processPackages [cjunct]: Downloading https://files.pythonhosted.org/packages/7f/4a/2eb92b951d6ce79123fa77dc9c209fbb6af5e3363a80c470092d7dceb67a/cjunct-2.0.0.tar.gz
+[2024-04-08 12:29:24] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 16554800>=10485760
+[2024-04-08 12:29:24] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2024-04-08 12:29:24] INFO root fetch - processPackages [gpx-vis]: Downloading https://files.pythonhosted.org/packages/31/f3/287bcc9e070f08bea5566f562ca4d5aad2c6a4d74751362e12f45ca3c568/gpx_vis-0.3.1.tar.gz
+[2024-04-08 12:29:24] WARNING root fetch - processPackages [cjunct]: Timeout reached during download
+[2024-04-08 12:29:24] INFO root fetch - processPackages [cjunct]: executing diffoscope
+[2024-04-08 12:29:24] INFO root fetch - processPackages [cjunct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjunct-1.6.0.tar.gz tmp/cjunct-2.0.0.tar.gz --markdown 20240408/c/cjunct/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2024-04-08 12:29:24] WARNING root fetch - processPackages [dom-toml]: Timeout reached during download
+[2024-04-08 12:29:24] WARNING root fetch - processPackages [dir-content-diff]: Timeout reached during download
+[2024-04-08 12:29:24] WARNING root fetch - processPackages [gpx-vis]: Timeout reached during download
+[2024-04-08 12:29:24] INFO root fetch - processPackages [gpx-vis]: executing diffoscope
+[2024-04-08 12:29:24] INFO root fetch - processPackages [gpx-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpx_vis-0.3.0.tar.gz tmp/gpx_vis-0.3.1.tar.gz --markdown 20240408/g/gpx-vis/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-08 12:29:25] INFO root fetch - processPackages [dom-toml]: Downloading https://files.pythonhosted.org/packages/35/7a/fdfbded228334f07a4b0526bd0df14553fcb2701b529d11686a7864bd6bd/dom_toml-1.0.0.tar.gz
+[2024-04-08 12:29:25] INFO root fetch - processPackages [dir-content-diff]: Downloading https://files.pythonhosted.org/packages/ca/1f/b6841ec9e4b031ce49fc0cd086aefec2e2763bb42452bba4dc033c6b5785/dir-content-diff-1.8.0.tar.gz
+[2024-04-08 12:29:25] WARNING root fetch - processPackages [wwpdb.utils.nmr]: Timeout reached during download
+[2024-04-08 12:29:25] WARNING root fetch - processPackages [dom-toml]: Timeout reached during download
+[2024-04-08 12:29:25] INFO root fetch - processPackages [dom-toml]: executing diffoscope
+[2024-04-08 12:29:25] INFO root fetch - processPackages [dom-toml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dom_toml-0.6.1.tar.gz tmp/dom_toml-1.0.0.tar.gz --markdown 20240408/d/dom-toml/0.6.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-08 12:29:25] WARNING root fetch - processPackages [dir-content-diff]: Timeout reached during download
+[2024-04-08 12:29:25] INFO root fetch - processPackages [dir-content-diff]: executing diffoscope
+[2024-04-08 12:29:25] INFO root fetch - processPackages [dir-content-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dir-content-diff-1.7.0.tar.gz tmp/dir-content-diff-1.8.0.tar.gz --markdown 20240408/d/dir-content-diff/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2024-04-08 12:29:25] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/f7/8b/b7dde7d8c695cc5ed611474b7576fa4ec9f987d63f1ea342e70dd1199cde/wwpdb.utils.nmr-0.34.tar.gz
+[2024-04-08 12:29:25] WARNING root fetch - processPackages [wwpdb.utils.nmr]: Timeout reached during download
+[2024-04-08 12:29:25] INFO root fetch - processPackages [wwpdb.utils.nmr]: executing diffoscope
+[2024-04-08 12:29:25] INFO root fetch - processPackages [wwpdb.utils.nmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.nmr-0.33.tar.gz tmp/wwpdb.utils.nmr-0.34.tar.gz --markdown 20240408/w/wwpdb.utils.nmr/0.33-0.34/diff.md --exclude *.pyd
+[2024-04-08 12:29:25] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.3.0.tar.gz]
+[2024-04-08 12:29:25] INFO root fetch - processPackages [gpx-vis]: Remove: archive file [/home/abi/fetcher/tmp/gpx_vis-0.3.1.tar.gz]
+[2024-04-08 12:29:25] INFO root fetch - main [MainThread]: End processing [gpx-vis]: success
+[2024-04-08 12:29:25] INFO root fetch - processPackages [cjunct]: Remove: archive file [/home/abi/fetcher/tmp/cjunct-1.6.0.tar.gz]
+[2024-04-08 12:29:25] INFO root fetch - processPackages [cjunct]: Remove: archive file [/home/abi/fetcher/tmp/cjunct-2.0.0.tar.gz]
+[2024-04-08 12:29:25] INFO root fetch - main [MainThread]: End processing [cjunct]: success
+[2024-04-08 12:29:26] INFO root fetch - processPackages [dom-toml]: Remove: archive file [/home/abi/fetcher/tmp/dom_toml-0.6.1.tar.gz]
+[2024-04-08 12:29:26] INFO root fetch - processPackages [dom-toml]: Remove: archive file [/home/abi/fetcher/tmp/dom_toml-1.0.0.tar.gz]
+[2024-04-08 12:29:26] INFO root fetch - main [MainThread]: End processing [dom-toml]: success
+[2024-04-08 12:29:26] INFO root fetch - processPackages [dir-content-diff]: Remove: archive file [/home/abi/fetcher/tmp/dir-content-diff-1.7.0.tar.gz]
+[2024-04-08 12:29:26] INFO root fetch - processPackages [dir-content-diff]: Remove: archive file [/home/abi/fetcher/tmp/dir-content-diff-1.8.0.tar.gz]
+[2024-04-08 12:29:26] INFO root fetch - main [MainThread]: End processing [dir-content-diff]: success
+[2024-04-08 12:29:30] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.nmr-0.33.tar.gz]
+[2024-04-08 12:29:30] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.nmr-0.34.tar.gz]
+[2024-04-08 12:29:30] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.nmr]: success
+[2024-04-08 12:29:30] INFO root fetch - main [MainThread]: Store serial: [22665688]
