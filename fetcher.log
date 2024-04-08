@@ -7743,3 +7743,28 @@
 [2024-04-08 06:05:42] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
 [2024-04-08 06:05:42] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
 [2024-04-08 06:05:42] INFO root fetch - main [MainThread]: Store serial: [22662192]
+[2024-04-08 06:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662192]
+[2024-04-08 06:08:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 06:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vtjson
+[2024-04-08 06:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openparse
+[2024-04-08 06:08:01] INFO root fetch - processPackages [openparse]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-08 06:08:01] INFO root fetch - processPackages [vtjson]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-04-08 06:08:01] INFO root fetch - processPackages [openparse]: Downloading https://files.pythonhosted.org/packages/2b/76/4201cf078c3f012462a34345449393a838a4e1fabaacec29597faec9ee2f/openparse-0.4.1.tar.gz
+[2024-04-08 06:08:01] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/bf/d8/b37bb36d4efbdac770c5628e49ae78e175e24c7701a04b7fcc0a39178dad/vtjson-1.6.4.tar.gz
+[2024-04-08 06:08:01] WARNING root fetch - processPackages [openparse]: Timeout reached during download
+[2024-04-08 06:08:01] WARNING root fetch - processPackages [vtjson]: Timeout reached during download
+[2024-04-08 06:08:02] INFO root fetch - processPackages [openparse]: Downloading https://files.pythonhosted.org/packages/60/a7/e54ecca53a83de79dfcdc3d131f3ff85c3181629b58201ec3c82a4420e01/openparse-0.5.0.tar.gz
+[2024-04-08 06:08:02] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/eb/7f/2ace690d27f870391b2ada4d7027ef41287bfec34d7ab9bda74ac2386198/vtjson-1.6.5.tar.gz
+[2024-04-08 06:08:02] WARNING root fetch - processPackages [openparse]: Timeout reached during download
+[2024-04-08 06:08:02] INFO root fetch - processPackages [openparse]: executing diffoscope
+[2024-04-08 06:08:02] INFO root fetch - processPackages [openparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openparse-0.4.1.tar.gz tmp/openparse-0.5.0.tar.gz --markdown 20240408/o/openparse/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2024-04-08 06:08:02] WARNING root fetch - processPackages [vtjson]: Timeout reached during download
+[2024-04-08 06:08:02] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-04-08 06:08:02] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.6.4.tar.gz tmp/vtjson-1.6.5.tar.gz --markdown 20240408/v/vtjson/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2024-04-08 06:08:02] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.6.4.tar.gz]
+[2024-04-08 06:08:02] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.6.5.tar.gz]
+[2024-04-08 06:08:02] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-04-08 06:08:02] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.4.1.tar.gz]
+[2024-04-08 06:08:02] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.5.0.tar.gz]
+[2024-04-08 06:08:02] INFO root fetch - main [MainThread]: End processing [openparse]: success
+[2024-04-08 06:08:02] INFO root fetch - main [MainThread]: Store serial: [22662198]
