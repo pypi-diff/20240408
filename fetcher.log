@@ -25163,3 +25163,120 @@ EOFError: EOF read where object expected
 [2024-04-08 16:13:06] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.94.0.tar.gz]
 [2024-04-08 16:13:06] INFO root fetch - main [MainThread]: End processing [tutor-contrib-aspects]: success
 [2024-04-08 16:13:06] INFO root fetch - main [MainThread]: Store serial: [22668552]
+[2024-04-08 16:15:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22668552]
+[2024-04-08 16:15:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-source-vips
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-zarr
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: so-ml-tools
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smol_k8s_lab
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kivymd-utils
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moesif-aiohttp
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: luminesce-sdk-preview
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccs-digitalmarketplace-utils
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyTangoArchiving
+[2024-04-08 16:15:15] INFO root fetch - processPackages [smol_k8s_lab]: New version: [4.0.0] Old Version: [3.7.1]
+[2024-04-08 16:15:15] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.28.0] Old Version: [1.27.5.dev99]
+[2024-04-08 16:15:15] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-08 16:15:15] INFO root fetch - processPackages [large-image-source-zarr]: New version: [1.27.5.dev99] Old Version: [1.27.5.dev8]
+[2024-04-08 16:15:15] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-04-08 16:15:15] INFO root fetch - processPackages [PyTangoArchiving]: New version: [9.2.5] Old Version: [8.5.2]
+[2024-04-08 16:15:15] WARNING root fetch - processPackages [kivymd-utils]: Skipping, unable to determine old version
+[2024-04-08 16:15:15] WARNING root fetch - processPackages [moesif-aiohttp]: Skipping, unable to determine old version
+[2024-04-08 16:15:15] INFO root fetch - processPackages [kivymd-utils]: Start processing: spanishconjugator
+[2024-04-08 16:15:15] INFO root fetch - processPackages [moesif-aiohttp]: Start processing: cefi
+[2024-04-08 16:15:15] INFO root fetch - main [MainThread]: End processing [kivymd-utils] error
+[2024-04-08 16:15:15] INFO root fetch - main [MainThread]: End processing [moesif-aiohttp] error
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.0.0rc1] Old Version: [65.6.1]
+[2024-04-08 16:15:15] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/4f/64/6a0c7b2be293d1001babe8ff01de1d9b2ab1ff0be3521b3442208daf0047/large-image-source-zarr-1.27.5.dev8.tar.gz
+[2024-04-08 16:15:15] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/f3/f5/79b3e1d6478d435db64c6adf051b3839b579f1fa918e9ec6f732690101c8/smol_k8s_lab-3.7.1.tar.gz
+[2024-04-08 16:15:15] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/43/30/ac1e3f35fa139e0e7beface4bccf9d9ada9ba2bc021d659a6898b48f4541/large-image-source-vips-1.27.5.dev99.tar.gz
+[2024-04-08 16:15:15] INFO root fetch - processPackages [cefi]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-04-08 16:15:15] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-08 16:15:15] WARNING root fetch - processPackages [large-image-source-zarr]: Timeout reached during download
+[2024-04-08 16:15:15] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/9f/6f/b7eee3b4879d098e2a52f34c083c22464a458de6a14ec1108b2340d66a6a/cefi-4.4.8.tar.gz
+[2024-04-08 16:15:15] WARNING root fetch - processPackages [large-image-source-vips]: Timeout reached during download
+[2024-04-08 16:15:15] WARNING root fetch - processPackages [smol_k8s_lab]: Timeout reached during download
+[2024-04-08 16:15:15] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-04-08 16:15:15] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/82/17/767a7edb795439fd2ff22a66032f7553a51491bc1e85e4a85dba60f7f342/ccs-digitalmarketplace-utils-65.6.1.tar.gz
+[2024-04-08 16:15:15] INFO root fetch - processPackages [PyTangoArchiving]: Downloading https://files.pythonhosted.org/packages/36/2f/1d6fc1ffa0aea069f14aec53f1e7ce29f5b745494f404680a56cc497eb56/PyTangoArchiving-8.5.2.tar.gz
+[2024-04-08 16:15:15] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/43/13/fb77d5a96e67764bc32805e9247a2f7ca6e38545c2e69e4c7eaeb311987f/large-image-source-zarr-1.27.5.dev99.tar.gz
+[2024-04-08 16:15:15] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/50/bc/ef2c26425eec2a3e61b1c0be70053d8091dce06cac6794fabd3f8b343a56/smol_k8s_lab-4.0.0.tar.gz
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [ccs-digitalmarketplace-utils]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-08 16:15:16] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/c2/54/577abd87b91d06881f214b00a77ea3ef3f8ea46b186ce61475fb0234a336/large-image-source-vips-1.28.0.tar.gz
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [PyTangoArchiving]: Timeout reached during download
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [large-image-source-zarr]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [large-image-source-zarr]: executing diffoscope
+[2024-04-08 16:15:16] INFO root fetch - processPackages [large-image-source-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-zarr-1.27.5.dev8.tar.gz tmp/large-image-source-zarr-1.27.5.dev99.tar.gz --markdown 20240408/l/large-image-source-zarr/1.27.5.dev8-1.27.5.dev99/diff.md --exclude *.pyd
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [luminesce-sdk-preview]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/24/cb/bae47dd044182bcf7ae8adf3c1fccca44fa81eb4a9ecf576af925856d106/cefi-4.4.9.tar.gz
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [smol_k8s_lab]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [smol_k8s_lab]: executing diffoscope
+[2024-04-08 16:15:16] INFO root fetch - processPackages [smol_k8s_lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-3.7.1.tar.gz tmp/smol_k8s_lab-4.0.0.tar.gz --markdown 20240408/s/smol_k8s_lab/3.7.1-4.0.0/diff.md --exclude *.pyd
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [large-image-source-vips]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-04-08 16:15:16] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.27.5.dev99.tar.gz tmp/large-image-source-vips-1.28.0.tar.gz --markdown 20240408/l/large-image-source-vips/1.27.5.dev99-1.28.0/diff.md --exclude *.pyd
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-08 16:15:16] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240408/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [cefi]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-08 16:15:16] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.4.8.tar.gz tmp/cefi-4.4.9.tar.gz --markdown 20240408/c/cefi/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2024-04-08 16:15:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-08 16:15:16] INFO root fetch - processPackages [PyTangoArchiving]: Downloading https://files.pythonhosted.org/packages/30/c7/ed6c0eca9aa2462b3c4d82dbcc62c47cc4ae752ef983b611eb877d881197/PyTangoArchiving-9.2.5.tar.gz
+[2024-04-08 16:15:16] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/ee/8d/6728d23ecf123b2db3439c46d61a821a1842e8cbed0508ef21a8974be66d/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz
+[2024-04-08 16:15:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-08 16:15:16] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [PyTangoArchiving]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [PyTangoArchiving]: executing diffoscope
+[2024-04-08 16:15:16] INFO root fetch - processPackages [PyTangoArchiving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTangoArchiving-8.5.2.tar.gz tmp/PyTangoArchiving-9.2.5.tar.gz --markdown 20240408/P/PyTangoArchiving/8.5.2-9.2.5/diff.md --exclude *.pyd
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [ccs-digitalmarketplace-utils]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-04-08 16:15:16] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-65.6.1.tar.gz tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz --markdown 20240408/c/ccs-digitalmarketplace-utils/65.6.1-66.0.0rc1/diff.md --exclude *.pyd
+[2024-04-08 16:15:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-08 16:15:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-08 16:15:16] WARNING root fetch - processPackages [luminesce-sdk-preview]: Timeout reached during download
+[2024-04-08 16:15:16] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-04-08 16:15:16] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240408/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2024-04-08 16:15:17] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-08 16:15:17] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-08 16:15:17] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.27.5.dev8.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.27.5.dev99.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - main [MainThread]: End processing [large-image-source-zarr]: success
+[2024-04-08 16:15:17] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.27.5.dev99.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.0.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-04-08 16:15:17] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.8.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.9.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-08 16:15:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-08 16:15:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-08 16:15:17] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-08 16:15:17] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-08 16:15:17] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-08 16:15:17] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240408/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-08 16:15:17] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-08 16:15:17] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-08 16:15:17] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240408/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-08 16:15:17] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-3.7.1.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-4.0.0.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
+[2024-04-08 16:15:17] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-65.6.1.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz]
+[2024-04-08 16:15:17] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-04-08 16:15:18] INFO root fetch - processPackages [PyTangoArchiving]: Remove: archive file [/home/abi/fetcher/tmp/PyTangoArchiving-8.5.2.tar.gz]
+[2024-04-08 16:15:18] INFO root fetch - processPackages [PyTangoArchiving]: Remove: archive file [/home/abi/fetcher/tmp/PyTangoArchiving-9.2.5.tar.gz]
+[2024-04-08 16:15:18] INFO root fetch - main [MainThread]: End processing [PyTangoArchiving]: success
+[2024-04-08 16:15:18] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-08 16:15:18] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-08 16:15:18] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-08 16:15:18] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-04-08 16:15:18] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-04-08 16:15:18] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-04-08 16:15:18] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-08 16:15:18] INFO root fetch - main [MainThread]: Store serial: [22668595]
