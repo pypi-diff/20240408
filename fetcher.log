@@ -2260,3 +2260,28 @@
 [2024-04-08 02:56:18] INFO root fetch - processPackages [publib]: Remove: archive file [/home/abi/fetcher/tmp/publib-0.4.0.tar.gz]
 [2024-04-08 02:56:18] INFO root fetch - main [MainThread]: End processing [publib]: success
 [2024-04-08 02:56:18] INFO root fetch - main [MainThread]: Store serial: [22660483]
+[2024-04-08 02:58:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660483]
+[2024-04-08 02:58:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 02:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exl2conv
+[2024-04-08 02:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lineagex
+[2024-04-08 02:58:27] INFO root fetch - processPackages [exl2conv]: New version: [0.0.17.1] Old Version: [0.0.17]
+[2024-04-08 02:58:27] INFO root fetch - processPackages [lineagex]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 02:58:27] INFO root fetch - processPackages [exl2conv]: Downloading https://files.pythonhosted.org/packages/c7/01/3c7939762abf5cbc861a41e19e35055210359322e4e20780c40560a3b0d6/exl2conv-0.0.17.tar.gz
+[2024-04-08 02:58:27] INFO root fetch - processPackages [lineagex]: Downloading https://files.pythonhosted.org/packages/88/85/7e0ff755a7c52459c314b3cb9341c1f37a0416c369381dcfe8ff6124fab5/lineagex-0.0.8.tar.gz
+[2024-04-08 02:58:27] WARNING root fetch - processPackages [exl2conv]: Timeout reached during download
+[2024-04-08 02:58:27] WARNING root fetch - processPackages [lineagex]: Timeout reached during download
+[2024-04-08 02:58:27] INFO root fetch - processPackages [exl2conv]: Downloading https://files.pythonhosted.org/packages/74/20/e1da211f8721f503460d69835a4e40345ea5e918f6fb4d15356953a9ec98/exl2conv-0.0.17.1.tar.gz
+[2024-04-08 02:58:27] INFO root fetch - processPackages [lineagex]: Downloading https://files.pythonhosted.org/packages/c4/8d/4935610bc014abaef16e58ad6370420a9600a1c2d06ec51384b444af14b1/lineagex-0.0.9.tar.gz
+[2024-04-08 02:58:27] WARNING root fetch - processPackages [exl2conv]: Timeout reached during download
+[2024-04-08 02:58:27] INFO root fetch - processPackages [exl2conv]: executing diffoscope
+[2024-04-08 02:58:27] INFO root fetch - processPackages [exl2conv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exl2conv-0.0.17.tar.gz tmp/exl2conv-0.0.17.1.tar.gz --markdown 20240408/e/exl2conv/0.0.17-0.0.17.1/diff.md --exclude *.pyd
+[2024-04-08 02:58:28] WARNING root fetch - processPackages [lineagex]: Timeout reached during download
+[2024-04-08 02:58:28] INFO root fetch - processPackages [lineagex]: executing diffoscope
+[2024-04-08 02:58:28] INFO root fetch - processPackages [lineagex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineagex-0.0.8.tar.gz tmp/lineagex-0.0.9.tar.gz --markdown 20240408/l/lineagex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 02:58:29] INFO root fetch - processPackages [exl2conv]: Remove: archive file [/home/abi/fetcher/tmp/exl2conv-0.0.17.tar.gz]
+[2024-04-08 02:58:29] INFO root fetch - processPackages [exl2conv]: Remove: archive file [/home/abi/fetcher/tmp/exl2conv-0.0.17.1.tar.gz]
+[2024-04-08 02:58:29] INFO root fetch - main [MainThread]: End processing [exl2conv]: success
+[2024-04-08 02:58:29] INFO root fetch - processPackages [lineagex]: Remove: archive file [/home/abi/fetcher/tmp/lineagex-0.0.8.tar.gz]
+[2024-04-08 02:58:29] INFO root fetch - processPackages [lineagex]: Remove: archive file [/home/abi/fetcher/tmp/lineagex-0.0.9.tar.gz]
+[2024-04-08 02:58:29] INFO root fetch - main [MainThread]: End processing [lineagex]: success
+[2024-04-08 02:58:29] INFO root fetch - main [MainThread]: Store serial: [22660489]
