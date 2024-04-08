@@ -2246,3 +2246,17 @@
 [2024-04-08 02:54:08] INFO root fetch - processPackages [pyjvc]: Remove: archive file [/home/abi/fetcher/tmp/pyjvc-4.4.21.tar.gz]
 [2024-04-08 02:54:08] INFO root fetch - main [MainThread]: End processing [pyjvc]: success
 [2024-04-08 02:54:08] INFO root fetch - main [MainThread]: Store serial: [22660479]
+[2024-04-08 02:56:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660479]
+[2024-04-08 02:56:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 02:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: publib
+[2024-04-08 02:56:16] INFO root fetch - processPackages [publib]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-08 02:56:17] INFO root fetch - processPackages [publib]: Downloading https://files.pythonhosted.org/packages/c3/57/6c8c424ad526b0b348324ff99d86d053a30b74da33980296031ee80256c3/publib-0.3.3-py2.py3-none-any.whl
+[2024-04-08 02:56:17] WARNING root fetch - processPackages [publib]: Timeout reached during download
+[2024-04-08 02:56:17] INFO root fetch - processPackages [publib]: Downloading https://files.pythonhosted.org/packages/f6/9b/142c2656f772d014cef214a6296958c93a9677803658f3430733fe47df4d/publib-0.4.0.tar.gz
+[2024-04-08 02:56:17] WARNING root fetch - processPackages [publib]: Timeout reached during download
+[2024-04-08 02:56:17] INFO root fetch - processPackages [publib]: executing diffoscope
+[2024-04-08 02:56:17] INFO root fetch - processPackages [publib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publib-0.3.3-py2.py3-none-any.whl.zip tmp/publib-0.4.0.tar.gz --markdown 20240408/p/publib/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2024-04-08 02:56:18] INFO root fetch - processPackages [publib]: Remove: archive file [/home/abi/fetcher/tmp/publib-0.3.3-py2.py3-none-any.whl.zip]
+[2024-04-08 02:56:18] INFO root fetch - processPackages [publib]: Remove: archive file [/home/abi/fetcher/tmp/publib-0.4.0.tar.gz]
+[2024-04-08 02:56:18] INFO root fetch - main [MainThread]: End processing [publib]: success
+[2024-04-08 02:56:18] INFO root fetch - main [MainThread]: Store serial: [22660483]
