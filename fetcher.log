@@ -7865,3 +7865,28 @@
 [2024-04-08 06:15:03] INFO root fetch - processPackages [tldrwl]: Remove: archive file [/home/abi/fetcher/tmp/tldrwl-2.0.0.tar.gz]
 [2024-04-08 06:15:03] INFO root fetch - main [MainThread]: End processing [tldrwl]: success
 [2024-04-08 06:15:03] INFO root fetch - main [MainThread]: Store serial: [22662220]
+[2024-04-08 06:17:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22662220]
+[2024-04-08 06:17:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-08 06:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graymatter_swissknife
+[2024-04-08 06:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lockerpm
+[2024-04-08 06:17:22] INFO root fetch - processPackages [lockerpm]: New version: [0.3.9b1] Old Version: [0.3.8b1]
+[2024-04-08 06:17:22] INFO root fetch - processPackages [lockerpm]: Downloading https://files.pythonhosted.org/packages/ce/48/9ec90ea14383c8bcf2707e32cf78edea095402f4165a10775f12fb8f9fa7/lockerpm-0.3.8b1.tar.gz
+[2024-04-08 06:17:22] INFO root fetch - processPackages [graymatter_swissknife]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-08 06:17:22] WARNING root fetch - processPackages [lockerpm]: Timeout reached during download
+[2024-04-08 06:17:22] INFO root fetch - processPackages [lockerpm]: Downloading https://files.pythonhosted.org/packages/dd/df/bf658d1495f67cacd3bf3d40d89b12e9b39a0892b55ebe7217f86d46bf05/lockerpm-0.3.9b1.tar.gz
+[2024-04-08 06:17:22] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/c5/a6/634c2204e8f1bab139257e03799f5cb88c3b61c5674f453b391af106d1ce/graymatter_swissknife-1.1.6.tar.gz
+[2024-04-08 06:17:22] WARNING root fetch - processPackages [lockerpm]: Timeout reached during download
+[2024-04-08 06:17:22] INFO root fetch - processPackages [lockerpm]: executing diffoscope
+[2024-04-08 06:17:22] INFO root fetch - processPackages [lockerpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockerpm-0.3.8b1.tar.gz tmp/lockerpm-0.3.9b1.tar.gz --markdown 20240408/l/lockerpm/0.3.8b1-0.3.9b1/diff.md --exclude *.pyd
+[2024-04-08 06:17:22] WARNING root fetch - processPackages [graymatter_swissknife]: Timeout reached during download
+[2024-04-08 06:17:23] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/34/83/05c4789ec7cd33ac05f26afb40f8c6eb004f4f62ca984e8308ba94f263b1/graymatter_swissknife-1.1.7.tar.gz
+[2024-04-08 06:17:23] WARNING root fetch - processPackages [graymatter_swissknife]: Timeout reached during download
+[2024-04-08 06:17:23] INFO root fetch - processPackages [graymatter_swissknife]: executing diffoscope
+[2024-04-08 06:17:23] INFO root fetch - processPackages [graymatter_swissknife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graymatter_swissknife-1.1.6.tar.gz tmp/graymatter_swissknife-1.1.7.tar.gz --markdown 20240408/g/graymatter_swissknife/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2024-04-08 06:17:23] INFO root fetch - processPackages [lockerpm]: Remove: archive file [/home/abi/fetcher/tmp/lockerpm-0.3.8b1.tar.gz]
+[2024-04-08 06:17:23] INFO root fetch - processPackages [lockerpm]: Remove: archive file [/home/abi/fetcher/tmp/lockerpm-0.3.9b1.tar.gz]
+[2024-04-08 06:17:23] INFO root fetch - main [MainThread]: End processing [lockerpm]: success
+[2024-04-08 06:17:24] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.1.6.tar.gz]
+[2024-04-08 06:17:24] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.1.7.tar.gz]
+[2024-04-08 06:17:24] INFO root fetch - main [MainThread]: End processing [graymatter_swissknife]: success
+[2024-04-08 06:17:24] INFO root fetch - main [MainThread]: Store serial: [22662225]
