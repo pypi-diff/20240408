@@ -2302,3 +2302,17 @@
 [2024-04-08 03:00:39] INFO root fetch - processPackages [pulumi-frontegg]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_frontegg-0.2.36.tar.gz]
 [2024-04-08 03:00:39] INFO root fetch - main [MainThread]: End processing [pulumi-frontegg]: success
 [2024-04-08 03:00:39] INFO root fetch - main [MainThread]: Store serial: [22660496]
+[2024-04-08 03:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660496]
+[2024-04-08 03:02:47] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-08 03:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seafoam
+[2024-04-08 03:02:47] INFO root fetch - processPackages [seafoam]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-08 03:02:48] INFO root fetch - processPackages [seafoam]: Downloading https://files.pythonhosted.org/packages/97/d8/95b39febba2e660d35d88939eec7134ed3b488516439e363fb19fb519b41/seafoam-2.9.1.tar.gz
+[2024-04-08 03:02:48] WARNING root fetch - processPackages [seafoam]: Timeout reached during download
+[2024-04-08 03:02:48] INFO root fetch - processPackages [seafoam]: Downloading https://files.pythonhosted.org/packages/fc/38/94afdf36fdf2b7ed8915423ca4911193530eebe64e1aec9e0c3fb6c35cd8/seafoam-2.9.2.tar.gz
+[2024-04-08 03:02:51] WARNING root fetch - processPackages [seafoam]: Timeout reached during download
+[2024-04-08 03:02:51] INFO root fetch - processPackages [seafoam]: executing diffoscope
+[2024-04-08 03:02:51] INFO root fetch - processPackages [seafoam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seafoam-2.9.1.tar.gz tmp/seafoam-2.9.2.tar.gz --markdown 20240408/s/seafoam/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-08 03:02:52] INFO root fetch - processPackages [seafoam]: Remove: archive file [/home/abi/fetcher/tmp/seafoam-2.9.1.tar.gz]
+[2024-04-08 03:02:52] INFO root fetch - processPackages [seafoam]: Remove: archive file [/home/abi/fetcher/tmp/seafoam-2.9.2.tar.gz]
+[2024-04-08 03:02:52] INFO root fetch - main [MainThread]: End processing [seafoam]: success
+[2024-04-08 03:02:52] INFO root fetch - main [MainThread]: Store serial: [22660499]
