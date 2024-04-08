@@ -19588,3 +19588,75 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 13:57:26] INFO root fetch - processPackages [poonia]: Remove: archive file [/home/abi/fetcher/tmp/poonia-0.1.9.tar.gz]
 [2024-04-08 13:57:26] INFO root fetch - main [MainThread]: End processing [poonia]: success
 [2024-04-08 13:57:26] INFO root fetch - main [MainThread]: Store serial: [22666528]
+[2024-04-08 13:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22666528]
+[2024-04-08 13:59:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-08 13:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tgwrap
+[2024-04-08 13:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remotion-lambda
+[2024-04-08 13:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shadeorb
+[2024-04-08 13:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bondzai.media-handler
+[2024-04-08 13:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kodexa
+[2024-04-08 13:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sklearn-viz
+[2024-04-08 13:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: example-pkg-DLSCAT
+[2024-04-08 13:59:36] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-04-08 13:59:36] INFO root fetch - processPackages [kodexa]: New version: [7.0.8598728971] Old Version: [7.0.8591373231]
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [example-pkg-DLSCAT]: Skipping, unable to determine old version
+[2024-04-08 13:59:37] INFO root fetch - main [MainThread]: End processing [example-pkg-DLSCAT] error
+[2024-04-08 13:59:37] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-04-08 13:59:37] INFO root fetch - processPackages [shadeorb]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 13:59:37] INFO root fetch - processPackages [bondzai.media-handler]: New version: [0.0.17] Old Version: [0.0.16]
+[2024-04-08 13:59:37] INFO root fetch - processPackages [sklearn-viz]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-08 13:59:37] INFO root fetch - processPackages [tgwrap]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-08 13:59:37] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/7c/83/1b3977e1e89b40e36668fb9c81ae4cf5b6327b7e3f0285c9d6dde76f80b7/kodexa-7.0.8591373231.tar.gz
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [remotion-lambda]: Timeout reached during download
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [kodexa]: Timeout reached during download
+[2024-04-08 13:59:37] INFO root fetch - processPackages [shadeorb]: Downloading https://files.pythonhosted.org/packages/51/7c/f986f5ca6fba13fbb0ac1dfa7ddcf227ac58cb2b17eb8350565e31a4a1c4/shadeorb-0.0.2.tar.gz
+[2024-04-08 13:59:37] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/33/e1/ed968e9b20ebaeb9acfaca2a952994a2ff3e8b00f4338c7995c168134433/tgwrap-0.8.8.tar.gz
+[2024-04-08 13:59:37] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/c5/95/054763dc92da97b34c6fdbbbcfe0c4249b73ea1620ef548c615553165c45/sklearn_viz-0.3.1.tar.gz
+[2024-04-08 13:59:37] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-04-08 13:59:37] INFO root fetch - processPackages [bondzai.media-handler]: Downloading https://files.pythonhosted.org/packages/c4/ae/a4922535e51a86285775896df345b4d03b8b0886de8d01c8dc0038c8b63e/bondzai.media-handler-0.0.16.tar.gz
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [shadeorb]: Timeout reached during download
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [tgwrap]: Timeout reached during download
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [remotion-lambda]: Timeout reached during download
+[2024-04-08 13:59:37] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-04-08 13:59:37] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240408/r/remotion-lambda/4.0.98-4.1.0a12/diff.md --exclude *.pyd
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [bondzai.media-handler]: Timeout reached during download
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [sklearn-viz]: Timeout reached during download
+[2024-04-08 13:59:37] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/83/ff/5f5b90b72edaf12afdb1bc66b3f0a726088f875d97119d1472545fae13c4/kodexa-7.0.8598728971.tar.gz
+[2024-04-08 13:59:37] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/45/6b/fae0ce9d8bf01077a8b23b6e9934fba0b5ae58faba0685ce6be50970bff1/tgwrap-0.8.9.tar.gz
+[2024-04-08 13:59:37] INFO root fetch - processPackages [shadeorb]: Downloading https://files.pythonhosted.org/packages/41/86/8604063d0d33cf64d2e21a45d61936daa4222b0142d20b218025360dfedc/shadeorb-0.0.3.tar.gz
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [kodexa]: Timeout reached during download
+[2024-04-08 13:59:37] INFO root fetch - processPackages [bondzai.media-handler]: Downloading https://files.pythonhosted.org/packages/da/66/d6c4a28d5e10a50e29e9a87a2c1a95ce54bec5c920b6c5622e7f2734a2f6/bondzai.media-handler-0.0.17.tar.gz
+[2024-04-08 13:59:37] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2024-04-08 13:59:37] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-7.0.8591373231.tar.gz tmp/kodexa-7.0.8598728971.tar.gz --markdown 20240408/k/kodexa/7.0.8591373231-7.0.8598728971/diff.md --exclude *.pyd
+[2024-04-08 13:59:37] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/c6/d4/1db9a2596d86aaf9240b517cb0582a4ec44e906f6e7cfa430adfb1301357/sklearn_viz-0.4.0.tar.gz
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [shadeorb]: Timeout reached during download
+[2024-04-08 13:59:37] INFO root fetch - processPackages [shadeorb]: executing diffoscope
+[2024-04-08 13:59:37] INFO root fetch - processPackages [shadeorb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadeorb-0.0.2.tar.gz tmp/shadeorb-0.0.3.tar.gz --markdown 20240408/s/shadeorb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [tgwrap]: Timeout reached during download
+[2024-04-08 13:59:37] INFO root fetch - processPackages [tgwrap]: executing diffoscope
+[2024-04-08 13:59:37] INFO root fetch - processPackages [tgwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgwrap-0.8.8.tar.gz tmp/tgwrap-0.8.9.tar.gz --markdown 20240408/t/tgwrap/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [bondzai.media-handler]: Timeout reached during download
+[2024-04-08 13:59:37] INFO root fetch - processPackages [bondzai.media-handler]: executing diffoscope
+[2024-04-08 13:59:37] INFO root fetch - processPackages [bondzai.media-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bondzai.media-handler-0.0.16.tar.gz tmp/bondzai.media-handler-0.0.17.tar.gz --markdown 20240408/b/bondzai.media-handler/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2024-04-08 13:59:37] WARNING root fetch - processPackages [sklearn-viz]: Timeout reached during download
+[2024-04-08 13:59:37] INFO root fetch - processPackages [sklearn-viz]: executing diffoscope
+[2024-04-08 13:59:37] INFO root fetch - processPackages [sklearn-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_viz-0.3.1.tar.gz tmp/sklearn_viz-0.4.0.tar.gz --markdown 20240408/s/sklearn-viz/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2024-04-08 13:59:38] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-04-08 13:59:38] INFO root fetch - processPackages [shadeorb]: Remove: archive file [/home/abi/fetcher/tmp/shadeorb-0.0.2.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - processPackages [shadeorb]: Remove: archive file [/home/abi/fetcher/tmp/shadeorb-0.0.3.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - main [MainThread]: End processing [shadeorb]: success
+[2024-04-08 13:59:38] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.8.8.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.8.9.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
+[2024-04-08 13:59:38] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.3.1.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.4.0.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - main [MainThread]: End processing [sklearn-viz]: success
+[2024-04-08 13:59:38] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.8591373231.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.8598728971.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2024-04-08 13:59:38] INFO root fetch - processPackages [bondzai.media-handler]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.media-handler-0.0.16.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - processPackages [bondzai.media-handler]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.media-handler-0.0.17.tar.gz]
+[2024-04-08 13:59:38] INFO root fetch - main [MainThread]: End processing [bondzai.media-handler]: success
+[2024-04-08 13:59:38] INFO root fetch - main [MainThread]: Store serial: [22666560]
