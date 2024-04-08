@@ -14372,3 +14372,94 @@ AssertionError: tmp/swarmauri-0.1.8-py3-none-any.whl.zip does not exist
 [2024-04-08 11:00:47] INFO root fetch - processPackages [jupyterlab-rise-metadata-form]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_rise_metadata_form-1.0.1.tar.gz]
 [2024-04-08 11:00:47] INFO root fetch - main [MainThread]: End processing [jupyterlab-rise-metadata-form]: success
 [2024-04-08 11:00:47] INFO root fetch - main [MainThread]: Store serial: [22664665]
+[2024-04-08 11:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22664665]
+[2024-04-08 11:02:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-08 11:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: droid-metapatch
+[2024-04-08 11:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyconverters-whisperx
+[2024-04-08 11:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hestia-earth-utils
+[2024-04-08 11:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomicshop
+[2024-04-08 11:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystools
+[2024-04-08 11:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Canaille
+[2024-04-08 11:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mal-petting-zoo-simulator
+[2024-04-08 11:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg
+[2024-04-08 11:02:56] INFO root fetch - processPackages [pyconverters-whisperx]: New version: [0.5.6] Old Version: [0.5.4]
+[2024-04-08 11:02:56] INFO root fetch - processPackages [Canaille]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 11:02:56] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-08 11:02:56] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-08 11:02:56] INFO root fetch - processPackages [hestia-earth-utils]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-08 11:02:56] INFO root fetch - processPackages [droid-metapatch]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-08 11:02:56] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/a6/a1/61df5d799fb6b325eb90f9b3f99dd03c0f98943370ec9ac20e00e739e183/pyconverters_whisperx-0.5.4.tar.gz
+[2024-04-08 11:02:56] INFO root fetch - processPackages [mal-petting-zoo-simulator]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-08 11:02:56] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-08 11:02:56] INFO root fetch - processPackages [Canaille]: Downloading https://files.pythonhosted.org/packages/d6/eb/991a3a33db9ca5921988151369084477a94b823d1f0b8df10104a1cf97eb/Canaille-0.0.8.tar.gz
+[2024-04-08 11:02:56] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-08 11:02:56] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-08 11:02:56] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 11:02:56] INFO root fetch - processPackages [hestia-earth-utils]: Downloading https://files.pythonhosted.org/packages/b5/09/58e937acf02fcf8e045b3e338ba1ec75699010c812f282f8fcc7a7760dd3/hestia-earth-utils-0.9.1.tar.gz
+[2024-04-08 11:02:56] INFO root fetch - processPackages [droid-metapatch]: Downloading https://files.pythonhosted.org/packages/bb/d1/a00142b69cca4e04e9e75c4491b35fa437505889eaa460b5a5d973e9f75d/droid_metapatch-1.1.0.tar.gz
+[2024-04-08 11:02:56] WARNING root fetch - processPackages [atomicshop]: Timeout reached during download
+[2024-04-08 11:02:56] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2024-04-08 11:02:56] INFO root fetch - processPackages [mal-petting-zoo-simulator]: Downloading https://files.pythonhosted.org/packages/32/12/864f8b02c3513a210b2e8bbcb924dae2d5ef45200e7eb4eb67e9b69740c6/mal-petting-zoo-simulator-0.0.5.tar.gz
+[2024-04-08 11:02:56] INFO root fetch - processPackages [pyconverters-whisperx]: Downloading https://files.pythonhosted.org/packages/f4/fe/48db6da0d340bde88c487ce2139a98bf8e9dee84ab1c79ae3b469ff49f22/pyconverters_whisperx-0.5.6.tar.gz
+[2024-04-08 11:02:56] WARNING root fetch - processPackages [droid-metapatch]: Timeout reached during download
+[2024-04-08 11:02:56] WARNING root fetch - processPackages [pystools]: Timeout reached during download
+[2024-04-08 11:02:56] WARNING root fetch - processPackages [Canaille]: Timeout reached during download
+[2024-04-08 11:02:56] WARNING root fetch - processPackages [hestia-earth-utils]: Timeout reached during download
+[2024-04-08 11:02:56] WARNING root fetch - processPackages [cg]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-08 11:02:57] WARNING root fetch - processPackages [pyconverters-whisperx]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [pyconverters-whisperx]: executing diffoscope
+[2024-04-08 11:02:57] INFO root fetch - processPackages [pyconverters-whisperx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconverters_whisperx-0.5.4.tar.gz tmp/pyconverters_whisperx-0.5.6.tar.gz --markdown 20240408/p/pyconverters-whisperx/0.5.4-0.5.6/diff.md --exclude *.pyd
+[2024-04-08 11:02:57] WARNING root fetch - processPackages [mal-petting-zoo-simulator]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [Canaille]: Downloading https://files.pythonhosted.org/packages/ea/de/e5cb98bd36f4d3ede89c7fd372eb1414185d621efaba9f50b438082962d5/Canaille-0.0.9.tar.gz
+[2024-04-08 11:02:57] INFO root fetch - processPackages [droid-metapatch]: Downloading https://files.pythonhosted.org/packages/2c/4e/c733051b8b9f6dc27fd29cb1c6b33c37e01447243d2f4a5e3da31711c17f/droid_metapatch-1.2.0.tar.gz
+[2024-04-08 11:02:57] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2024-04-08 11:02:57] INFO root fetch - processPackages [hestia-earth-utils]: Downloading https://files.pythonhosted.org/packages/22/b2/a49f1b9e1609b9de13fc28566ea47b84bf6f6c3bfcb24ccb29a574534d07/hestia-earth-utils-0.9.2.tar.gz
+[2024-04-08 11:02:57] WARNING root fetch - processPackages [pystools]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2024-04-08 11:02:57] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20240408/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:02:57] WARNING root fetch - processPackages [atomicshop]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-08 11:02:57] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240408/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-08 11:02:57] WARNING root fetch - processPackages [droid-metapatch]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [droid-metapatch]: executing diffoscope
+[2024-04-08 11:02:57] INFO root fetch - processPackages [droid-metapatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/droid_metapatch-1.1.0.tar.gz tmp/droid_metapatch-1.2.0.tar.gz --markdown 20240408/d/droid-metapatch/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-08 11:02:57] INFO root fetch - processPackages [mal-petting-zoo-simulator]: Downloading https://files.pythonhosted.org/packages/0b/45/5ee20897cbc92d60da21744db22678f99d4333a4f4f8c1717dd39eb23aca/mal-petting-zoo-simulator-0.0.6.tar.gz
+[2024-04-08 11:02:57] WARNING root fetch - processPackages [hestia-earth-utils]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [hestia-earth-utils]: executing diffoscope
+[2024-04-08 11:02:57] INFO root fetch - processPackages [hestia-earth-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-utils-0.9.1.tar.gz tmp/hestia-earth-utils-0.9.2.tar.gz --markdown 20240408/h/hestia-earth-utils/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-08 11:02:57] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-08 11:02:57] WARNING root fetch - processPackages [Canaille]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [Canaille]: executing diffoscope
+[2024-04-08 11:02:57] INFO root fetch - processPackages [Canaille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Canaille-0.0.8.tar.gz tmp/Canaille-0.0.9.tar.gz --markdown 20240408/C/Canaille/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-08 11:02:57] WARNING root fetch - processPackages [mal-petting-zoo-simulator]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [mal-petting-zoo-simulator]: executing diffoscope
+[2024-04-08 11:02:57] INFO root fetch - processPackages [mal-petting-zoo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mal-petting-zoo-simulator-0.0.5.tar.gz tmp/mal-petting-zoo-simulator-0.0.6.tar.gz --markdown 20240408/m/mal-petting-zoo-simulator/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-08 11:02:57] WARNING root fetch - processPackages [cg]: Timeout reached during download
+[2024-04-08 11:02:57] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-08 11:02:57] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240408/c/cg/59.9.0-59.9.1/diff.md --exclude *.pyd
+[2024-04-08 11:02:57] INFO root fetch - processPackages [pyconverters-whisperx]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_whisperx-0.5.4.tar.gz]
+[2024-04-08 11:02:57] INFO root fetch - processPackages [pyconverters-whisperx]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_whisperx-0.5.6.tar.gz]
+[2024-04-08 11:02:57] INFO root fetch - main [MainThread]: End processing [pyconverters-whisperx]: success
+[2024-04-08 11:02:58] INFO root fetch - processPackages [droid-metapatch]: Remove: archive file [/home/abi/fetcher/tmp/droid_metapatch-1.1.0.tar.gz]
+[2024-04-08 11:02:58] INFO root fetch - processPackages [droid-metapatch]: Remove: archive file [/home/abi/fetcher/tmp/droid_metapatch-1.2.0.tar.gz]
+[2024-04-08 11:02:58] INFO root fetch - main [MainThread]: End processing [droid-metapatch]: success
+[2024-04-08 11:02:58] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2024-04-08 11:02:58] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2024-04-08 11:02:58] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2024-04-08 11:02:58] INFO root fetch - processPackages [hestia-earth-utils]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-utils-0.9.1.tar.gz]
+[2024-04-08 11:02:58] INFO root fetch - processPackages [hestia-earth-utils]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-utils-0.9.2.tar.gz]
+[2024-04-08 11:02:58] INFO root fetch - main [MainThread]: End processing [hestia-earth-utils]: success
+[2024-04-08 11:02:58] INFO root fetch - processPackages [mal-petting-zoo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mal-petting-zoo-simulator-0.0.5.tar.gz]
+[2024-04-08 11:02:58] INFO root fetch - processPackages [mal-petting-zoo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mal-petting-zoo-simulator-0.0.6.tar.gz]
+[2024-04-08 11:02:58] INFO root fetch - main [MainThread]: End processing [mal-petting-zoo-simulator]: success
+[2024-04-08 11:02:59] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-08 11:02:59] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-08 11:02:59] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-08 11:02:59] INFO root fetch - processPackages [Canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.8.tar.gz]
+[2024-04-08 11:02:59] INFO root fetch - processPackages [Canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.9.tar.gz]
+[2024-04-08 11:02:59] INFO root fetch - main [MainThread]: End processing [Canaille]: success
+[2024-04-08 11:03:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-08 11:03:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-08 11:03:03] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-08 11:03:03] INFO root fetch - main [MainThread]: Store serial: [22664688]
