@@ -1522,3 +1522,39 @@
 [2024-04-08 02:01:42] INFO root fetch - processPackages [graphreadability]: Remove: archive file [/home/abi/fetcher/tmp/graphreadability-0.0.3.tar.gz]
 [2024-04-08 02:01:42] INFO root fetch - main [MainThread]: End processing [graphreadability]: success
 [2024-04-08 02:01:42] INFO root fetch - main [MainThread]: Store serial: [22660188]
+[2024-04-08 02:03:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22660188]
+[2024-04-08 02:03:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-08 02:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: postgresql-integration-test
+[2024-04-08 02:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: advcalc
+[2024-04-08 02:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxscript
+[2024-04-08 02:03:51] INFO root fetch - processPackages [advcalc]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-08 02:03:51] INFO root fetch - processPackages [postgresql-integration-test]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-08 02:03:51] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240407] Old Version: [0.1.0.dev20240406]
+[2024-04-08 02:03:51] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/b5/79/113e788f2ef4d35c096fa2d790a0516b2ac0a16f86db4814bb144406dbc9/advcalc-0.1.3.tar.gz
+[2024-04-08 02:03:51] INFO root fetch - processPackages [postgresql-integration-test]: Downloading https://files.pythonhosted.org/packages/74/94/39b00266b65e85bbac7177bace5fa89d9dc166ba9472619c718bf7a0bf93/postgresql-integration-test-0.0.2.tar.gz
+[2024-04-08 02:03:51] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-08 02:03:51] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/f1/a4/93a47b066c541320734220561b1376d3545870419cbf077d7dc3faa82426/onnxscript-0.1.0.dev20240406.tar.gz
+[2024-04-08 02:03:51] WARNING root fetch - processPackages [postgresql-integration-test]: Timeout reached during download
+[2024-04-08 02:03:51] INFO root fetch - processPackages [advcalc]: Downloading https://files.pythonhosted.org/packages/99/5d/cf250caab7b65cad987ec9ca67e7b7ef00f4c5cf549f77e1f7cedc24b6b6/advcalc-0.1.4.tar.gz
+[2024-04-08 02:03:51] WARNING root fetch - processPackages [onnxscript]: Timeout reached during download
+[2024-04-08 02:03:51] WARNING root fetch - processPackages [advcalc]: Timeout reached during download
+[2024-04-08 02:03:51] INFO root fetch - processPackages [advcalc]: executing diffoscope
+[2024-04-08 02:03:51] INFO root fetch - processPackages [advcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advcalc-0.1.3.tar.gz tmp/advcalc-0.1.4.tar.gz --markdown 20240408/a/advcalc/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-08 02:03:51] INFO root fetch - processPackages [postgresql-integration-test]: Downloading https://files.pythonhosted.org/packages/fc/c8/c6c8ef50d040318ec9e3198c9f761a91acb09a3fa532ed23e7ce6818179b/postgresql-integration-test-0.0.3.tar.gz
+[2024-04-08 02:03:51] WARNING root fetch - processPackages [postgresql-integration-test]: Timeout reached during download
+[2024-04-08 02:03:51] INFO root fetch - processPackages [postgresql-integration-test]: executing diffoscope
+[2024-04-08 02:03:51] INFO root fetch - processPackages [postgresql-integration-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgresql-integration-test-0.0.2.tar.gz tmp/postgresql-integration-test-0.0.3.tar.gz --markdown 20240408/p/postgresql-integration-test/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-08 02:03:51] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/62/75/07da63254d5b921b33c422fa0a74ff68a47f26c428634d89e89bd8020d6f/onnxscript-0.1.0.dev20240407.tar.gz
+[2024-04-08 02:03:51] WARNING root fetch - processPackages [onnxscript]: Timeout reached during download
+[2024-04-08 02:03:51] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-08 02:03:51] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240408:/home/abi/fetcher/20240408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240406.tar.gz tmp/onnxscript-0.1.0.dev20240407.tar.gz --markdown 20240408/o/onnxscript/0.1.0.dev20240406-0.1.0.dev20240407/diff.md --exclude *.pyd
+[2024-04-08 02:03:52] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.3.tar.gz]
+[2024-04-08 02:03:52] INFO root fetch - processPackages [advcalc]: Remove: archive file [/home/abi/fetcher/tmp/advcalc-0.1.4.tar.gz]
+[2024-04-08 02:03:52] INFO root fetch - main [MainThread]: End processing [advcalc]: success
+[2024-04-08 02:03:52] INFO root fetch - processPackages [postgresql-integration-test]: Remove: archive file [/home/abi/fetcher/tmp/postgresql-integration-test-0.0.2.tar.gz]
+[2024-04-08 02:03:52] INFO root fetch - processPackages [postgresql-integration-test]: Remove: archive file [/home/abi/fetcher/tmp/postgresql-integration-test-0.0.3.tar.gz]
+[2024-04-08 02:03:52] INFO root fetch - main [MainThread]: End processing [postgresql-integration-test]: success
+[2024-04-08 02:03:52] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240406.tar.gz]
+[2024-04-08 02:03:52] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240407.tar.gz]
+[2024-04-08 02:03:52] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-08 02:03:52] INFO root fetch - main [MainThread]: Store serial: [22660197]
